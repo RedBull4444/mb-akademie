@@ -180,7 +180,7 @@ function renderLogin(app) {
     } catch (e) {
       btn.disabled = false; btn.textContent = 'Anmelden';
       let t = errText(e);
-      if (e.data && e.data.remaining != null && !/Versuch/.test(t)) t += ` Noch ${e.data.remaining} Versuche.`;
+      if (e.data && e.data.remaining != null && !/Versuch/.test(t)) t += ` Noch ${e.data.remaining} ${e.data.remaining === 1 ? 'Versuch' : 'Versuche'}.`;
       $('#e').innerHTML = `<div class="err">${esc(t)}</div>`;
     }
   };
@@ -483,7 +483,7 @@ function renderEmpPage(app, id) {
   document.title = 'Mitarbeiter · Chef-Bereich';
   const d = S.details[String(id)];
   const paint = dd => {
-    app.innerHTML = shell('team', `<button class="backbtn" id="back" aria-label="Zurück zu Team">${I.chevL}Team</button><div id="detail">${detailHtml(dd, false)}</div>`, { actions: actionBar(dd) });
+    app.innerHTML = shell('team', `<button class="backbtn" id="back" aria-label="Zurück zum Team">${I.chevL}Team</button><div id="detail">${detailHtml(dd, false)}</div>`, { actions: actionBar(dd) });
     $('#back').onclick = () => { if (history.length > 1) history.back(); else go('#/team'); };
     bindDetail(document, dd);
   };
@@ -517,7 +517,7 @@ function detailHtml(d, desk) {
     const quiz = mods.slice(0, pre).filter(m => m.n > 0 && m.quizBest != null);
     const avg = quiz.length ? quiz.reduce((a, m) => a + m.quizBest, 0) / quiz.length : null;
     const multi = mods.slice(0, pre).reduce((b, m) => ((m.attempts || 0) > (b ? b.attempts : 1) ? m : b), null);
-    const sub = multi ? `Modul ${pad2(multi.n)} mit ${multi.attempts} Versuchen` : 'Alle Tests im ersten Versuch';
+    const sub = multi ? `Modul ${pad2(multi.n)} mit ${multi.attempts} Versuchen` : 'Alle Quizze im ersten Versuch bestanden';
     const label = `${pad2(mods[0].n)}–${pad2(mods[pre - 1].n)} erledigt`;
     return desk
       ? `<button class="item" data-open="1" aria-expanded="false">${I.check(20)}<span class="main"><span class="t1">${label}</span></span><span class="right">Ø ${fmtAvg(avg)}</span></button>`
@@ -649,7 +649,7 @@ async function toggleActive(d) {
 
 /* ============================================================ Einstellungen */
 function shareText(code) {
-  return `Hallo zusammen, hier geht's zur M&B Akademie: ${location.origin}/ – Firmencode: ${code}. Einmal anmelden, Name eingeben, PIN wählen.`;
+  return `Hallo zusammen, hier geht's zur M&B Akademie: ${location.origin}/\nFirmencode: ${code}\nCode eingeben, Vor- und Nachnamen eintragen, PIN festlegen. Fertig!`;
 }
 const waLink = code => 'https://wa.me/?text=' + encodeURIComponent(shareText(code));
 
@@ -670,11 +670,11 @@ async function renderSettings(app) {
       <h2 class="sec" style="margin-top:22px">Firmencode</h2>
       <div class="codebox" id="code" aria-label="Firmencode">${esc(code)}</div>
       <div class="codebtns"><a class="btn btn-primary" id="wa" href="${waLink(code)}" target="_blank" rel="noopener noreferrer">Per WhatsApp teilen</a><button class="btn btn-sec" id="copy">Kopieren</button></div>
-      <p class="hint">Mit diesem Code legen sich neue Mitarbeiter selbst an.</p>
+      <p class="hint">Mit diesem Code legen neue Mitarbeiter ihr Konto selbst an.</p>
       <button class="linkbtn" id="rotate" style="margin-top:2px">Code ändern</button>
-      <p class="hint t0">Der alte Code funktioniert danach nicht mehr für neue Anmeldungen.</p>
+      <p class="hint t0">Mit dem alten Code kann danach niemand mehr ein neues Konto anlegen.</p>
       <h2 class="sec" style="margin-top:22px">Liste exportieren</h2>
-      <a class="item" href="/api/chef/export.csv" download style="margin-top:4px;min-height:58px;text-decoration:none;color:inherit"><span class="main"><span class="t1">Fortschritt aller Mitarbeiter</span><span class="t2" style="margin-top:1px">als Excel (CSV)</span></span>${I.download(24)}</a>
+      <a class="item" href="/api/chef/export.csv" download style="margin-top:4px;min-height:58px;text-decoration:none;color:inherit"><span class="main"><span class="t1">Fortschritt aller Mitarbeiter</span><span class="t2" style="margin-top:1px">als CSV-Datei für Excel</span></span>${I.download(24)}</a>
       <h2 class="sec" style="margin-top:22px">Zugänge</h2>
       <div style="margin-top:4px">${admins || '<div class="who"><span class="n mute">Keine Einträge</span></div>'}</div>
       ${isOwner ? '<button class="linkbtn" id="addAdmin" style="text-decoration:none">+ Zugang hinzufügen</button>' : ''}
@@ -693,7 +693,7 @@ async function renderSettings(app) {
 }
 
 async function rotateCode() {
-  const ok = await confirmDlg({ title: 'Firmencode ändern?', text: 'Der alte Code funktioniert danach nicht mehr für neue Anmeldungen. Wer schon angemeldet ist, bleibt angemeldet.', ok: 'Code ändern' });
+  const ok = await confirmDlg({ title: 'Firmencode ändern?', text: 'Mit dem alten Code kann danach niemand mehr ein neues Konto anlegen. Wer schon ein Konto hat, meldet sich weiter mit Name und PIN an.', ok: 'Code ändern' });
   if (!ok) return;
   try {
     const r = await api('/chef/company-code/rotate', {});

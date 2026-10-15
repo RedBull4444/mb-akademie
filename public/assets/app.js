@@ -577,7 +577,7 @@ function buildStart(me) {
 function buildModules(me) {
   const totalSec = me.modules.reduce((a, m) => a + (m.duration || 0), 0);
   const totalMin = Math.round(totalSec / 60);
-  const dur = totalMin >= 60 ? T('modules.durH', { h: Math.floor(totalMin / 60), m: totalMin % 60 }) : T('modules.durM', { m: Math.max(1, totalMin) });
+  const dur = totalMin >= 60 ? T(totalMin % 60 ? 'modules.durH' : 'modules.durH0', { h: Math.floor(totalMin / 60), m: totalMin % 60 }) : T('modules.durM', { m: Math.max(1, totalMin) });
   const cur = currentModule(me);
   const rowHtml = (m) => {
     const done = isDone(m);
@@ -1035,7 +1035,7 @@ async function viewQuiz(n, ok) {
   if (!m.unlocked) { viewLockedModule(); return; }
   if (!m.completed) {
     paint(`<div class="screen"><div class="center"><div class="circ neutral">${I.lock(40, 1.75)}</div><h1>${esc(T('video.lockedTitle'))}</h1><p>${esc(T('quiz.notReady'))}</p>
-      <a class="btn" href="#/video/${n}">${esc(T('quiz.rewatch'))}</a></div></div>`, { key: 'quizlocked' });
+      <a class="btn" href="#/video/${n}">${esc(T('quiz.toVideo'))}</a></div></div>`, { key: 'quizlocked' });
     return;
   }
 
@@ -1045,7 +1045,7 @@ async function viewQuiz(n, ok) {
     if (!ok()) return;
     if (e.status === 403) {
       paint(`<div class="screen"><div class="center"><div class="circ neutral">${I.lock(40, 1.75)}</div><h1>${esc(T('video.lockedTitle'))}</h1><p>${esc(e.message)}</p>
-        <a class="btn" href="#/video/${n}">${esc(T('quiz.rewatch'))}</a></div></div>`, { key: 'quizlocked' });
+        <a class="btn" href="#/video/${n}">${esc(T('quiz.toVideo'))}</a></div></div>`, { key: 'quizlocked' });
       return;
     }
     throw e;

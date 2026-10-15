@@ -266,7 +266,7 @@
     var para = wrap([
       { t: 'die Schulungsreihe ', f: F.reg },
       { t: 'SHK-Grundlagen · Teil ' + part + ': ' + partName, f: F.bold },
-      { t: ' vollständig absolviert und die Wissenstests zu allen Modulen bestanden hat.', f: F.reg }
+      { t: ' vollständig absolviert und alle Wissenstests bestanden hat.', f: F.reg }
     ], 15, 52 * chW);
     drawWrapped(para, { x: LX, top: 424, size: 15, lh: 24, color: INK });
 
@@ -291,7 +291,7 @@
     var umfTop = afterList + 22;
     text('UMFANG', { font: F.reg, size: 11, lh: 14, top: umfTop, x: RX, ls: 1.54, color: GREY });
     var umf = wrap([{
-      t: mods.length + (mods.length === 1 ? ' Lehrvideo' : ' Lehrvideos') + ' · ' + minutes + ' Minuten · Wissenstest je Modul (Bestehensgrenze 80 %)',
+      t: mods.length + (mods.length === 1 ? ' Lehrvideo' : ' Lehrvideos') + ' · ' + minutes + ' Minuten · Wissenstests (Bestehensgrenze 80 %)',
       f: F.reg
     }], 13, RW);
     drawWrapped(umf, { x: RX, top: umfTop + 14 + 8, size: 13, lh: 20, color: INK });
