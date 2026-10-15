@@ -2,7 +2,7 @@
   {
     "q": {"de": "Das Heizungswasser ist dunkel. Was sagt das aus?", "sq": "Uji i ngrohjes është i errët. Çfarë tregon kjo?"},
     "a": [
-      {"de": "Ein Hinweis auf Korrosion, aber noch keine Diagnose", "sq": "Një shenjë për korrozion, por ende jo diagnozë"},
+      {"de": "Ein Hinweis auf Korrosion, aber noch keine Diagnose", "sq": "Një shenjë korrozioni, por ende jo diagnozë"},
       {"de": "Es ist sicher Magnetit und sonst nichts", "sq": "Është sigurisht magnetit dhe asgjë tjetër"},
       {"de": "Es ist Kalk, das Wasser ist zu hart", "sq": "Është gëlqere, uji është shumë i fortë"},
       {"de": "Das ist normal, die Anlage ist in Ordnung", "sq": "Është normale, sistemi është në rregull"}
@@ -26,19 +26,19 @@
     "a": [
       {"de": "Der Magnet verliert danach seine Wirkung", "sq": "Magneti e humb efektin pas kësaj"},
       {"de": "Die Ursache der Korrosion kann weiter bestehen", "sq": "Shkaku i korrozionit mund të vazhdojë të ekzistojë"},
-      {"de": "Danach muss man immer entsalzen", "sq": "Pas kësaj duhet gjithmonë çkripëzim"},
+      {"de": "Danach muss man immer entsalzen", "sq": "Pas kësaj duhet gjithmonë demineralizim"},
       {"de": "Ein gereinigter Abscheider filtert nicht mehr", "sq": "Një ndarës i pastruar nuk filtron më"}
     ],
     "correct": 1,
-    "why": {"de": "Bestehen Korrosion oder Sauerstoffeintrag weiter, entstehen neue Ablagerungen.", "sq": "Nëse korrozioni ose hyrja e oksigjenit vazhdon, krijohen depozitime të reja."}
+    "why": {"de": "Bestehen Korrosion oder Sauerstoffeintrag weiter, entstehen neue Ablagerungen.", "sq": "Nëse korrozioni ose hyrja e oksigjenit vazhdojnë, krijohen depozitime të reja."}
   },
   {
-    "q": {"de": "Was ist der Unterschied zwischen Enthärten und Entsalzen?", "sq": "Cili është dallimi ndërmjet zbutjes dhe çkripëzimit?"},
+    "q": {"de": "Was ist der Unterschied zwischen Enthärten und Entsalzen?", "sq": "Cili është dallimi ndërmjet zbutjes dhe demineralizimit?"},
     "a": [
       {"de": "Beides ist dasselbe, nur ein anderes Wort", "sq": "Të dyja janë e njëjta gjë, vetëm një fjalë tjetër"},
-      {"de": "Enthärten entfernt alle Ionen, Entsalzen nur Kalk", "sq": "Zbutja heq të gjitha jonet, çkripëzimi vetëm gëlqeren"},
-      {"de": "Enthärten tauscht Härtebildner, Entsalzen entfernt Ionen", "sq": "Zbutja këmbën formuesit e fortësisë, çkripëzimi heq jonet"},
-      {"de": "Enthärten ändert den pH-Wert, Entsalzen die Farbe", "sq": "Zbutja ndryshon pH-në, çkripëzimi ngjyrën"}
+      {"de": "Enthärten entfernt alle Ionen, Entsalzen nur Kalk", "sq": "Zbutja heq të gjitha jonet, demineralizimi vetëm gëlqeren"},
+      {"de": "Enthärten tauscht Härtebildner, Entsalzen entfernt Ionen", "sq": "Zbutja i shkëmben formuesit e fortësisë, demineralizimi heq jonet"},
+      {"de": "Enthärten ändert den pH-Wert, Entsalzen die Farbe", "sq": "Zbutja ndryshon pH-në, demineralizimi ngjyrën"}
     ],
     "correct": 2,
     "why": {"de": "Es sind zwei verschiedene Verfahren, welches nötig ist, entscheidet die Anlage.", "sq": "Janë dy procese të ndryshme, cili nevojitet e vendos sistemi."}
@@ -48,8 +48,8 @@
     "a": [
       {"de": "Füllmengen dokumentieren und die Ursache suchen", "sq": "Dokumentohen sasitë e mbushjes dhe kërkohet shkaku"},
       {"de": "Einfach weiter nachfüllen, das Wasser ist ja gut", "sq": "Vazhdohet thjesht me rimbushje, uji është i mirë"},
-      {"de": "Ein Additiv aus der Werbung einfüllen", "sq": "Hidhet një aditiv nga reklama"},
-      {"de": "Nur den pH-Wert messen und fertig", "sq": "Matet vetëm pH-ja dhe mbaron"}
+      {"de": "Ein Additiv aus der Werbung einfüllen", "sq": "Shtohet një aditiv nga reklamat"},
+      {"de": "Nur den pH-Wert messen und fertig", "sq": "Matet vetëm pH-ja dhe kaq"}
     ],
     "correct": 0,
     "why": {"de": "Häufiges Nachfüllen ist ein Grund, Druckhaltung, Undichtigkeiten und Lufteintrag genauer zu prüfen.", "sq": "Rimbushja e shpeshtë është arsye për të kontrolluar më nga afër mbajtjen e presionit, rrjedhjet dhe hyrjen e ajrit."}

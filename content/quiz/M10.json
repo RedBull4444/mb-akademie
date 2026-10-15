@@ -2,7 +2,7 @@
   {
     "q": {"de": "Was ist der Unterschied zwischen Wasservolumen und Volumenstrom?", "sq": "Cili është dallimi ndërmjet vëllimit të ujit dhe prurjes?"},
     "a": [
-      {"de": "Beides ist dasselbe, nur anders gemessen", "sq": "Të dyja janë e njëjta gjë, vetëm matet ndryshe"},
+      {"de": "Beides ist dasselbe, nur anders gemessen", "sq": "Të dyja janë e njëjta gjë, vetëm maten ndryshe"},
       {"de": "Volumen ist der Umlauf, Volumenstrom die Menge", "sq": "Vëllimi është qarkullimi, prurja është sasia"},
       {"de": "Volumenstrom gibt es nur bei Gasgeräten", "sq": "Prurja ekziston vetëm te pajisjet me gaz"},
       {"de": "Volumen ist die Wassermenge, Volumenstrom der Umlauf", "sq": "Vëllimi është sasia e ujit, prurja është qarkullimi"}
@@ -13,38 +13,38 @@
   {
     "q": {"de": "Braucht jede Wärmepumpe automatisch einen Puffer?", "sq": "A ka çdo pompë nxehtësie automatikisht nevojë për depozitë tampon?"},
     "a": [
-      {"de": "Ja, ohne Puffer läuft sie nie effizient", "sq": "Po, pa tampon nuk punon kurrë efikasshëm"},
+      {"de": "Ja, ohne Puffer läuft sie nie effizient", "sq": "Po, pa tampon nuk punon kurrë në mënyrë efikase"},
       {"de": "Nein, Gerät und Herstellerangaben entscheiden", "sq": "Jo, vendosin pajisja dhe udhëzimet e prodhuesit"},
       {"de": "Ja, sonst fehlt immer Wasservolumen", "sq": "Po, përndryshe mungon gjithmonë vëllimi i ujit"},
-      {"de": "Nein, ein Puffer ist dort immer verboten", "sq": "Jo, një tampon atje është gjithmonë i ndaluar"}
+      {"de": "Nein, ein Puffer ist dort immer verboten", "sq": "Jo, aty tamponi është gjithmonë i ndaluar"}
     ],
     "correct": 1,
-    "why": {"de": "Eine Anlage kann ohne Puffer funktionieren, wenn der Hersteller das Konzept freigibt und die Betriebsbedingungen erfüllt sind.", "sq": "Një sistem mund të punojë pa tampon nëse prodhuesi e lejon konceptin dhe kushtet e punës plotësohen."}
+    "why": {"de": "Eine Anlage kann ohne Puffer funktionieren, wenn der Hersteller das Konzept freigibt und die Betriebsbedingungen erfüllt sind.", "sq": "Një sistem mund të punojë pa tampon nëse prodhuesi e miraton këtë koncept dhe plotësohen kushtet e punës."}
   },
   {
-    "q": {"de": "Alle Heizkreise schließen. Was bringt ein Reihenpuffer dann?", "sq": "Të gjitha qarqet mbyllen. Çfarë sjell atëherë tamponi në seri?"},
+    "q": {"de": "Alle Heizkreise schließen. Was bringt ein Reihenpuffer dann?", "sq": "Të gjitha qarqet e ngrohjes mbyllen. Çfarë sjell atëherë tamponi në seri?"},
     "a": [
       {"de": "Mehr Wasser, aber keinen gesicherten Umlauf", "sq": "Më shumë ujë, por jo qarkullim të siguruar"},
       {"de": "Er sichert immer den Mindestvolumenstrom", "sq": "E siguron gjithmonë prurjen minimale"},
-      {"de": "Er trennt Erzeuger- und Verbraucherkreis", "sq": "I ndan qarkun e prodhuesit dhe të konsumatorëve"},
+      {"de": "Er trennt Erzeuger- und Verbraucherkreis", "sq": "I ndan qarkun e pajisjes së ngrohjes nga ai i konsumatorëve"},
       {"de": "Er öffnet automatisch einen Bypass", "sq": "Hap automatikisht një bypass"}
     ],
     "correct": 0,
-    "why": {"de": "Ein Reihenpuffer erhöht vor allem den Wasserinhalt, schafft aber keinen offenen Strömungsweg.", "sq": "Tamponi në seri rrit kryesisht sasinë e ujit, por nuk krijon rrugë të hapur rrjedhjeje."}
+    "why": {"de": "Ein Reihenpuffer erhöht vor allem den Wasserinhalt, schafft aber keinen offenen Strömungsweg.", "sq": "Tamponi në seri rrit kryesisht sasinë e ujit, por nuk krijon rrugë të hapur për rrjedhjen."}
   },
   {
-    "q": {"de": "Wohin führt das Überströmventil das Wasser, wenn Heizkreise schließen?", "sq": "Ku e çon valvula e tejrrjedhjes ujin kur qarqet mbyllen?"},
+    "q": {"de": "Wohin führt das Überströmventil das Wasser, wenn Heizkreise schließen?", "sq": "Ku e çon valvula e tejrrjedhjes ujin kur qarqet e ngrohjes mbyllen?"},
     "a": [
-      {"de": "Bei Überdruck nach außen ins Abwasser", "sq": "Në rast mbipresioni jashtë, në kanalizim"},
+      {"de": "Bei Überdruck nach außen ins Abwasser", "sq": "Kur ka mbipresion, jashtë në kanalizim"},
       {"de": "Aus dem Rücklauf in den Speicher", "sq": "Nga kthimi në depozitë"},
       {"de": "Intern vom Vorlauf in den Rücklauf", "sq": "Brenda sistemit nga furnizimi në kthim"},
       {"de": "Aus dem Vorlauf ins MAG", "sq": "Nga furnizimi në MAG"}
     ],
     "correct": 2,
-    "why": {"de": "Das Überströmventil öffnet einen internen Weg und ist kein Sicherheitsventil, denn das führt Wasser nach außen ab.", "sq": "Valvula e tejrrjedhjes hap një rrugë të brendshme dhe nuk është valvul sigurie, sepse ajo e shkarkon ujin jashtë."}
+    "why": {"de": "Das Überströmventil öffnet einen internen Weg und ist kein Sicherheitsventil, denn das führt Wasser nach außen ab.", "sq": "Valvula e tejrrjedhjes hap një rrugë të brendshme dhe nuk është valvulë sigurie, sepse valvula e sigurisë e shkarkon ujin jashtë."}
   },
   {
-    "q": {"de": "Ein Überströmventil ist eingebaut. Ist der Mindestvolumenstrom sicher?", "sq": "Është montuar një valvul tejrrjedhjeje. A është prurja minimale e siguruar?"},
+    "q": {"de": "Ein Überströmventil ist eingebaut. Ist der Mindestvolumenstrom sicher?", "sq": "Është montuar një valvulë tejrrjedhjeje. A është e siguruar prurja minimale?"},
     "a": [
       {"de": "Ja, ein Bypass sichert ihn immer", "sq": "Po, një bypass e siguron gjithmonë"},
       {"de": "Nein, Bypass, Pumpe und Hydraulik müssen zusammenpassen", "sq": "Jo, bypass-i, pompa dhe hidraulika duhet të përputhen"},
@@ -52,6 +52,6 @@
       {"de": "Nein, dafür braucht man immer einen Puffer", "sq": "Jo, për këtë të duhet gjithmonë një tampon"}
     ],
     "correct": 1,
-    "why": {"de": "Ein Bypass allein garantiert nichts, er muss mit Pumpe und Hydraulik abgestimmt und richtig eingestellt sein.", "sq": "Një bypass vetëm nuk garanton asgjë, ai duhet të përshtatet me pompën dhe hidraulikën dhe të rregullohet saktë."}
+    "why": {"de": "Ein Bypass allein garantiert nichts, er muss mit Pumpe und Hydraulik abgestimmt und richtig eingestellt sein.", "sq": "Bypass-i vetëm për vete nuk garanton asgjë, ai duhet të përshtatet me pompën dhe hidraulikën dhe të rregullohet saktë."}
   }
 ]

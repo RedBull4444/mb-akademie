@@ -8,7 +8,7 @@
       {"de": "Sie senken den Anlagendruck", "sq": "Ulin presionin e sistemit"}
     ],
     "correct": 2,
-    "why": {"de": "Die Partikel lagern sich in Pumpen, Ventilen und engen Wärmetauscher-Bereichen ab und stören Funktion und Strömung.", "sq": "Grimcat depozitohen në pompa, valvula dhe zona të ngushta të shkëmbyesit dhe prishin funksionimin dhe rrjedhjen."}
+    "why": {"de": "Die Partikel lagern sich in Pumpen, Ventilen und engen Wärmetauscher-Bereichen ab und stören Funktion und Strömung.", "sq": "Grimcat depozitohen në pompa, valvula dhe në pjesët e ngushta të shkëmbyesve të nxehtësisë dhe pengojnë funksionimin dhe rrjedhjen."}
   },
   {
     "q": {"de": "Was kann der Magnet im Schlammabscheider?", "sq": "Çfarë mund të bëjë magneti në ndarësin e llumit?"},
@@ -22,21 +22,21 @@
     "why": {"de": "Der Magnet unterstützt nur die Abscheidung magnetischer Korrosionspartikel, er ist kein Filter für alles.", "sq": "Magneti ndihmon vetëm në ndarjen e grimcave magnetike të korrozionit, nuk është filtër për çdo gjë."}
   },
   {
-    "q": {"de": "Du reinigst einen Abscheider mit Magnet. Was gehört dazu?", "sq": "Po e pastron një ndarës me magnet. Çfarë bën pjesë në punë?"},
+    "q": {"de": "Du reinigst einen Abscheider mit Magnet. Was gehört dazu?", "sq": "Po e pastron një ndarës me magnet. Çfarë duhet bërë?"},
     "a": [
       {"de": "Den Magneten in Fangposition lassen", "sq": "Magneti lihet në pozicionin e kapjes"},
-      {"de": "Das Gehäuse unter Druck öffnen", "sq": "Trupi hapet nën presion"},
+      {"de": "Das Gehäuse unter Druck öffnen", "sq": "Trupi i ndarësit hapet nën presion"},
       {"de": "Den Schmutzfänger dauerhaft ausbauen", "sq": "Filtri i papastërtive hiqet përgjithmonë"},
-      {"de": "Magnet nach Anleitung lösen, dann kontrolliert ablassen", "sq": "Magneti lirohet sipas udhëzimit, pastaj lëshohet kontrolluar"}
+      {"de": "Magnet nach Anleitung lösen, dann kontrolliert ablassen", "sq": "Magneti hiqet sipas udhëzimit, pastaj shkarkohet në mënyrë të kontrolluar"}
     ],
     "correct": 3,
-    "why": {"de": "Bleibt der Magnet in Fangposition, bleiben die magnetischen Partikel hängen. Der genaue Ablauf richtet sich nach der Herstelleranleitung.", "sq": "Nëse magneti mbetet në pozicionin e kapjes, grimcat magnetike mbeten ngjitur. Procedura e saktë varet nga udhëzimi i prodhuesit."}
+    "why": {"de": "Bleibt der Magnet in Fangposition, bleiben die magnetischen Partikel hängen. Der genaue Ablauf richtet sich nach der Herstelleranleitung.", "sq": "Nëse magneti mbetet në pozicionin e kapjes, grimcat magnetike mbeten të kapura. Procedura e saktë varet nga udhëzimi i prodhuesit."}
   },
   {
     "q": {"de": "Ein Abscheider ist eingebaut. Brauchst du trotzdem eine Erstspülung?", "sq": "Ndarësi është montuar. A të duhet prapë një shpëlarje e parë?"},
     "a": [
       {"de": "Nein, der Abscheider holt alles heraus", "sq": "Jo, ndarësi i heq të gjitha"},
-      {"de": "Ja, spülen und abscheiden, nicht entweder oder", "sq": "Po, shpëlahet dhe ndahet, jo njëra ose tjetra"},
+      {"de": "Ja, spülen und abscheiden, nicht entweder oder", "sq": "Po, duhen të dyja: shpëlarja dhe ndarësi"},
       {"de": "Nein, Spülen schadet der Pumpe", "sq": "Jo, shpëlarja e dëmton pompën"},
       {"de": "Nur bei Fußbodenheizung", "sq": "Vetëm te ngrohja e dyshemesë"}
     ],

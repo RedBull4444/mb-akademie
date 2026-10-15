@@ -1,28 +1,28 @@
 [
   {
-    "q": {"de": "Warum darf ein Heizungs-MAG nicht im Trinkwasser sitzen?", "sq": "Pse nuk lejohet një MAG ngrohjeje në ujin e pijshëm?"},
+    "q": {"de": "Warum darf ein Heizungs-MAG nicht im Trinkwasser sitzen?", "sq": "Pse një MAG ngrohjeje nuk lejohet në instalimin e ujit të pijshëm?"},
     "a": [
       {"de": "Es ist dafür immer zu klein", "sq": "Është gjithmonë shumë i vogël për këtë"},
-      {"de": "Es hat dort keine Membran", "sq": "Nuk ka membranë në atë vend"},
-      {"de": "Es ist nicht für Trinkwasser zugelassen", "sq": "Nuk është i lejuar për ujë të pijshëm"},
+      {"de": "Es hat dort keine Membran", "sq": "Aty nuk ka membranë"},
+      {"de": "Es ist nicht für Trinkwasser zugelassen", "sq": "Nuk është i miratuar për ujë të pijshëm"},
       {"de": "Es hält dort den Druck nicht", "sq": "Nuk e mban presionin atje"}
     ],
     "correct": 2,
-    "why": {"de": "Ein Gefäß im Trinkwasser muss ausdrücklich für Trinkwasser geeignet sein, ein Heizungs-MAG ist es nicht.", "sq": "Një enë në ujin e pijshëm duhet të jetë shprehimisht e përshtatshme për ujë të pijshëm, një MAG ngrohjeje nuk është."}
+    "why": {"de": "Ein Gefäß im Trinkwasser muss ausdrücklich für Trinkwasser geeignet sein, ein Heizungs-MAG ist es nicht.", "sq": "Një enë në ujin e pijshëm duhet të jetë shprehimisht e përshtatshme për ujë të pijshëm, një MAG ngrohjeje nuk është i tillë."}
   },
   {
-    "q": {"de": "Wo wird das Trinkwasser-MAG am Warmwasserspeicher eingebunden?", "sq": "Ku lidhet ena e zgjerimit për ujë të pijshëm në depozitën e ujit të ngrohtë?"},
+    "q": {"de": "Wo wird das Trinkwasser-MAG am Warmwasserspeicher eingebunden?", "sq": "Ku lidhet ena e zgjerimit për ujë të pijshëm te depozita e ujit të ngrohtë?"},
     "a": [
-      {"de": "Kaltwasserseite, Speicherseite des Rückflussverhinderers", "sq": "Ana e ujit të ftohtë, ana e depozitës së valvulës së kundërkthimit"},
+      {"de": "Kaltwasserseite, Speicherseite des Rückflussverhinderers", "sq": "Ana e ujit të ftohtë, ndërmjet valvulës së kundërkthimit dhe depozitës"},
       {"de": "Kaltwasserseite, vor dem Rückflussverhinderer", "sq": "Ana e ujit të ftohtë, para valvulës së kundërkthimit"},
       {"de": "Warmwasserseite, hinter dem Speicher", "sq": "Ana e ujit të ngrohtë, pas depozitës"},
       {"de": "In der Heizungsleitung zum Speicher", "sq": "Në tubin e ngrohjes drejt depozitës"}
     ],
     "correct": 0,
-    "why": {"de": "Nur auf der Speicherseite des Rückflussverhinderers kann sich das ausdehnende Wasser im Gefäß sammeln.", "sq": "Vetëm në anën e depozitës të valvulës së kundërkthimit uji që zgjerohet mund të arrijë në enë."}
+    "why": {"de": "Nur auf der Speicherseite des Rückflussverhinderers kann sich das ausdehnende Wasser im Gefäß sammeln.", "sq": "Vetëm ndërmjet valvulës së kundërkthimit dhe depozitës uji që zgjerohet mund të mblidhet në enë."}
   },
   {
-    "q": {"de": "Warum soll das Trinkwasser-MAG durchströmt angeschlossen sein?", "sq": "Pse duhet që ena e zgjerimit për ujë të pijshëm të lidhet me rrjedhje?"},
+    "q": {"de": "Warum soll das Trinkwasser-MAG durchströmt angeschlossen sein?", "sq": "Pse ena e zgjerimit për ujë të pijshëm duhet të lidhet që uji të rrjedhë nëpër të?"},
     "a": [
       {"de": "Damit die Membran schneller arbeitet", "sq": "Që membrana të punojë më shpejt"},
       {"de": "Damit der Vordruck nie geprüft werden muss", "sq": "Që presioni paraprak të mos kontrollohet kurrë"},
@@ -30,18 +30,18 @@
       {"de": "Damit kein Wasser lange im Gefäß stehen bleibt", "sq": "Që uji të mos qëndrojë gjatë në enë"}
     ],
     "correct": 3,
-    "why": {"de": "Stehendes Wasser ist ein Hygieneproblem, deshalb werden tote Stichleitungen vermieden.", "sq": "Uji që qëndron është problem higjienik, prandaj shmangen tubat e vdekur pa rrjedhje."}
+    "why": {"de": "Stehendes Wasser ist ein Hygieneproblem, deshalb werden tote Stichleitungen vermieden.", "sq": "Uji i ndenjur është problem higjienik, prandaj shmangen degët qorre të tubave ku uji nuk rrjedh."}
   },
   {
-    "q": {"de": "Beim Aufheizen tropft das Sicherheitsventil. Es gibt kein Trink-MAG. Was gilt?", "sq": "Gjatë ngrohjes pikon valvula e sigurisë. Nuk ka enë zgjerimi. Çfarë vlen?"},
+    "q": {"de": "Beim Aufheizen tropft das Sicherheitsventil. Es gibt kein Trink-MAG. Was gilt?", "sq": "Gjatë ngrohjes pikon valvula e sigurisë. Nuk ka enë zgjerimi për ujë të pijshëm. Çfarë është e saktë?"},
     "a": [
       {"de": "Das Ventil ist dann immer defekt", "sq": "Atëherë valvula është gjithmonë e prishur"},
-      {"de": "Das kann normal sein, Ausdehnungswasser wird abgeführt", "sq": "Kjo mund të jetë normale, uji i zgjeruar shkarkohet"},
-      {"de": "Das Ventil wird sofort zugedreht", "sq": "Valvula mbyllet menjëherë"},
-      {"de": "Der Speicher ist zu kalt eingestellt", "sq": "Depozita është vendosur shumë e ftohtë"}
+      {"de": "Das kann normal sein, Ausdehnungswasser wird abgeführt", "sq": "Kjo mund të jetë normale, uji i zgjerimit shkarkohet"},
+      {"de": "Das Ventil wird sofort zugedreht", "sq": "Valvula mbyllet menjëherë me dorë"},
+      {"de": "Der Speicher ist zu kalt eingestellt", "sq": "Depozita është rregulluar në temperaturë shumë të ulët"}
     ],
     "correct": 1,
-    "why": {"de": "Ohne Gefäß kann das Ausdehnungswasser nicht zurück und geht über das Sicherheitsventil, das ist beim Aufheizen nicht automatisch ein Defekt.", "sq": "Pa enë uji i zgjeruar nuk mund të kthehet dhe del përmes valvulës së sigurisë, gjatë ngrohjes kjo nuk është automatikisht defekt."}
+    "why": {"de": "Ohne Gefäß kann das Ausdehnungswasser nicht zurück und geht über das Sicherheitsventil, das ist beim Aufheizen nicht automatisch ein Defekt.", "sq": "Pa enë zgjerimi, uji i zgjerimit nuk mund të kthehet dhe del nga valvula e sigurisë; gjatë ngrohjes kjo nuk do të thotë automatikisht defekt."}
   },
   {
     "q": {"de": "Ein Trinkwasser-MAG ist eingebaut. Brauchst du trotzdem ein Sicherheitsventil?", "sq": "Është montuar një enë zgjerimi për ujë të pijshëm. A të duhet prapë valvulë sigurie?"},
@@ -52,6 +52,6 @@
       {"de": "Nur wenn der Vordruck zu niedrig ist", "sq": "Vetëm nëse presioni paraprak është shumë i ulët"}
     ],
     "correct": 0,
-    "why": {"de": "Das Gefäß nimmt normale Volumenänderungen auf, das Sicherheitsventil schützt den Speicher vor unzulässigem Überdruck.", "sq": "Ena pranon ndryshimet normale të vëllimit, valvula e sigurisë e mbron depozitën nga mbipresioni i palejuar."}
+    "why": {"de": "Das Gefäß nimmt normale Volumenänderungen auf, das Sicherheitsventil schützt den Speicher vor unzulässigem Überdruck.", "sq": "Ena kompenson ndryshimet normale të vëllimit, valvula e sigurisë e mbron depozitën nga mbipresioni i palejuar."}
   }
 ]

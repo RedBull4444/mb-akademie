@@ -32,10 +32,10 @@ export const MODS = [
     "p": 1,
     "duration": 298.4,
     "de": "Membran-Ausdehnungsgefäß (MAG) Heizung",
-    "sq": "Ena e zgjerimit me membranë (MAG) – ngrohje",
+    "sq": "Ena e zgjerimit me membranë (MAG) për ngrohje",
     "g": {
       "de": "Wie das MAG Druckschwankungen im geschlossenen Heizkreis ausgleicht und woran man Fehler erkennt.",
-      "sq": "Si i balancon MAG-u ndryshimet e presionit në qarkun e mbyllur të ngrohjes dhe si dallohen gabimet."
+      "sq": "Si i kompenson MAG-u ndryshimet e presionit në qarkun e mbyllur të ngrohjes dhe si dallohen gabimet."
     },
     "k": {
       "de": [
@@ -45,9 +45,9 @@ export const MODS = [
         "Vordruck und Anlagendruck werden nach Herstellerangabe eingestellt und geprüft."
       ],
       "sq": [
-        "Uji i ngrohjes zgjerohet kur ngrohet. MAG-u e pranon këtë vëllim.",
+        "Uji i ngrohjes zgjerohet kur ngrohet. MAG-u e merr këtë vëllim.",
         "Në MAG një membranë e ndan ujin nga jastëku i gazit.",
-        "MAG-u nuk e zëvendëson kurrë valvulën e sigurisë. Secila ka detyrën e vet.",
+        "MAG-u nuk e zëvendëson kurrë valvulën e sigurisë. Secili ka detyrën e vet.",
         "Presioni paraprak dhe presioni i sistemit rregullohen dhe kontrollohen sipas udhëzimeve të prodhuesit."
       ]
     }
@@ -69,8 +69,8 @@ export const MODS = [
         "Ein Heizungs-MAG darf nicht im Trinkwasser eingesetzt werden."
       ],
       "sq": [
-        "Ena e zgjerimit për ujë të pijshëm pranon zgjerimin e ujit të pijshëm të ngrohur.",
-        "Duhet të jetë e lejuar për ujë të pijshëm dhe e lidhur me rrjedhje, që uji të mos qëndrojë.",
+        "Ena e zgjerimit për ujë të pijshëm e merr zgjerimin e ujit të pijshëm të ngrohur.",
+        "Duhet të jetë e miratuar për ujë të pijshëm dhe e lidhur që uji të rrjedhë nëpër të, që të mos mbetet ujë i ndenjur.",
         "Një MAG ngrohjeje nuk lejohet të përdoret për ujë të pijshëm."
       ]
     }
@@ -83,7 +83,7 @@ export const MODS = [
     "sq": "Njësia e rimbushjes dhe trajtimi i ujit",
     "g": {
       "de": "Wie Heizungswasser sicher nachgefüllt wird und warum das Füllwasser aufbereitet wird.",
-      "sq": "Si rimbushet uji i ngrohjes në mënyrë të sigurt dhe pse uji i mbushjes trajtohet."
+      "sq": "Si rimbushet uji i ngrohjes në mënyrë të sigurt dhe pse trajtohet uji i mbushjes."
     },
     "k": {
       "de": [
@@ -93,10 +93,10 @@ export const MODS = [
         "Wann die Patrone gewechselt wird, hängt von ihrer Kapazität und den Herstellerangaben ab."
       ],
       "sq": [
-        "Ndarësi i sistemit e mbron ujin e pijshëm nga kthimi i ujit nga ngrohja.",
+        "Ndarësi i sistemit e mbron ujin e pijshëm nga rrjedhja mbrapsht e ujit të ngrohjes.",
         "Reduktuesi i presionit siguron një presion mbushjeje të kontrolluar.",
-        "Zbutja dhe çkripëzimi janë dy procese të ndryshme.",
-        "Kur ndërrohet fishekja varet nga kapaciteti i saj dhe nga udhëzimet e prodhuesit."
+        "Zbutja dhe demineralizimi janë dy procese të ndryshme.",
+        "Kur ndërrohet fisheku varet nga kapaciteti i tij dhe nga udhëzimet e prodhuesit."
       ]
     }
   },
@@ -121,7 +121,7 @@ export const MODS = [
         "Valvula e sigurisë e mbron sistemin nga mbipresioni i palejuar.",
         "Manometri tregon presionin e sistemit.",
         "Ajruesi automatik e nxjerr ajrin në pikën më të lartë.",
-        "Ndërmjet pajisjes së ngrohjes dhe valvulës së sigurisë nuk lejohet asnjë valvul mbyllëse."
+        "Ndërmjet pajisjes së ngrohjes dhe valvulës së sigurisë nuk lejohet asnjë valvulë mbyllëse."
       ]
     }
   },
@@ -143,10 +143,10 @@ export const MODS = [
         "Ein tropfendes Sicherheitsventil wird nie durch Zudrehen „repariert“."
       ],
       "sq": [
-        "Valvula mbyllëse, valvula e kundërkthimit dhe valvula e sigurisë vendosen në një renditje të caktuar.",
+        "Valvula mbyllëse, valvula e kundërkthimit dhe valvula e sigurisë vendosen në një renditje të përcaktuar.",
         "Reduktuesi i presionit e rregullon presionin. Valvula e sigurisë mbron vetëm nga mbipresioni.",
-        "Tubi i shkarkimit përfundon i dukshëm mbi një kullues me dalje të lirë.",
-        "Një valvul sigurie që pikon nuk „riparohet“ kurrë duke e mbyllur."
+        "Tubi i shkarkimit përfundon i dukshëm mbi një sifon, me dalje të lirë.",
+        "Një valvulë sigurie që pikon nuk “riparohet” kurrë duke e mbyllur."
       ]
     }
   },
@@ -217,9 +217,9 @@ export const MODS = [
       ],
       "sq": [
         "Ana e ujit të pijshëm: uji i ftohtë me grup sigurie, uji i ngrohtë dhe qarkullimi.",
-        "Ana e ngrohjes: furnizimi dhe kthimi i ngarkimit të depozitës, sensori në pozicionin e duhur.",
-        "Mbrojtja nga djegia dhe higjiena janë pjesë e planifikimit.",
-        "Para vënies në punë: shpëlaj, mbush, ajros dhe kontrollo për rrjedhje."
+        "Ana e ngrohjes: furnizimi dhe kthimi për ngrohjen e depozitës, sensori në pozicionin e duhur.",
+        "Mbrojtja nga përvëlimi dhe higjiena janë pjesë e planifikimit.",
+        "Para vënies në punë: shpëlaj, mbush, ajros dhe kontrollo nëse ka rrjedhje."
       ]
     }
   },
@@ -256,7 +256,7 @@ export const MODS = [
     "sq": "Hidraulika e pompës së nxehtësisë",
     "g": {
       "de": "Wann eine Wärmepumpe Puffer, Bypass oder Überströmventil braucht und warum Wasservolumen und Volumenstrom zwei verschiedene Dinge sind.",
-      "sq": "Kur ka nevojë një pompë nxehtësie për depozitë tampon, bypass ose valvul tejrrjedhjeje dhe pse vëllimi i ujit dhe prurja janë dy gjëra të ndryshme."
+      "sq": "Kur ka nevojë një pompë nxehtësie për depozitë tampon, bypass ose valvulë tejrrjedhjeje dhe pse vëllimi i ujit dhe prurja janë dy gjëra të ndryshme."
     },
     "k": {
       "de": [
@@ -267,9 +267,9 @@ export const MODS = [
       ],
       "sq": [
         "Depozita tampon nuk është automatikisht e detyrueshme. Vendosin pajisja konkrete dhe udhëzimet e prodhuesit.",
-        "Depozita tampon në seri rrit kryesisht sasinë e ujit. Depozita tampon paralele mund të ndajë edhe hidraulikisht qarkun e prodhuesit nga ai i konsumatorëve.",
-        "Valvula e tejrrjedhjes e çon ujin brenda sistemit nga furnizimi në kthim. Ajo nuk është valvul sigurie.",
-        "Një valvul tejrrjedhjeje e montuar nuk e garanton vetvetiu prurjen minimale. Bypass-i, pompa dhe hidraulika projektohen së bashku."
+        "Depozita tampon në seri rrit kryesisht sasinë e ujit. Depozita tampon paralele mund të ndajë edhe hidraulikisht qarkun e pajisjes së ngrohjes nga ai i konsumatorëve.",
+        "Valvula e tejrrjedhjes e çon ujin brenda sistemit nga furnizimi në kthim. Ajo nuk është valvulë sigurie.",
+        "Një valvulë tejrrjedhjeje e montuar nuk e garanton vetvetiu prurjen minimale. Bypass-i, pompa dhe hidraulika dimensionohen së bashku."
       ]
     }
   },
@@ -281,7 +281,7 @@ export const MODS = [
     "sq": "Pompa qarkulluese dhe valvulat e kundërkthimit",
     "g": {
       "de": "Wie die Umwälzpumpe das Wasser bewegt, wie sie geregelt wird und wo Rückschlagventile unerwünschte Rückströmung verhindern.",
-      "sq": "Si e lëviz pompa qarkulluese ujin, si rregullohet dhe ku valvulat e kundërkthimit pengojnë rrjedhjen e padëshiruar prapa."
+      "sq": "Si e lëviz pompa qarkulluese ujin, si rregullohet dhe ku valvulat e kundërkthimit pengojnë rrjedhjen e padëshiruar mbrapsht."
     },
     "k": {
       "de": [
@@ -292,7 +292,7 @@ export const MODS = [
       ],
       "sq": [
         "Pompa krijon një diferencë presioni. Ajo nuk është e njëjtë me presionin statik të sistemit.",
-        "Zgjidhet sipas prurjes dhe rezistencës së rrjetit të tubave, jo sipas lartësisë së ndërtesës. Pompa në maksimum nuk është projektim.",
+        "Dimensionohet sipas prurjes dhe rezistencës së rrjetit të tubave, jo sipas lartësisë së ndërtesës. Pompa në maksimum nuk është dimensionim.",
         "Drejtimi i rrjedhjes, pozicioni i montimit dhe mënyra e rregullimit (Δp-c, Δp-v) duhet t'i përshtaten sistemit dhe prodhuesit.",
         "Valvulat e kundërkthimit montohen në drejtimin e duhur. Ato nuk lejohet të bllokojnë rrugën drejt valvulës së sigurisë ose MAG-ut."
       ]
@@ -306,7 +306,7 @@ export const MODS = [
     "sq": "Balancimi hidraulik",
     "g": {
       "de": "Warum jede Heizfläche ihren eigenen Volumenstrom braucht und wie der Abgleich Schritt für Schritt eingestellt und geprüft wird.",
-      "sq": "Pse çdo sipërfaqe ngrohëse ka nevojë për prurjen e vet dhe si rregullohet e kontrollohet balancimi hap pas hapi."
+      "sq": "Pse çdo sipërfaqe ngrohëse ka nevojë për prurjen e vet dhe si rregullohet dhe kontrollohet balancimi hap pas hapi."
     },
     "k": {
       "de": [
@@ -317,8 +317,8 @@ export const MODS = [
       ],
       "sq": [
         "Nga ngarkesa termike e dhomës, sipërfaqja ngrohëse dhe temperaturat e sistemit del prurja e kërkuar.",
-        "I njëjti parapozicionim kudo ose pompa në maksimum nuk është balancim.",
-        "Koka termostatike dhe parapozicionimi kanë detyra të ndryshme.",
+        "I njëjti rregullim paraprak kudo ose pompa në maksimum nuk është balancim.",
+        "Koka termostatike dhe rregullimi paraprak kanë detyra të ndryshme.",
         "Së pari hiqen ajri, papastërtitë dhe defektet e sistemit. Në fund kontrollohet dhe dokumentohet."
       ]
     }
@@ -331,7 +331,7 @@ export const MODS = [
     "sq": "Qarku me përzierës",
     "g": {
       "de": "Wie Mischer, Stellmotor, Pumpe, Fühler und Regler einem Heizkreis seine passende Vorlauftemperatur geben.",
-      "sq": "Si i japin përzierësi, motori aktivizues, pompa, sensori dhe rregullatori një qarku ngrohjeje temperaturën e duhur të furnizimit."
+      "sq": "Si i japin përzierësi, servomotori, pompa, sensori dhe rregullatori një qarku ngrohjeje temperaturën e duhur të furnizimit."
     },
     "k": {
       "de": [
@@ -341,9 +341,9 @@ export const MODS = [
         "Nicht jede Fußbodenheizung braucht einen Mischer. Er kommt nur dorthin, wo das Hydraulikkonzept ihn braucht."
       ],
       "sq": [
-        "Përzierësi kombinon ujin e nxehtë nga prodhuesi me ujin më të ftohtë të kthimit.",
+        "Përzierësi kombinon ujin e nxehtë nga pajisja e ngrohjes me ujin më të ftohtë të kthimit.",
         "Sensori i furnizimit vendoset pas pikës së përzierjes, në furnizimin e përzier.",
-        "Lidhjet dhe drejtimi i lëvizjes lexohen nga skema e prodhuesit, nuk supozohen sipas pozicionit.",
+        "Lidhjet dhe drejtimi i rrotullimit lexohen nga skema e prodhuesit, nuk hamendësohen sipas pozicionit.",
         "Jo çdo ngrohje dyshemeje ka nevojë për përzierës. Ai vendoset vetëm aty ku e kërkon koncepti hidraulik."
       ]
     }
@@ -368,7 +368,7 @@ export const MODS = [
       "sq": [
         "Uji i errët është një shenjë, jo diagnozë. Magnetiti nuk është e njëjta gjë me gëlqeren.",
         "Ndarësi magnetik heq grimcat magnetike, por jo shkakun e tyre.",
-        "Fortësia, përçueshmëria dhe vlera pH shihen veç e veç. Zbutja dhe çkripëzimi nuk janë e njëjta gjë.",
+        "Fortësia, përçueshmëria dhe vlera pH shihen veç e veç. Zbutja dhe demineralizimi nuk janë e njëjta gjë.",
         "Sasitë e mbushjes dokumentohen. Rimbushja e shpeshtë është arsye për ta kontrolluar sistemin më nga afër."
       ]
     }
@@ -381,7 +381,7 @@ export const MODS = [
     "sq": "Gabimet tipike të montimit dhe kontrolli përfundimtar",
     "g": {
       "de": "Wie eine fertig montierte Anlage in acht Prüfgruppen systematisch kontrolliert wird, bevor sie übergeben wird.",
-      "sq": "Si kontrollohet sistematikisht në tetë grupe kontrolli një sistem i montuar, para se të dorëzohet."
+      "sq": "Si kontrollohet sistematikisht një sistem i montuar, në tetë grupe kontrolli, para se të dorëzohet."
     },
     "k": {
       "de": [

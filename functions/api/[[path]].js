@@ -33,7 +33,7 @@ function peppered(env, pin) {
 function durText(seconds, lang) {
   const min = Math.max(1, Math.ceil(seconds / 60));
   if (min >= 120) return `${Math.ceil(min / 60)} ${lang === 'sq' ? 'orë' : 'Stunden'}`;
-  return `${min} ${lang === 'sq' ? 'minuta' : 'Minuten'}`;
+  return `${min} ${lang === 'sq' ? (min === 1 ? 'minutë' : 'minuta') : (min === 1 ? 'Minute' : 'Minuten')}`;
 }
 
 // Fehler "gesperrt": dauerhaft (Chef muss helfen) oder zeitlich

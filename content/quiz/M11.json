@@ -4,7 +4,7 @@
     "a": [
       {"de": "Den statischen Anlagendruck", "sq": "Presionin statik të sistemit"},
       {"de": "Einen Differenzdruck, der das Wasser durch das Netz treibt", "sq": "Një diferencë presioni që e shtyn ujin nëpër rrjet"},
-      {"de": "Den Druck, der das Wasser ins oberste Stockwerk hebt", "sq": "Presionin që e ngre ujin në katin e fundit"},
+      {"de": "Den Druck, der das Wasser ins oberste Stockwerk hebt", "sq": "Presionin që e ngre ujin në katin më të lartë"},
       {"de": "Den Vordruck für das MAG", "sq": "Presionin paraprak për MAG-un"}
     ],
     "correct": 1,
@@ -19,7 +19,7 @@
       {"de": "Nach Volumenstrom und Widerstand im Rohrnetz", "sq": "Sipas prurjes dhe rezistencës në rrjetin e tubave"}
     ],
     "correct": 3,
-    "why": {"de": "Die Pumpe muss zum benötigten Volumenstrom und zu den Widerständen passen, Maximum ist keine Auslegung.", "sq": "Pompa duhet t'i përshtatet prurjes së nevojshme dhe rezistencave, maksimumi nuk është projektim."}
+    "why": {"de": "Die Pumpe muss zum benötigten Volumenstrom und zu den Widerständen passen, Maximum ist keine Auslegung.", "sq": "Pompa duhet t'i përshtatet prurjes së nevojshme dhe rezistencave, maksimumi nuk është dimensionim."}
   },
   {
     "q": {"de": "Die Pumpe hält den Differenzdruck konstant. Bleibt der Volumenstrom gleich?", "sq": "Pompa e mban diferencën e presionit konstante. A mbetet prurja e njëjtë?"},
@@ -30,18 +30,18 @@
       {"de": "Nur, wenn die Pumpe auf Maximum steht", "sq": "Vetëm nëse pompa është në maksimum"}
     ],
     "correct": 0,
-    "why": {"de": "Konstanter Differenzdruck ist nicht konstanter Volumenstrom, wenn sich Ventilstellung und Widerstände ändern.", "sq": "Diferenca konstante e presionit nuk është prurje konstante kur ndryshojnë pozicioni i valvulave dhe rezistencat."}
+    "why": {"de": "Konstanter Differenzdruck ist nicht konstanter Volumenstrom, wenn sich Ventilstellung und Widerstände ändern.", "sq": "Diferenca konstante e presionit nuk do të thotë prurje konstante kur ndryshojnë pozicioni i valvulave dhe rezistencat."}
   },
   {
-    "q": {"de": "Was gilt für ein Rückschlagventil in der Heizung?", "sq": "Çfarë vlen për një valvul kundërkthimi në ngrohje?"},
+    "q": {"de": "Was gilt für ein Rückschlagventil in der Heizung?", "sq": "Çfarë është e saktë për një valvulë kundërkthimi në ngrohje?"},
     "a": [
       {"de": "Es ersetzt den Schutz des Trinkwassers beim Füllen", "sq": "Zëvendëson mbrojtjen e ujit të pijshëm gjatë mbushjes"},
       {"de": "Es darf auch vor dem MAG die Leitung sperren", "sq": "Mund ta bllokojë tubin edhe para MAG-ut"},
-      {"de": "Richtig herum einbauen, keine Schutzwege blockieren", "sq": "Montohet në drejtimin e duhur, nuk bllokon rrugët e mbrojtjes"},
+      {"de": "Richtig herum einbauen, keine Schutzwege blockieren", "sq": "Montohet në drejtimin e duhur, nuk bllokon rrugët e sigurisë"},
       {"de": "Es erzeugt keinen zusätzlichen Widerstand", "sq": "Nuk krijon rezistencë shtesë"}
     ],
     "correct": 2,
-    "why": {"de": "Ein Rückschlagventil hat Öffnungsdruck und Widerstand und darf nie den Weg zu Sicherheitsventil oder MAG sperren.", "sq": "Një valvul kundërkthimi ka presion hapjeje dhe rezistencë dhe nuk lejohet kurrë ta bllokojë rrugën drejt valvulës së sigurisë ose MAG-ut."}
+    "why": {"de": "Ein Rückschlagventil hat Öffnungsdruck und Widerstand und darf nie den Weg zu Sicherheitsventil oder MAG sperren.", "sq": "Një valvulë kundërkthimi ka presion hapjeje dhe rezistencë dhe nuk lejohet kurrë ta bllokojë rrugën drejt valvulës së sigurisë ose MAG-ut."}
   },
   {
     "q": {"de": "Du hast die Schwerkraftbremse für den Service geöffnet. Was danach?", "sq": "E ke hapur frenën e gravitetit për servis. Çfarë bën pas kësaj?"},

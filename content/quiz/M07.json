@@ -11,7 +11,7 @@
     "why": {"de": "Der Entlüfter führt die freie Luft ab, die ihn erreicht. Mitströmende Mikroblasen holt er nicht automatisch heraus.", "sq": "Ajruesi nxjerr ajrin e lirë që arrin tek ai. Mikroflluskat që rrjedhin me ujin nuk i heq automatikisht."}
   },
   {
-    "q": {"de": "Wozu braucht man einen Mikroblasenabscheider?", "sq": "Pse duhet një ndarës i mikroflluskave?"},
+    "q": {"de": "Wozu braucht man einen Mikroblasenabscheider?", "sq": "Për çfarë shërben një ndarës i mikroflluskave?"},
     "a": [
       {"de": "Er macht das Heizungswasser weicher", "sq": "E bën ujin e ngrohjes më të butë"},
       {"de": "Er hält den Anlagendruck konstant", "sq": "E mban presionin e sistemit konstant"},
@@ -35,7 +35,7 @@
   {
     "q": {"de": "Es kommt ständig neue Luft in die Anlage. Was ist richtig?", "sq": "Në sistem hyn vazhdimisht ajër i ri. Çfarë është e saktë?"},
     "a": [
-      {"de": "Einfach immer wieder entlüften", "sq": "Thjesht të ajroset sa herë që duhet"},
+      {"de": "Einfach immer wieder entlüften", "sq": "Thjesht të ajroset përsëri e përsëri"},
       {"de": "Noch mehr Entlüfter einbauen", "sq": "Të montohen edhe më shumë ajrues"},
       {"de": "Den Luftauslass dauerhaft verschließen", "sq": "Të mbyllet përgjithmonë dalja e ajrit"},
       {"de": "Die Ursache suchen, zum Beispiel Druckhaltung oder Undichtigkeit", "sq": "Të kërkohet shkaku, p.sh. mbajtja e presionit ose një rrjedhje"}
@@ -44,7 +44,7 @@
     "why": {"de": "Dauerndes Entlüften ist keine Lösung. Es muss geklärt werden, warum Luft oder Gas immer wieder in das System gelangt.", "sq": "Ajrosja e vazhdueshme nuk është zgjidhje. Duhet sqaruar pse ajri ose gazi hyn vazhdimisht në sistem."}
   },
   {
-    "q": {"de": "Warum muss ein Luftabscheider in der richtigen Einbaulage sitzen?", "sq": "Pse duhet që një ndarës ajri të montohet në pozicionin e duhur?"},
+    "q": {"de": "Warum muss ein Luftabscheider in der richtigen Einbaulage sitzen?", "sq": "Pse një ndarës ajri duhet të montohet në pozicionin e duhur?"},
     "a": [
       {"de": "Damit er ordentlicher aussieht", "sq": "Që të duket më i rregullt"},
       {"de": "Damit das Wasser schneller fließt", "sq": "Që uji të rrjedhë më shpejt"},

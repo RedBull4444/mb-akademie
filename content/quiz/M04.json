@@ -24,10 +24,10 @@
   {
     "q": {"de": "Was darf zwischen Wärmeerzeuger und Sicherheitsventil nicht sitzen?", "sq": "Çfarë nuk lejohet të ketë ndërmjet pajisjes së ngrohjes dhe valvulës së sigurisë?"},
     "a": [
-      {"de": "Ein Rohrbogen", "sq": "Një gjunjë tubi"},
-      {"de": "Eine Absperrung", "sq": "Një valvul mbyllëse"},
+      {"de": "Ein Rohrbogen", "sq": "Një bërryl tubi"},
+      {"de": "Eine Absperrung", "sq": "Një valvulë mbyllëse"},
       {"de": "Ein Temperaturfühler", "sq": "Një sensor temperature"},
-      {"de": "Ein Passstück", "sq": "Një pjesë ngjitëse"}
+      {"de": "Ein Passstück", "sq": "Një pjesë lidhëse"}
     ],
     "correct": 1,
     "why": {"de": "Der Sicherheitsweg muss frei bleiben, sonst kann das Ventil die Anlage im entscheidenden Moment nicht schützen.", "sq": "Rruga e sigurisë duhet të mbetet e lirë, përndryshe valvula nuk e mbron sistemin në momentin vendimtar."}
@@ -48,7 +48,7 @@
     "a": [
       {"de": "Er lässt angesammelte Luft austreten", "sq": "E lë ajrin e grumbulluar të dalë"},
       {"de": "Er begrenzt den Druck der Anlage", "sq": "E kufizon presionin e sistemit"},
-      {"de": "Er nimmt das Ausdehnungswasser auf", "sq": "E pranon ujin e zgjeruar"},
+      {"de": "Er nimmt das Ausdehnungswasser auf", "sq": "E merr ujin e zgjerimit"},
       {"de": "Er zeigt den Druck im Heizsystem an", "sq": "Tregon presionin në sistemin e ngrohjes"}
     ],
     "correct": 0,

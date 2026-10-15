@@ -258,7 +258,7 @@ let shotN = 0;
     await p.waitForSelector('.opt');
     const r = await doQuiz(n, 'pass');
     await p.waitForSelector('.result');
-    check(r === 5 && (await txt('.result h1')) === 'Kaluar', `Modul ${n} bestanden`, await txt('.result h1'));
+    check(r === 5 && (await txt('.result h1')) === 'Kalove', `Modul ${n} bestanden`, await txt('.result h1'));
     if (n === 7) await shot('teil1-ergebnis');
   }
   const resTxt = await txt('.result');
