@@ -1,0 +1,94 @@
+{
+ "intro": {
+  "de": "Es-Ha-Ka Grundlagen. Modul vier. Sicherheitsgruppe Heizung.",
+  "sq": "Bazat e Es-Ha-Ka-së. Moduli katër. Grupi i sigurisë së ngrohjes."
+ },
+ "s01": {
+  "de": "Das ist eine Sicherheitsgruppe einer Heizungsanlage. Mehrere Bauteile sitzen hier direkt nebeneinander. Sie sehen aus wie eine Einheit, übernehmen aber völlig unterschiedliche Aufgaben.",
+  "sq": "Ky është një grup sigurie i një sistemi ngrohjeje. Disa komponentë ndodhen shumë pranë njëri-tjetrit. Duken si një njësi, por secili ka një detyrë të ndryshme."
+ },
+ "s02": {
+  "de": "Eine typische Heizungs-Sicherheitsgruppe besteht aus einem Sicherheitsventil, einem Manometer und einem automatischen Entlüfter.",
+  "sq": "Një grup tipik sigurie i ngrohjes përbëhet nga një valvul sigurie, një manometër dhe një ajrues automatik."
+ },
+ "s03": {
+  "de": "Die Sicherheitsgruppe gehört zur Sicherheitsausrüstung der Heizungsanlage. Das Ausdehnungsgefäß, das wir aus Modul eins kennen, ist dabei ein anderes Bauteil und nicht automatisch Teil dieser Dreiergruppe.",
+  "sq": "Grupi i sigurisë është pjesë e pajisjeve mbrojtëse të sistemit të ngrohjes. Ena e zgjerimit, që e njohim nga moduli i parë, është një komponent tjetër dhe nuk është automatikisht pjesë e këtij grupi me tri elemente."
+ },
+ "s04": {
+  "de": "Beginnen wir mit dem Sicherheitsventil. Im normalen Betrieb ist es geschlossen. Steigt der Druck jedoch bis zu seinem vorgesehenen Ansprechpunkt, öffnet das Ventil und führt Wasser ab. Dadurch schützt es die Anlage vor unzulässig hohem Druck.",
+  "sq": "Fillojmë me valvulën e sigurisë. Në punë normale ajo është e mbyllur. Por kur presioni arrin pikën e parashikuar të hapjes, valvula hapet dhe shkarkon ujë. Në këtë mënyrë ajo mbron sistemin nga presioni tepër i lartë."
+ },
+ "s05": {
+  "de": "Das Sicherheitsventil ist kein Ventil, das den normalen Betriebsdruck ständig regelt. Es ist eine Sicherheitseinrichtung für einen unzulässigen Druckanstieg.",
+  "sq": "Valvula e sigurisë nuk përdoret për të rregulluar vazhdimisht presionin normal të punës. Ajo është një pajisje sigurie për rastin kur presioni bëhet tepër i lartë."
+ },
+ "s06": {
+  "de": "Das ist ein wichtiger Unterschied: Das Em-A-Ge nimmt die normalen Volumenänderungen des Heizungswassers auf. Das Sicherheitsventil greift ein, wenn der Druck unzulässig hoch wird. Keines ersetzt das andere.",
+  "sq": "Ky është një dallim shumë i rëndësishëm: Em-A-Ge-ja merr ndryshimet normale të vëllimit të ujit të ngrohjes. Valvula e sigurisë vepron kur presioni bëhet tepër i lartë. Asnjëra nuk e zëvendëson tjetrën."
+ },
+ "s07": {
+  "de": "Dieser Weg muss frei bleiben. Der Weg vom zu schützenden Wärmeerzeuger zu seinem Sicherheitsventil darf im Betrieb nicht durch eine Absperrung unterbrochen werden. Sonst kann das Ventil die Anlage im entscheidenden Moment nicht schützen.",
+  "sq": "Kjo rrugë duhet të mbetet e lirë. Rruga nga pajisja që duhet mbrojtur deri te valvula e saj e sigurisë nuk duhet të ndërpritet gjatë punës nga një valvul mbyllëse. Përndryshe valvula nuk mund ta mbrojë sistemin në momentin kur nevojitet."
+ },
+ "s08": {
+  "de": "Entscheidend ist der freie Sicherheitsweg zum Sicherheitsventil. Kleine Service- oder Wartungslösungen an anderen Komponenten dürfen damit nicht verwechselt werden. Die konkrete Baugruppe wird immer nach ihrer Herstelleranleitung montiert.",
+  "sq": "Vendimtare është që rruga drejt valvulës së sigurisë të mbetet e lirë. Zgjidhjet e shërbimit ose mirëmbajtjes te komponentët e tjerë nuk duhet të ngatërrohen me bllokimin e kësaj rruge. Grupi konkret montohet gjithmonë sipas udhëzimit të prodhuesit."
+ },
+ "s09": {
+  "de": "Auch der Ausgang des Sicherheitsventils muss seine Funktion erfüllen können. Austretendes Wasser muss sicher und kontrollierbar abgeführt werden. Der Ausgang oder die Abblaseleitung darf niemals einfach verschlossen werden.",
+  "sq": "Edhe dalja e valvulës së sigurisë duhet të mund ta kryejë funksionin e saj. Uji që del duhet të shkarkohet në mënyrë të sigurt dhe të kontrollueshme. Dalja ose tubi i shkarkimit nuk duhet të mbyllet kurrë."
+ },
+ "s10": {
+  "de": "Das zweite Bauteil ist das Manometer. Seine Aufgabe ist einfach: Es zeigt den Druck im Heizsystem an.",
+  "sq": "Komponenti i dytë është manometri. Detyra e tij është e thjeshtë: ai tregon presionin në sistemin e ngrohjes."
+ },
+ "s11": {
+  "de": "Das Manometer begrenzt den Druck nicht und lässt auch kein Wasser ab. Es zeigt lediglich den vorhandenen Druck. Ein normal aussehender Zeiger beweist deshalb nicht, dass das Sicherheitsventil richtig angeschlossen ist.",
+  "sq": "Manometri nuk e kufizon presionin dhe nuk shkarkon ujë. Ai vetëm tregon presionin ekzistues. Prandaj një tregues që duket normal nuk provon se valvula e sigurisë është lidhur siç duhet."
+ },
+ "s12": {
+  "de": "Welche Druckbereiche zulässig sind und welchen Ansprechdruck das Sicherheitsventil benötigt, hängt von der konkreten Anlage und den verwendeten Komponenten ab. Deshalb lernen wir hier keinen universellen Bar-Wert.",
+  "sq": "Presionet e lejuara dhe presioni i hapjes së valvulës së sigurisë varen nga instalimi konkret dhe komponentët e përdorur. Prandaj këtu nuk mësojmë një vlerë universale në bar."
+ },
+ "s13": {
+  "de": "Der dritte Bestandteil ist der automatische Entlüfter. Sammelt sich an dieser Stelle Luft, sinkt im Entlüfter der Wasserstand. Der Schwimmer bewegt sich und der Luftauslass öffnet. Ist die Luft entwichen, steigt das Wasser wieder und der Auslass schließt.",
+  "sq": "Pjesa e tretë është ajruesi automatik. Kur në këtë vend mblidhet ajër, niveli i ujit në ajrues bie. Pluskuesi lëviz dhe hap daljen e ajrit. Kur ajri largohet, niveli i ujit ngrihet përsëri dhe dalja mbyllet."
+ },
+ "s14": {
+  "de": "Der automatische Entlüfter beseitigt angesammelte Luft. Er schützt die Anlage nicht vor unzulässigem Überdruck. Diese Aufgabe übernimmt das Sicherheitsventil.",
+  "sq": "Ajruesi automatik largon ajrin e grumbulluar. Ai nuk e mbron sistemin nga presioni tepër i lartë. Këtë detyrë e kryen valvula e sigurisë."
+ },
+ "s15": {
+  "de": "Damit kannst du dir die drei Aufgaben sehr einfach merken: Das Sicherheitsventil schützt. Das Manometer zeigt. Der automatische Entlüfter entlüftet.",
+  "sq": "Kështu mund t'i mbash mend shumë thjesht tri detyrat: valvula e sigurisë mbron. Manometri tregon. Ajruesi automatik nxjerr ajrin."
+ },
+ "s16": {
+  "de": "Die Sicherheitsgruppe wird nach Hydraulikschema und Herstellerangaben so eingebunden, dass der Wärmeerzeuger korrekt geschützt wird. Sie befindet sich typischerweise nahe am zu schützenden Wärmeerzeuger.",
+  "sq": "Grupi i sigurisë lidhet sipas skemës hidraulike dhe udhëzimeve të prodhuesit, në mënyrë që pajisja e ngrohjes të mbrohet siç duhet. Zakonisht ai ndodhet pranë pajisjes që duhet mbrojtur."
+ },
+ "s17": {
+  "de": "Auch das Sicherheitsventil selbst muss zur Anlage passen. Ansprechdruck, Abblaseleistung und Ausführung richten sich nach dem zulässigen Betriebsdruck, der Leistung, dem Anlagenkonzept und den Herstellerangaben.",
+  "sq": "Edhe vetë valvula e sigurisë duhet t'i përshtatet instalimit. Presioni i hapjes, kapaciteti i shkarkimit dhe lloji varen nga presioni i lejuar i punës, fuqia, koncepti i instalimit dhe udhëzimet e prodhuesit."
+ },
+ "s18": {
+  "de": "Jetzt die typischen Fehler. Eine geschlossene Absperrung im Sicherheitsweg. Ein verschlossener Ablauf am Sicherheitsventil. Ein Sicherheitsventil, das nicht zur Anlage passt. Das Manometer wird mit einer Sicherheitseinrichtung verwechselt. Der Entlüfter wird für ein Sicherheitsventil gehalten. Das Em-A-Ge wird als Teil der Gruppe angesehen. Und Wasser, das unkontrolliert in den Raum spritzt.",
+  "sq": "Tani gabimet tipike. Një valvul mbyllëse e mbyllur në rrugën e sigurisë. Dalja e valvulës së sigurisë e mbyllur. Një valvul sigurie që nuk i përshtatet instalimit. Manometri ngatërrohet me një pajisje sigurie. Ajruesi konsiderohet si valvul sigurie. Em-A-Ge-ja konsiderohet pjesë e grupit. Dhe uji që spërkat pa kontroll në dhomë."
+ },
+ "s19": {
+  "de": "Wenn du diese Gruppe jetzt auf einer Baustelle siehst, solltest du sofort drei Fragen stellen können: Wo ist das Sicherheitsventil? Wo sehe ich den Druck? Und wo kann angesammelte Luft automatisch austreten?",
+  "sq": "Kur ta shohësh tani këtë grup në kantier, duhet të mund t'i bësh menjëherë tri pyetje: ku është valvula e sigurisë? Ku shoh presionin? Dhe ku mund të dalë automatikisht ajri i grumbulluar?"
+ },
+ "s20": {
+  "de": "Bei der Kontrolle reicht ein kurzer Blick auf den Zeiger nicht. Ist die Sicherheitsgruppe vorhanden? Ist der Sicherheitsweg frei? Ist der Ausgang des Sicherheitsventils frei und sicher geführt? Ist das richtige Sicherheitsventil vorgesehen? Ist das Manometer lesbar? Und ist der Entlüfter korrekt eingebaut?",
+  "sq": "Gjatë kontrollit nuk mjafton vetëm një shikim te treguesi i presionit. A ekziston grupi i sigurisë? A është e lirë rruga e sigurisë? A është dalja e valvulës së sigurisë e lirë dhe e drejtuar në mënyrë të sigurt? A është parashikuar valvula e duhur e sigurisë? A lexohet manometri? Dhe a është montuar saktë ajruesi?"
+ },
+ "s21": {
+  "de": "Merke dir die Sicherheitsgruppe so: Das Sicherheitsventil schützt vor unzulässig hohem Druck. Das Manometer zeigt den Druck an. Der automatische Entlüfter lässt angesammelte Luft austreten. Das Em-A-Ge ist ein separates Bauteil für die normalen Volumenänderungen. Und der Weg vom Wärmeerzeuger zum Sicherheitsventil muss immer frei bleiben.",
+  "sq": "Mbaje mend grupin e sigurisë kështu: valvula e sigurisë mbron nga presioni tepër i lartë. Manometri tregon presionin. Ajruesi automatik largon ajrin e grumbulluar. Em-A-Ge-ja është një komponent i veçantë për ndryshimet normale të vëllimit. Dhe rruga nga pajisja e ngrohjes deri te valvula e sigurisë duhet të mbetet gjithmonë e lirë."
+ },
+ "outro": {
+  "de": "Modul vier abgeschlossen.",
+  "sq": "Moduli katër përfunduar."
+ }
+}

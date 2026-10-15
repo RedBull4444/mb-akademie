@@ -1,0 +1,846 @@
+{
+  "intro_kicker": {
+    "de": "SHK GRUNDLAGEN",
+    "sq": "BAZAT E SHK-së"
+  },
+  "intro_mod": {
+    "de": "MODUL 3",
+    "sq": "MODULI 3"
+  },
+  "intro_title": {
+    "de": "Nachfülleinheit & Wasseraufbereitung",
+    "sq": "Njësia e mbushjes dhe trajtimi i ujit",
+    "termDe": "Nachfülleinheit & Wasseraufbereitung"
+  },
+  "outro_done": {
+    "de": "MODUL 3 ABGESCHLOSSEN",
+    "sq": "MODULI 3 PËRFUNDUAR"
+  },
+  "fn1": {
+    "de": "Trinkwasserschutz",
+    "sq": "Mbrojtja e ujit të pijshëm",
+    "term": true
+  },
+  "fn2": {
+    "de": "Befüllung",
+    "sq": "Mbushja",
+    "term": true
+  },
+  "fn3": {
+    "de": "Wasseraufbereitung",
+    "sq": "Trajtimi i ujit",
+    "term": true
+  },
+  "FN1": {
+    "de": "TRINKWASSERSCHUTZ",
+    "sq": "MBROJTJA E UJIT TË PIJSHËM",
+    "termDe": "Trinkwasserschutz"
+  },
+  "FN2": {
+    "de": "FÜLLDRUCK / BEFÜLLUNG",
+    "sq": "PRESIONI I MBUSHJES / MBUSHJA",
+    "termDe": "Fülldruck / Befüllung"
+  },
+  "FN3": {
+    "de": "WASSERAUFBEREITUNG",
+    "sq": "TRAJTIMI I UJIT",
+    "termDe": "Wasseraufbereitung"
+  },
+  "s01_kicker": {
+    "de": "Das echte Bauteil",
+    "sq": "Komponenti i vërtetë"
+  },
+  "s01_title": {
+    "de": "Nachfülleinheit",
+    "sq": "Njësia e mbushjes",
+    "termDe": "Nachfülleinheit"
+  },
+  "s01_ex": {
+    "de": "Beispiel: Logafix Nachfüllkombination (Buderus)",
+    "sq": "Shembull: Logafix Nachfüllkombination (Buderus)"
+  },
+  "s01_ves": {
+    "de": "Variante mit Aufbereitungspatrone",
+    "sq": "Variant me fishek trajtimi",
+    "termDe": "Variante mit Aufbereitungspatrone"
+  },
+  "h02": {
+    "de": "Warum nicht einfach Wasser nachfüllen?",
+    "sq": "Pse jo thjesht të shtosh ujë?"
+  },
+  "tw": {
+    "de": "Trinkwasser",
+    "sq": "Ujë i pijshëm",
+    "term": true
+  },
+  "hz": {
+    "de": "Heizungsanlage",
+    "sq": "Sistemi i ngrohjes",
+    "term": true
+  },
+  "hw": {
+    "de": "Heizungswasser",
+    "sq": "Ujë ngrohjeje",
+    "term": true
+  },
+  "q_hose": {
+    "de": "Einfach Schlauch dran und Wasser rein?",
+    "sq": "Vetëm lidh zorrën dhe mbush me ujë?"
+  },
+  "no_check": {
+    "de": "NEIN – zuerst Anforderungen prüfen.",
+    "sq": "JO – fillimisht kontrollohen kërkesat."
+  },
+  "bad_water": {
+    "de": "Ungeeignetes / nicht geprüftes Füllwasser",
+    "sq": "Ujë mbushjeje i papërshtatshëm / i pakontrolluar",
+    "termDe": "Ungeeignetes Füllwasser"
+  },
+  "scale": {
+    "de": "mögliche Steinbildung",
+    "sq": "depozita të mundshme gëlqereje",
+    "termDe": "Steinbildung"
+  },
+  "corr": {
+    "de": "mögliche Korrosionsprobleme",
+    "sq": "probleme të mundshme korrozioni",
+    "termDe": "Korrosion"
+  },
+  "no_back_tw": {
+    "de": "Kein Rückfluss ins Trinkwasser",
+    "sq": "Pa kthim në ujin e pijshëm"
+  },
+  "h03": {
+    "de": "Die drei Aufgaben",
+    "sq": "Tri detyrat"
+  },
+  "noreplace": {
+    "de": "Keine Aufgabe ersetzt eine andere",
+    "sq": "Asnjë detyrë nuk e zëvendëson tjetrën"
+  },
+  "h04": {
+    "de": "Der Weg des Füllwassers",
+    "sq": "Rruga e ujit të mbushjes"
+  },
+  "TW": {
+    "de": "TRINKWASSER",
+    "sq": "UJË I PIJSHËM",
+    "termDe": "Trinkwasser"
+  },
+  "ARM": {
+    "de": "SICHERUNGS-/FÜLLARMATUR",
+    "sq": "ARMATURA E SIGURISË / MBUSHJES",
+    "termDe": "Sicherungs-/Füllarmatur"
+  },
+  "WA": {
+    "de": "WASSERAUFBEREITUNG",
+    "sq": "TRAJTIMI I UJIT",
+    "termDe": "Wasseraufbereitung"
+  },
+  "FA": {
+    "de": "HEIZUNGSFÜLLANSCHLUSS",
+    "sq": "LIDHJA E MBUSHJES",
+    "termDe": "Heizungsfüllanschluss"
+  },
+  "HZ": {
+    "de": "HEIZUNGSANLAGE",
+    "sq": "SISTEMI I NGROHJES",
+    "termDe": "Heizungsanlage"
+  },
+  "principle": {
+    "de": "Prinzipdarstellung",
+    "sq": "Paraqitje parimore"
+  },
+  "per_manu": {
+    "de": "Genaue Ausführung nach Baugruppe und Herstellerangaben",
+    "sq": "Ndërtimi i saktë sipas pajisjes dhe udhëzimeve të prodhuesit"
+  },
+  "h05": {
+    "de": "Aufgabe 1: Trinkwasserschutz",
+    "sq": "Detyra 1: Mbrojtja e ujit të pijshëm"
+  },
+  "tw_inst": {
+    "de": "Trinkwasserinstallation",
+    "sq": "Instalimi i ujit të pijshëm",
+    "term": true
+  },
+  "ba": {
+    "de": "Systemtrenner BA",
+    "sq": "Ndarësi i sistemit BA",
+    "term": true
+  },
+  "safe_dev": {
+    "de": "Geeignete Sicherungseinrichtung",
+    "sq": "Pajisje e përshtatshme sigurie",
+    "termDe": "Sicherungseinrichtung"
+  },
+  "fill_ok": {
+    "de": "Befüllen: kontrolliert zur Heizung",
+    "sq": "Mbushja: e kontrolluar drejt ngrohjes"
+  },
+  "back_sep": {
+    "de": "Rückfluss: sicher getrennt",
+    "sq": "Kthimi: ndahet në mënyrë të sigurt"
+  },
+  "h06": {
+    "de": "BA ist nicht für alles",
+    "sq": "BA nuk është për gjithçka"
+  },
+  "ba_cat": {
+    "de": "BA: Schutz bis Flüssigkeitskategorie 4",
+    "sq": "BA: mbrojtje deri në kategorinë 4 të lëngjeve",
+    "termDe": "Flüssigkeitskategorie 4"
+  },
+  "ba_not": {
+    "de": "Nicht für jede denkbare Verunreinigung.",
+    "sq": "Jo për çdo lloj ndotjeje."
+  },
+  "cat": {
+    "de": "Kategorie",
+    "sq": "Kategoria"
+  },
+  "additives": {
+    "de": "Zusätze im Heizungswasser?",
+    "sq": "Shtesa në ujin e ngrohjes?",
+    "termDe": "Zusätze"
+  },
+  "danger": {
+    "de": "Tatsächliche Gefährdung?",
+    "sq": "Rreziku i vërtetë?"
+  },
+  "fit_prot": {
+    "de": "Absicherung passend zur Anlage wählen",
+    "sq": "Zgjidh mbrojtjen sipas instalimit"
+  },
+  "h07": {
+    "de": "Einfacher Schlauch ist nicht dasselbe",
+    "sq": "Zorra e thjeshtë nuk është e njëjta gjë"
+  },
+  "wrong": {
+    "de": "FALSCH",
+    "sq": "GABIM",
+    "term": true
+  },
+  "right": {
+    "de": "RICHTIG",
+    "sq": "SAKTË",
+    "term": true
+  },
+  "hose_rv": {
+    "de": "Schlauch + einfaches Rückschlagventil",
+    "sq": "Zorrë + valvul e thjeshtë kundërkthimi",
+    "termDe": "Rückschlagventil"
+  },
+  "fill_unit": {
+    "de": "Geeignete Füll-/Sicherungseinheit",
+    "sq": "Njësi e përshtatshme mbushjeje/sigurie",
+    "termDe": "Füll-/Sicherungseinheit"
+  },
+  "temp_too": {
+    "de": "Auch temporäre Füllverbindungen absichern",
+    "sq": "Edhe lidhjet e përkohshme duhet të mbrohen"
+  },
+  "h08": {
+    "de": "Der Ablauf des Systemtrenners",
+    "sq": "Dalja e ndarësit të sistemit"
+  },
+  "drain_free": {
+    "de": "Frei · sichtbar · entwässerbar",
+    "sq": "E lirë · e dukshme · shkarkon ujë"
+  },
+  "drain_closed": {
+    "de": "Ablauf verschlossen",
+    "sq": "Dalja e mbyllur",
+    "termDe": "Ablauf verschlossen"
+  },
+  "d1": {
+    "de": "Nicht verschließen",
+    "sq": "Mos e mbyll"
+  },
+  "d2": {
+    "de": "Keinen Stopfen setzen",
+    "sq": "Mos vendos tapë"
+  },
+  "d3": {
+    "de": "Nicht mit Schlauch unter Wasser führen",
+    "sq": "Mos e fut me zorrë nën ujë"
+  },
+  "drain_check": {
+    "de": "Bei Montage und Wartung kontrollieren",
+    "sq": "Kontrollohet gjatë montimit dhe mirëmbajtjes"
+  },
+  "drain": {
+    "de": "Ablauf",
+    "sq": "Dalja",
+    "term": true
+  },
+  "h09": {
+    "de": "Aufgabe 2: Kontrolliertes Befüllen",
+    "sq": "Detyra 2: Mbushja e kontrolluar"
+  },
+  "tw_press": {
+    "de": "Trinkwasserdruck",
+    "sq": "Presioni i ujit të pijshëm",
+    "term": true
+  },
+  "dm": {
+    "de": "Druckminderer",
+    "sq": "Reduktuesi i presionit",
+    "term": true
+  },
+  "gauge_p": {
+    "de": "Manometer zeigt Druck – nicht Durchfluss",
+    "sq": "Manometri tregon presionin – jo debitin",
+    "termDe": "Manometer"
+  },
+  "soll": {
+    "de": "Mit Sollwert der Anlage vergleichen",
+    "sq": "Krahaso me vlerën e kërkuar të instalimit",
+    "termDe": "Sollwert"
+  },
+  "no_univ": {
+    "de": "Kein universeller Wert",
+    "sq": "Nuk ka vlerë universale"
+  },
+  "h10": {
+    "de": "Aufgabe 3: Wasseraufbereitung",
+    "sq": "Detyra 3: Trajtimi i ujit"
+  },
+  "SOFT": {
+    "de": "ENTHÄRTUNG",
+    "sq": "ZBUTJA",
+    "termDe": "Enthärtung"
+  },
+  "DEMIN": {
+    "de": "ENTSALZUNG / VOLLENTSALZUNG",
+    "sq": "ÇKRIPËZIMI / ÇKRIPËZIMI I PLOTË",
+    "termDe": "Entsalzung / Vollentsalzung"
+  },
+  "notsame": {
+    "de": "Nicht dasselbe Verfahren",
+    "sq": "Nuk janë e njëjta metodë"
+  },
+  "cart": {
+    "de": "Patrone",
+    "sq": "Fisheku",
+    "term": true
+  },
+  "h11": {
+    "de": "Enthärtung einfach erklärt",
+    "sq": "Zbutja e shpjeguar thjesht"
+  },
+  "soft": {
+    "de": "Enthärtung",
+    "sq": "Zbutja",
+    "term": true
+  },
+  "hard_down": {
+    "de": "Härte",
+    "sq": "Fortësia",
+    "term": true
+  },
+  "camg": {
+    "de": "Calcium / Magnesium",
+    "sq": "Kalcium / Magnez",
+    "termDe": "Calcium / Magnesium"
+  },
+  "na": {
+    "de": "Natrium",
+    "sq": "Natrium",
+    "term": true
+  },
+  "iex": {
+    "de": "Ionenaustausch",
+    "sq": "Shkëmbimi i joneve",
+    "term": true
+  },
+  "other_ions": {
+    "de": "andere gelöste Stoffe bleiben",
+    "sq": "substancat e tjera të tretura mbeten"
+  },
+  "not_demin": {
+    "de": "Enthärtet ≠ entsalzt",
+    "sq": "I zbutur ≠ i çkripëzuar",
+    "termDe": "Enthärtet ≠ entsalzt"
+  },
+  "inflow": {
+    "de": "Füllwasser",
+    "sq": "Uji i mbushjes",
+    "term": true
+  },
+  "outflow": {
+    "de": "nach der Patrone",
+    "sq": "pas fishekut"
+  },
+  "h12": {
+    "de": "Vollentsalzung einfach erklärt",
+    "sq": "Çkripëzimi i plotë i shpjeguar thjesht"
+  },
+  "demin": {
+    "de": "Vollentsalzung",
+    "sq": "Çkripëzimi",
+    "term": true
+  },
+  "ions_down": {
+    "de": "gelöste Ionen",
+    "sq": "jonet e tretura",
+    "termDe": "gelöste Ionen"
+  },
+  "cond_down": {
+    "de": "Leitfähigkeit",
+    "sq": "përçueshmëria",
+    "term": true
+  },
+  "mixbed": {
+    "de": "Mischbettharz (schematisch)",
+    "sq": "Rrëshirë e përzier (skematike)",
+    "termDe": "Mischbettharz"
+  },
+  "cond": {
+    "de": "Leitfähigkeit",
+    "sq": "Përçueshmëria",
+    "term": true
+  },
+  "before": {
+    "de": "vorher",
+    "sq": "para"
+  },
+  "after": {
+    "de": "nachher",
+    "sq": "pas"
+  },
+  "h13": {
+    "de": "Nicht die falsche Messgröße verwenden",
+    "sq": "Mos përdor madhësinë e gabuar të matjes"
+  },
+  "ctrl": {
+    "de": "Kontrolle",
+    "sq": "Kontrolli",
+    "term": true
+  },
+  "resth": {
+    "de": "Resthärte",
+    "sq": "Fortësia e mbetur",
+    "term": true
+  },
+  "capa": {
+    "de": "Kapazität",
+    "sq": "Kapaciteti",
+    "term": true
+  },
+  "cond_not": {
+    "de": "Leitfähigkeit allein beweist bei Enthärtung nicht die Resthärte.",
+    "sq": "Te zbutja, vetëm përçueshmëria nuk e vërteton fortësinë e mbetur."
+  },
+  "which": {
+    "de": "Entscheidend: welche Aufbereitung verwendet wird",
+    "sq": "Vendimtare: cili trajtim përdoret"
+  },
+  "h14": {
+    "de": "Welche Patrone braucht die Anlage?",
+    "sq": "Çfarë fisheku i duhet instalimit?"
+  },
+  "i_an": {
+    "de": "Wasseranalyse",
+    "sq": "Analiza e ujit",
+    "term": true
+  },
+  "i_vol": {
+    "de": "Anlagenvolumen",
+    "sq": "Vëllimi i instalimit",
+    "term": true
+  },
+  "i_mat": {
+    "de": "Werkstoffe",
+    "sq": "Materialet",
+    "term": true
+  },
+  "i_gen": {
+    "de": "Wärmeerzeuger",
+    "sq": "Pajisja e ngrohjes",
+    "term": true
+  },
+  "i_man": {
+    "de": "Herstellervorgaben",
+    "sq": "Udhëzimet e prodhuesit",
+    "term": true
+  },
+  "right_wa": {
+    "de": "richtige Wasseraufbereitung",
+    "sq": "trajtimi i duhur i ujit",
+    "termDe": "Wasseraufbereitung"
+  },
+  "pmm": {
+    "de": "Plan + Hersteller + Messung",
+    "sq": "Projekti + prodhuesi + matja",
+    "termDe": "Plan + Hersteller + Messung"
+  },
+  "no_feel": {
+    "de": "Nicht nach Gefühl",
+    "sq": "Jo me hamendje"
+  },
+  "h15": {
+    "de": "Patronenwechsel: vorbereiten",
+    "sq": "Ndërrimi i fishekut: përgatitja"
+  },
+  "chg": {
+    "de": "VORBEREITEN",
+    "sq": "PËRGATITJA",
+    "termDe": "Vorbereiten"
+  },
+  "c1": {
+    "de": "Füllbetrieb beenden",
+    "sq": "Ndal mbushjen"
+  },
+  "c2": {
+    "de": "Vorgesehenen Bereich absperren",
+    "sq": "Izolo pjesën e parashikuar"
+  },
+  "c3": {
+    "de": "Zu öffnenden Bereich druckentlasten",
+    "sq": "Shkarko presionin e pjesës që hapet"
+  },
+  "c4": {
+    "de": "Erst dann Patrone öffnen",
+    "sq": "Vetëm pastaj hap fishekun"
+  },
+  "no_press": {
+    "de": "Nicht unter Druck abschrauben",
+    "sq": "Mos e zhvidho nën presion"
+  },
+  "manual": {
+    "de": "Nach Herstelleranleitung",
+    "sq": "Sipas udhëzimit të prodhuesit"
+  },
+  "h16": {
+    "de": "Patronenwechsel: neue Patrone",
+    "sq": "Ndërrimi i fishekut: fisheku i ri"
+  },
+  "NEW": {
+    "de": "NEUE PATRONE",
+    "sq": "FISHEKU I RI",
+    "termDe": "Neue Patrone"
+  },
+  "n1": {
+    "de": "Alte Patrone raus",
+    "sq": "Hiq fishekun e vjetër"
+  },
+  "n2": {
+    "de": "Richtige neue Patrone bereit",
+    "sq": "Fisheku i duhur i ri gati"
+  },
+  "n3": {
+    "de": "Dichtung prüfen",
+    "sq": "Kontrollo guarnicionin"
+  },
+  "n4": {
+    "de": "Patrone korrekt einsetzen",
+    "sq": "Vendos fishekun saktë"
+  },
+  "planned": {
+    "de": "vorgesehen laut Planung",
+    "sq": "e parashikuar sipas projektit"
+  },
+  "noswap": {
+    "de": "Nicht verwechseln",
+    "sq": "Mos i ngatërro"
+  },
+  "seal": {
+    "de": "Dichtung",
+    "sq": "Guarnicioni",
+    "term": true
+  },
+  "h17": {
+    "de": "Nach dem Patronenwechsel",
+    "sq": "Pas ndërrimit të fishekut"
+  },
+  "AFTER": {
+    "de": "DANACH",
+    "sq": "PASTAJ",
+    "termDe": "Danach"
+  },
+  "a1": {
+    "de": "Nach Vorgabe spülen",
+    "sq": "Shpëla sipas udhëzimit"
+  },
+  "a2": {
+    "de": "Entlüften",
+    "sq": "Ajro"
+  },
+  "a3": {
+    "de": "Erforderliche Messung durchführen",
+    "sq": "Bëj matjen e nevojshme"
+  },
+  "a4": {
+    "de": "Dichtheit kontrollieren",
+    "sq": "Kontrollo rrjedhjet"
+  },
+  "a5": {
+    "de": "Wassermenge dokumentieren",
+    "sq": "Dokumento sasinë e ujit"
+  },
+  "a6": {
+    "de": "Wechsel dokumentieren",
+    "sq": "Dokumento ndërrimin"
+  },
+  "h18": {
+    "de": "Nicht nur die Patrone warten",
+    "sq": "Mos mirëmbaj vetëm fishekun"
+  },
+  "MAINT": {
+    "de": "WARTUNG",
+    "sq": "MIRËMBAJTJA",
+    "termDe": "Wartung"
+  },
+  "m_cart": {
+    "de": "Patrone",
+    "sq": "Fisheku",
+    "term": true
+  },
+  "m_ba": {
+    "de": "Systemtrenner",
+    "sq": "Ndarësi i sistemit",
+    "term": true
+  },
+  "m_dm": {
+    "de": "Druckminderer",
+    "sq": "Reduktuesi i presionit",
+    "term": true
+  },
+  "m_meas": {
+    "de": "Mess-/Anzeigeeinrichtung",
+    "sq": "Pikat e matjes / treguesi",
+    "termDe": "Mess-/Anzeigeeinrichtung"
+  },
+  "m_seal": {
+    "de": "Dichtungen / Verbindungen",
+    "sq": "Guarnicionet / lidhjet",
+    "termDe": "Dichtungen / Verbindungen"
+  },
+  "per_spec": {
+    "de": "Nach den jeweiligen Vorgaben",
+    "sq": "Sipas kërkesave përkatëse"
+  },
+  "h19": {
+    "de": "Wann wird die Patrone gewechselt?",
+    "sq": "Kur ndërrohet fisheku?"
+  },
+  "yearly": {
+    "de": "„jedes Jahr“",
+    "sq": "„çdo vit“"
+  },
+  "looks": {
+    "de": "„sieht schmutzig aus“",
+    "sq": "„duket e ndotur“"
+  },
+  "w_cap": {
+    "de": "Kapazität",
+    "sq": "Kapaciteti",
+    "term": true
+  },
+  "w_meas": {
+    "de": "Messung",
+    "sq": "Matja",
+    "term": true
+  },
+  "w_man": {
+    "de": "Herstellervorgabe",
+    "sq": "Udhëzimi i prodhuesit",
+    "term": true
+  },
+  "remaining": {
+    "de": "Restkapazität",
+    "sq": "Kapaciteti i mbetur",
+    "term": true
+  },
+  "h20": {
+    "de": "Messwert am Patronenausgang",
+    "sq": "Matja në daljen e fishekut"
+  },
+  "at_out": {
+    "de": "Aufbereitetes Füllwasser – an dieser Stelle",
+    "sq": "Ujë mbushjeje i trajtuar – në këtë pikë"
+  },
+  "all_water": {
+    "de": "Gesamtes Anlagenwasser",
+    "sq": "Uji në të gjithë sistemin",
+    "termDe": "Anlagenwasser"
+  },
+  "NOTSAME": {
+    "de": "Nicht dasselbe.",
+    "sq": "Nuk është e njëjta gjë."
+  },
+  "meas_pt": {
+    "de": "Messstelle",
+    "sq": "Pika e matjes",
+    "term": true
+  },
+  "h21": {
+    "de": "Häufiges Nachfüllen",
+    "sq": "Mbushja e shpeshtë"
+  },
+  "refill": {
+    "de": "Nachfüllen",
+    "sq": "Mbushja",
+    "term": true
+  },
+  "again": {
+    "de": "Druck fällt wieder",
+    "sq": "Presioni bie përsëri"
+  },
+  "find_cause": {
+    "de": "Nicht ständig nachfüllen – Ursache finden.",
+    "sq": "Mos mbush vazhdimisht – gjej shkakun."
+  },
+  "cz1": {
+    "de": "Druckhaltung",
+    "sq": "Mbajtja e presionit",
+    "term": true
+  },
+  "cz2": {
+    "de": "Undichtigkeit",
+    "sq": "Rrjedhje",
+    "term": true
+  },
+  "cz3": {
+    "de": "Anderes Anlagenteil",
+    "sq": "Pjesë tjetër e sistemit"
+  },
+  "h22": {
+    "de": "Typische Fehler",
+    "sq": "Gabime tipike"
+  },
+  "e1": {
+    "de": "Trinkwasserschutz fehlt",
+    "sq": "Mungon mbrojtja e ujit të pijshëm"
+  },
+  "e2": {
+    "de": "Einfacher Rückschlag statt erforderlicher Sicherung",
+    "sq": "Valvul e thjeshtë kundërkthimi në vend të sigurisë",
+    "termDe": "Rückschlagventil statt Sicherung"
+  },
+  "e3": {
+    "de": "Ablauf des Systemtrenners blockiert",
+    "sq": "Dalja e ndarësit të sistemit e bllokuar"
+  },
+  "e4": {
+    "de": "Enthärtung und Entsalzung verwechselt",
+    "sq": "Zbutja dhe çkripëzimi ngatërrohen"
+  },
+  "e5": {
+    "de": "Patrone erschöpft, aber weiter benutzt",
+    "sq": "Fisheku i shteruar, por përdoret përsëri"
+  },
+  "e6": {
+    "de": "Universellen Messwert kopiert",
+    "sq": "Vlera e matjes e kopjuar"
+  },
+  "e7": {
+    "de": "Patrone unter Druck geöffnet",
+    "sq": "Fisheku hapet nën presion"
+  },
+  "e8": {
+    "de": "Ständig Wasser nachfüllen",
+    "sq": "Shtimi i vazhdueshëm i ujit"
+  },
+  "other_val": {
+    "de": "Wert von anderer Anlage",
+    "sq": "Vlerë nga një sistem tjetër"
+  },
+  "this_soll": {
+    "de": "Sollwert der konkreten Anlage",
+    "sq": "Vlera e kërkuar e sistemit konkret"
+  },
+  "first_rel": {
+    "de": "Erst absperren + druckentlasten",
+    "sq": "Fillimisht izolo + shkarko presionin"
+  },
+  "cause_chk": {
+    "de": "Ursache prüfen",
+    "sq": "Kontrollo shkakun"
+  },
+  "empty": {
+    "de": "Kapazität am Ende",
+    "sq": "Kapaciteti në fund"
+  },
+  "h23": {
+    "de": "Das echte Bauteil",
+    "sq": "Komponenti i vërtetë"
+  },
+  "p_gauge": {
+    "de": "Manometer",
+    "sq": "Manometri",
+    "term": true
+  },
+  "p_box": {
+    "de": "Systemtrenner BA + Druckminderer",
+    "sq": "Ndarësi BA + reduktuesi i presionit",
+    "termDe": "Systemtrenner BA + Druckminderer"
+  },
+  "p_box_s": {
+    "de": "im Gehäuse (laut Hersteller)",
+    "sq": "brenda kutisë (sipas prodhuesit)"
+  },
+  "p_cart": {
+    "de": "Aufbereitungspatrone",
+    "sq": "Fisheku i trajtimit",
+    "termDe": "Aufbereitungspatrone"
+  },
+  "q1": {
+    "de": "Wo wird das Trinkwasser geschützt?",
+    "sq": "Ku mbrohet uji i pijshëm?"
+  },
+  "q2": {
+    "de": "Wo wird der Fülldruck kontrolliert?",
+    "sq": "Ku kontrollohet presioni i mbushjes?"
+  },
+  "q3": {
+    "de": "Welche Aufbereitung ist vorgesehen?",
+    "sq": "Cili trajtim i ujit është parashikuar?"
+  },
+  "not_only": {
+    "de": "Nicht nur an die Patrone denken",
+    "sq": "Mos mendo vetëm për fishekun"
+  },
+  "h24": {
+    "de": "Die ganze Füllstrecke",
+    "sq": "E gjithë linja e mbushjes"
+  },
+  "f1": {
+    "de": "Trinkwasser kommt an",
+    "sq": "Uji i pijshëm vjen"
+  },
+  "f2": {
+    "de": "Sicherung schützt das Trinkwassernetz",
+    "sq": "Siguria mbron rrjetin e ujit të pijshëm"
+  },
+  "f3": {
+    "de": "Fülldruck wird kontrolliert",
+    "sq": "Presioni i mbushjes kontrollohet"
+  },
+  "f4": {
+    "de": "Wasser läuft durch die vorgesehene Aufbereitung",
+    "sq": "Uji kalon përmes trajtimit të parashikuar"
+  },
+  "f5": {
+    "de": "Aufbereitetes Wasser gelangt zur Heizung",
+    "sq": "Uji i trajtuar shkon te ngrohja"
+  },
+  "f6": {
+    "de": "Messwerte prüfen",
+    "sq": "Kontrollo matjet"
+  },
+  "f7": {
+    "de": "Eingefüllte Menge dokumentieren",
+    "sq": "Dokumento sasinë e mbushur"
+  },
+  "soft_ne": {
+    "de": "Enthärtung ≠ Entsalzung",
+    "sq": "Zbutja ≠ çkripëzimi",
+    "termDe": "Enthärtung ≠ Entsalzung"
+  },
+  "always_cause": {
+    "de": "Ständig nachfüllen? Ursache suchen.",
+    "sq": "Mbushje e vazhdueshme? Kërko shkakun."
+  }
+}

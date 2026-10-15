@@ -1,0 +1,86 @@
+{
+  "intro": {
+    "de": "Es-Ha-Ka Grundlagen. Modul 2. Das Trinkwasser-Ausdehnungsgefäß.",
+    "sq": "Bazat e SHK-së. Moduli 2. Ena e zgjerimit për ujin sanitar."
+  },
+  "s01": {
+    "de": "In Modul 1 haben wir das Membran-Ausdehnungsgefäß der Heizungsanlage kennengelernt. Dieses Bauteil hier arbeitet nach einem ähnlichen Prinzip, gehört aber zur Trinkwasserinstallation. Deshalb dürfen beide Gefäßarten nicht einfach miteinander verwechselt werden.",
+    "sq": "Në modulin e parë mësuam enën e zgjerimit të sistemit të ngrohjes. Ky komponent punon sipas një parimi të ngjashëm, por është pjesë e instalimit të ujit sanitar. Prandaj këto dy lloje enësh nuk duhet të ngatërrohen."
+  },
+  "s02": {
+    "de": "Beide Gefäße besitzen grundsätzlich eine Wasser- und eine Gasseite, die durch eine Membran getrennt werden. Der entscheidende Unterschied ist der Einsatzbereich. Das Heizungs-M-A-G arbeitet mit Heizungswasser. Ein Trinkwasser-M-A-G steht mit Trinkwasser in Verbindung und muss dafür ausdrücklich geeignet sein.",
+    "sq": "Të dyja enët kanë në parim një anë uji dhe një anë gazi, të ndara nga një membranë. Dallimi kryesor është përdorimi. MAG-u i ngrohjes punon me ujë ngrohjeje. Ena e ujit sanitar është në kontakt me ujin e pijshëm dhe duhet të jetë e përshtatshme posaçërisht për këtë përdorim."
+  },
+  "s03": {
+    "de": "Schauen wir uns einen Trinkwarmwasserspeicher an. Das kalte Trinkwasser gelangt in den Speicher und wird dort erwärmt. Heizungswasser und Trinkwasser bleiben dabei voneinander getrennt.",
+    "sq": "Tani shohim një depozitë të ujit të ngrohtë sanitar. Uji i ftohtë hyn në depozitë dhe ngrohet. Uji i ngrohjes dhe uji sanitar mbeten të ndarë nga njëri-tjetri."
+  },
+  "s04": {
+    "de": "Auch Trinkwasser dehnt sich beim Erwärmen aus. Wird das Wasser im Speicher wärmer, benötigt es etwas mehr Platz.",
+    "sq": "Edhe uji sanitar zgjerohet kur nxehet. Kur uji në depozitë ngrohet, ai kërkon pak më shumë hapësirë."
+  },
+  "s05": {
+    "de": "In der Kaltwasserzuleitung befindet sich eine Rückflusssicherung. Sie lässt Wasser in Richtung Speicher fließen, verhindert aber, dass Wasser einfach zurück in die vorgeschaltete Trinkwasserinstallation strömt.",
+    "sq": "Në furnizimin me ujë të ftohtë ndodhet një pengues kthimi. Ai lejon që uji të rrjedhë drejt depozitës, por pengon kthimin e tij në instalimin e mëparshëm të ujit."
+  },
+  "s06": {
+    "de": "Das Wasser wird wärmer und dehnt sich aus. Durch den Rückflussverhinderer kann dieses zusätzliche Volumen nicht einfach zurückfließen. Der Druck im abgesperrten Bereich steigt.",
+    "sq": "Uji nxehet dhe zgjerohet. Për shkak të penguesit të kthimit, ky vëllim shtesë nuk mund të kthehet thjesht mbrapsht. Presioni në këtë pjesë të mbyllur rritet."
+  },
+  "s07": {
+    "de": "Ist kein Trinkwasser-Ausdehnungsgefäß vorgesehen, kann das zusätzliche Ausdehnungswasser während des Aufheizens über das Sicherheitsventil abgeführt werden. Wasser am Sicherheitsventil während der Erwärmung bedeutet deshalb nicht automatisch, dass das Ventil defekt ist.",
+    "sq": "Nëse nuk është parashikuar një enë zgjerimi për ujin sanitar, uji shtesë nga zgjerimi mund të shkarkohet gjatë ngrohjes përmes valvulës së sigurisë. Prandaj dalja e ujit gjatë ngrohjes nuk do të thotë automatikisht se valvula është me defekt."
+  },
+  "s08": {
+    "de": "Wird ein geeignetes Trinkwasser-Ausdehnungsgefäß eingesetzt, wird es auf der Speicherseite des Rückflussverhinderers in die Kaltwasserleitung eingebunden. So kann das sich ausdehnende Wasser das Gefäß erreichen.",
+    "sq": "Kur përdoret një enë e përshtatshme zgjerimi për ujin sanitar, ajo lidhet në anën e depozitës pas penguesit të kthimit, në tubin e ujit të ftohtë. Kështu uji që zgjerohet mund të arrijë enën."
+  },
+  "s09": {
+    "de": "Das Funktionsprinzip kennen wir bereits. Das zusätzliche Wasser gelangt in das Gefäß und drückt gegen die Membran. Dadurch wird das Gaspolster komprimiert. Wird später wieder weniger Volumen benötigt, kann sich das Gas ausdehnen und Wasser zurückdrücken.",
+    "sq": "Parimin e njohim tashmë. Uji shtesë hyn në enë dhe shtyn membranën. Kështu jastëku i gazit komprimohet. Kur më vonë nevojitet më pak vëllim, gazi mund të zgjerohet përsëri dhe ta shtyjë ujin mbrapsht."
+  },
+  "s10": {
+    "de": "Weil hier Trinkwasser im Spiel ist, gelten zusätzliche hygienische Anforderungen. Das Gefäß und seine Anschlusskombination müssen für Trinkwasser geeignet sein. Die Einbindung muss so ausgeführt werden, dass unnötige stagnierende Bereiche vermieden werden.",
+    "sq": "Meqenëse këtu kemi ujë të pijshëm, ka kërkesa shtesë higjienike. Ena dhe mënyra e lidhjes duhet të jenë të përshtatshme për ujë të pijshëm. Lidhja duhet të shmangë zona të panevojshme ku uji qëndron pa lëvizur."
+  },
+  "s11": {
+    "de": "Bei geeigneten Trinkwassergefäßen gehört deshalb die vorgesehene Durchströmung zur hygienischen Einbindung. Eine unnötige tote Stichleitung, in der Wasser lange stehen bleibt, soll vermieden werden.",
+    "sq": "Prandaj, te enët e përshtatshme për ujë të pijshëm, qarkullimi i parashikuar i ujit është pjesë e lidhjes higjienike. Duhet të shmangen degë të panevojshme ku uji mund të qëndrojë për një kohë të gjatë."
+  },
+  "s12": {
+    "de": "Für unseren typischen Speicheraufbau merkst du dir: Das Trinkwasser-M-A-G sitzt auf der Kaltwasserseite des Speichers und muss sich hydraulisch auf der richtigen Seite des Rückflussverhinderers befinden.",
+    "sq": "Për shembullin tonë të depozitës mbaj mend: Trinkwasser-MAG ndodhet në anën e ujit të ftohtë të depozitës dhe duhet të jetë hidraulikisht në anën e duhur të penguesit të kthimit."
+  },
+  "s13": {
+    "de": "Ganz wichtig: Das Trinkwasser-M-A-G ersetzt niemals das Sicherheitsventil. Das Ausdehnungsgefäß nimmt normale Volumenänderungen auf. Das Sicherheitsventil schützt den Speicher vor unzulässigem Überdruck.",
+    "sq": "Shumë e rëndësishme: ena e zgjerimit nuk e zëvendëson kurrë valvulën e sigurisë. Ena merr ndryshimet normale të vëllimit. Valvula e sigurisë mbron depozitën nga presioni tepër i lartë."
+  },
+  "s14": {
+    "de": "Ein Trinkwasser-Ausdehnungsgefäß ist nicht automatisch in jeder Anlage vorhanden. Ob es eingesetzt wird und wie es ausgelegt wird, richtet sich nach der konkreten Planung, den Komponenten und den Herstellervorgaben.",
+    "sq": "Një enë zgjerimi për ujin sanitar nuk është automatikisht pjesë e çdo instalimi. Nëse përdoret dhe si dimensionohet, varet nga projekti konkret, komponentët dhe udhëzimet e prodhuesit."
+  },
+  "s15": {
+    "de": "Auch beim Trinkwasser-M-A-G müssen Größe und Gasvordruck zur konkreten Anlage passen. Werte werden nicht einfach von einer anderen Anlage übernommen.",
+    "sq": "Edhe te Trinkwasser-MAG, madhësia dhe presioni paraprak i gazit duhet t’i përshtaten instalimit konkret. Vlerat nuk kopjohen thjesht nga një sistem tjetër."
+  },
+  "s16": {
+    "de": "Das Gefäß muss für Kontrolle und Wartung zugänglich bleiben. Für die Prüfung des Gasvordrucks wird die Wasserseite entsprechend der vorgesehenen Wartungsprozedur druckentlastet. Die konkrete Vorgehensweise richtet sich nach Gefäß, Armatur und Herstelleranleitung.",
+    "sq": "Ena duhet të mbetet e arritshme për kontroll dhe mirëmbajtje. Për kontrollin e presionit të gazit, ana e ujit shkarkohet nga presioni sipas procedurës së parashikuar. Mënyra konkrete varet nga ena, armatura dhe udhëzimi i prodhuesit."
+  },
+  "s17": {
+    "de": "Typische Fehler aus der Praxis. Ein Heizungs-M-A-G in der Trinkwasserinstallation: Nicht jedes M-A-G ist für Trinkwasser geeignet. Das Gefäß auf der falschen Seite des Rückflussverhinderers. Eine tote Stichleitung statt hygienischer Einbindung. Ein weggelassenes Sicherheitsventil, weil ja ein M-A-G da ist. Ein ungeprüfter Vordruck: Er muss zum Sollwert der Anlage passen. Und ein Gefäß, das so verbaut ist, dass Wartung kaum möglich ist.",
+    "sq": "Gabime tipike nga praktika. Një MAG ngrohjeje në instalimin e ujit sanitar: jo çdo MAG është i përshtatshëm për ujë të pijshëm. Ena në anën e gabuar të penguesit të kthimit. Një degë pa qarkullim në vend të një lidhjeje higjienike. Valvula e sigurisë e hequr, sepse gjoja ka një MAG. Presioni paraprak i pakontrolluar: ai duhet të përputhet me vlerën e kërkuar të sistemit. Dhe një enë e montuar aq keq, sa mirëmbajtja është pothuajse e pamundur."
+  },
+  "s18": {
+    "de": "So sieht ein Trinkwasser-Ausdehnungsgefäß in der Praxis aus: außen Gefäßkörper und Wasseranschluss, innen Wasserseite, Membran und Gaspolster. Dieses Bauteil kennst du jetzt von außen und von innen.",
+    "sq": "Kështu duket një enë zgjerimi për ujin sanitar në praktikë: nga jashtë trupi i enës dhe lidhja e ujit, nga brenda ana e ujit, membrana dhe jastëku i gazit. Tani e njeh këtë komponent si nga jashtë ashtu edhe nga funksioni i tij."
+  },
+  "s19": {
+    "de": "Merke dir den Ablauf so: Trinkwasser wird im Speicher erwärmt und dehnt sich aus. Durch den Rückflussverhinderer kann das zusätzliche Volumen nicht einfach zurückströmen. Ein geeignetes Trinkwasser-Ausdehnungsgefäß kann dieses Volumen aufnehmen. Es wird auf der Kaltwasserseite fachgerecht eingebunden und muss hygienisch für Trinkwasser geeignet sein. Und ganz wichtig: Das M-A-G ersetzt niemals das Sicherheitsventil.",
+    "sq": "Mbaje mend kështu: uji sanitar nxehet në depozitë dhe zgjerohet. Për shkak të penguesit të kthimit, vëllimi shtesë nuk mund të kthehet thjesht mbrapsht. Një enë e përshtatshme zgjerimi mund ta marrë këtë vëllim. Ajo lidhet siç duhet në anën e ujit të ftohtë dhe duhet të jetë e përshtatshme higjienikisht për ujë të pijshëm. Dhe më e rëndësishmja: MAG-u nuk e zëvendëson kurrë valvulën e sigurisë."
+  },
+  "outro": {
+    "de": "Modul 2 abgeschlossen.",
+    "sq": "Moduli 2 përfunduar."
+  }
+}

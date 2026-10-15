@@ -1,0 +1,130 @@
+{
+ "intro": {
+  "de": "Es-Ha-Ka Grundlagen. Modul neun. Heizungsanlage anschließen.",
+  "sq": "Bazat e Es-Ha-Ka-së. Moduli nëntë. Lidhja e sistemit të ngrohjes."
+ },
+ "s01": {
+  "de": "Bis jetzt haben wir viele einzelne Bauteile kennengelernt. Jetzt setzen wir sie zu einer vollständigen Heizungsanlage zusammen. Entscheidend ist dabei nicht nur, dass jedes Bauteil vorhanden ist – sondern dass alle Komponenten hydraulisch richtig zusammenarbeiten.",
+  "sq": "Deri tani kemi mësuar shumë komponentë veçmas. Tani do t'i bashkojmë në një sistem të plotë ngrohjeje. E rëndësishme nuk është vetëm që çdo komponent të jetë i pranishëm, por që të gjithë të punojnë së bashku siç duhet nga ana hidraulike."
+ },
+ "s02": {
+  "de": "Bevor wir Leitungen verbinden, brauchen wir das freigegebene Hydraulikschema. Je nach Anlage kann der Aufbau unterschiedlich aussehen. Deshalb montieren wir nicht nach Gewohnheit, sondern nach dem vorgesehenen System.",
+  "sq": "Para se të lidhim tubacionet, na duhet skema hidraulike e miratuar. Në varësi të instalimit, ndërtimi mund të jetë i ndryshëm. Prandaj nuk montojmë vetëm sipas zakonit, por sipas sistemit të parashikuar."
+ },
+ "s03": {
+  "de": "Als Nächstes prüfen wir, welche Komponenten bereits im Wärmeerzeuger integriert sind und welche extern ergänzt werden müssen. Ein eingebautes Bauteil wird nicht automatisch ein zweites Mal montiert.",
+  "sq": "Më pas kontrollojmë cilët komponentë janë tashmë të integruar në pajisjen e ngrohjes dhe cilët duhet të shtohen jashtë saj. Një komponent i integruar nuk montohet automatikisht edhe një herë."
+ },
+ "s04": {
+  "de": "Der Vorlauf transportiert erwärmtes Heizungswasser vom Wärmeerzeuger zu den Heizflächen. Der Rücklauf bringt das Wasser wieder zurück.",
+  "sq": "Furnizimi çon ujin e ngrohur nga pajisja drejt sipërfaqeve të ngrohjes. Kthimi e sjell ujin përsëri te pajisja."
+ },
+ "s05": {
+  "de": "Der Rücklauf ist dabei nicht automatisch kaltes Wasser. Er ist normalerweise nur kühler als der zugehörige Vorlauf, weil unterwegs Wärme abgegeben wurde.",
+  "sq": "Kthimi nuk është automatikisht ujë i ftohtë. Normalisht ai është vetëm më i ftohtë se furnizimi përkatës, sepse gjatë rrugës është dhënë nxehtësi."
+ },
+ "s06": {
+  "de": "Die Umwälzpumpe sorgt dafür, dass das Heizungswasser gegen die Widerstände von Rohren, Ventilen und Heizflächen zirkulieren kann.",
+  "sq": "Pompa qarkulluese siguron që uji i ngrohjes të qarkullojë kundër rezistencave të tubave, valvulave dhe sipërfaqeve të ngrohjes."
+ },
+ "s07": {
+  "de": "Zur Sicherheitsausrüstung gehört die passende Sicherheitsgruppe. Ihre Einzelteile kennen wir bereits: Sicherheitsventil, Manometer und Entlüfter.",
+  "sq": "Në pajisjet e sigurisë bën pjesë grupi përkatës i sigurisë. Komponentët e tij tashmë i njohim: valvula e sigurisë, manometri dhe ajruesi."
+ },
+ "s08": {
+  "de": "Entscheidend bleibt der freie Schutzweg zum Sicherheitsventil. Eine geschlossene Absperrung darf diesen Weg während des Betriebs nicht unterbrechen.",
+  "sq": "Vendimtare mbetet rruga e lirë drejt valvulës së sigurisë. Një valvul mbyllëse nuk duhet ta ndërpresë këtë rrugë gjatë punës."
+ },
+ "s09": {
+  "de": "Auch das Membran-Ausdehnungsgefäß gehört zur Druckhaltung der Gesamtanlage. Seine Verbindung zum System muss während des Betriebs wirksam sein.",
+  "sq": "Edhe ena e zgjerimit me membranë është pjesë e mbajtjes së presionit të të gjithë sistemit. Lidhja e saj me sistemin duhet të jetë funksionale gjatë punës."
+ },
+ "s10": {
+  "de": "Besitzt der Wärmeerzeuger bereits ein integriertes Em-A-Ge, bedeutet das nicht automatisch, dass dieses Gefäß für das gesamte Anlagenvolumen ausreichend ist. Die Druckhaltung wird für die komplette Anlage geprüft.",
+  "sq": "Nëse pajisja e ngrohjes ka tashmë një MAG të integruar, kjo nuk do të thotë automatikisht se ai mjafton për të gjithë vëllimin e sistemit. Mbajtja e presionit kontrollohet për të gjithë instalimin."
+ },
+ "s11": {
+  "de": "Zum Schutz des Wärmeerzeugers können je nach Herstelleranforderung Schmutzfänger und Schlammabscheider vorgesehen sein. Sie erfüllen nicht exakt dieselbe Aufgabe.",
+  "sq": "Për mbrojtjen e pajisjes mund të parashikohen, sipas kërkesave të prodhuesit, një filtër me sitë dhe një ndarës llumi. Ata nuk kryejnë saktësisht të njëjtën detyrë."
+ },
+ "s12": {
+  "de": "Ein Schlammabscheider ersetzt deshalb nicht automatisch ein vom Gerätehersteller gefordertes Sieb. Welche Komponenten benötigt werden, entscheidet das konkrete System.",
+  "sq": "Prandaj një ndarës llumi nuk e zëvendëson automatikisht një filtër me sitë që kërkohet nga prodhuesi. Komponentët e nevojshëm përcaktohen nga sistemi konkret."
+ },
+ "s13": {
+  "de": "Auch die Luftabscheidung wird nach dem Hydraulikschema eingeplant. Mikroblasenabscheider und automatische Entlüfter erfüllen dabei unterschiedliche Aufgaben, wie wir in Modul sieben gesehen haben.",
+  "sq": "Edhe ndarja e ajrit planifikohet sipas skemës hidraulike. Ndarësi i mikrofluskave dhe ajruesit automatikë kanë detyra të ndryshme, siç pamë në modulin shtatë."
+ },
+ "s14": {
+  "de": "Bei Pumpen, Rückschlagventilen und anderen richtungsabhängigen Bauteilen werden die Fließpfeile geprüft. Bei Komponenten ohne feste universelle Richtung entscheidet die Kennzeichnung des konkreten Produkts.",
+  "sq": "Te pompat, valvulat kundërkthimit dhe komponentët që varen nga drejtimi, kontrollohen shigjetat e rrjedhës. Te pajisjet pa një drejtim universal, vendosin shenjat e produktit konkret."
+ },
+ "s15": {
+  "de": "Für Montage und Wartung werden außerdem geeignete Füll-, Spül- und Entleerstellen vorgesehen. Ihre Position muss es ermöglichen, das Rohrnetz kontrolliert zu befüllen, zu spülen und bei Bedarf zu entleeren.",
+  "sq": "Për montimin dhe mirëmbajtjen parashikohen gjithashtu pika të përshtatshme për mbushje, shpëlarje dhe zbrazje. Pozicioni i tyre duhet të lejojë që sistemi të mbushet, shpëlahet dhe zbrazet në mënyrë të kontrolluar."
+ },
+ "s16": {
+  "de": "Bevor die Anlage normal befüllt und in Betrieb genommen wird, werden die Leitungen nach dem vorgesehenen Verfahren gespült und die erforderlichen Prüfungen durchgeführt.",
+  "sq": "Para se sistemi të mbushet normalisht dhe të vihet në punë, tubacionet shpëlahen sipas procedurës së parashikuar dhe kryhen kontrollet e nevojshme."
+ },
+ "s17": {
+  "de": "Vor der endgültigen Befüllung wird auch die Druckhaltung vorbereitet. Der Vordruck des Em-A-Ge wird nach der vorgesehenen Berechnung beziehungsweise Vorgabe kontrolliert – nicht mit einem beliebigen Standardwert.",
+  "sq": "Para mbushjes përfundimtare përgatitet edhe mbajtja e presionit. Presioni paraprak i MAG-ut kontrollohet sipas llogaritjes ose vlerës së parashikuar, jo me një numër standard të rastësishëm."
+ },
+ "s18": {
+  "de": "Das Heizungswasser wird anschließend über eine geeignete, gegen Rückfluss gesicherte Füllstrecke eingebracht. Falls die Anlage aufbereitetes Füllwasser verlangt, wird die dafür vorgesehene Aufbereitung verwendet.",
+  "sq": "Më pas sistemi mbushet përmes një linje të përshtatshme mbushjeje, të mbrojtur kundër kthimit. Nëse instalimi kërkon ujë të trajtuar, përdoret trajtimi i parashikuar."
+ },
+ "s19": {
+  "de": "Beim Befüllen wird der vorgesehene kalte Anlagenfülldruck hergestellt. Dieser Wert richtet sich nach der konkreten Anlage und darf nicht einfach von einem anderen Gebäude übernommen werden.",
+  "sq": "Gjatë mbushjes vendoset presioni i parashikuar i sistemit në gjendje të ftohtë. Kjo vlerë varet nga instalimi konkret dhe nuk kopjohet thjesht nga një ndërtesë tjetër."
+ },
+ "s20": {
+  "de": "Danach wird die Anlage nach der vorgesehenen Vorgehensweise entlüftet. Luft muss aus Wärmeerzeuger, Rohrnetz und vorgesehenen Entlüftungsstellen entfernt werden, bevor ein stabiler Betrieb erwartet werden kann.",
+  "sq": "Më pas sistemi ajroset sipas procedurës së parashikuar. Ajri duhet të largohet nga pajisja, tubacionet dhe pikat e parashikuara të ajrimit përpara se të pritet funksionim i qëndrueshëm."
+ },
+ "s21": {
+  "de": "Vor dem normalen Betrieb werden anschließend Pumpe, Umschalt- beziehungsweise Stellventile, Fühler und Regelung kontrolliert. Ein falsch angeschlossener Sensor kann eine hydraulisch korrekt gebaute Anlage trotzdem falsch steuern.",
+  "sq": "Para funksionimit normal kontrollohen pompa, valvulat devijuese ose rregulluese, sensorët dhe kontrolli. Një sensor i lidhur gabim mund ta drejtojë gabim edhe një sistem që nga ana hidraulike është ndërtuar saktë."
+ },
+ "s22": {
+  "de": "Jetzt muss die Anlage auch hydraulisch funktionieren. Die Heizkreise benötigen die vorgesehenen Volumenströme. Diese werden nicht einfach durch maximale Pumpenleistung ersetzt, sondern entsprechend der Planung eingestellt.",
+  "sq": "Tani sistemi duhet të funksionojë edhe nga ana hidraulike. Qarqet e ngrohjes kanë nevojë për prurjet e parashikuara. Këto nuk zëvendësohen thjesht duke vendosur pompën në maksimum, por rregullohen sipas projektit."
+ },
+ "s23": {
+  "de": "Dazu gehört auch der hydraulische Abgleich. Nicht jede Heizfläche braucht denselben Volumenstrom. Dieses Thema behandeln wir später noch genauer.",
+  "sq": "Këtu bën pjesë edhe balancimi hidraulik. Jo çdo sipërfaqe ngrohëse ka nevojë për të njëjtën prurje. Këtë temë do ta shpjegojmë më hollësisht më vonë."
+ },
+ "s24": {
+  "de": "Bei Wärmepumpenanlagen muss zusätzlich geprüft werden, ob der für das konkrete Gerät erforderliche Mindestvolumenstrom auch in kritischen Betriebszuständen sichergestellt bleibt – zum Beispiel wenn mehrere Raumkreise schließen.",
+  "sq": "Te sistemet me pompë nxehtësie kontrollohet gjithashtu nëse prurja minimale e kërkuar nga pajisja mbetet e siguruar edhe në gjendje kritike, për shembull kur mbyllen disa qarqe të dhomave."
+ },
+ "s25": {
+  "de": "Bei Luft-Wasser-Wärmepumpen müssen außerdem die vom Hersteller geforderten Bedingungen für die Abtauung erfüllt sein. Dafür können ausreichender Wasserumlauf und verfügbares Anlagenvolumen wichtig sein.",
+  "sq": "Te pompat e nxehtësisë ajër-ujë duhet të plotësohen gjithashtu kushtet që kërkon prodhuesi për shkrirjen. Për këtë mund të jenë të rëndësishme qarkullimi i mjaftueshëm dhe vëllimi i disponueshëm i ujit në sistem."
+ },
+ "s26": {
+  "de": "Die Anlage wird nicht nur im kalten Zustand betrachtet. Nach dem Aufheizen kontrollieren wir auch Druckverlauf, Temperaturen, Dichtheit und das Verhalten der Komponenten.",
+  "sq": "Sistemi nuk kontrollohet vetëm në gjendje të ftohtë. Pas ngrohjes kontrollohen gjithashtu ndryshimi i presionit, temperaturat, rrjedhjet dhe sjellja e komponentëve."
+ },
+ "s27": {
+  "de": "Auch Geräusche und Betriebswechsel gehören zur Funktionskontrolle. Eine Anlage kann äußerlich perfekt aussehen und trotzdem hydraulisch oder regelungstechnisch falsch arbeiten.",
+  "sq": "Edhe zhurmat dhe ndryshimet e mënyrës së punës janë pjesë e kontrollit. Një sistem mund të duket perfekt nga jashtë dhe megjithatë të punojë gabim nga ana hidraulike ose e kontrollit."
+ },
+ "s28": {
+  "de": "Typische Fehler: Vorlauf und Rücklauf vertauscht. Bauteile doppelt montiert, obwohl sie im Gerät integriert sind. Sicherheitsweg abgesperrt. Das Ausdehnungsgefäß zu klein, oder nur das integrierte Gefäß ungeprüft übernommen. Schlammabscheider statt gefordertem Schmutzfänger. Pumpe oder Rückschlagventil falsch herum. Keine Wartungszugänge. Ungeschützt nachgefüllt. Falsches Füllwasser. Pumpe einfach auf Maximum. Mindestvolumenstrom der Wärmepumpe nicht geprüft. Und: Die Anlage sieht sauber aus, aber die Funktion wird nicht geprüft.",
+  "sq": "Gabime tipike: furnizimi dhe kthimi të ngatërruar. Komponentë të montuar dy herë, edhe pse janë të integruar në pajisje. Rruga e sigurisë e mbyllur. MAG-u shumë i vogël, ose vetëm MAG-u i integruar i pranuar pa kontroll. Ndarës llumi në vend të filtrit me sitë që kërkohet. Pompa ose valvula e kundërkthimit e montuar së prapthi. Asnjë qasje për mirëmbajtje. Mbushje pa mbrojtje. Ujë mbushjeje i papërshtatshëm. Pompa thjesht në maksimum. Prurja minimale e pompës së nxehtësisë e pakontrolluar. Dhe: sistemi duket i pastër, por funksionimi nuk kontrollohet."
+ },
+ "s29": {
+  "de": "Jetzt setzen wir alles zusammen: Vorlauf und Rücklauf, Pumpe, Sicherheitsgruppe und Ausdehnungsgefäß. Schmutzfänger, Schlamm- und Luftabscheider. Füll-, Spül- und Entleerstellen. Dann die Heizflächen – und zum Schluss Fühler und Regelung.",
+  "sq": "Tani i bashkojmë të gjitha: furnizimin dhe kthimin, pompën, grupin e sigurisë dhe enën e zgjerimit. Filtrin me sitë, ndarësin e llumit dhe ndarësin e ajrit. Pikat e mbushjes, shpëlarjes dhe zbrazjes. Pastaj sipërfaqet ngrohëse – dhe në fund sensorët dhe kontrollin."
+ },
+ "s30": {
+  "de": "Merke dir den Ablauf so: Zuerst kommt das freigegebene Hydraulikschema. Dann werden Vorlauf und Rücklauf sowie bereits integrierte Komponenten identifiziert. Sicherheitsgruppe und Em-A-Ge sichern Druck und Volumenänderung ab. Schmutzfänger, Schlamm- und Luftabscheider schützen die Anlage entsprechend den Geräteanforderungen. Über geeignete Füll-, Spül- und Entleerstellen wird die Anlage vorbereitet, gespült und geprüft. Danach wird sie über eine geschützte Füllstrecke mit geeignetem Wasser befüllt und entlüftet. Pumpe, Ventile, Fühler und Regelung werden kontrolliert und die erforderlichen Volumenströme sichergestellt. Am Ende prüfen wir die Anlage kalt und warm. Denn eine sauber montierte Anlage ist erst dann fertig, wenn sie auch so funktioniert, wie sie geplant wurde.",
+  "sq": "Mbaje mend kështu: fillimisht kemi skemën hidraulike të miratuar. Pastaj identifikohen furnizimi, kthimi dhe komponentët që janë tashmë të integruar. Grupi i sigurisë dhe MAG-u mbrojnë presionin dhe ndryshimin e vëllimit. Filtri, ndarësi i llumit dhe ndarësi i ajrit mbrojnë sistemin sipas kërkesave të pajisjes. Përmes pikave të përshtatshme të mbushjes, shpëlarjes dhe zbrazjes, sistemi përgatitet, shpëlahet dhe kontrollohet. Më pas mbushet përmes një lidhjeje të mbrojtur me ujë të përshtatshëm dhe ajroset. Kontrollohen pompa, valvulat, sensorët dhe rregullimi dhe sigurohen prurjet e nevojshme. Në fund kontrollojmë sistemin si në gjendje të ftohtë ashtu edhe të ngrohtë. Sepse një sistem i montuar bukur është i përfunduar vetëm kur funksionon siç është planifikuar."
+ },
+ "outro": {
+  "de": "Modul neun abgeschlossen.",
+  "sq": "Moduli nëntë përfunduar."
+ }
+}

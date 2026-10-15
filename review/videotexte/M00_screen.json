@@ -1,0 +1,15 @@
+{
+  "welcome": { "de": "Willkommen!", "sq": "Mirë se vjen!" },
+  "course": { "de": "SHK-LEHRGANG", "sq": "KURSI SHK" },
+  "noProb": { "de": "Kein Problem!", "sq": "Asnjë problem!" },
+  "steps": { "de": "Schritt für Schritt", "sq": "Hap pas hapi" },
+  "modules": { "de": "Module", "sq": "module" },
+  "learn1": { "de": "Heizung & Trinkwasser", "sq": "Ngrohja & uji sanitar", "termDe": "Heizung & Trinkwasser" },
+  "learn2": { "de": "Bauteile", "sq": "Komponentët", "term": true },
+  "learn3": { "de": "Montage", "sq": "Montimi", "term": true },
+  "mag": { "de": "Ausdehnungsgefäß", "sq": "Ena e zgjerimit", "term": true },
+  "wp": { "de": "Wärmepumpenanlage", "sq": "Sistemi me pompë nxehtësie", "termDe": "Wärmepumpenanlage" },
+  "profi": { "de": "Wie ein Profi!", "sq": "Si një profesionist!" },
+  "go": { "de": "Los geht’s!", "sq": "Le të fillojmë!" },
+  "mod1": { "de": "Modul 1", "sq": "Moduli 1" }
+}

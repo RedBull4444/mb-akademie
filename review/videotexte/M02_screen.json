@@ -1,0 +1,543 @@
+{
+  "intro_kicker": {
+    "de": "SHK GRUNDLAGEN",
+    "sq": "BAZAT E SHK-së"
+  },
+  "intro_mod": {
+    "de": "MODUL 2",
+    "sq": "MODULI 2"
+  },
+  "intro_title": {
+    "de": "Trinkwasser-Ausdehnungsgefäß",
+    "sq": "Ena e zgjerimit për ujin sanitar",
+    "term": true
+  },
+  "outro_done": {
+    "de": "MODUL 2 ABGESCHLOSSEN",
+    "sq": "MODULI 2 PËRFUNDUAR"
+  },
+  "s01_title": {
+    "de": "Trinkwasser-Ausdehnungsgefäß",
+    "sq": "Ena e zgjerimit për ujin sanitar"
+  },
+  "s01_small": {
+    "de": "Trinkwasser-MAG",
+    "sq": "Trinkwasser-MAG"
+  },
+  "s01_hint": {
+    "de": "So sieht es auf der Baustelle aus",
+    "sq": "Kështu duket në kantier"
+  },
+  "h02": {
+    "de": "Heizungs-MAG und Trinkwasser-MAG",
+    "sq": "MAG-u i ngrohjes dhe Trinkwasser-MAG"
+  },
+  "mag_h": {
+    "de": "Heizungs-MAG",
+    "sq": "MAG-u i ngrohjes",
+    "termDe": "Heizungs-MAG"
+  },
+  "mag_tw": {
+    "de": "Trinkwasser-MAG",
+    "sq": "Ena e ujit sanitar",
+    "termDe": "Trinkwasser-MAG"
+  },
+  "hw": {
+    "de": "Heizungswasser",
+    "sq": "Ujë ngrohjeje",
+    "term": true
+  },
+  "tw": {
+    "de": "Trinkwasser",
+    "sq": "Ujë i pijshëm",
+    "term": true
+  },
+  "both_same": {
+    "de": "Wasserseite · Membran · Gasseite",
+    "sq": "Ana e ujit · membrana · ana e gazit"
+  },
+  "noswap": {
+    "de": "Nicht austauschbar",
+    "sq": "Nuk zëvendësohen thjesht me njëra-tjetrën"
+  },
+  "suited": {
+    "de": "Für Trinkwasser geeignet",
+    "sq": "I përshtatshëm për ujë të pijshëm"
+  },
+  "h03": {
+    "de": "Der Trinkwarmwasserspeicher",
+    "sq": "Depozita e ujit të ngrohtë sanitar"
+  },
+  "speicher": {
+    "de": "Speicher",
+    "sq": "Depozita",
+    "term": true
+  },
+  "kw": {
+    "de": "Kaltwasser",
+    "sq": "Ujë i ftohtë",
+    "term": true
+  },
+  "ww": {
+    "de": "Warmwasser",
+    "sq": "Ujë i ngrohtë",
+    "term": true
+  },
+  "coil": {
+    "de": "Heizwendel · Heizungswasser",
+    "sq": "Spiralja · ujë ngrohjeje",
+    "termDe": "Heizwendel · Heizungswasser"
+  },
+  "tw_in": {
+    "de": "Trinkwasser im Speicher",
+    "sq": "Ujë sanitar në depozitë"
+  },
+  "nomix": {
+    "de": "Getrennt – keine Vermischung",
+    "sq": "Të ndara – pa përzierje"
+  },
+  "heater": {
+    "de": "Wärmeerzeuger",
+    "sq": "Burimi i nxehtësisë",
+    "term": true
+  },
+  "h04": {
+    "de": "Wasser dehnt sich aus",
+    "sq": "Uji zgjerohet"
+  },
+  "vol_up": {
+    "de": "warm → Volumen steigt",
+    "sq": "ngrohtë → vëllimi rritet"
+  },
+  "cold_s": {
+    "de": "kalt",
+    "sq": "ftohtë"
+  },
+  "warm_s": {
+    "de": "warm",
+    "sq": "ngrohtë"
+  },
+  "bit_more": {
+    "de": "etwas mehr Platz",
+    "sq": "pak më shumë hapësirë"
+  },
+  "h05": {
+    "de": "Der Rückflussverhinderer",
+    "sq": "Penguesi i kthimit"
+  },
+  "rv": {
+    "de": "Rückflussverhinderer",
+    "sq": "Penguesi i kthimit",
+    "term": true
+  },
+  "to_tank": {
+    "de": "Richtung Speicher: frei",
+    "sq": "Drejt depozitës: lejohet"
+  },
+  "back": {
+    "de": "Zurück: gesperrt",
+    "sq": "Mbrapsht: bllokohet"
+  },
+  "install": {
+    "de": "Trinkwasserinstallation",
+    "sq": "Instalimi i ujit",
+    "termDe": "Trinkwasserinstallation"
+  },
+  "h06": {
+    "de": "Das Problem",
+    "sq": "Problemi"
+  },
+  "closed_area": {
+    "de": "Abgesperrter Bereich",
+    "sq": "Pjesa e mbyllur",
+    "term": true
+  },
+  "no_back": {
+    "de": "Kein Rückweg",
+    "sq": "Nuk ka kthim"
+  },
+  "p_up": {
+    "de": "Druck steigt",
+    "sq": "Presioni rritet",
+    "termDe": "Druck"
+  },
+  "h07": {
+    "de": "Ohne Trinkwasser-MAG",
+    "sq": "Pa Trinkwasser-MAG"
+  },
+  "sv": {
+    "de": "Sicherheitsventil",
+    "sq": "Valvula e sigurisë",
+    "term": true
+  },
+  "funnel": {
+    "de": "Ablauftrichter",
+    "sq": "Hinka e shkarkimit",
+    "term": true
+  },
+  "sv_drain": {
+    "de": "Ausdehnungswasser über das Sicherheitsventil",
+    "sq": "Uji i zgjerimit del nga valvula e sigurisë"
+  },
+  "not_defect": {
+    "de": "Nicht automatisch defekt",
+    "sq": "Nuk do të thotë automatikisht defekt"
+  },
+  "check_perm": {
+    "de": "Auffälligen dauerhaften Wasseraustritt prüfen.",
+    "sq": "Dalja e vazhdueshme e pazakontë duhet kontrolluar."
+  },
+  "h08": {
+    "de": "Das Trinkwasser-MAG im System",
+    "sq": "Trinkwasser-MAG në sistem"
+  },
+  "kw_side": {
+    "de": "Kaltwasserseite",
+    "sq": "Ana e ujit të ftohtë",
+    "term": true
+  },
+  "tank_side": {
+    "de": "Speicherseite des Rückflussverhinderers",
+    "sq": "Ana e depozitës pas penguesit të kthimit"
+  },
+  "h09": {
+    "de": "So arbeitet das Trinkwasser-MAG",
+    "sq": "Si punon Trinkwasser-MAG"
+  },
+  "water_side": {
+    "de": "Wasserseite",
+    "sq": "Ana e ujit",
+    "term": true
+  },
+  "gas_side": {
+    "de": "Gaspolster",
+    "sq": "Jastëku i gazit",
+    "term": true
+  },
+  "membrane": {
+    "de": "Membran",
+    "sq": "Membrana",
+    "term": true
+  },
+  "warm": {
+    "de": "ERWÄRMUNG",
+    "sq": "NGROHJA",
+    "term": true
+  },
+  "cold": {
+    "de": "ABKÜHLUNG / ENTNAHME",
+    "sq": "FTOHJA / MARRJA E UJIT",
+    "termDe": "Abkühlung / Entnahme"
+  },
+  "w1": {
+    "de": "Wasser dehnt sich aus",
+    "sq": "Uji zgjerohet"
+  },
+  "w2": {
+    "de": "Wasser gelangt ins MAG",
+    "sq": "Uji hyn në MAG"
+  },
+  "w3": {
+    "de": "Membran bewegt sich",
+    "sq": "Membrana lëviz"
+  },
+  "w4": {
+    "de": "Gaspolster wird komprimiert",
+    "sq": "Jastëku i gazit komprimohet"
+  },
+  "k1": {
+    "de": "Gaspolster dehnt sich",
+    "sq": "Jastëku i gazit zgjerohet"
+  },
+  "k2": {
+    "de": "Membran bewegt sich zurück",
+    "sq": "Membrana kthehet mbrapsht"
+  },
+  "k3": {
+    "de": "Wasser wird zurückgegeben",
+    "sq": "Uji kthehet në sistem"
+  },
+  "h10": {
+    "de": "Trinkwasser braucht Hygiene",
+    "sq": "Uji i pijshëm kërkon higjienë"
+  },
+  "hyg": {
+    "de": "Hygiene",
+    "sq": "Higjiena",
+    "term": true
+  },
+  "hyg1": {
+    "de": "Gefäß für Trinkwasser geeignet",
+    "sq": "Ena e përshtatshme për ujë të pijshëm"
+  },
+  "hyg2": {
+    "de": "Anschlusskombination geeignet",
+    "sq": "Lidhja e përshtatshme"
+  },
+  "hyg3": {
+    "de": "Keine unnötige Stagnation",
+    "sq": "Pa qëndrim të panevojshëm të ujit"
+  },
+  "flow_through": {
+    "de": "Durchströmung",
+    "sq": "Qarkullimi i ujit",
+    "term": true
+  },
+  "h11": {
+    "de": "Durchströmung statt Stichleitung",
+    "sq": "Qarkullim në vend të degës pa rrjedhje"
+  },
+  "right": {
+    "de": "RICHTIG",
+    "sq": "SAKTË",
+    "term": true
+  },
+  "wrong": {
+    "de": "FALSCH",
+    "sq": "GABIM",
+    "term": true
+  },
+  "r_sub": {
+    "de": "Geeignete Gefäß-/Armaturenkombination",
+    "sq": "Kombinim i përshtatshëm enë/armaturë"
+  },
+  "w_sub": {
+    "de": "Lange tote Stichleitung",
+    "sq": "Degë e gjatë pa qarkullim",
+    "termDe": "Tote Stichleitung"
+  },
+  "stag": {
+    "de": "Stagnation vermeiden",
+    "sq": "Shmang qëndrimin e ujit",
+    "termDe": "Stagnation vermeiden"
+  },
+  "water_stands": {
+    "de": "Wasser steht",
+    "sq": "Uji qëndron"
+  },
+  "principle": {
+    "de": "Prinzipdarstellung",
+    "sq": "Paraqitje parimore"
+  },
+  "h12": {
+    "de": "Einbauort merken",
+    "sq": "Mbaj mend vendin e montimit"
+  },
+  "merk": {
+    "de": "Trinkwasser-MAG → Kaltwasserseite des Speichers",
+    "sq": "Trinkwasser-MAG → ana e ujit të ftohtë të depozitës"
+  },
+  "plan_note": {
+    "de": "Konkrete Ausführung nach Planung und Herstellerangaben.",
+    "sq": "Zbatimi konkret sipas projektit dhe udhëzimeve të prodhuesit."
+  },
+  "h13": {
+    "de": "Sicherheitsventil bleibt notwendig",
+    "sq": "Valvula e sigurisë mbetet e domosdoshme"
+  },
+  "eq_mag": {
+    "de": "normale Volumenänderung",
+    "sq": "ndryshimet normale të vëllimit"
+  },
+  "eq_sv": {
+    "de": "Schutz vor unzulässigem Überdruck",
+    "sq": "mbrojtje nga presioni tepër i lartë"
+  },
+  "mag_ne_sv": {
+    "de": "MAG ≠ Sicherheitsventil",
+    "sq": "MAG ≠ Valvula e sigurisë"
+  },
+  "h14": {
+    "de": "Nicht jede Anlage hat ein Trinkwasser-MAG",
+    "sq": "Jo çdo instalim ka Trinkwasser-MAG"
+  },
+  "sysA": {
+    "de": "System A: mit Trinkwasser-MAG",
+    "sq": "Sistemi A: me Trinkwasser-MAG"
+  },
+  "sysB": {
+    "de": "System B: ohne Trinkwasser-MAG",
+    "sq": "Sistemi B: pa Trinkwasser-MAG"
+  },
+  "sysB_note": {
+    "de": "Ausdehnungswasser beim Aufheizen über das Sicherheitsventil",
+    "sq": "Uji i zgjerimit gjatë ngrohjes del nga valvula e sigurisë"
+  },
+  "plan": {
+    "de": "Planung",
+    "sq": "Projekti",
+    "term": true
+  },
+  "comp": {
+    "de": "Komponenten",
+    "sq": "Komponentët",
+    "term": true
+  },
+  "manu": {
+    "de": "Herstellervorgaben",
+    "sq": "Udhëzimet e prodhuesit",
+    "term": true
+  },
+  "h15": {
+    "de": "Größe und Vordruck",
+    "sq": "Madhësia dhe presioni paraprak"
+  },
+  "f_vol": {
+    "de": "Speichervolumen",
+    "sq": "Vëllimi i depozitës",
+    "term": true
+  },
+  "f_p": {
+    "de": "Druckverhältnisse",
+    "sq": "Presionet në sistem",
+    "term": true
+  },
+  "f_t": {
+    "de": "Temperatur",
+    "sq": "Temperatura",
+    "term": true
+  },
+  "f_con": {
+    "de": "Anlagenkonzept",
+    "sq": "Koncepti i instalimit",
+    "term": true
+  },
+  "f_man": {
+    "de": "Produktvorgaben",
+    "sq": "Udhëzimet e produktit",
+    "term": true
+  },
+  "soll": {
+    "de": "Sollwert der konkreten Anlage beachten",
+    "sq": "Respekto vlerën e kërkuar të instalimit konkret"
+  },
+  "nocopy": {
+    "de": "Werte nicht von einer anderen Anlage übernehmen",
+    "sq": "Mos i kopjo vlerat nga një sistem tjetër"
+  },
+  "other": {
+    "de": "Andere Anlage",
+    "sq": "Sistem tjetër"
+  },
+  "this": {
+    "de": "Diese Anlage",
+    "sq": "Ky sistem"
+  },
+  "h16": {
+    "de": "Wartung",
+    "sq": "Mirëmbajtja"
+  },
+  "maint": {
+    "de": "WARTUNG",
+    "sq": "MIRËMBAJTJA",
+    "term": true
+  },
+  "m1": {
+    "de": "Zugänglich montiert",
+    "sq": "E montuar e arritshme"
+  },
+  "m2": {
+    "de": "Wasserseite druckentlasten",
+    "sq": "Shkarko presionin e anës së ujit"
+  },
+  "m3": {
+    "de": "Gasvordruck prüfen",
+    "sq": "Kontrollo presionin paraprak të gazit"
+  },
+  "m4": {
+    "de": "Nach Herstelleranleitung",
+    "sq": "Sipas udhëzimit të prodhuesit"
+  },
+  "h17": {
+    "de": "Typische Fehler",
+    "sq": "Gabime tipike"
+  },
+  "e1": {
+    "de": "Nicht jedes MAG ist trinkwassergeeignet",
+    "sq": "Jo çdo MAG është i përshtatshëm për ujë të pijshëm"
+  },
+  "e2": {
+    "de": "Falsche Seite des Rückflussverhinderers",
+    "sq": "Ana e gabuar e penguesit të kthimit"
+  },
+  "e3": {
+    "de": "Tote Stichleitung",
+    "sq": "Degë pa qarkullim",
+    "termDe": "Tote Stichleitung"
+  },
+  "e4": {
+    "de": "Sicherheitsventil weggelassen",
+    "sq": "Valvula e sigurisë e hequr"
+  },
+  "e5": {
+    "de": "Vordruck ungeprüft",
+    "sq": "Presioni paraprak i pakontrolluar"
+  },
+  "e6": {
+    "de": "Schlecht zugänglich",
+    "sq": "Vështirë e arritshme"
+  },
+  "soll_check": {
+    "de": "Sollwert prüfen",
+    "sq": "Krahaso me vlerën e kërkuar"
+  },
+  "vd": {
+    "de": "Vordruck",
+    "sq": "Presioni paraprak",
+    "term": true
+  },
+  "h18": {
+    "de": "Das echte Trinkwasser-MAG",
+    "sq": "Trinkwasser-MAG i vërtetë"
+  },
+  "body": {
+    "de": "Gefäßkörper",
+    "sq": "Trupi i enës",
+    "term": true
+  },
+  "conn": {
+    "de": "Wasseranschluss",
+    "sq": "Lidhja e ujit",
+    "term": true
+  },
+  "know": {
+    "de": "Dieses Bauteil kennst du jetzt von außen und von innen.",
+    "sq": "Tani e njeh këtë komponent si nga jashtë ashtu edhe nga funksioni i tij."
+  },
+  "h19": {
+    "de": "Der ganze Ablauf",
+    "sq": "I gjithë procesi"
+  },
+  "f1": {
+    "de": "Kaltwasser gelangt zum Speicher",
+    "sq": "Uji i ftohtë shkon te depozita"
+  },
+  "f2": {
+    "de": "Rückflussverhinderer: Fluss zum Speicher",
+    "sq": "Penguesi i kthimit: rrjedhje drejt depozitës"
+  },
+  "f3": {
+    "de": "Speicher erwärmt das Wasser",
+    "sq": "Depozita e ngroh ujin"
+  },
+  "f4": {
+    "de": "Wasser dehnt sich aus",
+    "sq": "Uji zgjerohet"
+  },
+  "f5": {
+    "de": "Rückweg ist begrenzt",
+    "sq": "Kthimi është i kufizuar"
+  },
+  "f6": {
+    "de": "Zusatzvolumen ins Trinkwasser-MAG",
+    "sq": "Vëllimi shtesë në Trinkwasser-MAG"
+  },
+  "f7": {
+    "de": "Membran bewegt sich · Gas wird komprimiert",
+    "sq": "Membrana lëviz · gazi komprimohet"
+  },
+  "f8": {
+    "de": "Sicherheitsventil bleibt separat",
+    "sq": "Valvula e sigurisë mbetet veçmas"
+  }
+}

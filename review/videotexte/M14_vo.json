@@ -1,0 +1,138 @@
+{
+ "intro": {
+  "de": "Es-Ha-Ka Grundlagen. Modul vierzehn. Heizungswasser: Magnetit und Fau-Deh-I zwanzig fünfunddreißig.",
+  "sq": "Bazat e Es-Ha-Ka-së. Moduli katërmbëdhjetë. Uji i sistemit të ngrohjes: magnetiti dhe Ve-De-I dy mijë e tridhjetë e pesë."
+ },
+ "s01": {
+  "de": "Heizungswasser verrät viel über eine Anlage. Eine dunkle oder schwarze Probe weist auf Korrosionsprodukte oder andere Verunreinigungen im System hin.",
+  "sq": "Uji i ngrohjes tregon shumë për instalimin. Një mostër e errët ose e zezë tregon për produkte korrozioni ose papastërti të tjera në sistem."
+ },
+ "s02": {
+  "de": "Aber die Farbe ist nur ein Hinweis, keine Diagnose. Sie verrät nicht, welche Stoffe drin sind und woher sie kommen.",
+  "sq": "Por ngjyra është vetëm një tregues, jo një diagnozë. Ajo nuk tregon çfarë përmban uji dhe nga vjen."
+ },
+ "s03": {
+  "de": "Ein mögliches Korrosionsprodukt ist Magnetit: ein magnetisches Eisenoxid, Fe drei O vier. Es kann bei Korrosion in eisenhaltigen Anlagen entstehen.",
+  "sq": "Një produkt i mundshëm i korrozionit është magnetiti: një oksid magnetik i hekurit, Fe tre O katër. Ai mund të krijohet gjatë korrozionit në sisteme me hekur."
+ },
+ "s04": {
+  "de": "Magnetit ist nicht dasselbe wie Steinbildung, umgangssprachlich Kalk. Andere Vorgänge, andere Stoffe.",
+  "sq": "Magnetiti nuk është e njëjta gjë me formimin e gurit, të ashtuquajturin gëlqere. Procese të tjera, substanca të tjera."
+ },
+ "s05": {
+  "de": "Korrosion hat nicht nur eine Ursache. Werkstoffe, Wasserbeschaffenheit, Sauerstoffeintrag und Betriebsbedingungen wirken zusammen.",
+  "sq": "Korrozioni nuk ka vetëm një shkak. Materialet, cilësia e ujit, hyrja e oksigjenit dhe kushtet e punës ndikojnë së bashku."
+ },
+ "s06": {
+  "de": "Wird eine Anlage ständig nachgefüllt, reicht Nachfüllen allein nicht. Es muss geprüft werden, warum Wasser verloren geht und ob so immer wieder Sauerstoff ins System kommt.",
+  "sq": "Nëse sistemi mbushet vazhdimisht, nuk mjafton vetëm të shtojmë ujë. Duhet kontrolluar pse humbet uji dhe nëse kështu futet vazhdimisht oksigjen në sistem."
+ },
+ "s07": {
+  "de": "Darum gehören auch Druckhaltung, Em-A-Ge, mögliche Undichtigkeiten und der Betriebsverlauf zur Ursachenprüfung.",
+  "sq": "Prandaj kontrollohen edhe mbajtja e presionit, MAG-u, rrjedhjet e mundshme dhe mënyra si ka funksionuar sistemi."
+ },
+ "s08": {
+  "de": "Partikel können sich in Pumpen, Ventilen und Wärmeübertragern ablagern und deren Funktion beeinträchtigen.",
+  "sq": "Grimcat mund të grumbullohen në pompa, valvula dhe shkëmbyes nxehtësie dhe të ndikojnë në funksionimin e tyre."
+ },
+ "s09": {
+  "de": "Reagieren Partikel auf einen Magneten, ist das ein wichtiger Hinweis auf magnetische Korrosionsprodukte wie Magnetit.",
+  "sq": "Nëse grimcat reagojnë ndaj magnetit, kjo është shenjë e rëndësishme për produkte magnetike korrozioni si magnetiti."
+ },
+ "s10": {
+  "de": "Ein Magnetabscheider holt magnetische Partikel aus dem Heizungswasser. Genau dafür ist der Magnet da.",
+  "sq": "Një ndarës magnetik largon grimcat magnetike nga uji i ngrohjes. Pikërisht për këtë shërben magneti."
+ },
+ "s11": {
+  "de": "Aber nichtmagnetische Partikel und gelöste Stoffe entfernt der Magnet nicht automatisch. Ein Magnet ist keine komplette Wasseraufbereitung.",
+  "sq": "Por grimcat jo magnetike dhe substancat e tretura magneti nuk i largon automatikisht. Magneti nuk është trajtim i plotë i ujit."
+ },
+ "s12": {
+  "de": "Und ein gereinigter Abscheider beseitigt nicht die Ursache. Bestehen Korrosion oder Sauerstoffeintrag weiter, können neue Ablagerungen entstehen.",
+  "sq": "Dhe një ndarës i pastruar nuk e eliminon shkakun. Nëse korrozioni ose hyrja e oksigjenit vazhdon, mund të krijohen depozita të reja."
+ },
+ "s13": {
+  "de": "Deshalb betrachten wir das ganze System: Wasserzustand, Anlagenhistorie, Nachfüllmengen, Druckhaltung, Luft- oder Sauerstoffeintrag, Leckagen, Ablagerungen und Herstelleranforderungen.",
+  "sq": "Prandaj shohim gjithë sistemin: gjendjen e ujit, historikun e instalimit, sasitë e shtuara, mbajtjen e presionit, hyrjen e ajrit ose oksigjenit, rrjedhjet, depozitat dhe kërkesat e prodhuesit."
+ },
+ "s14": {
+  "de": "Damit zur Fau-Deh-I zwanzig fünfunddreißig: Heizungswasser richtig planen, füllen und überwachen. Sie hilft, Steinbildung und wasserseitige Korrosion in Warmwasser-Heizungsanlagen zu vermeiden.",
+  "sq": "Tani te Ve-De-I dy mijë e tridhjetë e pesë: uji i ngrohjes planifikohet, mbushet dhe mbikëqyret si duhet. Ajo ndihmon të shmangen formimi i gurit dhe korrozioni nga ana e ujit në sistemet e ngrohjes me ujë."
+ },
+ "s15": {
+  "de": "Sie ist keine Trinkwasser-Hygieneregel und kein einfaches Rezept wie: immer vollentsalzen, nur Peh-Ha messen oder ein Additiv reinkippen.",
+  "sq": "Ajo nuk është rregull për higjienën e ujit të pijshëm dhe as recetë e thjeshtë si: gjithmonë demineralizim i plotë, mat vetëm pe-ha-në ose hidh një aditiv."
+ },
+ "s16": {
+  "de": "Vor dem Befüllen müssen die Anforderungen bekannt sein: Anlagenvolumen, Werkstoffe, Wärmeerzeuger, Rohwasser und Herstellervorgaben.",
+  "sq": "Para mbushjes duhet të njihen kërkesat: vëllimi i instalimit, materialet, pajisja e ngrohjes, uji i papërpunuar dhe kërkesat e prodhuesit."
+ },
+ "s17": {
+  "de": "Wichtig: Härte, Leitfähigkeit und Peh-Ha beschreiben unterschiedliche Eigenschaften des Wassers. Nicht verwechseln!",
+  "sq": "E rëndësishme: fortësia, përçueshmëria dhe pe-ha përshkruajnë veti të ndryshme të ujit. Mos i ngatërro!"
+ },
+ "s18": {
+  "de": "Die Härte beschreibt unter anderem Härtebildner wie Calcium und Magnesium. Sie ist vor allem für die Steinbildung wichtig.",
+  "sq": "Fortësia lidhet ndër të tjera me përbërës si kalciumi dhe magnezi. Ajo është e rëndësishme sidomos për formimin e gurit."
+ },
+ "s19": {
+  "de": "Die elektrische Leitfähigkeit zeigt vereinfacht, wie viele leitfähige gelöste Ionen im Wasser sind.",
+  "sq": "Përçueshmëria elektrike tregon, në mënyrë të thjeshtuar, sa jone të tretura përçuese ka në ujë."
+ },
+ "s20": {
+  "de": "Der Peh-Ha-Wert zeigt, ob Wasser eher sauer oder basisch ist. Auch er muss zu Werkstoffen und Anlage passen.",
+  "sq": "Vlera pe-ha tregon nëse uji është më shumë acid apo bazik. Edhe ajo duhet t'u përshtatet materialeve dhe sistemit."
+ },
+ "s21": {
+  "de": "Drei Werte sind nicht ein Wert. Niedrige Härte heißt zum Beispiel nicht automatisch niedrige Leitfähigkeit.",
+  "sq": "Tri vlera nuk janë një vlerë. Për shembull, fortësia e ulët nuk do të thotë automatikisht përçueshmëri e ulët."
+ },
+ "s22": {
+  "de": "Enthärten und Entsalzen sind nicht dasselbe. Enthärten tauscht Härtebildner aus, Entsalzen entfernt gelöste Ionen weitgehend. Was nötig ist, entscheidet die Anlage.",
+  "sq": "Zbutja dhe demineralizimi nuk janë e njëjta gjë. Zbutja zëvendëson përbërësit e fortësisë, demineralizimi largon pjesën më të madhe të joneve të tretura. Çfarë nevojitet, e përcakton sistemi."
+ },
+ "s23": {
+  "de": "Und nach dem Entsalzen ist nicht automatisch alles fertig. Niedrige Leitfähigkeit bestätigt weder den Peh-Ha-Wert noch die Eignung für alle Werkstoffe.",
+  "sq": "Dhe pas demineralizimit nuk ka mbaruar automatikisht gjithçka. Përçueshmëria e ulët nuk vërteton as vlerën pe-ha, as përshtatshmërinë për të gjitha materialet."
+ },
+ "s24": {
+  "de": "Additive sind keine automatische Pflicht. Und wenn, dann erst nach Planung und Herstellerfreigabe, passend zu Anlage und Werkstoffen.",
+  "sq": "Aditivët nuk janë detyrim automatik. Dhe nëse përdoren, vetëm pas planifikimit dhe miratimit të prodhuesit, në përputhje me sistemin dhe materialet."
+ },
+ "s25": {
+  "de": "Dann wird das Rohwasser passend aufbereitet und über die geschützte Füllstrecke in die Heizungsanlage gefüllt.",
+  "sq": "Pastaj uji i papërpunuar trajtohet sipas nevojës dhe futet në sistemin e ngrohjes përmes linjës së mbrojtur të mbushjes."
+ },
+ "s26": {
+  "de": "Dokumentiert wird die Erstbefüllung und jede spätere Nachfüllung. Häufiges Nachfüllen ist ein Grund, die Anlage genauer zu untersuchen.",
+  "sq": "Dokumentohet mbushja e parë dhe çdo plotësim i mëvonshëm. Mbushja e shpeshtë është arsye për ta kontrolluar sistemin më hollësisht."
+ },
+ "s27": {
+  "de": "Gutes Füllwasser löst nicht jedes Problem, wenn Druckhaltung oder Lufteintrag nicht stimmen. Wasserqualität und Anlagenbetrieb gehören zusammen.",
+  "sq": "Uji i mirë i mbushjes nuk zgjidh çdo problem nëse mbajtja e presionit ose hyrja e ajrit nuk janë në rregull. Cilësia e ujit dhe funksionimi i sistemit shkojnë së bashku."
+ },
+ "s28": {
+  "de": "Nach Befüllung und Inbetriebnahme ist nicht Schluss. Je nach Verfahren und Herstellervorgaben folgen Nachkontrolle und Wartung.",
+  "sq": "Pas mbushjes dhe vënies në punë nuk ka mbaruar. Sipas metodës dhe kërkesave të prodhuesit vijojnë kontrolli pasues dhe mirëmbajtja."
+ },
+ "s29": {
+  "de": "Dokumentiert werden je nach Anlage zum Beispiel: Volumen, Leistung, Werkstoffe, Rohwasser, Aufbereitungsverfahren, Füll- und Ergänzungsmengen, Messergebnisse, Sollbereiche und Nachkontrollen.",
+  "sq": "Sipas sistemit dokumentohen për shembull: vëllimi, fuqia, materialet, uji i papërpunuar, metoda e trajtimit, sasitë e mbushjes dhe të plotësimit, rezultatet e matjeve, vlerat e kërkuara dhe kontrollet pasuese."
+ },
+ "s30": {
+  "de": "Typische Fehler: Schwarzes Wasser gleich sicher Magnetit. Magnetit gleich Kalk. Magnetabscheider reinigt alles. Abscheider gereinigt, Ursache ignoriert. Ständig nachgefüllt, ohne Ursachensuche. Vau-De-I gleich immer vollentsalzen. Härte und Leitfähigkeit verwechselt. Niedrige Härte gleich niedrige Leitfähigkeit. Niedrige Leitfähigkeit gleich alles perfekt. Peh-Ha vergessen. Additiv nach Werbung eingefüllt. Füllmengen nicht dokumentiert. Keine Nachkontrolle. Und: gute Wasserwerte, aber Druckhaltung ignoriert.",
+  "sq": "Gabime tipike: uji i zi është me siguri magnetit. Magnetiti është gëlqere. Ndarësi magnetik pastron gjithçka. Ndarësi u pastrua, shkaku u injorua. Mbushje e vazhdueshme pa kërkuar shkakun. Ve-De-I do të thotë gjithmonë demineralizim i plotë. Fortësia dhe përçueshmëria të ngatërruara. Fortësi e ulët do të thotë përçueshmëri e ulët. Përçueshmëri e ulët do të thotë gjithçka perfekte. Pe-ha e harruar. Aditiv i hedhur sipas reklamës. Sasitë e mbushjes të padokumentuara. Asnjë kontroll pasues. Dhe: vlera të mira të ujit, por mbajtja e presionit e injoruar."
+ },
+ "s31": {
+  "de": "Auf der Baustelle also: Erstens Wasser ansehen und prüfen. Zweitens Partikel entfernen. Drittens Ursache und Wasseranforderungen prüfen.",
+  "sq": "Në kantier pra: Së pari, shiko dhe kontrollo ujin. Së dyti, largo grimcat. Së treti, kontrollo shkakun dhe kërkesat për ujin."
+ },
+ "s32": {
+  "de": "Merke dir: Korrosion kann Partikel bilden, das Wasser wird dunkel. Magnetische Partikel können Pumpe, Ventil und Wärmeübertrager beeinträchtigen. Der Abscheider entfernt sie, aber: Ursache prüfen. Fürs Heizungswasser: Anlage bestimmen, Werkstoffe, Wärmeerzeuger und Rohwasser prüfen, passend aufbereiten, geschützt befüllen. Härte, Leitfähigkeit und Peh-Ha getrennt betrachten. Füllmengen dokumentieren, Druckhaltung und Lufteintrag kontrollieren, nachkontrollieren.",
+  "sq": "Mbaje mend: korrozioni mund të krijojë grimca dhe uji errësohet. Grimcat magnetike mund të ndikojnë në pompë, valvulë dhe shkëmbyes nxehtësie. Ndarësi i largon, por: kontrollo shkakun. Për ujin e ngrohjes: përcakto sistemin, kontrollo materialet, pajisjen e ngrohjes dhe ujin e papërpunuar, trajtoje siç duhet, mbush në mënyrë të mbrojtur. Shih veçmas fortësinë, përçueshmërinë dhe pe-ha-në. Dokumento sasitë e mbushjes, kontrollo presionin dhe hyrjen e ajrit, bëj kontrollin pasues."
+ },
+ "outro": {
+  "de": "Modul vierzehn abgeschlossen.",
+  "sq": "Moduli katërmbëdhjetë përfunduar."
+ }
+}

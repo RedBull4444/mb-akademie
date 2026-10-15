@@ -1,0 +1,920 @@
+{
+ "intro_kicker": {
+  "de": "SHK GRUNDLAGEN",
+  "sq": "BAZAT E SHK-së"
+ },
+ "intro_mod": {
+  "de": "MODUL 8",
+  "sq": "MODULI 8"
+ },
+ "intro_title": {
+  "de": "Warmwasserspeicher anschließen",
+  "sq": "Lidhja e depozitës së ujit të ngrohtë",
+  "termDe": "Warmwasserspeicher anschließen"
+ },
+ "outro_done": {
+  "de": "MODUL 8 ABGESCHLOSSEN",
+  "sq": "MODULI 8 PËRFUNDUAR"
+ },
+ "tank": {
+  "de": "Trinkwarmwasserspeicher",
+  "sq": "Depozita e ujit të ngrohtë sanitar",
+  "term": true
+ },
+ "tank_s": {
+  "de": "Speicher",
+  "sq": "Depozita",
+  "term": true
+ },
+ "tw": {
+  "de": "Trinkwasser",
+  "sq": "Ujë sanitar",
+  "term": true
+ },
+ "hzw": {
+  "de": "Heizungswasser",
+  "sq": "Ujë ngrohjeje",
+  "term": true
+ },
+ "coil": {
+  "de": "Heizwendel",
+  "sq": "Serpentina",
+  "term": true
+ },
+ "kw": {
+  "de": "Kaltwasser",
+  "sq": "Ujë i ftohtë",
+  "term": true
+ },
+ "ww": {
+  "de": "Warmwasser",
+  "sq": "Ujë i ngrohtë",
+  "term": true
+ },
+ "sg": {
+  "de": "Sicherheitsgruppe",
+  "sq": "Grupi i sigurisë",
+  "term": true
+ },
+ "rv": {
+  "de": "Rückflussverhinderer",
+  "sq": "Penguesi i kthimit",
+  "term": true
+ },
+ "sv": {
+  "de": "Sicherheitsventil",
+  "sq": "Valvula e sigurisë",
+  "term": true
+ },
+ "dm": {
+  "de": "Druckminderer (falls vorgesehen)",
+  "sq": "Reduktori i presionit (nëse parashikohet)",
+  "termDe": "Druckminderer"
+ },
+ "ab": {
+  "de": "Absperrung",
+  "sq": "Valvula mbyllëse",
+  "term": true
+ },
+ "fun": {
+  "de": "Ablauf",
+  "sq": "Shkarkimi",
+  "term": true
+ },
+ "mag": {
+  "de": "Trinkwasser-MAG",
+  "sq": "Ena e zgjerimit për ujë sanitar",
+  "termDe": "Trinkwasser-MAG"
+ },
+ "lvl": {
+  "de": "Ladevorlauf",
+  "sq": "Furnizimi i ngarkimit",
+  "term": true
+ },
+ "lrl": {
+  "de": "Laderücklauf",
+  "sq": "Kthimi i ngarkimit",
+  "term": true
+ },
+ "gen": {
+  "de": "Wärmeerzeuger",
+  "sq": "Pajisja e ngrohjes",
+  "term": true
+ },
+ "lpump": {
+  "de": "Ladepumpe",
+  "sq": "Pompa e ngarkimit",
+  "term": true
+ },
+ "usv": {
+  "de": "Umschaltventil",
+  "sq": "Valvula devijuese",
+  "term": true
+ },
+ "zirk": {
+  "de": "Zirkulation",
+  "sq": "Riqarkullimi",
+  "term": true
+ },
+ "zrl": {
+  "de": "Zirkulationsrücklauf",
+  "sq": "Kthimi i riqarkullimit",
+  "term": true
+ },
+ "zpump": {
+  "de": "Trinkwasser-Zirkulationspumpe",
+  "sq": "Pompa e riqarkullimit për ujë sanitar",
+  "termDe": "Trinkwasser-Zirkulationspumpe"
+ },
+ "abgl": {
+  "de": "Abgleicharmatur",
+  "sq": "Armatura e balancimit",
+  "term": true
+ },
+ "sensor": {
+  "de": "Speicherfühler",
+  "sq": "Sensori i depozitës",
+  "term": true
+ },
+ "pocketS": {
+  "de": "Tauchhülse",
+  "sq": "Gypi i sensorit",
+  "term": true
+ },
+ "ctrl": {
+  "de": "Regelung",
+  "sq": "Kontrolli",
+  "term": true
+ },
+ "anode": {
+  "de": "Anode",
+  "sq": "Anoda",
+  "term": true
+ },
+ "drain": {
+  "de": "Entleerung",
+  "sq": "Zbrazja",
+  "term": true
+ },
+ "taps": {
+  "de": "Entnahmestellen",
+  "sq": "Pikat e përdorimit",
+  "term": true
+ },
+ "principle": {
+  "de": "Prinzipdarstellung – Anschlusslage nach Hersteller",
+  "sq": "Paraqitje parimore – pozicioni sipas prodhuesit"
+ },
+ "example": {
+  "de": "Beispiel",
+  "sq": "Shembull"
+ },
+ "ne": {
+  "de": "≠",
+  "sq": "≠"
+ },
+ "only_if": {
+  "de": "nur wenn geplant / vorgesehen",
+  "sq": "vetëm nëse është parashikuar",
+  "termDe": "nur wenn vorgesehen"
+ },
+ "heat": {
+  "de": "Wärme",
+  "sq": "Nxehtësia",
+  "term": true
+ },
+ "s01_kicker": {
+  "de": "Das echte Bauteil",
+  "sq": "Komponenti i vërtetë"
+ },
+ "s01_ex": {
+  "de": "Beispiel: Buderus Logalux SU200.5 · Herstellerfoto",
+  "sq": "Shembull: Buderus Logalux SU200.5 · foto e prodhuesit"
+ },
+ "s01_parts": {
+  "de": "Einzelne Bauteile",
+  "sq": "Komponentë veçmas",
+  "termDe": "Einzelne Bauteile"
+ },
+ "s01_sys": {
+  "de": "→ ein System",
+  "sq": "→ një sistem",
+  "termDe": "ein System"
+ },
+ "ind": {
+  "de": "indirekt beheizt · innenliegende Heizwendel",
+  "sq": "ngrohje indirekte · serpentinë e brendshme",
+  "termDe": "indirekt beheizt · innenliegende Heizwendel"
+ },
+ "h02": {
+  "de": "Was ist im Speicher?",
+  "sq": "Çfarë ka në depozitë?"
+ },
+ "in_tank": {
+  "de": "im Speicher: Trinkwasser",
+  "sq": "në depozitë: ujë sanitar",
+  "termDe": "im Speicher: Trinkwasser"
+ },
+ "in_coil": {
+  "de": "in der Heizwendel: Heizungswasser",
+  "sq": "në serpentinë: ujë ngrohjeje",
+  "termDe": "in der Heizwendel: Heizungswasser"
+ },
+ "wall": {
+  "de": "Rohrwand",
+  "sq": "Muri i tubit",
+  "term": true
+ },
+ "big02": {
+  "de": "Wärme geht über – Wasser nicht.",
+  "sq": "Nxehtësia kalon – uji jo.",
+  "termDe": "Wärme geht über – Wasser nicht."
+ },
+ "sep_ok": {
+  "de": "vollständig getrennt",
+  "sq": "plotësisht të ndara",
+  "termDe": "vollständig getrennt"
+ },
+ "h03": {
+  "de": "Zuerst Anschlüsse identifizieren",
+  "sq": "Fillimisht identifiko lidhjet"
+ },
+ "doc_manual": {
+  "de": "Speicheranleitung",
+  "sq": "Udhëzimi i depozitës",
+  "term": true
+ },
+ "doc_sym": {
+  "de": "Anschlusssymbole",
+  "sq": "Shenjat e lidhjeve",
+  "term": true
+ },
+ "doc_plan": {
+  "de": "Hydraulikschema",
+  "sq": "Skema hidraulike",
+  "term": true
+ },
+ "doc_src": {
+  "de": "Herstellerunterlage (Beispiel: Buderus SU, Bild 3)",
+  "sq": "Dokumenti i prodhuesit (shembull: Buderus SU, figura 3)"
+ },
+ "big03": {
+  "de": "Kennzeichnung prüfen – nicht raten.",
+  "sq": "Kontrollo shenjat – mos hamendëso.",
+  "termDe": "Kennzeichnung prüfen – nicht raten."
+ },
+ "guess": {
+  "de": "nach Position / Größe raten",
+  "sq": "hamendje sipas pozicionit / madhësisë",
+  "termDe": "nach Position / Größe raten"
+ },
+ "h04": {
+  "de": "Aufstellung und Wartungsraum",
+  "sq": "Vendosja dhe hapësira e mirëmbajtjes"
+ },
+ "floor": {
+  "de": "geeigneter Untergrund",
+  "sq": "dysheme e përshtatshme",
+  "termDe": "geeigneter Untergrund"
+ },
+ "acc_conn": {
+  "de": "Anschlüsse",
+  "sq": "Lidhjet",
+  "term": true
+ },
+ "acc_sens": {
+  "de": "Fühler",
+  "sq": "Sensori",
+  "term": true
+ },
+ "acc_anode": {
+  "de": "Anode (falls vorhanden)",
+  "sq": "Anoda (nëse ka)",
+  "termDe": "Anode"
+ },
+ "acc_serv": {
+  "de": "Wartungsbereich",
+  "sq": "Zona e mirëmbajtjes",
+  "term": true
+ },
+ "too_tight": {
+  "de": "zu eng verbaut",
+  "sq": "shumë ngushtë",
+  "termDe": "zu eng verbaut"
+ },
+ "reach": {
+  "de": "erreichbar",
+  "sq": "e arritshme",
+  "term": true
+ },
+ "h05": {
+  "de": "Leitungen vorbereiten",
+  "sq": "Përgatitja e tubacioneve"
+ },
+ "flush": {
+  "de": "spülen nach vorgesehenem Verfahren",
+  "sq": "shpëlarje sipas procedurës",
+  "termDe": "spülen nach Verfahren"
+ },
+ "dirt": {
+  "de": "Montagerückstände",
+  "sq": "Mbetjet e montimit",
+  "term": true
+ },
+ "clean": {
+  "de": "nicht in den Speicher",
+  "sq": "jo në depozitë",
+  "termDe": "nicht in den Speicher"
+ },
+ "h06": {
+  "de": "1. Kaltwasser + Sicherheitsgruppe",
+  "sq": "1. Ujë i ftohtë + grupi i sigurisë"
+ },
+ "net": {
+  "de": "Trinkwassernetz",
+  "sq": "Rrjeti i ujit sanitar",
+  "term": true
+ },
+ "kw_in": {
+  "de": "Kaltwasseranschluss",
+  "sq": "Lidhja e ujit të ftohtë",
+  "term": true
+ },
+ "h07": {
+  "de": "Sicherheitsgruppe – kurz wiederholt",
+  "sq": "Grupi i sigurisë – përsëritje e shkurtër"
+ },
+ "mod5": {
+  "de": "aus Modul 5",
+  "sq": "nga moduli 5"
+ },
+ "h08": {
+  "de": "Der Sicherheitsweg",
+  "sq": "Rruga e sigurisë"
+ },
+ "big08": {
+  "de": "Dieser Weg bleibt frei.",
+  "sq": "Kjo rrugë mbetet e lirë.",
+  "termDe": "Dieser Weg bleibt frei."
+ },
+ "closed": {
+  "de": "Absperrung zu",
+  "sq": "Valvula e mbyllur",
+  "termDe": "Absperrung zu"
+ },
+ "h09": {
+  "de": "Trinkwasser-MAG – falls vorgesehen",
+  "sq": "Ena e zgjerimit – nëse parashikohet"
+ },
+ "mag_side": {
+  "de": "Speicherseite des Rückflussverhinderers",
+  "sq": "ana e depozitës e penguesit të kthimit",
+  "termDe": "Speicherseite des RV"
+ },
+ "flowthru": {
+  "de": "durchströmte Anschlussarmatur",
+  "sq": "armaturë lidhëse me rrjedhje",
+  "termDe": "durchströmte Anschlussarmatur"
+ },
+ "h10": {
+  "de": "2. Warmwasserausgang",
+  "sq": "2. Dalja e ujit të ngrohtë"
+ },
+ "ww_out": {
+  "de": "Warmwasseranschluss",
+  "sq": "Lidhja e ujit të ngrohtë",
+  "term": true
+ },
+ "h11": {
+  "de": "Hygiene und Verbrühschutz",
+  "sq": "Higjiena dhe mbrojtja nga djegia"
+ },
+ "hyg": {
+  "de": "HYGIENE",
+  "sq": "HIGJIENA",
+  "termDe": "Hygiene"
+ },
+ "hyg_d": {
+  "de": "ausreichend hohe Temperaturen nach Anlagenart und Regelwerk",
+  "sq": "temperatura mjaft të larta sipas llojit dhe rregullave",
+  "termDe": "ausreichend hohe Temperaturen"
+ },
+ "scald": {
+  "de": "VERBRÜHSCHUTZ",
+  "sq": "MBROJTJA NGA DJEGIA",
+  "termDe": "Verbrühschutz"
+ },
+ "scald_d": {
+  "de": "Nutzer an der Entnahmestelle schützen",
+  "sq": "mbro përdoruesin në pikën e përdorimit",
+  "termDe": "Nutzer schützen"
+ },
+ "both": {
+  "de": "beides gemeinsam – nach Anlagenart · Planung · Regelwerk",
+  "sq": "të dyja së bashku – sipas llojit · projektit · rregullave",
+  "termDe": "Anlagenart · Planung · Regelwerk"
+ },
+ "not_lower": {
+  "de": "nicht einfach Speichertemperatur senken",
+  "sq": "jo thjesht të ulet temperatura e depozitës",
+  "termDe": "nicht einfach Temperatur senken"
+ },
+ "h12": {
+  "de": "3. Heizungsseite: Ladevorlauf",
+  "sq": "3. Ana e ngrohjes: furnizimi i ngarkimit"
+ },
+ "h13": {
+  "de": "Laderücklauf",
+  "sq": "Kthimi i ngarkimit"
+ },
+ "by_mark": {
+  "de": "Heizwendelanschlüsse nach Speicherkennzeichnung",
+  "sq": "lidhjet e serpentinës sipas shenjave",
+  "termDe": "nach Speicherkennzeichnung"
+ },
+ "cooler": {
+  "de": "gibt Wärme ab → kühler",
+  "sq": "jep nxehtësi → më i ftohtë",
+  "termDe": "gibt Wärme ab → kühler"
+ },
+ "h14": {
+  "de": "Ladepumpe oder Umschaltventil",
+  "sq": "Pompa e ngarkimit ose valvula devijuese"
+ },
+ "varA": {
+  "de": "Variante A",
+  "sq": "Varianti A"
+ },
+ "varB": {
+  "de": "Variante B",
+  "sq": "Varianti B"
+ },
+ "heizkreis": {
+  "de": "Heizkreis",
+  "sq": "Qarku i ngrohjes",
+  "term": true
+ },
+ "scheme": {
+  "de": "Das Anlagenschema entscheidet.",
+  "sq": "Vendos skema e instalimit.",
+  "termDe": "Das Anlagenschema entscheidet."
+ },
+ "h15": {
+  "de": "Wichtige Verwechslung",
+  "sq": "Ngatërresë e rëndësishme"
+ },
+ "big15": {
+  "de": "HEIZUNGSWASSER ≠ TRINKWASSER",
+  "sq": "UJË NGROHJEJE ≠ UJË SANITAR",
+  "termDe": "Heizungswasser ≠ Trinkwasser"
+ },
+ "sys_h": {
+  "de": "Heizkreis / Speicherladung",
+  "sq": "qarku i ngrohjes / ngarkimi",
+  "termDe": "Speicherladung"
+ },
+ "sys_t": {
+  "de": "Trinkwasser-Installation",
+  "sq": "instalimi i ujit sanitar",
+  "termDe": "Trinkwasser-Installation"
+ },
+ "h16": {
+  "de": "Was ist die Zirkulation?",
+  "sq": "Çfarë është riqarkullimi?"
+ },
+ "far_tap": {
+  "de": "entfernte Entnahmestelle",
+  "sq": "pikë përdorimi e largët",
+  "termDe": "entfernte Entnahmestelle"
+ },
+ "faster": {
+  "de": "Warmwasser schneller da",
+  "sq": "ujë i ngrohtë më shpejt",
+  "termDe": "Warmwasser schneller da"
+ },
+ "h17": {
+  "de": "Pumpe · Rückflussverhinderung · Abgleich",
+  "sq": "Pompa · mbrojtja kundër kthimit · balancimi"
+ },
+ "tw_ok": {
+  "de": "für Trinkwasser geeignet",
+  "sq": "e përshtatshme për ujë sanitar",
+  "termDe": "für Trinkwasser geeignet"
+ },
+ "str1": {
+  "de": "Strang 1",
+  "sq": "Dega 1"
+ },
+ "str2": {
+  "de": "Strang 2",
+  "sq": "Dega 2"
+ },
+ "even": {
+  "de": "vorgesehene Bereiche durchströmt",
+  "sq": "zonat e parashikuara qarkullohen",
+  "termDe": "vorgesehene Bereiche durchströmt"
+ },
+ "h18": {
+  "de": "Ungenutzter Zirkulationsanschluss",
+  "sq": "Lidhja e papërdorur e riqarkullimit"
+ },
+ "no_zirk": {
+  "de": "keine Zirkulation vorgesehen",
+  "sq": "pa riqarkullim të parashikuar",
+  "termDe": "keine Zirkulation vorgesehen"
+ },
+ "dead": {
+  "de": "lange Stichleitung ohne Durchfluss",
+  "sq": "degë e gjatë pa rrjedhje",
+  "termDe": "lange Stichleitung"
+ },
+ "plugged": {
+  "de": "direkt fachgerecht verschlossen",
+  "sq": "mbyllur drejtpërdrejt siç duhet",
+  "termDe": "direkt verschlossen"
+ },
+ "h19": {
+  "de": "Der Speicherfühler",
+  "sq": "Sensori i depozitës"
+ },
+ "full_in": {
+  "de": "vollständig eingesetzt",
+  "sq": "i futur plotësisht",
+  "termDe": "vollständig eingesetzt"
+ },
+ "input": {
+  "de": "richtiger Reglereingang",
+  "sq": "hyrja e duhur e kontrolluesit",
+  "termDe": "richtiger Reglereingang"
+ },
+ "in_tw": {
+  "de": "Speichertemperatur",
+  "sq": "Temperatura e depozitës",
+  "term": true
+ },
+ "h20": {
+  "de": "Warum die Fühlerposition wichtig ist",
+  "sq": "Pse pozicioni i sensorit është i rëndësishëm"
+ },
+ "right_info": {
+  "de": "richtige Information",
+  "sq": "informacion i saktë",
+  "termDe": "richtige Information"
+ },
+ "wrong_info": {
+  "de": "falsche Information",
+  "sq": "informacion i gabuar",
+  "termDe": "falsche Information"
+ },
+ "not_feel": {
+  "de": "Fühlerplatz nicht nach Gefühl",
+  "sq": "pozicioni nuk zgjidhet me hamendje",
+  "termDe": "nicht nach Gefühl"
+ },
+ "half_in": {
+  "de": "nicht vollständig eingeschoben",
+  "sq": "jo plotësisht i futur",
+  "termDe": "nicht vollständig eingeschoben"
+ },
+ "h21": {
+  "de": "Korrosionsschutz / Anode",
+  "sq": "Mbrojtja nga korrozioni / anoda"
+ },
+ "by_type": {
+  "de": "je nach Speicherbauart",
+  "sq": "sipas llojit të depozitës",
+  "termDe": "je nach Speicherbauart"
+ },
+ "serv_anode": {
+  "de": "zugänglich · prüfen · warten nach Hersteller",
+  "sq": "e arritshme · kontroll · mirëmbajtje sipas prodhuesit",
+  "termDe": "zugänglich · prüfen · warten"
+ },
+ "h22": {
+  "de": "Vor der Inbetriebnahme",
+  "sq": "Para vënies në punë"
+ },
+ "chk": {
+  "de": "Prüfen vor Betrieb",
+  "sq": "Kontroll para nisjes"
+ },
+ "c1": {
+  "de": "Füllen",
+  "sq": "Mbushja",
+  "term": true
+ },
+ "c2": {
+  "de": "Entlüften",
+  "sq": "Ajrosja",
+  "term": true
+ },
+ "c3": {
+  "de": "Dichtheit prüfen",
+  "sq": "Kontrolli i rrjedhjeve",
+  "termDe": "Dichtheit prüfen"
+ },
+ "c4": {
+  "de": "Sicherheitsweg prüfen",
+  "sq": "Kontrolli i rrugës së sigurisë",
+  "termDe": "Sicherheitsweg prüfen"
+ },
+ "c5": {
+  "de": "Fühler / Regelung prüfen",
+  "sq": "Kontrolli i sensorit / kontrollit",
+  "termDe": "Fühler / Regelung prüfen"
+ },
+ "c6": {
+  "de": "erst danach beheizen",
+  "sq": "vetëm pastaj ngrohja",
+  "termDe": "erst danach beheizen"
+ },
+ "no_heat": {
+  "de": "noch keine Erwärmung",
+  "sq": "ende pa ngrohje",
+  "termDe": "noch keine Erwärmung"
+ },
+ "by_manual": {
+  "de": "nach Geräteanleitung",
+  "sq": "sipas udhëzimit të pajisjes",
+  "termDe": "nach Geräteanleitung"
+ },
+ "h23": {
+  "de": "Temperaturen und Hygiene",
+  "sq": "Temperaturat dhe higjiena"
+ },
+ "big_sys": {
+  "de": "Größere zentrale Trinkwarmwasseranlage mit Zirkulation",
+  "sq": "Sistem më i madh qendror me riqarkullim",
+  "termDe": "größere zentrale Anlage mit Zirkulation"
+ },
+ "t60": {
+  "de": "ca. 60 °C",
+  "sq": "rreth 60 °C",
+  "termDe": "ca. 60 °C"
+ },
+ "t60d": {
+  "de": "am Austritt des Trinkwassererwärmers",
+  "sq": "në dalje të ngrohësit të ujit",
+  "termDe": "Austritt Trinkwassererwärmer"
+ },
+ "t55": {
+  "de": "mind. 55 °C",
+  "sq": "të paktën 55 °C",
+  "termDe": "mind. 55 °C"
+ },
+ "t55d": {
+  "de": "im Zirkulationssystem",
+  "sq": "në sistemin e riqarkullimit",
+  "termDe": "im Zirkulationssystem"
+ },
+ "other": {
+  "de": "andere Anlagenarten",
+  "sq": "lloje të tjera instalimesh",
+  "termDe": "andere Anlagenarten"
+ },
+ "other_d": {
+  "de": "Werte nicht ungeprüft übertragen",
+  "sq": "vlerat nuk kopjohen pa kontroll",
+  "termDe": "nicht ungeprüft übertragen"
+ },
+ "big23": {
+  "de": "Anlagenart + Regelwerk beachten",
+  "sq": "Respekto llojin e instalimit + rregullat",
+  "termDe": "Anlagenart + Regelwerk beachten"
+ },
+ "typ": {
+  "de": "typisch gefordert",
+  "sq": "zakonisht kërkohet",
+  "termDe": "typisch gefordert"
+ },
+ "h24": {
+  "de": "Typische Fehler",
+  "sq": "Gabime tipike"
+ },
+ "e1": {
+  "de": "Kalt- und Warmwasser vertauscht",
+  "sq": "Uji i ftohtë dhe i ngrohtë të ngatërruar",
+  "termDe": "Kalt-/Warmwasser vertauscht"
+ },
+ "e2": {
+  "de": "Heizungswasser mit Trinkwasser verbunden",
+  "sq": "Uji i ngrohjes i lidhur me ujin sanitar",
+  "termDe": "Heizungs- mit Trinkwasser verbunden"
+ },
+ "e3": {
+  "de": "Sicherheitsgruppe falsch eingebaut",
+  "sq": "Grupi i sigurisë i montuar gabim",
+  "termDe": "Sicherheitsgruppe falsch eingebaut"
+ },
+ "e4": {
+  "de": "Absperrung vor dem Sicherheitsventil",
+  "sq": "Valvul mbyllëse para valvulës së sigurisë",
+  "termDe": "Absperrung vor dem Sicherheitsventil"
+ },
+ "e5": {
+  "de": "Trinkwasser-MAG auf der falschen Seite",
+  "sq": "Ena e zgjerimit në anën e gabuar",
+  "termDe": "MAG auf der falschen Seite"
+ },
+ "e6": {
+  "de": "Ladevorlauf/-rücklauf nach Position geraten",
+  "sq": "Furnizimi/kthimi i ngarkimit me hamendje",
+  "termDe": "Ladevorlauf/-rücklauf geraten"
+ },
+ "e7": {
+  "de": "Zirkulation = Heizungsrücklauf verwechselt",
+  "sq": "Riqarkullimi i ngatërruar me kthimin e ngrohjes",
+  "termDe": "Zirkulation ≠ Heizungsrücklauf"
+ },
+ "e8": {
+  "de": "Heizungspumpe ungeprüft für Trinkwasser",
+  "sq": "Pompë ngrohjeje pa kontroll për ujë sanitar",
+  "termDe": "falsche Pumpe"
+ },
+ "e9": {
+  "de": "Lange tote Stichleitung",
+  "sq": "Degë e gjatë pa qarkullim",
+  "termDe": "tote Stichleitung"
+ },
+ "e10": {
+  "de": "Fühler falsch positioniert",
+  "sq": "Sensori në pozicion të gabuar",
+  "termDe": "Fühler falsch positioniert"
+ },
+ "e11": {
+  "de": "Wartung nicht möglich",
+  "sq": "Mirëmbajtja e pamundur",
+  "termDe": "Wartung nicht möglich"
+ },
+ "e12": {
+  "de": "Heizen vor Füllen und Prüfen",
+  "sq": "Ngrohje para mbushjes dhe kontrollit",
+  "termDe": "Heizen vor Füllen und Prüfen"
+ },
+ "x1": {
+  "de": "Kennzeichnung prüfen",
+  "sq": "Kontrollo shenjat",
+  "termDe": "Kennzeichnung prüfen"
+ },
+ "x2": {
+  "de": "Medien bleiben getrennt",
+  "sq": "Mediat mbeten të ndara",
+  "termDe": "Medien bleiben getrennt"
+ },
+ "x4": {
+  "de": "Sicherheitsweg frei halten",
+  "sq": "Mbaje rrugën e sigurisë të lirë",
+  "termDe": "Sicherheitsweg frei halten"
+ },
+ "x8": {
+  "de": "Eignung prüfen",
+  "sq": "Kontrollo përshtatshmërinë",
+  "termDe": "Eignung prüfen"
+ },
+ "x12": {
+  "de": "erst prüfen → dann heizen",
+  "sq": "së pari kontroll → pastaj ngrohje",
+  "termDe": "erst prüfen → dann heizen"
+ },
+ "h25": {
+  "de": "Am echten Speicher",
+  "sq": "Te depozita reale"
+ },
+ "side_doc": {
+  "de": "Anschlussseite laut Herstellerzeichnung",
+  "sq": "Ana e lidhjeve sipas vizatimit të prodhuesit",
+  "termDe": "laut Herstellerzeichnung"
+ },
+ "side_src": {
+  "de": "Buderus Logalux SU200.5 – Installationsanleitung, Bild 3 (gilt nur für dieses Modell)",
+  "sq": "Buderus Logalux SU200.5 – udhëzimi i instalimit, figura 3 (vetëm për këtë model)"
+ },
+ "cn1": {
+  "de": "Warmwasseraustritt",
+  "sq": "Dalja e ujit të ngrohtë",
+  "term": true
+ },
+ "cn2": {
+  "de": "Zirkulationsanschluss",
+  "sq": "Lidhja e riqarkullimit",
+  "term": true
+ },
+ "cn3": {
+  "de": "Speichervorlauf",
+  "sq": "Furnizimi i depozitës",
+  "term": true
+ },
+ "cn4": {
+  "de": "Tauchhülse Fühler",
+  "sq": "Gypi i sensorit",
+  "term": true
+ },
+ "cn5": {
+  "de": "Speicherrücklauf",
+  "sq": "Kthimi i depozitës",
+  "term": true
+ },
+ "cn6": {
+  "de": "Kaltwassereintritt",
+  "sq": "Hyrja e ujit të ftohtë",
+  "term": true
+ },
+ "g_tw": {
+  "de": "Trinkwasser",
+  "sq": "Ujë sanitar",
+  "term": true
+ },
+ "g_hzw": {
+  "de": "Heizungswasser",
+  "sq": "Ujë ngrohjeje",
+  "term": true
+ },
+ "g_zirk": {
+  "de": "Zirkulation",
+  "sq": "Riqarkullim",
+  "term": true
+ },
+ "g_ctrl": {
+  "de": "Regelung",
+  "sq": "Kontroll",
+  "term": true
+ },
+ "photo_back": {
+  "de": "Anschlüsse auf der Rückseite – im Foto nicht sichtbar",
+  "sq": "Lidhjet në anën e pasme – nuk duken në foto",
+  "termDe": "Anschlüsse hinten – nicht sichtbar"
+ },
+ "h26": {
+  "de": "Der komplette Aufbau",
+  "sq": "Ndërtimi i plotë"
+ },
+ "st": {
+  "de": "Schritt",
+  "sq": "Hapi"
+ },
+ "b1": {
+  "de": "Kaltwasserleitung",
+  "sq": "Tubi i ujit të ftohtë",
+  "term": true
+ },
+ "b2": {
+  "de": "Sicherheitsgruppe",
+  "sq": "Grupi i sigurisë",
+  "term": true
+ },
+ "b3": {
+  "de": "Trinkwasser-MAG (falls vorgesehen)",
+  "sq": "Ena e zgjerimit (nëse parashikohet)",
+  "termDe": "Trinkwasser-MAG"
+ },
+ "b4": {
+  "de": "Warmwasserausgang",
+  "sq": "Dalja e ujit të ngrohtë",
+  "term": true
+ },
+ "b5": {
+  "de": "Ladevorlauf",
+  "sq": "Furnizimi i ngarkimit",
+  "term": true
+ },
+ "b6": {
+  "de": "Heizwendel",
+  "sq": "Serpentina",
+  "term": true
+ },
+ "b7": {
+  "de": "Laderücklauf",
+  "sq": "Kthimi i ngarkimit",
+  "term": true
+ },
+ "b8": {
+  "de": "Ladepumpe / Umschaltventil nach Schema",
+  "sq": "Pompa / valvula devijuese sipas skemës",
+  "termDe": "Ladepumpe / Umschaltventil"
+ },
+ "b9": {
+  "de": "Zirkulationsleitung (falls vorgesehen)",
+  "sq": "Tubi i riqarkullimit (nëse parashikohet)",
+  "termDe": "Zirkulationsleitung"
+ },
+ "b10": {
+  "de": "Zirkulationspumpe + RV + Abgleich",
+  "sq": "Pompa + penguesi + balancimi",
+  "termDe": "Zirkulationspumpe + RV + Abgleich"
+ },
+ "b11": {
+  "de": "Speicherfühler",
+  "sq": "Sensori i depozitës",
+  "term": true
+ },
+ "b12": {
+  "de": "Füllen · Entlüften · Prüfen",
+  "sq": "Mbushje · ajrosje · kontroll",
+  "termDe": "Füllen · Entlüften · Prüfen"
+ },
+ "run": {
+  "de": "Betrieb: alle Kreise – klar getrennt",
+  "sq": "Funksionimi: të gjitha qarqet – qartë të ndara",
+  "termDe": "alle Kreise – klar getrennt"
+ }
+}

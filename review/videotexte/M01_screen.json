@@ -1,0 +1,441 @@
+{
+  "intro_kicker": {
+    "de": "SHK GRUNDLAGEN",
+    "sq": "SHK – BAZAT",
+    "term": true
+  },
+  "intro_mod": {
+    "de": "MODUL 1",
+    "sq": "MODULI 1"
+  },
+  "intro_title": {
+    "de": "Membran-Ausdehnungsgefäß",
+    "sq": "Ena e zgjerimit me membranë",
+    "term": true
+  },
+  "outro_done": {
+    "de": "MODUL 1 ABGESCHLOSSEN",
+    "sq": "MODULI 1 PËRFUNDUAR"
+  },
+  "s01_title": {
+    "de": "Membran-Ausdehnungsgefäß",
+    "sq": "Ena e zgjerimit me membranë",
+    "term": true
+  },
+  "s01_hint": {
+    "de": "So sieht es auf der Baustelle aus",
+    "sq": "Kështu duket në kantier"
+  },
+  "h04": {
+    "de": "Aufbau im Inneren",
+    "sq": "Ndërtimi nga brenda"
+  },
+  "water_side": {
+    "de": "Wasserseite",
+    "sq": "Ana e ujit",
+    "term": true
+  },
+  "gas_side": {
+    "de": "Gasseite · Gaspolster",
+    "sq": "Ana e gazit · jastëku i gazit",
+    "termDe": "Gasseite · Gaspolster"
+  },
+  "membrane": {
+    "de": "Membran",
+    "sq": "Membrana",
+    "term": true
+  },
+  "separated": {
+    "de": "Wasser und Gas sind getrennt",
+    "sq": "Uji dhe gazi janë të ndarë"
+  },
+  "h05": {
+    "de": "Beim Erwärmen",
+    "sq": "Gjatë ngrohjes"
+  },
+  "warm": {
+    "de": "WARM",
+    "sq": "NGROHTË",
+    "term": true
+  },
+  "cold": {
+    "de": "KALT",
+    "sq": "FTOHTË",
+    "term": true
+  },
+  "w1": {
+    "de": "Wasser dehnt sich aus",
+    "sq": "Uji zgjerohet"
+  },
+  "w2": {
+    "de": "Wasser strömt ins MAG",
+    "sq": "Uji hyn në MAG"
+  },
+  "w3": {
+    "de": "Membran bewegt sich",
+    "sq": "Membrana lëviz"
+  },
+  "w4": {
+    "de": "Gas wird komprimiert",
+    "sq": "Gazi komprimohet"
+  },
+  "h06": {
+    "de": "Beim Abkühlen",
+    "sq": "Gjatë ftohjes"
+  },
+  "k1": {
+    "de": "Wasser kühlt ab",
+    "sq": "Uji ftohet"
+  },
+  "k2": {
+    "de": "Gas dehnt sich aus",
+    "sq": "Gazi zgjerohet"
+  },
+  "k3": {
+    "de": "Membran geht zurück",
+    "sq": "Membrana kthehet mbrapsht"
+  },
+  "k4": {
+    "de": "Wasser zurück in die Anlage",
+    "sq": "Uji kthehet në sistem"
+  },
+  "loop_w": {
+    "de": "Wasser ins MAG",
+    "sq": "Uji hyn në MAG"
+  },
+  "loop_k": {
+    "de": "Wasser zurück in die Anlage",
+    "sq": "Uji kthehet në sistem"
+  },
+  "h02": {
+    "de": "Das Problem",
+    "sq": "Problemi"
+  },
+  "wl": {
+    "de": "Wärmeerzeuger",
+    "sq": "Burimi i nxehtësisë",
+    "term": true
+  },
+  "vl": {
+    "de": "Vorlauf",
+    "sq": "Linja e dërgimit",
+    "term": true
+  },
+  "hk": {
+    "de": "Heizkörper",
+    "sq": "Radiatori",
+    "term": true
+  },
+  "rl": {
+    "de": "Rücklauf",
+    "sq": "Linja e kthimit",
+    "term": true
+  },
+  "closed": {
+    "de": "Geschlossenes System",
+    "sq": "Sistem i mbyllur",
+    "term": true
+  },
+  "cold_s": {
+    "de": "kalt",
+    "sq": "ftohtë"
+  },
+  "warm_s": {
+    "de": "warm",
+    "sq": "ngrohtë"
+  },
+  "vol_up": {
+    "de": "Volumen nimmt zu",
+    "sq": "Vëllimi rritet"
+  },
+  "more_space": {
+    "de": "Braucht mehr Platz",
+    "sq": "Ka nevojë për më shumë hapësirë"
+  },
+  "where": {
+    "de": "Zusätzliches Volumen muss aufgenommen werden",
+    "sq": "Vëllimi shtesë duhet të merret diku"
+  },
+  "h03": {
+    "de": "Die Lösung: das MAG",
+    "sq": "Zgjidhja: MAG-u"
+  },
+  "in_warm": {
+    "de": "Erwärmen: Wasser ins MAG",
+    "sq": "Ngrohje: uji hyn në MAG"
+  },
+  "out_cold": {
+    "de": "Abkühlen: Wasser zurück in die Anlage",
+    "sq": "Ftohje: uji kthehet në sistem"
+  },
+  "pos": {
+    "de": "Einbauort hängt von der Anlage ab",
+    "sq": "Vendi i montimit varet nga sistemi"
+  },
+  "h07": {
+    "de": "MAG und Druck",
+    "sq": "MAG-u dhe presioni"
+  },
+  "p7L": {
+    "de": "Ohne ausreichenden Platz",
+    "sq": "Pa hapësirë të mjaftueshme"
+  },
+  "p7R": {
+    "de": "Mit MAG",
+    "sq": "Me MAG"
+  },
+  "p_strong": {
+    "de": "Druck steigt stark",
+    "sq": "Presioni rritet shumë"
+  },
+  "p_lim": {
+    "de": "Druckänderung begrenzt",
+    "sq": "Ndryshimi i presionit kufizohet"
+  },
+  "p_noteq": {
+    "de": "Nicht immer exakt gleich",
+    "sq": "Jo gjithmonë saktësisht i njëjtë"
+  },
+  "pressure": {
+    "de": "Druck",
+    "sq": "Presioni",
+    "term": true
+  },
+  "h08": {
+    "de": "Anlagendruck und Vordruck",
+    "sq": "Presioni i sistemit dhe presioni paraprak"
+  },
+  "ad": {
+    "de": "Anlagendruck",
+    "sq": "Presioni i sistemit",
+    "term": true
+  },
+  "vd": {
+    "de": "Vordruck",
+    "sq": "Presioni paraprak",
+    "term": true
+  },
+  "ad_s": {
+    "de": "Wasserseite · Heizsystem",
+    "sq": "Ana e ujit · sistemi i ngrohjes"
+  },
+  "vd_s": {
+    "de": "Gasseite des MAG",
+    "sq": "Ana e gazit e MAG-ut"
+  },
+  "noteq": {
+    "de": "Nicht dasselbe",
+    "sq": "Nuk janë e njëjta gjë"
+  },
+  "h09": {
+    "de": "Verbindung zur Anlage",
+    "sq": "Lidhja me sistemin"
+  },
+  "conn_closed": {
+    "de": "Verbindung geschlossen",
+    "sq": "Lidhja e mbyllur"
+  },
+  "conn_open": {
+    "de": "Verbindung muss offen sein",
+    "sq": "Lidhja duhet të jetë e hapur"
+  },
+  "h10": {
+    "de": "Größe und Vordruck",
+    "sq": "Madhësia dhe presioni paraprak"
+  },
+  "bigger": {
+    "de": "Größer ist nicht automatisch besser",
+    "sq": "Më i madh nuk do të thotë automatikisht më mirë"
+  },
+  "fits": {
+    "de": "Größe und Vordruck passend zur Anlage",
+    "sq": "Madhësia dhe presioni paraprak sipas sistemit"
+  },
+  "plan": {
+    "de": "Planung",
+    "sq": "Projektimi",
+    "term": true
+  },
+  "calc": {
+    "de": "Berechnung",
+    "sq": "Llogaritja",
+    "term": true
+  },
+  "manu": {
+    "de": "Herstellervorgaben",
+    "sq": "Udhëzimet e prodhuesit",
+    "term": true
+  },
+  "anlage": {
+    "de": "Anlage",
+    "sq": "Sistemi",
+    "term": true
+  },
+  "h11": {
+    "de": "Vordruck prüfen",
+    "sq": "Kontrolli i presionit paraprak"
+  },
+  "check": {
+    "de": "PRÜFUNG",
+    "sq": "KONTROLLI",
+    "term": true
+  },
+  "c1": {
+    "de": "Anlagenzustand klären",
+    "sq": "Sqaro gjendjen e sistemit"
+  },
+  "c2": {
+    "de": "Wartungsprozedur + Herstellervorgaben",
+    "sq": "Procedura + udhëzimet e prodhuesit"
+  },
+  "c3": {
+    "de": "Wasserseite druckentlasten",
+    "sq": "Shkarko presionin e anës së ujit"
+  },
+  "c4": {
+    "de": "Gasvordruck messen",
+    "sq": "Mat presionin paraprak të gazit"
+  },
+  "h12": {
+    "de": "Typische Fehler",
+    "sq": "Gabime tipike"
+  },
+  "e1": {
+    "de": "MAG zu klein",
+    "sq": "MAG-u shumë i vogël"
+  },
+  "e2": {
+    "de": "Falscher Vordruck",
+    "sq": "Presion paraprak i gabuar"
+  },
+  "e3": {
+    "de": "MAG abgesperrt",
+    "sq": "Valvula para MAG-ut e mbyllur"
+  },
+  "e4": {
+    "de": "Ständig nachfüllen",
+    "sq": "Mbushje e vazhdueshme"
+  },
+  "e5": {
+    "de": "Gut zugänglich",
+    "sq": "Lehtësisht i arritshëm"
+  },
+  "refill": {
+    "de": "Nachfüllen",
+    "sq": "Mbushje",
+    "term": true
+  },
+  "cause": {
+    "de": "Ursache finden!",
+    "sq": "Gjej shkakun!",
+    "term": true
+  },
+  "k_mag": {
+    "de": "MAG",
+    "sq": "MAG-u"
+  },
+  "k_leak": {
+    "de": "Undichtigkeit",
+    "sq": "Rrjedhje",
+    "term": true
+  },
+  "k_other": {
+    "de": "Andere Anlagenteile",
+    "sq": "Pjesë të tjera të sistemit"
+  },
+  "hint1": {
+    "de": "Starke Druckschwankungen",
+    "sq": "Ndryshime të mëdha të presionit"
+  },
+  "hint2": {
+    "de": "Sicherheitsventil tropft",
+    "sq": "Valvula e sigurisë pikon"
+  },
+  "h13": {
+    "de": "Das echte MAG",
+    "sq": "MAG-u i vërtetë"
+  },
+  "housing": {
+    "de": "Gehäuse",
+    "sq": "Trupi i enës",
+    "term": true
+  },
+  "conn": {
+    "de": "Anschluss",
+    "sq": "Lidhja",
+    "term": true
+  },
+  "shutoff": {
+    "de": "Absperrung",
+    "sq": "Valvula mbyllëse",
+    "term": true
+  },
+  "drain": {
+    "de": "Entleerung",
+    "sq": "Shkarkimi",
+    "term": true
+  },
+  "gascush": {
+    "de": "Gaspolster",
+    "sq": "Jastëku i gazit",
+    "term": true
+  },
+  "h14": {
+    "de": "MAG und Sicherheitsventil",
+    "sq": "MAG-u dhe valvula e sigurisë"
+  },
+  "sv": {
+    "de": "Sicherheitsventil",
+    "sq": "Valvula e sigurisë",
+    "term": true
+  },
+  "eq_mag": {
+    "de": "MAG = normale Volumenänderungen",
+    "sq": "MAG = ndryshimet normale të vëllimit"
+  },
+  "eq_sv": {
+    "de": "Sicherheitsventil = Schutz vor unzulässigem Überdruck",
+    "sq": "Valvula e sigurisë = mbrojtje nga presioni i tepërt"
+  },
+  "overp": {
+    "de": "Unzulässiger Überdruck",
+    "sq": "Presion i tepërt",
+    "term": true
+  },
+  "none_rep": {
+    "de": "Keines ersetzt das andere",
+    "sq": "Asnjëra nuk e zëvendëson tjetrën"
+  },
+  "h15": {
+    "de": "Der ganze Ablauf",
+    "sq": "I gjithë procesi"
+  },
+  "f_w1": {
+    "de": "Wasser dehnt sich aus",
+    "sq": "Uji zgjerohet"
+  },
+  "f_w2": {
+    "de": "Fließt ins MAG",
+    "sq": "Hyn në MAG"
+  },
+  "f_w3": {
+    "de": "Membran bewegt sich",
+    "sq": "Membrana lëviz"
+  },
+  "f_w4": {
+    "de": "Gas wird komprimiert",
+    "sq": "Gazi komprimohet"
+  },
+  "f_k1": {
+    "de": "Gas dehnt sich aus",
+    "sq": "Gazi zgjerohet"
+  },
+  "f_k2": {
+    "de": "Membran geht zurück",
+    "sq": "Membrana kthehet mbrapsht"
+  },
+  "f_k3": {
+    "de": "Wasser zurück in die Anlage",
+    "sq": "Uji kthehet në sistem"
+  }
+}

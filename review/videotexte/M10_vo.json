@@ -1,0 +1,126 @@
+{
+ "intro": {
+  "de": "Es-Ha-Ka Grundlagen. Modul zehn. Wärmepumpen-Hydraulik: Puffer, Bypass, Mindestvolumenstrom.",
+  "sq": "Bazat e Es-Ha-Ka-së. Moduli dhjetë. Hidraulika e pompës së nxehtësisë: depozita, bajpasi, prurja minimale."
+ },
+ "s01": {
+  "de": "Im letzten Modul haben wir die komplette Heizungsanlage aufgebaut. Jetzt die Frage bei Wärmepumpen: Was, wenn das Gerät einen bestimmten Wasserumlauf und ein bestimmtes Anlagenvolumen braucht?",
+  "sq": "Në modulin e fundit ndërtuam sistemin e plotë të ngrohjes. Tani pyetja te pompat e nxehtësisë: po kur pajisja ka nevojë për një qarkullim dhe një vëllim të caktuar uji?"
+ },
+ "s02": {
+  "de": "Zuerst trennen wir zwei Dinge. Der Volumenstrom: wie viel Wasser sich durch das System bewegt. Das Wasservolumen: wie viel Wasser im System ist – und wie viel davon nutzbar ist.",
+  "sq": "Fillimisht ndajmë dy gjëra. Prurja: sa ujë lëviz nëpër sistem. Vëllimi i ujit: sa ujë ka në sistem – dhe sa prej tij është i përdorshëm."
+ },
+ "s03": {
+  "de": "Der Wärmetauscher einer Wärmepumpe braucht je nach Gerät einen bestimmten Wasserumlauf. Wird er zu stark eingeschränkt, arbeitet sie nicht mehr unter den vorgesehenen Bedingungen.",
+  "sq": "Shkëmbyesi i nxehtësisë i pompës ka nevojë, sipas pajisjes, për një qarkullim të caktuar uji. Nëse ky kufizohet shumë, pajisja nuk punon më në kushtet e parashikuara."
+ },
+ "s04": {
+  "de": "Kritisch wird es, wenn viele Raum- oder Heizkreisventile schließen. Der Strömungsweg wird kleiner – und der Volumenstrom durch den Wärmeerzeuger kann sich verändern.",
+  "sq": "Situata bëhet kritike kur mbyllen shumë valvula të dhomave ose të qarqeve. Rruga e rrjedhjes zvogëlohet – dhe prurja përmes pajisjes mund të ndryshojë."
+ },
+ "s05": {
+  "de": "Eine Anlage kann auch ohne Puffer funktionieren – wenn der Hersteller dieses Konzept freigibt und die Betriebsbedingungen jederzeit erfüllt sind. Ein Puffer ist nicht automatisch Pflicht.",
+  "sq": "Një sistem mund të punojë edhe pa depozitë – nëse prodhuesi e lejon këtë koncept dhe kushtet e punës plotësohen gjithmonë. Depozita nuk është automatikisht e detyrueshme."
+ },
+ "s06": {
+  "de": "Ein Pufferspeicher enthält Heizungswasser – kein Trinkwasser. Er bringt zusätzliches Wasservolumen und damit thermische Speicherfähigkeit in die Anlage.",
+  "sq": "Një depozitë akumuluese përmban ujë ngrohjeje – jo ujë të pijshëm. Ajo shton vëllim uji dhe kapacitet termik në sistemin e ngrohjes."
+ },
+ "s07": {
+  "de": "Je nach Anlage kann er zusätzliches Wasservolumen bereitstellen, Betriebsbedingungen unterstützen oder – bei entsprechender Schaltung – Erzeuger- und Verbraucherkreis hydraulisch entkoppeln.",
+  "sq": "Sipas sistemit, ajo mund të sigurojë vëllim shtesë uji, të mbështesë kushtet e punës ose – me lidhjen e duhur – të ndajë hidraulikisht qarkun e prodhuesit nga ai i konsumatorëve."
+ },
+ "s08": {
+  "de": "Beim Reihenpuffer liegt der Speicher im gemeinsamen Wasserweg. Dadurch erhöht sich vor allem der Wasserinhalt des Systems.",
+  "sq": "Te depozita në seri, rezervuari ndodhet në rrugën e përbashkët të ujit. Në këtë mënyrë rritet sidomos vëllimi i ujit në sistem."
+ },
+ "s09": {
+  "de": "Wichtig: Mehr Wasser im Reihenpuffer schafft keinen offenen Strömungsweg. Schließen alle Verbraucher, sind zwar Liter da – der nötige Wasserumlauf ist aber nicht gesichert.",
+  "sq": "E rëndësishme: më shumë ujë në depozitën në seri nuk krijon rrugë të hapur rrjedhjeje. Kur mbyllen të gjithë konsumatorët, litrat janë aty – por qarkullimi i nevojshëm nuk është i siguruar."
+ },
+ "s10": {
+  "de": "Bei einem parallel eingebundenen Pufferspeicher können Wärmeerzeuger- und Verbraucherkreis hydraulisch voneinander entkoppelt werden.",
+  "sq": "Me një depozitë të lidhur paralelisht, qarku i prodhuesit dhe qarku i konsumatorëve mund të ndahen hidraulikisht nga njëri-tjetri."
+ },
+ "s11": {
+  "de": "Dadurch können auf beiden Seiten unterschiedliche Volumenströme auftreten: Die Wärmepumpe hat ihren Erzeugerkreis, die Heizkreise haben ihren eigenen hydraulischen Bedarf.",
+  "sq": "Kështu mund të ketë prurje të ndryshme në të dyja anët: pompa e nxehtësisë ka qarkun e saj, qarqet e ngrohjes kanë nevojat e tyre hidraulike."
+ },
+ "s12": {
+  "de": "Der wichtigste Unterschied: Ein Reihenpuffer erhöht vor allem den Wasserinhalt. Ein Parallelpuffer kann zusätzlich hydraulisch entkoppeln.",
+  "sq": "Dallimi kryesor: depozita në seri rrit kryesisht vëllimin e ujit. Depozita paralele mund të sigurojë edhe ndarje hidraulike."
+ },
+ "s13": {
+  "de": "Ein Puffer verbessert die Effizienz aber nicht automatisch. Ein unnötig großer oder unnötig heiß betriebener Speicher kann zusätzliche Wärmeverluste verursachen.",
+  "sq": "Por depozita nuk e rrit automatikisht efikasitetin. Një depozitë tepër e madhe ose pa nevojë shumë e nxehtë mund të shkaktojë humbje shtesë nxehtësie."
+ },
+ "s14": {
+  "de": "Die Puffergröße richtet sich deshalb nach dem konkreten System und den Herstellerangaben. Eine pauschale Liter-pro-Kilowatt-Regel gibt es nicht.",
+  "sq": "Prandaj madhësia e depozitës zgjidhet sipas sistemit konkret dhe të dhënave të prodhuesit. Nuk ekziston një rregull i përgjithshëm litra për kilovat."
+ },
+ "s15": {
+  "de": "Bei Luft-Wasser-Wärmepumpen kann außerdem Energie aus dem Heizsystem für die Abtauung wichtig sein. Welche Wassermenge und Bedingungen nötig sind, gibt das konkrete Gerät vor.",
+  "sq": "Te pompat ajër-ujë mund të jetë e rëndësishme edhe energjia nga sistemi i ngrohjes për shkrirjen. Sa ujë dhe cilat kushte nevojiten, e përcakton pajisja konkrete."
+ },
+ "s16": {
+  "de": "Die Nennliterzahl allein beweist keine Abtaufähigkeit. Entscheidend ist das hydraulisch nutzbare Volumen – und ob der Wasserumlauf gewährleistet bleibt.",
+  "sq": "Numri nominal i litrave nuk provon vetvetiu aftësinë për shkrirje. Vendimtar është vëllimi realisht i përdorshëm – dhe nëse qarkullimi mbetet i siguruar."
+ },
+ "s17": {
+  "de": "Eine weitere Möglichkeit in bestimmten Hydraulikkonzepten ist ein Differenzdruck-Überströmventil. Es sitzt in einem Bypass zwischen Vor- und Rücklauf.",
+  "sq": "Një mundësi tjetër në disa koncepte hidraulike është valvula e tejkalimit me presion diferencial. Ajo vendoset në një bajpas midis furnizimit dhe kthimit."
+ },
+ "s18": {
+  "de": "Sind die Heizkreise ausreichend geöffnet, fließt das Wasser über die Verbraucher. Der Bypass muss dann nicht geöffnet sein.",
+  "sq": "Kur qarqet e ngrohjes janë mjaftueshëm të hapura, uji kalon përmes konsumatorëve. Bajpasi nuk ka nevojë të hapet."
+ },
+ "s19": {
+  "de": "Schließen mehrere Heizkreisventile, steigt – je nach Pumpenregelung und Hydraulik – der Differenzdruck zwischen Vor- und Rücklauf.",
+  "sq": "Kur mbyllen disa valvula të qarqeve, në varësi të pompës dhe hidraulikës rritet diferenca e presionit midis furnizimit dhe kthimit."
+ },
+ "s20": {
+  "de": "Erreicht der Differenzdruck den vorgesehenen Öffnungsbereich, kann das Überströmventil öffnen. So entsteht ein zusätzlicher interner Weg vom Vorlauf zurück zum Rücklauf.",
+  "sq": "Kur diferenca e presionit arrin zonën e parashikuar të hapjes, valvula e bajpasit mund të hapet. Kështu krijohet një rrugë e brendshme shtesë nga furnizimi drejt kthimit."
+ },
+ "s21": {
+  "de": "Wichtig: Das Überströmventil ist kein Sicherheitsventil. Das Sicherheitsventil führt bei unzulässigem Druck Wasser nach außen ab. Das Überströmventil führt es intern vom Vorlauf in den Rücklauf.",
+  "sq": "E rëndësishme: valvula e bajpasit nuk është valvul sigurie. Valvula e sigurisë shkarkon ujë jashtë kur presioni është tepër i lartë. Valvula e bajpasit e kthen ujin brenda, nga furnizimi në kthim."
+ },
+ "s22": {
+  "de": "Öffnet das Überströmventil zu früh oder zu weit, strömt unnötig viel Wasser direkt vom Vorlauf in den Rücklauf. Es entsteht ein unerwünschter hydraulischer Kurzschluss.",
+  "sq": "Nëse valvula hapet shumë herët ose shumë, një sasi e panevojshme uji kalon direkt nga furnizimi në kthim. Krijohet një shkurtim hidraulik i padëshiruar."
+ },
+ "s23": {
+  "de": "Ist es dagegen zu weit geschlossen, kann der benötigte Bypassstrom fehlen, wenn die Heizkreise schließen.",
+  "sq": "Nëse përkundrazi është tepër e mbyllur, prurja e nevojshme përmes bajpasit mund të mungojë kur qarqet e ngrohjes mbyllen."
+ },
+ "s24": {
+  "de": "Und: Die Einstellung ist nicht der Anlagenfülldruck. Das Ventil reagiert auf eine Druckdifferenz und wird auf Pumpenkennlinie und Hydraulik abgestimmt.",
+  "sq": "Dhe: rregullimi nuk është presioni i mbushjes. Valvula reagon ndaj diferencës së presionit dhe rregullohet sipas pompës dhe kërkesave hidraulike."
+ },
+ "s25": {
+  "de": "Ein eingebautes Überströmventil garantiert also noch keinen Mindestvolumenstrom. Bypass, Pumpe und Hydraulik müssen gemeinsam passend ausgelegt und eingestellt sein.",
+  "sq": "Pra, një valvul bajpasi e montuar nuk garanton ende prurjen minimale. Bajpasi, pompa dhe hidraulika duhet të dimensionohen dhe rregullohen së bashku."
+ },
+ "s26": {
+  "de": "Drei Grundprinzipien also: direkt, Reihenpuffer mit gesichertem Strömungsweg oder Parallelpuffer mit Entkopplung. Welche Lösung richtig ist, entscheidet das konkrete Wärmepumpensystem.",
+  "sq": "Pra, tri parime bazë: direkt, depozitë në seri me rrugë të siguruar rrjedhjeje, ose depozitë paralele me ndarje. Zgjidhjen e saktë e përcakton sistemi konkret."
+ },
+ "s27": {
+  "de": "Typische Fehler: Jede Wärmepumpe braucht einen Puffer. Ohne Puffer immer effizienter. Reihenpuffer mit Entkopplung verwechselt. Nennliter gleich Mindestvolumenstrom. Großer Speicher ohne Auslegung. Puffer unnötig heiß. Überströmventil mit Sicherheitsventil verwechselt, dauerhaft weit offen, zu weit geschlossen oder nach Fülldruck eingestellt. Bypass da – also Mindestvolumenstrom sicher. Und: Abtaufähigkeit nur über die Literzahl.",
+  "sq": "Gabime tipike: çdo pompë ka nevojë për depozitë. Pa depozitë gjithmonë më efikase. Depozita në seri ngatërrohet me ndarjen. Litrat nominalë barazohen me prurjen minimale. Depozitë e madhe pa dimensionim. Depozitë shumë e nxehtë. Valvula e bajpasit ngatërrohet me valvulën e sigurisë, shumë e hapur, tepër e mbyllur ose e rregulluar sipas presionit të mbushjes. Ka bajpas – gjoja prurja minimale është e sigurt. Dhe: shkrirja vlerësohet vetëm nga litrat."
+ },
+ "s28": {
+  "de": "Siehst du diese Bauteile auf der Baustelle, frag beim Puffer: Welche Aufgabe hat er hier? Und beim Überströmventil: Wann soll der Bypass öffnen – und welcher Volumenstrom muss erreicht werden?",
+  "sq": "Kur i sheh këta komponentë në kantier, pyet te depozita: çfarë detyre ka këtu? Dhe te valvula e bajpasit: kur duhet të hapet – dhe çfarë prurjeje duhet të arrihet?"
+ },
+ "s29": {
+  "de": "Merke dir: Wasservolumen und Volumenstrom sind zwei verschiedene Dinge. Ein Reihenpuffer bringt Wasservolumen, entkoppelt aber nicht automatisch. Ein Parallelpuffer kann zusätzlich entkoppeln. Ob ein Puffer nötig ist, entscheidet die konkrete Wärmepumpenhydraulik. Ein Überströmventil kann bei schließenden Verbrauchern einen Weg vom Vorlauf zum Rücklauf öffnen – ist aber kein Sicherheitsventil und garantiert ohne richtige Auslegung keinen Mindestvolumenstrom. Entscheidend ist nie ein einzelnes Bauteil, sondern dass Wasservolumen, Volumenstrom und Hydraulik zusammen die Anforderungen der Wärmepumpe erfüllen.",
+  "sq": "Mbaje mend: vëllimi i ujit dhe prurja janë dy gjëra të ndryshme. Depozita në seri sjell vëllim uji, por nuk ndan automatikisht. Depozita paralele mund të sigurojë edhe ndarje. Nëse nevojitet depozitë, e përcakton hidraulika konkrete e pompës së nxehtësisë. Kur konsumatorët mbyllen, valvula e bajpasit mund të hapë një rrugë nga furnizimi te kthimi – por nuk është valvul sigurie dhe pa dimensionim të saktë nuk garanton prurjen minimale. Vendimtare nuk është një pajisje e vetme, por që vëllimi, prurja dhe hidraulika së bashku plotësojnë kërkesat e pompës."
+ },
+ "outro": {
+  "de": "Modul zehn abgeschlossen.",
+  "sq": "Moduli dhjetë përfunduar."
+ }
+}

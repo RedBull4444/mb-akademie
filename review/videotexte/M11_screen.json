@@ -1,0 +1,931 @@
+{
+ "intro_kicker": {
+  "de": "SHK GRUNDLAGEN",
+  "sq": "BAZAT E SHK-së"
+ },
+ "intro_mod": {
+  "de": "MODUL 11",
+  "sq": "MODULI 11"
+ },
+ "intro_title": {
+  "de": "Umwälzpumpe & Rückschlagventile",
+  "sq": "Pompa qarkulluese & valvulat kundërkthimit",
+  "termDe": "Umwälzpumpe & Rückschlagventile"
+ },
+ "intro_sub": {
+  "de": "Differenzdruck · Regelung · Fließrichtung",
+  "sq": "Diferenca e presionit · Rregullimi · Drejtimi i rrjedhës"
+ },
+ "outro_done": {
+  "de": "MODUL 11 ABGESCHLOSSEN",
+  "sq": "MODULI 11 PËRFUNDUAR"
+ },
+ "pump": {
+  "de": "Umwälzpumpe",
+  "sq": "Pompa qarkulluese",
+  "term": true
+ },
+ "rv": {
+  "de": "Rückschlagventil",
+  "sq": "Valvula kundërkthimit",
+  "term": true
+ },
+ "sb": {
+  "de": "Schwerkraftbremse",
+  "sq": "Frenuesi i qarkullimit natyror",
+  "term": true
+ },
+ "vl": {
+  "de": "Vorlauf",
+  "sq": "Furnizimi",
+  "term": true
+ },
+ "rl": {
+  "de": "Rücklauf",
+  "sq": "Kthimi",
+  "term": true
+ },
+ "dp": {
+  "de": "Differenzdruck",
+  "sq": "Diferenca e presionit",
+  "term": true
+ },
+ "vs": {
+  "de": "Volumenstrom",
+  "sq": "Prurja",
+  "term": true
+ },
+ "res": {
+  "de": "Widerstände",
+  "sq": "Rezistencat",
+  "term": true
+ },
+ "mag": {
+  "de": "MAG",
+  "sq": "MAG",
+  "term": false
+ },
+ "sv": {
+  "de": "Sicherheitsventil",
+  "sq": "Valvula e sigurisë",
+  "term": true
+ },
+ "gen": {
+  "de": "Wärmeerzeuger",
+  "sq": "Pajisja e ngrohjes",
+  "term": true
+ },
+ "principle": {
+  "de": "Prinzipdarstellung – Beispiel, kein Universalschema",
+  "sq": "Paraqitje parimore – shembull, jo skemë universale"
+ },
+ "no_val": {
+  "de": "ohne Zahlenwerte – es gelten Herstellerangaben + Hydraulikschema",
+  "sq": "pa vlera – vlejnë të dhënat e prodhuesit + skema hidraulike",
+  "termDe": "Herstellerangaben + Hydraulikschema"
+ },
+ "g_vl": {
+  "de": "Vorlauf",
+  "sq": "Furnizimi",
+  "term": true
+ },
+ "g_rl": {
+  "de": "Rücklauf (kühler)",
+  "sq": "Kthimi (më i ftohtë)",
+  "termDe": "Rücklauf"
+ },
+ "ax_q": {
+  "de": "Volumenstrom",
+  "sq": "Prurja",
+  "term": false
+ },
+ "sys_curve": {
+  "de": "Rohrnetz",
+  "sq": "Rrjeti",
+  "term": false
+ },
+ "pump_curve": {
+  "de": "Pumpe",
+  "sq": "Pompa",
+  "term": false
+ },
+ "h01": {
+  "de": "Die echten Bauteile",
+  "sq": "Komponentët realë"
+ },
+ "ex_pump": {
+  "de": "Umwälzpumpe",
+  "sq": "Pompa qarkulluese",
+  "term": true
+ },
+ "ex_rv": {
+  "de": "Rückschlagventil",
+  "sq": "Valvula kundërkthimit",
+  "term": true
+ },
+ "c01a": {
+  "de": "erzeugt die Wasserbewegung",
+  "sq": "krijon lëvizjen e ujit",
+  "termDe": "erzeugt Wasserbewegung"
+ },
+ "c01b": {
+  "de": "verhindert Rückströmung",
+  "sq": "pengon kthimin e ujit",
+  "termDe": "verhindert Rückströmung"
+ },
+ "h02": {
+  "de": "Ohne Pumpe",
+  "sq": "Pa pompë"
+ },
+ "c02a": {
+  "de": "Wasser im ganzen Rohrnetz",
+  "sq": "ujë në gjithë rrjetin",
+  "termDe": "Wasser im ganzen Rohrnetz"
+ },
+ "c02b": {
+  "de": "nicht hochheben",
+  "sq": "nuk e ngre ujin",
+  "termDe": "nicht hochheben"
+ },
+ "c02c": {
+  "de": "Zirkulation erzeugen",
+  "sq": "krijon qarkullimin",
+  "termDe": "Zirkulation erzeugen"
+ },
+ "pump_off": {
+  "de": "Pumpe aus",
+  "sq": "pompa e fikur",
+  "termDe": "Pumpe aus"
+ },
+ "h03": {
+  "de": "Die Pumpe erzeugt Differenzdruck",
+  "sq": "Pompa krijon diferencë presioni"
+ },
+ "suc": {
+  "de": "Saugseite",
+  "sq": "Ana hyrëse",
+  "term": true
+ },
+ "dis": {
+  "de": "Druckseite",
+  "sq": "Ana dalëse",
+  "term": true
+ },
+ "c03r": {
+  "de": "Rohre",
+  "sq": "tubat",
+  "termDe": "Rohre"
+ },
+ "c03v": {
+  "de": "Ventile",
+  "sq": "valvulat",
+  "termDe": "Ventile"
+ },
+ "c03h": {
+  "de": "Heizflächen",
+  "sq": "sipërfaqet e ngrohjes",
+  "termDe": "Heizflächen"
+ },
+ "h04": {
+  "de": "Pumpendruck ist nicht Anlagendruck",
+  "sq": "Presioni i pompës nuk është presioni i sistemit"
+ },
+ "stat": {
+  "de": "statische Druckhaltung",
+  "sq": "mbajtja statike e presionit",
+  "termDe": "statische Druckhaltung"
+ },
+ "dpu": {
+  "de": "Differenzdruck für Umlauf",
+  "sq": "diferencë presioni për qarkullim",
+  "termDe": "Differenzdruck für Umlauf"
+ },
+ "h05": {
+  "de": "Gebäudehöhe ist nicht Pumpenhöhe",
+  "sq": "Lartësia e ndërtesës nuk është lartësia e pompës"
+ },
+ "c05up": {
+  "de": "Vorlauf steigt",
+  "sq": "furnizimi ngjitet",
+  "termDe": "Vorlauf steigt"
+ },
+ "c05dn": {
+  "de": "Rücklauf fällt",
+  "sq": "kthimi zbret",
+  "termDe": "Rücklauf fällt"
+ },
+ "c05eq": {
+  "de": "gefüllt + geschlossen: gleicht sich aus",
+  "sq": "i mbushur + i mbyllur: balancohet",
+  "termDe": "gleicht sich aus"
+ },
+ "c05h": {
+  "de": "Gebäudehöhe",
+  "sq": "Lartësia e ndërtesës",
+  "term": true
+ },
+ "h06": {
+  "de": "Strömungswiderstände",
+  "sq": "Rezistencat ndaj rrjedhës"
+ },
+ "r_pipe": {
+  "de": "Rohr",
+  "sq": "Tubi",
+  "term": true
+ },
+ "r_bend": {
+  "de": "Bogen",
+  "sq": "Bërryli",
+  "term": true
+ },
+ "r_valve": {
+  "de": "Ventil",
+  "sq": "Valvula",
+  "term": true
+ },
+ "r_hx": {
+  "de": "Wärmetauscher",
+  "sq": "Shkëmbyesi",
+  "term": true
+ },
+ "r_circ": {
+  "de": "Heizkreis",
+  "sq": "Qarku i ngrohjes",
+  "term": true
+ },
+ "res_sum": {
+  "de": "Widerstand im Rohrnetz",
+  "sq": "Rezistenca në rrjet",
+  "termDe": "Widerstand im Rohrnetz"
+ },
+ "c06fit": {
+  "de": "Pumpe passend zu Volumenstrom + Widerständen",
+  "sq": "pompa sipas prurjes + rezistencave",
+  "termDe": "passend zu Volumenstrom + Widerständen"
+ },
+ "h07": {
+  "de": "Pumpenleistung und Volumenstrom",
+  "sq": "Puna e pompës dhe prurja"
+ },
+ "op_pt": {
+  "de": "Betriebspunkt",
+  "sq": "Pika e punës",
+  "term": true
+ },
+ "c07dep": {
+  "de": "wie stark? – hängt vom Rohrnetz ab",
+  "sq": "sa shumë? – varet nga rrjeti",
+  "termDe": "hängt vom Rohrnetz ab"
+ },
+ "h08": {
+  "de": "„Einfach auf Maximum“ ist keine Auslegung",
+  "sq": "„Thjesht në maksimum“ nuk është dimensionim"
+ },
+ "max": {
+  "de": "MAX",
+  "sq": "MAX",
+  "term": false
+ },
+ "c08n": {
+  "de": "unnötige Geräusche",
+  "sq": "zhurma të panevojshme",
+  "termDe": "Geräusche"
+ },
+ "c08e": {
+  "de": "höhere elektrische Leistung",
+  "sq": "konsum më i lartë elektrik",
+  "termDe": "elektrische Leistung"
+ },
+ "c08h": {
+  "de": "ungünstige Hydraulik",
+  "sq": "hidraulikë e pafavorshme",
+  "termDe": "ungünstige Hydraulik"
+ },
+ "c08ok": {
+  "de": "Hydraulikplan · benötigter Volumenstrom · passende Einstellung",
+  "sq": "plani hidraulik · prurja e nevojshme · rregullim i duhur",
+  "termDe": "Auslegung statt Maximum"
+ },
+ "h09": {
+  "de": "Regelung mit konstantem Differenzdruck",
+  "sq": "Rregullim me diferencë konstante presioni"
+ },
+ "c09": {
+  "de": "Druckunterschied im Arbeitsbereich halten",
+  "sq": "mban diferencën e presionit brenda zonës së punës",
+  "termDe": "Druckunterschied halten"
+ },
+ "setp": {
+  "de": "vorgegebener Druckunterschied",
+  "sq": "diferenca e caktuar e presionit",
+  "termDe": "Sollwert"
+ },
+ "h10": {
+  "de": "Konstanter Differenzdruck ≠ konstanter Volumenstrom",
+  "sq": "Presion konstant ≠ prurje konstante"
+ },
+ "dp_const": {
+  "de": "Δp konstant",
+  "sq": "Δp konstante",
+  "termDe": "Δp konstant"
+ },
+ "q_const": {
+  "de": "Durchfluss konstant",
+  "sq": "prurje konstante",
+  "termDe": "Durchfluss konstant"
+ },
+ "rv_close": {
+  "de": "Ventile schließen",
+  "sq": "valvulat mbyllen",
+  "termDe": "Ventile schließen"
+ },
+ "h11": {
+  "de": "Variable Differenzdruckregelung",
+  "sq": "Rregullim me diferencë të ndryshueshme"
+ },
+ "c11": {
+  "de": "weniger Bedarf → kleinerer Differenzdruck",
+  "sq": "më pak nevojë → diferencë më e vogël",
+  "termDe": "weniger Bedarf → kleinerer Δp"
+ },
+ "h12": {
+  "de": "Welcher Regelmodus ist richtig?",
+  "sq": "Cila mënyrë rregullimi është e duhura?"
+ },
+ "m_hk": {
+  "de": "Heizkörperkreis",
+  "sq": "Qarku i radiatorëve",
+  "term": true
+ },
+ "m_fbh": {
+  "de": "Fußbodenheizung",
+  "sq": "Ngrohja në dysheme",
+  "term": true
+ },
+ "m_wp": {
+  "de": "Wärmepumpe mit integrierter Pumpenregelung",
+  "sq": "Pompë nxehtësie me rregullim të integruar",
+  "termDe": "WP mit integrierter Regelung"
+ },
+ "c12": {
+  "de": "Rohrnetz · Verbraucher · Steuerung des Wärmeerzeugers",
+  "sq": "rrjeti · konsumatorët · kontrolli i pajisjes",
+  "termDe": "Rohrnetz · Verbraucher · Steuerung"
+ },
+ "c12b": {
+  "de": "keine Einstellung passt automatisch für jede Anlage",
+  "sq": "asnjë rregullim nuk vlen automatikisht për çdo sistem",
+  "termDe": "keine Universaleinstellung"
+ },
+ "h13": {
+  "de": "Integrierte Wärmepumpenpumpe",
+  "sq": "Pompa e integruar e pompës së nxehtësisë"
+ },
+ "ctrl": {
+  "de": "Gerätesteuerung",
+  "sq": "Kontrolli i pajisjes",
+  "term": true
+ },
+ "c13": {
+  "de": "nicht unabhängig vom Herstellerkonzept verstellen",
+  "sq": "mos e ndrysho pa konceptin e prodhuesit",
+  "termDe": "Herstellerkonzept beachten"
+ },
+ "h14": {
+  "de": "Fließrichtung der Pumpe",
+  "sq": "Drejtimi i rrjedhës së pompës"
+ },
+ "c14": {
+  "de": "Pfeil am Pumpengehäuse = vorgesehener Wasserweg",
+  "sq": "shigjeta në trup = rruga e parashikuar e ujit",
+  "termDe": "Pfeil am Gehäuse = Wasserweg"
+ },
+ "c14w": {
+  "de": "Pfeil gegen den Wasserweg",
+  "sq": "shigjeta kundër rrugës së ujit",
+  "termDe": "Pfeil gegen den Wasserweg"
+ },
+ "h15": {
+  "de": "Einbaulage",
+  "sq": "Pozicioni i montimit"
+ },
+ "shaft": {
+  "de": "Motorwelle",
+  "sq": "Boshti i motorit",
+  "term": true
+ },
+ "sh_h": {
+  "de": "Welle horizontal",
+  "sq": "bosht horizontal",
+  "termDe": "Welle horizontal"
+ },
+ "sh_v": {
+  "de": "Welle senkrecht",
+  "sq": "bosht vertikal",
+  "termDe": "Welle senkrecht"
+ },
+ "c15": {
+  "de": "bei vielen üblichen Nassläufer-Heizungspumpen",
+  "sq": "te shumë pompa tipike me rotor të lagësht",
+  "termDe": "viele übliche Nassläuferpumpen"
+ },
+ "c15b": {
+  "de": "keine universelle Regel – Anleitung des konkreten Modells",
+  "sq": "jo rregull universal – udhëzimi i modelit konkret",
+  "termDe": "Anleitung des Modells"
+ },
+ "h16": {
+  "de": "Nicht trocken laufen lassen",
+  "sq": "Mos e lër të punojë pa ujë"
+ },
+ "dry": {
+  "de": "Pumpe leer gestartet",
+  "sq": "pompa nis pa ujë",
+  "termDe": "trocken gestartet"
+ },
+ "fill": {
+  "de": "gefüllt",
+  "sq": "mbushur",
+  "term": true
+ },
+ "vent": {
+  "de": "entlüftet",
+  "sq": "ajrosur",
+  "term": true
+ },
+ "start": {
+  "de": "dann starten",
+  "sq": "pastaj nis",
+  "termDe": "dann starten"
+ },
+ "h17": {
+  "de": "Heizungspumpe ≠ Trinkwasser-Zirkulationspumpe",
+  "sq": "Pompë ngrohjeje ≠ pompë riqarkullimi sanitare"
+ },
+ "hzp": {
+  "de": "Heizungsumwälzpumpe",
+  "sq": "Pompa qarkulluese e ngrohjes",
+  "term": true
+ },
+ "twp": {
+  "de": "Trinkwasser-Zirkulationspumpe",
+  "sq": "Pompa e riqarkullimit të ujit sanitar",
+  "termDe": "Trinkwasser-Zirkulationspumpe"
+ },
+ "hzw": {
+  "de": "Heizungswasser",
+  "sq": "ujë ngrohjeje",
+  "term": true
+ },
+ "tw": {
+  "de": "Trinkwasser",
+  "sq": "ujë i pijshëm",
+  "term": true
+ },
+ "c17": {
+  "de": "ähnliche Optik ≠ gleiche Zulassung / Einsatzzweck",
+  "sq": "pamje e ngjashme ≠ i njëjti përdorim",
+  "termDe": "ähnliche Optik ≠ gleiche Zulassung"
+ },
+ "h18": {
+  "de": "Jetzt die Fließrichtung sichern",
+  "sq": "Tani sigurojmë drejtimin e rrjedhës"
+ },
+ "c18a": {
+  "de": "Pumpe = Bewegung",
+  "sq": "pompa = lëvizje",
+  "termDe": "Pumpe = Bewegung"
+ },
+ "c18b": {
+  "de": "unerwünscht in Gegenrichtung?",
+  "sq": "padashur në drejtim të kundërt?",
+  "termDe": "Gegenrichtung?"
+ },
+ "h19": {
+  "de": "Rückschlagventil: Grundprinzip",
+  "sq": "Valvula kundërkthimit: parimi"
+ },
+ "fwd": {
+  "de": "vorgesehene Richtung: öffnet",
+  "sq": "drejtimi i parashikuar: hapet",
+  "termDe": "öffnet"
+ },
+ "bwd": {
+  "de": "Rückströmung: schließt",
+  "sq": "kthim: mbyllet",
+  "termDe": "schließt"
+ },
+ "door": {
+  "de": "wie eine Tür in nur eine Richtung",
+  "sq": "si një derë në një drejtim",
+  "termDe": "Tür in eine Richtung"
+ },
+ "h20": {
+  "de": "Es braucht einen Öffnungsdruck",
+  "sq": "Nevojitet presion hapjeje"
+ },
+ "opd": {
+  "de": "Öffnungsdruck",
+  "sq": "Presioni i hapjes",
+  "term": true
+ },
+ "c20a": {
+  "de": "zu wenig Differenzdruck: bleibt zu",
+  "sq": "diferencë e vogël: mbetet e mbyllur",
+  "termDe": "bleibt zu"
+ },
+ "c20b": {
+  "de": "genug Differenzdruck: öffnet",
+  "sq": "diferencë e mjaftueshme: hapet",
+  "termDe": "öffnet"
+ },
+ "c20c": {
+  "de": "+ zusätzlicher hydraulischer Widerstand",
+  "sq": "+ rezistencë shtesë hidraulike",
+  "termDe": "+ zusätzlicher Widerstand"
+ },
+ "h21": {
+  "de": "Warum Rückströmung verhindern?",
+  "sq": "Pse duhet penguar kthimi?"
+ },
+ "pA": {
+  "de": "Pumpe A läuft",
+  "sq": "pompa A punon",
+  "termDe": "Pumpe A läuft"
+ },
+ "pB": {
+  "de": "Pumpe B steht",
+  "sq": "pompa B ndalur",
+  "termDe": "Pumpe B steht"
+ },
+ "c21w": {
+  "de": "ohne Rückschlagventil: rückwärts durch Kreis B",
+  "sq": "pa valvul: mbrapsht nëpër qarkun B",
+  "termDe": "rückwärts durch Kreis B"
+ },
+ "c21ok": {
+  "de": "mit Rückschlagventil: Rückweg geschlossen",
+  "sq": "me valvul: rruga e kthimit e mbyllur",
+  "termDe": "Rückweg geschlossen"
+ },
+ "h22": {
+  "de": "Schwerkraftumlauf",
+  "sq": "Qarkullimi natyror"
+ },
+ "warm_up": {
+  "de": "warm steigt",
+  "sq": "i ngrohti ngjitet",
+  "termDe": "warm steigt"
+ },
+ "cool_dn": {
+  "de": "kühler sinkt",
+  "sq": "më i ftohti zbret",
+  "termDe": "kühler sinkt"
+ },
+ "c22": {
+  "de": "Umlauf ohne laufende Pumpe",
+  "sq": "qarkullim pa pompë në punë",
+  "termDe": "Umlauf ohne Pumpe"
+ },
+ "h23": {
+  "de": "Die Schwerkraftbremse",
+  "sq": "Frenuesi i qarkullimit natyror"
+ },
+ "c23": {
+  "de": "begrenzt unerwünschten natürlichen Umlauf",
+  "sq": "kufizon qarkullimin natyror të padëshiruar",
+  "termDe": "begrenzt natürlichen Umlauf"
+ },
+ "h24": {
+  "de": "Rückschlagfunktion kann integriert sein",
+  "sq": "Funksioni kundërkthim mund të jetë i integruar"
+ },
+ "pgroup": {
+  "de": "Pumpengruppe",
+  "sq": "Grupi i pompës",
+  "term": true
+ },
+ "integ": {
+  "de": "Rückschlagfunktion integriert",
+  "sq": "funksion kundërkthim i integruar",
+  "termDe": "integriert"
+ },
+ "c24": {
+  "de": "vor dem Einbau: vorhandene Funktionen prüfen",
+  "sq": "para montimit: kontrollo funksionet ekzistuese",
+  "termDe": "vorhandene Funktionen prüfen"
+ },
+ "h25": {
+  "de": "Serviceposition",
+  "sq": "Pozicioni i servisit"
+ },
+ "s_open": {
+  "de": "Offen – Service",
+  "sq": "Hapur – servis",
+  "termDe": "Offen"
+ },
+ "s_auto": {
+  "de": "Auto – Betriebsstellung",
+  "sq": "Auto – pozicioni i punës",
+  "termDe": "Auto / Betrieb"
+ },
+ "c25w": {
+  "de": "nach der Wartung offen vergessen",
+  "sq": "harruar e hapur pas mirëmbajtjes",
+  "termDe": "offen vergessen"
+ },
+ "c25ok": {
+  "de": "zurück in Betriebsstellung",
+  "sq": "kthehet në pozicionin e punës",
+  "termDe": "zurück in Betriebsstellung"
+ },
+ "ex_sb_note": {
+  "de": "nur bei Bauarten mit Handaufstellung",
+  "sq": "vetëm te modelet me hapje manuale",
+  "termDe": "nur mit Handaufstellung"
+ },
+ "h26": {
+  "de": "Rückschlagventil ist kein Systemtrenner",
+  "sq": "Valvula kundërkthimit nuk është ndarës sistemi"
+ },
+ "rv_hz": {
+  "de": "Heizungs-Rückschlagventil",
+  "sq": "valvul kundërkthimi ngrohjeje",
+  "termDe": "Heizungs-Rückschlagventil"
+ },
+ "fill_st": {
+  "de": "Füllstrecke mit Systemtrenner BA",
+  "sq": "linja e mbushjes me ndarës BA",
+  "termDe": "Systemtrenner BA"
+ },
+ "c26": {
+  "de": "Trinkwasserschutz: passende Sicherungseinrichtung je Gefährdung",
+  "sq": "mbrojtja e ujit të pijshëm: pajisja e duhur sipas rrezikut",
+  "termDe": "Sicherungseinrichtung je Gefährdung"
+ },
+ "h27": {
+  "de": "Sicherheitswege frei halten",
+  "sq": "Rrugët e sigurisë të lira"
+ },
+ "c27ok": {
+  "de": "Sicherheitsventil + MAG frei verbunden",
+  "sq": "valvula e sigurisë + MAG të lidhura lirshëm",
+  "termDe": "frei verbunden"
+ },
+ "c27w": {
+  "de": "Rückschlagventil blockiert den Schutzweg",
+  "sq": "valvula bllokon rrugën mbrojtëse",
+  "termDe": "Schutzweg blockiert"
+ },
+ "h28": {
+  "de": "Montagecheck Rückschlagventil",
+  "sq": "Kontrolli i montimit të valvulës"
+ },
+ "chk28": {
+  "de": "Vor Einbau prüfen",
+  "sq": "Kontrollo para montimit",
+  "termDe": "Vor Einbau prüfen"
+ },
+ "k1": {
+  "de": "Medium",
+  "sq": "Lëngu",
+  "term": true
+ },
+ "k2": {
+  "de": "Temperaturbereich",
+  "sq": "Diapazoni i temperaturës",
+  "term": true
+ },
+ "k3": {
+  "de": "Druckbereich",
+  "sq": "Diapazoni i presionit",
+  "term": true
+ },
+ "k4": {
+  "de": "Öffnungsdruck",
+  "sq": "Presioni i hapjes",
+  "term": true
+ },
+ "k5": {
+  "de": "Fließrichtung",
+  "sq": "Drejtimi i rrjedhës",
+  "term": true
+ },
+ "k6": {
+  "de": "zulässige Einbaulage",
+  "sq": "Pozicioni i lejuar",
+  "term": true
+ },
+ "k7": {
+  "de": "Wartungszugang + Druckverlust",
+  "sq": "Qasja për mirëmbajtje + humbja e presionit",
+  "termDe": "Wartungszugang + Druckverlust"
+ },
+ "h29": {
+  "de": "Typische Fehler",
+  "sq": "Gabime tipike"
+ },
+ "e1": {
+  "de": "Pumpe nach Gebäudehöhe ausgewählt",
+  "sq": "Pompa sipas lartësisë së ndërtesës",
+  "termDe": "nach Gebäudehöhe ausgewählt"
+ },
+ "e2": {
+  "de": "Pumpe einfach auf Maximum",
+  "sq": "Pompa thjesht në maksimum",
+  "termDe": "einfach auf Maximum"
+ },
+ "e3": {
+  "de": "Pumpendruck mit Anlagendruck verwechselt",
+  "sq": "Presioni i pompës = presioni i sistemit",
+  "termDe": "Pumpendruck ≠ Anlagendruck"
+ },
+ "e4": {
+  "de": "Δp-c als „immer gleicher Volumenstrom“",
+  "sq": "Δp-c si „prurje gjithmonë e njëjtë“",
+  "termDe": "Δp-c ≠ gleicher Volumenstrom"
+ },
+ "e5": {
+  "de": "Integrierte WP-Pumpe beliebig verstellt",
+  "sq": "Pompa e integruar ndryshohet sipas dëshirës",
+  "termDe": "WP-Pumpe beliebig verstellt"
+ },
+ "e6": {
+  "de": "Pumpe falsch herum",
+  "sq": "Pompa së prapthi",
+  "termDe": "Pumpe falsch herum"
+ },
+ "e7": {
+  "de": "Falsche Einbaulage",
+  "sq": "Pozicion i gabuar montimi",
+  "termDe": "Falsche Einbaulage"
+ },
+ "e8": {
+  "de": "Trockenlauf",
+  "sq": "Punë pa ujë",
+  "termDe": "Trockenlauf"
+ },
+ "e9": {
+  "de": "Heizungspumpe als TW-Zirkulationspumpe",
+  "sq": "Pompë ngrohjeje për ujë sanitar",
+  "termDe": "Heizungspumpe als TW-Zirkulation"
+ },
+ "e10": {
+  "de": "Rückschlagventil rückwärts eingebaut",
+  "sq": "Valvula montuar së prapthi",
+  "termDe": "rückwärts eingebaut"
+ },
+ "e11": {
+  "de": "Falsche Ventilart",
+  "sq": "Lloj i gabuar valvule",
+  "termDe": "Falsche Ventilart"
+ },
+ "e12": {
+  "de": "Schwerkraftbremse nach Service offen",
+  "sq": "Frenuesi i hapur pas servisit",
+  "termDe": "nach Service offen"
+ },
+ "e13": {
+  "de": "Zusätzliches Ventil trotz integrierter Funktion",
+  "sq": "Valvul shtesë edhe pse ka funksion të integruar",
+  "termDe": "doppelte Rückschlagfunktion"
+ },
+ "e14": {
+  "de": "Rückschlagventil als Systemtrenner",
+  "sq": "Valvula si ndarës sistemi",
+  "termDe": "als Systemtrenner verwendet"
+ },
+ "e15": {
+  "de": "MAG- oder Sicherheitsweg blockiert",
+  "sq": "Rruga e MAG-ut ose sigurisë bllokuar",
+  "termDe": "MAG-/Sicherheitsweg blockiert"
+ },
+ "t1": {
+  "de": "geschlossener Heizkreis ≠ offene Förderhöhe",
+  "sq": "qark i mbyllur ≠ ngritje e hapur",
+  "termDe": "geschlossen ≠ offene Förderhöhe"
+ },
+ "t2": {
+  "de": "Auslegung statt Maximum",
+  "sq": "dimensionim, jo maksimum",
+  "termDe": "Auslegung statt Maximum"
+ },
+ "t5": {
+  "de": "Herstellerregelung beachten",
+  "sq": "respekto rregullimin e prodhuesit",
+  "termDe": "Herstellerregelung beachten"
+ },
+ "t7": {
+  "de": "Herstellerangabe",
+  "sq": "të dhënat e prodhuesit",
+  "termDe": "Herstellerangabe"
+ },
+ "t13": {
+  "de": "System prüfen",
+  "sq": "kontrollo sistemin",
+  "termDe": "System prüfen"
+ },
+ "h30": {
+  "de": "Auf der Baustelle",
+  "sq": "Në kantier"
+ },
+ "ex_pump_l": {
+  "de": "Beispiel: Heizungsumwälzpumpe (Wilo)",
+  "sq": "Shembull: pompë qarkulluese (Wilo)",
+  "termDe": "Beispiel Umwälzpumpe"
+ },
+ "ex_sb_l": {
+  "de": "Beispiel: Schwerkraftbremse (Meibes)",
+  "sq": "Shembull: frenues qarkullimi (Meibes)",
+  "termDe": "Beispiel Schwerkraftbremse"
+ },
+ "f_head": {
+  "de": "Motor-/Elektronikkopf",
+  "sq": "Koka e motorit / elektronikës",
+  "termDe": "Motor-/Elektronikkopf"
+ },
+ "f_knob": {
+  "de": "Bedienknopf",
+  "sq": "Butoni i rregullimit",
+  "termDe": "Bedienknopf"
+ },
+ "f_conn": {
+  "de": "Anschlüsse",
+  "sq": "Lidhjet",
+  "term": true
+ },
+ "f_body": {
+  "de": "Gehäuse",
+  "sq": "Trupi",
+  "term": true
+ },
+ "f_arrow": {
+  "de": "Fließrichtung",
+  "sq": "Drejtimi i rrjedhës",
+  "term": true
+ },
+ "f_hand": {
+  "de": "Handaufstellung Offen / Auto",
+  "sq": "Hapje manuale Offen / Auto",
+  "termDe": "Handaufstellung"
+ },
+ "q30p": {
+  "de": "Fließrichtung · Bauart · Einbaulage · Regelung",
+  "sq": "drejtimi · lloji · pozicioni · rregullimi",
+  "termDe": "Richtung · Bauart · Lage · Regelung"
+ },
+ "q30v": {
+  "de": "Richtung · Einsatzbereich · hydraulisch vorgesehen?",
+  "sq": "drejtimi · përdorimi · i parashikuar hidraulikisht?",
+  "termDe": "Richtung · Einsatz · vorgesehen?"
+ },
+ "h31": {
+  "de": "Merke dir",
+  "sq": "Mbaje mend"
+ },
+ "chk": {
+  "de": "Modul 11 in Kürze",
+  "sq": "Moduli 11 shkurt",
+  "termDe": "Modul 11 in Kürze"
+ },
+ "l1": {
+  "de": "Pumpe: Differenzdruck gegen Widerstände",
+  "sq": "Pompa: diferencë presioni kundër rezistencave",
+  "termDe": "Differenzdruck gegen Widerstände"
+ },
+ "l2": {
+  "de": "ersetzt weder Anlagendruck noch MAG",
+  "sq": "nuk zëvendëson presionin e sistemit as MAG-un",
+  "termDe": "kein Ersatz für Anlagendruck / MAG"
+ },
+ "l3": {
+  "de": "nicht nach Gebäudehöhe, nicht auf Maximum",
+  "sq": "jo sipas lartësisë, jo në maksimum",
+  "termDe": "nicht Gebäudehöhe / Maximum"
+ },
+ "l4": {
+  "de": "Fließrichtung · Einbaulage · Regelart passend",
+  "sq": "drejtimi · pozicioni · rregullimi të përshtatshëm",
+  "termDe": "Richtung · Lage · Regelart"
+ },
+ "l5": {
+  "de": "RV öffnet vorwärts, schließt gegen Rückströmung",
+  "sq": "valvula hapet përpara, mbyllet kundër kthimit",
+  "termDe": "öffnet vorwärts, schließt rückwärts"
+ },
+ "l6": {
+  "de": "Schwerkraftbremse begrenzt natürlichen Umlauf",
+  "sq": "frenuesi kufizon qarkullimin natyror",
+  "termDe": "begrenzt natürlichen Umlauf"
+ },
+ "l7": {
+  "de": "Widerstand · richtig herum · Schutzwege frei",
+  "sq": "rezistencë · drejtim i saktë · rrugët mbrojtëse të lira",
+  "termDe": "richtig herum · Schutzwege frei"
+ },
+ "fin": {
+  "de": "Entscheidend: die gesamte Hydraulik",
+  "sq": "Vendimtare: e gjithë hidraulika",
+  "termDe": "die gesamte Hydraulik"
+ }
+}

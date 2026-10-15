@@ -1,0 +1,106 @@
+{
+  "intro": {
+    "de": "Es-Ha-Ka Grundlagen. Modul drei. Nachfülleinheit und Wasseraufbereitung.",
+    "sq": "Bazat e Es-Ha-Ka-së. Moduli tre. Njësia e mbushjes dhe trajtimi i ujit."
+  },
+  "s01": {
+    "de": "Das ist eine Nachfülleinheit für eine Heizungsanlage. Auf den ersten Blick sieht sie vielleicht wie eine Kombination aus mehreren Armaturen aus. Genau das ist sie auch: Hier kommen mehrere unterschiedliche Aufgaben zusammen.",
+    "sq": "Kjo është një njësi mbushjeje për një sistem ngrohjeje. Në pamje të parë mund të duket si një kombinim i disa armaturave. Dhe pikërisht kështu është: këtu bashkohen disa funksione të ndryshme."
+  },
+  "s02": {
+    "de": "Eine Heizungsanlage wird nicht einfach mit irgendeinem Wasser befüllt. Ungeeignetes Füllwasser kann Steinbildung und Korrosion begünstigen. Außerdem muss verhindert werden, dass Wasser aus dem Heizsystem zurück in die Trinkwasserinstallation gelangt.",
+    "sq": "Një sistem ngrohjeje nuk mbushet thjesht me çfarëdo uji. Uji i papërshtatshëm mund të favorizojë formimin e depozitave dhe korrozionin. Përveç kësaj, duhet parandaluar kthimi i ujit të ngrohjes në instalimin e ujit të pijshëm."
+  },
+  "s03": {
+    "de": "Eine Füllstrecke verbindet deshalb drei Aufgaben. Erstens: Schutz des Trinkwassers. Zweitens: kontrolliertes Befüllen der Heizungsanlage. Drittens: falls erforderlich, die passende Aufbereitung des Füllwassers. Keine dieser Aufgaben ersetzt eine andere.",
+    "sq": "Prandaj një linjë mbushjeje bashkon tri detyra. Së pari: mbrojtjen e ujit të pijshëm. Së dyti: mbushjen e kontrolluar të sistemit të ngrohjes. Së treti: kur kërkohet, trajtimin e përshtatshëm të ujit të mbushjes. Asnjë nga këto detyra nuk e zëvendëson tjetrën."
+  },
+  "s04": {
+    "de": "Vereinfacht führt der Weg vom Trinkwasser über eine geeignete Sicherungs- und Füllarmatur, anschließend durch die vorgesehene Wasseraufbereitung und danach zum Füllanschluss der Heizungsanlage. Die genaue Ausführung richtet sich nach der verwendeten Baugruppe und deren Herstellerangaben.",
+    "sq": "Në mënyrë të thjeshtuar, uji kalon nga furnizimi me ujë të pijshëm përmes armaturës së përshtatshme të mbrojtjes dhe mbushjes, më pas përmes trajtimit të parashikuar të ujit dhe në fund drejt lidhjes së mbushjes së sistemit të ngrohjes. Ndërtimi i saktë varet nga pajisja dhe udhëzimet e prodhuesit."
+  },
+  "s05": {
+    "de": "Der erste wichtige Bereich schützt die Trinkwasserinstallation. Dafür wird eine geeignete Sicherungseinrichtung verwendet. Häufig kommt bei solchen Anwendungen ein Systemtrenner Typ Be-A zum Einsatz. Seine Aufgabe ist es, einen unzulässigen Rückfluss aus der Heizungsanlage in das Trinkwassernetz zu verhindern.",
+    "sq": "Pjesa e parë e rëndësishme mbron instalimin e ujit të pijshëm. Për këtë përdoret një pajisje e përshtatshme sigurie. Në shumë raste përdoret një ndarës sistemi i tipit Be-A. Detyra e tij është të parandalojë kthimin e palejuar të ujit nga sistemi i ngrohjes drejt rrjetit të ujit të pijshëm."
+  },
+  "s06": {
+    "de": "Wichtig ist: Ein Systemtrenner Be-A ist nicht automatisch für jede denkbare Situation ausreichend. Er ist für die Absicherung bis einschließlich Flüssigkeitskategorie vier vorgesehen. Welche Absicherung benötigt wird, hängt deshalb von der tatsächlichen Anlage und möglichen Zusätzen im Heizungswasser ab.",
+    "sq": "E rëndësishme është që një ndarës sistemi Be-A nuk është automatikisht i mjaftueshëm për çdo situatë. Ai është parashikuar për mbrojtje deri në kategorinë katër të lëngjeve. Prandaj lloji i mbrojtjes varet nga instalimi konkret dhe nga substancat që mund të jenë në ujin e ngrohjes."
+  },
+  "s07": {
+    "de": "Ein Füllschlauch mit einem einfachen Rückschlagventil ist deshalb nicht automatisch ein gleichwertiger Ersatz für die erforderliche Sicherungseinrichtung. Auch eine nur vorübergehend angeschlossene Füllverbindung muss passend abgesichert sein.",
+    "sq": "Prandaj një zorrë mbushjeje me një valvul të thjeshtë kundërkthimi nuk është automatikisht zëvendësim i barabartë për pajisjen e nevojshme të sigurisë. Edhe një lidhje vetëm e përkohshme duhet të ketë mbrojtjen e duhur."
+  },
+  "s08": {
+    "de": "Der vorgesehene Ablauf eines Systemtrenners muss frei, sichtbar und entwässerbar bleiben. Er darf nicht einfach verschlossen werden. Bei Montage und Wartung wird deshalb auch dieser Bereich kontrolliert.",
+    "sq": "Dalja e parashikuar e ndarësit të sistemit duhet të mbetet e lirë, e dukshme dhe të mund të shkarkojë ujë. Ajo nuk duhet të mbyllet thjesht. Prandaj gjatë montimit dhe mirëmbajtjes kontrollohet edhe kjo pjesë."
+  },
+  "s09": {
+    "de": "Der zweite Bereich hilft beim kontrollierten Befüllen. Ein Druckminderer kann den Fülldruck begrenzen. Welcher Druck benötigt wird, ergibt sich aus der konkreten Heizungsanlage. Es gibt keinen universellen Wert, der einfach bei jeder Anlage eingestellt wird.",
+    "sq": "Pjesa e dytë ndihmon në mbushjen e kontrolluar. Një reduktues presioni mund ta kufizojë presionin e mbushjes. Presioni i nevojshëm përcaktohet nga sistemi konkret i ngrohjes. Nuk ka një vlerë universale që vendoset njësoj në çdo sistem."
+  },
+  "s10": {
+    "de": "Der dritte Bereich ist die Wasseraufbereitung. Je nach Anlage kann beispielsweise enthärtetes oder entsalztes Füllwasser vorgesehen sein. Diese beiden Verfahren sind nicht dasselbe.",
+    "sq": "Pjesa e tretë është trajtimi i ujit. Në varësi të instalimit mund të kërkohet, për shembull, ujë i zbutur ose ujë i çkripëzuar. Këto dy metoda nuk janë e njëjta gjë."
+  },
+  "s11": {
+    "de": "Bei der Enthärtung werden vor allem Calcium und Magnesium reduziert beziehungsweise beim Ionenaustausch gegen Natrium ausgetauscht. Dadurch sinkt die Wasserhärte. Das Wasser ist danach aber nicht automatisch entsalzt.",
+    "sq": "Gjatë zbutjes zvogëlohen kryesisht kalciumi dhe magnezi, duke u zëvendësuar gjatë shkëmbimit të joneve me natrium. Kështu ulet fortësia e ujit. Por kjo nuk do të thotë që uji është çkripëzuar plotësisht."
+  },
+  "s12": {
+    "de": "Bei der Vollentsalzung werden gelöste Ionen weitgehend aus dem Wasser entfernt. Dadurch sinkt unter anderem die elektrische Leitfähigkeit. Deshalb werden Enthärtung und Entsalzung auch unterschiedlich kontrolliert.",
+    "sq": "Gjatë çkripëzimit të plotë largohen në masë të madhe jonet e tretura nga uji. Kështu ulet edhe përçueshmëria elektrike. Prandaj zbutja dhe çkripëzimi kontrollohen në mënyra të ndryshme."
+  },
+  "s13": {
+    "de": "Bei einer Enthärtung ist die Leitfähigkeit allein kein Nachweis für die verbleibende Wasserhärte. Bei einer Entsalzung ist die Leitfähigkeit dagegen ein wichtiger Kontrollwert. Entscheidend ist immer, welche Aufbereitung tatsächlich verwendet wird.",
+    "sq": "Te zbutja, vetëm përçueshmëria elektrike nuk tregon sa fortësi ka mbetur në ujë. Te çkripëzimi, përçueshmëria është një vlerë e rëndësishme kontrolli. Prandaj duhet gjithmonë të dihet se cili proces trajtimi përdoret."
+  },
+  "s14": {
+    "de": "Welche Aufbereitung benötigt wird, hängt von mehreren Faktoren ab: vom vorhandenen Wasser, vom Anlagenvolumen, von den Werkstoffen und von den Anforderungen des Wärmeerzeugers. Deshalb wird die Patrone nicht nach Gefühl ausgewählt.",
+    "sq": "Lloji i trajtimit që nevojitet varet nga disa faktorë: nga uji që përdoret, vëllimi i instalimit, materialet dhe kërkesat e pajisjes së ngrohjes. Prandaj fisheku nuk zgjidhet me hamendje."
+  },
+  "s15": {
+    "de": "Beim Patronenwechsel wird zuerst der Füllbetrieb beendet. Danach wird der zu öffnende Bereich entsprechend der jeweiligen Armatur abgesperrt und druckentlastet. Erst dann wird die Patrone nach Herstelleranleitung geöffnet beziehungsweise gewechselt.",
+    "sq": "Gjatë ndërrimit të fishekut, fillimisht ndalet procesi i mbushjes. Pastaj pjesa që do të hapet izolohet dhe shkarkohet nga presioni sipas armaturës konkrete. Vetëm më pas fisheku hapet ose ndërrohet sipas udhëzimit të prodhuesit."
+  },
+  "s16": {
+    "de": "Es wird die richtige Patrone für die vorgesehene Aufbereitung eingesetzt. Dichtungen und Anschlüsse werden kontrolliert. Eine Enthärtungspatrone und eine Entsalzungspatrone dürfen nicht einfach verwechselt werden.",
+    "sq": "Vendoset fisheku i duhur për trajtimin e parashikuar. Kontrollohen guarnicionet dhe lidhjet. Një fishek zbutjeje dhe një fishek çkripëzimi nuk duhet të ngatërrohen."
+  },
+  "s17": {
+    "de": "Nach dem Wechsel werden die vorgesehenen Spül- und Entlüftungsschritte durchgeführt. Danach werden die erforderlichen Messwerte und die Dichtheit kontrolliert. Die eingefüllte Wassermenge und der Patronenwechsel werden dokumentiert.",
+    "sq": "Pas ndërrimit kryhen shpëlarja dhe ajrimi sipas procedurës. Pastaj kontrollohen matjet e nevojshme dhe rrjedhjet. Sasia e ujit të shtuar dhe ndërrimi i fishekut dokumentohen."
+  },
+  "s18": {
+    "de": "Zur Wartung gehört nicht nur die Wasseraufbereitungspatrone. Auch Systemtrenner, Druckminderer, Messstellen und die Dichtheit der Einheit müssen entsprechend der jeweiligen Vorgaben kontrolliert werden.",
+    "sq": "Mirëmbajtja nuk përfshin vetëm fishekun e trajtimit të ujit. Edhe ndarësi i sistemit, reduktuesi i presionit, pikat e matjes dhe hermeticiteti i njësisë duhet të kontrollohen sipas kërkesave përkatëse."
+  },
+  "s19": {
+    "de": "Eine Patrone wird nicht einfach einmal pro Jahr oder nur nach ihrem Aussehen gewechselt. Entscheidend sind ihre Kapazität, die notwendigen Messwerte und die Vorgaben des Herstellers.",
+    "sq": "Fishekët nuk ndërrohen thjesht një herë në vit ose vetëm sipas pamjes së tyre. Vendimtare janë kapaciteti, matjet e nevojshme dhe udhëzimet e prodhuesit."
+  },
+  "s20": {
+    "de": "Ein Messwert direkt am Ausgang der Patrone beschreibt zunächst das aufbereitete Füllwasser an dieser Stelle. Er ersetzt nicht automatisch die Beurteilung des gesamten Anlagenwassers.",
+    "sq": "Një matje direkt në dalje të fishekut përshkruan fillimisht ujin e trajtuar në atë pikë. Ajo nuk e zëvendëson automatikisht vlerësimin e ujit në të gjithë sistemin."
+  },
+  "s21": {
+    "de": "Wenn eine Heizungsanlage immer wieder Wasser benötigt, ist permanentes Nachfüllen keine Lösung. Dann muss die Ursache gesucht werden, zum Beispiel ein Problem mit Druckhaltung, Undichtigkeiten oder einem anderen Teil der Anlage.",
+    "sq": "Nëse një sistem ngrohjeje kërkon vazhdimisht ujë të ri, mbushja e përsëritur nuk është zgjidhje. Duhet të gjendet shkaku, për shembull një problem me mbajtjen e presionit, një rrjedhje ose një pjesë tjetër të sistemit."
+  },
+  "s22": {
+    "de": "Typische Fehler. Der Trinkwasserschutz fehlt. Ein einfacher Rückschlag statt der erforderlichen Sicherung. Der Ablauf des Systemtrenners ist blockiert. Enthärtung und Entsalzung verwechselt. Die Patrone ist erschöpft und wird trotzdem weiter benutzt. Ein Messwert von einer anderen Anlage übernommen. Richtig ist der Sollwert der konkreten Anlage. Die Patrone unter Druck geöffnet. Richtig ist: erst absperren und druckentlasten. Und ständig Wasser nachfüllen, statt die Ursache zu prüfen.",
+    "sq": "Gabime tipike. Mungon mbrojtja e ujit të pijshëm. Një valvul e thjeshtë kundërkthimi në vend të sigurisë së nevojshme. Dalja e ndarësit të sistemit është e bllokuar. Zbutja dhe çkripëzimi ngatërrohen. Fisheku është i shteruar, por përdoret përsëri. Një vlerë merret nga një sistem tjetër. E saktë është vlera e kërkuar e sistemit konkret. Fisheku hapet nën presion. E saktë është: fillimisht izolo dhe shkarko presionin. Dhe shtimi i vazhdueshëm i ujit, në vend që të kontrollohet shkaku."
+  },
+  "s23": {
+    "de": "Wenn du eine solche Einheit auf der Baustelle siehst, denk nicht nur an die Patrone. Frage dich: Wo wird das Trinkwasser geschützt? Wo wird der Fülldruck kontrolliert? Und welche Wasseraufbereitung ist für diese Anlage vorgesehen?",
+    "sq": "Kur sheh një njësi të tillë në kantier, mos mendo vetëm për fishekun. Pyet veten: ku mbrohet uji i pijshëm? Ku kontrollohet presioni i mbushjes? Dhe cili trajtim i ujit është parashikuar për këtë instalim?"
+  },
+  "s24": {
+    "de": "Merke dir die Füllstrecke so: Zuerst wird das Trinkwasser geschützt. Danach wird die Befüllung kontrolliert. Wenn die Anlage es verlangt, wird das Füllwasser passend aufbereitet. Enthärtung und Entsalzung sind unterschiedliche Verfahren. Nach der Befüllung werden Messwerte, Dichtheit und Wassermenge kontrolliert und dokumentiert. Und wenn ständig Wasser nachgefüllt werden muss, wird die Ursache gesucht.",
+    "sq": "Mbaje mend kështu: së pari mbrohet uji i pijshëm. Pastaj kontrollohet procesi i mbushjes. Nëse instalimi e kërkon, uji i mbushjes trajtohet në mënyrën e duhur. Zbutja dhe çkripëzimi janë procese të ndryshme. Pas mbushjes kontrollohen matjet, hermeticiteti dhe sasia e ujit dhe këto dokumentohen. Dhe nëse duhet të shtohet vazhdimisht ujë, kërkohet shkaku."
+  },
+  "outro": {
+    "de": "Modul drei abgeschlossen.",
+    "sq": "Moduli tre përfunduar."
+  }
+}

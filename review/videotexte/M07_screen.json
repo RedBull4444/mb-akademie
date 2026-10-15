@@ -1,0 +1,774 @@
+{
+ "intro_kicker": {
+  "de": "SHK GRUNDLAGEN",
+  "sq": "BAZAT E SHK-së"
+ },
+ "intro_mod": {
+  "de": "MODUL 7",
+  "sq": "MODULI 7"
+ },
+ "intro_title": {
+  "de": "Luftabscheider & automatischer Entlüfter",
+  "sq": "Ndarësi i ajrit dhe ajruesi automatik",
+  "termDe": "Luftabscheider & automatischer Entlüfter"
+ },
+ "outro_done": {
+  "de": "MODUL 7 ABGESCHLOSSEN",
+  "sq": "MODULI 7 PËRFUNDUAR"
+ },
+ "vent": {
+  "de": "Automatischer Entlüfter",
+  "sq": "Ajruesi automatik",
+  "term": true
+ },
+ "vent_s": {
+  "de": "Entlüfter",
+  "sq": "Ajruesi",
+  "term": true
+ },
+ "sep": {
+  "de": "Mikroblasenabscheider",
+  "sq": "Ndarësi i mikrofluskave",
+  "term": true
+ },
+ "hzw": {
+  "de": "Heizungswasser",
+  "sq": "Uji i ngrohjes",
+  "term": true
+ },
+ "principle": {
+  "de": "Prinzipdarstellung",
+  "sq": "Paraqitje parimore"
+ },
+ "example": {
+  "de": "Beispiel",
+  "sq": "Shembull"
+ },
+ "vs": {
+  "de": "vs.",
+  "sq": "vs."
+ },
+ "vl": {
+  "de": "Vorlauf",
+  "sq": "Vajtja",
+  "term": true
+ },
+ "rl": {
+  "de": "Rücklauf",
+  "sq": "Kthimi",
+  "term": true
+ },
+ "gen": {
+  "de": "Wärmeerzeuger",
+  "sq": "Pajisja e ngrohjes",
+  "term": true
+ },
+ "wp": {
+  "de": "Wärmepumpe",
+  "sq": "Pompa e nxehtësisë",
+  "term": true
+ },
+ "boiler": {
+  "de": "Kessel",
+  "sq": "Kaldaja",
+  "term": true
+ },
+ "rad": {
+  "de": "Heizfläche",
+  "sq": "Sipërfaqja ngrohëse",
+  "term": true
+ },
+ "pump": {
+  "de": "Pumpe",
+  "sq": "Pompa",
+  "term": true
+ },
+ "free_air": {
+  "de": "freie Luft",
+  "sq": "ajër i lirë",
+  "term": true
+ },
+ "micro": {
+  "de": "Mikroblasen",
+  "sq": "Mikrofluska",
+  "term": true
+ },
+ "diss": {
+  "de": "gelöstes Gas",
+  "sq": "gaz i tretur",
+  "term": true
+ },
+ "airout": {
+  "de": "Luft raus",
+  "sq": "Ajri del",
+  "termDe": "Luft raus"
+ },
+ "s01_kicker": {
+  "de": "Die echten Bauteile",
+  "sq": "Komponentët e vërtetë"
+ },
+ "s01_ex": {
+  "de": "Beispiele: Reflex Exvoid T · Reflex Exvoid A",
+  "sq": "Shembuj: Reflex Exvoid T · Reflex Exvoid A"
+ },
+ "s01_same": {
+  "de": "beide: Luft im Heizsystem",
+  "sq": "të dy: ajri në sistemin e ngrohjes",
+  "termDe": "beide: Luft im Heizsystem"
+ },
+ "s01_diff": {
+  "de": "nicht dieselbe Aufgabe",
+  "sq": "jo e njëjta detyrë",
+  "termDe": "nicht dieselbe Aufgabe"
+ },
+ "h02": {
+  "de": "Warum ist Luft ein Problem?",
+  "sq": "Pse ajri është problem?"
+ },
+ "fx_noise": {
+  "de": "Geräusche",
+  "sq": "Zhurma",
+  "term": true
+ },
+ "fx_circ": {
+  "de": "Zirkulation gestört",
+  "sq": "Qarkullimi pengohet",
+  "termDe": "Zirkulation gestört"
+ },
+ "fx_area": {
+  "de": "Bereiche schlecht durchströmt",
+  "sq": "Zona të qarkulluara keq",
+  "termDe": "schlecht durchströmt"
+ },
+ "fx_pump": {
+  "de": "ungünstiger Pumpenbetrieb",
+  "sq": "Punë e pafavorshme e pompës",
+  "termDe": "ungünstiger Pumpenbetrieb"
+ },
+ "fx_heat": {
+  "de": "schlechter Wärmeübergang",
+  "sq": "Transferim i dobët i nxehtësisë",
+  "termDe": "schlechter Wärmeübergang"
+ },
+ "collect": {
+  "de": "sammelt sich",
+  "sq": "grumbullohet",
+  "termDe": "sammelt sich"
+ },
+ "carried": {
+  "de": "strömt mit",
+  "sq": "lëviz me ujin",
+  "termDe": "strömt mit"
+ },
+ "h03": {
+  "de": "Drei verschiedene Zustände",
+  "sq": "Tri gjendje të ndryshme"
+ },
+ "stA": {
+  "de": "Große Luftansammlung",
+  "sq": "Grumbullim i madh ajri",
+  "termDe": "Große Luftansammlung"
+ },
+ "stB": {
+  "de": "Mikroblasen",
+  "sq": "Mikrofluska",
+  "termDe": "Mikroblasen"
+ },
+ "stC": {
+  "de": "Gelöstes Gas",
+  "sq": "Gaz i tretur",
+  "termDe": "Gelöstes Gas"
+ },
+ "stA_d": {
+  "de": "sammelt sich oben",
+  "sq": "grumbullohet sipër",
+  "termDe": "sammelt sich oben"
+ },
+ "stB_d": {
+  "de": "viele kleine Blasen strömen mit",
+  "sq": "shumë flluska të vogla lëvizin me ujin",
+  "termDe": "strömen mit"
+ },
+ "stC_d": {
+  "de": "Gas im Wasser gelöst",
+  "sq": "Gaz i tretur në ujë",
+  "termDe": "Gas im Wasser gelöst"
+ },
+ "no_bub": {
+  "de": "keine sichtbaren Blasen",
+  "sq": "pa flluska të dukshme",
+  "termDe": "keine sichtbaren Blasen"
+ },
+ "h04": {
+  "de": "Was macht der automatische Entlüfter?",
+  "sq": "Çfarë bën ajruesi automatik?"
+ },
+ "pocket": {
+  "de": "Lufttasche",
+  "sq": "Xhepi i ajrit",
+  "term": true
+ },
+ "big04": {
+  "de": "Luft muss den Entlüfter erreichen.",
+  "sq": "Ajri duhet të arrijë te ajruesi.",
+  "termDe": "Luft muss den Entlüfter erreichen."
+ },
+ "h05": {
+  "de": "Das Schwimmerprinzip",
+  "sq": "Parimi i pluskuesit"
+ },
+ "float": {
+  "de": "Schwimmer",
+  "sq": "Pluskuesi",
+  "term": true
+ },
+ "wlevel": {
+  "de": "Wasserstand",
+  "sq": "Niveli i ujit",
+  "term": true
+ },
+ "outlet": {
+  "de": "Luftauslass",
+  "sq": "Dalja e ajrit",
+  "term": true
+ },
+ "air": {
+  "de": "Luft",
+  "sq": "Ajri",
+  "term": true
+ },
+ "st_norm": {
+  "de": "Normal: Auslass zu",
+  "sq": "Normal: dalja e mbyllur",
+  "termDe": "Normal: Auslass zu"
+ },
+ "st_in": {
+  "de": "Luft sammelt sich",
+  "sq": "Ajri grumbullohet",
+  "termDe": "Luft sammelt sich"
+ },
+ "st_open": {
+  "de": "Schwimmer sinkt → Auslass offen",
+  "sq": "Pluskuesi bie → dalja hapet",
+  "termDe": "Schwimmer sinkt → Auslass offen"
+ },
+ "st_close": {
+  "de": "Wasser steigt → Auslass zu",
+  "sq": "Uji ngrihet → dalja mbyllet",
+  "termDe": "Wasser steigt → Auslass zu"
+ },
+ "closed": {
+  "de": "zu",
+  "sq": "mbyllur",
+  "term": true
+ },
+ "open": {
+  "de": "offen",
+  "sq": "hapur",
+  "term": true
+ },
+ "h06": {
+  "de": "Wo hilft ein Schnellentlüfter?",
+  "sq": "Ku ndihmon një ajrues i shpejtë?"
+ },
+ "hp": {
+  "de": "vorgesehene Luftsammelstelle",
+  "sq": "pika e parashikuar e grumbullimit",
+  "termDe": "vorgesehene Luftsammelstelle"
+ },
+ "rises": {
+  "de": "Luft steigt nach oben",
+  "sq": "Ajri ngrihet lart",
+  "termDe": "Luft steigt nach oben"
+ },
+ "hydr": {
+  "de": "Hydraulik",
+  "sq": "Hidraulika",
+  "term": true
+ },
+ "manuf": {
+  "de": "Herstellerangaben",
+  "sq": "Udhëzimet e prodhuesit",
+  "term": true
+ },
+ "plan": {
+  "de": "nach Anlagenplanung – nicht pauschal",
+  "sq": "sipas projektimit – jo kudo",
+  "termDe": "nach Anlagenplanung – nicht pauschal"
+ },
+ "h07": {
+  "de": "Das Problem mit Mikroblasen",
+  "sq": "Problemi me mikrofluskat"
+ },
+ "flow_by": {
+  "de": "strömen mit dem Wasser vorbei",
+  "sq": "kalojnë bashkë me ujin",
+  "termDe": "strömen vorbei"
+ },
+ "not_all": {
+  "de": "ein Entlüfter trennt nicht alle Mikroblasen",
+  "sq": "një ajrues nuk i ndan të gjitha mikrofluskat",
+  "termDe": "trennt nicht alle Mikroblasen"
+ },
+ "h08": {
+  "de": "Der Mikroblasenabscheider",
+  "sq": "Ndarësi i mikrofluskave"
+ },
+ "inlet": {
+  "de": "Zulauf",
+  "sq": "Hyrja",
+  "term": true
+ },
+ "out_on": {
+  "de": "weiter zur Anlage",
+  "sq": "vazhdon në sistem",
+  "termDe": "weiter zur Anlage"
+ },
+ "elem": {
+  "de": "Abscheideelement (neutral)",
+  "sq": "Elementi ndarës (neutral)",
+  "termDe": "Abscheideelement"
+ },
+ "merge": {
+  "de": "Blasen verbinden sich",
+  "sq": "Flluskat bashkohen",
+  "termDe": "Blasen verbinden sich"
+ },
+ "gasroom": {
+  "de": "Luftsammelraum",
+  "sq": "Hapësira e grumbullimit të ajrit",
+  "termDe": "Luftsammelraum"
+ },
+ "vent_top": {
+  "de": "Entlüfter oben",
+  "sq": "Ajruesi sipër",
+  "termDe": "Entlüfter oben"
+ },
+ "h09": {
+  "de": "Der entscheidende Unterschied",
+  "sq": "Dallimi vendimtar"
+ },
+ "big09a": {
+  "de": "Entlüfter: angesammelte freie Luft",
+  "sq": "Ajruesi: ajri i lirë i grumbulluar",
+  "termDe": "Entlüfter: angesammelte freie Luft"
+ },
+ "big09b": {
+  "de": "Abscheider: Mikroblasen aus der Strömung",
+  "sq": "Ndarësi: mikrofluska nga rrjedha",
+  "termDe": "Abscheider: Mikroblasen aus der Strömung"
+ },
+ "f_collect": {
+  "de": "sammeln",
+  "sq": "mblidhen",
+  "term": true
+ },
+ "f_rise": {
+  "de": "steigen",
+  "sq": "ngrihen",
+  "term": true
+ },
+ "f_vent": {
+  "de": "Entlüfter",
+  "sq": "ajruesi",
+  "term": true
+ },
+ "h10": {
+  "de": "Warum oft im warmen Bereich?",
+  "sq": "Pse shpesh në zonën e ngrohtë?"
+ },
+ "warm": {
+  "de": "warm",
+  "sq": "ngrohtë",
+  "term": true
+ },
+ "cooler": {
+  "de": "kühler",
+  "sq": "më ftohtë",
+  "term": true
+ },
+ "where": {
+  "de": "häufig im warmen Vorlauf hinter dem Wärmeerzeuger",
+  "sq": "shpesh në furnizimin e ngrohtë pas pajisjes së ngrohjes",
+  "termDe": "häufig im warmen Vorlauf hinter dem Wärmeerzeuger"
+ },
+ "not_always": {
+  "de": "typisch – nicht immer",
+  "sq": "tipike – jo gjithmonë",
+  "termDe": "typisch – nicht immer"
+ },
+ "k_temp": {
+  "de": "Temperatur",
+  "sq": "Temperatura",
+  "term": true
+ },
+ "k_press": {
+  "de": "Druck",
+  "sq": "Presioni",
+  "term": true
+ },
+ "k_pump": {
+  "de": "Pumpenlage",
+  "sq": "Pozicioni i pompës",
+  "term": true
+ },
+ "k_conc": {
+  "de": "Anlagenkonzept",
+  "sq": "Koncepti i sistemit",
+  "term": true
+ },
+ "h11": {
+  "de": "Temperatur und gelöste Gase",
+  "sq": "Temperatura dhe gazet e tretura"
+ },
+ "cool_w": {
+  "de": "kühler",
+  "sq": "më ftohtë",
+  "term": true
+ },
+ "change": {
+  "de": "Temperatur + Druck ändern sich",
+  "sq": "Ndryshojnë temperatura + presioni",
+  "termDe": "Temperatur + Druck ändern sich"
+ },
+ "exits": {
+  "de": "Gas tritt aus der Lösung aus",
+  "sq": "Gazi del nga tretësira",
+  "termDe": "Gas tritt aus der Lösung aus"
+ },
+ "now_bub": {
+  "de": "erst jetzt: freie Blasen",
+  "sq": "vetëm tani: flluska të lira",
+  "termDe": "erst jetzt: freie Blasen"
+ },
+ "h12": {
+  "de": "Zwei Funktionsbereiche",
+  "sq": "Dy zona funksionale"
+ },
+ "z_house": {
+  "de": "Gehäuse: Blasen abscheiden",
+  "sq": "Trupi: ndan flluskat",
+  "termDe": "Gehäuse: Blasen abscheiden"
+ },
+ "z_vent": {
+  "de": "oben: Entlüfter führt Luft ab",
+  "sq": "sipër: ajruesi largon ajrin",
+  "termDe": "oben: Entlüfter führt Luft ab"
+ },
+ "h13": {
+  "de": "Einbaulage",
+  "sq": "Pozicioni i montimit"
+ },
+ "right_pos": {
+  "de": "vorgesehene Lage: Entlüfter oben",
+  "sq": "pozicioni i parashikuar: ajruesi sipër",
+  "termDe": "vorgesehene Lage: Entlüfter oben"
+ },
+ "wrong_pos": {
+  "de": "falsch gedreht",
+  "sq": "i rrotulluar gabim",
+  "termDe": "falsch gedreht"
+ },
+ "air_stuck": {
+  "de": "Luft erreicht den Entlüfter nicht",
+  "sq": "Ajri nuk arrin te ajruesi",
+  "termDe": "Luft erreicht den Entlüfter nicht"
+ },
+ "manual": {
+  "de": "Herstelleranleitung entscheidet",
+  "sq": "Udhëzimi i prodhuesit vendos",
+  "termDe": "Herstelleranleitung entscheidet"
+ },
+ "h14": {
+  "de": "Entlüfter muss arbeiten können",
+  "sq": "Ajruesi duhet të mund të punojë"
+ },
+ "ready": {
+  "de": "betriebsbereit",
+  "sq": "gati për punë",
+  "termDe": "betriebsbereit"
+ },
+ "blocked": {
+  "de": "Luftaustritt blockiert",
+  "sq": "Dalja e ajrit e bllokuar",
+  "termDe": "Luftaustritt blockiert"
+ },
+ "cap_dep": {
+  "de": "Kappenstellung: produktabhängig",
+  "sq": "Pozicioni i kapakut: sipas produktit",
+  "termDe": "Kappenstellung: produktabhängig"
+ },
+ "h15": {
+  "de": "Wenn der Entlüfter Wasser verliert",
+  "sq": "Kur ajruesi humb ujë"
+ },
+ "air_ok": {
+  "de": "Luft abgeben",
+  "sq": "Largon ajrin",
+  "termDe": "Luft abgeben"
+ },
+ "water_no": {
+  "de": "kein dauerhafter Wasseraustritt",
+  "sq": "pa rrjedhje të vazhdueshme uji",
+  "termDe": "kein dauerhafter Wasseraustritt"
+ },
+ "leak": {
+  "de": "undicht – nicht normal",
+  "sq": "rrjedh – nuk është normale",
+  "termDe": "undicht – nicht normal"
+ },
+ "check_m": {
+  "de": "nach Wartungsvorgaben prüfen",
+  "sq": "kontrollo sipas udhëzimeve të mirëmbajtjes",
+  "termDe": "nach Wartungsvorgaben prüfen"
+ },
+ "h16": {
+  "de": "Dauernd Luft im System",
+  "sq": "Vazhdimisht ajër në sistem"
+ },
+ "bleed": {
+  "de": "entlüften",
+  "sq": "ajrim",
+  "term": true
+ },
+ "quiet": {
+  "de": "kurz Ruhe",
+  "sq": "qetësi për pak",
+  "termDe": "kurz Ruhe"
+ },
+ "again": {
+  "de": "wieder Luft",
+  "sq": "përsëri ajër",
+  "termDe": "wieder Luft"
+ },
+ "no_fix": {
+  "de": "keine dauerhafte Lösung",
+  "sq": "nuk është zgjidhje afatgjatë",
+  "termDe": "keine dauerhafte Lösung"
+ },
+ "c1": {
+  "de": "Druckhaltung",
+  "sq": "Mbajtja e presionit",
+  "term": true
+ },
+ "c2": {
+  "de": "Undichtigkeit",
+  "sq": "Rrjedhje",
+  "term": true
+ },
+ "c3": {
+  "de": "unerwünschter Lufteintrag",
+  "sq": "Hyrje e padëshiruar ajri",
+  "termDe": "unerwünschter Lufteintrag"
+ },
+ "c4": {
+  "de": "Anlagenzustand",
+  "sq": "Gjendja e sistemit",
+  "term": true
+ },
+ "cause": {
+  "de": "Ursache prüfen",
+  "sq": "Kontrollo shkakun",
+  "termDe": "Ursache prüfen"
+ },
+ "h17": {
+  "de": "Wärmepumpe: nicht jedes Kesselschema übertragen",
+  "sq": "Pompa e nxehtësisë: mos kopjo skemën e kaldajës"
+ },
+ "copy": {
+  "de": "Schema einfach kopieren?",
+  "sq": "Kopjohet thjesht skema?",
+  "termDe": "Schema einfach kopieren?"
+ },
+ "big17": {
+  "de": "Geräteschema beachten",
+  "sq": "Respekto skemën e pajisjes",
+  "termDe": "Geräteschema beachten"
+ },
+ "h18": {
+  "de": "Sonderfall: brennbares Kältemittel",
+  "sq": "Rast i veçantë: ftohës i ndezshëm"
+ },
+ "r290": {
+  "de": "R290 · brennbares Kältemittel",
+  "sq": "R290 · ftohës i ndezshëm",
+  "termDe": "brennbares Kältemittel"
+ },
+ "normal": {
+  "de": "Normalbetrieb",
+  "sq": "Funksionim normal",
+  "termDe": "Normalbetrieb"
+ },
+ "normal_d": {
+  "de": "Entlüftung nach Gerätekonzept",
+  "sq": "Ajrimi sipas konceptit të pajisjes",
+  "termDe": "Entlüftung nach Gerätekonzept"
+ },
+ "fault": {
+  "de": "Störfall",
+  "sq": "Rast defekti",
+  "termDe": "Störfall"
+ },
+ "fault_d": {
+  "de": "Gaswarnung / Verdacht auf Kältemitteleintritt",
+  "sq": "Alarm gazi / dyshim për hyrje ftohësi",
+  "termDe": "Gaswarnung / Verdacht auf Kältemitteleintritt"
+ },
+ "no_routine": {
+  "de": "nicht nach Routine entlüften",
+  "sq": "mos ajro si rutinë",
+  "termDe": "nicht nach Routine entlüften"
+ },
+ "safety": {
+  "de": "Sicherheitsverfahren des Geräts",
+  "sq": "Procedura e sigurisë së pajisjes",
+  "termDe": "Sicherheitsverfahren des Geräts"
+ },
+ "h19": {
+  "de": "Typische Fehler",
+  "sq": "Gabime tipike"
+ },
+ "e1": {
+  "de": "Entlüfter = Abscheider gleichgesetzt",
+  "sq": "Ajruesi = ndarësi",
+  "termDe": "Entlüfter = Abscheider gleichgesetzt"
+ },
+ "e2": {
+  "de": "Falsche Einbaulage",
+  "sq": "Pozicion i gabuar montimi",
+  "termDe": "Falsche Einbaulage"
+ },
+ "e3": {
+  "de": "Entlüftung blockiert",
+  "sq": "Ajrimi i bllokuar",
+  "termDe": "Entlüftung blockiert"
+ },
+ "e4": {
+  "de": "Kappe pauschal eingestellt",
+  "sq": "Kapaku vendoset pa dallim",
+  "termDe": "Kappe pauschal eingestellt"
+ },
+ "e5": {
+  "de": "Falscher Einbauort",
+  "sq": "Vend i gabuar montimi",
+  "termDe": "Falscher Einbauort"
+ },
+ "e6": {
+  "de": "Gelöstes Gas als Blasen gezeigt",
+  "sq": "Gazi i tretur paraqitet si flluska",
+  "termDe": "Gelöstes Gas als Blasen gezeigt"
+ },
+ "e7": {
+  "de": "Dauernd Luft → nur mehr Entlüfter",
+  "sq": "Ajër vazhdimisht → vetëm më shumë ajrues",
+  "termDe": "Dauernd Luft → nur mehr Entlüfter"
+ },
+ "e8": {
+  "de": "Undichten Entlüfter ignoriert",
+  "sq": "Ajruesi që rrjedh injorohet",
+  "termDe": "Undichten Entlüfter ignoriert"
+ },
+ "e9": {
+  "de": "Störfall Wärmepumpe ignoriert",
+  "sq": "Defekti i pompës injorohet",
+  "termDe": "Störfall Wärmepumpe ignoriert"
+ },
+ "claim1": {
+  "de": "„Entfernt alle Mikroblasen im ganzen System“",
+  "sq": "„Largon të gjitha mikrofluskat në sistem“",
+  "termDe": "„Entfernt alle Mikroblasen im ganzen System“"
+ },
+ "x2": {
+  "de": "Herstellerlage beachten",
+  "sq": "Respekto pozicionin e prodhuesit",
+  "termDe": "Herstellerlage beachten"
+ },
+ "x3": {
+  "de": "Luftauslass muss frei sein",
+  "sq": "Dalja e ajrit duhet të jetë e lirë",
+  "termDe": "Luftauslass muss frei sein"
+ },
+ "cap_open": {
+  "de": "immer komplett offen",
+  "sq": "gjithmonë plotësisht hapur",
+  "termDe": "immer komplett offen"
+ },
+ "cap_shut": {
+  "de": "immer komplett zu",
+  "sq": "gjithmonë plotësisht mbyllur",
+  "termDe": "immer komplett zu"
+ },
+ "x4": {
+  "de": "Herstellerangabe beachten",
+  "sq": "Respekto udhëzimin e prodhuesit",
+  "termDe": "Herstellerangabe beachten"
+ },
+ "x5": {
+  "de": "Hydraulik berücksichtigen",
+  "sq": "Merr parasysh hidraulikën",
+  "termDe": "Hydraulik berücksichtigen"
+ },
+ "x6": {
+  "de": "klar → Gas tritt aus → erst dann Blasen",
+  "sq": "i qartë → gazi del → pastaj flluska",
+  "termDe": "klar → Gas tritt aus → erst dann Blasen"
+ },
+ "x9": {
+  "de": "Sicherheitsverfahren beachten",
+  "sq": "Respekto procedurën e sigurisë",
+  "termDe": "Sicherheitsverfahren beachten"
+ },
+ "routine": {
+  "de": "Routine-Entlüftung",
+  "sq": "Ajrim rutinë",
+  "termDe": "Routine-Entlüftung"
+ },
+ "h20": {
+  "de": "Die echten Bauteile",
+  "sq": "Komponentët e vërtetë"
+ },
+ "v_fn": {
+  "de": "führt gesammelte freie Luft ab",
+  "sq": "largon ajrin e lirë të grumbulluar",
+  "termDe": "führt gesammelte freie Luft ab"
+ },
+ "a_house": {
+  "de": "Abscheidergehäuse",
+  "sq": "Trupi i ndarësit",
+  "term": true
+ },
+ "a_gas": {
+  "de": "Luftsammelbereich (innen, oben)",
+  "sq": "Zona e grumbullimit të ajrit (brenda, sipër)",
+  "termDe": "Luftsammelbereich"
+ },
+ "a_vent": {
+  "de": "automatischer Entlüfter oben",
+  "sq": "ajruesi automatik sipër",
+  "termDe": "automatischer Entlüfter oben"
+ },
+ "h21": {
+  "de": "Merke dir",
+  "sq": "Mbaje mend"
+ },
+ "m1": {
+  "de": "Entlüfter: freie Luft an seinem Einbauort",
+  "sq": "ajruesi: ajri i lirë në vendin e montimit"
+ },
+ "m2": {
+  "de": "Abscheider: Mikroblasen aus dem Wasser → Entlüfter",
+  "sq": "ndarësi: mikrofluska nga uji → ajruesi"
+ },
+ "m3": {
+  "de": "gelöstes Gas: noch keine Blasen",
+  "sq": "gazi i tretur: ende pa flluska"
+ },
+ "m4": {
+  "de": "Einbauort + Einbaulage nach Anlage",
+  "sq": "vendi + pozicioni sipas instalimit"
+ },
+ "m5": {
+  "de": "ständig neue Luft → Ursache suchen",
+  "sq": "ajër i ri vazhdimisht → kërko shkakun"
+ }
+}

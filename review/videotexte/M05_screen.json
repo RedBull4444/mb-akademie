@@ -1,0 +1,732 @@
+{
+ "intro_kicker": {
+  "de": "SHK GRUNDLAGEN",
+  "sq": "BAZAT E SHK-së"
+ },
+ "intro_mod": {
+  "de": "MODUL 5",
+  "sq": "MODULI 5"
+ },
+ "intro_title": {
+  "de": "Sicherheitsgruppe Warmwasserspeicher",
+  "sq": "Grupi i sigurisë së depozitës së ujit të ngrohtë",
+  "termDe": "Sicherheitsgruppe Warmwasserspeicher"
+ },
+ "outro_done": {
+  "de": "MODUL 5 ABGESCHLOSSEN",
+  "sq": "MODULI 5 PËRFUNDUAR"
+ },
+ "ab": {
+  "de": "Absperrung",
+  "sq": "Valvula mbyllëse",
+  "term": true
+ },
+ "rv": {
+  "de": "Rückflussverhinderer",
+  "sq": "Penguesi i kthimit",
+  "term": true
+ },
+ "sv": {
+  "de": "Sicherheitsventil",
+  "sq": "Valvula e sigurisë",
+  "term": true
+ },
+ "dm": {
+  "de": "Druckminderer",
+  "sq": "Reduktuesi i presionit",
+  "term": true
+ },
+ "fun": {
+  "de": "Ablauftrichter",
+  "sq": "Hinka e shkarkimit",
+  "term": true
+ },
+ "abl": {
+  "de": "Ablauf / Ablauftrichter",
+  "sq": "Shkarkimi / hinka",
+  "termDe": "Ablauf / Ablauftrichter"
+ },
+ "dm_opt": {
+  "de": "Druckminderer – falls vorgesehen",
+  "sq": "Reduktuesi i presionit – nëse parashikohet",
+  "termDe": "Druckminderer – falls vorgesehen"
+ },
+ "AB": {
+  "de": "ABSPERRUNG",
+  "sq": "VALVULA MBYLLËSE",
+  "termDe": "Absperrung"
+ },
+ "RV": {
+  "de": "RÜCKFLUSSVERHINDERER",
+  "sq": "PENGUESI I KTHIMIT",
+  "termDe": "Rückflussverhinderer"
+ },
+ "SV": {
+  "de": "SICHERHEITSVENTIL",
+  "sq": "VALVULA E SIGURISË",
+  "termDe": "Sicherheitsventil"
+ },
+ "DM": {
+  "de": "DRUCKMINDERER",
+  "sq": "REDUKTUESI I PRESIONIT",
+  "termDe": "Druckminderer"
+ },
+ "FUN": {
+  "de": "ABLAUFTRICHTER",
+  "sq": "HINKA E SHKARKIMIT",
+  "termDe": "Ablauftrichter"
+ },
+ "sg": {
+  "de": "Sicherheitsgruppe",
+  "sq": "Grupi i sigurisë",
+  "term": true
+ },
+ "tank": {
+  "de": "Trinkwarmwasserspeicher",
+  "sq": "Depozita e ujit të ngrohtë",
+  "term": true
+ },
+ "kw": {
+  "de": "Kaltwasserzufuhr",
+  "sq": "Furnizimi me ujë të ftohtë",
+  "term": true
+ },
+ "net": {
+  "de": "Trinkwassernetz",
+  "sq": "Rrjeti i ujit të pijshëm",
+  "term": true
+ },
+ "ww": {
+  "de": "Warmwasser",
+  "sq": "Ujë i ngrohtë",
+  "term": true
+ },
+ "hzw": {
+  "de": "Heizungswasser – getrennt",
+  "sq": "Ujë ngrohjeje – i ndarë",
+  "termDe": "Heizungswasser – getrennt"
+ },
+ "twside": {
+  "de": "Trinkwasserseite",
+  "sq": "Ana e ujit të pijshëm",
+  "term": true
+ },
+ "mag": {
+  "de": "Trinkwasser-MAG",
+  "sq": "Ena e zgjerimit për ujë sanitar",
+  "termDe": "Trinkwasser-MAG"
+ },
+ "ablauf": {
+  "de": "Abblaseleitung",
+  "sq": "Tubi i shkarkimit",
+  "term": true
+ },
+ "principle": {
+  "de": "Prinzipdarstellung",
+  "sq": "Paraqitje parimore"
+ },
+ "wrong": {
+  "de": "FALSCH",
+  "sq": "GABIM",
+  "term": true
+ },
+ "right": {
+  "de": "RICHTIG",
+  "sq": "SAKTË",
+  "term": true
+ },
+ "example": {
+  "de": "Beispiel",
+  "sq": "Shembull"
+ },
+ "s01_kicker": {
+  "de": "Das echte Bauteil",
+  "sq": "Komponenti i vërtetë"
+ },
+ "s01_title": {
+  "de": "Sicherheitsgruppe Warmwasserspeicher",
+  "sq": "Grupi i sigurisë së depozitës së ujit të ngrohtë",
+  "termDe": "Sicherheitsgruppe Warmwasserspeicher"
+ },
+ "s01_ex": {
+  "de": "Beispiel: SYRobloc-Sicherheitsgruppe 25 (SYR)",
+  "sq": "Shembull: SYRobloc-Sicherheitsgruppe 25 (SYR)"
+ },
+ "s01_side": {
+  "de": "auf der Trinkwasserseite",
+  "sq": "në anën e ujit të pijshëm"
+ },
+ "s01_fn": {
+  "de": "Schutz- und Kontrollfunktionen",
+  "sq": "Funksione mbrojtëse dhe kontrolli"
+ },
+ "h02": {
+  "de": "Wo sitzt die Gruppe?",
+  "sq": "Ku ndodhet grupi?"
+ },
+ "before_tank": {
+  "de": "bevor das Wasser in den Speicher gelangt",
+  "sq": "përpara se uji të hyjë në depozitë"
+ },
+ "h03": {
+  "de": "Die Bauteile der Gruppe",
+  "sq": "Komponentët e grupit"
+ },
+ "not_same": {
+  "de": "Nicht jede Gruppe enthält alle Teile im selben Gehäuse",
+  "sq": "Jo çdo grup i ka të gjitha pjesët në të njëjtin trup"
+ },
+ "typ": {
+  "de": "typisch",
+  "sq": "tipike"
+ },
+ "opt": {
+  "de": "je nach Anlage",
+  "sq": "sipas instalimit"
+ },
+ "if_prov": {
+  "de": "falls vorgesehen",
+  "sq": "nëse parashikohet"
+ },
+ "h04": {
+  "de": "Der Wasserweg",
+  "sq": "Rruga e ujit"
+ },
+ "normal": {
+  "de": "Normalbetrieb",
+  "sq": "Punë normale"
+ },
+ "inner_dep": {
+  "de": "Innerer Aufbau: je nach Gruppe",
+  "sq": "Ndërtimi i brendshëm: sipas grupit"
+ },
+ "fn_first": {
+  "de": "Wichtig ist die Funktion jedes Bauteils",
+  "sq": "E rëndësishme është funksioni i secilit komponent"
+ },
+ "h05": {
+  "de": "Der Rückflussverhinderer",
+  "sq": "Penguesi i kthimit"
+ },
+ "to_tank": {
+  "de": "zum Speicher → JA",
+  "sq": "drejt depozitës → PO",
+  "termDe": "zum Speicher → JA"
+ },
+ "back_no": {
+  "de": "zurück → NEIN",
+  "sq": "kthim → JO",
+  "termDe": "zurück → NEIN"
+ },
+ "kw_inst": {
+  "de": "Kaltwasserinstallation",
+  "sq": "Instalimi i ujit të ftohtë",
+  "term": true
+ },
+ "rv_note": {
+  "de": "nicht gleich Systemtrenner",
+  "sq": "nuk është ndarës sistemi",
+  "termDe": "nicht gleich Systemtrenner"
+ },
+ "h06": {
+  "de": "Warum der Druck steigt",
+  "sq": "Pse rritet presioni"
+ },
+ "heats": {
+  "de": "Speicher heizt – Wasser dehnt sich aus",
+  "sq": "Depozita ngroh – uji zgjerohet"
+ },
+ "no_back": {
+  "de": "kein Weg zurück",
+  "sq": "nuk ka rrugë kthimi"
+ },
+ "p_up": {
+  "de": "Druck auf der Speicherseite steigt",
+  "sq": "Presioni në anën e depozitës rritet"
+ },
+ "zone": {
+  "de": "Speicherseite",
+  "sq": "Ana e depozitës",
+  "term": true
+ },
+ "m2": {
+  "de": "aus Modul 2",
+  "sq": "nga moduli 2"
+ },
+ "h07": {
+  "de": "Das Sicherheitsventil",
+  "sq": "Valvula e sigurisë"
+ },
+ "st_closed": {
+  "de": "Normaler Druck: geschlossen",
+  "sq": "Presion normal: e mbyllur"
+ },
+ "st_rise": {
+  "de": "Druck steigt",
+  "sq": "Presioni rritet"
+ },
+ "st_open": {
+  "de": "Ansprechdruck erreicht: öffnet",
+  "sq": "Arrihet presioni i hapjes: hapet"
+ },
+ "st_out": {
+  "de": "Wasser wird abgeführt",
+  "sq": "Uji shkarkohet"
+ },
+ "prot": {
+  "de": "Schutz vor unzulässig hohem Druck",
+  "sq": "Mbrojtje nga presioni tepër i lartë"
+ },
+ "thr": {
+  "de": "Ansprechdruck",
+  "sq": "Presioni i hapjes",
+  "term": true
+ },
+ "press": {
+  "de": "Druck auf der Speicherseite",
+  "sq": "Presioni në anën e depozitës"
+ },
+ "spring": {
+  "de": "Feder",
+  "sq": "Susta",
+  "term": true
+ },
+ "disc": {
+  "de": "Ventilteller",
+  "sq": "Disku i valvulës",
+  "term": true
+ },
+ "outlet_sv": {
+  "de": "Ausgang",
+  "sq": "Dalja",
+  "term": true
+ },
+ "no_bar": {
+  "de": "kein universeller Bar-Wert",
+  "sq": "nuk ka vlerë universale në bar"
+ },
+ "h08": {
+  "de": "Der freie Sicherheitsweg",
+  "sq": "Rruga e lirë e sigurisë"
+ },
+ "free_way": {
+  "de": "Speicher → Sicherheitsventil: FREIER WEG",
+  "sq": "Depozita → Valvula e sigurisë: RRUGË E LIRË",
+  "termDe": "Speicher → Sicherheitsventil: freier Weg"
+ },
+ "f1": {
+  "de": "Absperrung geschlossen",
+  "sq": "Valvula mbyllëse e mbyllur",
+  "termDe": "Absperrung geschlossen"
+ },
+ "f2": {
+  "de": "Verengung im Sicherheitsweg",
+  "sq": "Ngushtim në rrugën e sigurisë",
+  "termDe": "Verengung"
+ },
+ "f3": {
+  "de": "Sieb / Filter im Sicherheitsweg",
+  "sq": "Sitë / filtër në rrugën e sigurisë",
+  "termDe": "Sieb / Filter"
+ },
+ "h09": {
+  "de": "Absperrung: wozu?",
+  "sq": "Valvula mbyllëse: për çfarë?"
+ },
+ "maint": {
+  "de": "für Wartungsarbeiten",
+  "sq": "për punët e mirëmbajtjes"
+ },
+ "pos": {
+  "de": "Entscheidend ist die Position",
+  "sq": "Vendimtare është pozita"
+ },
+ "still": {
+  "de": "Speicher bleibt mit dem Sicherheitsventil verbunden",
+  "sq": "Depozita mbetet e lidhur me valvulën e sigurisë"
+ },
+ "never_sep": {
+  "de": "Speicher nie vom Sicherheitsventil trennen",
+  "sq": "Depozita nuk ndahet kurrë nga valvula e sigurisë"
+ },
+ "manu": {
+  "de": "Montage nach Konstruktion und Herstellerangaben",
+  "sq": "Montimi sipas ndërtimit dhe udhëzimeve të prodhuesit"
+ },
+ "h10": {
+  "de": "Der Druckminderer",
+  "sq": "Reduktuesi i presionit"
+ },
+ "dm_does": {
+  "de": "reduziert den Versorgungsdruck",
+  "sq": "ul presionin e furnizimit",
+  "termDe": "reduziert den Versorgungsdruck"
+ },
+ "p_hi": {
+  "de": "höherer Versorgungsdruck",
+  "sq": "presion më i lartë furnizimi",
+  "term": true
+ },
+ "p_lo": {
+  "de": "reduzierter Druck danach",
+  "sq": "presion i reduktuar pas tij",
+  "termDe": "reduzierter Druck"
+ },
+ "if_need": {
+  "de": "wenn für die Anlage erforderlich",
+  "sq": "kur kërkohet për instalimin"
+ },
+ "h11": {
+  "de": "Zwei verschiedene Aufgaben",
+  "sq": "Dy detyra të ndryshme"
+ },
+ "dm_ne_sv": {
+  "de": "Druckminderer ≠ Sicherheitsventil",
+  "sq": "Reduktuesi i presionit ≠ Valvula e sigurisë"
+ },
+ "dm_task": {
+  "de": "regelt den normalen Versorgungsdruck",
+  "sq": "rregullon presionin normal të furnizimit"
+ },
+ "sv_task": {
+  "de": "schützt bei unzulässigem Überdruck",
+  "sq": "mbron nga presioni tepër i lartë"
+ },
+ "over": {
+  "de": "Überdruck",
+  "sq": "Presion i tepërt",
+  "term": true
+ },
+ "h12": {
+  "de": "Nicht jede Gruppe hat einen Druckminderer",
+  "sq": "Jo çdo grup ka reduktues presioni"
+ },
+ "grpA": {
+  "de": "Gruppe A: mit Druckminderer",
+  "sq": "Grupi A: me reduktues presioni"
+ },
+ "grpB": {
+  "de": "Gruppe B: ohne integrierten Druckminderer",
+  "sq": "Grupi B: pa reduktues të integruar"
+ },
+ "dep1": {
+  "de": "Versorgungsdruck",
+  "sq": "Presioni i furnizimit",
+  "term": true
+ },
+ "dep2": {
+  "de": "Planung",
+  "sq": "Projekti",
+  "term": true
+ },
+ "dep3": {
+  "de": "Anforderungen des Speichers",
+  "sq": "Kërkesat e depozitës",
+  "term": true
+ },
+ "both_ok": {
+  "de": "beides möglich – je nach Anlage",
+  "sq": "të dyja të mundshme – sipas instalimit"
+ },
+ "h13": {
+  "de": "Der Ablauftrichter",
+  "sq": "Hinka e shkarkimit"
+ },
+ "gap": {
+  "de": "freie Trennung – sichtbar",
+  "sq": "ndarje e lirë – e dukshme",
+  "termDe": "freie Trennung"
+ },
+ "drain": {
+  "de": "zur Entwässerung",
+  "sq": "drejt kanalizimit",
+  "termDe": "zur Entwässerung"
+ },
+ "visible": {
+  "de": "Austritt bleibt sichtbar",
+  "sq": "Dalja mbetet e dukshme"
+ },
+ "h14": {
+  "de": "Ablauf: richtig und falsch",
+  "sq": "Shkarkimi: saktë dhe gabim"
+ },
+ "r_free": {
+  "de": "frei, sichtbar, kein Rückstau",
+  "sq": "i lirë, i dukshëm, pa bllokim"
+ },
+ "w_plug": {
+  "de": "Abblaseleitung mit Stopfen",
+  "sq": "Tubi i shkarkimit me tapë",
+  "termDe": "Abblaseleitung mit Stopfen"
+ },
+ "w_sub": {
+  "de": "Schlauchende unter Wasser",
+  "sq": "Fundi i zorrës nën ujë",
+  "termDe": "Schlauchende unter Wasser"
+ },
+ "w_frost": {
+  "de": "Leitung kann einfrieren",
+  "sq": "Tubi mund të ngrijë",
+  "termDe": "Leitung kann einfrieren"
+ },
+ "h15": {
+  "de": "Was passiert beim Aufheizen?",
+  "sq": "Çfarë ndodh gjatë ngrohjes?"
+ },
+ "cold": {
+  "de": "Speicher kalt",
+  "sq": "Depozita e ftohtë"
+ },
+ "HEAT": {
+  "de": "AUFHEIZEN",
+  "sq": "NGROHJA",
+  "termDe": "Aufheizen"
+ },
+ "heating": {
+  "de": "Aufheizen",
+  "sq": "Ngrohja",
+  "term": true
+ },
+ "expand": {
+  "de": "Wasser dehnt sich aus",
+  "sq": "Uji zgjerohet"
+ },
+ "no_mag": {
+  "de": "ohne wirksames Trinkwasser-MAG",
+  "sq": "pa enë zgjerimi funksionale",
+  "termDe": "ohne wirksames Trinkwasser-MAG"
+ },
+ "exp_water": {
+  "de": "Ausdehnungswasser",
+  "sq": "Ujë zgjerimi",
+  "term": true
+ },
+ "h16": {
+  "de": "Tropfen ≠ automatisch Defekt",
+  "sq": "Pikimi ≠ automatikisht defekt"
+ },
+ "sitA": {
+  "de": "Speicher heizt auf",
+  "sq": "Depozita po ngrohet"
+ },
+ "sitB": {
+  "de": "kein Aufheizen – dauerhafter Austritt",
+  "sq": "pa ngrohje – dalje e vazhdueshme"
+ },
+ "may_exp": {
+  "de": "kann Ausdehnungswasser sein",
+  "sq": "mund të jetë ujë zgjerimi"
+ },
+ "check": {
+  "de": "Ursache prüfen",
+  "sq": "Kontrollo shkakun"
+ },
+ "h17": {
+  "de": "Trinkwasser-MAG und Sicherheitsventil",
+  "sq": "Ena e zgjerimit dhe valvula e sigurisë"
+ },
+ "mag_task": {
+  "de": "nimmt normale Volumenänderung auf",
+  "sq": "merr ndryshimin normal të vëllimit"
+ },
+ "sv_stays": {
+  "de": "bleibt Sicherheitseinrichtung",
+  "sq": "mbetet pajisje sigurie"
+ },
+ "mag_never": {
+  "de": "Das MAG ersetzt nie das Sicherheitsventil",
+  "sq": "Ena e zgjerimit nuk e zëvendëson kurrë valvulën e sigurisë"
+ },
+ "h18": {
+  "de": "Auswahl der Komponenten",
+  "sq": "Zgjedhja e komponentëve"
+ },
+ "k1": {
+  "de": "zulässiger Speicherdruck",
+  "sq": "presioni i lejuar i depozitës",
+  "term": true
+ },
+ "k2": {
+  "de": "Versorgungsdruck",
+  "sq": "presioni i furnizimit",
+  "term": true
+ },
+ "k3": {
+  "de": "Speicher / Leistung",
+  "sq": "depozita / fuqia",
+  "term": true
+ },
+ "k4": {
+  "de": "Anlagenplanung",
+  "sq": "projekti i instalimit",
+  "term": true
+ },
+ "k5": {
+  "de": "Herstellervorgaben",
+  "sq": "udhëzimet e prodhuesit",
+  "term": true
+ },
+ "sel": {
+  "de": "passend zu Speicher und Installation",
+  "sq": "sipas depozitës dhe instalimit"
+ },
+ "no_univ": {
+  "de": "Kein universeller Druckwert",
+  "sq": "Nuk ka vlerë universale presioni"
+ },
+ "h19": {
+  "de": "Typische Fehler",
+  "sq": "Gabime tipike"
+ },
+ "e1": {
+  "de": "Heizungs-Sicherheitsgruppe am Trinkwasserspeicher",
+  "sq": "Grup sigurie i ngrohjes te depozita e ujit sanitar",
+  "termDe": "Heizungs-Sicherheitsgruppe am Trinkwasserspeicher"
+ },
+ "e2": {
+  "de": "Absperrung zwischen Speicher und Sicherheitsventil",
+  "sq": "Valvul mbyllëse midis depozitës dhe valvulës së sigurisë",
+  "termDe": "Absperrung zwischen Speicher und Sicherheitsventil"
+ },
+ "e3": {
+  "de": "Ablauf zugestopft",
+  "sq": "Shkarkimi i mbyllur me tapë",
+  "termDe": "Ablauf zugestopft"
+ },
+ "e4": {
+  "de": "Abblaseleitung unter Wasser",
+  "sq": "Tubi i shkarkimit nën ujë",
+  "termDe": "Abblaseleitung unter Wasser"
+ },
+ "e5": {
+  "de": "Druckminderer mit Sicherheitsventil verwechselt",
+  "sq": "Reduktuesi ngatërrohet me valvulën e sigurisë",
+  "termDe": "Druckminderer mit Sicherheitsventil verwechselt"
+ },
+ "e6": {
+  "de": "Sicherheitsventil mit falscher Auslegung",
+  "sq": "Valvul sigurie e papërshtatshme",
+  "termDe": "Sicherheitsventil mit falscher Auslegung"
+ },
+ "e7": {
+  "de": "Tropfen durch Verschließen „repariert“",
+  "sq": "Pikimi „riparohet“ duke e mbyllur",
+  "termDe": "Tropfen durch Verschließen „repariert“"
+ },
+ "x1": {
+  "de": "Falsche Sicherheitsgruppe",
+  "sq": "Grup i gabuar sigurie"
+ },
+ "x2": {
+  "de": "Sicherheitsweg blockiert",
+  "sq": "Rruga e sigurisë e bllokuar"
+ },
+ "x3": {
+  "de": "Ablauf niemals verschließen",
+  "sq": "Shkarkimi nuk mbyllet kurrë"
+ },
+ "x4": {
+  "de": "Leitungsende nie unter Wasser",
+  "sq": "Fundi i tubit kurrë nën ujë"
+ },
+ "x5": {
+  "de": "andere Aufgabe",
+  "sq": "detyrë tjetër"
+ },
+ "x6": {
+  "de": "Speicher-/Herstellervorgabe prüfen",
+  "sq": "Kontrollo kërkesat e depozitës/prodhuesit"
+ },
+ "x7": {
+  "de": "Ursache prüfen – niemals verschließen",
+  "sq": "Kontrollo shkakun – kurrë mos e mbyll"
+ },
+ "heat_grp": {
+  "de": "Heizung",
+  "sq": "Ngrohja",
+  "term": true
+ },
+ "h20": {
+  "de": "Das echte Bauteil",
+  "sq": "Komponenti i vërtetë"
+ },
+ "rv_in": {
+  "de": "Rückflussverhinderer – im Gehäuse",
+  "sq": "Penguesi i kthimit – brenda trupit",
+  "termDe": "Rückflussverhinderer – im Gehäuse"
+ },
+ "flowdir": {
+  "de": "Fließrichtung",
+  "sq": "Drejtimi i rrjedhës",
+  "term": true
+ },
+ "on_site": {
+  "de": "Weg des Wassers + Aufgabe jedes Teils",
+  "sq": "Rruga e ujit + detyra e çdo pjese"
+ },
+ "h21": {
+  "de": "Praxis-Check",
+  "sq": "Kontrolli në praktikë"
+ },
+ "CHK": {
+  "de": "KONTROLLE",
+  "sq": "KONTROLLI",
+  "termDe": "Kontrolle"
+ },
+ "c1": {
+  "de": "Gruppe auf der Kaltwasserseite?",
+  "sq": "Grupi në anën e ujit të ftohtë?"
+ },
+ "c2": {
+  "de": "Fließrichtung korrekt?",
+  "sq": "Drejtimi i rrjedhës i saktë?"
+ },
+ "c3": {
+  "de": "Rückflussverhinderer vorhanden?",
+  "sq": "Penguesi i kthimit i pranishëm?"
+ },
+ "c4": {
+  "de": "Weg Speicher → Sicherheitsventil frei?",
+  "sq": "Rruga depozitë → valvula e sigurisë e lirë?"
+ },
+ "c5": {
+  "de": "Abblaseleitung frei und sicher?",
+  "sq": "Tubi i shkarkimit i lirë dhe i sigurt?"
+ },
+ "c6": {
+  "de": "Nötiger Druckminderer vorgesehen?",
+  "sq": "Reduktuesi i nevojshëm i parashikuar?"
+ },
+ "c7": {
+  "de": "Gruppe passt laut Planung/Hersteller?",
+  "sq": "Grupi përshtatet sipas projektit/prodhuesit?"
+ },
+ "h22": {
+  "de": "Merke dir",
+  "sq": "Mbaje mend"
+ },
+ "m1": {
+  "de": "sitzt in der Kaltwasserzufuhr",
+  "sq": "ndodhet në furnizimin me ujë të ftohtë"
+ },
+ "m2b": {
+  "de": "verhindert Rückströmung",
+  "sq": "pengon kthimin e ujit"
+ },
+ "m3": {
+  "de": "reduziert bei Bedarf den Versorgungsdruck",
+  "sq": "ul presionin kur nevojitet"
+ },
+ "m4": {
+  "de": "schützt vor Überdruck",
+  "sq": "mbron nga presioni i tepërt"
+ },
+ "m5": {
+  "de": "Weg zum Speicher + Ablauf: immer frei",
+  "sq": "Rruga drejt depozitës + shkarkimi: gjithmonë të lirë"
+ },
+ "m6": {
+  "de": "Tropfen beim Aufheizen ≠ Defekt – Dauertropfen prüfen",
+  "sq": "Pikim gjatë ngrohjes ≠ defekt – pikimin e vazhdueshëm kontrolloje"
+ }
+}

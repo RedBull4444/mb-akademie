@@ -1,0 +1,832 @@
+{
+ "intro_kicker": {
+  "de": "SHK GRUNDLAGEN",
+  "sq": "BAZAT E SHK-së"
+ },
+ "intro_mod": {
+  "de": "MODUL 6",
+  "sq": "MODULI 6"
+ },
+ "intro_title": {
+  "de": "Schlamm- und Schmutzabscheider",
+  "sq": "Ndarësi i llumit dhe papastërtive",
+  "termDe": "Schlamm- und Schmutzabscheider"
+ },
+ "outro_done": {
+  "de": "MODUL 6 ABGESCHLOSSEN",
+  "sq": "MODULI 6 PËRFUNDUAR"
+ },
+ "sep": {
+  "de": "Schlammabscheider",
+  "sq": "Ndarësi i llumit",
+  "term": true
+ },
+ "hzw": {
+  "de": "Heizungswasser",
+  "sq": "Uji i ngrohjes",
+  "term": true
+ },
+ "pmag": {
+  "de": "magnetische Partikel",
+  "sq": "grimca magnetike",
+  "termDe": "magnetische Partikel"
+ },
+ "pnon": {
+  "de": "nichtmagnetische Partikel",
+  "sq": "grimca jomagnetike",
+  "termDe": "nichtmagnetische Partikel"
+ },
+ "principle": {
+  "de": "Prinzipdarstellung",
+  "sq": "Paraqitje parimore"
+ },
+ "example": {
+  "de": "Beispiel",
+  "sq": "Shembull"
+ },
+ "wrong": {
+  "de": "FALSCH",
+  "sq": "GABIM",
+  "term": true
+ },
+ "right": {
+  "de": "RICHTIG",
+  "sq": "SAKTË",
+  "term": true
+ },
+ "vl": {
+  "de": "Vorlauf",
+  "sq": "Vajtja",
+  "term": true
+ },
+ "rl": {
+  "de": "Rücklauf",
+  "sq": "Kthimi",
+  "term": true
+ },
+ "gen": {
+  "de": "Wärmeerzeuger",
+  "sq": "Gjeneratori i nxehtësisë",
+  "term": true
+ },
+ "wp": {
+  "de": "Wärmepumpe",
+  "sq": "Pompa e nxehtësisë",
+  "term": true
+ },
+ "rad": {
+  "de": "Heizfläche",
+  "sq": "Sipërfaqja ngrohëse",
+  "term": true
+ },
+ "pump": {
+  "de": "Pumpe",
+  "sq": "Pompa",
+  "term": true
+ },
+ "valves": {
+  "de": "Ventile",
+  "sq": "Valvulat",
+  "term": true
+ },
+ "wt": {
+  "de": "Wärmetauscher",
+  "sq": "Shkëmbyesi i nxehtësisë",
+  "term": true
+ },
+ "mag": {
+  "de": "Magnet",
+  "sq": "Magneti",
+  "term": true
+ },
+ "coll": {
+  "de": "Sammelbereich",
+  "sq": "Zona e grumbullimit",
+  "term": true
+ },
+ "drain": {
+  "de": "Ablass",
+  "sq": "Shkarkimi",
+  "term": true
+ },
+ "body": {
+  "de": "Abscheiderkörper",
+  "sq": "Trupi i ndarësit",
+  "term": true
+ },
+ "conn": {
+  "de": "Anschluss",
+  "sq": "Lidhja",
+  "term": true
+ },
+ "strainer": {
+  "de": "Schmutzfänger mit Sieb",
+  "sq": "Filtri me sitë",
+  "term": true
+ },
+ "s01_kicker": {
+  "de": "Das echte Bauteil",
+  "sq": "Komponenti i vërtetë"
+ },
+ "s01_title": {
+  "de": "Schlammabscheider",
+  "sq": "Ndarësi i llumit",
+  "termDe": "Schlammabscheider"
+ },
+ "s01_sub": {
+  "de": "Schmutz aus dem Heizungswasser entfernen",
+  "sq": "Largon papastërtitë nga uji i ngrohjes"
+ },
+ "s01_ex": {
+  "de": "Beispiel: Reflex Exdirt D … M (Schlammabscheider mit Magnet)",
+  "sq": "Shembull: Reflex Exdirt D … M (ndarës llumi me magnet)"
+ },
+ "s01_fn": {
+  "de": "Partikel abscheiden und sammeln",
+  "sq": "Ndan dhe mbledh grimcat"
+ },
+ "h02": {
+  "de": "Woher kommt der Schmutz?",
+  "sq": "Nga vjen papastërtia?"
+ },
+ "src1": {
+  "de": "Montagearbeiten",
+  "sq": "Punimet e montimit",
+  "term": true
+ },
+ "src2": {
+  "de": "alte Ablagerungen",
+  "sq": "Depozitat e vjetra",
+  "termDe": "alte Ablagerungen"
+ },
+ "src3": {
+  "de": "Korrosionsprozesse",
+  "sq": "Proceset e korrozionit",
+  "termDe": "Korrosionsprozesse"
+ },
+ "not_same": {
+  "de": "Nicht jeder Schmutz ist gleich",
+  "sq": "Jo çdo papastërti është e njëjtë"
+ },
+ "m16": {
+  "de": "Magnetit: ausführlich in Modul 16",
+  "sq": "Magnetiti: më në detaje në modulin 16"
+ },
+ "h03": {
+  "de": "Warum sind Partikel ein Problem?",
+  "sq": "Pse grimcat janë problem?"
+ },
+ "narrow": {
+  "de": "enge Wasserkanäle",
+  "sq": "kanale të ngushta uji",
+  "termDe": "enge Wasserkanäle"
+ },
+ "moving": {
+  "de": "bewegliche Teile",
+  "sq": "pjesë lëvizëse",
+  "termDe": "bewegliche Teile"
+ },
+ "seats": {
+  "de": "enge Durchgänge",
+  "sq": "kalime të ngushta",
+  "termDe": "enge Durchgänge"
+ },
+ "impair": {
+  "de": "Funktion und Wasserströmung können leiden",
+  "sq": "Funksioni dhe rrjedha e ujit mund të dëmtohen"
+ },
+ "h04": {
+  "de": "Besonders wichtig bei Wärmepumpen",
+  "sq": "Veçanërisht e rëndësishme te pompat e nxehtësisë"
+ },
+ "clean": {
+  "de": "sauber",
+  "sq": "i pastër",
+  "term": true
+ },
+ "dirty": {
+  "de": "verschmutzt",
+  "sq": "i ndotur",
+  "term": true
+ },
+ "flow_ok": {
+  "de": "ausreichender Durchfluss",
+  "sq": "prurje e mjaftueshme",
+  "termDe": "ausreichender Durchfluss"
+ },
+ "flow_low": {
+  "de": "Durchfluss behindert",
+  "sq": "prurja e penguar",
+  "termDe": "Durchfluss behindert"
+ },
+ "vs": {
+  "de": "Volumenstrom",
+  "sq": "Prurja",
+  "term": true
+ },
+ "big04": {
+  "de": "Schmutz kann Volumenstrom beeinträchtigen",
+  "sq": "Papastërtia mund të kufizojë prurjen",
+  "termDe": "Schmutz kann Volumenstrom beeinträchtigen"
+ },
+ "h05": {
+  "de": "So arbeitet der Schlammabscheider",
+  "sq": "Si punon ndarësi i llumit"
+ },
+ "inlet": {
+  "de": "Zulauf",
+  "sq": "Hyrja",
+  "term": true
+ },
+ "outlet": {
+  "de": "weiter zur Anlage",
+  "sq": "vazhdon në sistem",
+  "termDe": "weiter zur Anlage"
+ },
+ "mainflow": {
+  "de": "Hauptstrom",
+  "sq": "Rrjedha kryesore",
+  "term": true
+ },
+ "calm": {
+  "de": "Strömung wird beeinflusst",
+  "sq": "Rrjedha ndikohet",
+  "termDe": "Strömung wird beeinflusst"
+ },
+ "sink": {
+  "de": "Partikel verlassen den Hauptstrom",
+  "sq": "Grimcat dalin nga rrjedha kryesore",
+  "termDe": "Partikel verlassen den Hauptstrom"
+ },
+ "h06": {
+  "de": "Nicht alles bei einem Durchlauf",
+  "sq": "Jo gjithçka në një kalim"
+ },
+ "pass": {
+  "de": "Umlauf",
+  "sq": "Qarkullimi",
+  "term": true
+ },
+ "in_water": {
+  "de": "Partikel im Wasser",
+  "sq": "Grimca në ujë",
+  "termDe": "Partikel im Wasser"
+ },
+ "collected": {
+  "de": "gesammelt",
+  "sq": "të mbledhura",
+  "termDe": "gesammelt"
+ },
+ "again": {
+  "de": "Abscheidung immer wieder – bei jedem Umlauf",
+  "sq": "Ndarja përsëritet – në çdo qarkullim",
+  "termDe": "bei jedem Umlauf"
+ },
+ "big06": {
+  "de": "Nicht: einmal durch = alles sauber",
+  "sq": "Jo: një kalim = gjithçka e pastër",
+  "termDe": "einmal durch ≠ alles sauber"
+ },
+ "h07": {
+  "de": "Der Magnet",
+  "sq": "Magneti"
+ },
+ "mag_yes": {
+  "de": "Magnetwirkung",
+  "sq": "ndikim magnetik",
+  "termDe": "Magnetwirkung"
+ },
+ "mag_no": {
+  "de": "keine Magnetwirkung",
+  "sq": "pa ndikim magnetik",
+  "termDe": "keine Magnetwirkung"
+ },
+ "mag_help": {
+  "de": "unterstützt die Abscheidung",
+  "sq": "ndihmon ndarjen",
+  "termDe": "unterstützt die Abscheidung"
+ },
+ "h08": {
+  "de": "Magnet bedeutet nicht: alles wird entfernt",
+  "sq": "Magneti nuk do të thotë: largohet gjithçka"
+ },
+ "big08": {
+  "de": "MAGNET ≠ ALLES",
+  "sq": "MAGNETI ≠ GJITHÇKA",
+  "termDe": "Magnet ≠ alles"
+ },
+ "salts": {
+  "de": "gelöste Salze",
+  "sq": "kripëra të tretura",
+  "termDe": "gelöste Salze"
+ },
+ "other": {
+  "de": "andere Verschmutzungen",
+  "sq": "papastërti të tjera",
+  "termDe": "andere Verschmutzungen"
+ },
+ "not_by_mag": {
+  "de": "vom Magneten nicht erfasst",
+  "sq": "nuk kapen nga magneti",
+  "termDe": "vom Magneten nicht erfasst"
+ },
+ "no_filter": {
+  "de": "kein Filter für alles",
+  "sq": "nuk është filtër për çdo gjë",
+  "termDe": "kein Filter für alles"
+ },
+ "h09": {
+  "de": "Schlammabscheider oder Schmutzfänger?",
+  "sq": "Ndarës llumi apo filtër me sitë?"
+ },
+ "sep_do": {
+  "de": "scheidet während der Umläufe ab und sammelt",
+  "sq": "ndan gjatë qarkullimeve dhe mbledh",
+  "termDe": "scheidet ab und sammelt"
+ },
+ "str_do": {
+  "de": "hält Partikel an der Siebfläche zurück",
+  "sq": "mban grimcat në sipërfaqen e sitës",
+  "termDe": "Siebfläche hält zurück"
+ },
+ "diff_task": {
+  "de": "unterschiedliche Aufgaben",
+  "sq": "detyra të ndryshme",
+  "termDe": "unterschiedliche Aufgaben"
+ },
+ "both_req": {
+  "de": "Beide gefordert? → beide einbauen",
+  "sq": "Kërkohen të dyja? → montohen të dyja",
+  "termDe": "Beide gefordert → beide einbauen"
+ },
+ "h10": {
+  "de": "Typischer Einbauort",
+  "sq": "Vendi tipik i montimit"
+ },
+ "where": {
+  "de": "häufig im Rücklauf vor zu schützenden Komponenten",
+  "sq": "shpesh në kthim para komponentëve që duhet mbrojtur",
+  "termDe": "häufig im Rücklauf vor zu schützenden Komponenten"
+ },
+ "scheme": {
+  "de": "Hydraulikschema",
+  "sq": "Skema hidraulike",
+  "term": true
+ },
+ "manuf": {
+  "de": "Herstellervorgaben",
+  "sq": "Udhëzimet e prodhuesit",
+  "term": true
+ },
+ "not_always": {
+  "de": "nicht automatisch immer genau dort",
+  "sq": "jo automatikisht gjithmonë pikërisht aty",
+  "termDe": "nicht immer genau dort"
+ },
+ "h11": {
+  "de": "Durchfluss und Größe",
+  "sq": "Prurja dhe madhësia"
+ },
+ "fits": {
+  "de": "passend",
+  "sq": "i përshtatshëm",
+  "termDe": "passend"
+ },
+ "too_small": {
+  "de": "zu klein / ungeeignet",
+  "sq": "shumë i vogël / i papërshtatshëm",
+  "termDe": "zu klein / ungeeignet"
+ },
+ "k_vs": {
+  "de": "zulässiger Volumenstrom",
+  "sq": "prurja e lejuar",
+  "termDe": "zulässiger Volumenstrom"
+ },
+ "k_conn": {
+  "de": "Anschlussgröße",
+  "sq": "madhësia e lidhjes",
+  "termDe": "Anschlussgröße"
+ },
+ "k_dp": {
+  "de": "Druckverlust",
+  "sq": "humbja e presionit",
+  "termDe": "Druckverlust"
+ },
+ "k_data": {
+  "de": "Gerätedaten",
+  "sq": "të dhënat e pajisjes",
+  "termDe": "Gerätedaten"
+ },
+ "sel_by": {
+  "de": "Auswahl nach Anlage + Produktdaten",
+  "sq": "Zgjedhja sipas sistemit + të dhënave",
+  "termDe": "Auswahl nach Anlage + Produktdaten"
+ },
+ "h12": {
+  "de": "Einbaulage",
+  "sq": "Pozicioni i montimit"
+ },
+ "conn_turn": {
+  "de": "Anschlüsse drehbar – je nach Modell",
+  "sq": "Lidhjet rrotullohen – sipas modelit",
+  "termDe": "Anschlüsse drehbar – je nach Modell"
+ },
+ "body_stays": {
+  "de": "Körper bleibt in vorgeschriebener Lage",
+  "sq": "Trupi mbetet në pozicionin e parashikuar",
+  "termDe": "Körper bleibt in vorgeschriebener Lage"
+ },
+ "check_mark": {
+  "de": "Markierung + Anleitung prüfen",
+  "sq": "Kontrollo shenjat + udhëzimin",
+  "termDe": "Markierung + Anleitung prüfen"
+ },
+ "dep_prod": {
+  "de": "Lage hängt vom Produkt ab",
+  "sq": "Pozicioni varet nga produkti",
+  "termDe": "Lage hängt vom Produkt ab"
+ },
+ "h13": {
+  "de": "Zugänglichkeit",
+  "sq": "Qasja"
+ },
+ "blocked": {
+  "de": "Ablass verbaut",
+  "sq": "Shkarkimi i bllokuar",
+  "termDe": "Ablass verbaut"
+ },
+ "reach": {
+  "de": "gut erreichbar",
+  "sq": "lehtë i arritshëm",
+  "termDe": "gut erreichbar"
+ },
+ "reach_note": {
+  "de": "Sammel- und Ablassbereich erreichbar halten",
+  "sq": "Zona e grumbullimit dhe shkarkimit e arritshme",
+  "termDe": "Sammel- und Ablassbereich erreichbar"
+ },
+ "h14": {
+  "de": "Reinigung: vorbereiten",
+  "sq": "Pastrimi: përgatitja"
+ },
+ "CLEAN": {
+  "de": "REINIGUNG",
+  "sq": "PASTRIMI",
+  "termDe": "Reinigung"
+ },
+ "st1": {
+  "de": "Auffangen / Ableiten vorbereiten",
+  "sq": "Përgatit mbledhjen / shkarkimin",
+  "termDe": "Auffangen / Ableiten vorbereiten"
+ },
+ "st2": {
+  "de": "Herstelleranleitung beachten",
+  "sq": "Ndiq udhëzimin e prodhuesit",
+  "termDe": "Herstelleranleitung beachten"
+ },
+ "st3": {
+  "de": "Magnet aus Fangposition",
+  "sq": "Magneti jashtë pozicionit të kapjes",
+  "termDe": "Magnet aus Fangposition"
+ },
+ "st4": {
+  "de": "Ablass kontrolliert öffnen",
+  "sq": "Hap shkarkimin me kontroll",
+  "termDe": "Ablass kontrolliert öffnen"
+ },
+ "h15": {
+  "de": "Magnet vor dem Ablassen",
+  "sq": "Magneti para shkarkimit"
+ },
+ "pull": {
+  "de": "abziehen",
+  "sq": "hiqet",
+  "termDe": "abziehen"
+ },
+ "slide": {
+  "de": "verschieben",
+  "sq": "zhvendoset",
+  "termDe": "verschieben"
+ },
+ "by_type": {
+  "de": "je nach Bauart",
+  "sq": "sipas ndërtimit",
+  "termDe": "je nach Bauart"
+ },
+ "ex_model": {
+  "de": "hier: Magnet wird abgezogen",
+  "sq": "këtu: magneti hiqet",
+  "termDe": "hier: Magnet wird abgezogen"
+ },
+ "other_model": {
+  "de": "anderes Modell: Magnet verschieben",
+  "sq": "model tjetër: magneti zhvendoset",
+  "termDe": "anderes Modell: Magnet verschieben"
+ },
+ "released": {
+  "de": "magnetische Partikel freigegeben",
+  "sq": "grimcat magnetike lirohen",
+  "termDe": "magnetische Partikel freigegeben"
+ },
+ "h16": {
+  "de": "Ablassen",
+  "sq": "Shkarkimi"
+ },
+ "controlled": {
+  "de": "kontrolliert öffnen",
+  "sq": "hapet me kontroll",
+  "termDe": "kontrolliert öffnen"
+ },
+ "caught": {
+  "de": "sicher auffangen bzw. abführen",
+  "sq": "mblidhet ose shkarkohet në mënyrë të sigurt",
+  "termDe": "sicher auffangen bzw. abführen"
+ },
+ "h17": {
+  "de": "Nicht jedes Gerät gleich",
+  "sq": "Jo çdo pajisje është njësoj"
+ },
+ "devA": {
+  "de": "Gerät A",
+  "sq": "Pajisja A",
+  "term": true
+ },
+ "devB": {
+  "de": "Gerät B",
+  "sq": "Pajisja B",
+  "term": true
+ },
+ "inop": {
+  "de": "laut Hersteller im Betrieb spülbar",
+  "sq": "sipas prodhuesit shpëlahet gjatë punës",
+  "termDe": "laut Hersteller im Betrieb spülbar"
+ },
+ "nopress": {
+  "de": "Öffnen nur drucklos",
+  "sq": "Hapet vetëm pa presion",
+  "termDe": "Öffnen nur drucklos"
+ },
+ "big17": {
+  "de": "Herstelleranleitung entscheidet",
+  "sq": "Udhëzimi i prodhuesit vendos",
+  "termDe": "Herstelleranleitung entscheidet"
+ },
+ "h18": {
+  "de": "Nach der Reinigung",
+  "sq": "Pas pastrimit"
+ },
+ "c1": {
+  "de": "Ablass geschlossen",
+  "sq": "Shkarkimi i mbyllur",
+  "termDe": "Ablass geschlossen"
+ },
+ "c2": {
+  "de": "Magnet in Betriebsposition",
+  "sq": "Magneti në pozicionin e punës",
+  "termDe": "Magnet in Betriebsposition"
+ },
+ "c3": {
+  "de": "Anlagendruck kontrollieren",
+  "sq": "Kontrollo presionin e sistemit",
+  "termDe": "Anlagendruck kontrollieren"
+ },
+ "c4": {
+  "de": "Dichtheit kontrollieren",
+  "sq": "Kontrollo rrjedhjet",
+  "termDe": "Dichtheit kontrollieren"
+ },
+ "h19": {
+  "de": "Wann reinigen?",
+  "sq": "Kur pastrohet?"
+ },
+ "newfill": {
+  "de": "nach Neubefüllung / Sanierung",
+  "sq": "pas mbushjes së re / rinovimit",
+  "termDe": "nach Neubefüllung / Sanierung"
+ },
+ "time": {
+  "de": "Zeit",
+  "sq": "Koha",
+  "term": true
+ },
+ "dirt_amt": {
+  "de": "Schmutzanfall",
+  "sq": "Sasia e papastërtive",
+  "term": true
+ },
+ "observe": {
+  "de": "Verschmutzung beobachten",
+  "sq": "Vëzhgo ndotjen",
+  "termDe": "Verschmutzung beobachten"
+ },
+ "interval": {
+  "de": "Intervall: nach Gerät und tatsächlichem Schmutzanfall",
+  "sq": "Intervali: sipas pajisjes dhe papastërtisë reale",
+  "termDe": "nach Gerät und Schmutzanfall"
+ },
+ "no_fix": {
+  "de": "kein festes Monatsintervall",
+  "sq": "pa interval fiks mujor",
+  "termDe": "kein festes Monatsintervall"
+ },
+ "h20": {
+  "de": "Ersetzt keine Erstspülung",
+  "sq": "Nuk zëvendëson shpëlarjen fillestare"
+ },
+ "residues": {
+  "de": "Montagerückstände",
+  "sq": "Mbetjet e montimit",
+  "term": true
+ },
+ "flush": {
+  "de": "Spülen vor Inbetriebnahme",
+  "sq": "Shpëlarja para vënies në punë",
+  "termDe": "Spülen vor Inbetriebnahme"
+ },
+ "protect": {
+  "de": "danach: Abscheider als laufender Schutz",
+  "sq": "më pas: ndarësi si mbrojtje e vazhdueshme",
+  "termDe": "Abscheider als laufender Schutz"
+ },
+ "okFS": {
+  "de": "Spülen + Abscheiden",
+  "sq": "Shpëlarje + ndarje",
+  "termDe": "Spülen + Abscheiden"
+ },
+ "noFS": {
+  "de": "Spülen ODER Abscheider",
+  "sq": "Shpëlarje OSE ndarës",
+  "termDe": "Spülen ODER Abscheider"
+ },
+ "h21": {
+  "de": "Ursache bleibt bestehen",
+  "sq": "Shkaku mbetet"
+ },
+ "corr": {
+  "de": "Korrosion",
+  "sq": "Korrozioni",
+  "term": true
+ },
+ "new_parts": {
+  "de": "neue Partikel entstehen",
+  "sq": "krijohen grimca të reja",
+  "termDe": "neue Partikel entstehen"
+ },
+ "big21": {
+  "de": "Partikel entfernen ≠ Ursache beseitigen",
+  "sq": "Largimi i grimcave ≠ largimi i shkakut",
+  "termDe": "Partikel entfernen ≠ Ursache beseitigen"
+ },
+ "find_cause": {
+  "de": "wiederkehrend stark verschmutzt → Ursache untersuchen",
+  "sq": "ndotje e fortë e përsëritur → kërko shkakun",
+  "termDe": "Ursache untersuchen"
+ },
+ "h22": {
+  "de": "Typische Fehler",
+  "sq": "Gabime tipike"
+ },
+ "e1": {
+  "de": "Falsche Einbaulage",
+  "sq": "Pozicion i gabuar montimi",
+  "termDe": "Falsche Einbaulage"
+ },
+ "e2": {
+  "de": "Fließrichtung ungeprüft angenommen",
+  "sq": "Drejtimi i rrjedhës merret pa kontroll",
+  "termDe": "Fließrichtung ungeprüft angenommen"
+ },
+ "e3": {
+  "de": "Ablass unzugänglich",
+  "sq": "Shkarkimi i paarritshëm",
+  "termDe": "Ablass unzugänglich"
+ },
+ "e4": {
+  "de": "Magnet beim Reinigen in Fangposition",
+  "sq": "Magneti mbetet në pozicionin e kapjes",
+  "termDe": "Magnet beim Reinigen in Fangposition"
+ },
+ "e5": {
+  "de": "Gehäuse unter Druck geöffnet",
+  "sq": "Trupi hapet nën presion",
+  "termDe": "Gehäuse unter Druck geöffnet"
+ },
+ "e6": {
+  "de": "„Einmal durch = alles sauber“",
+  "sq": "„Një kalim = gjithçka e pastër“",
+  "termDe": "„Einmal durch = alles sauber“"
+ },
+ "e7": {
+  "de": "Schmutzfänger entfernt, obwohl gefordert",
+  "sq": "Filtri me sitë hiqet, edhe pse kërkohet",
+  "termDe": "Schmutzfänger entfernt, obwohl gefordert"
+ },
+ "e8": {
+  "de": "Korrosionsproblem ignoriert",
+  "sq": "Problemi i korrozionit injorohet",
+  "termDe": "Korrosionsproblem ignoriert"
+ },
+ "x1": {
+  "de": "Einbaulage prüfen",
+  "sq": "Kontrollo pozicionin",
+  "termDe": "Einbaulage prüfen"
+ },
+ "x2": {
+  "de": "Kennzeichnung + Anleitung prüfen",
+  "sq": "Kontrollo shenjat + udhëzimin",
+  "termDe": "Kennzeichnung + Anleitung prüfen"
+ },
+ "x3": {
+  "de": "Ablass erreichbar halten",
+  "sq": "Shkarkimi duhet të arrihet",
+  "termDe": "Ablass erreichbar halten"
+ },
+ "x4": {
+  "de": "Herstellerprozedur befolgen",
+  "sq": "Ndiq procedurën e prodhuesit",
+  "termDe": "Herstellerprozedur befolgen"
+ },
+ "x5": {
+  "de": "nur nach vorgesehener Druckentlastung öffnen",
+  "sq": "hapet vetëm pas shkarkimit të parashikuar të presionit",
+  "termDe": "nur nach vorgesehener Druckentlastung öffnen"
+ },
+ "x6": {
+  "de": "100 % sauber",
+  "sq": "100 % e pastër",
+  "termDe": "100 % sauber"
+ },
+ "x7": {
+  "de": "Hydraulikschema beachten",
+  "sq": "Respekto skemën hidraulike",
+  "termDe": "Hydraulikschema beachten"
+ },
+ "x8": {
+  "de": "Ursache prüfen",
+  "sq": "Kontrollo shkakun",
+  "termDe": "Ursache prüfen"
+ },
+ "arrow_q": {
+  "de": "Pfeil?",
+  "sq": "Shigjeta?",
+  "termDe": "Pfeil?"
+ },
+ "pressure": {
+  "de": "unter Druck",
+  "sq": "nën presion",
+  "termDe": "unter Druck"
+ },
+ "full": {
+  "de": "ständig voll",
+  "sq": "gjithmonë plot",
+  "termDe": "ständig voll"
+ },
+ "h23": {
+  "de": "Das echte Bauteil",
+  "sq": "Komponenti i vërtetë"
+ },
+ "q1": {
+  "de": "Wo fließt das Heizungswasser?",
+  "sq": "Nga kalon uji i ngrohjes?"
+ },
+ "q2": {
+  "de": "Wo sammelt sich der Schmutz?",
+  "sq": "Ku mblidhen papastërtitë?"
+ },
+ "q3": {
+  "de": "Wo sitzt der Magnet?",
+  "sq": "Ku ndodhet magneti?"
+ },
+ "q4": {
+  "de": "Ist der Ablass erreichbar?",
+  "sq": "A arrihet shkarkimi?"
+ },
+ "h24": {
+  "de": "Merke dir",
+  "sq": "Mbaje mend"
+ },
+ "m1": {
+  "de": "verschiedene Partikel im Heizungswasser",
+  "sq": "grimca të ndryshme në ujin e ngrohjes"
+ },
+ "m2": {
+  "de": "Abscheider sammelt nach und nach",
+  "sq": "ndarësi mbledh gradualisht"
+ },
+ "m3": {
+  "de": "Magnet: nur magnetische Partikel",
+  "sq": "magneti: vetëm grimca magnetike"
+ },
+ "m4": {
+  "de": "schützt Pumpen, Ventile, Wärmetauscher",
+  "sq": "mbron pompat, valvulat, shkëmbyesit"
+ },
+ "m5": {
+  "de": "Einbau + Reinigung nach Gerätevorgabe",
+  "sq": "montimi + pastrimi sipas pajisjes"
+ },
+ "m6": {
+  "de": "viel neuer Schmutz → Ursache suchen",
+  "sq": "shumë papastërti e re → kërko shkakun"
+ }
+}

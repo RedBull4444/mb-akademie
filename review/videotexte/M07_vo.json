@@ -1,0 +1,94 @@
+{
+ "intro": {
+  "de": "Es-Ha-Ka Grundlagen. Modul sieben. Luftabscheider und automatischer Entlüfter.",
+  "sq": "Bazat e Es-Ha-Ka-së. Moduli shtatë. Ndarësi i ajrit dhe ajruesi automatik."
+ },
+ "s01": {
+  "de": "Diese beiden Bauteile beschäftigen sich beide mit Luft im Heizsystem. Sie erfüllen aber nicht genau dieselbe Aufgabe.",
+  "sq": "Të dy këta komponentë merren me ajrin në sistemin e ngrohjes. Por ata nuk kryejnë saktësisht të njëjtën detyrë."
+ },
+ "s02": {
+  "de": "Luft im Heizsystem kann Geräusche verursachen und die Wasserzirkulation beeinträchtigen. Sie kann sich in bestimmten Bereichen sammeln oder als viele kleine Blasen mit dem Wasser transportiert werden.",
+  "sq": "Ajri në sistemin e ngrohjes mund të shkaktojë zhurma dhe të pengojë qarkullimin e ujit. Ai mund të grumbullohet në zona të caktuara ose të lëvizë me ujin në formën e shumë flluskave të vogla."
+ },
+ "s03": {
+  "de": "Für das Verständnis unterscheiden wir drei Zustände: größere freie Luftansammlungen, kleine mitströmende Mikroblasen und Gase, die noch im Wasser gelöst sind. Gelöstes Gas darf man sich nicht so vorstellen, als würden bereits sichtbare Luftblasen im Wasser schwimmen.",
+  "sq": "Për ta kuptuar më mirë, dallojmë tri gjendje: grumbullime më të mëdha ajri të lirë, mikrofluska të vogla që lëvizin me ujin dhe gaze që janë ende të tretura në ujë. Gazi i tretur nuk duhet të paraqitet sikur në ujë të ketë tashmë flluska të dukshme."
+ },
+ "s04": {
+  "de": "Ein automatischer Entlüfter entfernt freie Luft, die seinen Einbauort erreicht und sich dort sammelt.",
+  "sq": "Një ajrues automatik largon ajrin e lirë që arrin në vendin ku është montuar dhe grumbullohet aty."
+ },
+ "s05": {
+  "de": "Im Inneren arbeitet häufig ein Schwimmer. Sammelt sich Luft, sinkt der Wasserstand und der Schwimmer bewegt sich nach unten. Dadurch öffnet sich der Luftauslass. Ist die Luft entwichen, steigt der Wasserstand wieder und der Auslass schließt.",
+  "sq": "Brenda shpesh punon një pluskues. Kur grumbullohet ajër, niveli i ujit bie dhe pluskuesi lëviz poshtë. Kjo hap daljen e ajrit. Kur ajri largohet, niveli i ujit ngrihet përsëri dhe dalja mbyllet."
+ },
+ "s06": {
+  "de": "Automatische Entlüfter werden dort eingesetzt, wo sich freie Luft entsprechend der Anlagenplanung sammeln kann. Der konkrete Einbauort richtet sich nach Hydraulik und Herstellerangaben.",
+  "sq": "Ajruesit automatikë vendosen aty ku ajri i lirë mund të grumbullohet sipas projektimit të sistemit. Vendi konkret përcaktohet nga hidraulika dhe udhëzimet e prodhuesit."
+ },
+ "s07": {
+  "de": "Bei sehr kleinen Blasen sieht die Situation anders aus. Sie können mit der Wasserströmung mitgeführt werden. Ein einzelner Entlüfter irgendwo im System trennt diese Mikroblasen deshalb nicht automatisch aus dem gesamten Heizungswasser.",
+  "sq": "Te flluskat shumë të vogla situata është ndryshe. Ato mund të transportohen bashkë me rrjedhën e ujit. Prandaj një ajrues i vetëm diku në sistem nuk i ndan automatikisht të gjitha mikrofluskat nga uji i ngrohjes."
+ },
+ "s08": {
+  "de": "Ein Mikroblasenabscheider unterstützt genau diesen Vorgang. Im Inneren werden kleine Blasen aus der Strömung abgeschieden und können sich zu größeren Blasen verbinden. Diese steigen nach oben zum Entlüfter und werden dort aus dem System abgeführt.",
+  "sq": "Një ndarës mikrofluskash ndihmon pikërisht në këtë proces. Brenda tij, flluskat e vogla ndahen nga rrjedha dhe mund të bashkohen në flluska më të mëdha. Ato ngrihen drejt ajruesit dhe largohen nga sistemi."
+ },
+ "s09": {
+  "de": "Der Unterschied ist damit klar: Der automatische Entlüfter führt Luft ab, die ihn erreicht. Der Mikroblasenabscheider hilft zusätzlich dabei, kleine mitströmende Blasen überhaupt erst aus dem Wasserstrom herauszubekommen.",
+  "sq": "Kështu dallimi bëhet i qartë: ajruesi automatik largon ajrin që arrin tek ai. Ndarësi i mikrofluskave ndihmon gjithashtu që flluskat e vogla që lëvizin me ujin të ndahen nga rrjedha."
+ },
+ "s10": {
+  "de": "Mikroblasenabscheider werden in Heizungsanlagen häufig im warmen Vorlauf hinter dem Wärmeerzeuger eingesetzt. Dort können die Bedingungen für die Abscheidung günstig sein. Der genaue Einbauort hängt aber von Temperatur, Druck, Pumpenlage und dem konkreten Anlagenkonzept ab.",
+  "sq": "Ndarësit e mikrofluskave vendosen shpesh në furnizimin e ngrohtë pas pajisjes së ngrohjes. Aty kushtet për ndarjen mund të jenë të favorshme. Por pozicioni i saktë varet nga temperatura, presioni, pozicioni i pompës dhe koncepti konkret i sistemit."
+ },
+ "s11": {
+  "de": "Wasser kann außerdem Gase gelöst enthalten. Ändern sich beispielsweise Temperatur und Druck, kann ein Teil dieses Gases aus der Lösung austreten und als freie Blasen erscheinen.",
+  "sq": "Uji mund të përmbajë gjithashtu gaze të tretura. Kur ndryshojnë, për shembull, temperatura dhe presioni, një pjesë e gazit mund të dalë nga tretësira dhe të shfaqet si flluska të lira."
+ },
+ "s12": {
+  "de": "An einem echten Mikroblasenabscheider erkennt man deshalb häufig zwei Funktionsbereiche: Im Gehäuse werden Blasen aus dem Wasserstrom abgeschieden. Oben führt ein Entlüfter die gesammelte Luft aus dem System.",
+  "sq": "Te një ndarës real mikrofluskash shpesh dallohen dy zona funksionale: në trup flluskat ndahen nga rrjedha e ujit, ndërsa sipër një ajrues largon ajrin e grumbulluar nga sistemi."
+ },
+ "s13": {
+  "de": "Damit Luft nach oben zum Entlüfter gelangen kann, muss die vorgeschriebene Einbaulage des konkreten Geräts eingehalten werden. Anschlüsse oder Gehäuse dürfen nicht einfach beliebig gedreht werden.",
+  "sq": "Që ajri të mund të ngrihet drejt ajruesit, duhet të respektohet pozicioni i parashikuar i montimit të pajisjes konkrete. Lidhjet ose trupi nuk rrotullohen thjesht sipas dëshirës."
+ },
+ "s14": {
+  "de": "Der Entlüfter muss in seiner vorgesehenen Betriebsstellung arbeiten können. Wie eine Schutz- oder Verschlusskappe eingestellt wird, ist produktabhängig. Deshalb gelten die Angaben des jeweiligen Herstellers.",
+  "sq": "Ajruesi duhet të mund të punojë në pozicionin e tij të parashikuar. Mënyra si vendoset kapaku mbrojtës ose mbyllës varet nga produkti. Prandaj ndiqen udhëzimet e prodhuesit."
+ },
+ "s15": {
+  "de": "Ein automatischer Entlüfter soll Luft abgeben – nicht dauerhaft Heizungswasser verlieren. Wird er undicht, muss der Zustand kontrolliert und die Ursache beziehungsweise das Bauteil entsprechend der Wartungsvorgaben geprüft werden.",
+  "sq": "Një ajrues automatik duhet të largojë ajrin, jo të humbasë vazhdimisht ujë ngrohjeje. Nëse rrjedh ujë, duhet të kontrollohet gjendja dhe komponenti sipas udhëzimeve të mirëmbajtjes."
+ },
+ "s16": {
+  "de": "Wenn ständig neue Luft im Heizsystem auftaucht, ist immer wieder entlüften keine dauerhafte Lösung. Dann muss untersucht werden, warum Luft beziehungsweise Gas immer wieder in das System gelangt oder freigesetzt wird. Dazu gehören unter anderem Druckhaltung und mögliche Undichtigkeiten.",
+  "sq": "Nëse në sistem shfaqet vazhdimisht ajër i ri, ajrimi i përsëritur nuk është zgjidhje afatgjatë. Duhet të kontrollohet pse ajri ose gazi hyn ose çlirohet vazhdimisht në sistem. Këtu kontrollohen, ndër të tjera, mbajtja e presionit dhe rrjedhjet e mundshme."
+ },
+ "s17": {
+  "de": "Besonders bei Wärmepumpen darf ein Entlüftungsschema nicht einfach von irgendeiner anderen Heizungsanlage übernommen werden. Einbaupunkte und Entlüftungsverfahren richten sich nach dem konkreten Geräte- und Hydraulikkonzept.",
+  "sq": "Veçanërisht te pompat e nxehtësisë, skema e ajrimit nuk kopjohet thjesht nga një sistem tjetër ngrohjeje. Pikat e montimit dhe procedura e ajrimit varen nga pajisja dhe koncepti hidraulik konkret."
+ },
+ "s18": {
+  "de": "Bei bestimmten Wärmepumpen mit brennbarem Kältemittel kann es für besondere Störfälle eigene Sicherheitsvorgaben geben. Bei einer Gaswarnung oder dem Verdacht, dass Kältemittel in den Heizkreis gelangt ist, darf deshalb nicht einfach nach normaler Routine entlüftet werden. Dann gilt ausschließlich das Sicherheitsverfahren des konkreten Geräts.",
+  "sq": "Te disa pompa nxehtësie me ftohës të ndezshëm mund të ketë rregulla të veçanta sigurie për raste defekti. Nëse ka alarm gazi ose dyshim se ftohësi ka hyrë në qarkun e ngrohjes, nuk duhet të vazhdohet thjesht me ajrim normal. Në këtë rast ndiqet vetëm procedura e sigurisë së pajisjes konkrete."
+ },
+ "s19": {
+  "de": "Jetzt die typischen Fehler. Entlüfter und Mikroblasenabscheider werden gleichgesetzt – ein einzelner Entlüfter entfernt aber nicht alle Mikroblasen im ganzen System. Der Luftabscheider wird falsch gedreht eingebaut. Der Luftauslass ist verschlossen, die Luft kann nicht austreten. Die Kappe wird pauschal immer ganz geöffnet oder immer ganz geschlossen, statt die Herstellerangabe zu beachten. Der Mikroblasenabscheider wird irgendwo eingebaut, ohne die Hydraulik zu berücksichtigen. Man stellt sich gelöstes Gas als sichtbare Blasen vor – dabei entstehen Blasen erst, wenn Gas aus der Lösung austritt. Bei dauernder Luft werden immer mehr Entlüfter eingebaut, statt die Ursache zu prüfen. Ein Entlüfter, der ständig tropft, wird ignoriert. Und bei einer Gaswarnung an der Wärmepumpe wird trotzdem nach Routine entlüftet – hier gilt das Sicherheitsverfahren des Herstellers.",
+  "sq": "Tani gabimet tipike. Ajruesi dhe ndarësi i mikrofluskave konsiderohen si e njëjta gjë – por një ajrues i vetëm nuk i largon të gjitha mikrofluskat në të gjithë sistemin. Ndarësi i ajrit montohet i rrotulluar gabim. Dalja e ajrit është e mbyllur dhe ajri nuk mund të dalë. Kapaku lihet gjithmonë plotësisht i hapur ose gjithmonë plotësisht i mbyllur, në vend që të ndiqet udhëzimi i prodhuesit. Ndarësi i mikrofluskave montohet diku rastësisht, pa marrë parasysh hidraulikën. Gazi i tretur imagjinohet si flluska të dukshme – por flluskat krijohen vetëm kur gazi del nga tretësira. Kur ka vazhdimisht ajër, montohen gjithnjë e më shumë ajrues, në vend që të kontrollohet shkaku. Një ajrues që pikon vazhdimisht injorohet. Dhe kur pompa e nxehtësisë jep alarm gazi, ajrimi bëhet gjithsesi si rutinë – këtu vlen procedura e sigurisë e prodhuesit."
+ },
+ "s20": {
+  "de": "Wenn du diese Bauteile auf der Baustelle siehst, solltest du jetzt unterscheiden können: Der automatische Entlüfter führt angesammelte Luft ab. Der Mikroblasenabscheider hilft zusätzlich dabei, kleine Blasen aus dem strömenden Heizungswasser abzuscheiden.",
+  "sq": "Kur i sheh këta komponentë në kantier, tani duhet t'i dallosh: ajruesi automatik largon ajrin e grumbulluar. Ndarësi i mikrofluskave ndihmon gjithashtu që flluskat e vogla të ndahen nga uji që qarkullon."
+ },
+ "s21": {
+  "de": "Merke dir den Unterschied so: Ein automatischer Entlüfter führt freie Luft ab, die sich an seinem Einbauort sammelt. Ein Mikroblasenabscheider trennt zusätzlich kleine mitströmende Blasen aus dem Heizungswasser und führt sie zum Entlüfter. Gelöste Gase sind vorher noch keine sichtbaren Blasen. Einbauort und Einbaulage richten sich nach der konkreten Anlage. Und wenn ständig neue Luft entsteht, wird nicht nur weiter entlüftet – dann suchen wir die Ursache.",
+  "sq": "Mbaje mend dallimin kështu: ajruesi automatik largon ajrin e lirë që grumbullohet në vendin ku është montuar. Ndarësi i mikrofluskave ndan gjithashtu flluskat e vogla nga uji që qarkullon dhe i çon drejt ajruesit. Gazet e tretura nuk janë ende flluska të dukshme. Vendi dhe pozicioni i montimit varen nga instalimi konkret. Dhe nëse vazhdimisht krijohet ajër i ri, nuk vazhdojmë vetëm me ajrim – kërkojmë shkakun."
+ },
+ "outro": {
+  "de": "Modul sieben abgeschlossen.",
+  "sq": "Moduli shtatë përfunduar."
+ }
+}

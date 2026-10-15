@@ -1,0 +1,114 @@
+{
+ "intro": {
+  "de": "Es-Ha-Ka Grundlagen. Modul acht. Warmwasserspeicher anschließen.",
+  "sq": "Bazat e Es-Ha-Ka-së. Moduli tetë. Lidhja e depozitës së ujit të ngrohtë."
+ },
+ "s01": {
+  "de": "Bisher haben wir viele einzelne Bauteile kennengelernt. Jetzt setzen wir sie zu einem System zusammen. Wir schauen uns an, wie ein indirekt beheizter Trinkwarmwasserspeicher grundsätzlich angeschlossen wird.",
+  "sq": "Deri tani kemi mësuar shumë komponentë veçmas. Tani i bashkojmë në një sistem. Do të shohim si lidhet në parim një depozitë e ujit të ngrohtë sanitar me ngrohje indirekte."
+ },
+ "s02": {
+  "de": "Im Speicher befindet sich Trinkwasser. Durch die innenliegende Heizwendel fließt Heizungswasser. Die Wärme geht durch die Rohrwand auf das Trinkwasser über. Die beiden Wasserarten bleiben dabei vollständig getrennt.",
+  "sq": "Në depozitë ndodhet ujë sanitar. Në serpentinën e brendshme qarkullon ujë ngrohjeje. Nxehtësia kalon përmes murit të tubit te uji sanitar. Të dy llojet e ujit mbeten plotësisht të ndara."
+ },
+ "s03": {
+  "de": "Vor dem Anschließen werden Speicheranleitung, Anschlusssymbole und Hydraulikschema geprüft. Anschlüsse werden nicht nach Position oder Größe geraten.",
+  "sq": "Para lidhjes kontrollohen udhëzimi i depozitës, shenjat e lidhjeve dhe skema hidraulike. Lidhjet nuk përcaktohen sipas pozicionit ose madhësisë."
+ },
+ "s04": {
+  "de": "Auch der Aufstellort gehört zur Montage. Der Untergrund muss geeignet sein. Anschlüsse, Fühler und Wartungsbereiche müssen erreichbar bleiben.",
+  "sq": "Edhe vendi i instalimit është pjesë e montimit. Dyshemeja duhet të jetë e përshtatshme. Lidhjet, sensori dhe zonat e mirëmbajtjes duhet të mbeten të arritshme."
+ },
+ "s05": {
+  "de": "Die Leitungen werden sauber vorbereitet und nach dem vorgesehenen Verfahren gespült. Montagerückstände sollen nicht in den neuen Speicher gelangen.",
+  "sq": "Tubacionet përgatiten pastër dhe shpëlahen sipas procedurës së parashikuar. Mbetjet e montimit nuk duhet të hyjnë në depozitën e re."
+ },
+ "s06": {
+  "de": "Zuerst die Kaltwasserseite. Das Trinkwasser gelangt über die Sicherheitsgruppe zum Kaltwasseranschluss des Speichers.",
+  "sq": "Fillimisht ana e ujit të ftohtë. Uji sanitar kalon përmes grupit të sigurisë drejt lidhjes së ujit të ftohtë të depozitës."
+ },
+ "s07": {
+  "de": "Die Sicherheitsgruppe kennen wir bereits: Sie verhindert unter anderem Rückströmung und schützt den Speicher mit dem Sicherheitsventil vor unzulässigem Überdruck.",
+  "sq": "Grupin e sigurisë e njohim tashmë: ai pengon ndër të tjera kthimin e ujit dhe mbron depozitën nga presioni tepër i lartë me valvulën e sigurisë."
+ },
+ "s08": {
+  "de": "Besonders wichtig: Der Sicherheitsweg zwischen Speicher und Sicherheitsventil bleibt frei. Eine Absperrung darf ihn im Betrieb nicht unterbrechen.",
+  "sq": "Shumë e rëndësishme: rruga e sigurisë midis depozitës dhe valvulës së sigurisë mbetet e lirë. Një valvul mbyllëse nuk duhet ta ndërpresë gjatë funksionimit."
+ },
+ "s09": {
+  "de": "Ist ein Trinkwasser-Ausdehnungsgefäß vorgesehen, wird es mit geeigneter Anschlussarmatur auf der richtigen Seite des Rückflussverhinderers eingebunden.",
+  "sq": "Nëse është parashikuar një enë zgjerimi për ujin sanitar, ajo lidhet me armaturën e përshtatshme në anën e duhur të penguesit të kthimit."
+ },
+ "s10": {
+  "de": "Dann folgt der Warmwasserausgang. Von hier gelangt das erwärmte Trinkwasser zu den Entnahmestellen.",
+  "sq": "Pastaj vjen dalja e ujit të ngrohtë. Prej këtu uji i ngrohur shkon drejt pikave të përdorimit."
+ },
+ "s11": {
+  "de": "Auf der Warmwasserseite gehören Hygiene und Verbrühschutz zusammen. Die Temperaturen und die Schutzlösung richten sich nach Anlagenart, Planung und Regelwerk.",
+  "sq": "Në anën e ujit të ngrohtë, higjiena dhe mbrojtja nga djegia shkojnë së bashku. Temperaturat dhe zgjidhja e mbrojtjes varen nga lloji i instalimit, projekti dhe rregullat teknike."
+ },
+ "s12": {
+  "de": "Jetzt die Heizungsseite. Der Ladevorlauf bringt erwärmtes Heizungswasser vom Wärmeerzeuger zur Heizwendel im Speicher.",
+  "sq": "Tani ana e ngrohjes. Furnizimi i ngarkimit sjell ujin e ngrohur nga pajisja e ngrohjes drejt serpentinës në depozitë."
+ },
+ "s13": {
+  "de": "In der Heizwendel gibt das Heizungswasser Wärme an das Trinkwasser ab. Danach fließt es über den Laderücklauf zurück zum Wärmeerzeuger.",
+  "sq": "Në serpentinë, uji i ngrohjes ia jep nxehtësinë ujit sanitar. Më pas kthehet drejt pajisjes së ngrohjes përmes kthimit të ngarkimit."
+ },
+ "s14": {
+  "de": "Je nach Hydraulik sorgt zum Beispiel eine Ladepumpe oder ein Umschaltventil für die Speicherladung. Welche Lösung verwendet wird, entscheidet das Anlagenschema.",
+  "sq": "Në varësi të hidraulikës, për shembull një pompë ngarkimi ose një valvul devijuese kujdeset për ngarkimin e depozitës. Zgjidhjen e përcakton skema e instalimit."
+ },
+ "s15": {
+  "de": "Sehr wichtig: Der Rücklauf der Heizwendel ist nicht die Trinkwasser-Zirkulation. Hier arbeiten zwei vollständig getrennte Wassersysteme.",
+  "sq": "Shumë e rëndësishme: kthimi i serpentinës nuk është riqarkullimi i ujit sanitar. Këtu punojnë dy sisteme uji plotësisht të ndara."
+ },
+ "s16": {
+  "de": "Bei Anlagen mit Zirkulation führt eine zusätzliche Trinkwasserleitung zurück zum Speicher. So bleibt warmes Wasser in Bewegung und ist schneller an den Entnahmestellen.",
+  "sq": "Në instalimet me riqarkullim, një tub shtesë i ujit sanitar kthehet te depozita. Kështu uji i ngrohtë mbetet në lëvizje dhe arrin më shpejt te pikat e përdorimit."
+ },
+ "s17": {
+  "de": "Dazu gehören je nach Anlage eine trinkwassergeeignete Zirkulationspumpe, Rückflussverhinderung und bei verzweigten Systemen Abgleicharmaturen. So werden die vorgesehenen Leitungsbereiche kontrolliert durchströmt.",
+  "sq": "Në varësi të instalimit, këtu bëjnë pjesë një pompë riqarkullimi e përshtatshme për ujë sanitar, mbrojtja kundër kthimit dhe, në sistemet me degëzime, armaturat e balancimit. Kështu zonat e parashikuara qarkullohen në mënyrë të kontrolluar."
+ },
+ "s18": {
+  "de": "Wird ein Zirkulationsanschluss nicht genutzt, entsteht daraus keine lange Stichleitung. Der Anschluss wird nach Speicher- und Planungsvorgabe fachgerecht verschlossen.",
+  "sq": "Nëse lidhja e riqarkullimit nuk përdoret, nuk krijohet një degë e gjatë e panevojshme. Lidhja mbyllet siç duhet sipas udhëzimit të depozitës dhe projektit."
+ },
+ "s19": {
+  "de": "Der Temperaturfühler wird an der vorgesehenen Position vollständig eingesetzt und dem richtigen Reglereingang zugeordnet.",
+  "sq": "Sensori i temperaturës vendoset plotësisht në pozicionin e parashikuar dhe lidhet me hyrjen e duhur të kontrolluesit."
+ },
+ "s20": {
+  "de": "Ein Fühler am falschen Ort kann der Regelung eine falsche Temperatur melden. Dann kann auch die Speicherladung falsch reagieren. Der Fühlerplatz wird deshalb nicht nach Gefühl gewählt.",
+  "sq": "Një sensor në vendin e gabuar mund t’i japë kontrolluesit një temperaturë të gabuar. Kjo mund të ndikojë edhe në ngarkimin e depozitës. Prandaj pozicioni i sensorit nuk zgjidhet me hamendje."
+ },
+ "s21": {
+  "de": "Je nach Speicherbauart gehört ein Korrosionsschutz dazu, zum Beispiel eine Anode. Auch sie muss nach Herstellerangabe zugänglich bleiben und gewartet werden.",
+  "sq": "Në varësi të llojit të depozitës ka edhe mbrojtje nga korrozioni, për shembull një anodë. Edhe ajo duhet të mbetet e arritshme dhe të mirëmbahet sipas udhëzimeve të prodhuesit."
+ },
+ "s22": {
+  "de": "Nach dem Anschluss wird nach Geräteanleitung gefüllt und entlüftet. Dann werden Dichtheit, Sicherheitsweg, Regelung und Funktionen geprüft. Erst danach beginnt der Heizbetrieb.",
+  "sq": "Pas lidhjes, sistemi mbushet dhe ajroset sipas udhëzimit të pajisjes. Pastaj kontrollohen izolimi ndaj rrjedhjeve, rruga e sigurisë, kontrolli dhe funksionet. Vetëm pas kësaj fillon ngrohja."
+ },
+ "s23": {
+  "de": "Bei größeren zentralen Trinkwarmwassersystemen gelten klare Temperaturanforderungen: typischerweise etwa sechzig Grad am Austritt des Trinkwassererwärmers und mindestens fünfundfünfzig Grad im Zirkulationssystem. Diese Werte gelten nicht ungeprüft für jede andere Anlagenart.",
+  "sq": "Në sistemet më të mëdha qendrore të ujit të ngrohtë sanitar ka kërkesa të qarta për temperaturën: zakonisht rreth gjashtëdhjetë gradë në dalje të ngrohësit të ujit dhe të paktën pesëdhjetë e pesë gradë në sistemin e riqarkullimit. Këto vlera nuk vlejnë pa kontroll për çdo lloj tjetër instalimi."
+ },
+ "s24": {
+  "de": "Typische Fehler: Kalt- und Warmwasser vertauscht. Heizungswasser mit Trinkwasser verbunden. Sicherheitsgruppe falsch eingebaut. Absperrung zwischen Speicher und Sicherheitsventil. Ausdehnungsgefäß auf der falschen Seite. Ladevorlauf und Laderücklauf nach Position geraten. Zirkulation mit Heizungsrücklauf verwechselt. Ungeeignete Pumpe für die Zirkulation. Lange Stichleitung am ungenutzten Anschluss. Fühler falsch positioniert. Keine Wartung möglich. Und: heizen, bevor gefüllt und geprüft ist.",
+  "sq": "Gabime tipike: uji i ftohtë dhe i ngrohtë të ngatërruar. Uji i ngrohjes i lidhur me ujin sanitar. Grupi i sigurisë i montuar gabim. Valvul mbyllëse midis depozitës dhe valvulës së sigurisë. Ena e zgjerimit në anën e gabuar. Furnizimi dhe kthimi i ngarkimit të përcaktuar me hamendje. Riqarkullimi i ngatërruar me kthimin e ngrohjes. Pompë e papërshtatshme për riqarkullim. Degë e gjatë te lidhja e papërdorur. Sensori në pozicion të gabuar. Mirëmbajtja e pamundur. Dhe: ngrohja nis para mbushjes dhe kontrollit."
+ },
+ "s25": {
+  "de": "Stehst du vor einem echten Speicher, ordnest du die Rohre nicht nach ihrer Position zu. Du prüfst die Kennzeichnung und ordnest jeden Anschluss einem System zu: Trinkwasser, Heizungswasser, Zirkulation oder Regelung.",
+  "sq": "Kur qëndron para një depozite reale, nuk i përcakton tubat sipas pozicionit. Kontrollon shenjat dhe e lidh çdo pikë me sistemin përkatës: ujë sanitar, ujë ngrohjeje, riqarkullim ose kontroll."
+ },
+ "s26": {
+  "de": "Merke dir den Aufbau so: Kaltes Trinkwasser kommt über die Sicherheitsgruppe in den Speicher und verlässt ihn erwärmt über den Warmwasseranschluss. Heizungswasser strömt über den Ladevorlauf durch die Heizwendel, gibt dort Wärme ab und fließt über den Laderücklauf zurück. Eine Zirkulation, falls vorgesehen, hat ihren eigenen Trinkwasser-Rückweg. Der Fühler meldet der Regelung die Speichertemperatur. Angeschlossen wird nach Kennzeichnung und Hydraulikschema. Dann wird gefüllt, entlüftet und geprüft – und erst danach geheizt.",
+  "sq": "Mbaje mend ndërtimin kështu: uji i ftohtë sanitar hyn në depozitë përmes grupit të sigurisë dhe del i ngrohur nga lidhja e ujit të ngrohtë. Uji i ngrohjes kalon përmes furnizimit të ngarkimit në serpentinë, jep nxehtësinë dhe kthehet përmes kthimit të ngarkimit. Riqarkullimi, nëse është parashikuar, ka rrugën e vet të kthimit të ujit sanitar. Sensori i jep kontrolluesit temperaturën e depozitës. Lidhjet bëhen sipas shenjave dhe skemës hidraulike. Pastaj sistemi mbushet, ajroset dhe kontrollohet – dhe vetëm pastaj fillon ngrohja."
+ },
+ "outro": {
+  "de": "Modul acht abgeschlossen.",
+  "sq": "Moduli tetë përfunduar."
+ }
+}

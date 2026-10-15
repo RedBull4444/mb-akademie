@@ -1,0 +1,122 @@
+{
+ "intro": {
+  "de": "Es-Ha-Ka Grundlagen. Modul dreizehn. Mischerkreis: Mischer, Pumpe, Fühler, Regelung.",
+  "sq": "Bazat e Es-Ha-Ka-së. Moduli trembëdhjetë. Qarku me përzierje: përzierësi, pompa, sensori, kontrolli."
+ },
+ "s01": {
+  "de": "Ein Mischerkreis gibt einem Heizkreis seine eigene, passende Vorlauftemperatur. Dafür arbeiten Mischer, Stellmotor, Heizkreispumpe, Fühler und Regelung zusammen.",
+  "sq": "Një qark me përzierje i jep një qarku ngrohjeje temperaturën e vet të përshtatshme të furnizimit. Për këtë punojnë së bashku përzierësi, motori, pompa e qarkut, sensori dhe kontrolli."
+ },
+ "s02": {
+  "de": "In einer Anlage können Heizkreise unterschiedliche Vorlauftemperaturen brauchen. Der Mischerkreis stellt für seinen Kreis eine niedrigere, passende Temperatur bereit.",
+  "sq": "Në një sistem, qarqe të ndryshme mund të kenë nevojë për temperatura të ndryshme furnizimi. Qarku me përzierje krijon për qarkun e vet një temperaturë më të ulët dhe të përshtatshme."
+ },
+ "s03": {
+  "de": "Dazu kombiniert der Mischer heißeres Wasser von der Erzeugerseite mit kühlerem Rücklaufwasser aus dem Heizkreis.",
+  "sq": "Përzierësi kombinon ujë më të ngrohtë nga ana e prodhuesit me ujë më të ftohtë që kthehet nga qarku i ngrohjes."
+ },
+ "s04": {
+  "de": "Hinter dem Mischpunkt entsteht daraus der gemischte Vorlauf für den Heizkreis.",
+  "sq": "Pas pikës së përzierjes krijohet furnizimi i përzier për qarkun e ngrohjes."
+ },
+ "s05": {
+  "de": "Die Mischtemperatur ist dabei nicht einfach der Mittelwert. Entscheidend ist, wie viel Wasser aus jedem der beiden Ströme kommt.",
+  "sq": "Temperatura e përzier nuk është thjesht mesatarja. Rëndësi ka sa ujë vjen nga secila prej dy rrjedhave."
+ },
+ "s06": {
+  "de": "Das zentrale Bauteil ist häufig ein Dreiwegemischer. Seine innere Stellung bestimmt, wie stark die beiden Zuläufe verbunden werden.",
+  "sq": "Komponenti qendror është shpesh një përzierës me tri rrugë. Pozicioni i tij i brendshëm përcakton sa fort lidhen dy rrjedhat hyrëse."
+ },
+ "s07": {
+  "de": "Braucht der Heizkreis mehr Temperatur, lässt der Mischer mehr heißes Erzeugerwasser zu.",
+  "sq": "Nëse qarku ka nevojë për temperaturë më të lartë, përzierësi lejon më shumë ujë të nxehtë nga prodhuesi."
+ },
+ "s08": {
+  "de": "Soll die Temperatur sinken, wird mehr kühles Rücklaufwasser beigemischt.",
+  "sq": "Nëse temperatura duhet të ulet, përzihet më shumë ujë i ftohtë i kthimit."
+ },
+ "s09": {
+  "de": "Damit das automatisch passiert, bewegt ein Stellmotor den Mischer.",
+  "sq": "Që kjo të ndodhë automatikisht, një motor lëviz përzierësin."
+ },
+ "s10": {
+  "de": "Die Regelung muss wissen, welche Temperatur wirklich zum Heizkreis geht. Deshalb sitzt der Vorlauffühler an der vorgesehenen Stelle im gemischten Vorlauf, hinter dem Mischpunkt.",
+  "sq": "Kontrolli duhet të dijë se çfarë temperature shkon realisht drejt qarkut. Prandaj sensori i furnizimit vendoset në vendin e parashikuar, pas pikës së përzierjes."
+ },
+ "s11": {
+  "de": "So entsteht ein Regelkreis: Der Regler vergleicht Soll und Ist und bewegt bei einer Abweichung den Stellmotor. Der Mischer ändert das Mischungsverhältnis, und der Fühler meldet die neue Temperatur zurück.",
+  "sq": "Kështu krijohet një qark rregullimi: kontrolli krahason vlerën e kërkuar me vlerën reale dhe, nëse ka ndryshim, lëviz motorin. Përzierësi ndryshon raportin e përzierjes dhe sensori raporton temperaturën e re."
+ },
+ "s12": {
+  "de": "Ist der gemischte Vorlauf zu kühl, regelt der Regler in die Richtung, die mehr Wärme in den Heizkreis bringt.",
+  "sq": "Nëse furnizimi i përzier është shumë i ftohtë, kontrolli reagon në drejtimin që sjell më shumë nxehtësi në qark."
+ },
+ "s13": {
+  "de": "Ist er zu warm, fährt der Mischer in die andere Richtung.",
+  "sq": "Nëse është shumë i ngrohtë, përzierësi lëviz në drejtimin tjetër."
+ },
+ "s14": {
+  "de": "Nicht nach links oder rechts raten: Welche Drehrichtung wärmer bedeutet, entscheiden Anschlussbelegung, Ventilfunktion und Stellmotor des konkreten Produkts.",
+  "sq": "Mos hamendëso majtas apo djathtas: cili drejtim do të thotë më ngrohtë, e vendosin lidhjet, funksioni i valvulës dhe motori i produktit konkret."
+ },
+ "s15": {
+  "de": "Ein Dreiwegeventil kann je nach Bauart und Einbindung mischen oder verteilen. Mischen heißt: zwei Zuläufe, ein Abgang. Verteilen heißt: ein Zulauf, zwei Abgänge. Nicht verwechseln!",
+  "sq": "Një valvul me tri rrugë mund të përziejë ose të shpërndajë, sipas ndërtimit dhe lidhjes. Përzierje do të thotë: dy hyrje, një dalje. Shpërndarje do të thotë: një hyrje, dy dalje. Mos i ngatërroni!"
+ },
+ "s16": {
+  "de": "Auch die Anschlüsse werden nicht nach links, rechts, oben oder unten zugeordnet. Vor der Montage wird das Ventilschema des Herstellers geprüft.",
+  "sq": "Edhe lidhjet nuk përcaktohen sipas pozicionit majtas, djathtas, lart ose poshtë. Para montimit kontrollohet skema e valvulës nga prodhuesi."
+ },
+ "s17": {
+  "de": "Zum Mischerkreis gehört häufig eine eigene Heizkreispumpe. Sie sorgt für den Umlauf im gemischten Heizkreis.",
+  "sq": "Një qark me përzierje ka shpesh pompën e vet të qarkullimit. Ajo siguron qarkullimin në qarkun e përzier."
+ },
+ "s18": {
+  "de": "Pumpe und Mischer haben verschiedene Aufgaben. Die Pumpe sorgt für Volumenstrom und Umlauf. Der Mischer bestimmt das Mischungsverhältnis und damit die Temperatur.",
+  "sq": "Pompa dhe përzierësi kanë detyra të ndryshme. Pompa siguron prurjen dhe qarkullimin. Përzierësi përcakton raportin e përzierjes dhe kështu temperaturën."
+ },
+ "s19": {
+  "de": "Je nach Anlage kann zusätzlich eine Temperaturbegrenzung vorgesehen sein. Ob sie nötig ist, ergibt sich aus Planung und Systemkonzept.",
+  "sq": "Në varësi të sistemit mund të parashikohet edhe një kufizim temperature. Nëse nevojitet, përcaktohet nga projekti dhe koncepti i sistemit."
+ },
+ "s20": {
+  "de": "Auch die Ventilgröße muss zu Volumenstrom und Differenzdruck passen. Ein unpassender Ka-Vau-Es-Wert kann Regelbereich und hydraulische Funktion verschlechtern.",
+  "sq": "Edhe madhësia e valvulës duhet t'i përshtatet prurjes dhe diferencës së presionit. Një vlerë Ka-Vau-Es e papërshtatshme mund të përkeqësojë rregullimin dhe funksionin hidraulik."
+ },
+ "s21": {
+  "de": "Ein typischer Fehler: Sitzt der Vorlauffühler vor dem Mischpunkt, misst er nicht die Temperatur, die wirklich zum Heizkreis geht.",
+  "sq": "Një gabim tipik: nëse sensori ndodhet para pikës së përzierjes, ai nuk mat temperaturën që shkon realisht drejt qarkut."
+ },
+ "s22": {
+  "de": "Nach der Montage wird deshalb die Regelreaktion geprüft. Fordert der Regler mehr Wärme, darf der Mischer nicht in die falsche Richtung fahren.",
+  "sq": "Pas montimit kontrollohet edhe reagimi i rregullimit. Kur kontrolli kërkon më shumë nxehtësi, përzierësi nuk duhet të lëvizë në drejtimin e gabuar."
+ },
+ "s23": {
+  "de": "Wichtig: Nicht jede Fußbodenheizung braucht einen Mischer. Liefert zum Beispiel eine Wärmepumpe direkt die passende niedrige Vorlauftemperatur, kann ein zusätzlicher Mischerkreis unnötig sein.",
+  "sq": "E rëndësishme: jo çdo ngrohje në dysheme ka nevojë për përzierës. Nëse, për shembull, pompa e nxehtësisë jep direkt temperaturën e përshtatshme të ulët, një qark shtesë me përzierje mund të jetë i panevojshëm."
+ },
+ "s24": {
+  "de": "Bei Wärmepumpen sollte man außerdem vermeiden, ohne Grund unnötig hohe Temperaturen zu erzeugen und sie danach wieder herunterzumischen.",
+  "sq": "Te pompat e nxehtësisë duhet shmangur prodhimi pa arsye i temperaturave tepër të larta, vetëm për t'i ulur më pas me përzierësin."
+ },
+ "s25": {
+  "de": "Sinnvoll ist ein Mischerkreis zum Beispiel, wenn eine Anlage tatsächlich unterschiedliche Temperaturniveaus bereitstellen muss.",
+  "sq": "Qarku me përzierje është i dobishëm, për shembull, kur një sistem duhet të sigurojë realisht nivele të ndryshme temperature."
+ },
+ "s26": {
+  "de": "Typische Fehler: Anschlüsse nach links und rechts geraten. Mischen und Verteilen verwechselt. Stellmotor fährt falsch herum. Fühler vor dem Mischpunkt. Fühler schlecht befestigt. Mischer falsch dimensioniert. Pumpe und Mischer gleichgesetzt. Jeder Fußbodenheizung einen Mischer gegeben. Wärmepumpe unnötig hoch gefahren. Regelreaktion nicht geprüft. Ventilstellung nach Optik beurteilt. Und ein Sollwert für jeden Mischer.",
+  "sq": "Gabime tipike: lidhjet të hamendësuara majtas dhe djathtas. Përzierja dhe shpërndarja të ngatërruara. Motori lëviz në drejtimin e gabuar. Sensori para pikës së përzierjes. Sensori i fiksuar keq. Përzierësi me madhësi të gabuar. Pompa dhe përzierësi të barazuara. Përzierës në çdo ngrohje në dysheme. Pompa e nxehtësisë pa nevojë në temperaturë të lartë. Reagimi i rregullimit i pakontrolluar. Pozicioni i valvulës sipas pamjes. Dhe e njëjta vlerë për çdo përzierës."
+ },
+ "s27": {
+  "de": "Auf der Baustelle erkennst du einen Mischerkreis typischerweise an Mischer, Stellmotor, Heizkreispumpe und Fühler. Die Anschlussfunktion liest du aus Hydraulik- und Ventilschema, nicht aus der Lage der Rohre.",
+  "sq": "Në kantier, një qark me përzierje zakonisht e dallon nga përzierësi, motori, pompa e qarkut dhe sensori. Funksionin e lidhjeve e lexon nga skema hidraulike dhe skema e valvulës, jo nga pozicioni i tubave."
+ },
+ "s28": {
+  "de": "Merke dir: Heißeres Erzeugerwasser und kühleres Rücklaufwasser werden geregelt gemischt. So entsteht die passende Vorlauftemperatur. Die Pumpe sorgt für den Umlauf, der Fühler misst hinter dem Mischpunkt. Der Regler vergleicht Soll und Ist und stellt über den Stellmotor den Mischer. Prüfe Anschlussfunktion, Stellrichtung und Fühlerposition. Und: Ein Mischer kommt nur dorthin, wo das Hydraulikkonzept ihn braucht.",
+  "sq": "Mbaje mend: uji më i ngrohtë nga prodhuesi dhe uji më i ftohtë i kthimit përzihen në mënyrë të kontrolluar. Kështu krijohet temperatura e përshtatshme e furnizimit. Pompa siguron qarkullimin, sensori mat pas pikës së përzierjes. Kontrolli krahason vlerën e kërkuar me atë reale dhe përmes motorit lëviz përzierësin. Kontrollo funksionin e lidhjeve, drejtimin e motorit dhe pozicionin e sensorit. Dhe: përzierësi vendoset vetëm aty ku koncepti hidraulik e kërkon."
+ },
+ "outro": {
+  "de": "Modul dreizehn abgeschlossen.",
+  "sq": "Moduli trembëdhjetë përfunduar."
+ }
+}

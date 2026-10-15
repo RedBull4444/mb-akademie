@@ -1,0 +1,1160 @@
+{
+ "intro_kicker": {
+  "de": "SHK GRUNDLAGEN",
+  "sq": "BAZAT E SHK-së"
+ },
+ "intro_mod": {
+  "de": "MODUL 9",
+  "sq": "MODULI 9"
+ },
+ "intro_title": {
+  "de": "Heizungsanlage anschließen",
+  "sq": "Lidhja e sistemit të ngrohjes",
+  "termDe": "Heizungsanlage anschließen"
+ },
+ "outro_done": {
+  "de": "MODUL 9 ABGESCHLOSSEN",
+  "sq": "MODULI 9 PËRFUNDUAR"
+ },
+ "gen": {
+  "de": "Wärmeerzeuger",
+  "sq": "Pajisja e ngrohjes",
+  "term": true
+ },
+ "gen_wp": {
+  "de": "Wärmeerzeuger / Wärmepumpe",
+  "sq": "Pajisja e ngrohjes / pompa e nxehtësisë",
+  "termDe": "Wärmeerzeuger / Wärmepumpe"
+ },
+ "vl": {
+  "de": "Vorlauf",
+  "sq": "Furnizimi",
+  "term": true
+ },
+ "rl": {
+  "de": "Rücklauf",
+  "sq": "Kthimi",
+  "term": true
+ },
+ "hzw": {
+  "de": "Heizungswasser",
+  "sq": "Ujë ngrohjeje",
+  "term": true
+ },
+ "rad": {
+  "de": "Heizflächen",
+  "sq": "Sipërfaqet ngrohëse",
+  "term": true
+ },
+ "radk": {
+  "de": "Heizkörper",
+  "sq": "Radiatori",
+  "term": true
+ },
+ "ufh": {
+  "de": "Fußbodenheizung (optional)",
+  "sq": "Ngrohje në dysheme (opsionale)",
+  "termDe": "Fußbodenheizung"
+ },
+ "pump": {
+  "de": "Umwälzpumpe",
+  "sq": "Pompa qarkulluese",
+  "term": true
+ },
+ "sg": {
+  "de": "Sicherheitsgruppe",
+  "sq": "Grupi i sigurisë",
+  "term": true
+ },
+ "sv": {
+  "de": "Sicherheitsventil",
+  "sq": "Valvula e sigurisë",
+  "term": true
+ },
+ "mano": {
+  "de": "Manometer",
+  "sq": "Manometri",
+  "term": true
+ },
+ "vent": {
+  "de": "Entlüfter",
+  "sq": "Ajruesi",
+  "term": true
+ },
+ "avent": {
+  "de": "automatischer Entlüfter",
+  "sq": "Ajruesi automatik",
+  "term": true
+ },
+ "mag": {
+  "de": "MAG",
+  "sq": "MAG",
+  "term": false
+ },
+ "mag_l": {
+  "de": "Membran-Ausdehnungsgefäß (MAG)",
+  "sq": "Ena e zgjerimit me membranë (MAG)",
+  "termDe": "Membran-Ausdehnungsgefäß"
+ },
+ "str": {
+  "de": "Schmutzfänger / Sieb",
+  "sq": "Filtri me sitë",
+  "term": true
+ },
+ "sep": {
+  "de": "Schlammabscheider",
+  "sq": "Ndarësi i llumit",
+  "term": true
+ },
+ "las": {
+  "de": "Mikroblasenabscheider",
+  "sq": "Ndarësi i mikrofluskave",
+  "term": true
+ },
+ "las_s": {
+  "de": "Luftabscheider",
+  "sq": "Ndarësi i ajrit",
+  "term": true
+ },
+ "ab": {
+  "de": "Absperrung",
+  "sq": "Valvula mbyllëse",
+  "term": true
+ },
+ "rv": {
+  "de": "Rückflussverhinderer",
+  "sq": "Valvula e kundërkthimit",
+  "term": true
+ },
+ "sens": {
+  "de": "Fühler",
+  "sq": "Sensori",
+  "term": true
+ },
+ "ctrl": {
+  "de": "Regelung",
+  "sq": "Kontrolli",
+  "term": true
+ },
+ "usv": {
+  "de": "Umschaltventil",
+  "sq": "Valvula devijuese",
+  "term": true
+ },
+ "rvl": {
+  "de": "Raumventil",
+  "sq": "Valvula e dhomës",
+  "term": true
+ },
+ "bal": {
+  "de": "Abgleich",
+  "sq": "Balancimi",
+  "term": true
+ },
+ "k_fill": {
+  "de": "Füllen",
+  "sq": "Mbushja",
+  "term": true
+ },
+ "k_flush": {
+  "de": "Spülen",
+  "sq": "Shpëlarja",
+  "term": true
+ },
+ "k_drain": {
+  "de": "Entleeren",
+  "sq": "Zbrazja",
+  "term": true
+ },
+ "principle": {
+  "de": "Prinzipdarstellung – Beispiel, kein Universalschema",
+  "sq": "Paraqitje parimore – shembull, jo skemë universale"
+ },
+ "by_plan": {
+  "de": "nach Hydraulikschema + Hersteller",
+  "sq": "sipas skemës hidraulike + prodhuesit",
+  "termDe": "nach Hydraulikschema + Hersteller"
+ },
+ "g_vl": {
+  "de": "Vorlauf",
+  "sq": "Furnizimi",
+  "term": true
+ },
+ "g_rl": {
+  "de": "Rücklauf (kühler)",
+  "sq": "Kthimi (më i ftohtë)",
+  "termDe": "Rücklauf"
+ },
+ "s01_kicker": {
+  "de": "VOM EINZELTEIL ZUM SYSTEM",
+  "sq": "NGA PJESA TE SISTEMI"
+ },
+ "s01_title": {
+  "de": "Die komplette Heizungsanlage",
+  "sq": "Sistemi i plotë i ngrohjes",
+  "termDe": "Heizungsanlage"
+ },
+ "s01_ex": {
+  "de": "Foto: Buderus-Referenzanlage (Beispiel) – Bosch Thermotechnik GmbH",
+  "sq": "Foto: instalim reference Buderus (shembull) – Bosch Thermotechnik GmbH"
+ },
+ "s01_parts": {
+  "de": "Module 1–8",
+  "sq": "Modulet 1–8"
+ },
+ "s01_sys": {
+  "de": "hydraulisch zusammenarbeiten",
+  "sq": "të punojnë së bashku hidraulikisht",
+  "termDe": "hydraulisch zusammenarbeiten"
+ },
+ "h02": {
+  "de": "Zuerst das Hydraulikschema",
+  "sq": "Së pari skema hidraulike"
+ },
+ "big02": {
+  "de": "Zuerst Schema – dann Rohr",
+  "sq": "Së pari skema – pastaj tubat",
+  "termDe": "Zuerst Schema – dann Rohr"
+ },
+ "cA": {
+  "de": "A · direkter Heizkreis",
+  "sq": "A · qark i drejtpërdrejtë",
+  "termDe": "direkter Heizkreis"
+ },
+ "cB": {
+  "de": "B · Reihenpuffer",
+  "sq": "B · puferi në seri",
+  "termDe": "Reihenpuffer"
+ },
+ "cC": {
+  "de": "C · Parallelpuffer – entkoppelt",
+  "sq": "C · puferi paralel / i ndarë",
+  "termDe": "Parallelpuffer / hydraulisch entkoppelt"
+ },
+ "later": {
+  "de": "Puffer: eigenes Modul",
+  "sq": "Puferi: modul më vete",
+  "termDe": "Puffer: später"
+ },
+ "approved": {
+  "de": "freigegebenes Schema",
+  "sq": "skema e miratuar",
+  "termDe": "freigegebenes Hydraulikschema"
+ },
+ "habit": {
+  "de": "nicht nach Gewohnheit",
+  "sq": "jo sipas zakonit",
+  "termDe": "nicht nach Gewohnheit"
+ },
+ "h03": {
+  "de": "Was ist schon im Wärmeerzeuger?",
+  "sq": "Çfarë ka tashmë pajisja?"
+ },
+ "big03": {
+  "de": "integriert? → prüfen",
+  "sq": "e integruar? → kontrollo",
+  "termDe": "integriert? → prüfen"
+ },
+ "maybe": {
+  "de": "je nach Gerät – nicht jedes Gerät hat alles",
+  "sq": "sipas pajisjes – jo çdo pajisje ka gjithçka",
+  "termDe": "je nach Gerät"
+ },
+ "i_pump": {
+  "de": "Pumpe?",
+  "sq": "Pompa?",
+  "termDe": "Pumpe"
+ },
+ "i_mag": {
+  "de": "MAG?",
+  "sq": "MAG?",
+  "termDe": "MAG"
+ },
+ "i_sv": {
+  "de": "Sicherheitsventil?",
+  "sq": "Valvula e sigurisë?",
+  "termDe": "Sicherheitsventil"
+ },
+ "i_sens": {
+  "de": "Sensorik?",
+  "sq": "Sensorët?",
+  "termDe": "Sensorik"
+ },
+ "ext": {
+  "de": "extern ergänzen – nur was fehlt",
+  "sq": "shto jashtë – vetëm çfarë mungon",
+  "termDe": "extern ergänzen"
+ },
+ "twice": {
+  "de": "nicht doppelt montieren",
+  "sq": "mos e monto dy herë",
+  "termDe": "nicht doppelt montieren"
+ },
+ "h04": {
+  "de": "Vorlauf und Rücklauf",
+  "sq": "Furnizimi dhe kthimi"
+ },
+ "vl_d": {
+  "de": "vom Wärmeerzeuger zu den Heizflächen",
+  "sq": "nga pajisja te sipërfaqet ngrohëse",
+  "termDe": "zu den Heizflächen"
+ },
+ "rl_d": {
+  "de": "zurück zum Wärmeerzeuger",
+  "sq": "kthehet te pajisja",
+  "termDe": "zurück zum Wärmeerzeuger"
+ },
+ "h05": {
+  "de": "Rücklauf ist nicht „kalt“",
+  "sq": "Kthimi nuk është „i ftohtë“"
+ },
+ "big05": {
+  "de": "Rücklauf = kühler, nicht kalt",
+  "sq": "Kthimi = më i ftohtë, jo i ftohtë",
+  "termDe": "Rücklauf = kühler, nicht kalt"
+ },
+ "heat_off": {
+  "de": "Wärme an den Raum",
+  "sq": "Nxehtësi në dhomë",
+  "termDe": "Wärme an den Raum"
+ },
+ "warm": {
+  "de": "warm",
+  "sq": "i ngrohtë",
+  "term": true
+ },
+ "cooler": {
+  "de": "kühler – aber warm",
+  "sq": "më i ftohtë – por i ngrohtë",
+  "termDe": "kühler – aber warm"
+ },
+ "no_val": {
+  "de": "keine festen Temperaturen – je nach Anlage",
+  "sq": "pa temperatura fikse – sipas sistemit",
+  "termDe": "keine festen Temperaturen"
+ },
+ "h06": {
+  "de": "Die Umwälzpumpe",
+  "sq": "Pompa qarkulluese"
+ },
+ "big06": {
+  "de": "Pumpe → bewegt Wasser",
+  "sq": "Pompa → lëviz ujin",
+  "termDe": "Pumpe → bewegt Wasser"
+ },
+ "res_p": {
+  "de": "Rohre",
+  "sq": "Tubat",
+  "term": true
+ },
+ "res_v": {
+  "de": "Ventile",
+  "sq": "Valvulat",
+  "term": true
+ },
+ "res_r": {
+  "de": "Heizflächen",
+  "sq": "Sipërfaqet ngrohëse",
+  "term": true
+ },
+ "resist": {
+  "de": "Widerstände",
+  "sq": "Rezistencat",
+  "term": true
+ },
+ "p_ne": {
+  "de": "Pumpe ≠ Druckhaltung",
+  "sq": "Pompa ≠ mbajtja e presionit",
+  "termDe": "Pumpe ≠ Druckhaltung"
+ },
+ "h07": {
+  "de": "Die Sicherheitsgruppe",
+  "sq": "Grupi i sigurisë"
+ },
+ "known": {
+  "de": "bekannt aus Modul 4",
+  "sq": "e njohur nga moduli 4",
+  "termDe": "bekannt aus Modul 4"
+ },
+ "h08": {
+  "de": "Sicherheitsweg bleibt frei",
+  "sq": "Rruga e sigurisë mbetet e lirë"
+ },
+ "path_ok": {
+  "de": "freier Schutzweg zum Sicherheitsventil",
+  "sq": "rrugë e lirë drejt valvulës së sigurisë",
+  "termDe": "freier Schutzweg"
+ },
+ "path_bad": {
+  "de": "Absperrung im Sicherheitsweg",
+  "sq": "Valvul mbyllëse në rrugën e sigurisë",
+  "termDe": "Absperrung im Sicherheitsweg"
+ },
+ "h09": {
+  "de": "Das MAG im Gesamtsystem",
+  "sq": "MAG-u në të gjithë sistemin"
+ },
+ "press": {
+  "de": "Druckhaltung der Gesamtanlage",
+  "sq": "Mbajtja e presionit të sistemit",
+  "termDe": "Druckhaltung"
+ },
+ "branch": {
+  "de": "am Abzweig – nicht im Hauptstrom",
+  "sq": "në degëzim – jo në rrjedhën kryesore",
+  "termDe": "Abzweig – nicht im Hauptstrom"
+ },
+ "conn_ok": {
+  "de": "Verbindung im Betrieb wirksam",
+  "sq": "lidhja funksionale gjatë punës",
+  "termDe": "Verbindung wirksam"
+ },
+ "h10": {
+  "de": "Integriertes MAG – reicht es?",
+  "sq": "MAG i integruar – a mjafton?"
+ },
+ "int_mag": {
+  "de": "integriertes MAG",
+  "sq": "MAG i integruar",
+  "termDe": "integriertes MAG"
+ },
+ "v_pipe": {
+  "de": "Rohrnetz",
+  "sq": "Tubacionet",
+  "term": true
+ },
+ "v_rad": {
+  "de": "Heizflächen",
+  "sq": "Sipërfaqet ngrohëse",
+  "term": true
+ },
+ "v_buf": {
+  "de": "ggf. Speicher / Puffer",
+  "sq": "nëse ka: depozitë / pufer",
+  "termDe": "ggf. Speicher / Puffer"
+ },
+ "v_tot": {
+  "de": "Gesamtwasservolumen",
+  "sq": "Vëllimi i plotë i ujit",
+  "term": true
+ },
+ "big10": {
+  "de": "Druckhaltung für die ganze Anlage prüfen",
+  "sq": "Kontrollo mbajtjen e presionit për gjithë sistemin",
+  "termDe": "Gesamtanlage prüfen"
+ },
+ "h11": {
+  "de": "Schmutzfänger und Schlammabscheider",
+  "sq": "Filtri me sitë dhe ndarësi i llumit"
+ },
+ "str_d": {
+  "de": "Partikel bleiben am Sieb",
+  "sq": "Grimcat mbeten në sitë",
+  "termDe": "Partikel bleiben am Sieb"
+ },
+ "sep_d": {
+  "de": "scheidet bei jedem Umlauf einen Teil ab",
+  "sq": "ndan një pjesë në çdo qarkullim",
+  "termDe": "scheidet je Umlauf ab"
+ },
+ "diff": {
+  "de": "nicht exakt dieselbe Aufgabe",
+  "sq": "jo saktësisht e njëjta detyrë",
+  "termDe": "nicht dieselbe Aufgabe"
+ },
+ "mf": {
+  "de": "je nach Herstelleranforderung",
+  "sq": "sipas kërkesës së prodhuesit",
+  "termDe": "nach Herstelleranforderung"
+ },
+ "h12": {
+  "de": "Nicht einfach einen weglassen",
+  "sq": "Mos e hiq thjesht njërin"
+ },
+ "req": {
+  "de": "Herstellervorgabe",
+  "sq": "Kërkesa e prodhuesit",
+  "term": true
+ },
+ "req_both": {
+  "de": "Sieb + Schlammabscheider",
+  "sq": "Filtër me sitë + ndarës llumi",
+  "termDe": "Sieb + Schlammabscheider"
+ },
+ "big12": {
+  "de": "Herstellervorgabe prüfen",
+  "sq": "Kontrollo kërkesën e prodhuesit",
+  "termDe": "Herstellervorgabe prüfen"
+ },
+ "h13": {
+  "de": "Luftabscheidung im System",
+  "sq": "Ndarja e ajrit në sistem"
+ },
+ "las_d": {
+  "de": "entfernt Mikroblasen im Umlauf",
+  "sq": "largon mikrofluskat gjatë qarkullimit",
+  "termDe": "entfernt Mikroblasen"
+ },
+ "avent_d": {
+  "de": "lässt gesammelte Luft an Hochpunkten ab",
+  "sq": "nxjerr ajrin e mbledhur në pikat e larta",
+  "termDe": "Luft an Hochpunkten ab"
+ },
+ "m7": {
+  "de": "unterschiedliche Aufgaben – siehe Modul 7",
+  "sq": "detyra të ndryshme – shih modulin 7",
+  "termDe": "unterschiedliche Aufgaben"
+ },
+ "h14": {
+  "de": "Fließrichtungen prüfen",
+  "sq": "Kontrollo drejtimet e rrjedhës"
+ },
+ "arrow_chk": {
+  "de": "Fließpfeil prüfen",
+  "sq": "Kontrollo shigjetën e rrjedhës",
+  "termDe": "Fließpfeil prüfen"
+ },
+ "prod_mark": {
+  "de": "Kennzeichnung des Produkts",
+  "sq": "Shenjat e produktit",
+  "termDe": "Kennzeichnung des Produkts"
+ },
+ "no_univ": {
+  "de": "keine feste universelle Richtung",
+  "sq": "pa drejtim universal fiks",
+  "termDe": "keine universelle Richtung"
+ },
+ "h15": {
+  "de": "Füll-, Spül- und Entleerstellen",
+  "sq": "Pikat e mbushjes, shpëlarjes dhe zbrazjes"
+ },
+ "svc": {
+  "de": "für Montage und Wartung",
+  "sq": "për montim dhe mirëmbajtje",
+  "termDe": "für Montage und Wartung"
+ },
+ "ctrl_ok": {
+  "de": "kontrolliert füllen · spülen · entleeren",
+  "sq": "mbushje · shpëlarje · zbrazje e kontrolluar",
+  "termDe": "kontrolliert"
+ },
+ "h16": {
+  "de": "Zuerst spülen und prüfen",
+  "sq": "Së pari shpëlarje dhe kontroll"
+ },
+ "resid": {
+  "de": "Montagerückstände",
+  "sq": "Mbetje montimi",
+  "term": true
+ },
+ "flushing": {
+  "de": "spülen nach vorgesehenem Verfahren",
+  "sq": "shpëlarje sipas procedurës së parashikuar",
+  "termDe": "nach vorgesehenem Verfahren"
+ },
+ "tests": {
+  "de": "erforderliche Prüfungen",
+  "sq": "kontrollet e nevojshme",
+  "termDe": "erforderliche Prüfungen"
+ },
+ "then_fill": {
+  "de": "erst dann normal befüllen",
+  "sq": "vetëm pastaj mbushje normale",
+  "termDe": "erst dann befüllen"
+ },
+ "h17": {
+  "de": "MAG vorbereiten",
+  "sq": "Përgatitja e MAG-ut"
+ },
+ "pre": {
+  "de": "Vordruck",
+  "sq": "Presioni paraprak",
+  "term": true
+ },
+ "pre_calc": {
+  "de": "nach Berechnung / Vorgabe",
+  "sq": "sipas llogaritjes / vlerës së parashikuar",
+  "termDe": "nach Berechnung / Vorgabe"
+ },
+ "pre_std": {
+  "de": "beliebiger Standardwert",
+  "sq": "numër standard i rastësishëm",
+  "termDe": "beliebiger Standardwert"
+ },
+ "gas_side": {
+  "de": "Gasseite",
+  "sq": "Ana e gazit",
+  "term": true
+ },
+ "h18": {
+  "de": "Geschützte Füllstrecke",
+  "sq": "Linja e mbrojtur e mbushjes"
+ },
+ "f_tw": {
+  "de": "Trinkwasser",
+  "sq": "Ujë sanitar",
+  "term": true
+ },
+ "f_ba": {
+  "de": "Systemtrenner – gegen Rückfluss",
+  "sq": "Ndarësi i sistemit – kundër kthimit",
+  "termDe": "Systemtrenner"
+ },
+ "f_cart": {
+  "de": "Aufbereitung – falls verlangt",
+  "sq": "Trajtimi – nëse kërkohet",
+  "termDe": "Aufbereitung"
+ },
+ "f_hz": {
+  "de": "Heizungsanlage",
+  "sq": "Sistemi i ngrohjes",
+  "term": true
+ },
+ "f_m3": {
+  "de": "Nachfülleinheit aus Modul 3",
+  "sq": "Njësia e mbushjes nga moduli 3",
+  "termDe": "Nachfülleinheit (Modul 3)"
+ },
+ "h19": {
+  "de": "Kalter Anlagenfülldruck",
+  "sq": "Presioni i mbushjes në të ftohtë"
+ },
+ "target": {
+  "de": "vorgesehener Zielbereich",
+  "sq": "zona e parashikuar",
+  "termDe": "Zielbereich"
+ },
+ "this_sys": {
+  "de": "gilt für diese Anlage",
+  "sq": "vlen për këtë sistem",
+  "termDe": "gilt für diese Anlage"
+ },
+ "other_bld": {
+  "de": "Wert von anderem Gebäude",
+  "sq": "vlera nga ndërtesë tjetër",
+  "termDe": "Wert von anderem Gebäude"
+ },
+ "h20": {
+  "de": "Entlüften",
+  "sq": "Ajrosja"
+ },
+ "air_out": {
+  "de": "Luft raus – vor stabilem Betrieb",
+  "sq": "Ajri jashtë – para funksionimit të qëndrueshëm",
+  "termDe": "Luft raus"
+ },
+ "a_gen": {
+  "de": "Wärmeerzeuger",
+  "sq": "Pajisja",
+  "term": true
+ },
+ "a_net": {
+  "de": "Rohrnetz",
+  "sq": "Tubacionet",
+  "term": true
+ },
+ "a_pts": {
+  "de": "Entlüftungsstellen",
+  "sq": "Pikat e ajrimit",
+  "term": true
+ },
+ "h21": {
+  "de": "Pumpe, Ventile, Fühler, Regelung",
+  "sq": "Pompa, valvulat, sensorët, kontrolli"
+ },
+ "f_run": {
+  "de": "Pumpe läuft",
+  "sq": "Pompa punon",
+  "termDe": "Pumpe läuft"
+ },
+ "f_valve": {
+  "de": "Ventil fährt",
+  "sq": "Valvula lëviz",
+  "termDe": "Ventil fährt"
+ },
+ "f_sens": {
+  "de": "Fühler misst",
+  "sq": "Sensori mat",
+  "termDe": "Fühler misst"
+ },
+ "f_reg": {
+  "de": "Regler reagiert",
+  "sq": "Kontrolli reagon",
+  "termDe": "Regler reagiert"
+ },
+ "wrong_sens": {
+  "de": "Fühler falsch angeschlossen",
+  "sq": "Sensor i lidhur gabim",
+  "termDe": "Fühler falsch angeschlossen"
+ },
+ "wrong_ctrl": {
+  "de": "Hydraulik korrekt – Regelung trotzdem falsch",
+  "sq": "Hidraulika saktë – kontrolli prapë gabim",
+  "termDe": "Regelung falsch"
+ },
+ "h22": {
+  "de": "Volumenstrom einstellen",
+  "sq": "Rregullimi i prurjes"
+ },
+ "vs": {
+  "de": "Volumenstrom",
+  "sq": "Prurja",
+  "term": true
+ },
+ "too_low": {
+  "de": "zu wenig",
+  "sq": "shumë pak",
+  "termDe": "zu wenig"
+ },
+ "fits": {
+  "de": "passend nach Planung",
+  "sq": "sipas projektit",
+  "termDe": "nach Planung"
+ },
+ "not_max": {
+  "de": "nicht einfach Pumpe auf Maximum",
+  "sq": "jo thjesht pompa në maksimum",
+  "termDe": "nicht Pumpe auf Maximum"
+ },
+ "mano_ne": {
+  "de": "Manometer zeigt Druck – nicht Volumenstrom",
+  "sq": "Manometri tregon presion – jo prurje",
+  "termDe": "Manometer ≠ Volumenstrom"
+ },
+ "h23": {
+  "de": "Hydraulischer Abgleich",
+  "sq": "Balancimi hidraulik"
+ },
+ "diff_vs": {
+  "de": "nicht jede Heizfläche braucht denselben Volumenstrom",
+  "sq": "jo çdo sipërfaqe ka nevojë për të njëjtën prurje",
+  "termDe": "unterschiedliche Volumenströme"
+ },
+ "later2": {
+  "de": "Vertiefung in einem späteren Modul",
+  "sq": "më hollësisht në një modul të mëvonshëm",
+  "termDe": "später genauer"
+ },
+ "h24": {
+  "de": "Wärmepumpe: Mindestvolumenstrom",
+  "sq": "Pompa e nxehtësisë: prurja minimale"
+ },
+ "minvs": {
+  "de": "Mindestvolumenstrom (gerätespezifisch)",
+  "sq": "Prurja minimale (sipas pajisjes)",
+  "termDe": "Mindestvolumenstrom"
+ },
+ "rooms_close": {
+  "de": "Raumkreise schließen",
+  "sq": "Qarqet e dhomave mbyllen",
+  "termDe": "Raumkreise schließen"
+ },
+ "critical": {
+  "de": "auch im kritischen Betriebszustand prüfen",
+  "sq": "kontrollo edhe në gjendje kritike",
+  "termDe": "kritischer Betriebszustand"
+ },
+ "wp": {
+  "de": "Wärmepumpe",
+  "sq": "Pompa e nxehtësisë",
+  "term": true
+ },
+ "h25": {
+  "de": "Abtauung bei Luft-Wasser-Wärmepumpen",
+  "sq": "Shkrirja te pompat ajër-ujë"
+ },
+ "odu": {
+  "de": "Außengerät",
+  "sq": "Njësia e jashtme",
+  "term": true
+ },
+ "ice": {
+  "de": "Eis am Wärmetauscher",
+  "sq": "Akull në shkëmbyesin e nxehtësisë",
+  "termDe": "Eis am Wärmetauscher"
+ },
+ "defrost": {
+  "de": "Abtauen – nach Herstellervorgabe",
+  "sq": "Shkrirja – sipas prodhuesit",
+  "termDe": "Abtauen nach Hersteller"
+ },
+ "d_flow": {
+  "de": "ausreichender Wasserumlauf",
+  "sq": "qarkullim i mjaftueshëm",
+  "termDe": "ausreichender Wasserumlauf"
+ },
+ "d_vol": {
+  "de": "verfügbares Anlagenvolumen",
+  "sq": "vëllim i disponueshëm",
+  "termDe": "verfügbares Anlagenvolumen"
+ },
+ "no_buf": {
+  "de": "Puffer nicht automatisch Pflicht – Hersteller entscheidet",
+  "sq": "Puferi jo automatikisht i detyrueshëm – vendos prodhuesi",
+  "termDe": "Puffer nicht automatisch Pflicht"
+ },
+ "h26": {
+  "de": "Kalt und warm prüfen",
+  "sq": "Kontrolli në të ftohtë dhe në të ngrohtë"
+ },
+ "cold": {
+  "de": "ANLAGE KALT",
+  "sq": "SISTEMI I FTOHTË",
+  "termDe": "Anlage kalt"
+ },
+ "hot": {
+  "de": "ANLAGE WARM",
+  "sq": "SISTEMI I NGROHTË",
+  "termDe": "Anlage warm"
+ },
+ "k1": {
+  "de": "Druck",
+  "sq": "Presioni",
+  "term": true
+ },
+ "k2": {
+  "de": "Dichtheit",
+  "sq": "Hermetizimi",
+  "term": true
+ },
+ "k3": {
+  "de": "Ruhezustand",
+  "sq": "Gjendja në qetësi",
+  "term": true
+ },
+ "w1": {
+  "de": "Druckverlauf",
+  "sq": "Ndryshimi i presionit",
+  "term": true
+ },
+ "w2": {
+  "de": "Temperaturen",
+  "sq": "Temperaturat",
+  "term": true
+ },
+ "w3": {
+  "de": "Strömung",
+  "sq": "Rrjedha",
+  "term": true
+ },
+ "w4": {
+  "de": "keine Leckage",
+  "sq": "pa rrjedhje",
+  "termDe": "keine Leckage"
+ },
+ "w5": {
+  "de": "Verhalten der Komponenten",
+  "sq": "Sjellja e komponentëve",
+  "termDe": "Verhalten der Komponenten"
+ },
+ "h27": {
+  "de": "Geräusche und Betriebswechsel",
+  "sq": "Zhurmat dhe ndryshimi i punës"
+ },
+ "noise": {
+  "de": "ungewöhnliches Geräusch?",
+  "sq": "zhurmë e pazakontë?",
+  "termDe": "ungewöhnliches Geräusch"
+ },
+ "mode_h": {
+  "de": "Heizbetrieb",
+  "sq": "Ngrohje",
+  "term": true
+ },
+ "mode_w": {
+  "de": "Warmwasser (falls vorhanden)",
+  "sq": "Ujë i ngrohtë (nëse ka)",
+  "termDe": "Warmwasser"
+ },
+ "looks": {
+  "de": "sieht perfekt aus",
+  "sq": "duket perfekt",
+  "termDe": "sieht perfekt aus"
+ },
+ "optik": {
+  "de": "Optik ≠ Funktion",
+  "sq": "Pamja ≠ funksioni",
+  "termDe": "Optik ≠ Funktion"
+ },
+ "h28": {
+  "de": "Typische Fehler",
+  "sq": "Gabime tipike"
+ },
+ "e1": {
+  "de": "Vorlauf und Rücklauf vertauscht",
+  "sq": "Furnizimi dhe kthimi të ngatërruar",
+  "termDe": "VL / RL vertauscht"
+ },
+ "e2": {
+  "de": "Bauteile doppelt – obwohl im Gerät integriert",
+  "sq": "Komponentë dy herë – edhe pse të integruar",
+  "termDe": "Bauteile doppelt"
+ },
+ "e3": {
+  "de": "Sicherheitsweg abgesperrt",
+  "sq": "Rruga e sigurisë e mbyllur",
+  "termDe": "Sicherheitsweg abgesperrt"
+ },
+ "e4": {
+  "de": "MAG zu klein / integriertes MAG ungeprüft",
+  "sq": "MAG shumë i vogël / i integruar pa kontroll",
+  "termDe": "MAG zu klein / ungeprüft"
+ },
+ "e5": {
+  "de": "Schlammabscheider statt gefordertem Sieb",
+  "sq": "Ndarës llumi në vend të filtrit me sitë",
+  "termDe": "Abscheider statt Sieb"
+ },
+ "e6": {
+  "de": "Pumpe / Rückschlagventil falsch herum",
+  "sq": "Pompa / valvula e kundërkthimit së prapthi",
+  "termDe": "falsch herum"
+ },
+ "e7": {
+  "de": "keine Wartungszugänge",
+  "sq": "Asnjë qasje për mirëmbajtje",
+  "termDe": "keine Wartungszugänge"
+ },
+ "e8": {
+  "de": "ungeschützt nachgefüllt",
+  "sq": "Mbushje pa mbrojtje",
+  "termDe": "ungeschützt nachgefüllt"
+ },
+ "e9": {
+  "de": "falsches Füllwasser",
+  "sq": "Ujë mbushjeje i papërshtatshëm",
+  "termDe": "falsches Füllwasser"
+ },
+ "e10": {
+  "de": "Pumpe einfach auf Maximum",
+  "sq": "Pompa thjesht në maksimum",
+  "termDe": "Pumpe auf Maximum"
+ },
+ "e11": {
+  "de": "Mindestvolumenstrom der WP nicht geprüft",
+  "sq": "Prurja minimale e PN e pakontrolluar",
+  "termDe": "Mindestvolumenstrom nicht geprüft"
+ },
+ "e12": {
+  "de": "sieht sauber aus → Funktion nicht geprüft",
+  "sq": "duket e pastër → funksioni pa kontroll",
+  "termDe": "Funktion nicht geprüft"
+ },
+ "x1": {
+  "de": "Kennzeichnung prüfen",
+  "sq": "Kontrollo shenjat",
+  "termDe": "Kennzeichnung prüfen"
+ },
+ "x2": {
+  "de": "Geräteausstattung prüfen",
+  "sq": "Kontrollo pajisjen",
+  "termDe": "Geräteausstattung prüfen"
+ },
+ "x4": {
+  "de": "Gesamtanlage berücksichtigen",
+  "sq": "Merr parasysh gjithë sistemin",
+  "termDe": "Gesamtanlage berücksichtigen"
+ },
+ "x5": {
+  "de": "Herstellervorgabe prüfen",
+  "sq": "Kontrollo kërkesën e prodhuesit",
+  "termDe": "Herstellervorgabe prüfen"
+ },
+ "x12": {
+  "de": "Optik ≠ Funktion",
+  "sq": "Pamja ≠ funksioni",
+  "termDe": "Optik ≠ Funktion"
+ },
+ "h29": {
+  "de": "Die komplette Anlage",
+  "sq": "Sistemi i plotë"
+ },
+ "st": {
+  "de": "Schritt",
+  "sq": "Hapi"
+ },
+ "b1": {
+  "de": "Vorlauf",
+  "sq": "Furnizimi",
+  "term": true
+ },
+ "b2": {
+  "de": "Rücklauf",
+  "sq": "Kthimi",
+  "term": true
+ },
+ "b3": {
+  "de": "Umwälzpumpe",
+  "sq": "Pompa qarkulluese",
+  "term": true
+ },
+ "b4": {
+  "de": "Sicherheitsgruppe",
+  "sq": "Grupi i sigurisë",
+  "term": true
+ },
+ "b5": {
+  "de": "MAG",
+  "sq": "MAG",
+  "term": false
+ },
+ "b6": {
+  "de": "Schmutzfänger / Sieb nach Vorgabe",
+  "sq": "Filtri me sitë sipas kërkesës",
+  "termDe": "Schmutzfänger nach Vorgabe"
+ },
+ "b7": {
+  "de": "Schlammabscheider",
+  "sq": "Ndarësi i llumit",
+  "term": true
+ },
+ "b8": {
+  "de": "Luftabscheider",
+  "sq": "Ndarësi i ajrit",
+  "term": true
+ },
+ "b9": {
+  "de": "Füll-, Spül-, Entleerstellen",
+  "sq": "Pikat e mbushjes, shpëlarjes, zbrazjes",
+  "termDe": "Füll-, Spül-, Entleerstellen"
+ },
+ "b10": {
+  "de": "Heizflächen",
+  "sq": "Sipërfaqet ngrohëse",
+  "term": true
+ },
+ "b11": {
+  "de": "Fühler / Regelung",
+  "sq": "Sensorët / kontrolli",
+  "termDe": "Fühler / Regelung"
+ },
+ "gg_gen": {
+  "de": "Wärmeerzeugung",
+  "sq": "Prodhimi i nxehtësisë",
+  "term": true
+ },
+ "gg_safety": {
+  "de": "Sicherheit",
+  "sq": "Siguria",
+  "term": true
+ },
+ "gg_press": {
+  "de": "Druckhaltung",
+  "sq": "Mbajtja e presionit",
+  "term": true
+ },
+ "gg_dirt": {
+  "de": "Schmutzschutz",
+  "sq": "Mbrojtja nga papastërtitë",
+  "term": true
+ },
+ "gg_air": {
+  "de": "Luftabscheidung",
+  "sq": "Ndarja e ajrit",
+  "term": true
+ },
+ "gg_circ": {
+  "de": "Umwälzung",
+  "sq": "Qarkullimi",
+  "term": true
+ },
+ "gg_cons": {
+  "de": "Verbraucher",
+  "sq": "Qarqet e ngrohjes",
+  "term": true
+ },
+ "gg_fill": {
+  "de": "Befüllung",
+  "sq": "Mbushja",
+  "term": true
+ },
+ "gg_ctrl": {
+  "de": "Regelung",
+  "sq": "Kontrolli",
+  "term": true
+ },
+ "run": {
+  "de": "Anlage in Betrieb",
+  "sq": "Sistemi në punë",
+  "termDe": "Anlage in Betrieb"
+ },
+ "h30": {
+  "de": "Der Ablauf – Schritt für Schritt",
+  "sq": "Radha – hap pas hapi"
+ },
+ "chk": {
+  "de": "Inbetriebnahme",
+  "sq": "Vënia në punë",
+  "term": true
+ },
+ "l1": {
+  "de": "Hydraulikschema prüfen",
+  "sq": "Kontrollo skemën hidraulike",
+  "termDe": "Hydraulikschema prüfen"
+ },
+ "l2": {
+  "de": "Anschlüsse + integrierte Komponenten",
+  "sq": "Lidhjet + komponentët e integruar",
+  "termDe": "Anschlüsse + integrierte Komponenten"
+ },
+ "l3": {
+  "de": "Sicherheit + MAG",
+  "sq": "Siguria + MAG",
+  "termDe": "Sicherheit + MAG"
+ },
+ "l4": {
+  "de": "Schmutz- / Luftabscheidung",
+  "sq": "Ndarja e papastërtive / ajrit",
+  "termDe": "Schmutz- / Luftabscheidung"
+ },
+ "l5": {
+  "de": "Füll- / Spülstellen",
+  "sq": "Pikat e mbushjes / shpëlarjes",
+  "termDe": "Füll- / Spülstellen"
+ },
+ "l6": {
+  "de": "spülen + prüfen",
+  "sq": "shpëlaj + kontrollo",
+  "termDe": "spülen + prüfen"
+ },
+ "l7": {
+  "de": "MAG vorbereiten",
+  "sq": "përgatit MAG-un",
+  "termDe": "MAG vorbereiten"
+ },
+ "l8": {
+  "de": "geschützt mit geeignetem Wasser füllen",
+  "sq": "mbush i mbrojtur me ujë të përshtatshëm",
+  "termDe": "geschützt füllen"
+ },
+ "l9": {
+  "de": "entlüften",
+  "sq": "ajros",
+  "termDe": "entlüften"
+ },
+ "l10": {
+  "de": "Pumpe / Ventile / Sensoren / Regelung",
+  "sq": "Pompa / valvulat / sensorët / kontrolli",
+  "termDe": "Pumpe / Ventile / Sensoren / Regelung"
+ },
+ "l11": {
+  "de": "Volumenströme sicherstellen",
+  "sq": "siguro prurjet",
+  "termDe": "Volumenströme sicherstellen"
+ },
+ "l12": {
+  "de": "kalt + warm kontrollieren",
+  "sq": "kontrollo në të ftohtë + të ngrohtë",
+  "termDe": "kalt + warm kontrollieren"
+ },
+ "l13": {
+  "de": "Einstellungen dokumentieren",
+  "sq": "dokumento rregullimet",
+  "termDe": "Einstellungen dokumentieren"
+ },
+ "fin": {
+  "de": "fertig = funktioniert wie geplant",
+  "sq": "gati = funksionon siç është planifikuar",
+  "termDe": "fertig = funktioniert wie geplant"
+ }
+}

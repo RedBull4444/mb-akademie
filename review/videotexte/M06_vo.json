@@ -1,0 +1,106 @@
+{
+ "intro": {
+  "de": "Es-Ha-Ka Grundlagen. Modul sechs. Schlamm- und Schmutzabscheider.",
+  "sq": "Bazat e Es-Ha-Ka-së. Moduli gjashtë. Ndarësi i llumit dhe papastërtive."
+ },
+ "s01": {
+  "de": "Das ist ein Schlamm- beziehungsweise Schmutzabscheider. Seine Aufgabe ist es, Partikel aus dem zirkulierenden Heizungswasser abzuscheiden und in einem Sammelbereich zurückzuhalten.",
+  "sq": "Ky është një ndarës llumi dhe papastërtish. Detyra e tij është të ndajë grimcat nga uji që qarkullon në sistemin e ngrohjes dhe t'i mbledhë ato në një zonë grumbullimi."
+ },
+ "s02": {
+  "de": "Im Heizungswasser können sich verschiedene Partikel befinden. Sie können zum Beispiel aus Montagearbeiten, alten Ablagerungen oder Korrosionsprozessen stammen. Nicht jede Verunreinigung ist magnetisch und nicht jede dunkle Verschmutzung ist automatisch dasselbe. Was Magnetit genau ist, lernst du ausführlich in Modul sechzehn.",
+  "sq": "Në ujin e ngrohjes mund të ndodhen grimca të ndryshme. Ato mund të vijnë, për shembull, nga punimet e montimit, depozitat e vjetra ose proceset e korrozionit. Jo çdo papastërti është magnetike dhe jo çdo ndotje e errët është e njëjtë. Çfarë është saktësisht magnetiti, do ta mësosh në modulin gjashtëmbëdhjetë."
+ },
+ "s03": {
+  "de": "Solche Partikel können sich dort ablagern, wo wir sie nicht haben wollen: in Pumpen, Ventilen oder engen Bereichen eines Wärmetauschers. Dadurch können Funktion und Wasserströmung beeinträchtigt werden.",
+  "sq": "Këto grimca mund të grumbullohen pikërisht aty ku nuk duhen: në pompa, valvula ose në kanalet e ngushta të një shkëmbyesi nxehtësie. Kjo mund të ndikojë në funksionin dhe qarkullimin e ujit."
+ },
+ "s04": {
+  "de": "Bei Wärmepumpen ist ein sauberer und ausreichender Wasserumlauf besonders wichtig. Werden Wärmetauscher, Ventile oder andere enge Bereiche verschmutzt, kann der benötigte Volumenstrom beeinträchtigt werden.",
+  "sq": "Te pompat e nxehtësisë, qarkullimi i pastër dhe i mjaftueshëm i ujit është veçanërisht i rëndësishëm. Nëse shkëmbyesi i nxehtësisë, valvulat ose pjesët e ngushta ndoten, prurja e nevojshme mund të kufizohet."
+ },
+ "s05": {
+  "de": "Im Schlammabscheider wird die Strömung so beeinflusst, dass Schmutzpartikel aus dem Hauptwasserstrom abgeschieden und im unteren Bereich gesammelt werden können. Das gereinigte Heizungswasser strömt anschließend weiter.",
+  "sq": "Në ndarësin e llumit rrjedha ndikohet në mënyrë që grimcat e papastërtive të ndahen nga rrjedha kryesore e ujit dhe të mblidhen në pjesën e poshtme. Uji vazhdon më pas të qarkullojë në sistem."
+ },
+ "s06": {
+  "de": "Wichtig ist: Ein Schlammabscheider entfernt nicht zwingend bei einem einzigen Durchlauf sämtliche Partikel. Die Abscheidung erfolgt während des laufenden Umlaufs immer wieder.",
+  "sq": "E rëndësishme është se një ndarës llumi nuk i largon domosdoshmërisht të gjitha grimcat gjatë vetëm një kalimi. Ndarja vazhdon gjatë qarkullimit të përsëritur të ujit."
+ },
+ "s07": {
+  "de": "Viele Schlammabscheider besitzen zusätzlich einen Magneten. Dieser unterstützt die Abscheidung magnetischer Korrosionspartikel. Nichtmagnetische Verschmutzungen werden vom Magneten jedoch nicht angezogen.",
+  "sq": "Shumë ndarës llumi kanë gjithashtu një magnet. Ai ndihmon në kapjen e grimcave magnetike të korrozionit. Papastërtitë jomagnetike nuk tërhiqen nga magneti."
+ },
+ "s08": {
+  "de": "Der Magnet macht den Abscheider nicht zu einem Filter für alles. Er entfernt keine gelösten Salze und zieht auch nicht jede Art von Schmutz an.",
+  "sq": "Magneti nuk e bën ndarësin një filtër për çdo gjë. Ai nuk largon kripërat e tretura dhe nuk tërheq çdo lloj papastërtie."
+ },
+ "s09": {
+  "de": "Ein Schlammabscheider ist auch nicht automatisch dasselbe wie ein Schmutzfänger mit Sieb. Beide können unterschiedliche Aufgaben erfüllen. Wenn ein Hersteller oder Hydraulikschema beide verlangt, darf eines nicht einfach weggelassen werden.",
+  "sq": "Një ndarës llumi nuk është automatikisht i njëjtë me një filtër me sitë. Të dy mund të kenë detyra të ndryshme. Nëse prodhuesi ose skema kërkon të dyja, njëri nuk hiqet thjesht."
+ },
+ "s10": {
+  "de": "Schlammabscheider werden häufig im Rücklauf vor den Bauteilen eingebaut, die geschützt werden sollen. Die konkrete Position richtet sich aber nach dem Hydraulikschema und den Herstellervorgaben.",
+  "sq": "Ndarësit e llumit vendosen shpesh në kthim, përpara komponentëve që duhet të mbrohen. Pozicioni konkret varet megjithatë nga skema hidraulike dhe udhëzimet e prodhuesit."
+ },
+ "s11": {
+  "de": "Der Abscheider muss auch hydraulisch zur Anlage passen. Anschlussgröße, zulässiger Volumenstrom und Druckverlust werden nach der konkreten Anlage und den Produktdaten ausgewählt.",
+  "sq": "Ndarësi duhet të përshtatet edhe nga ana hidraulike me instalimin. Madhësia e lidhjes, prurja e lejuar dhe humbja e presionit zgjidhen sipas sistemit dhe të dhënave të produktit."
+ },
+ "s12": {
+  "de": "Auch die Einbaulage muss zum verwendeten Gerät passen. Bei manchen Modellen lassen sich Anschlüsse drehen, während der eigentliche Abscheiderkörper trotzdem in seiner vorgeschriebenen Lage bleiben muss. Deshalb wird die Markierung und Anleitung des konkreten Produkts geprüft.",
+  "sq": "Edhe pozicioni i montimit duhet t'i përshtatet pajisjes konkrete. Te disa modele lidhjet mund të rrotullohen, ndërsa trupi i ndarësit duhet të mbetet në pozicionin e parashikuar. Prandaj kontrollohen shenjat dhe udhëzimi i produktit."
+ },
+ "s13": {
+  "de": "Der Sammel- und Ablassbereich muss erreichbar bleiben. Ein Abscheider, den später niemand reinigen kann, ist schlecht montiert – selbst wenn er hydraulisch an der richtigen Stelle sitzt.",
+  "sq": "Zona e grumbullimit dhe shkarkimit duhet të mbetet e arritshme. Një ndarës që më vonë nuk mund të pastrohet është montuar keq, edhe nëse nga ana hidraulike ndodhet në vendin e duhur."
+ },
+ "s14": {
+  "de": "Für die Reinigung wird zuerst eine sichere Auffang- oder Ableitungsmöglichkeit vorbereitet. Danach richtet sich der genaue Ablauf nach der Bauart und Herstelleranleitung des Abscheiders.",
+  "sq": "Për pastrimin përgatitet fillimisht një mënyrë e sigurt për mbledhjen ose shkarkimin e ujit. Më pas procedura e saktë varet nga ndërtimi dhe udhëzimi i prodhuesit."
+ },
+ "s15": {
+  "de": "Bei magnetischen Modellen wird der Magnet vor dem Ausspülen entsprechend der jeweiligen Konstruktion entfernt oder aus der Fangposition gebracht. Dadurch können die festgehaltenen magnetischen Partikel beim Ablassen mit ausgespült werden.",
+  "sq": "Te modelet magnetike, para shpëlarjes magneti hiqet ose largohet nga pozicioni i kapjes sipas ndërtimit të pajisjes. Kështu grimcat magnetike të mbajtura mund të largohen gjatë shkarkimit."
+ },
+ "s16": {
+  "de": "Danach wird das Ablassventil entsprechend der Anleitung kontrolliert geöffnet. Wasser und gesammelte Partikel werden sicher aufgefangen beziehungsweise abgeführt.",
+  "sq": "Më pas valvula e shkarkimit hapet në mënyrë të kontrolluar sipas udhëzimit. Uji dhe grimcat e mbledhura kapen ose shkarkohen në mënyrë të sigurt."
+ },
+ "s17": {
+  "de": "Einige Abscheider sind für bestimmte Reinigungsschritte im laufenden Betrieb vorgesehen. Andere Arbeiten dürfen nur im drucklosen Zustand erfolgen. Deshalb darf eine Reinigungsmethode nicht ungeprüft auf jedes Gerät übertragen werden. Die Herstelleranleitung entscheidet.",
+  "sq": "Disa ndarës lejojnë hapa të caktuar pastrimi gjatë funksionimit. Punë të tjera lejohen vetëm kur pajisja është pa presion. Prandaj një metodë pastrimi nuk zbatohet pa kontroll te çdo pajisje. Udhëzimi i prodhuesit vendos."
+ },
+ "s18": {
+  "de": "Nach der Reinigung wird der Ablass wieder geschlossen und der Magnet in seine Betriebsposition gebracht. Danach werden Anlagendruck und Dichtheit kontrolliert.",
+  "sq": "Pas pastrimit, valvula e shkarkimit mbyllet dhe magneti vendoset përsëri në pozicionin e punës. Më pas kontrollohen presioni i sistemit dhe izolimi ndaj rrjedhjeve."
+ },
+ "s19": {
+  "de": "Nach einer Neubefüllung oder Sanierung kann zunächst mehr Schmutz anfallen. Deshalb wird die Verschmutzung beobachtet. Weitere Wartungsintervalle richten sich nach dem verwendeten Gerät und dem tatsächlichen Schmutzanfall.",
+  "sq": "Pas një mbushjeje të re ose rinovimi mund të shfaqet fillimisht më shumë papastërti. Prandaj niveli i ndotjes vëzhgohet. Intervalet e mëtejshme të mirëmbajtjes varen nga pajisja dhe nga sasia reale e papastërtive."
+ },
+ "s20": {
+  "de": "Ein Schlammabscheider ersetzt auch keine fachgerechte Erstspülung der Anlage. Grobe Montage- und Fertigungsrückstände werden nicht einfach im System gelassen, nur weil später ein Abscheider eingebaut ist. Also: spülen und abscheiden – nicht entweder oder.",
+  "sq": "Një ndarës llumi nuk e zëvendëson shpëlarjen e duhur fillestare të instalimit. Mbetjet e montimit nuk lihen thjesht në sistem vetëm sepse më vonë është montuar një ndarës. Pra: shpëlarje dhe ndarje, jo njëra ose tjetra."
+ },
+ "s21": {
+  "de": "Der Abscheider entfernt vorhandene Partikel. Er beseitigt aber nicht automatisch die Ursache, durch die beispielsweise Korrosionsprodukte immer wieder entstehen. Bei wiederkehrend starker Verschmutzung muss deshalb die Ursache untersucht werden.",
+  "sq": "Ndarësi largon grimcat që ndodhen në sistem. Por ai nuk e eliminon automatikisht shkakun nga i cili mund të formohen vazhdimisht produkte korrozioni. Nëse ndotja përsëritet shumë, duhet të kërkohet shkaku."
+ },
+ "s22": {
+  "de": "Jetzt die typischen Fehler. Der Abscheiderkörper sitzt nicht in der vorgeschriebenen Einbaulage. Die Fließrichtung wird einfach angenommen, ohne Kennzeichnung und Anleitung zu prüfen. Der Ablass ist hinter Rohren verbaut und nicht erreichbar. Der Magnet bleibt beim Reinigen in Fangposition, und die magnetischen Partikel bleiben hängen. Das Gehäuse wird unter Druck geöffnet. Man glaubt, einmal durch heißt alles sauber. Der Schmutzfänger wird entfernt, obwohl der Hersteller beide fordert. Und der Abscheider wird immer wieder geleert, ohne die Ursache zu prüfen.",
+  "sq": "Tani gabimet tipike. Trupi i ndarësit nuk ndodhet në pozicionin e parashikuar të montimit. Drejtimi i rrjedhës merret si i mirëqenë, pa kontrolluar shenjat dhe udhëzimin. Shkarkimi është i bllokuar pas tubave dhe nuk arrihet. Gjatë pastrimit magneti lihet në pozicionin e kapjes, dhe grimcat magnetike mbeten të kapura. Trupi hapet ndërsa është nën presion. Mendohet se një kalim i vetëm i pastron të gjitha. Filtri me sitë hiqet, edhe pse prodhuesi kërkon të dyja. Dhe ndarësi zbrazet vazhdimisht, pa u kontrolluar shkaku."
+ },
+ "s23": {
+  "de": "Wenn du einen solchen Abscheider auf der Baustelle siehst, solltest du jetzt wissen, worauf du achtest: Wo fließt das Heizungswasser? Wo sammelt sich der Schmutz? Wo sitzt bei diesem Modell der Magnet? Und ist der Ablass für die Wartung erreichbar?",
+  "sq": "Kur sheh një ndarës të tillë në kantier, tani duhet të dish çfarë kontrollon: nga kalon uji i ngrohjes? Ku mblidhen papastërtitë? Ku ndodhet magneti te ky model? Dhe a është shkarkimi i arritshëm për mirëmbajtje?"
+ },
+ "s24": {
+  "de": "Merke dir den Schlammabscheider so: Im Heizungswasser bewegen sich verschiedene Partikel. Der Abscheider sammelt sie während des Umlaufs nach und nach. Ein Magnet kann zusätzlich magnetische Partikel erfassen, aber nicht jeden Schmutz. Besonders Pumpen, Ventile und Wärmetauscher profitieren von sauberem Heizungswasser. Für Einbau und Reinigung gelten immer die Vorgaben des konkreten Geräts. Und wenn ungewöhnlich viel Schmutz immer wieder neu entsteht, muss die Ursache gesucht werden.",
+  "sq": "Mbaje mend ndarësin e llumit kështu: në ujin e ngrohjes lëvizin grimca të ndryshme. Ndarësi i mbledh ato gradualisht gjatë qarkullimit. Një magnet mund të kapë gjithashtu grimca magnetike, por jo çdo papastërti. Pompat, valvulat dhe shkëmbyesit e nxehtësisë përfitojnë nga uji më i pastër. Për montimin dhe pastrimin ndiqen gjithmonë udhëzimet e pajisjes konkrete. Dhe nëse vazhdimisht krijohet shumë papastërti e re, duhet të kërkohet shkaku."
+ },
+ "outro": {
+  "de": "Modul sechs abgeschlossen.",
+  "sq": "Moduli gjashtë përfunduar."
+ }
+}

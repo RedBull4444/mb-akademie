@@ -1,0 +1,655 @@
+{
+ "intro_kicker": {
+  "de": "SHK GRUNDLAGEN",
+  "sq": "BAZAT E SHK-së"
+ },
+ "intro_mod": {
+  "de": "MODUL 4",
+  "sq": "MODULI 4"
+ },
+ "intro_title": {
+  "de": "Sicherheitsgruppe Heizung",
+  "sq": "Grupi i sigurisë së ngrohjes",
+  "termDe": "Sicherheitsgruppe Heizung"
+ },
+ "outro_done": {
+  "de": "MODUL 4 ABGESCHLOSSEN",
+  "sq": "MODULI 4 PËRFUNDUAR"
+ },
+ "sv": {
+  "de": "Sicherheitsventil",
+  "sq": "Valvula e sigurisë",
+  "term": true
+ },
+ "mg": {
+  "de": "Manometer",
+  "sq": "Manometri",
+  "term": true
+ },
+ "ve": {
+  "de": "Automatischer Entlüfter",
+  "sq": "Ajruesi automatik",
+  "term": true
+ },
+ "SV": {
+  "de": "SICHERHEITSVENTIL",
+  "sq": "VALVULA E SIGURISË",
+  "termDe": "Sicherheitsventil"
+ },
+ "MG": {
+  "de": "MANOMETER",
+  "sq": "MANOMETRI",
+  "termDe": "Manometer"
+ },
+ "VE": {
+  "de": "AUTOMATISCHER ENTLÜFTER",
+  "sq": "AJRUESI AUTOMATIK",
+  "termDe": "Automatischer Entlüfter"
+ },
+ "mag": {
+  "de": "MAG",
+  "sq": "MAG"
+ },
+ "sg": {
+  "de": "Sicherheitsgruppe",
+  "sq": "Grupi i sigurisë",
+  "term": true
+ },
+ "gen": {
+  "de": "Wärmeerzeuger",
+  "sq": "Pajisja e ngrohjes",
+  "term": true
+ },
+ "vl": {
+  "de": "Vorlauf",
+  "sq": "Tubi i dërgimit",
+  "term": true
+ },
+ "rl": {
+  "de": "Rücklauf",
+  "sq": "Tubi i kthimit",
+  "term": true
+ },
+ "rad": {
+  "de": "Heizfläche",
+  "sq": "Trupi ngrohës",
+  "term": true
+ },
+ "principle": {
+  "de": "Prinzipdarstellung",
+  "sq": "Paraqitje parimore"
+ },
+ "wrong": {
+  "de": "FALSCH",
+  "sq": "GABIM",
+  "term": true
+ },
+ "right": {
+  "de": "RICHTIG",
+  "sq": "SAKTË",
+  "term": true
+ },
+ "s01_kicker": {
+  "de": "Das echte Bauteil",
+  "sq": "Komponenti i vërtetë"
+ },
+ "s01_title": {
+  "de": "Sicherheitsgruppe",
+  "sq": "Grupi i sigurisë",
+  "termDe": "Sicherheitsgruppe"
+ },
+ "s01_ex": {
+  "de": "Beispiel: Kesselsicherheits-Set BSS 50 S1 (Buderus)",
+  "sq": "Shembull: Kesselsicherheits-Set BSS 50 S1 (Buderus)"
+ },
+ "s01_one": {
+  "de": "Sieht aus wie eine Einheit …",
+  "sq": "Duket si një njësi …"
+ },
+ "s01_three": {
+  "de": "… aber unterschiedliche Aufgaben",
+  "sq": "… por detyra të ndryshme"
+ },
+ "h02": {
+  "de": "Die drei Hauptbauteile",
+  "sq": "Tri komponentët kryesore"
+ },
+ "h03": {
+  "de": "Erst das große Bild",
+  "sq": "Fillimisht pamja e plotë"
+ },
+ "sec_equip": {
+  "de": "Teil der Sicherheitsausrüstung",
+  "sq": "Pjesë e pajisjeve mbrojtëse",
+  "termDe": "Sicherheitsausrüstung"
+ },
+ "sg_ne_mag": {
+  "de": "Sicherheitsgruppe ≠ MAG",
+  "sq": "Grupi i sigurisë ≠ MAG"
+ },
+ "mag_other": {
+  "de": "anderes Bauteil (Modul 1)",
+  "sq": "komponent tjetër (moduli 1)"
+ },
+ "h04": {
+  "de": "Sicherheitsventil: die Aufgabe",
+  "sq": "Valvula e sigurisë: detyra"
+ },
+ "st_closed": {
+  "de": "Normalbetrieb: geschlossen",
+  "sq": "Punë normale: e mbyllur"
+ },
+ "st_rise": {
+  "de": "Druck steigt",
+  "sq": "Presioni rritet"
+ },
+ "st_open": {
+  "de": "Ansprechpunkt erreicht: öffnet",
+  "sq": "Arrihet pika e hapjes: hapet"
+ },
+ "st_out": {
+  "de": "Wasser wird abgeführt",
+  "sq": "Uji shkarkohet"
+ },
+ "prot": {
+  "de": "Schutz vor unzulässig hohem Druck",
+  "sq": "Mbrojtje nga presioni tepër i lartë"
+ },
+ "spring": {
+  "de": "Feder",
+  "sq": "Susta",
+  "term": true
+ },
+ "disc": {
+  "de": "Ventilteller",
+  "sq": "Disku i valvulës",
+  "term": true
+ },
+ "outlet_sv": {
+  "de": "Ausgang",
+  "sq": "Dalja",
+  "term": true
+ },
+ "thr": {
+  "de": "Ansprechpunkt",
+  "sq": "Pika e hapjes",
+  "term": true
+ },
+ "press": {
+  "de": "Anlagendruck",
+  "sq": "Presioni i sistemit",
+  "term": true
+ },
+ "h05": {
+  "de": "Kein Regelventil",
+  "sq": "Jo valvul rregullimi"
+ },
+ "sf": {
+  "de": "Sicherheitsfunktion – keine normale Druckregelung",
+  "sq": "Funksion sigurie – jo rregullim normal i presionit"
+ },
+ "ph_norm": {
+  "de": "normal",
+  "sq": "normal"
+ },
+ "ph_over": {
+  "de": "unzulässiger Druck",
+  "sq": "presion tepër i lartë"
+ },
+ "closed": {
+  "de": "geschlossen",
+  "sq": "e mbyllur"
+ },
+ "opens": {
+  "de": "öffnet",
+  "sq": "hapet"
+ },
+ "time": {
+  "de": "Zeit",
+  "sq": "Koha"
+ },
+ "h06": {
+  "de": "MAG oder Sicherheitsventil?",
+  "sq": "MAG apo valvula e sigurisë?"
+ },
+ "mag_task": {
+  "de": "normale Volumenänderungen",
+  "sq": "ndryshimet normale të vëllimit",
+  "termDe": "normale Volumenänderungen"
+ },
+ "sv_task": {
+  "de": "Schutz vor unzulässigem Überdruck",
+  "sq": "Mbrojtje nga presioni i tepërt",
+  "termDe": "Schutz vor Überdruck"
+ },
+ "heats": {
+  "de": "Wasser wird warm",
+  "sq": "Uji ngrohet"
+ },
+ "only_over": {
+  "de": "greift nur bei unzulässigem Druck ein",
+  "sq": "vepron vetëm me presion tepër të lartë"
+ },
+ "none": {
+  "de": "Keines ersetzt das andere",
+  "sq": "Asnjëra nuk e zëvendëson tjetrën"
+ },
+ "h07": {
+  "de": "Der freie Sicherheitsweg",
+  "sq": "Rruga e lirë e sigurisë"
+ },
+ "free": {
+  "de": "Dieser Weg muss frei bleiben.",
+  "sq": "Kjo rrugë duhet të mbetet e lirë."
+ },
+ "absperr": {
+  "de": "Absperrung geschlossen",
+  "sq": "Valvula mbyllëse e mbyllur",
+  "termDe": "Absperrung"
+ },
+ "blocked": {
+  "de": "Sicherheitsweg unterbrochen",
+  "sq": "Rruga e sigurisë e ndërprerë"
+ },
+ "no_prot": {
+  "de": "Ventil kann nicht schützen",
+  "sq": "Valvula nuk mund të mbrojë"
+ },
+ "h08": {
+  "de": "Was genau frei bleiben muss",
+  "sq": "Çfarë duhet të mbetet e lirë"
+ },
+ "path_free": {
+  "de": "Weg zum Sicherheitsventil: frei",
+  "sq": "Rruga drejt valvulës së sigurisë: e lirë"
+ },
+ "svc": {
+  "de": "Servicelösung an anderen Bauteilen",
+  "sq": "Zgjidhje shërbimi te komponentët e tjerë",
+  "termDe": "Servicelösung"
+ },
+ "schem": {
+  "de": "nur schematisch",
+  "sq": "vetëm skematike"
+ },
+ "not_conf": {
+  "de": "Nicht verwechseln",
+  "sq": "Mos i ngatërro"
+ },
+ "manu": {
+  "de": "Montage nach Herstelleranleitung",
+  "sq": "Montimi sipas udhëzimit të prodhuesit"
+ },
+ "h09": {
+  "de": "Der Ausgang des Sicherheitsventils",
+  "sq": "Dalja e valvulës së sigurisë"
+ },
+ "ok_disc": {
+  "de": "Kontrolliert abgeführt",
+  "sq": "Shkarkohet në mënyrë të kontrolluar"
+ },
+ "plugged": {
+  "de": "Abblaseleitung mit Stopfen verschlossen",
+  "sq": "Tubi i shkarkimit i mbyllur me tapë",
+  "termDe": "Abblaseleitung verschlossen"
+ },
+ "blocked_out": {
+  "de": "Ausgang direkt blockiert",
+  "sq": "Dalja e bllokuar drejtpërdrejt"
+ },
+ "disc_props": {
+  "de": "frei · sicher · kontrollierbar · nicht verschlossen",
+  "sq": "e lirë · e sigurt · e kontrollueshme · jo e mbyllur"
+ },
+ "ablauf": {
+  "de": "Abblaseleitung",
+  "sq": "Tubi i shkarkimit",
+  "term": true
+ },
+ "trichter": {
+  "de": "Ablauftrichter",
+  "sq": "Hinka e shkarkimit",
+  "term": true
+ },
+ "h10": {
+  "de": "Bauteil 2: Manometer",
+  "sq": "Komponenti 2: manometri"
+ },
+ "mg_eq": {
+  "de": "Manometer = Druck anzeigen",
+  "sq": "Manometri = tregon presionin",
+  "termDe": "Manometer = Druck anzeigen"
+ },
+ "h11": {
+  "de": "Was das Manometer nicht macht",
+  "sq": "Çfarë nuk bën manometri"
+ },
+ "measures": {
+  "de": "Es misst. Es begrenzt nicht.",
+  "sq": "Ai mat. Nuk e kufizon presionin."
+ },
+ "no_open": {
+  "de": "öffnet nicht",
+  "sq": "nuk hapet"
+ },
+ "no_drain": {
+  "de": "lässt kein Wasser ab",
+  "sq": "nuk shkarkon ujë"
+ },
+ "no_proof": {
+  "de": "Normaler Zeiger ≠ Sicherheitsventil richtig angeschlossen",
+  "sq": "Tregues normal ≠ valvula e sigurisë e lidhur saktë"
+ },
+ "h12": {
+  "de": "Keine Universalwerte",
+  "sq": "Nuk ka vlera universale"
+ },
+ "soll": {
+  "de": "Sollwert abhängig von der konkreten Anlage",
+  "sq": "Vlera varet nga instalimi konkret",
+  "termDe": "Sollwert abhängig von der Anlage"
+ },
+ "no_univ": {
+  "de": "Kein universeller Bar-Wert",
+  "sq": "Nuk ka vlerë universale në bar"
+ },
+ "comp_used": {
+  "de": "Anlage + verwendete Komponenten",
+  "sq": "Instalimi + komponentët e përdorur"
+ },
+ "h13": {
+  "de": "Bauteil 3: automatischer Entlüfter",
+  "sq": "Komponenti 3: ajruesi automatik"
+ },
+ "float": {
+  "de": "Schwimmer",
+  "sq": "Pluskuesi",
+  "term": true
+ },
+ "outlet": {
+  "de": "Luftauslass",
+  "sq": "Dalja e ajrit",
+  "term": true
+ },
+ "air": {
+  "de": "Luft",
+  "sq": "Ajër",
+  "term": true
+ },
+ "hw": {
+  "de": "Heizungswasser",
+  "sq": "Ujë ngrohjeje",
+  "term": true
+ },
+ "v1": {
+  "de": "Keine Luft: Auslass zu",
+  "sq": "Pa ajër: dalja e mbyllur"
+ },
+ "v2": {
+  "de": "Luft sammelt sich – Wasserstand sinkt",
+  "sq": "Ajri grumbullohet – niveli i ujit bie"
+ },
+ "v3": {
+  "de": "Schwimmer sinkt – Auslass öffnet",
+  "sq": "Pluskuesi zbret – dalja hapet"
+ },
+ "v4": {
+  "de": "Wasser steigt – Auslass schließt",
+  "sq": "Uji ngrihet – dalja mbyllet"
+ },
+ "VENT": {
+  "de": "SO ARBEITET ER",
+  "sq": "SI PUNON",
+  "termDe": "So arbeitet er"
+ },
+ "h14": {
+  "de": "Entlüfter ist kein Sicherheitsventil",
+  "sq": "Ajruesi nuk është valvul sigurie"
+ },
+ "air_to": {
+  "de": "Luft → Entlüfter",
+  "sq": "Ajër → Ajruesi",
+  "termDe": "Luft → Entlüfter"
+ },
+ "over_to": {
+  "de": "Überdruck → Sicherheitsventil",
+  "sq": "Presion i tepërt → Valvula e sigurisë",
+  "termDe": "Überdruck → Sicherheitsventil"
+ },
+ "no_over": {
+  "de": "schützt nicht vor Überdruck",
+  "sq": "nuk mbron nga presioni i tepërt"
+ },
+ "h15": {
+  "de": "Drei Bauteile – drei Aufgaben",
+  "sq": "Tri komponentë – tri detyra"
+ },
+ "V1": {
+  "de": "SCHÜTZT",
+  "sq": "MBRON",
+  "termDe": "schützt"
+ },
+ "V2": {
+  "de": "ZEIGT",
+  "sq": "TREGON",
+  "termDe": "zeigt"
+ },
+ "V3": {
+  "de": "ENTLÜFTET",
+  "sq": "NXJERR AJRIN",
+  "termDe": "entlüftet"
+ },
+ "h16": {
+  "de": "Wo wird sie eingebunden?",
+  "sq": "Ku lidhet?"
+ },
+ "near": {
+  "de": "nahe am zu schützenden Wärmeerzeuger",
+  "sq": "pranë pajisjes që duhet mbrojtur"
+ },
+ "pos": {
+  "de": "Konkrete Position nach Schema und Hersteller",
+  "sq": "Pozicioni konkret sipas skemës dhe prodhuesit"
+ },
+ "hyd": {
+  "de": "Hydraulikschema",
+  "sq": "Skema hidraulike",
+  "term": true
+ },
+ "manu2": {
+  "de": "Herstellerangaben",
+  "sq": "Udhëzimet e prodhuesit",
+  "term": true
+ },
+ "h17": {
+  "de": "Das passende Sicherheitsventil",
+  "sq": "Valvula e duhur e sigurisë"
+ },
+ "k1": {
+  "de": "zulässiger Betriebsdruck",
+  "sq": "presioni i lejuar i punës",
+  "term": true
+ },
+ "k2": {
+  "de": "Leistung",
+  "sq": "fuqia",
+  "term": true
+ },
+ "k3": {
+  "de": "Anlagenkonzept",
+  "sq": "koncepti i instalimit",
+  "term": true
+ },
+ "k4": {
+  "de": "Herstelleranforderungen",
+  "sq": "kërkesat e prodhuesit",
+  "term": true
+ },
+ "sel": {
+  "de": "Ansprechdruck · Abblaseleistung · Ausführung",
+  "sq": "Presioni i hapjes · kapaciteti i shkarkimit · lloji",
+  "termDe": "Ansprechdruck · Abblaseleistung · Ausführung"
+ },
+ "fit": {
+  "de": "passend zur Anlage",
+  "sq": "sipas instalimit"
+ },
+ "h18": {
+  "de": "Typische Fehler",
+  "sq": "Gabime tipike"
+ },
+ "e1": {
+  "de": "Absperrung im Sicherheitsweg",
+  "sq": "Valvul mbyllëse në rrugën e sigurisë",
+  "termDe": "Absperrung im Sicherheitsweg"
+ },
+ "e2": {
+  "de": "Ablauf verschlossen",
+  "sq": "Dalja e mbyllur",
+  "termDe": "Ablauf verschlossen"
+ },
+ "e3": {
+  "de": "Falsches Sicherheitsventil / falscher Ansprechdruck",
+  "sq": "Valvul sigurie e gabuar / presion hapjeje i gabuar"
+ },
+ "e4": {
+  "de": "Manometer mit Sicherheitseinrichtung verwechselt",
+  "sq": "Manometri ngatërrohet me pajisjen e sigurisë"
+ },
+ "e5": {
+  "de": "Entlüfter als Sicherheitsventil verstanden",
+  "sq": "Ajruesi kuptohet si valvul sigurie"
+ },
+ "e6": {
+  "de": "MAG als Teil der Sicherheitsgruppe angenommen",
+  "sq": "MAG-u mendohet si pjesë e grupit të sigurisë"
+ },
+ "e7": {
+  "de": "Ausgang des Sicherheitsventils unsicher geführt",
+  "sq": "Dalja e valvulës së sigurisë e drejtuar pa siguri"
+ },
+ "x1": {
+  "de": "Sicherheitsweg blockiert",
+  "sq": "Rruga e sigurisë e bllokuar"
+ },
+ "x2": {
+  "de": "Abblaseweg niemals verschließen",
+  "sq": "Rruga e shkarkimit nuk mbyllet kurrë"
+ },
+ "x3": {
+  "de": "nach Anlagen-/Herstellervorgabe",
+  "sq": "sipas kërkesave të instalimit/prodhuesit"
+ },
+ "x4": {
+  "de": "Anzeige ≠ Schutz",
+  "sq": "Tregues ≠ mbrojtje"
+ },
+ "x5": {
+  "de": "Luft ≠ Überdruck",
+  "sq": "Ajër ≠ presion i tepërt"
+ },
+ "x6": {
+  "de": "eigenes Bauteil",
+  "sq": "komponent i veçantë"
+ },
+ "x7": {
+  "de": "sicher und kontrollierbar abführen",
+  "sq": "shkarko sigurt dhe në mënyrë të kontrollueshme"
+ },
+ "plantA": {
+  "de": "Anlage A",
+  "sq": "Instalimi A"
+ },
+ "plantB": {
+  "de": "Anlage B",
+  "sq": "Instalimi B"
+ },
+ "missing": {
+  "de": "fehlt",
+  "sq": "mungon"
+ },
+ "h19": {
+  "de": "Das echte Bauteil",
+  "sq": "Komponenti i vërtetë"
+ },
+ "q1": {
+  "de": "Wo ist das Sicherheitsventil?",
+  "sq": "Ku është valvula e sigurisë?"
+ },
+ "q2": {
+  "de": "Wo sehe ich den Druck?",
+  "sq": "Ku shoh presionin?"
+ },
+ "q3": {
+  "de": "Wo kann Luft automatisch austreten?",
+  "sq": "Ku mund të dalë ajri automatikisht?"
+ },
+ "on_site": {
+  "de": "Auf der Baustelle: drei Fragen",
+  "sq": "Në kantier: tri pyetje"
+ },
+ "h20": {
+  "de": "Praxisprüfung",
+  "sq": "Kontrolli në praktikë"
+ },
+ "CHK": {
+  "de": "KONTROLLE",
+  "sq": "KONTROLLI",
+  "termDe": "Kontrolle"
+ },
+ "c0": {
+  "de": "Ein Blick auf den Zeiger reicht nicht",
+  "sq": "Një shikim te treguesi nuk mjafton"
+ },
+ "c1": {
+  "de": "Sicherheitsgruppe vorhanden?",
+  "sq": "Grupi i sigurisë ekziston?"
+ },
+ "c2": {
+  "de": "Sicherheitsweg frei?",
+  "sq": "Rruga e sigurisë e lirë?"
+ },
+ "c3": {
+  "de": "Ausgang frei und sicher geführt?",
+  "sq": "Dalja e lirë dhe e sigurt?"
+ },
+ "c4": {
+  "de": "Richtiges Sicherheitsventil vorgesehen?",
+  "sq": "Valvula e duhur e sigurisë?"
+ },
+ "c5": {
+  "de": "Manometer lesbar?",
+  "sq": "Manometri lexohet?"
+ },
+ "c6": {
+  "de": "Entlüfter korrekt eingebaut?",
+  "sq": "Ajruesi i montuar saktë?"
+ },
+ "h21": {
+  "de": "Merke dir",
+  "sq": "Mbaje mend"
+ },
+ "F1": {
+  "de": "SCHÜTZT",
+  "sq": "MBRON",
+  "termDe": "schützt"
+ },
+ "F2": {
+  "de": "ZEIGT DEN DRUCK",
+  "sq": "TREGON PRESIONIN",
+  "termDe": "zeigt den Druck"
+ },
+ "F3": {
+  "de": "ENTLÜFTET",
+  "sq": "NXJERR AJRIN",
+  "termDe": "entlüftet"
+ },
+ "mag_sep": {
+  "de": "MAG: separates Bauteil",
+  "sq": "MAG: komponent i veçantë"
+ },
+ "path_always": {
+  "de": "Weg zum Sicherheitsventil: immer frei",
+  "sq": "Rruga drejt valvulës: gjithmonë e lirë"
+ }
+}

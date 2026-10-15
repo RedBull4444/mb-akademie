@@ -1,0 +1,122 @@
+{
+ "intro": {
+  "de": "Es-Ha-Ka Grundlagen. Modul zwölf. Hydraulischer Abgleich: Heizlast, Sollvolumenstrom, Einstellung, Kontrolle.",
+  "sq": "Bazat e Es-Ha-Ka-së. Moduli dymbëdhjetë. Balancimi hidraulik: ngarkesa termike, prurja e synuar, rregullimi, kontrolli."
+ },
+ "s01": {
+  "de": "Beim hydraulischen Abgleich geht es nicht um ein einzelnes Bauteil. Die ganze Heizungsanlage wird so eingestellt, dass jede Heizfläche den Volumenstrom erhält, den sie für ihre Aufgabe braucht.",
+  "sq": "Balancimi hidraulik nuk ka të bëjë me një komponent të vetëm. I gjithë sistemi i ngrohjes rregullohet në mënyrë që çdo sipërfaqe ngrohëse të marrë prurjen që i nevojitet."
+ },
+ "s02": {
+  "de": "Nicht jeder Raum braucht dieselbe Heizleistung. Größe, Außenflächen und Fenster beeinflussen, wie viel Wärme ein Raum benötigt.",
+  "sq": "Jo çdo dhomë ka nevojë për të njëjtën fuqi ngrohëse. Madhësia, sipërfaqet e jashtme dhe dritaret ndikojnë në sasinë e nxehtësisë që i nevojitet dhomës."
+ },
+ "s03": {
+  "de": "Deshalb wird der Bedarf raumweise betrachtet. Die Raumheizlast beschreibt, welche Wärmeleistung der Raum unter den vorgesehenen Bedingungen braucht.",
+  "sq": "Prandaj nevoja analizohet për çdo dhomë veçmas. Ngarkesa termike e dhomës tregon fuqinë e nxehtësisë që i nevojitet dhomës në kushtet e parashikuara."
+ },
+ "s04": {
+  "de": "Dazu gehört die Heizfläche. Ein Heizkörper oder eine Fußbodenheizung überträgt, abhängig von Größe und Systemtemperaturen, eine bestimmte Wärmeleistung.",
+  "sq": "Me këtë lidhet sipërfaqja e ngrohjes. Një radiator ose ngrohja në dysheme transmeton një fuqi të caktuar, në varësi të madhësisë dhe temperaturave të sistemit."
+ },
+ "s05": {
+  "de": "Damit diese Wärme im Raum ankommt, braucht die Heizfläche einen passenden Volumenstrom an Heizungswasser.",
+  "sq": "Që kjo nxehtësi të arrijë në dhomë, sipërfaqja e ngrohjes ka nevojë për një prurje të përshtatshme të ujit të ngrohjes."
+ },
+ "s06": {
+  "de": "Aus Raumheizlast, Heizfläche und den geplanten Systemtemperaturen wird bestimmt, welchen Volumenstrom diese Heizfläche benötigt: den Sollvolumenstrom.",
+  "sq": "Nga ngarkesa termike, sipërfaqja e ngrohjes dhe temperaturat e planifikuara të sistemit përcaktohet prurja që i nevojitet kësaj sipërfaqeje: prurja e synuar."
+ },
+ "s07": {
+  "de": "Ein Rechenbeispiel für Wasser: Leistung geteilt durch eins Komma eins sechs drei mal Spreizung. Tausend Watt bei fünf Kelvin ergeben so ungefähr hundertzweiundsiebzig Liter pro Stunde. Das ist nur ein Lehrbeispiel, kein Sollwert für einen echten Heizkörper.",
+  "sq": "Një shembull llogaritjeje për ujë: fuqia pjesëtuar me një presje një gjashtë tre herë diferencën e temperaturës. Një mijë vat me pesë Kelvin japin kështu afërsisht njëqind e shtatëdhjetë e dy litra në orë. Ky është vetëm një shembull mësimor, jo vlerë për një radiator real."
+ },
+ "s08": {
+  "de": "Weil Räume und Heizflächen unterschiedlich sind, können auch die benötigten Volumenströme unterschiedlich sein.",
+  "sq": "Meqë dhomat dhe sipërfaqet e ngrohjes janë të ndryshme, edhe prurjet e nevojshme mund të jenë të ndryshme."
+ },
+ "s09": {
+  "de": "Alle Heizkreise auf denselben Wert zu stellen, ist deshalb kein hydraulischer Abgleich. Genauso wenig, allen Heizkörperventilen dieselbe Voreinstellung zu geben.",
+  "sq": "Prandaj vendosja e të gjitha qarqeve në të njëjtën vlerë nuk është balancim hidraulik. As kur të gjitha valvulat e radiatorëve marrin të njëjtin paracaktim."
+ },
+ "s10": {
+  "de": "Auch die Wege sind hydraulisch nicht gleich. Ein kurzer Heizkreis hat oft weniger Widerstand als ein langer. Ohne passende Begrenzung nimmt das Wasser bevorzugt den leichteren Weg.",
+  "sq": "Edhe nga ana hidraulike rrugët nuk janë të njëjta. Një qark i shkurtër shpesh ka më pak rezistencë se një qark i gjatë. Pa kufizim të përshtatshëm, uji preferon rrugën më të lehtë."
+ },
+ "s11": {
+  "de": "Ohne Abgleich bekommen günstige Bereiche zu viel Wasser, andere Heizflächen zu wenig. Oft wird dann versucht, das mit mehr Pumpenleistung zu überdecken.",
+  "sq": "Pa balancim, zonat e favorshme marrin shumë ujë, sipërfaqe të tjera shumë pak. Shpesh pastaj tentohet që kjo të mbulohet me më shumë fuqi të pompës."
+ },
+ "s12": {
+  "de": "Die Pumpe auf Maximum zu stellen, beseitigt die Ursache nicht. Die Unterschiede können sogar größer werden, dazu kommen Geräusche.",
+  "sq": "Vendosja e pompës në maksimum nuk e zgjidh shkakun. Ndryshimet mund të rriten edhe më shumë, dhe shtohen zhurmat."
+ },
+ "s13": {
+  "de": "Beim Abgleich werden die Strömungswege deshalb so eingestellt, dass jede Heizfläche ihren ermittelten Volumenstrom erhält.",
+  "sq": "Gjatë balancimit, rrugët e rrjedhjes rregullohen në mënyrë që çdo sipërfaqe ngrohëse të marrë prurjen e llogaritur."
+ },
+ "s14": {
+  "de": "Bei Heizkörpern geht das zum Beispiel über ein voreinstellbares Ventil, das den Volumenstrom begrenzt.",
+  "sq": "Te radiatorët kjo bëhet për shembull me një valvul me paracaktim, e cila e kufizon prurjen."
+ },
+ "s15": {
+  "de": "Wichtig: Thermostatkopf und Voreinstellung haben verschiedene Aufgaben. Der Thermostatkopf reagiert auf die Raumtemperatur. Die Voreinstellung begrenzt den möglichen Durchfluss durch das Ventil.",
+  "sq": "E rëndësishme: koka termostatike dhe paracaktimi kanë detyra të ndryshme. Koka termostatike reagon ndaj temperaturës së dhomës. Paracaktimi kufizon prurjen e mundshme përmes valvulës."
+ },
+ "s16": {
+  "de": "Bei der Fußbodenheizung werden die einzelnen Heizkreise am Verteiler nach ihren Sollvolumenströmen eingestellt.",
+  "sq": "Te ngrohja në dysheme, qarqet individuale rregullohen te shpërndarësi sipas prurjeve të tyre të synuara."
+ },
+ "s17": {
+  "de": "Die Anzeige am Verteiler hilft beim Einstellen, ersetzt aber nicht den Sollwert. Erst muss klar sein, welchen Volumenstrom der Heizkreis braucht.",
+  "sq": "Treguesi në shpërndarës ndihmon gjatë rregullimit, por nuk e zëvendëson vlerën e synuar. Fillimisht duhet ditur se çfarë prurjeje i nevojitet qarkut."
+ },
+ "s18": {
+  "de": "Ventile und Pumpe müssen zusammenpassen. Nach dem Abgleich wird die Pumpe so eingestellt, dass die nötigen Volumenströme erreicht werden.",
+  "sq": "Valvulat dhe pompa duhet të përshtaten me njëra-tjetrën. Pas balancimit, pompa rregullohet që të arrihen prurjet e nevojshme."
+ },
+ "s19": {
+  "de": "Vorher muss die Anlage technisch funktionieren. Luft, ein verschmutzter Filter, ein blockiertes Ventil, eine falsch herum eingebaute Pumpe oder andere hydraulische Fehler werden zuerst behoben und nicht mit einem Abgleich überdeckt.",
+  "sq": "Më parë sistemi duhet të funksionojë teknikisht. Ajri, një filtër i ndotur, një valvul e bllokuar, një pompë e montuar së prapthi ose defekte të tjera hidraulike rregullohen fillimisht dhe nuk maskohen me balancim."
+ },
+ "s20": {
+  "de": "Der Ablauf: Raumheizlast ermitteln, Heizflächen erfassen, Systemtemperaturen festlegen, Sollvolumenströme bestimmen, Ventile und Verteiler auslegen, Pumpe abstimmen, Werte einstellen, Funktion kontrollieren und dokumentieren.",
+  "sq": "Procesi: përcaktohet ngarkesa termike e dhomës, regjistrohen sipërfaqet e ngrohjes, caktohen temperaturat e sistemit, përcaktohen prurjet e synuara, dimensionohen valvulat dhe shpërndarësi, përshtatet pompa, vendosen vlerat, kontrollohet funksioni dhe dokumentohet."
+ },
+ "s21": {
+  "de": "Beim rechnerischen Verfahren wird der Abgleich raumweise aufgebaut, auf Basis der tatsächlichen Anforderungen statt nur auf Schätzungen.",
+  "sq": "Në metodën llogaritëse, balancimi bëhet për çdo dhomë veçmas, bazuar në kërkesat reale dhe jo vetëm në vlerësime."
+ },
+ "s22": {
+  "de": "Nach dem Einstellen wird geprüft, ob die Anlage tatsächlich funktioniert: Volumenströme, Temperaturen, Pumpenbetrieb, Geräusche und Regelverhalten.",
+  "sq": "Pas rregullimit kontrollohet nëse sistemi funksionon realisht: prurjet, temperaturat, puna e pompës, zhurmat dhe sjellja e rregullimit."
+ },
+ "s23": {
+  "de": "Die ermittelten und eingestellten Werte werden dokumentiert. So bleibt nachvollziehbar, wie die Anlage ausgelegt und eingestellt wurde.",
+  "sq": "Vlerat e llogaritura dhe të vendosura dokumentohen. Kështu mbetet e qartë si është dimensionuar dhe rregulluar sistemi."
+ },
+ "s24": {
+  "de": "Bei Wärmepumpen ist das besonders wichtig. Die Heizflächen sollen mit den vorgesehenen Volumenströmen arbeiten, damit die niedrigen Systemtemperaturen sinnvoll genutzt werden können.",
+  "sq": "Te pompat e nxehtësisë kjo është veçanërisht e rëndësishme. Sipërfaqet e ngrohjes duhet të punojnë me prurjet e parashikuara, që temperaturat e ulëta të sistemit të përdoren në mënyrë efektive."
+ },
+ "s25": {
+  "de": "Achtung: Abgleich und Mindestvolumenstrom der Wärmepumpe hängen zusammen, sind aber nicht dasselbe. Der Abgleich verteilt das Wasser auf die Heizflächen. Der Mindestvolumenstrom ist eine Betriebsanforderung des Wärmeerzeugers.",
+  "sq": "Kujdes: balancimi dhe prurja minimale e pompës së nxehtësisë lidhen, por nuk janë e njëjta gjë. Balancimi e shpërndan ujin te sipërfaqet e ngrohjes. Prurja minimale është një kërkesë pune e pajisjes."
+ },
+ "s26": {
+  "de": "Typische Fehler: Alle Heizkreise gleich eingestellt. Alle Heizkörper mit gleicher Voreinstellung. Heizlast nur geschätzt und als berechnet ausgegeben. Pumpe auf Maximum. Kurzen Kreis nicht begrenzt. Luft ignoriert. Verstopften Filter ignoriert. Blockiertes Ventil mit mehr Pumpendruck repariert. Thermostatkopf mit Voreinstellung verwechselt. Durchflusswert geraten statt berechnet. Gleicher Liter-pro-Minute-Wert für jeden Raum. Eingestellt, aber nicht geprüft. Und: nicht dokumentiert.",
+  "sq": "Gabime tipike: të gjitha qarqet të rregulluara njësoj. Të gjithë radiatorët me të njëjtin paracaktim. Ngarkesa termike vetëm e vlerësuar, por e paraqitur si e llogaritur. Pompa në maksimum. Qarku i shkurtër nuk kufizohet. Ajri injorohet. Filtri i bllokuar injorohet. Valvula e bllokuar riparohet me më shumë presion pompe. Koka termostatike ngatërrohet me paracaktimin. Vlera e prurjes hamendësohet në vend që të llogaritet. E njëjta vlerë litra në minutë për çdo dhomë. Rregullohet, por nuk kontrollohet. Dhe: nuk dokumentohet."
+ },
+ "s27": {
+  "de": "Auf der Baustelle erkennst du den Abgleich dort, wo die einzelnen Strömungswege eingestellt werden: am Heizkreisverteiler oder an voreinstellbaren Heizkörperventilen. Der richtige Wert kommt aber aus der Auslegung, nicht aus dem Gefühl.",
+  "sq": "Në kantier, balancimin e njeh aty ku rregullohen rrugët e ujit: te shpërndarësi ose te valvulat e radiatorëve me paracaktim. Por vlera e duhur vjen nga llogaritja, jo nga ndjenja."
+ },
+ "s28": {
+  "de": "Merke dir: Nicht jeder Raum braucht dieselbe Heizleistung und deshalb auch nicht denselben Volumenstrom. Aus Heizlast, Heizfläche und Systemtemperaturen ergibt sich der Sollvolumenstrom. Danach werden Ventile oder Verteiler eingestellt und die Pumpe abgestimmt. Gleiche Ventilstellungen, überall derselbe Wert oder Pumpe auf Maximum sind kein Abgleich. Luft, Schmutz und Anlagenfehler werden vorher beseitigt. Am Ende wird geprüft und dokumentiert.",
+  "sq": "Mbaje mend: jo çdo dhomë ka nevojë për të njëjtën fuqi ngrohëse, prandaj as për të njëjtën prurje. Nga ngarkesa termike, sipërfaqja e ngrohjes dhe temperaturat e sistemit del prurja e synuar. Më pas rregullohen valvulat ose shpërndarësi dhe përshtatet pompa. Pozicione të njëjta të valvulave, e njëjta vlerë kudo ose pompa në maksimum nuk janë balancim. Ajri, papastërtitë dhe defektet e sistemit eliminohen më parë. Në fund kontrollohet dhe dokumentohet."
+ },
+ "outro": {
+  "de": "Modul zwölf abgeschlossen.",
+  "sq": "Moduli dymbëdhjetë përfunduar."
+ }
+}

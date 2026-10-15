@@ -1,0 +1,879 @@
+{
+ "intro_kicker": {
+  "de": "SHK GRUNDLAGEN",
+  "sq": "BAZAT E SHK-së"
+ },
+ "intro_mod": {
+  "de": "MODUL 12",
+  "sq": "MODULI 12"
+ },
+ "intro_title": {
+  "de": "Hydraulischer Abgleich",
+  "sq": "Balancimi hidraulik",
+  "termDe": "Hydraulischer Abgleich"
+ },
+ "intro_sub": {
+  "de": "Heizlast · Sollvolumenstrom · Einstellung · Kontrolle",
+  "sq": "Ngarkesa termike · Prurja e synuar · Rregullimi · Kontrolli"
+ },
+ "outro_done": {
+  "de": "MODUL 12 ABGESCHLOSSEN",
+  "sq": "MODULI 12 PËRFUNDUAR"
+ },
+ "principle": {
+  "de": "Prinzipdarstellung – Beispiel, keine Auslegung",
+  "sq": "Paraqitje parimore – shembull, jo dimensionim"
+ },
+ "g_vl": {
+  "de": "Vorlauf",
+  "sq": "Furnizimi",
+  "term": true
+ },
+ "g_rl": {
+  "de": "Rücklauf (kühler)",
+  "sq": "Kthimi (më i ftohtë)",
+  "termDe": "Rücklauf"
+ },
+ "vs": {
+  "de": "Volumenstrom",
+  "sq": "Prurja",
+  "term": false
+ },
+ "sys_curve": {
+  "de": "Anlage",
+  "sq": "Sistemi",
+  "term": false
+ },
+ "pump_curve": {
+  "de": "Pumpe",
+  "sq": "Pompa",
+  "term": false
+ },
+ "room_a": {
+  "de": "Wohnzimmer",
+  "sq": "Dhoma e ndenjes",
+  "term": true
+ },
+ "room_b": {
+  "de": "Schlafzimmer",
+  "sq": "Dhoma e gjumit",
+  "term": true
+ },
+ "room_c": {
+  "de": "Bad",
+  "sq": "Banjo",
+  "term": true
+ },
+ "room_d": {
+  "de": "Büro",
+  "sq": "Zyra",
+  "term": true
+ },
+ "raumhl": {
+  "de": "Raumheizlast",
+  "sq": "Ngarkesa termike e dhomës",
+  "term": true
+ },
+ "hfl": {
+  "de": "Heizfläche",
+  "sq": "Sipërfaqja e ngrohjes",
+  "term": true
+ },
+ "systemp": {
+  "de": "Systemtemperaturen",
+  "sq": "Temperaturat e sistemit",
+  "term": true
+ },
+ "soll": {
+  "de": "Sollvolumenstrom",
+  "sq": "Prurja e synuar",
+  "term": true
+ },
+ "hk": {
+  "de": "Heizkörper",
+  "sq": "Radiator",
+  "term": true
+ },
+ "fbh": {
+  "de": "Fußbodenheizung",
+  "sq": "Ngrohje në dysheme",
+  "term": true
+ },
+ "abgl": {
+  "de": "Hydraulischer Abgleich",
+  "sq": "Balancim hidraulik",
+  "term": true
+ },
+ "vore": {
+  "de": "Voreinstellung",
+  "sq": "Paracaktimi",
+  "term": true
+ },
+ "tkopf": {
+  "de": "Thermostatkopf",
+  "sq": "Koka termostatike",
+  "term": true
+ },
+ "kreis_a": {
+  "de": "Kreis A: kurz",
+  "sq": "Qarku A: i shkurtër",
+  "termDe": "Kreis A: kurz"
+ },
+ "kreis_b": {
+  "de": "Kreis B: lang",
+  "sq": "Qarku B: i gjatë",
+  "termDe": "Kreis B: lang"
+ },
+ "kr1": {
+  "de": "Kreis 1",
+  "sq": "Qarku 1"
+ },
+ "kr2": {
+  "de": "Kreis 2",
+  "sq": "Qarku 2"
+ },
+ "kr3": {
+  "de": "Kreis 3",
+  "sq": "Qarku 3"
+ },
+ "kr4": {
+  "de": "Kreis 4",
+  "sq": "Qarku 4"
+ },
+ "before": {
+  "de": "VORHER",
+  "sq": "PARA"
+ },
+ "after": {
+  "de": "NACHHER",
+  "sq": "PAS"
+ },
+ "wp": {
+  "de": "Wärmepumpe",
+  "sq": "Pompa e nxehtësisë",
+  "term": true
+ },
+ "anzeige": {
+  "de": "Anzeige",
+  "sq": "Treguesi",
+  "term": true
+ },
+ "sollw": {
+  "de": "Sollwert",
+  "sq": "Vlera e synuar",
+  "term": true
+ },
+ "h01": {
+  "de": "Die reale Anlage",
+  "sq": "Sistemi real"
+ },
+ "ex_hkv": {
+  "de": "Heizkreisverteiler (Fußbodenheizung)",
+  "sq": "Shpërndarësi i qarqeve (dysheme)"
+ },
+ "ex_hkv_b": {
+  "de": "Beispiel: Oventrop Multidis SF",
+  "sq": "Heizkreisverteiler · Shembull: Oventrop Multidis SF"
+ },
+ "ex_valve": {
+  "de": "Voreinstellbares Heizkörperventil",
+  "sq": "Valvul radiatori me paracaktim"
+ },
+ "ex_valve_b": {
+  "de": "Beispiel: Oventrop AV 9",
+  "sq": "voreinstellbares Ventil · Shembull: Oventrop AV 9"
+ },
+ "c01a": {
+  "de": "kein einzelnes Bauteil – die ganze Anlage",
+  "sq": "jo një komponent – i gjithë sistemi",
+  "termDe": "die ganze Anlage"
+ },
+ "c01b": {
+  "de": "jede Heizfläche: der Volumenstrom, den sie braucht",
+  "sq": "çdo sipërfaqe: prurja që i nevojitet",
+  "termDe": "benötigter Volumenstrom je Heizfläche"
+ },
+ "h02": {
+  "de": "Ein Haus, unterschiedliche Räume",
+  "sq": "Një shtëpi, dhoma të ndryshme"
+ },
+ "c02a": {
+  "de": "nicht dieselbe Heizleistung",
+  "sq": "jo e njëjta fuqi ngrohëse",
+  "termDe": "nicht dieselbe Heizleistung"
+ },
+ "c02b": {
+  "de": "Größe",
+  "sq": "Madhësia",
+  "term": true
+ },
+ "c02c": {
+  "de": "Außenflächen",
+  "sq": "Sipërfaqet e jashtme",
+  "term": true
+ },
+ "c02d": {
+  "de": "Fenster",
+  "sq": "Dritaret",
+  "term": true
+ },
+ "h03": {
+  "de": "Raumweise Heizlast",
+  "sq": "Ngarkesa termike për çdo dhomë"
+ },
+ "c03a": {
+  "de": "Wärmeleistung, die der Raum unter den vorgesehenen Bedingungen braucht",
+  "sq": "fuqia e nxehtësisë që i nevojitet dhomës në kushtet e parashikuara"
+ },
+ "c03b": {
+  "de": "raumweise ermittelt – keine Pauschalwerte",
+  "sq": "për çdo dhomë – jo vlera të përgjithshme",
+  "termDe": "raumweise, keine Pauschalwerte"
+ },
+ "h04": {
+  "de": "Die Heizfläche muss dazu passen",
+  "sq": "Sipërfaqja e ngrohjes duhet të përshtatet"
+ },
+ "c04a": {
+  "de": "Größe",
+  "sq": "Madhësia",
+  "term": true
+ },
+ "c04b": {
+  "de": "Systemtemperaturen",
+  "sq": "Temperaturat e sistemit",
+  "term": true
+ },
+ "h05": {
+  "de": "Wärme braucht Wasserstrom",
+  "sq": "Nxehtësia ka nevojë për prurje uji"
+ },
+ "c05a": {
+  "de": "warmes Heizungswasser hinein",
+  "sq": "uji i ngrohtë hyn",
+  "termDe": "warm hinein"
+ },
+ "c05b": {
+  "de": "etwas kühler heraus",
+  "sq": "del pak më i ftohtë",
+  "termDe": "kühler heraus"
+ },
+ "c05c": {
+  "de": "Wärme an den Raum",
+  "sq": "nxehtësi për dhomën",
+  "termDe": "Wärme an den Raum"
+ },
+ "c05d": {
+  "de": "passender Volumenstrom",
+  "sq": "prurje e përshtatshme",
+  "termDe": "passender Volumenstrom"
+ },
+ "h06": {
+  "de": "Sollvolumenstrom",
+  "sq": "Prurja e synuar",
+  "termDe": "Sollvolumenstrom"
+ },
+ "c06a": {
+  "de": "benötigter Volumenstrom dieser Heizfläche",
+  "sq": "prurja e nevojshme e kësaj sipërfaqeje",
+  "termDe": "benötigter Volumenstrom"
+ },
+ "h07": {
+  "de": "Rechenbeispiel",
+  "sq": "Shembull llogaritjeje",
+  "termDe": "Rechenbeispiel"
+ },
+ "c07w": {
+  "de": "NUR RECHENBEISPIEL – KEIN UNIVERSALER SOLLWERT",
+  "sq": "VETËM SHEMBULL – JO VLERË UNIVERSALE",
+  "termDe": "nur Rechenbeispiel – kein universaler Sollwert"
+ },
+ "c07a": {
+  "de": "Für Wasser näherungsweise:",
+  "sq": "Për ujë, afërsisht:",
+  "termDe": "für Wasser näherungsweise"
+ },
+ "c07f": {
+  "de": "Volumenstrom [l/h] ≈ Leistung [W] / (1,163 × Spreizung [K])",
+  "sq": "Prurja [l/h] ≈ Fuqia [W] / (1,163 × Diferenca [K])",
+  "termDe": "Volumenstrom ≈ Leistung / (1,163 × Spreizung)"
+ },
+ "c07b": {
+  "de": "bei",
+  "sq": "me"
+ },
+ "c07c": {
+  "de": "ungefähr",
+  "sq": "afërsisht"
+ },
+ "c07d": {
+  "de": "Lehrbeispiel – nicht auf echte Heizkörper übertragen",
+  "sq": "shembull mësimor – jo për radiatorë realë",
+  "termDe": "nicht auf echte Heizkörper übertragen"
+ },
+ "h08": {
+  "de": "Nicht alle Räume gleich",
+  "sq": "Jo të gjitha dhomat njësoj"
+ },
+ "c08a": {
+  "de": "unterschiedliche Volumenströme",
+  "sq": "prurje të ndryshme",
+  "termDe": "unterschiedliche Volumenströme"
+ },
+ "h09": {
+  "de": "Der typische Fehler: alle gleich",
+  "sq": "Gabimi tipik: të gjitha njësoj"
+ },
+ "c09a": {
+  "de": "Alle Heizkreise auf denselben Wert",
+  "sq": "Të gjitha qarqet në të njëjtën vlerë",
+  "termDe": "alle Heizkreise gleich"
+ },
+ "c09b": {
+  "de": "Alle Ventile gleiche Voreinstellung",
+  "sq": "Të gjitha valvulat me të njëjtin paracaktim",
+  "termDe": "gleiche Voreinstellung"
+ },
+ "c09c": {
+  "de": "alle gleich",
+  "sq": "të gjitha njësoj",
+  "termDe": "alle gleich"
+ },
+ "h10": {
+  "de": "Kurzer und langer Heizkreis",
+  "sq": "Qark i shkurtër dhe qark i gjatë"
+ },
+ "c10a": {
+  "de": "langer Kreis: mehr Widerstand",
+  "sq": "qark i gjatë: më shumë rezistencë",
+  "termDe": "mehr Widerstand"
+ },
+ "c10b": {
+  "de": "Wasser nimmt den leichteren Weg",
+  "sq": "uji merr rrugën më të lehtë",
+  "termDe": "leichterer Weg"
+ },
+ "h11": {
+  "de": "Was passiert ohne Abgleich?",
+  "sq": "Çfarë ndodh pa balancim?"
+ },
+ "c11a": {
+  "de": "günstige Bereiche: zu viel Wasser",
+  "sq": "zonat e favorshme: shumë ujë",
+  "termDe": "zu viel Wasser"
+ },
+ "c11b": {
+  "de": "andere Heizflächen: zu wenig",
+  "sq": "sipërfaqe të tjera: shumë pak",
+  "termDe": "zu wenig"
+ },
+ "c11c": {
+  "de": "mehr Pumpenleistung?",
+  "sq": "më shumë fuqi pompe?",
+  "termDe": "mehr Pumpenleistung?"
+ },
+ "h12": {
+  "de": "Pumpe auf Maximum löst das nicht",
+  "sq": "Pompa në maksimum nuk e zgjidh"
+ },
+ "c12a": {
+  "de": "Ursache bleibt",
+  "sq": "shkaku mbetet",
+  "termDe": "Ursache bleibt"
+ },
+ "c12b": {
+  "de": "Unterschiede größer · Geräusche",
+  "sq": "ndryshime më të mëdha · zhurma",
+  "termDe": "größere Unterschiede · Geräusche"
+ },
+ "h13": {
+  "de": "Der Abgleich begrenzt die leichten Wege",
+  "sq": "Balancimi kufizon rrugët e lehta"
+ },
+ "c13a": {
+  "de": "Strömungswege gezielt eingestellt",
+  "sq": "rrugët e rrjedhjes të rregulluara",
+  "termDe": "Strömungswege eingestellt"
+ },
+ "c13b": {
+  "de": "jede Heizfläche: ermittelter Volumenstrom",
+  "sq": "çdo sipërfaqe: prurja e llogaritur",
+  "termDe": "ermittelter Volumenstrom"
+ },
+ "h14": {
+  "de": "Heizkörper: voreinstellbares Ventil",
+  "sq": "Radiatori: valvul me paracaktim"
+ },
+ "c14a": {
+  "de": "Voreinstellung begrenzt den Volumenstrom",
+  "sq": "paracaktimi kufizon prurjen",
+  "termDe": "begrenzt den Volumenstrom"
+ },
+ "c14b": {
+  "de": "neutraler Prinzipschnitt – keine Herstellermechanik",
+  "sq": "prerje parimore – jo mekanizëm i prodhuesit"
+ },
+ "h15": {
+  "de": "Thermostatkopf ≠ Voreinstellung",
+  "sq": "Koka termostatike ≠ paracaktimi"
+ },
+ "c15a": {
+  "de": "reagiert auf die Raumtemperatur",
+  "sq": "reagon ndaj temperaturës së dhomës"
+ },
+ "c15b": {
+  "de": "begrenzt den möglichen Durchfluss durch das Ventil",
+  "sq": "kufizon prurjen e mundshme përmes valvulës"
+ },
+ "h16": {
+  "de": "Fußbodenheizung: Heizkreisverteiler",
+  "sq": "Ngrohja në dysheme: shpërndarësi"
+ },
+ "c16a": {
+  "de": "jeder Heizkreis nach seinem Sollvolumenstrom",
+  "sq": "çdo qark sipas prurjes së tij të synuar",
+  "termDe": "nach Sollvolumenstrom"
+ },
+ "f_glass_n": {
+  "de": "Durchflussanzeige",
+  "sq": "Treguesi i prurjes",
+  "term": true
+ },
+ "h17": {
+  "de": "Ablesen ersetzt keinen Sollwert",
+  "sq": "Leximi nuk zëvendëson vlerën e synuar"
+ },
+ "c17a": {
+  "de": "nach Gefühl eingestellt",
+  "sq": "rregulluar me ndjenjë",
+  "termDe": "nach Gefühl"
+ },
+ "c17b": {
+  "de": "Plan / Berechnung",
+  "sq": "Plani / llogaritja",
+  "termDe": "Plan / Berechnung"
+ },
+ "c17c": {
+  "de": "Sollwert je Heizkreis",
+  "sq": "Vlera e synuar për qark",
+  "termDe": "Sollwert je Heizkreis"
+ },
+ "c17d": {
+  "de": "Einstellung am Verteiler",
+  "sq": "Rregullimi te shpërndarësi",
+  "termDe": "Einstellung am Verteiler"
+ },
+ "h18": {
+  "de": "Pumpe und Abgleich gehören zusammen",
+  "sq": "Pompa dhe balancimi shkojnë bashkë"
+ },
+ "c18a": {
+  "de": "Ventile voreingestellt",
+  "sq": "Valvulat të paracaktuara",
+  "termDe": "Ventile voreingestellt"
+ },
+ "c18b": {
+  "de": "Pumpe passend eingestellt",
+  "sq": "Pompa e rregulluar si duhet",
+  "termDe": "Pumpe passend eingestellt"
+ },
+ "c18c": {
+  "de": "nötige Volumenströme erreicht",
+  "sq": "prurjet e nevojshme arrihen",
+  "termDe": "nötige Volumenströme erreicht"
+ },
+ "h19": {
+  "de": "Vorher: Anlage muss funktionieren",
+  "sq": "Më parë: sistemi duhet të funksionojë"
+ },
+ "c19a": {
+  "de": "zuerst technisch funktionsfähig",
+  "sq": "fillimisht funksional teknikisht",
+  "termDe": "technisch funktionsfähig"
+ },
+ "f19a": {
+  "de": "Luft im Heizkreis",
+  "sq": "Ajër në qark",
+  "termDe": "Luft im Heizkreis"
+ },
+ "f19b": {
+  "de": "verschmutzter Filter",
+  "sq": "Filtër i ndotur",
+  "termDe": "verschmutzter Filter"
+ },
+ "f19c": {
+  "de": "blockiertes Ventil",
+  "sq": "Valvul e bllokuar",
+  "termDe": "blockiertes Ventil"
+ },
+ "f19d": {
+  "de": "Pumpe falsch herum",
+  "sq": "Pompa së prapthi",
+  "termDe": "Pumpe falsch herum"
+ },
+ "f19e": {
+  "de": "anderer hydraulischer Fehler",
+  "sq": "Defekt tjetër hidraulik",
+  "termDe": "anderer hydraulischer Fehler"
+ },
+ "c19b": {
+  "de": "erst beheben – nicht überdecken",
+  "sq": "fillimisht rregullo – mos e masko",
+  "termDe": "erst beheben, nicht überdecken"
+ },
+ "h20": {
+  "de": "Der Ablauf",
+  "sq": "Procesi",
+  "termDe": "Ablauf"
+ },
+ "p1": {
+  "de": "Raumheizlast ermitteln",
+  "sq": "Përcakto ngarkesën termike",
+  "termDe": "Raumheizlast"
+ },
+ "p2": {
+  "de": "Heizflächen erfassen",
+  "sq": "Regjistro sipërfaqet e ngrohjes",
+  "termDe": "Heizflächen"
+ },
+ "p3": {
+  "de": "Systemtemperaturen festlegen",
+  "sq": "Cakto temperaturat e sistemit",
+  "termDe": "Systemtemperaturen"
+ },
+ "p4": {
+  "de": "Sollvolumenströme bestimmen",
+  "sq": "Përcakto prurjet e synuara",
+  "termDe": "Sollvolumenströme"
+ },
+ "p5": {
+  "de": "Ventile / Verteiler auslegen",
+  "sq": "Dimensiono valvulat / shpërndarësin",
+  "termDe": "Ventile / Verteiler"
+ },
+ "p6": {
+  "de": "Pumpe abstimmen",
+  "sq": "Përshtat pompën",
+  "termDe": "Pumpe abstimmen"
+ },
+ "p7": {
+  "de": "Werte einstellen",
+  "sq": "Vendos vlerat",
+  "termDe": "Werte einstellen"
+ },
+ "p8": {
+  "de": "Funktion kontrollieren",
+  "sq": "Kontrollo funksionin",
+  "termDe": "Funktion kontrollieren"
+ },
+ "p9": {
+  "de": "Dokumentieren",
+  "sq": "Dokumento",
+  "termDe": "Dokumentieren"
+ },
+ "h21": {
+  "de": "Raumweise Berechnung",
+  "sq": "Llogaritje për çdo dhomë"
+ },
+ "c21a": {
+  "de": "rechnerisch, raumweise",
+  "sq": "me llogaritje, për çdo dhomë",
+  "termDe": "rechnerisch, raumweise"
+ },
+ "c21b": {
+  "de": "nur Schätzung",
+  "sq": "vetëm vlerësim",
+  "termDe": "nur Schätzung"
+ },
+ "h22": {
+  "de": "Funktionsprüfung",
+  "sq": "Kontrolli i funksionimit",
+  "termDe": "Funktionsprüfung"
+ },
+ "c22a": {
+  "de": "Läuft die Anlage wirklich?",
+  "sq": "A funksionon sistemi realisht?"
+ },
+ "k22a": {
+  "de": "Volumenströme",
+  "sq": "Prurjet",
+  "term": true
+ },
+ "k22b": {
+  "de": "Temperaturen",
+  "sq": "Temperaturat",
+  "term": true
+ },
+ "k22c": {
+  "de": "Pumpenbetrieb",
+  "sq": "Puna e pompës",
+  "term": true
+ },
+ "k22d": {
+  "de": "Geräusche",
+  "sq": "Zhurmat",
+  "term": true
+ },
+ "k22e": {
+  "de": "Regelverhalten",
+  "sq": "Sjellja e rregullimit",
+  "term": true
+ },
+ "h23": {
+  "de": "Dokumentation",
+  "sq": "Dokumentimi",
+  "termDe": "Dokumentation"
+ },
+ "c23h1": {
+  "de": "Raum / Kreis",
+  "sq": "Dhoma / qarku"
+ },
+ "c23h2": {
+  "de": "Heizfläche",
+  "sq": "Sip. ngrohjes"
+ },
+ "c23h3": {
+  "de": "Sollvolumenstrom",
+  "sq": "Prurja e synuar"
+ },
+ "c23h4": {
+  "de": "Ventil / Verteiler",
+  "sq": "Valvula / shpërnd."
+ },
+ "r23p": {
+  "de": "Pumpeneinstellung",
+  "sq": "Rregullimi i pompës"
+ },
+ "r23s": {
+  "de": "Anlagenparameter",
+  "sq": "Parametrat e sistemit"
+ },
+ "c23a": {
+  "de": "nachvollziehbar",
+  "sq": "e qartë dhe e gjurmueshme",
+  "termDe": "nachvollziehbar"
+ },
+ "h24": {
+  "de": "Bei Wärmepumpen besonders wichtig",
+  "sq": "Veçanërisht e rëndësishme te pompat e nxehtësisë"
+ },
+ "c24a": {
+  "de": "niedrige Systemtemperaturen",
+  "sq": "temperatura të ulëta të sistemit",
+  "termDe": "niedrige Systemtemperaturen"
+ },
+ "c24b": {
+  "de": "Heizflächen mit vorgesehenem Volumenstrom",
+  "sq": "sipërfaqe me prurjen e parashikuar",
+  "termDe": "vorgesehener Volumenstrom"
+ },
+ "c24c": {
+  "de": "sinnvoll genutzt",
+  "sq": "përdoren në mënyrë efektive",
+  "termDe": "sinnvoll genutzt"
+ },
+ "h25": {
+  "de": "Abgleich ≠ Mindestvolumenstrom",
+  "sq": "Balancimi ≠ prurja minimale"
+ },
+ "c25a": {
+  "de": "verteilt das Wasser passend auf die Heizflächen",
+  "sq": "e shpërndan ujin sipas nevojës së sipërfaqeve"
+ },
+ "c25m": {
+  "de": "Mindestvolumenstrom Wärmepumpe",
+  "sq": "Prurja minimale e pompës së nxehtësisë",
+  "termDe": "Mindestvolumenstrom"
+ },
+ "c25b": {
+  "de": "Betriebsanforderung des Wärmeerzeugers",
+  "sq": "kërkesë pune e pajisjes",
+  "termDe": "Betriebsanforderung"
+ },
+ "c25r": {
+  "de": "siehe Modul 10",
+  "sq": "shih modulin 10"
+ },
+ "c25c": {
+  "de": "VERWANDT – ABER NICHT DASSELBE",
+  "sq": "TË LIDHURA – POR JO E NJËJTA GJË",
+  "termDe": "verwandt – aber nicht dasselbe"
+ },
+ "h26": {
+  "de": "Typische Fehler",
+  "sq": "Gabime tipike"
+ },
+ "e1": {
+  "de": "Alle Heizkreise gleich eingestellt",
+  "sq": "Të gjitha qarqet njësoj",
+  "termDe": "alle Heizkreise gleich"
+ },
+ "e2": {
+  "de": "Alle Heizkörper gleiche Voreinstellung",
+  "sq": "Të gjithë radiatorët me të njëjtin paracaktim",
+  "termDe": "gleiche Voreinstellung"
+ },
+ "e3": {
+  "de": "Heizlast geschätzt, als berechnet ausgegeben",
+  "sq": "Ngarkesa e vlerësuar, e paraqitur si e llogaritur",
+  "termDe": "Berechnung ≠ Schätzung"
+ },
+ "e4": {
+  "de": "Pumpe auf Maximum",
+  "sq": "Pompa në maksimum",
+  "termDe": "Pumpe ersetzt Abgleich nicht"
+ },
+ "e5": {
+  "de": "Kurzen Kreis nicht begrenzt",
+  "sq": "Qarku i shkurtër nuk kufizohet",
+  "termDe": "kurzen Kreis nicht begrenzt"
+ },
+ "e6": {
+  "de": "Luft ignoriert",
+  "sq": "Ajri injorohet",
+  "termDe": "Luft ignoriert"
+ },
+ "e7": {
+  "de": "Verstopften Filter ignoriert",
+  "sq": "Filtri i bllokuar injorohet",
+  "termDe": "Filter ignoriert"
+ },
+ "e8": {
+  "de": "Blockiertes Ventil mit Pumpendruck „repariert“",
+  "sq": "Valvula e bllokuar „riparohet“ me presion pompe",
+  "termDe": "blockiertes Ventil"
+ },
+ "e9": {
+  "de": "Thermostatkopf mit Voreinstellung verwechselt",
+  "sq": "Koka termostatike ngatërrohet me paracaktimin",
+  "termDe": "Thermostatkopf ≠ Voreinstellung"
+ },
+ "e10": {
+  "de": "Durchflusswert geraten statt berechnet",
+  "sq": "Vlera e prurjes hamendësohet",
+  "termDe": "geraten statt berechnet"
+ },
+ "e11": {
+  "de": "Gleicher l/min-Wert für jeden Raum",
+  "sq": "E njëjta vlerë l/min për çdo dhomë",
+  "termDe": "gleicher l/min-Wert"
+ },
+ "e12": {
+  "de": "Eingestellt, aber nicht geprüft",
+  "sq": "Rregulluar, por pa kontroll",
+  "termDe": "nicht geprüft"
+ },
+ "e13": {
+  "de": "Nicht dokumentiert",
+  "sq": "Nuk dokumentohet",
+  "termDe": "nicht dokumentiert"
+ },
+ "h27": {
+  "de": "Auf der Baustelle",
+  "sq": "Në kantier"
+ },
+ "f_glass": {
+  "de": "Durchflussanzeigen mit Einstellung",
+  "sq": "Treguesit e prurjes me rregullim",
+  "termDe": "Durchflussanzeigen"
+ },
+ "f_out": {
+  "de": "Heizkreisanschlüsse",
+  "sq": "Lidhjet e qarqeve",
+  "term": true
+ },
+ "f_rlv": {
+  "de": "Ventileinsätze im Rücklauf",
+  "sq": "Valvulat në kthim",
+  "termDe": "Ventileinsätze Rücklauf"
+ },
+ "f_cap": {
+  "de": "Schutzkappe – darunter Thermostatanschluss",
+  "sq": "Kapaku mbrojtës – poshtë lidhja e termostatit",
+  "termDe": "Thermostatanschluss"
+ },
+ "f_body": {
+  "de": "Ventilunterteil (voreinstellbar)",
+  "sq": "Trupi i valvulës (me paracaktim)",
+  "termDe": "Ventilunterteil"
+ },
+ "f_union": {
+  "de": "Verschraubung zum Heizkörper",
+  "sq": "Rakorderia drejt radiatorit",
+  "termDe": "Verschraubung"
+ },
+ "c27a": {
+  "de": "Wert aus der Auslegung – nicht aus dem Gefühl",
+  "sq": "vlera nga llogaritja – jo nga ndjenja",
+  "termDe": "aus der Auslegung"
+ },
+ "h28": {
+  "de": "Merke dir",
+  "sq": "Mbaje mend"
+ },
+ "chk": {
+  "de": "Modul 12 in Kürze",
+  "sq": "Moduli 12 shkurt",
+  "termDe": "Modul 12 in Kürze"
+ },
+ "l1": {
+  "de": "Räume unterschiedlich",
+  "sq": "Dhoma të ndryshme",
+  "termDe": "Räume"
+ },
+ "l2": {
+  "de": "unterschiedliche Heizlast",
+  "sq": "ngarkesë termike e ndryshme",
+  "termDe": "Heizlast"
+ },
+ "l3": {
+  "de": "passende Heizflächen",
+  "sq": "sipërfaqe të përshtatshme",
+  "termDe": "Heizflächen"
+ },
+ "l4": {
+  "de": "Sollvolumenstrom je Heizfläche",
+  "sq": "prurja e synuar për sipërfaqe",
+  "termDe": "Sollvolumenstrom"
+ },
+ "l5": {
+  "de": "Ventile / Verteiler einstellen",
+  "sq": "rregullo valvulat / shpërndarësin",
+  "termDe": "Ventile / Verteiler"
+ },
+ "l6": {
+  "de": "Pumpe passend abstimmen",
+  "sq": "përshtat pompën",
+  "termDe": "Pumpe abstimmen"
+ },
+ "l7": {
+  "de": "Anlage läuft",
+  "sq": "sistemi punon",
+  "termDe": "Anlage läuft"
+ },
+ "l8": {
+  "de": "Soll / Ist prüfen",
+  "sq": "kontrollo synimin / gjendjen",
+  "termDe": "Soll / Ist prüfen"
+ },
+ "l9": {
+  "de": "Dokumentieren",
+  "sq": "dokumento",
+  "termDe": "Dokumentieren"
+ },
+ "c28x": {
+  "de": "gleiche Stellung · gleicher Wert · Maximum = kein Abgleich",
+  "sq": "i njëjti pozicion · e njëjta vlerë · maksimum = jo balancim",
+  "termDe": "kein Abgleich"
+ },
+ "c28y": {
+  "de": "Luft · Schmutz · Anlagenfehler vorher beseitigen",
+  "sq": "ajri · papastërtitë · defektet: eliminohen më parë",
+  "termDe": "vorher beseitigen"
+ },
+ "fin": {
+  "de": "Alle Räume passend versorgt",
+  "sq": "Të gjitha dhomat furnizohen si duhet",
+  "termDe": "alle Räume passend versorgt"
+ }
+}

@@ -1,0 +1,83 @@
+{
+  "intro": {
+    "de": "Es-Ha-Ka-Grundlagen. Modul 1: das Membran-Ausdehnungsgefäß.",
+    "de_script": "SHK-Grundlagen. Modul 1: das Membran-Ausdehnungsgefäß.",
+    "sq": "Moduli 1: ena e zgjerimit me membranë."
+  },
+  "s01": {
+    "de": "Das ist ein M-A-G, ein Membran-Ausdehnungsgefäß. Dieses Bauteil begegnet euch häufig in geschlossenen Heizungsanlagen. Schauen wir uns an, was es macht und wie es innen funktioniert.",
+    "de_script": "Das ist ein MAG, ein Membran-Ausdehnungsgefäß. Dieses Bauteil begegnet euch häufig in geschlossenen Heizungsanlagen. Schauen wir uns an, was es macht und wie es innen funktioniert.",
+    "sq": "Ky është një MAG, një enë zgjerimi me membranë. Këtë komponent do ta shihni shpesh në sistemet e mbyllura të ngrohjes. Le të shohim çfarë bën dhe si funksionon nga brenda."
+  },
+  "s02": {
+    "de": "Das Heizungswasser fließt vom Wärmeerzeuger über den Vorlauf zu den Heizkörpern und über den Rücklauf wieder zurück. Eine Heizungsanlage ist ein geschlossenes System. Wird das Heizungswasser wärmer, nimmt sein Volumen zu. Es benötigt mehr Platz. Da die Anlage geschlossen ist, muss dieses zusätzliche Volumen irgendwo aufgenommen werden.",
+    "sq": "Uji i ngrohjes rrjedh nga burimi i nxehtësisë, përmes linjës së dërgimit te radiatorët, dhe kthehet përmes linjës së kthimit. Një sistem ngrohjeje është një sistem i mbyllur. Kur uji nxehet, vëllimi i tij rritet. Ai ka nevojë për më shumë hapësirë. Por sistemi është i mbyllur, dhe ky vëllim shtesë duhet të merret diku."
+  },
+  "s03": {
+    "de": "Genau dafür gibt es das M-A-G. Es nimmt zusätzliches Wasservolumen beim Erwärmen auf und gibt beim Abkühlen Wasser wieder an die Anlage zurück. Wo genau es eingebaut wird, hängt von der jeweiligen Anlage ab.",
+    "de_script": "Genau dafür gibt es das MAG. Es nimmt zusätzliches Wasservolumen beim Erwärmen auf und gibt beim Abkühlen Wasser wieder an die Anlage zurück. Wo genau es eingebaut wird, hängt von der jeweiligen Anlage ab.",
+    "sq": "Për këtë përdoret MAG-u. Ai merr vëllimin shtesë kur sistemi nxehet, dhe ndihmon që uji të kthehet në sistem kur ai ftohet. Ku montohet saktësisht, varet nga sistemi konkret."
+  },
+  "s04": {
+    "de": "Im M-A-G gibt es zwei Bereiche: die Wasserseite und die Gasseite mit dem Gaspolster. Dazwischen befindet sich eine Membran. Sie trennt Wasser und Gas voneinander.",
+    "de_script": "Im MAG gibt es zwei Bereiche: die Wasserseite und die Gasseite mit dem Gaspolster. Dazwischen befindet sich eine Membran. Sie trennt Wasser und Gas voneinander.",
+    "sq": "Brenda MAG-ut ndodhen dy zona. Njëra është ana e ujit, tjetra ana e gazit, me jastëkun e gazit. Midis tyre ndodhet membrana. Ajo i ndan plotësisht ujin dhe gazin."
+  },
+  "s05": {
+    "de": "Wenn das Wasser wärmer wird, dehnt es sich aus. Zusätzliches Wasservolumen gelangt in das M-A-G. Das Wasser drückt die Membran zur Gasseite. Der Gasraum wird kleiner, und das Gas wird komprimiert.",
+    "de_script": "Wenn das Wasser wärmer wird, dehnt es sich aus. Zusätzliches Wasservolumen gelangt in das MAG. Das Wasser drückt die Membran zur Gasseite. Der Gasraum wird kleiner, und das Gas wird komprimiert.",
+    "sq": "Kur uji nxehet, ai zgjerohet. Një pjesë e vëllimit shtesë hyn në MAG. Uji shtyn membranën. Hapësira e gazit bëhet më e vogël, dhe gazi komprimohet."
+  },
+  "s06": {
+    "de": "Beim Abkühlen passiert das Gegenteil. Das Gas dehnt sich wieder aus, bewegt die Membran zurück und drückt Wasser wieder in die Heizungsanlage. Also: Warm, Wasser ins M-A-G. Kalt, Wasser zurück in die Anlage.",
+    "de_script": "Beim Abkühlen passiert das Gegenteil. Das Gas dehnt sich wieder aus, bewegt die Membran zurück und drückt Wasser wieder in die Heizungsanlage. Also: Warm, Wasser ins MAG. Kalt, Wasser zurück in die Anlage.",
+    "sq": "Kur sistemi ftohet, ndodh e kundërta. Gazi zgjerohet përsëri dhe shtyn membranën mbrapsht. Kështu uji kthehet në sistem. Pra: ngrohtë, uji hyn në MAG. Ftohtë, uji kthehet në sistem."
+  },
+  "s07": {
+    "de": "Ohne ausreichenden Platz für die Ausdehnung würde der Druck beim Erwärmen stark steigen. Das M-A-G hilft dabei, normale Druckänderungen zu begrenzen. Zwischen kalter und warmer Anlage darf sich der Druck verändern. Er bleibt nicht immer exakt gleich.",
+    "de_script": "Ohne ausreichenden Platz für die Ausdehnung würde der Druck beim Erwärmen stark steigen. Das MAG hilft dabei, normale Druckänderungen zu begrenzen. Zwischen kalter und warmer Anlage darf sich der Druck verändern. Er bleibt nicht immer exakt gleich.",
+    "sq": "Pa hapësirë të mjaftueshme për zgjerimin, presioni do të rritej shumë gjatë ngrohjes. MAG-u ndihmon të kufizohen ndryshimet normale të presionit. Presioni mund të ndryshojë ndërmjet sistemit të ftohtë dhe të ngrohtë. Ai nuk mbetet gjithmonë saktësisht i njëjtë."
+  },
+  "s08": {
+    "de": "Zwei Begriffe sind wichtig. Der Anlagendruck ist der Druck auf der Wasserseite, also im Heizsystem. Der Vordruck ist der Druck auf der Gasseite des M-A-G. Anlagendruck und Vordruck sind nicht dasselbe.",
+    "de_script": "Zwei Begriffe sind wichtig. Der Anlagendruck ist der Druck auf der Wasserseite, also im Heizsystem. Der Vordruck ist der Druck auf der Gasseite des MAG. Anlagendruck und Vordruck sind nicht dasselbe.",
+    "sq": "Dy nocione janë të rëndësishme. Presioni i sistemit është presioni në anën e ujit, pra në sistemin e ngrohjes. Presioni paraprak është presioni në anën e gazit të MAG-ut. Presioni i sistemit dhe presioni paraprak nuk janë e njëjta gjë."
+  },
+  "s09": {
+    "de": "Ist die Verbindung zwischen Anlage und M-A-G geschlossen, kann das M-A-G seine Aufgabe nicht richtig erfüllen. Die Verbindung muss offen sein.",
+    "de_script": "Ist die Verbindung zwischen Anlage und MAG geschlossen, kann das MAG seine Aufgabe nicht richtig erfüllen. Die Verbindung muss offen sein.",
+    "sq": "Nëse lidhja ndërmjet sistemit dhe MAG-ut është e mbyllur, MAG-u nuk mund ta kryejë siç duhet funksionin e tij. Lidhja duhet të jetë e hapur."
+  },
+  "s10": {
+    "de": "Größer ist nicht automatisch besser. Größe und Vordruck müssen zur jeweiligen Anlage passen. Das ergibt sich aus Planung, Berechnung und Herstellervorgaben.",
+    "sq": "Më i madh nuk do të thotë automatikisht më mirë. Madhësia dhe presioni paraprak duhet të përshtaten me sistemin konkret. Këto përcaktohen nga projektimi, llogaritja dhe udhëzimet e prodhuesit."
+  },
+  "s11": {
+    "de": "Vor der Prüfung muss klar sein, in welchem Zustand sich die Anlage befindet. Der Vordruck wird entsprechend Wartungsprozedur und Herstellervorgaben geprüft. Dazu wird die Wasserseite druckentlastet. Erst dann wird der Gasvordruck gemessen.",
+    "sq": "Para se të kontrollohet presioni paraprak, duhet kuptuar në çfarë gjendjeje ndodhet sistemi. Kontrolli bëhet sipas procedurës së mirëmbajtjes dhe udhëzimeve të prodhuesit. Për këtë, ana e ujit shkarkohet nga presioni. Vetëm pas kësaj matet presioni paraprak i gazit."
+  },
+  "s12": {
+    "de": "Typische Fehler aus der Praxis. Ist das M-A-G zu klein, steigt der Druck beim Erwärmen deutlich stärker. Ein falscher Vordruck stört die Druckhaltung. Ist das M-A-G abgesperrt, ist es von der Anlage getrennt. Fällt der Druck immer wieder, ist ständiges Nachfüllen keine Lösung. Ursache finden! Das kann am M-A-G liegen, aber auch an einer Undichtigkeit oder an anderen Teilen der Anlage. Starke Druckschwankungen zwischen kalt und warm oder ein tropfendes Sicherheitsventil können Hinweise darauf sein. Und: Das M-A-G muss für Kontrolle und Wartung gut zugänglich sein.",
+    "de_script": "Typische Fehler aus der Praxis. Ist das MAG zu klein, steigt der Druck beim Erwärmen deutlich stärker. Ein falscher Vordruck stört die Druckhaltung. Ist das MAG abgesperrt, ist es von der Anlage getrennt. Fällt der Druck immer wieder, ist ständiges Nachfüllen keine Lösung. Ursache finden! Das kann am MAG liegen, aber auch an einer Undichtigkeit oder an anderen Teilen der Anlage. Starke Druckschwankungen zwischen kalt und warm oder ein tropfendes Sicherheitsventil können Hinweise darauf sein. Und: Das MAG muss für Kontrolle und Wartung gut zugänglich sein.",
+    "sq": "Disa gabime tipike nga praktika. Nëse MAG-u është shumë i vogël, presioni rritet shumë më tepër gjatë ngrohjes. Një presion paraprak i gabuar e prish mbajtjen e presionit. Nëse valvula para MAG-ut është e mbyllur, ai është i shkëputur nga sistemi. Nëse presioni bie vazhdimisht, mbushja e përsëritur me ujë nuk është zgjidhje. Gjej shkakun! Shkaku mund të jetë MAG-u, por edhe një rrjedhje ose pjesë të tjera të sistemit. Ndryshime të mëdha të presionit ndërmjet të ftohtit dhe të ngrohtit, ose një valvulë sigurie që pikon, mund të jenë shenja për këtë. Dhe: MAG-u duhet të jetë lehtësisht i arritshëm për kontroll dhe mirëmbajtje."
+  },
+  "s13": {
+    "de": "So sieht das M-A-G in der Praxis aus. Außen seht ihr das Gehäuse und unten den Anschluss zur Anlage, hier mit Absperrung und Entleerung. Innen arbeitet es genau so, wie ihr es gerade gesehen habt: Wasserseite, Membran und Gaspolster.",
+    "de_script": "So sieht das MAG in der Praxis aus. Außen seht ihr das Gehäuse und unten den Anschluss zur Anlage, hier mit Absperrung und Entleerung. Innen arbeitet es genau so, wie ihr es gerade gesehen habt: Wasserseite, Membran und Gaspolster.",
+    "sq": "Kështu duket MAG-u në praktikë. Nga jashtë shihni trupin e enës, dhe poshtë lidhjen me sistemin, këtu me valvulë mbyllëse dhe shkarkim. Nga brenda funksionon pikërisht ashtu siç e patë: ana e ujit, membrana dhe jastëku i gazit."
+  },
+  "s14": {
+    "de": "M-A-G und Sicherheitsventil haben unterschiedliche Aufgaben. Das M-A-G nimmt normale Volumenänderungen auf. Das Sicherheitsventil schützt die Anlage vor unzulässigem Überdruck. Keines ersetzt das andere.",
+    "de_script": "MAG und Sicherheitsventil haben unterschiedliche Aufgaben. Das MAG nimmt normale Volumenänderungen auf. Das Sicherheitsventil schützt die Anlage vor unzulässigem Überdruck. Keines ersetzt das andere.",
+    "sq": "MAG-u dhe valvula e sigurisë kanë detyra të ndryshme. MAG-u përballon ndryshimet normale të vëllimit. Valvula e sigurisë e mbron sistemin nga presioni i tepërt. Asnjëra nuk e zëvendëson tjetrën."
+  },
+  "s15": {
+    "de": "Zum Schluss noch einmal der ganze Ablauf. Warm: Das Wasser dehnt sich aus, fließt ins M-A-G, die Membran bewegt sich, und das Gas wird komprimiert. Kalt: Das Gas dehnt sich aus, die Membran geht zurück, und das Wasser fließt zurück in die Anlage.",
+    "de_script": "Zum Schluss noch einmal der ganze Ablauf. Warm: Das Wasser dehnt sich aus, fließt ins MAG, die Membran bewegt sich, und das Gas wird komprimiert. Kalt: Das Gas dehnt sich aus, die Membran geht zurück, und das Wasser fließt zurück in die Anlage.",
+    "sq": "Në fund, edhe një herë i gjithë procesi. Ngrohtë: uji zgjerohet, hyn në MAG, membrana lëviz, dhe gazi komprimohet. Ftohtë: gazi zgjerohet, membrana kthehet mbrapsht, dhe uji kthehet në sistem."
+  },
+  "outro": {
+    "de": "Modul 1 abgeschlossen.",
+    "sq": "Moduli 1 përfundoi."
+  }
+}

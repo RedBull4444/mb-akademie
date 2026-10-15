@@ -1,0 +1,908 @@
+{
+ "intro_kicker": {
+  "de": "SHK GRUNDLAGEN",
+  "sq": "BAZAT E SHK-së"
+ },
+ "intro_mod": {
+  "de": "MODUL 10",
+  "sq": "MODULI 10"
+ },
+ "intro_title": {
+  "de": "Wärmepumpen-Hydraulik",
+  "sq": "Hidraulika e pompës së nxehtësisë",
+  "termDe": "Wärmepumpen-Hydraulik"
+ },
+ "intro_sub": {
+  "de": "Puffer · Bypass · Mindestvolumenstrom",
+  "sq": "Depozita · Bypass · Prurja minimale"
+ },
+ "outro_done": {
+  "de": "MODUL 10 ABGESCHLOSSEN",
+  "sq": "MODULI 10 PËRFUNDUAR"
+ },
+ "wp": {
+  "de": "Wärmepumpe",
+  "sq": "Pompa e nxehtësisë",
+  "term": true
+ },
+ "gen_wp": {
+  "de": "Wärmeerzeuger / Wärmepumpe",
+  "sq": "Pajisja / pompa e nxehtësisë",
+  "termDe": "Wärmeerzeuger / Wärmepumpe"
+ },
+ "vl": {
+  "de": "Vorlauf",
+  "sq": "Furnizimi",
+  "term": true
+ },
+ "rl": {
+  "de": "Rücklauf",
+  "sq": "Kthimi",
+  "term": true
+ },
+ "g_vl": {
+  "de": "Vorlauf",
+  "sq": "Furnizimi",
+  "term": true
+ },
+ "g_rl": {
+  "de": "Rücklauf (kühler)",
+  "sq": "Kthimi (më i ftohtë)",
+  "termDe": "Rücklauf"
+ },
+ "hzw": {
+  "de": "Heizungswasser",
+  "sq": "Ujë ngrohjeje",
+  "term": true
+ },
+ "pump": {
+  "de": "Umwälzpumpe",
+  "sq": "Pompa qarkulluese",
+  "term": true
+ },
+ "pump2": {
+  "de": "eigene Pumpe im Verbraucherkreis",
+  "sq": "pompë e veçantë në qarkun e konsumatorëve",
+  "termDe": "Pumpe Verbraucherkreis"
+ },
+ "rvl": {
+  "de": "Raumventile",
+  "sq": "Valvulat e dhomave",
+  "term": true
+ },
+ "buf": {
+  "de": "Pufferspeicher",
+  "sq": "Depozita akumuluese",
+  "term": true
+ },
+ "sbuf": {
+  "de": "Reihenpuffer",
+  "sq": "Depozita në seri",
+  "term": true
+ },
+ "pbuf": {
+  "de": "Parallelpuffer",
+  "sq": "Depozita paralele",
+  "term": true
+ },
+ "ov": {
+  "de": "Überströmventil",
+  "sq": "Valvula e bypass-it",
+  "term": true
+ },
+ "ov_l": {
+  "de": "Differenzdruck-Überströmventil",
+  "sq": "Valvula e bypass-it me presion diferencial",
+  "termDe": "Differenzdruck-Überströmventil"
+ },
+ "byp": {
+  "de": "Bypass",
+  "sq": "Bypass",
+  "term": false
+ },
+ "sv": {
+  "de": "Sicherheitsventil",
+  "sq": "Valvula e sigurisë",
+  "term": true
+ },
+ "vs": {
+  "de": "Volumenstrom",
+  "sq": "Prurja",
+  "term": true
+ },
+ "vol": {
+  "de": "Wasservolumen",
+  "sq": "Vëllimi i ujit",
+  "term": true
+ },
+ "minvs": {
+  "de": "Mindestvolumenstrom (gerätespezifisch)",
+  "sq": "Prurja minimale (sipas pajisjes)",
+  "termDe": "Mindestvolumenstrom"
+ },
+ "minvs_s": {
+  "de": "Volumenstrom durch die Wärmepumpe",
+  "sq": "Prurja përmes pompës",
+  "termDe": "Volumenstrom Wärmepumpe"
+ },
+ "dp": {
+  "de": "Differenzdruck Vorlauf/Rücklauf",
+  "sq": "Diferenca e presionit furnizim/kthim",
+  "termDe": "Differenzdruck"
+ },
+ "gkreis": {
+  "de": "Erzeugerkreis",
+  "sq": "Qarku i prodhuesit",
+  "term": true
+ },
+ "vkreis": {
+  "de": "Verbraucherkreis",
+  "sq": "Qarku i konsumatorëve",
+  "term": true
+ },
+ "principle": {
+  "de": "Prinzipdarstellung – Beispiel, kein Universalschema",
+  "sq": "Paraqitje parimore – shembull, jo skemë universale"
+ },
+ "hersteller": {
+  "de": "Herstellerangaben + freigegebenes Hydraulikschema",
+  "sq": "Të dhënat e prodhuesit + skema hidraulike e lejuar",
+  "termDe": "Herstellerangaben + Hydraulikschema"
+ },
+ "no_val": {
+  "de": "ohne Zahlenwerte – Werte gibt das Gerät vor",
+  "sq": "pa vlera – vlerat i jep pajisja",
+  "termDe": "Werte gibt das Gerät vor"
+ },
+ "h01": {
+  "de": "Die Ausgangssituation",
+  "sq": "Situata fillestare"
+ },
+ "s01_ok": {
+  "de": "alle Raumventile offen – Wasser zirkuliert",
+  "sq": "të gjitha valvulat hapur – uji qarkullon",
+  "termDe": "Wasser zirkuliert"
+ },
+ "q_flow": {
+  "de": "Wasserumlauf?",
+  "sq": "Qarkullimi?",
+  "termDe": "Wasserumlauf"
+ },
+ "q_vol": {
+  "de": "Anlagenvolumen?",
+  "sq": "Vëllimi i sistemit?",
+  "termDe": "Anlagenvolumen"
+ },
+ "h02": {
+  "de": "Volumenstrom und Wasservolumen",
+  "sq": "Prurja dhe vëllimi i ujit"
+ },
+ "vs_d": {
+  "de": "wie viel Wasser sich bewegt",
+  "sq": "sa ujë lëviz",
+  "termDe": "Wasser in Bewegung"
+ },
+ "vol_d": {
+  "de": "wie viel Wasser im System ist",
+  "sq": "sa ujë ka në sistem",
+  "termDe": "Wasser im System"
+ },
+ "usable": {
+  "de": "davon nutzbar?",
+  "sq": "sa është i përdorshëm?",
+  "termDe": "nutzbar?"
+ },
+ "move": {
+  "de": "in Bewegung",
+  "sq": "në lëvizje",
+  "termDe": "in Bewegung"
+ },
+ "stand": {
+  "de": "Inhalt",
+  "sq": "përmbajtja",
+  "termDe": "Inhalt"
+ },
+ "h03": {
+  "de": "Die Wärmepumpe braucht Wasserumlauf",
+  "sq": "Pompa ka nevojë për qarkullim"
+ },
+ "hx": {
+  "de": "Wärmetauscher",
+  "sq": "Shkëmbyesi i nxehtësisë",
+  "term": true
+ },
+ "by_dev": {
+  "de": "je nach Gerät",
+  "sq": "sipas pajisjes",
+  "termDe": "je nach Gerät"
+ },
+ "too_low": {
+  "de": "Umlauf zu stark eingeschränkt",
+  "sq": "qarkullimi tepër i kufizuar",
+  "termDe": "Umlauf zu gering"
+ },
+ "h04": {
+  "de": "Raumventile schließen",
+  "sq": "Valvulat e dhomave mbyllen"
+ },
+ "path_small": {
+  "de": "Strömungsweg wird kleiner",
+  "sq": "rruga e rrjedhjes zvogëlohet",
+  "termDe": "Strömungsweg wird kleiner"
+ },
+ "v_close": {
+  "de": "Ventile schließen nacheinander",
+  "sq": "valvulat mbyllen njëra pas tjetrës",
+  "termDe": "Ventile schließen"
+ },
+ "h05": {
+  "de": "Direkt – ohne Puffer",
+  "sq": "Direkt – pa depozitë"
+ },
+ "cA": {
+  "de": "A · direkter Heizkreis",
+  "sq": "A · qark direkt",
+  "termDe": "direkter Heizkreis"
+ },
+ "c5_1": {
+  "de": "Hersteller gibt das Konzept frei",
+  "sq": "prodhuesi e lejon konceptin",
+  "termDe": "Herstellerfreigabe"
+ },
+ "c5_2": {
+  "de": "Bedingungen jederzeit erfüllt",
+  "sq": "kushtet plotësohen gjithmonë",
+  "termDe": "Bedingungen jederzeit erfüllt"
+ },
+ "not_must": {
+  "de": "Puffer nicht automatisch Pflicht",
+  "sq": "Depozita nuk është automatikisht e detyrueshme",
+  "termDe": "Puffer nicht automatisch Pflicht"
+ },
+ "h06": {
+  "de": "Was ist ein Pufferspeicher?",
+  "sq": "Çfarë është depozita akumuluese?"
+ },
+ "real_ex": {
+  "de": "reales Beispiel",
+  "sq": "shembull real",
+  "termDe": "reales Beispiel"
+ },
+ "dhw": {
+  "de": "Trinkwarmwasserspeicher",
+  "sq": "Depozita e ujit të ngrohtë sanitar",
+  "termDe": "Trinkwarmwasserspeicher"
+ },
+ "dhw_s": {
+  "de": "Trinkwasser",
+  "sq": "ujë i pijshëm",
+  "termDe": "Trinkwasser"
+ },
+ "hzw_not": {
+  "de": "Heizungswasser – kein Trinkwasserspeicher",
+  "sq": "Ujë ngrohjeje – jo depozitë uji të pijshëm",
+  "termDe": "Heizungswasser – kein Trinkwasserspeicher"
+ },
+ "plus_vol": {
+  "de": "+ Wasservolumen",
+  "sq": "+ vëllim uji",
+  "termDe": "+ Wasservolumen"
+ },
+ "plus_th": {
+  "de": "+ thermische Speicherfähigkeit",
+  "sq": "+ kapacitet termik",
+  "termDe": "+ Speicherfähigkeit"
+ },
+ "h07": {
+  "de": "Wofür kann ein Puffer dienen?",
+  "sq": "Për çfarë mund të shërbejë depozita?"
+ },
+ "f_a": {
+  "de": "zusätzliches Wasservolumen",
+  "sq": "vëllim shtesë uji",
+  "termDe": "zusätzliches Wasservolumen"
+ },
+ "f_b": {
+  "de": "Betriebsbedingungen unterstützen",
+  "sq": "mbështet kushtet e punës",
+  "termDe": "Betriebsbedingungen unterstützen"
+ },
+ "f_c": {
+  "de": "je nach Schaltung: hydraulisch entkoppeln",
+  "sq": "sipas lidhjes: ndarje hidraulike",
+  "termDe": "hydraulisch entkoppeln"
+ },
+ "by_sys": {
+  "de": "je nach Anlage",
+  "sq": "sipas sistemit",
+  "termDe": "je nach Anlage"
+ },
+ "h08": {
+  "de": "Der Reihenpuffer",
+  "sq": "Depozita në seri"
+ },
+ "common": {
+  "de": "im gemeinsamen Wasserweg",
+  "sq": "në rrugën e përbashkët të ujit",
+  "termDe": "im gemeinsamen Wasserweg"
+ },
+ "seq8": {
+  "de": "Wärmepumpe → Heizkreise → Puffer → zurück",
+  "sq": "Pompa → qarqet → depozita → kthim",
+  "termDe": "gemeinsamer Wasserweg"
+ },
+ "more_in": {
+  "de": "vor allem: mehr Wasserinhalt",
+  "sq": "sidomos: më shumë vëllim uji",
+  "termDe": "mehr Wasserinhalt"
+ },
+ "h09": {
+  "de": "Was der Reihenpuffer nicht automatisch macht",
+  "sq": "Çfarë nuk bën automatikisht depozita në seri"
+ },
+ "all_closed": {
+  "de": "alle Verbraucher zu",
+  "sq": "të gjithë konsumatorët mbyllur",
+  "termDe": "alle Verbraucher zu"
+ },
+ "liters_ok": {
+  "de": "Liter vorhanden",
+  "sq": "litrat janë aty",
+  "termDe": "Liter vorhanden"
+ },
+ "no_path": {
+  "de": "kein offener Strömungsweg",
+  "sq": "asnjë rrugë e hapur rrjedhjeje",
+  "termDe": "kein offener Strömungsweg"
+ },
+ "ne9_l": {
+  "de": "Mehr Liter",
+  "sq": "Më shumë litra",
+  "termDe": "Mehr Liter"
+ },
+ "ne9_r": {
+  "de": "automatisch offener Wasserweg",
+  "sq": "automatikisht rrugë e hapur",
+  "termDe": "offener Wasserweg"
+ },
+ "h10": {
+  "de": "Der Parallelpuffer",
+  "sq": "Depozita paralele"
+ },
+ "decoupled": {
+  "de": "hydraulisch entkoppelt",
+  "sq": "të ndarë hidraulikisht",
+  "termDe": "hydraulisch entkoppelt"
+ },
+ "if_needed": {
+  "de": "wenn das Prinzip sie benötigt",
+  "sq": "nëse parimi e kërkon",
+  "termDe": "je nach Prinzip"
+ },
+ "h11": {
+  "de": "Zwei unterschiedliche Volumenströme",
+  "sq": "Dy prurje të ndryshme"
+ },
+ "stays": {
+  "de": "bleibt im eigenen Kreis",
+  "sq": "mbetet në qarkun e vet",
+  "termDe": "eigener Kreis"
+ },
+ "varies": {
+  "de": "ändert sich mit den Ventilen",
+  "sq": "ndryshon me valvulat",
+  "termDe": "ändert sich"
+ },
+ "h12": {
+  "de": "Reihenpuffer und Parallelpuffer",
+  "sq": "Depozita në seri dhe paralele"
+ },
+ "r1": {
+  "de": "mehr Wasservolumen",
+  "sq": "më shumë vëllim uji",
+  "termDe": "mehr Wasservolumen"
+ },
+ "r2": {
+  "de": "keine gleiche hydraulische Entkopplung",
+  "sq": "jo e njëjta ndarje hidraulike",
+  "termDe": "keine Entkopplung"
+ },
+ "p1": {
+  "de": "Wasservolumen",
+  "sq": "vëllim uji",
+  "termDe": "Wasservolumen"
+ },
+ "p2": {
+  "de": "+ hydraulische Entkopplung möglich",
+  "sq": "+ ndarje hidraulike e mundshme",
+  "termDe": "+ Entkopplung möglich"
+ },
+ "no_best": {
+  "de": "keine Variante ist immer besser",
+  "sq": "asnjë variant nuk është gjithmonë më i mirë",
+  "termDe": "keine Variante ist immer besser"
+ },
+ "h13": {
+  "de": "Nicht automatisch effizienter",
+  "sq": "Jo automatikisht më efikase"
+ },
+ "too_big": {
+  "de": "unnötig groß",
+  "sq": "tepër e madhe",
+  "termDe": "unnötig groß"
+ },
+ "too_hot": {
+  "de": "unnötig heiß",
+  "sq": "pa nevojë shumë e nxehtë",
+  "termDe": "unnötig heiß"
+ },
+ "losses": {
+  "de": "zusätzliche Wärmeverluste",
+  "sq": "humbje shtesë nxehtësie",
+  "termDe": "zusätzliche Wärmeverluste"
+ },
+ "h14": {
+  "de": "Keine Liter-pro-kW-Faustregel",
+  "sq": "Asnjë rregull litra për kW"
+ },
+ "lkw": {
+  "de": "x Liter / kW",
+  "sq": "x litra / kW",
+  "termDe": "x Liter / kW"
+ },
+ "size_by": {
+  "de": "Größe nach System + Herstellerangaben",
+  "sq": "madhësia sipas sistemit + prodhuesit",
+  "termDe": "nach System + Hersteller"
+ },
+ "h15": {
+  "de": "Abtauung bei Luft-Wasser-Wärmepumpen",
+  "sq": "Shkrirja te pompat ajër-ujë"
+ },
+ "odu": {
+  "de": "Außeneinheit",
+  "sq": "Njësia e jashtme",
+  "term": true
+ },
+ "ice": {
+  "de": "Vereisung",
+  "sq": "Akullimi",
+  "term": true
+ },
+ "defrost": {
+  "de": "Abtauung: Energie aus dem Heizsystem",
+  "sq": "Shkrirja: energji nga sistemi i ngrohjes",
+  "termDe": "Energie für die Abtauung"
+ },
+ "d_amount": {
+  "de": "welche Wassermenge?",
+  "sq": "sa ujë?",
+  "termDe": "Wassermenge?"
+ },
+ "d_cond": {
+  "de": "welche hydraulischen Bedingungen?",
+  "sq": "cilat kushte hidraulike?",
+  "termDe": "hydraulische Bedingungen?"
+ },
+ "dev_says": {
+  "de": "gibt das konkrete Gerät vor",
+  "sq": "i përcakton pajisja konkrete",
+  "termDe": "gibt das Gerät vor"
+ },
+ "no_kk": {
+  "de": "nur hydraulisch erklärt – kein Kältekreis",
+  "sq": "vetëm hidraulikisht – pa qarkun ftohës",
+  "termDe": "nur hydraulisch erklärt"
+ },
+ "h16": {
+  "de": "Nennliter allein reichen nicht",
+  "sq": "Litrat nominalë vetëm nuk mjaftojnë"
+ },
+ "nominal": {
+  "de": "Nennvolumen",
+  "sq": "Vëllimi nominal",
+  "term": true
+ },
+ "n_usable": {
+  "de": "hydraulisch nutzbares Volumen?",
+  "sq": "vëllimi i përdorshëm hidraulikisht?",
+  "termDe": "nutzbares Volumen?"
+ },
+ "n_flow": {
+  "de": "Wasserumlauf gewährleistet?",
+  "sq": "qarkullimi i siguruar?",
+  "termDe": "Wasserumlauf gewährleistet?"
+ },
+ "n_proof": {
+  "de": "Literzahl ist kein Nachweis der Abtaufähigkeit",
+  "sq": "numri i litrave nuk provon shkrirjen",
+  "termDe": "kein Nachweis der Abtaufähigkeit"
+ },
+ "h17": {
+  "de": "Das Differenzdruck-Überströmventil",
+  "sq": "Valvula e bypass-it me presion diferencial"
+ },
+ "in_byp": {
+  "de": "im Bypass zwischen Vor- und Rücklauf",
+  "sq": "në bypass midis furnizimit dhe kthimit",
+  "termDe": "Bypass zwischen VL und RL"
+ },
+ "some_concepts": {
+  "de": "nur in bestimmten Hydraulikkonzepten",
+  "sq": "vetëm në disa koncepte hidraulike",
+  "termDe": "bestimmte Hydraulikkonzepte"
+ },
+ "h18": {
+  "de": "Normalbetrieb",
+  "sq": "Funksionimi normal"
+ },
+ "via_cons": {
+  "de": "Wasser fließt über die Verbraucher",
+  "sq": "uji kalon përmes konsumatorëve",
+  "termDe": "über die Verbraucher"
+ },
+ "byp_closed": {
+  "de": "Bypass zu",
+  "sq": "Bypass mbyllur",
+  "termDe": "Bypass zu"
+ },
+ "h19": {
+  "de": "Ventile schließen – Differenzdruck steigt",
+  "sq": "Valvulat mbyllen – diferenca e presionit rritet"
+ },
+ "pump_on": {
+  "de": "Pumpe fördert weiter",
+  "sq": "pompa vazhdon të punojë",
+  "termDe": "Pumpe fördert weiter"
+ },
+ "dep_ctrl": {
+  "de": "je nach Pumpenregelung und Hydraulik",
+  "sq": "sipas rregullimit të pompës dhe hidraulikës",
+  "termDe": "je nach Pumpenregelung"
+ },
+ "h20": {
+  "de": "Der Bypass öffnet",
+  "sq": "Bypass-i hapet"
+ },
+ "open_range": {
+  "de": "Öffnungsbereich erreicht",
+  "sq": "zona e hapjes u arrit",
+  "termDe": "Öffnungsbereich"
+ },
+ "internal": {
+  "de": "interner Weg: Vorlauf → Rücklauf",
+  "sq": "rrugë e brendshme: furnizim → kthim",
+  "termDe": "intern VL → RL"
+ },
+ "spring": {
+  "de": "Feder",
+  "sq": "Susta",
+  "term": true
+ },
+ "disc": {
+  "de": "Ventilteller",
+  "sq": "Disku i valvulës",
+  "term": true
+ },
+ "setk": {
+  "de": "Einstellung",
+  "sq": "Rregullimi",
+  "term": true
+ },
+ "h21": {
+  "de": "Kein Sicherheitsventil",
+  "sq": "Nuk është valvul sigurie"
+ },
+ "sv_d": {
+  "de": "unzulässiger Druck → Wasser nach außen",
+  "sq": "presion i palejuar → ujë jashtë",
+  "termDe": "Wasser nach außen"
+ },
+ "ov_d": {
+  "de": "Wasser bleibt im System",
+  "sq": "uji mbetet në sistem",
+  "termDe": "Wasser bleibt im System"
+ },
+ "sv_own": {
+  "de": "Sicherheitsventil bleibt eigene Sicherheitseinrichtung",
+  "sq": "Valvula e sigurisë mbetet pajisje e veçantë sigurie",
+  "termDe": "eigene Sicherheitseinrichtung"
+ },
+ "h22": {
+  "de": "Zu weit offen",
+  "sq": "Tepër e hapur"
+ },
+ "too_early": {
+  "de": "öffnet zu früh / zu weit",
+  "sq": "hapet shumë herët / shumë",
+  "termDe": "zu früh / zu weit"
+ },
+ "short": {
+  "de": "hydraulischer Kurzschluss",
+  "sq": "shkurtim hidraulik",
+  "termDe": "hydraulischer Kurzschluss"
+ },
+ "less_cons": {
+  "de": "Verbraucher bekommen weniger",
+  "sq": "konsumatorët marrin më pak",
+  "termDe": "weniger zu den Verbrauchern"
+ },
+ "warm_rl": {
+  "de": "Rücklauf relativ warm",
+  "sq": "kthimi relativisht i ngrohtë",
+  "termDe": "warmer Rücklauf"
+ },
+ "h23": {
+  "de": "Zu weit geschlossen",
+  "sq": "Tepër e mbyllur"
+ },
+ "stays_closed": {
+  "de": "Bypass bleibt zu",
+  "sq": "Bypass-i mbetet i mbyllur",
+  "termDe": "Bypass bleibt zu"
+ },
+ "flow_crit": {
+  "de": "Volumenstrom kritisch",
+  "sq": "prurja kritike",
+  "termDe": "Volumenstrom kritisch"
+ },
+ "h24": {
+  "de": "Nicht nach Anlagenfülldruck einstellen",
+  "sq": "Mos e rregullo sipas presionit të mbushjes"
+ },
+ "fillp": {
+  "de": "Anlagenfülldruck",
+  "sq": "Presioni i mbushjes",
+  "term": true
+ },
+ "not_same": {
+  "de": "NICHT DASSELBE",
+  "sq": "NUK ËSHTË E NJËJTA",
+  "termDe": "NICHT DASSELBE"
+ },
+ "set_by": {
+  "de": "Einstellung nach Pumpenkennlinie + Hydraulik",
+  "sq": "rregullimi sipas karakteristikës së pompës + hidraulikës",
+  "termDe": "nach Pumpenkennlinie + Hydraulik"
+ },
+ "no_transfer": {
+  "de": "Skalenwerte nicht auf andere Produkte übertragen",
+  "sq": "vlerat e shkallës nuk barten te produkte të tjera",
+  "termDe": "Skalenwerte nicht übertragen"
+ },
+ "h25": {
+  "de": "Bauteil allein reicht nicht",
+  "sq": "Vetëm komponenti nuk mjafton"
+ },
+ "ne25_l": {
+  "de": "Bauteil vorhanden",
+  "sq": "komponenti ekziston",
+  "termDe": "Bauteil vorhanden"
+ },
+ "ne25_r": {
+  "de": "Funktion nachgewiesen",
+  "sq": "funksioni i provuar",
+  "termDe": "Funktion nachgewiesen"
+ },
+ "together": {
+  "de": "Bypass + Pumpe + Hydraulik gemeinsam auslegen",
+  "sq": "bypass + pompa + hidraulika së bashku",
+  "termDe": "gemeinsam auslegen"
+ },
+ "h26": {
+  "de": "Drei mögliche Grundkonzepte",
+  "sq": "Tri koncepte bazë të mundshme"
+ },
+ "k_a": {
+  "de": "A · direkt",
+  "sq": "A · direkt",
+  "termDe": "direkt"
+ },
+ "k_b": {
+  "de": "B · Reihenpuffer + gesicherter Weg",
+  "sq": "B · seri + rrugë e siguruar",
+  "termDe": "Reihenpuffer + Strömungsweg"
+ },
+ "k_c": {
+  "de": "C · Parallelpuffer",
+  "sq": "C · depozitë paralele",
+  "termDe": "Parallelpuffer"
+ },
+ "ka_d": {
+  "de": "kein Puffer – Hydraulik erfüllt Bedingungen",
+  "sq": "pa depozitë – hidraulika i plotëson kushtet",
+  "termDe": "kein Puffer"
+ },
+ "kb_d": {
+  "de": "Wasservolumen + Bypass oder andere freigegebene Lösung",
+  "sq": "vëllim uji + bypass ose zgjidhje tjetër e lejuar",
+  "termDe": "Wasservolumen + gesicherter Weg"
+ },
+ "kc_d": {
+  "de": "hydraulische Entkopplung, eigener Erzeugerkreis",
+  "sq": "ndarje hidraulike, qark i vetë prodhuesit",
+  "termDe": "Entkopplung"
+ },
+ "sys_dec": {
+  "de": "das konkrete Wärmepumpensystem entscheidet",
+  "sq": "vendos sistemi konkret i pompës",
+  "termDe": "das konkrete System entscheidet"
+ },
+ "h27": {
+  "de": "Typische Fehler",
+  "sq": "Gabime tipike"
+ },
+ "e1": {
+  "de": "„Jede Wärmepumpe braucht einen Puffer“",
+  "sq": "„Çdo pompë ka nevojë për depozitë“",
+  "termDe": "jede WP braucht Puffer"
+ },
+ "e2": {
+  "de": "„Ohne Puffer ist immer effizienter“",
+  "sq": "„Pa depozitë është gjithmonë më efikase“",
+  "termDe": "ohne Puffer immer effizienter"
+ },
+ "e3": {
+  "de": "Reihenpuffer mit Entkopplung verwechselt",
+  "sq": "Seria ngatërrohet me ndarjen",
+  "termDe": "Reihe statt Entkopplung"
+ },
+ "e4": {
+  "de": "Nennliter = Mindestvolumenstrom",
+  "sq": "Litrat nominalë = prurja minimale",
+  "termDe": "Nennliter = Mindestvolumenstrom"
+ },
+ "e5": {
+  "de": "Großer Speicher ohne Auslegung",
+  "sq": "Depozitë e madhe pa dimensionim",
+  "termDe": "ohne Auslegung"
+ },
+ "e6": {
+  "de": "Puffer unnötig heiß",
+  "sq": "Depozita pa nevojë shumë e nxehtë",
+  "termDe": "unnötig heiß"
+ },
+ "e7": {
+  "de": "Überströmventil mit Sicherheitsventil verwechselt",
+  "sq": "Valvula e bypass-it ngatërrohet me valvulën e sigurisë",
+  "termDe": "ÜV mit SV verwechselt"
+ },
+ "e8": {
+  "de": "Überströmventil dauerhaft weit offen",
+  "sq": "Valvula e bypass-it gjithmonë shumë e hapur",
+  "termDe": "dauerhaft weit offen"
+ },
+ "e9": {
+  "de": "Überströmventil zu weit geschlossen",
+  "sq": "Valvula e bypass-it tepër e mbyllur",
+  "termDe": "zu weit geschlossen"
+ },
+ "e10": {
+  "de": "Nach Anlagenfülldruck eingestellt",
+  "sq": "E rregulluar sipas presionit të mbushjes",
+  "termDe": "nach Fülldruck eingestellt"
+ },
+ "e11": {
+  "de": "„Bypass vorhanden = Mindestvolumenstrom garantiert“",
+  "sq": "„Ka bypass = prurja minimale e garantuar“",
+  "termDe": "Bypass = garantiert?"
+ },
+ "e12": {
+  "de": "Abtaufähigkeit nur über Puffervolumen behauptet",
+  "sq": "Shkrirja pretendohet vetëm nga vëllimi",
+  "termDe": "nur über Puffervolumen"
+ },
+ "x1": {
+  "de": "Herstellerhydraulik prüfen",
+  "sq": "kontrollo hidraulikën e prodhuesit",
+  "termDe": "Herstellerhydraulik prüfen"
+ },
+ "x2": {
+  "de": "System muss Bedingungen erfüllen",
+  "sq": "sistemi duhet t’i plotësojë kushtet",
+  "termDe": "Bedingungen erfüllen"
+ },
+ "x4": {
+  "de": "Volumen ist nicht Volumenstrom",
+  "sq": "vëllimi nuk është prurje",
+  "termDe": "Volumen ist nicht Volumenstrom"
+ },
+ "x12": {
+  "de": "nutzbares Volumen + Hydraulik prüfen",
+  "sq": "kontrollo vëllimin e përdorshëm + hidraulikën",
+  "termDe": "nutzbares Volumen + Hydraulik"
+ },
+ "h28": {
+  "de": "Auf der Baustelle",
+  "sq": "Në kantier"
+ },
+ "c28a": {
+  "de": "Heizungswasser / zusätzliches Wasservolumen",
+  "sq": "ujë ngrohjeje / vëllim shtesë uji",
+  "termDe": "Heizungswasser / Wasservolumen"
+ },
+ "c28b": {
+  "de": "Bypass bei Differenzdruck",
+  "sq": "bypass me diferencë presioni",
+  "termDe": "Bypass bei Differenzdruck"
+ },
+ "q28a": {
+  "de": "Welche Aufgabe hat er hier?",
+  "sq": "Çfarë detyre ka këtu?",
+  "termDe": "Welche Aufgabe?"
+ },
+ "q28b": {
+  "de": "Wann öffnet der Bypass – welcher Volumenstrom?",
+  "sq": "Kur hapet – çfarë prurjeje?",
+  "termDe": "Wann öffnen – welcher Volumenstrom?"
+ },
+ "ex_buf": {
+  "de": "Beispiel: Pufferspeicher (Buderus)",
+  "sq": "Shembull: depozitë akumuluese (Buderus)",
+  "termDe": "Beispiel Pufferspeicher"
+ },
+ "ex_ov": {
+  "de": "Beispiel: Differenzdruck-Überströmventil (Caleffi)",
+  "sq": "Shembull: valvul bypass-i (Caleffi)",
+  "termDe": "Beispiel Überströmventil"
+ },
+ "h29": {
+  "de": "Merke dir",
+  "sq": "Mbaje mend"
+ },
+ "chk": {
+  "de": "So gehst du vor",
+  "sq": "Si vepron",
+  "termDe": "Vorgehen"
+ },
+ "l1": {
+  "de": "WP braucht gerätespezifische Bedingungen",
+  "sq": "pompa ka kushte sipas pajisjes",
+  "termDe": "gerätespezifische Bedingungen"
+ },
+ "l2": {
+  "de": "Volumenstrom + Wasservolumen getrennt prüfen",
+  "sq": "kontrollo veç prurjen + vëllimin",
+  "termDe": "getrennt prüfen"
+ },
+ "l3": {
+  "de": "Hydraulikkonzept auswählen",
+  "sq": "zgjidh konceptin hidraulik",
+  "termDe": "Hydraulikkonzept auswählen"
+ },
+ "l4": {
+  "de": "direkt / Reihenpuffer / Parallelpuffer",
+  "sq": "direkt / seri / paralele",
+  "termDe": "direkt / Reihe / parallel"
+ },
+ "l5": {
+  "de": "Strömungsweg bei schließenden Ventilen sichern",
+  "sq": "siguro rrugën kur mbyllen valvulat",
+  "termDe": "Strömungsweg sichern"
+ },
+ "l6": {
+  "de": "Überströmventil nur in passender Hydraulik",
+  "sq": "valvula e bypass-it vetëm në hidraulikë të përshtatshme",
+  "termDe": "nur in passender Hydraulik"
+ },
+ "l7": {
+  "de": "Bypass richtig auslegen / einstellen",
+  "sq": "dimensiono / rregullo bypass-in saktë",
+  "termDe": "auslegen / einstellen"
+ },
+ "l8": {
+  "de": "Abtau- und Betriebsbedingungen prüfen",
+  "sq": "kontrollo kushtet e shkrirjes dhe punës",
+  "termDe": "Abtau- + Betriebsbedingungen"
+ },
+ "l9": {
+  "de": "Gesamtfunktion messen + kontrollieren",
+  "sq": "mat + kontrollo funksionin e plotë",
+  "termDe": "Gesamtfunktion prüfen"
+ },
+ "fin": {
+  "de": "Wasservolumen · Volumenstrom · Hydraulik – nur gemeinsam",
+  "sq": "Vëllimi i ujit · prurja · hidraulika – vetëm së bashku",
+  "termDe": "nur gemeinsam"
+ }
+}

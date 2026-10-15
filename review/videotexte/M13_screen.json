@@ -1,0 +1,695 @@
+{
+ "intro_kicker": {
+  "de": "SHK GRUNDLAGEN",
+  "sq": "BAZAT E SHK-së"
+ },
+ "intro_mod": {
+  "de": "MODUL 13",
+  "sq": "MODULI 13"
+ },
+ "intro_title": {
+  "de": "Mischerkreis",
+  "sq": "Qarku me përzierje",
+  "termDe": "Mischerkreis"
+ },
+ "intro_sub": {
+  "de": "Mischer · Pumpe · Fühler · Regelung",
+  "sq": "Përzierësi · Pompa · Sensori · Kontrolli"
+ },
+ "outro_done": {
+  "de": "MODUL 13 ABGESCHLOSSEN",
+  "sq": "MODULI 13 PËRFUNDUAR"
+ },
+ "principle": {
+  "de": "Prinzipdarstellung – Beispiel, keine Auslegung",
+  "sq": "Paraqitje parimore – shembull, jo dimensionim"
+ },
+ "mischer": {
+  "de": "Mischer",
+  "sq": "Përzierësi",
+  "term": true
+ },
+ "dwm": {
+  "de": "Dreiwegemischer",
+  "sq": "Përzierës me tri rrugë",
+  "term": true
+ },
+ "motor": {
+  "de": "Stellmotor",
+  "sq": "Motori",
+  "term": true
+ },
+ "pumpe": {
+  "de": "Heizkreispumpe",
+  "sq": "Pompa e qarkut",
+  "term": true
+ },
+ "fuehler": {
+  "de": "Vorlauffühler",
+  "sq": "Sensori i furnizimit",
+  "term": true
+ },
+ "fuehler_s": {
+  "de": "Fühler",
+  "sq": "Sensori",
+  "term": true
+ },
+ "regelung": {
+  "de": "Regelung",
+  "sq": "Kontrolli",
+  "term": true
+ },
+ "regler": {
+  "de": "Regler",
+  "sq": "Kontrolli",
+  "termDe": "Regler"
+ },
+ "erzeuger": {
+  "de": "Wärmeerzeuger",
+  "sq": "Prodhuesi i nxehtësisë",
+  "term": true
+ },
+ "wp": {
+  "de": "Wärmepumpe",
+  "sq": "Pompa e nxehtësisë",
+  "term": true
+ },
+ "heizkreis": {
+  "de": "Heizkreis",
+  "sq": "Qarku i ngrohjes",
+  "term": true
+ },
+ "hot": {
+  "de": "heißeres Wasser · Erzeugerseite",
+  "sq": "ujë më i ngrohtë · nga prodhuesi",
+  "termDe": "Erzeugerseite"
+ },
+ "ret": {
+  "de": "kühleres Rücklaufwasser · aus dem Heizkreis",
+  "sq": "ujë më i ftohtë i kthimit · nga qarku",
+  "termDe": "Rücklaufwasser"
+ },
+ "mixed": {
+  "de": "gemischter Vorlauf",
+  "sq": "furnizimi i përzier",
+  "term": true
+ },
+ "mp": {
+  "de": "Mischpunkt",
+  "sq": "Pika e përzierjes",
+  "term": true
+ },
+ "kr1": {
+  "de": "Kreis 1",
+  "sq": "Qarku 1"
+ },
+ "kr2": {
+  "de": "Kreis 2",
+  "sq": "Qarku 2"
+ },
+ "ex_hsm": {
+  "de": "Beispiel: Heizkreis-Set mit Mischer",
+  "sq": "Shembull: grup qarku me përzierës",
+  "termDe": "Heizkreis-Set mit Mischer"
+ },
+ "ex_hsm_b": {
+  "de": "Buderus HSM25/6",
+  "sq": "Buderus HSM25/6"
+ },
+ "ex_mix": {
+  "de": "Beispiel: Mischer mit Stellmotor",
+  "sq": "Shembull: përzierës me motor",
+  "termDe": "Mischer mit Stellmotor"
+ },
+ "ex_mix_b": {
+  "de": "ESBE VRG130-Serie + Stellmotor ARA600-Serie",
+  "sq": "ESBE seria VRG130 + motor seria ARA600"
+ },
+ "h01": {
+  "de": "Die reale Baugruppe",
+  "sq": "Grupi real"
+ },
+ "c01a": {
+  "de": "eigene, passende Vorlauftemperatur",
+  "sq": "temperaturë e vet e përshtatshme e furnizimit",
+  "termDe": "eigene Vorlauftemperatur"
+ },
+ "h02": {
+  "de": "Warum überhaupt mischen?",
+  "sq": "Pse përzierje?"
+ },
+ "c02a": {
+  "de": "unterschiedliche Vorlauftemperaturen",
+  "sq": "temperatura të ndryshme furnizimi",
+  "termDe": "unterschiedliche Vorlauftemperaturen"
+ },
+ "c02b": {
+  "de": "Mischerkreis: niedrigere, passende Temperatur",
+  "sq": "Qarku me përzierje: temperaturë më e ulët, e përshtatshme",
+  "termDe": "niedrigere, passende Temperatur"
+ },
+ "h03": {
+  "de": "Die zwei Wasserströme",
+  "sq": "Dy rrjedhat e ujit"
+ },
+ "h04": {
+  "de": "Die Mischtemperatur",
+  "sq": "Temperatura e përzier"
+ },
+ "c04": {
+  "de": "heißer + kühler → gemischter Vorlauf",
+  "sq": "më i ngrohtë + më i ftohtë → furnizim i përzier",
+  "termDe": "gemischter Vorlauf"
+ },
+ "h05": {
+  "de": "Nicht einfach der Mittelwert",
+  "sq": "Jo thjesht mesatarja"
+ },
+ "c05a": {
+  "de": "nicht einfach der Mittelwert",
+  "sq": "jo thjesht mesatarja",
+  "termDe": "kein einfacher Mittelwert"
+ },
+ "c05b": {
+  "de": "entscheidend: wie viel Wasser aus jedem Strom",
+  "sq": "vendos: sa ujë vjen nga secila rrjedhë",
+  "termDe": "Mischungsverhältnis"
+ },
+ "q_hot": {
+  "de": "Menge heiß",
+  "sq": "Sasia e nxehtë",
+  "termDe": "Menge heiß"
+ },
+ "q_ret": {
+  "de": "Menge Rücklauf",
+  "sq": "Sasia e kthimit",
+  "termDe": "Menge Rücklauf"
+ },
+ "h06": {
+  "de": "Der Dreiwegemischer",
+  "sq": "Përzierësi me tri rrugë"
+ },
+ "zul": {
+  "de": "Zulauf",
+  "sq": "Hyrje",
+  "term": true
+ },
+ "abg": {
+  "de": "Abgang",
+  "sq": "Dalje",
+  "term": true
+ },
+ "stell": {
+  "de": "innere Stellung",
+  "sq": "pozicioni i brendshëm",
+  "term": true
+ },
+ "neutral": {
+  "de": "neutrales Prinzip – keine Herstellermechanik, Anordnung nur beispielhaft",
+  "sq": "parim neutral – jo mekanikë e prodhuesit, renditja vetëm shembull",
+  "termDe": "neutrales Prinzip"
+ },
+ "h07": {
+  "de": "Mehr heißes Wasser",
+  "sq": "Më shumë ujë i nxehtë"
+ },
+ "c07": {
+  "de": "mehr heißes Erzeugerwasser",
+  "sq": "më shumë ujë i nxehtë nga prodhuesi",
+  "termDe": "mehr Erzeugerwasser"
+ },
+ "h08": {
+  "de": "Mehr Rücklaufbeimischung",
+  "sq": "Më shumë ujë i kthimit"
+ },
+ "c08": {
+  "de": "mehr kühles Rücklaufwasser",
+  "sq": "më shumë ujë i ftohtë i kthimit",
+  "termDe": "mehr Rücklaufbeimischung"
+ },
+ "warmer": {
+  "de": "wärmer",
+  "sq": "më ngrohtë",
+  "term": true
+ },
+ "cooler": {
+  "de": "kühler",
+  "sq": "më ftohtë",
+  "term": true
+ },
+ "h09": {
+  "de": "Der Stellmotor",
+  "sq": "Motori"
+ },
+ "c09": {
+  "de": "Stellmotor bewegt den Mischer",
+  "sq": "motori lëviz përzierësin",
+  "termDe": "Stellmotor → Mischer"
+ },
+ "h10": {
+  "de": "Der Vorlauffühler",
+  "sq": "Sensori i furnizimit"
+ },
+ "c10a": {
+  "de": "Welche Temperatur geht wirklich zum Heizkreis?",
+  "sq": "Çfarë temperature shkon realisht drejt qarkut?",
+  "termDe": "tatsächliche Vorlauftemperatur"
+ },
+ "c10b": {
+  "de": "hinter dem Mischpunkt",
+  "sq": "pas pikës së përzierjes",
+  "termDe": "hinter dem Mischpunkt"
+ },
+ "h11": {
+  "de": "Der Regelkreis",
+  "sq": "Qarku i rregullimit"
+ },
+ "n_soll": {
+  "de": "Soll",
+  "sq": "Vlera e kërkuar",
+  "termDe": "Soll"
+ },
+ "n_ist": {
+  "de": "Ist",
+  "sq": "Vlera reale",
+  "termDe": "Ist"
+ },
+ "n_temp": {
+  "de": "gemischte Vorlauftemperatur",
+  "sq": "temperatura e furnizimit të përzier",
+  "termDe": "Vorlauftemperatur"
+ },
+ "n_mix": {
+  "de": "Mischungsverhältnis",
+  "sq": "raporti i përzierjes",
+  "term": true
+ },
+ "c11": {
+  "de": "Soll und Ist vergleichen",
+  "sq": "krahaso vlerën e kërkuar me atë reale",
+  "termDe": "Soll / Ist vergleichen"
+ },
+ "h12": {
+  "de": "Vorlauf zu kühl",
+  "sq": "Furnizimi shumë i ftohtë"
+ },
+ "c12": {
+  "de": "zu kühl → mehr Wärme in den Heizkreis",
+  "sq": "shumë i ftohtë → më shumë nxehtësi në qark",
+  "termDe": "zu kühl"
+ },
+ "h13": {
+  "de": "Vorlauf zu warm",
+  "sq": "Furnizimi shumë i ngrohtë"
+ },
+ "c13": {
+  "de": "zu warm → andere Richtung",
+  "sq": "shumë i ngrohtë → drejtimi tjetër",
+  "termDe": "zu warm"
+ },
+ "h14": {
+  "de": "Keine universelle Drehrichtung",
+  "sq": "Asnjë drejtim universal"
+ },
+ "b14": {
+  "de": "NICHT NACH LINKS / RECHTS RATEN",
+  "sq": "MOS HAMENDËSO MAJTAS / DJATHTAS",
+  "termDe": "nicht nach links / rechts raten"
+ },
+ "c14a": {
+  "de": "Anschlussbelegung",
+  "sq": "Lidhjet",
+  "term": true
+ },
+ "c14b": {
+  "de": "Ventilfunktion",
+  "sq": "Funksioni i valvulës",
+  "term": true
+ },
+ "c14c": {
+  "de": "Stellmotor",
+  "sq": "Motori",
+  "term": true
+ },
+ "c14d": {
+  "de": "des konkreten Produkts",
+  "sq": "i produktit konkret",
+  "termDe": "konkretes Produkt"
+ },
+ "h15": {
+  "de": "Mischen oder Verteilen",
+  "sq": "Përzierje apo shpërndarje"
+ },
+ "mischen": {
+  "de": "MISCHEN",
+  "sq": "PËRZIERJE",
+  "termDe": "Mischen"
+ },
+ "verteilen": {
+  "de": "VERTEILEN",
+  "sq": "SHPËRNDARJE",
+  "termDe": "Verteilen"
+ },
+ "c15a": {
+  "de": "zwei Zuläufe → ein Abgang",
+  "sq": "dy hyrje → një dalje",
+  "termDe": "zwei Zuläufe → ein Abgang"
+ },
+ "c15b": {
+  "de": "ein Zulauf → zwei Abgänge",
+  "sq": "një hyrje → dy dalje",
+  "termDe": "ein Zulauf → zwei Abgänge"
+ },
+ "b15": {
+  "de": "NICHT VERWECHSELN",
+  "sq": "MOS I NGATËRRONI",
+  "termDe": "nicht verwechseln"
+ },
+ "h16": {
+  "de": "Anschlüsse nicht nach Position",
+  "sq": "Lidhjet jo sipas pozicionit"
+ },
+ "c16a": {
+  "de": "links · rechts · oben · unten?",
+  "sq": "majtas · djathtas · lart · poshtë?",
+  "termDe": "links · rechts · oben · unten"
+ },
+ "c16b": {
+  "de": "Ventilschema des Herstellers prüfen",
+  "sq": "kontrollo skemën e valvulës nga prodhuesi",
+  "termDe": "Ventilschema prüfen"
+ },
+ "schema": {
+  "de": "Ventilschema",
+  "sq": "Skema e valvulës",
+  "term": true
+ },
+ "h17": {
+  "de": "Die Heizkreispumpe",
+  "sq": "Pompa e qarkut"
+ },
+ "c17": {
+  "de": "Umlauf im gemischten Heizkreis",
+  "sq": "qarkullimi në qarkun e përzier",
+  "termDe": "Umlauf"
+ },
+ "h18": {
+  "de": "Pumpe und Mischer",
+  "sq": "Pompa dhe përzierësi"
+ },
+ "p_t": {
+  "de": "PUMPE",
+  "sq": "POMPA",
+  "termDe": "Pumpe"
+ },
+ "p_s": {
+  "de": "Volumenstrom / Umlauf",
+  "sq": "prurja / qarkullimi",
+  "termDe": "Volumenstrom / Umlauf"
+ },
+ "m_t": {
+  "de": "MISCHER",
+  "sq": "PËRZIERËSI",
+  "termDe": "Mischer"
+ },
+ "m_s": {
+  "de": "Mischungsverhältnis / Temperatur",
+  "sq": "raporti i përzierjes / temperatura",
+  "termDe": "Mischungsverhältnis / Temperatur"
+ },
+ "ne_p": {
+  "de": "Pumpe",
+  "sq": "Pompa",
+  "termDe": "Pumpe"
+ },
+ "ne_m": {
+  "de": "Mischer",
+  "sq": "Përzierësi",
+  "termDe": "Mischer"
+ },
+ "h19": {
+  "de": "Optionale Temperaturbegrenzung",
+  "sq": "Kufizim opsional i temperaturës"
+ },
+ "lim": {
+  "de": "Temperaturbegrenzung",
+  "sq": "Kufizim temperature",
+  "term": true
+ },
+ "lim_b": {
+  "de": "je nach Anlage",
+  "sq": "në varësi të sistemit",
+  "termDe": "je nach Anlage"
+ },
+ "c19": {
+  "de": "Planung und Systemkonzept entscheiden",
+  "sq": "vendosin projekti dhe koncepti i sistemit",
+  "termDe": "Planung / Systemkonzept"
+ },
+ "h20": {
+  "de": "Ventilgröße passend auslegen",
+  "sq": "Madhësia e valvulës"
+ },
+ "c20a": {
+  "de": "Volumenstrom + Differenzdruck",
+  "sq": "prurja + diferenca e presionit",
+  "termDe": "Volumenstrom + Differenzdruck"
+ },
+ "c20b": {
+  "de": "unpassender Kvs-Wert",
+  "sq": "vlerë Kvs e papërshtatshme",
+  "termDe": "unpassender Kvs-Wert"
+ },
+ "c20c": {
+  "de": "schlechter Regelbereich · schlechtere Hydraulik",
+  "sq": "rregullim më i keq · hidraulikë më e keqe",
+  "termDe": "Regelbereich / Hydraulik"
+ },
+ "kvs_ok": {
+  "de": "passend",
+  "sq": "i përshtatshëm",
+  "term": true
+ },
+ "kvs_bad": {
+  "de": "unpassend",
+  "sq": "i papërshtatshëm",
+  "term": true
+ },
+ "h21": {
+  "de": "Fühler falsch platziert",
+  "sq": "Sensori në vend të gabuar"
+ },
+ "c21a": {
+  "de": "Vorlauffühler vor dem Mischpunkt",
+  "sq": "sensori para pikës së përzierjes",
+  "termDe": "Fühler vor dem Mischpunkt"
+ },
+ "c21b": {
+  "de": "misst nicht, was zum Heizkreis geht",
+  "sq": "nuk mat atë që shkon drejt qarkut",
+  "termDe": "falscher Messwert"
+ },
+ "h22": {
+  "de": "Regelreaktion prüfen",
+  "sq": "Kontrollo reagimin e rregullimit"
+ },
+ "c22a": {
+  "de": "nach der Montage: Regelreaktion prüfen",
+  "sq": "pas montimit: kontrollo reagimin",
+  "termDe": "Regelreaktion prüfen"
+ },
+ "c22b": {
+  "de": "Regler fordert mehr Wärme",
+  "sq": "kontrolli kërkon më shumë nxehtësi",
+  "termDe": "mehr Wärme"
+ },
+ "c22c": {
+  "de": "Mischer fährt in die falsche Richtung",
+  "sq": "përzierësi lëviz në drejtimin e gabuar",
+  "termDe": "falsche Richtung"
+ },
+ "h23": {
+  "de": "Nicht jede FBH braucht einen Mischer",
+  "sq": "Jo çdo ngrohje në dysheme ka nevojë për përzierës"
+ },
+ "b23": {
+  "de": "Nicht jede Fußbodenheizung braucht einen Mischer",
+  "sq": "Jo çdo ngrohje në dysheme ka nevojë për përzierës",
+  "termDe": "nicht jede FBH braucht einen Mischer"
+ },
+ "c23": {
+  "de": "Wärmepumpe liefert direkt die passende niedrige Vorlauftemperatur",
+  "sq": "pompa e nxehtësisë jep direkt temperaturën e përshtatshme të ulët",
+  "termDe": "direkt passend"
+ },
+ "c23b": {
+  "de": "zusätzlicher Mischerkreis unnötig",
+  "sq": "qark shtesë me përzierje i panevojshëm",
+  "termDe": "kein zusätzlicher Mischer"
+ },
+ "fbh": {
+  "de": "Fußbodenheizung",
+  "sq": "Ngrohje në dysheme",
+  "term": true
+ },
+ "h24": {
+  "de": "Nicht unnötig hoch erzeugen",
+  "sq": "Mos prodho pa nevojë temperaturë të lartë"
+ },
+ "c24a": {
+  "de": "ohne Grund unnötig hoch erzeugen …",
+  "sq": "prodhim pa arsye i temperaturës tepër të lartë …",
+  "termDe": "unnötig hoch erzeugen"
+ },
+ "c24b": {
+  "de": "… und danach wieder herunter mischen",
+  "sq": "… dhe më pas ulje me përzierësin",
+  "termDe": "herunter mischen"
+ },
+ "h25": {
+  "de": "Wann ein Mischer sinnvoll ist",
+  "sq": "Kur përzierësi ka kuptim"
+ },
+ "c25": {
+  "de": "z. B. unterschiedliche Temperaturniveaus in einer Anlage",
+  "sq": "p.sh. nivele të ndryshme temperature në një sistem",
+  "termDe": "unterschiedliche Temperaturniveaus"
+ },
+ "h26": {
+  "de": "Typische Fehler",
+  "sq": "Gabime tipike"
+ },
+ "e1": {
+  "de": "Anschlüsse nach links / rechts geraten",
+  "sq": "lidhjet të hamendësuara majtas / djathtas",
+  "termDe": "Anschlüsse geraten"
+ },
+ "e2": {
+  "de": "Mischen und Verteilen verwechselt",
+  "sq": "përzierja dhe shpërndarja të ngatërruara",
+  "termDe": "Mischen / Verteilen verwechselt"
+ },
+ "e3": {
+  "de": "Stellmotor fährt falsch herum",
+  "sq": "motori lëviz në drejtimin e gabuar",
+  "termDe": "Stellmotor falsch herum"
+ },
+ "e4": {
+  "de": "Fühler vor dem Mischpunkt",
+  "sq": "sensori para pikës së përzierjes",
+  "termDe": "Fühler vor Mischpunkt"
+ },
+ "e5": {
+  "de": "Fühler schlecht befestigt",
+  "sq": "sensori i fiksuar keq",
+  "termDe": "Fühler schlecht befestigt"
+ },
+ "e6": {
+  "de": "Mischer falsch dimensioniert",
+  "sq": "përzierësi me madhësi të gabuar",
+  "termDe": "falsch dimensioniert"
+ },
+ "e7": {
+  "de": "Pumpe und Mischer gleichgesetzt",
+  "sq": "pompa dhe përzierësi të barazuara",
+  "termDe": "Pumpe = Mischer?"
+ },
+ "e8": {
+  "de": "jeder FBH einen Mischer gegeben",
+  "sq": "përzierës në çdo ngrohje në dysheme",
+  "termDe": "Mischer in jeder FBH"
+ },
+ "e9": {
+  "de": "Wärmepumpe unnötig hoch gefahren",
+  "sq": "pompa e nxehtësisë pa nevojë shumë e lartë",
+  "termDe": "WP unnötig hoch"
+ },
+ "e10": {
+  "de": "Regelreaktion nicht geprüft",
+  "sq": "reagimi i rregullimit i pakontrolluar",
+  "termDe": "Regelreaktion nicht geprüft"
+ },
+ "e11": {
+  "de": "Ventilstellung nach Optik beurteilt",
+  "sq": "pozicioni i valvulës sipas pamjes",
+  "termDe": "nach Optik beurteilt"
+ },
+ "e12": {
+  "de": "ein Sollwert für jeden Mischer",
+  "sq": "e njëjta vlerë për çdo përzierës",
+  "termDe": "ein Sollwert für alle"
+ },
+ "h27": {
+  "de": "Auf der Baustelle",
+  "sq": "Në kantier"
+ },
+ "c27a": {
+  "de": "Anschlussfunktion: Hydraulik- und Ventilschema",
+  "sq": "funksioni i lidhjeve: skema hidraulike dhe e valvulës",
+  "termDe": "Hydraulik- / Ventilschema"
+ },
+ "c27b": {
+  "de": "nicht aus der Lage der Rohre",
+  "sq": "jo nga pozicioni i tubave",
+  "termDe": "nicht nach Rohrlage"
+ },
+ "mot_mix": {
+  "de": "Mischer + Stellmotor",
+  "sq": "Përzierësi + motori",
+  "termDe": "Mischer + Stellmotor"
+ },
+ "h28": {
+  "de": "Der Mischerkreis im Überblick",
+  "sq": "Qarku me përzierje në përmbledhje"
+ },
+ "chk": {
+  "de": "Merke dir",
+  "sq": "Mbaje mend",
+  "termDe": "Merke dir"
+ },
+ "l1": {
+  "de": "heißeres Erzeugerwasser",
+  "sq": "ujë më i ngrohtë nga prodhuesi",
+  "termDe": "Erzeugerwasser"
+ },
+ "l2": {
+  "de": "kühleres Rücklaufwasser",
+  "sq": "ujë më i ftohtë i kthimit",
+  "termDe": "Rücklaufwasser"
+ },
+ "l3": {
+  "de": "geregelt gemischt",
+  "sq": "përzierje e kontrolluar",
+  "termDe": "geregelt gemischt"
+ },
+ "l4": {
+  "de": "passende Vorlauftemperatur",
+  "sq": "temperaturë e përshtatshme furnizimi",
+  "termDe": "passende Vorlauftemperatur"
+ },
+ "l5": {
+  "de": "Pumpe: Umlauf",
+  "sq": "pompa: qarkullimi",
+  "termDe": "Pumpe: Umlauf"
+ },
+ "l6": {
+  "de": "Fühler: hinter dem Mischpunkt",
+  "sq": "sensori: pas pikës së përzierjes",
+  "termDe": "Fühler: hinter Mischpunkt"
+ },
+ "l7": {
+  "de": "Regler: Soll / Ist → Stellmotor → Mischer",
+  "sq": "kontrolli: e kërkuar / reale → motori → përzierësi",
+  "termDe": "Soll / Ist → Stellmotor"
+ },
+ "c28x": {
+  "de": "prüfen: Anschlussfunktion · Stellrichtung · Fühlerposition",
+  "sq": "kontrollo: lidhjet · drejtimin e motorit · pozicionin e sensorit",
+  "termDe": "Anschluss · Stellrichtung · Fühler"
+ },
+ "fin": {
+  "de": "Mischer nur, wo das Hydraulikkonzept ihn braucht",
+  "sq": "Përzierës vetëm aty ku koncepti hidraulik e kërkon",
+  "termDe": "Hydraulikkonzept entscheidet"
+ }
+}

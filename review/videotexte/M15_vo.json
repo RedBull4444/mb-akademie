@@ -1,0 +1,106 @@
+{
+ "intro": {
+  "de": "Es-Ha-Ka Grundlagen. Modul fünfzehn. Abschlusskontrolle. Fehler erkennen, Funktion prüfen.",
+  "sq": "Bazat e Es-Ha-Ka-së. Moduli pesëmbëdhjetë. Kontrolli përfundimtar. Gjej gabimet, kontrollo funksionin."
+ },
+ "s01": {
+  "de": "Die Anlage sieht fertig aus: Rohre sauber verlegt, Bauteile montiert, alles gedämmt. Genau jetzt beginnt die Abschlusskontrolle.",
+  "sq": "Sistemi duket i përfunduar: tubat janë montuar pastër, komponentët janë në vend, gjithçka është izoluar. Pikërisht tani fillon kontrolli përfundimtar."
+ },
+ "s02": {
+  "de": "Denn Optik ist nicht gleich Funktion. Eine Anlage kann perfekt aussehen und trotzdem hydraulisch oder sicherheitstechnisch falsch sein. Wir verfolgen deshalb nicht nur Rohre, sondern ihre Funktion.",
+  "sq": "Sepse pamja nuk është e njëjtë me funksionin. Një sistem mund të duket perfekt dhe megjithatë të jetë i gabuar hidraulikisht ose nga ana e sigurisë. Prandaj nuk ndjekim vetëm tubat, por funksionin e tyre."
+ },
+ "s03": {
+  "de": "Wir prüfen systematisch: Hydraulik, Sicherheit, Druckhaltung, Wasser, Strömung, Regelung, Betrieb und zum Schluss die Übergabe.",
+  "sq": "Kontrollojmë në mënyrë sistematike: hidraulikën, sigurinë, mbajtjen e presionit, ujin, rrjedhjen, rregullimin, funksionimin dhe në fund dorëzimin."
+ },
+ "s04": {
+  "de": "Zuerst die Anschlusslogik: Sind Vorlauf und Rücklauf richtig angeschlossen? Entscheidend sind Gerätekennzeichnung und Hydraulikschema, nicht die erwartete Position. Dann den Weg verfolgen: Der Vorlauf führt zu den Verbrauchern, der Rücklauf zurück zum Wärmeerzeuger.",
+  "sq": "Së pari, logjika e lidhjeve: a janë furnizimi dhe kthimi të lidhur saktë? Vendosin shenjat e pajisjes dhe skema hidraulike, jo pozicioni që presim. Pastaj ndjekim rrugën: furnizimi shkon te konsumatorët, kthimi kthehet te pajisja e ngrohjes."
+ },
+ "s05": {
+  "de": "Danach die Sicherheitswege. Zwischen dem zu schützenden System und seinem Sicherheitsventil darf keine geschlossene Absperrung den Schutz unwirksam machen.",
+  "sq": "Më pas, rrugët e sigurisë. Midis sistemit që duhet mbrojtur dhe valvulës së tij të sigurisë nuk duhet të ketë asnjë mbyllje që e bën mbrojtjen joefektive."
+ },
+ "s06": {
+  "de": "Auch der Ablauf muss frei und geeignet sein. Ein Sicherheitsventil hilft nicht, wenn sein Auslass blockiert ist.",
+  "sq": "Edhe dalja duhet të jetë e lirë dhe e përshtatshme. Valvula e sigurisë nuk ndihmon nëse dalja e saj është bllokuar."
+ },
+ "s07": {
+  "de": "Beim Em-A-Ge prüfen wir, ob die Verbindung zur Anlage im Betrieb wirksam ist. Ein abgesperrtes Gefäß hilft nicht. Auch Größe, Auslegung und Vordruck müssen zur gesamten Anlage passen.",
+  "sq": "Te MAG-u kontrollojmë nëse lidhja me sistemin është realisht funksionale gjatë punës. Një enë e ndarë nga sistemi nuk ndihmon. Edhe madhësia, dimensionimi dhe presioni paraprak duhet t'i përshtaten gjithë sistemit."
+ },
+ "s08": {
+  "de": "Beim Befüllen kontrollieren wir die Trinkwassersicherung. Eine direkte Verbindung zwischen Trinkwasser und Heizung ist keine fachgerechte Füllstrecke.",
+  "sq": "Gjatë mbushjes kontrollojmë mbrojtjen e ujit të pijshëm. Një lidhje direkte midis ujit të pijshëm dhe ngrohjes nuk është linjë korrekte mbushjeje."
+ },
+ "s09": {
+  "de": "Bei Wasseraufbereitung prüfen wir Verfahren und Patrone: Eine erschöpfte Patrone liefert nicht automatisch passendes Wasser. Härte, Leitfähigkeit und Peh-Ha werden je nach Anlage geprüft und mit den Füllmengen dokumentiert.",
+  "sq": "Te trajtimi i ujit kontrollojmë metodën dhe fishekun: një fishek i konsumuar nuk garanton ujë me karakteristikat e kërkuara. Fortësia, përçueshmëria dhe pe-ha kontrollohen sipas sistemit dhe dokumentohen bashkë me sasitë e mbushjes."
+ },
+ "s10": {
+  "de": "Dann alles, was den Volumenstrom bremst: Ein verschmutzter Filter oder Abscheider drosselt den Umlauf. Und Luft wird nicht mit mehr Pumpenleistung überdeckt: Entlüfter und Druckhaltung werden geprüft.",
+  "sq": "Pastaj gjithçka që frenon prurjen: një filtër ose ndarës i ndotur e kufizon qarkullimin. Dhe ajri nuk mbulohet me më shumë fuqi pompe: kontrollohen ajruesit dhe mbajtja e presionit."
+ },
+ "s11": {
+  "de": "Bei Pumpen und richtungsabhängigen Armaturen prüfen wir die Pfeile. Eine Pumpe gegen die Fließrichtung arbeitet nicht richtig, auch wenn sie sauber montiert ist. Ebenso Rückschlagventile und Schwerkraftbremsen: Richtung und Betriebsstellung müssen passen.",
+  "sq": "Te pompat dhe armaturat që varen nga drejtimi kontrollojmë shigjetat. Një pompë kundër drejtimit të rrjedhjes nuk punon siç duhet, edhe nëse është montuar bukur. Po ashtu valvulat kundërkthimit dhe frenuesit e qarkullimit natyror: drejtimi dhe pozicioni i punës duhet të jenë të sakta."
+ },
+ "s12": {
+  "de": "Oft unterschätzt: die Sensorik. Ein Fühler am falschen Ort liefert plausible, aber falsche Werte. Also prüfen wir seine Position und ob die Anzeige zum tatsächlichen Betriebszustand passt.",
+  "sq": "Shpesh nënvlerësohen sensorët. Një sensor në vendin e gabuar jep vlera që duken të besueshme, por janë të gabuara. Prandaj kontrollojmë pozicionin e tij dhe nëse vlera e treguar përputhet me gjendjen reale."
+ },
+ "s13": {
+  "de": "Dann die Verteilung: Die Heizkreise müssen entsprechend ihrer Auslegung abgeglichen sein. Die Pumpe einfach auf Maximum zu stellen, repariert keine schlechte Verteilung.",
+  "sq": "Pastaj shpërndarja: qarqet e ngrohjes duhet të jenë të balancuara sipas dimensionimit të tyre. Vendosja e pompës në maksimum nuk e rregullon një shpërndarje të keqe."
+ },
+ "s14": {
+  "de": "Bei Wärmepumpen prüfen wir kritische Zustände: Was passiert mit dem Volumenstrom, wenn mehrere Heizkreise schließen? Ob Überströmventil oder Puffer: Nicht das Bauteil zählt, sondern dass die Hydraulik dann wirklich funktioniert.",
+  "sq": "Te pompat e nxehtësisë kontrollojmë gjendjet kritike: çfarë ndodh me prurjen kur mbyllen disa qarqe ngrohjeje? Bypass apo depozitë: nuk vendos komponenti, por nëse hidraulika funksionon realisht në atë moment."
+ },
+ "s15": {
+  "de": "Bei Luft-Wasser-Wärmepumpen gelten außerdem die Herstellerbedingungen für den Abtaubetrieb.",
+  "sq": "Te pompat e nxehtësisë ajër-ujë vlejnë gjithashtu kushtet e prodhuesit për shkrirjen."
+ },
+ "s16": {
+  "de": "Bei Trinkwasser-Zirkulation prüfen wir, ob alle vorgesehenen Stränge durchströmt werden. Eine eingebaute Pumpe allein reicht nicht. Bei verzweigten Systemen muss auch die Verteilung stimmen.",
+  "sq": "Te riqarkullimi i ujit sanitar kontrollojmë nëse uji rrjedh në të gjitha degët e parashikuara. Vetëm një pompë e montuar nuk mjafton. Në sistemet me degëzime duhet të jetë e saktë edhe shpërndarja."
+ },
+ "s17": {
+  "de": "Die Anlage muss wartbar bleiben: Filter, Magnet, Pumpen, Fühler, Anoden und Serviceanschlüsse müssen erreichbar sein. Und ein Entleerhahn nützt wenig, wenn man ihn praktisch nicht nutzen kann.",
+  "sq": "Sistemi duhet të mbetet i mirëmbajtshëm: filtrat, magnetët, pompat, sensorët, anodat dhe pikat e servisimit duhet të jenë të arritshme. Dhe një rubinet zbrazjeje nuk ndihmon shumë nëse praktikisht nuk mund të përdoret."
+ },
+ "s18": {
+  "de": "Geprüft wird kalt und warm. Schon kalt kontrollieren wir Druck, Dichtheit, Ventilstellungen, Sensorik und Füllzustand.",
+  "sq": "Kontrolli bëhet në të ftohtë dhe në të ngrohtë. Edhe në të ftohtë kontrollojmë presionin, rrjedhjet, pozicionet e valvulave, sensorët dhe mbushjen."
+ },
+ "s19": {
+  "de": "Nach dem Aufheizen: Druckentwicklung, Temperaturen, Volumenströme, Geräusche und Regelverhalten. Und auch die Wechsel zwischen den Betriebsarten.",
+  "sq": "Pas ngrohjes: ndryshimi i presionit, temperaturat, prurjet, zhurmat dhe sjellja e rregullimit. Dhe gjithashtu kalimet midis mënyrave të punës."
+ },
+ "s20": {
+  "de": "Zur Übergabe gehören klare Kennzeichnungen für den nächsten Monteur. Und das Protokoll: Soll- und Istwerte, Einstellungen, Füllmengen, Prüfungen, Auffälligkeiten. Was nicht dokumentiert ist, ist später kaum nachvollziehbar.",
+  "sq": "Dorëzimi përfshin shënime të qarta për montuesin tjetër. Dhe protokolli: vlerat e kërkuara dhe reale, rregullimet, sasitë e mbushjes, kontrollet, vërejtjet. Ajo që nuk dokumentohet, më vonë është e vështirë të kuptohet."
+ },
+ "s21": {
+  "de": "Jetzt prüfst du: Was stimmt an dieser Anlage nicht?",
+  "sq": "Tani kontrollon ti: çfarë nuk është në rregull në këtë sistem?"
+ },
+ "s22": {
+  "de": "Erstens: Die Pumpe ist gegen die Fließrichtung eingebaut. Zweitens: Der Weg zum Sicherheitsventil ist abgesperrt. Drittens: Der Vorlauffühler sitzt an der falschen Stelle.",
+  "sq": "Së pari: pompa është montuar kundër drejtimit të rrjedhjes. Së dyti: rruga drejt valvulës së sigurisë është e mbyllur. Së treti: sensori i furnizimit është në vendin e gabuar."
+ },
+ "s23": {
+  "de": "Die Abschlusskontrolle in acht Gruppen. Hydraulik: Anschlüsse und Fließwege. Sicherheit: Sicherheitsventile und Schutzwege. Druckhaltung: Em-A-Ge und Anlagendruck. Wasser: Füllstrecke, Aufbereitung, Dokumentation. Strömung: Pumpen, Ventile, Filter, Entlüftung, Abgleich. Regelung: Fühler und Stellmotoren. Betrieb: kalt, warm, Betriebswechsel. Übergabe: Servicezugang, Kennzeichnung, Protokoll.",
+  "sq": "Kontrolli përfundimtar në tetë grupe. Hidraulika: lidhjet dhe rrugët e rrjedhjes. Siguria: valvulat e sigurisë dhe rrugët mbrojtëse. Mbajtja e presionit: MAG-u dhe presioni i sistemit. Uji: linja e mbushjes, trajtimi, dokumentimi. Rrjedhja: pompat, valvulat, filtrat, ajrimi, balancimi. Rregullimi: sensorët dhe servomotorët. Funksionimi: ftohtë, ngrohtë, ndryshimet e punës. Dorëzimi: qasja për servis, shënimet, protokolli."
+ },
+ "s24": {
+  "de": "Jetzt ist die Anlage nicht nur optisch fertig. Erst wenn Hydraulik, Sicherheit, Regelung und Betrieb zusammen funktionieren, wird aus einer sauber montierten Anlage eine funktionierende Anlage.",
+  "sq": "Tani sistemi nuk është vetëm vizualisht i përfunduar. Vetëm kur hidraulika, siguria, rregullimi dhe funksionimi punojnë së bashku, një instalim i montuar pastër bëhet një sistem që funksionon."
+ },
+ "outro": {
+  "de": "Modul fünfzehn abgeschlossen. Fachmodule eins bis fünfzehn abgeschlossen.",
+  "sq": "Moduli pesëmbëdhjetë përfunduar. Modulet një deri në pesëmbëdhjetë të përfunduara."
+ }
+}

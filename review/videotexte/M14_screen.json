@@ -1,0 +1,933 @@
+{
+ "intro_kicker": {
+  "de": "SHK GRUNDLAGEN",
+  "sq": "BAZAT E SHK-së"
+ },
+ "intro_mod": {
+  "de": "MODUL 14",
+  "sq": "MODULI 14"
+ },
+ "intro_title": {
+  "de": "Heizungswasser",
+  "sq": "Uji i sistemit të ngrohjes",
+  "termDe": "Heizungswasser"
+ },
+ "intro_sub": {
+  "de": "Magnetit & VDI 2035",
+  "sq": "Magnetiti & VDI 2035"
+ },
+ "outro_done": {
+  "de": "MODUL 14 ABGESCHLOSSEN",
+  "sq": "MODULI 14 PËRFUNDUAR"
+ },
+ "principle": {
+  "de": "Prinzipdarstellung – Beispiel, keine Auslegung",
+  "sq": "Paraqitje parimore – shembull, jo dimensionim"
+ },
+ "magnetit": {
+  "de": "Magnetit",
+  "sq": "Magnetiti",
+  "term": true
+ },
+ "mag_part": {
+  "de": "magnetische Partikel",
+  "sq": "grimca magnetike",
+  "term": true
+ },
+ "nonmag_part": {
+  "de": "nichtmagnetische Partikel",
+  "sq": "grimca jo magnetike",
+  "term": true
+ },
+ "geloest": {
+  "de": "gelöste Stoffe",
+  "sq": "substanca të tretura",
+  "term": true
+ },
+ "magnet": {
+  "de": "Magnet",
+  "sq": "Magneti",
+  "term": true
+ },
+ "sep": {
+  "de": "Magnetabscheider",
+  "sq": "Ndarësi magnetik",
+  "term": true
+ },
+ "pumpe": {
+  "de": "Pumpe",
+  "sq": "Pompa",
+  "term": true
+ },
+ "ventil": {
+  "de": "Ventil",
+  "sq": "Valvula",
+  "term": true
+ },
+ "wue": {
+  "de": "Wärmeübertrager",
+  "sq": "Shkëmbyesi i nxehtësisë",
+  "term": true
+ },
+ "hard": {
+  "de": "Härte",
+  "sq": "Fortësia",
+  "term": true
+ },
+ "cond": {
+  "de": "Leitfähigkeit",
+  "sq": "Përçueshmëria",
+  "term": true
+ },
+ "ph": {
+  "de": "pH-Wert",
+  "sq": "Vlera pH",
+  "termDe": "pH-Wert"
+ },
+ "ph_s": {
+  "de": "pH",
+  "sq": "pH"
+ },
+ "mag_sym": {
+  "de": "MAG",
+  "sq": "MAG"
+ },
+ "ex_water": {
+  "de": "Beispiel: echte Heizwasserproben",
+  "sq": "Shembull: mostra reale të ujit të ngrohjes",
+  "termDe": "echte Heizwasserproben"
+ },
+ "ex_water_b": {
+  "de": "Foto: BWT",
+  "sq": "Foto: BWT"
+ },
+ "ex_sep": {
+  "de": "Beispiel: Schlammabscheider mit Magnet",
+  "sq": "Shembull: ndarës llumi me magnet",
+  "termDe": "Schlammabscheider mit Magnet"
+ },
+ "ex_sep_b": {
+  "de": "Spirotech SpiroTrap MB3",
+  "sq": "Spirotech SpiroTrap MB3"
+ },
+ "ex_sludge": {
+  "de": "Beispiel: Ablagerung am Magneten",
+  "sq": "Shembull: depozitë në magnet",
+  "termDe": "Ablagerung am Magneten"
+ },
+ "ex_sludge_b": {
+  "de": "Foto: Brötje",
+  "sq": "Foto: Brötje"
+ },
+ "ex_fill": {
+  "de": "Beispiel: Füll- und Aufbereitungseinheit",
+  "sq": "Shembull: njësi mbushjeje dhe trajtimi",
+  "termDe": "Füll- und Aufbereitungseinheit"
+ },
+ "ex_fill_b": {
+  "de": "Reflex Fillsoft",
+  "sq": "Reflex Fillsoft"
+ },
+ "h01": {
+  "de": "Die Wasserprobe",
+  "sq": "Mostra e ujit"
+ },
+ "w_dark": {
+  "de": "dunkle Probe",
+  "sq": "mostër e errët",
+  "termDe": "dunkle Probe"
+ },
+ "c01": {
+  "de": "Hinweis: mögliche Korrosionsprodukte oder Verunreinigungen",
+  "sq": "Tregues: produkte të mundshme korrozioni ose papastërti",
+  "termDe": "Hinweis auf Verunreinigung"
+ },
+ "h02": {
+  "de": "Schwarz ist noch keine Diagnose",
+  "sq": "E zeza nuk është ende diagnozë"
+ },
+ "hinweis": {
+  "de": "HINWEIS",
+  "sq": "TREGUES",
+  "termDe": "Hinweis"
+ },
+ "diagnose": {
+  "de": "DIAGNOSE",
+  "sq": "DIAGNOZË",
+  "termDe": "Diagnose"
+ },
+ "q_stoffe": {
+  "de": "welche Stoffe?",
+  "sq": "çfarë përmban?",
+  "termDe": "welche Stoffe?"
+ },
+ "q_woher": {
+  "de": "woher?",
+  "sq": "nga vjen?",
+  "termDe": "woher?"
+ },
+ "h03": {
+  "de": "Was ist Magnetit?",
+  "sq": "Çfarë është magnetiti?"
+ },
+ "c03a": {
+  "de": "magnetisches Eisenoxid",
+  "sq": "oksid magnetik i hekurit",
+  "termDe": "magnetisches Eisenoxid"
+ },
+ "c03b": {
+  "de": "kann bei Korrosion in eisenhaltigen Anlagen entstehen",
+  "sq": "mund të krijohet gjatë korrozionit në sisteme me hekur",
+  "termDe": "entsteht bei Korrosion möglich"
+ },
+ "h04": {
+  "de": "Magnetit ist nicht Kalk",
+  "sq": "Magnetiti nuk është gëlqere"
+ },
+ "stein": {
+  "de": "Steinbildung („Kalk“)",
+  "sq": "Formimi i gurit („gëlqere“)",
+  "termDe": "Steinbildung"
+ },
+ "c04": {
+  "de": "andere Vorgänge · andere Stoffe",
+  "sq": "procese të tjera · substanca të tjera",
+  "termDe": "andere Vorgänge, andere Stoffe"
+ },
+ "h05": {
+  "de": "Wie Korrosion entstehen kann",
+  "sq": "Si mund të krijohet korrozioni"
+ },
+ "f_werk": {
+  "de": "Werkstoffe",
+  "sq": "Materialet",
+  "term": true
+ },
+ "f_wasser": {
+  "de": "Wasserbeschaffenheit",
+  "sq": "Cilësia e ujit",
+  "term": true
+ },
+ "f_o2": {
+  "de": "Sauerstoffeintrag",
+  "sq": "Hyrja e oksigjenit",
+  "term": true
+ },
+ "f_betrieb": {
+  "de": "Betriebsbedingungen",
+  "sq": "Kushtet e punës",
+  "term": true
+ },
+ "c05": {
+  "de": "nicht nur eine Ursache",
+  "sq": "jo vetëm një shkak",
+  "termDe": "nicht nur eine Ursache"
+ },
+ "h06": {
+  "de": "Häufiges Nachfüllen",
+  "sq": "Mbushja e shpeshtë"
+ },
+ "cnt": {
+  "de": "Nachfüllungen",
+  "sq": "Mbushje shtesë",
+  "termDe": "Nachfüllungen"
+ },
+ "c06a": {
+  "de": "Warum geht Wasser verloren?",
+  "sq": "Pse humbet uji?",
+  "termDe": "Warum Wasserverlust?"
+ },
+ "c06b": {
+  "de": "immer wieder Sauerstoff im System?",
+  "sq": "vazhdimisht oksigjen në sistem?",
+  "termDe": "Sauerstoffeintrag?"
+ },
+ "h07": {
+  "de": "Druckhaltung und Undichtigkeiten",
+  "sq": "Mbajtja e presionit dhe rrjedhjet"
+ },
+ "druckh": {
+  "de": "Druckhaltung",
+  "sq": "Mbajtja e presionit",
+  "term": true
+ },
+ "undicht": {
+  "de": "mögliche Undichtigkeit",
+  "sq": "rrjedhje e mundshme",
+  "termDe": "mögliche Undichtigkeit"
+ },
+ "verlauf": {
+  "de": "Betriebsverlauf",
+  "sq": "Si ka funksionuar sistemi",
+  "termDe": "Betriebsverlauf"
+ },
+ "c07": {
+  "de": "gehört zur Ursachenprüfung",
+  "sq": "kontrollohet për të gjetur shkakun",
+  "termDe": "Ursachenprüfung"
+ },
+ "h08": {
+  "de": "Was Partikel anrichten können",
+  "sq": "Çfarë mund të shkaktojnë grimcat"
+ },
+ "c08": {
+  "de": "Ablagerungen beeinträchtigen die Funktion",
+  "sq": "depozitat ndikojnë në funksionim",
+  "termDe": "Funktion beeinträchtigt"
+ },
+ "h09": {
+  "de": "Die Magnetprobe",
+  "sq": "Prova me magnet"
+ },
+ "c09": {
+  "de": "wichtiger Hinweis auf magnetische Korrosionsprodukte",
+  "sq": "shenjë e rëndësishme për produkte magnetike korrozioni",
+  "termDe": "Hinweis auf Magnetit"
+ },
+ "h10": {
+  "de": "Der Magnetabscheider",
+  "sq": "Ndarësi magnetik"
+ },
+ "c10": {
+  "de": "holt magnetische Partikel aus dem Heizungswasser",
+  "sq": "largon grimcat magnetike nga uji i ngrohjes",
+  "termDe": "magnetische Partikel entfernen"
+ },
+ "h11": {
+  "de": "Der Magnet reinigt nicht alles",
+  "sq": "Magneti nuk pastron gjithçka"
+ },
+ "nicht_auto": {
+  "de": "nicht automatisch",
+  "sq": "jo automatikisht",
+  "termDe": "nicht automatisch"
+ },
+ "ne_l": {
+  "de": "Magnet",
+  "sq": "Magneti",
+  "termDe": "Magnet"
+ },
+ "ne_r": {
+  "de": "komplette Wasseraufbereitung",
+  "sq": "trajtim i plotë i ujit",
+  "termDe": "komplette Wasseraufbereitung"
+ },
+ "h12": {
+  "de": "Partikel entfernen ≠ Ursache beheben",
+  "sq": "Largimi i grimcave ≠ zgjidhja e shkakut"
+ },
+ "gereinigt": {
+  "de": "Abscheider gereinigt",
+  "sq": "Ndarësi i pastruar",
+  "termDe": "Abscheider gereinigt"
+ },
+ "ursache_bleibt": {
+  "de": "Korrosion / Sauerstoffeintrag besteht weiter",
+  "sq": "korrozioni / oksigjeni vazhdon",
+  "termDe": "Ursache besteht weiter"
+ },
+ "neue_abl": {
+  "de": "neue Ablagerungen",
+  "sq": "depozita të reja",
+  "termDe": "neue Ablagerungen"
+ },
+ "h13": {
+  "de": "Die richtige Ursachenprüfung",
+  "sq": "Kontrolli i duhur i shkakut"
+ },
+ "sys": {
+  "de": "das ganze System",
+  "sq": "gjithë sistemi",
+  "termDe": "das ganze System"
+ },
+ "u1": {
+  "de": "Wasserzustand",
+  "sq": "Gjendja e ujit",
+  "term": true
+ },
+ "u2": {
+  "de": "Anlagenhistorie",
+  "sq": "Historiku i instalimit",
+  "term": true
+ },
+ "u3": {
+  "de": "Nachfüllmengen",
+  "sq": "Sasitë e shtuara",
+  "term": true
+ },
+ "u4": {
+  "de": "Druckhaltung",
+  "sq": "Mbajtja e presionit",
+  "term": true
+ },
+ "u5": {
+  "de": "Luft- / Sauerstoffeintrag",
+  "sq": "Hyrja e ajrit / oksigjenit",
+  "term": true
+ },
+ "u6": {
+  "de": "Leckagen",
+  "sq": "Rrjedhjet",
+  "term": true
+ },
+ "u7": {
+  "de": "Ablagerungen",
+  "sq": "Depozitat",
+  "term": true
+ },
+ "u8": {
+  "de": "Herstelleranforderungen",
+  "sq": "Kërkesat e prodhuesit",
+  "term": true
+ },
+ "h14": {
+  "de": "VDI 2035",
+  "sq": "VDI 2035"
+ },
+ "vdi": {
+  "de": "VDI 2035",
+  "sq": "VDI 2035"
+ },
+ "vdi_sub": {
+  "de": "Heizungswasser richtig planen, füllen und überwachen",
+  "sq": "Uji i ngrohjes: planifikim, mbushje dhe mbikëqyrje si duhet",
+  "termDe": "planen · füllen · überwachen"
+ },
+ "g_stein": {
+  "de": "Steinbildung vermeiden",
+  "sq": "shmang formimin e gurit",
+  "termDe": "Steinbildung vermeiden"
+ },
+ "g_korr": {
+  "de": "wasserseitige Korrosion vermeiden",
+  "sq": "shmang korrozionin nga ana e ujit",
+  "termDe": "wasserseitige Korrosion vermeiden"
+ },
+ "g_anl": {
+  "de": "Warmwasser-Heizungsanlagen",
+  "sq": "Sistemet e ngrohjes me ujë",
+  "termDe": "Warmwasser-Heizungsanlagen"
+ },
+ "h15": {
+  "de": "Was VDI 2035 nicht ist",
+  "sq": "Çfarë nuk është VDI 2035"
+ },
+ "n1": {
+  "de": "„Trinkwasser-Hygiene“",
+  "sq": "„Higjiena e ujit të pijshëm“",
+  "termDe": "Trinkwasser-Hygiene"
+ },
+ "n2": {
+  "de": "„immer vollentsalzen“",
+  "sq": "„gjithmonë demineralizim i plotë“",
+  "termDe": "immer vollentsalzen"
+ },
+ "n3": {
+  "de": "„nur pH messen“",
+  "sq": "„mat vetëm pH-në“",
+  "termDe": "nur pH messen"
+ },
+ "n4": {
+  "de": "„ein Additiv reinkippen“",
+  "sq": "„hidh një aditiv“",
+  "termDe": "Additiv reinkippen"
+ },
+ "h16": {
+  "de": "Vor dem Füllen: Anlage verstehen",
+  "sq": "Para mbushjes: kupto sistemin"
+ },
+ "r1": {
+  "de": "Anlagenvolumen",
+  "sq": "Vëllimi i instalimit",
+  "term": true
+ },
+ "r2": {
+  "de": "Werkstoffe",
+  "sq": "Materialet",
+  "term": true
+ },
+ "r3": {
+  "de": "Wärmeerzeuger",
+  "sq": "Pajisja e ngrohjes",
+  "term": true
+ },
+ "r4": {
+  "de": "Rohwasser",
+  "sq": "Uji i papërpunuar",
+  "term": true
+ },
+ "r5": {
+  "de": "Herstellervorgaben",
+  "sq": "Kërkesat e prodhuesit",
+  "term": true
+ },
+ "c16": {
+  "de": "Anforderungen vor dem Befüllen kennen",
+  "sq": "njih kërkesat para mbushjes",
+  "termDe": "Anforderungen"
+ },
+ "h17": {
+  "de": "Drei Werte, drei Aussagen",
+  "sq": "Tri vlera, tri kuptime"
+ },
+ "c17": {
+  "de": "nicht verwechseln!",
+  "sq": "mos i ngatërro!",
+  "termDe": "nicht verwechseln"
+ },
+ "h18": {
+  "de": "Härte",
+  "sq": "Fortësia"
+ },
+ "c18a": {
+  "de": "Härtebildner: Calcium, Magnesium",
+  "sq": "përbërës: kalcium, magnez",
+  "termDe": "Härtebildner"
+ },
+ "c18b": {
+  "de": "wichtig für die Steinbildung",
+  "sq": "e rëndësishme për formimin e gurit",
+  "termDe": "Steinbildung"
+ },
+ "h19": {
+  "de": "Leitfähigkeit",
+  "sq": "Përçueshmëria"
+ },
+ "c19": {
+  "de": "vereinfacht: leitfähige gelöste Ionen",
+  "sq": "thjesht: jone të tretura përçuese",
+  "termDe": "gelöste Ionen"
+ },
+ "h20": {
+  "de": "pH-Wert",
+  "sq": "Vlera pH"
+ },
+ "sauer": {
+  "de": "sauer",
+  "sq": "acid",
+  "termDe": "sauer"
+ },
+ "basisch": {
+  "de": "basisch",
+  "sq": "bazik",
+  "termDe": "basisch"
+ },
+ "c20": {
+  "de": "muss zu Werkstoffen und Anlage passen",
+  "sq": "duhet t'u përshtatet materialeve dhe sistemit",
+  "termDe": "passend zu Werkstoffen"
+ },
+ "h21": {
+  "de": "Ein Wert sagt nicht alles",
+  "sq": "Një vlerë nuk tregon gjithçka"
+ },
+ "b21l": {
+  "de": "3 WERTE",
+  "sq": "3 VLERA",
+  "termDe": "3 Werte"
+ },
+ "b21r": {
+  "de": "1 WERT",
+  "sq": "1 VLERË",
+  "termDe": "1 Wert"
+ },
+ "c21": {
+  "de": "niedrige Härte ≠ automatisch niedrige Leitfähigkeit",
+  "sq": "fortësi e ulët ≠ automatikisht përçueshmëri e ulët",
+  "termDe": "Härte ≠ Leitfähigkeit"
+ },
+ "h22": {
+  "de": "Enthärten ≠ Entsalzen",
+  "sq": "Zbutja ≠ demineralizimi"
+ },
+ "enth": {
+  "de": "Enthärtung",
+  "sq": "Zbutja",
+  "term": true
+ },
+ "ents": {
+  "de": "Entsalzung",
+  "sq": "Demineralizimi",
+  "term": true
+ },
+ "enth_d": {
+  "de": "Härtebildner werden ausgetauscht",
+  "sq": "përbërësit e fortësisë zëvendësohen",
+  "termDe": "Härtebildner ausgetauscht"
+ },
+ "ents_d": {
+  "de": "gelöste Ionen weitgehend entfernt",
+  "sq": "jonet e tretura largohen pjesa më e madhe",
+  "termDe": "Ionen weitgehend entfernt"
+ },
+ "c22": {
+  "de": "Was nötig ist, entscheidet die Anlage",
+  "sq": "Çfarë nevojitet, e përcakton sistemi",
+  "termDe": "Anlage entscheidet"
+ },
+ "h23": {
+  "de": "Entsalzt ist nicht automatisch fertig",
+  "sq": "Demineralizuar nuk do të thotë gati"
+ },
+ "ve": {
+  "de": "entsalztes Wasser",
+  "sq": "ujë i demineralizuar",
+  "termDe": "entsalztes Wasser"
+ },
+ "low_cond": {
+  "de": "Leitfähigkeit niedrig",
+  "sq": "Përçueshmëri e ulët",
+  "termDe": "Leitfähigkeit niedrig"
+ },
+ "ph_ok": {
+  "de": "pH-Wert passend?",
+  "sq": "Vlera pH e duhur?",
+  "termDe": "pH-Wert passend?"
+ },
+ "mat_ok": {
+  "de": "Eignung für alle Werkstoffe?",
+  "sq": "E përshtatshme për të gjitha materialet?",
+  "termDe": "Eignung für Werkstoffe?"
+ },
+ "h24": {
+  "de": "Additive nicht pauschal",
+  "sq": "Aditivët jo pa dallim"
+ },
+ "c24a": {
+  "de": "keine automatische Pflicht",
+  "sq": "nuk është detyrim automatik",
+  "termDe": "keine automatische Pflicht"
+ },
+ "c24b": {
+  "de": "erst Planung und Herstellerfreigabe",
+  "sq": "së pari planifikimi dhe miratimi i prodhuesit",
+  "termDe": "Planung + Herstellerfreigabe"
+ },
+ "c24c": {
+  "de": "passend zu Anlage und Werkstoffen",
+  "sq": "në përputhje me sistemin dhe materialet",
+  "termDe": "passend zu Anlage + Werkstoffen"
+ },
+ "h25": {
+  "de": "Passendes Füllwasser",
+  "sq": "Uji i duhur i mbushjes"
+ },
+ "roh": {
+  "de": "Rohwasser",
+  "sq": "Uji i papërpunuar",
+  "term": true
+ },
+ "aufb": {
+  "de": "passend aufbereitet",
+  "sq": "trajtim sipas nevojës",
+  "termDe": "passend aufbereitet"
+ },
+ "anlage": {
+  "de": "Heizungsanlage",
+  "sq": "Sistemi i ngrohjes",
+  "term": true
+ },
+ "fuellstr": {
+  "de": "geschützte Füllstrecke",
+  "sq": "linja e mbrojtur e mbushjes",
+  "termDe": "geschützte Füllstrecke"
+ },
+ "h26": {
+  "de": "Füll- und Ergänzungsmengen dokumentieren",
+  "sq": "Dokumento sasitë e mbushjes dhe plotësimit"
+ },
+ "erst": {
+  "de": "Erstbefüllung",
+  "sq": "Mbushja e parë",
+  "term": true
+ },
+ "nach": {
+  "de": "Nachfüllung",
+  "sq": "Plotësim",
+  "termDe": "Nachfüllung"
+ },
+ "c26": {
+  "de": "häufiges Nachfüllen → Anlage genauer untersuchen",
+  "sq": "mbushje e shpeshtë → kontrollo sistemin më hollësisht",
+  "termDe": "genauer untersuchen"
+ },
+ "h27": {
+  "de": "Wasserqualität und Druckhaltung",
+  "sq": "Cilësia e ujit dhe mbajtja e presionit"
+ },
+ "gut_fw": {
+  "de": "gutes Füllwasser",
+  "sq": "ujë i mirë mbushjeje",
+  "termDe": "gutes Füllwasser"
+ },
+ "dh_luft": {
+  "de": "Druckhaltung / Lufteintrag stimmen nicht",
+  "sq": "presioni / hyrja e ajrit jo në rregull",
+  "termDe": "Druckhaltung / Lufteintrag"
+ },
+ "c27": {
+  "de": "Wasserqualität + Anlagenbetrieb gehören zusammen",
+  "sq": "cilësia e ujit + funksionimi shkojnë së bashku",
+  "termDe": "gehören zusammen"
+ },
+ "h28": {
+  "de": "Nachkontrolle",
+  "sq": "Kontrolli pasues"
+ },
+ "tl1": {
+  "de": "Befüllung",
+  "sq": "Mbushja",
+  "term": true
+ },
+ "tl2": {
+  "de": "Inbetriebnahme",
+  "sq": "Vënia në punë",
+  "term": true
+ },
+ "tl3": {
+  "de": "Nachkontrolle",
+  "sq": "Kontrolli pasues",
+  "term": true
+ },
+ "tl4": {
+  "de": "Wartung",
+  "sq": "Mirëmbajtja",
+  "term": true
+ },
+ "c28": {
+  "de": "je nach Verfahren und Herstellervorgaben",
+  "sq": "sipas metodës dhe kërkesave të prodhuesit",
+  "termDe": "je nach Verfahren"
+ },
+ "h29": {
+  "de": "Was dokumentiert wird",
+  "sq": "Çfarë dokumentohet"
+ },
+ "d1": {
+  "de": "Volumen",
+  "sq": "Vëllimi",
+  "term": true
+ },
+ "d2": {
+  "de": "Leistung",
+  "sq": "Fuqia",
+  "term": true
+ },
+ "d3": {
+  "de": "Werkstoffe",
+  "sq": "Materialet",
+  "term": true
+ },
+ "d4": {
+  "de": "Rohwasser",
+  "sq": "Uji i papërpunuar",
+  "term": true
+ },
+ "d5": {
+  "de": "Aufbereitungsverfahren",
+  "sq": "Metoda e trajtimit",
+  "term": true
+ },
+ "d6": {
+  "de": "Füll- und Ergänzungsmengen",
+  "sq": "Sasitë e mbushjes dhe plotësimit",
+  "term": true
+ },
+ "d7": {
+  "de": "Messergebnisse",
+  "sq": "Rezultatet e matjeve",
+  "term": true
+ },
+ "d8": {
+  "de": "Sollbereiche",
+  "sq": "Vlerat e kërkuara",
+  "term": true
+ },
+ "d9": {
+  "de": "Nachkontrollen",
+  "sq": "Kontrollet pasuese",
+  "term": true
+ },
+ "c29": {
+  "de": "je nach Anlage",
+  "sq": "sipas sistemit",
+  "termDe": "je nach Anlage"
+ },
+ "h30": {
+  "de": "Typische Fehler",
+  "sq": "Gabime tipike"
+ },
+ "e1": {
+  "de": "Schwarzes Wasser = sicher Magnetit",
+  "sq": "Uji i zi = me siguri magnetit",
+  "termDe": "schwarz = sicher Magnetit"
+ },
+ "e2": {
+  "de": "Magnetit = Kalk",
+  "sq": "Magnetiti = gëlqere",
+  "termDe": "Magnetit = Kalk"
+ },
+ "e3": {
+  "de": "Magnetabscheider reinigt alles",
+  "sq": "Ndarësi magnetik pastron gjithçka",
+  "termDe": "Abscheider reinigt alles"
+ },
+ "e4": {
+  "de": "Abscheider gereinigt, Ursache ignoriert",
+  "sq": "Ndarësi u pastrua, shkaku u injorua",
+  "termDe": "Ursache ignoriert"
+ },
+ "e5": {
+  "de": "Ständig nachgefüllt, ohne Ursachensuche",
+  "sq": "Mbushje e vazhdueshme pa kërkuar shkakun",
+  "termDe": "ständig nachgefüllt"
+ },
+ "e6": {
+  "de": "VDI 2035 = immer vollentsalzen",
+  "sq": "VDI 2035 = gjithmonë demineralizim i plotë",
+  "termDe": "immer vollentsalzen"
+ },
+ "e7": {
+  "de": "Härte und Leitfähigkeit verwechselt",
+  "sq": "Fortësia dhe përçueshmëria të ngatërruara",
+  "termDe": "Härte / Leitfähigkeit verwechselt"
+ },
+ "e8": {
+  "de": "Niedrige Härte = niedrige Leitfähigkeit",
+  "sq": "Fortësi e ulët = përçueshmëri e ulët",
+  "termDe": "Härte = Leitfähigkeit"
+ },
+ "e9": {
+  "de": "Niedrige Leitfähigkeit = alles perfekt",
+  "sq": "Përçueshmëri e ulët = gjithçka perfekte",
+  "termDe": "alles perfekt"
+ },
+ "e10": {
+  "de": "pH vergessen",
+  "sq": "pH e harruar",
+  "termDe": "pH vergessen"
+ },
+ "e11": {
+  "de": "Additiv nach Werbung eingefüllt",
+  "sq": "Aditiv i hedhur sipas reklamës",
+  "termDe": "Additiv nach Werbung"
+ },
+ "e12": {
+  "de": "Füllmengen nicht dokumentiert",
+  "sq": "Sasitë e mbushjes të padokumentuara",
+  "termDe": "nicht dokumentiert"
+ },
+ "e13": {
+  "de": "Keine Nachkontrolle",
+  "sq": "Asnjë kontroll pasues",
+  "termDe": "keine Nachkontrolle"
+ },
+ "e14": {
+  "de": "Gute Wasserwerte, aber Druckhaltung ignoriert",
+  "sq": "Vlera të mira, por presioni i injoruar",
+  "termDe": "Druckhaltung ignoriert"
+ },
+ "h31": {
+  "de": "Auf der Baustelle",
+  "sq": "Në kantier"
+ },
+ "b1": {
+  "de": "Wasser ansehen und prüfen",
+  "sq": "Shiko dhe kontrollo ujin",
+  "termDe": "Wasser ansehen / prüfen"
+ },
+ "b2": {
+  "de": "Partikel entfernen",
+  "sq": "Largo grimcat",
+  "termDe": "Partikel entfernen"
+ },
+ "b3": {
+  "de": "Ursache und Wasseranforderungen prüfen",
+  "sq": "Kontrollo shkakun dhe kërkesat për ujin",
+  "termDe": "Ursache + Anforderungen"
+ },
+ "h32": {
+  "de": "Modul 14 im Überblick",
+  "sq": "Moduli 14 në përmbledhje"
+ },
+ "pa": {
+  "de": "Merke dir",
+  "sq": "Mbaje mend",
+  "termDe": "Merke dir"
+ },
+ "pb": {
+  "de": "Heizungswasser",
+  "sq": "Uji i ngrohjes",
+  "termDe": "Heizungswasser"
+ },
+ "k0": {
+  "de": "Korrosion kann Partikel bilden",
+  "sq": "korrozioni mund të krijojë grimca",
+  "termDe": "Korrosion → Partikel"
+ },
+ "k1": {
+  "de": "Wasser wird dunkel",
+  "sq": "uji errësohet",
+  "termDe": "dunkles Wasser"
+ },
+ "k2": {
+  "de": "magnetische Partikel",
+  "sq": "grimca magnetike",
+  "termDe": "magnetische Partikel"
+ },
+ "k3": {
+  "de": "Pumpe · Ventil · Wärmeübertrager",
+  "sq": "pompë · valvulë · shkëmbyes",
+  "termDe": "Pumpe · Ventil · WÜ"
+ },
+ "k4": {
+  "de": "Abscheider entfernt sie",
+  "sq": "ndarësi i largon",
+  "termDe": "Abscheider entfernt"
+ },
+ "k5": {
+  "de": "ABER: Ursache prüfen",
+  "sq": "POR: kontrollo shkakun",
+  "termDe": "Ursache prüfen"
+ },
+ "k6": {
+  "de": "Anlage bestimmen",
+  "sq": "përcakto sistemin",
+  "termDe": "Anlage bestimmen"
+ },
+ "k7": {
+  "de": "Werkstoffe · Wärmeerzeuger · Rohwasser",
+  "sq": "materialet · pajisja · uji i papërpunuar",
+  "termDe": "Werkstoffe · Erzeuger · Rohwasser"
+ },
+ "k8": {
+  "de": "passend aufbereiten",
+  "sq": "trajtoje siç duhet",
+  "termDe": "passend aufbereiten"
+ },
+ "k9": {
+  "de": "geschützt befüllen",
+  "sq": "mbush në mënyrë të mbrojtur",
+  "termDe": "geschützt befüllen"
+ },
+ "k10": {
+  "de": "Härte · Leitfähigkeit · pH getrennt",
+  "sq": "fortësia · përçueshmëria · pH veçmas",
+  "termDe": "getrennt betrachten"
+ },
+ "k11": {
+  "de": "Füllmengen dokumentieren",
+  "sq": "dokumento sasitë e mbushjes",
+  "termDe": "Füllmengen dokumentieren"
+ },
+ "k12": {
+  "de": "Druckhaltung + Lufteintrag kontrollieren",
+  "sq": "kontrollo presionin + hyrjen e ajrit",
+  "termDe": "Druckhaltung + Lufteintrag"
+ },
+ "k13": {
+  "de": "nachkontrollieren",
+  "sq": "kontroll pasues",
+  "termDe": "nachkontrollieren"
+ }
+}

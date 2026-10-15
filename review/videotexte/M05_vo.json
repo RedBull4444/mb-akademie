@@ -1,0 +1,98 @@
+{
+ "intro": {
+  "de": "Es-Ha-Ka Grundlagen. Modul fünf. Sicherheitsgruppe Warmwasserspeicher.",
+  "sq": "Bazat e Es-Ha-Ka-së. Moduli pesë. Grupi i sigurisë së depozitës së ujit të ngrohtë."
+ },
+ "s01": {
+  "de": "Das ist eine Sicherheitsgruppe für einen Trinkwarmwasserspeicher. Sie sitzt auf der Trinkwasserseite der Anlage und übernimmt mehrere wichtige Schutz- und Kontrollfunktionen.",
+  "sq": "Ky është një grup sigurie për një depozitë të ujit të ngrohtë sanitar. Ai ndodhet në anën e ujit të pijshëm dhe kryen disa funksione të rëndësishme mbrojtëse dhe kontrolli."
+ },
+ "s02": {
+  "de": "Die Sicherheitsgruppe wird in der Kaltwasserzuleitung zum Trinkwarmwasserspeicher eingebunden. Genau dort müssen mehrere Aufgaben erfüllt werden, bevor das Wasser in den Speicher gelangt.",
+  "sq": "Grupi i sigurisë lidhet në furnizimin me ujë të ftohtë të depozitës së ujit të ngrohtë. Pikërisht këtu duhet të kryhen disa funksione përpara se uji të hyjë në depozitë."
+ },
+ "s03": {
+  "de": "Zu einer solchen Installation gehören typischerweise eine Absperrmöglichkeit, ein Rückflussverhinderer und ein Sicherheitsventil mit geeigneter Ablaufanbindung. Je nach Ausführung und Anlage kann außerdem ein Druckminderer dazugehören. Nicht jede Sicherheitsgruppe enthält alle Teile im selben Gehäuse.",
+  "sq": "Në një instalim të tillë zakonisht bëjnë pjesë një valvul mbyllëse, një pengues kthimi dhe një valvul sigurie me lidhjen e duhur të shkarkimit. Në varësi të instalimit mund të përdoret edhe një reduktues presioni. Jo çdo grup i ka të gjitha pjesët në të njëjtin trup."
+ },
+ "s04": {
+  "de": "Im normalen Betrieb strömt das kalte Trinkwasser durch die Sicherheitsgruppe zum Speicher. Der genaue innere Aufbau hängt von der verwendeten Gruppe ab. Für uns ist zunächst entscheidend, welche Funktion jedes Bauteil erfüllt.",
+  "sq": "Në punë normale, uji i ftohtë sanitar kalon përmes grupit të sigurisë drejt depozitës. Ndërtimi i brendshëm varet nga grupi konkret. Për ne është fillimisht e rëndësishme të kuptojmë funksionin e secilit komponent."
+ },
+ "s05": {
+  "de": "Der Rückflussverhinderer lässt Wasser in Richtung Speicher fließen, verhindert aber die Rückströmung in die vorgeschaltete Kaltwasserinstallation.",
+  "sq": "Penguesi i kthimit lejon që uji të rrjedhë drejt depozitës, por pengon kthimin e tij në instalimin e mëparshëm të ujit të ftohtë."
+ },
+ "s06": {
+  "de": "Wenn das Wasser im Speicher erwärmt wird, dehnt es sich aus. Durch den Rückflussverhinderer kann dieses zusätzliche Volumen nicht einfach zurück in die Kaltwasserversorgung fließen. Dadurch steigt der Druck auf der Speicherseite.",
+  "sq": "Kur uji në depozitë nxehet, ai zgjerohet. Për shkak të penguesit të kthimit, ky vëllim shtesë nuk mund të kthehet thjesht në furnizimin me ujë të ftohtë. Kështu presioni në anën e depozitës rritet."
+ },
+ "s07": {
+  "de": "Hier kommt das Sicherheitsventil ins Spiel. Wird der vorgesehene Ansprechdruck erreicht, öffnet es und führt Wasser ab. Dadurch schützt es den Speicher vor unzulässig hohem Druck.",
+  "sq": "Këtu vepron valvula e sigurisë. Kur arrihet presioni i parashikuar i hapjes, ajo hapet dhe shkarkon ujë. Në këtë mënyrë mbron depozitën nga presioni tepër i lartë."
+ },
+ "s08": {
+  "de": "Zwischen Speicher und seinem Sicherheitsventil muss der vorgesehene Sicherheitsweg frei bleiben. Eine Absperrung, eine unzulässige Verengung oder ein Bauteil, das diesen Weg blockieren kann, darf die Schutzfunktion nicht außer Kraft setzen.",
+  "sq": "Midis depozitës dhe valvulës së saj të sigurisë, rruga e mbrojtjes duhet të mbetet e lirë. Një valvul mbyllëse, një ngushtim i papërshtatshëm ose një komponent që mund ta bllokojë këtë rrugë nuk duhet ta bëjë funksionin e sigurisë të paefektshëm."
+ },
+ "s09": {
+  "de": "Eine Absperrung wird trotzdem für Wartungsarbeiten benötigt. Entscheidend ist ihre Position: Im normalen Betrieb darf sie den Speicher nicht von seinem Sicherheitsventil trennen. Deshalb muss die konkrete Sicherheitsgruppe so montiert werden, wie es ihre Konstruktion und die Herstellerangaben vorsehen.",
+  "sq": "Një valvul mbyllëse nevojitet megjithatë për punët e mirëmbajtjes. Vendimtare është pozita e saj: gjatë punës normale ajo nuk duhet ta ndajë depozitën nga valvula e sigurisë. Prandaj grupi konkret duhet të montohet sipas ndërtimit dhe udhëzimeve të prodhuesit."
+ },
+ "s10": {
+  "de": "Ein Druckminderer hat eine andere Aufgabe. Wenn er für die Anlage erforderlich ist, reduziert er den ankommenden Versorgungsdruck auf den vorgesehenen nachgeschalteten Druck.",
+  "sq": "Reduktuesi i presionit ka një detyrë tjetër. Kur kërkohet për instalimin, ai ul presionin e furnizimit në presionin e parashikuar pas tij."
+ },
+ "s11": {
+  "de": "Druckminderer und Sicherheitsventil dürfen nicht verwechselt werden. Der Druckminderer reduziert den normalen Versorgungsdruck. Das Sicherheitsventil schützt den Speicher vor unzulässigem Überdruck.",
+  "sq": "Reduktuesi i presionit dhe valvula e sigurisë nuk duhet të ngatërrohen. Reduktuesi ul presionin normal të furnizimit. Valvula e sigurisë mbron depozitën nga presioni tepër i lartë."
+ },
+ "s12": {
+  "de": "Wichtig: Nicht jede Sicherheitsgruppe hat einen Druckminderer direkt integriert. Ob und wo einer benötigt wird, richtet sich nach dem Versorgungsdruck, der Planung und den Anforderungen des Speichers.",
+  "sq": "E rëndësishme: jo çdo grup sigurie e ka reduktuesin e presionit të integruar. Nëse dhe ku nevojitet ai varet nga presioni i furnizimit, projekti dhe kërkesat e depozitës."
+ },
+ "s13": {
+  "de": "Das Wasser aus dem Sicherheitsventil muss sicher abgeführt werden. Ein Ablauftrichter macht den Austritt sichtbar und stellt die vorgesehene freie Trennung zur Entwässerung her.",
+  "sq": "Uji që del nga valvula e sigurisë duhet të shkarkohet në mënyrë të sigurt. Hinka e shkarkimit e bën daljen të dukshme dhe krijon ndarjen e lirë të parashikuar drejt kanalizimit."
+ },
+ "s14": {
+  "de": "Der Ablauf darf nicht verschlossen und nicht so ausgeführt werden, dass das Leitungsende unter Wasser liegt. Auch Frost oder eine ungeeignete Leitungsführung dürfen die Abführung nicht blockieren.",
+  "sq": "Shkarkimi nuk duhet të mbyllet dhe nuk duhet të përfundojë i zhytur në ujë. As ngrirja ose një tubacion i papërshtatshëm nuk duhet ta bllokojë shkarkimin."
+ },
+ "s15": {
+  "de": "Beim Aufheizen dehnt sich das Trinkwasser im Speicher aus. Wenn dieses zusätzliche Volumen nicht durch ein wirksames Trinkwasser-Ausdehnungsgefäß aufgenommen wird, kann das Sicherheitsventil während der Aufheizphase Wasser abgeben.",
+  "sq": "Gjatë ngrohjes uji sanitar në depozitë zgjerohet. Nëse ky vëllim shtesë nuk merret nga një enë funksionale zgjerimi për ujin sanitar, valvula e sigurisë mund të shkarkojë ujë gjatë fazës së ngrohjes."
+ },
+ "s16": {
+  "de": "Wasser am Sicherheitsventil während der Aufheizung bedeutet deshalb nicht automatisch, dass das Ventil defekt ist. Tritt jedoch dauerhaft oder ungewöhnlich viel Wasser aus, muss die Ursache untersucht werden.",
+  "sq": "Prandaj dalja e ujit nga valvula e sigurisë gjatë ngrohjes nuk do të thotë automatikisht se valvula është me defekt. Por nëse uji del vazhdimisht ose në mënyrë të pazakontë, duhet të kontrollohet shkaku."
+ },
+ "s17": {
+  "de": "Ist ein Trinkwasser-Ausdehnungsgefäß vorhanden, kann es die normale Volumenänderung aufnehmen. Das Sicherheitsventil bleibt trotzdem notwendig. Das Ausdehnungsgefäß ersetzt niemals die Sicherheitsfunktion.",
+  "sq": "Kur ka një enë zgjerimi për ujin sanitar, ajo mund të marrë ndryshimin normal të vëllimit. Megjithatë valvula e sigurisë mbetet e nevojshme. Ena e zgjerimit nuk e zëvendëson kurrë funksionin e sigurisë."
+ },
+ "s18": {
+  "de": "Sicherheitsventil, Druckminderer und die übrigen Komponenten werden passend zum Speicher und zur konkreten Installation ausgewählt. Es gibt keinen universellen Druckwert, den man bei jedem Speicher einfach übernehmen kann.",
+  "sq": "Valvula e sigurisë, reduktuesi i presionit dhe komponentët e tjerë zgjidhen sipas depozitës dhe instalimit konkret. Nuk ka një vlerë universale presioni që mund të përdoret njësoj për çdo depozitë."
+ },
+ "s19": {
+  "de": "Jetzt die typischen Fehler. Eine Heizungs-Sicherheitsgruppe am Trinkwasserspeicher ist die falsche Sicherheitsgruppe. Eine geschlossene Absperrung zwischen Speicher und Sicherheitsventil blockiert den Sicherheitsweg. Der Ablauf wird zugestopft, dabei darf er niemals verschlossen werden. Die Abblaseleitung endet unter Wasser. Der Druckminderer soll Überdruck abblasen, obwohl er eine andere Aufgabe hat. Das Sicherheitsventil passt nicht zum Speicher, deshalb immer die Speicher- und Herstellervorgaben prüfen. Und ein tropfendes Ventil wird einfach verschlossen. Richtig ist, die Ursache zu prüfen, aber niemals zu verschließen.",
+  "sq": "Tani gabimet tipike. Një grup sigurie i ngrohjes te depozita e ujit sanitar është grupi i gabuar i sigurisë. Një valvul mbyllëse e mbyllur midis depozitës dhe valvulës së sigurisë bllokon rrugën e sigurisë. Shkarkimi mbyllet me tapë, ndërsa ai nuk duhet të mbyllet kurrë. Tubi i shkarkimit përfundon i zhytur në ujë. Reduktuesi i presionit pritet të shkarkojë presionin e tepërt, edhe pse ai ka një detyrë tjetër. Valvula e sigurisë nuk i përshtatet depozitës, prandaj kontrollo gjithmonë kërkesat e depozitës dhe të prodhuesit. Dhe një valvul që pikon thjesht mbyllet. E sakta është të kontrollohet shkaku, por kurrë të mos mbyllet."
+ },
+ "s20": {
+  "de": "Wenn du eine solche Sicherheitsgruppe auf der Baustelle siehst, solltest du jetzt nicht nur das Bauteil erkennen. Du solltest auch wissen, welchen Weg das Wasser nimmt und welche Schutzfunktion jedes Teil übernimmt.",
+  "sq": "Kur sheh një grup të tillë sigurie në kantier, tani nuk duhet vetëm ta njohësh komponentin. Duhet të kuptosh edhe rrugën e ujit dhe funksionin mbrojtës të secilës pjesë."
+ },
+ "s21": {
+  "de": "Bei der Kontrolle schauen wir deshalb nicht nur darauf, ob eine Gruppe vorhanden ist. Wir prüfen den Wasserweg, die Fließrichtung, den freien Sicherheitsweg, den Ablauf und ob die verwendeten Komponenten zur Anlage passen.",
+  "sq": "Gjatë kontrollit nuk shohim vetëm nëse grupi është i pranishëm. Kontrollojmë rrugën e ujit, drejtimin e rrjedhës, rrugën e lirë të sigurisë, shkarkimin dhe nëse komponentët e përdorur i përshtaten instalimit."
+ },
+ "s22": {
+  "de": "Merke dir den Aufbau so: Die Sicherheitsgruppe sitzt in der Kaltwasserzufuhr des Speichers. Der Rückflussverhinderer verhindert das Zurückströmen. Ein Druckminderer reduziert bei Bedarf den normalen Versorgungsdruck. Das Sicherheitsventil schützt vor unzulässigem Überdruck. Sein Weg zum Speicher und sein Ablauf müssen frei bleiben. Und Wasser während der Aufheizung bedeutet nicht automatisch einen Defekt – auffälliger oder dauerhafter Austritt muss aber geprüft werden.",
+  "sq": "Mbaje mend kështu: grupi i sigurisë ndodhet në furnizimin me ujë të ftohtë të depozitës. Penguesi i kthimit parandalon kthimin e ujit. Kur nevojitet, reduktuesi ul presionin normal të furnizimit. Valvula e sigurisë mbron nga presioni tepër i lartë. Rruga e saj drejt depozitës dhe shkarkimi duhet të mbeten të lirë. Dhe dalja e ujit gjatë ngrohjes nuk do të thotë automatikisht defekt, por një dalje e pazakontë ose e vazhdueshme duhet kontrolluar."
+ },
+ "outro": {
+  "de": "Modul fünf abgeschlossen.",
+  "sq": "Moduli pesë përfunduar."
+ }
+}

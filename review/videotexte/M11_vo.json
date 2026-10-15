@@ -1,0 +1,134 @@
+{
+ "intro": {
+  "de": "Es-Ha-Ka Grundlagen. Modul elf. Umwälzpumpe und Rückschlagventile: Differenzdruck, Regelung, Fließrichtung.",
+  "sq": "Bazat e Es-Ha-Ka-së. Moduli njëmbëdhjetë. Pompa qarkulluese dhe valvulat kundërkthimit: diferenca e presionit, rregullimi, drejtimi i rrjedhës."
+ },
+ "s01": {
+  "de": "Diese beiden Bauteile beeinflussen direkt, wie Heizungswasser durch eine Anlage strömt. Die Umwälzpumpe erzeugt die Wasserbewegung. Rückschlagventile verhindern an vorgesehenen Stellen, dass Wasser unerwünscht in die Gegenrichtung zurückströmt.",
+  "sq": "Këta dy komponentë ndikojnë drejtpërdrejt në mënyrën si qarkullon uji në sistemin e ngrohjes. Pompa qarkulluese krijon lëvizjen e ujit. Valvulat kundërkthimit parandalojnë kthimin e padëshiruar të ujit në drejtimin e kundërt."
+ },
+ "s02": {
+  "de": "In einer geschlossenen Heizungsanlage ist Wasser bereits im gesamten Rohrnetz vorhanden. Die Umwälzpumpe muss dieses Wasser nicht erst bis in das oberste Stockwerk hochheben. Ihre Aufgabe ist es, die Wasserzirkulation im gefüllten System zu erzeugen.",
+  "sq": "Në një sistem të mbyllur ngrohjeje, uji ndodhet tashmë në të gjithë rrjetin e tubacioneve. Pompa nuk duhet ta ngrejë fillimisht ujin deri në katin më të lartë. Detyra e saj është të krijojë qarkullimin në sistemin e mbushur."
+ },
+ "s03": {
+  "de": "Die Pumpe erzeugt einen Druckunterschied zwischen ihrer Saug- und Druckseite. Dieser Differenzdruck treibt das Wasser durch Rohre, Ventile und Heizflächen.",
+  "sq": "Pompa krijon një ndryshim presioni midis anës hyrëse dhe asaj dalëse. Ky ndryshim presioni e shtyn ujin përmes tubave, valvulave dhe sipërfaqeve të ngrohjes."
+ },
+ "s04": {
+  "de": "Dieser Pumpendifferenzdruck ist nicht dasselbe wie der statische Anlagendruck. Die Druckhaltung der Anlage ist eine andere Aufgabe, bei der unter anderem das Em-A-Ge eine wichtige Rolle übernimmt.",
+  "sq": "Ky ndryshim presioni i pompës nuk është i njëjtë me presionin statik të sistemit. Mbajtja e presionit është një detyrë tjetër, ku ndër të tjera MAG-u ka një rol të rëndësishëm."
+ },
+ "s05": {
+  "de": "In einem gefüllten geschlossenen Heizkreis wird die Pumpe deshalb nicht einfach nach der Gebäudehöhe ausgewählt. Entscheidend sind vor allem der benötigte Volumenstrom und die Widerstände, die das Wasser im Rohrnetz überwinden muss.",
+  "sq": "Në një qark të mbyllur dhe të mbushur, pompa nuk zgjidhet thjesht sipas lartësisë së ndërtesës. Vendimtare janë sidomos prurja e nevojshme dhe rezistencat që uji duhet të kapërcejë në rrjetin e tubacioneve."
+ },
+ "s06": {
+  "de": "Rohrleitungen, Bögen, Ventile, Wärmetauscher und andere Bauteile verursachen Strömungswiderstände. Die Pumpe muss zum benötigten Volumenstrom und zu diesen Widerständen passen.",
+  "sq": "Tubacionet, bërrylat, valvulat, shkëmbyesit dhe komponentët e tjerë krijojnë rezistencë ndaj rrjedhës. Pompa duhet t'i përshtatet prurjes së nevojshme dhe këtyre rezistencave."
+ },
+ "s07": {
+  "de": "Ändert sich die Pumpenleistung, verändert sich auch der Betriebspunkt der Anlage und damit der Volumenstrom. Wie stark, hängt vom Rohrnetz und seinen Widerständen ab.",
+  "sq": "Kur ndryshon puna e pompës, ndryshon edhe pika e punës së sistemit dhe prurja. Sa shumë ndryshon, varet nga rrjeti dhe rezistencat e tij."
+ },
+ "s08": {
+  "de": "Die Pumpe einfach auf maximale Leistung zu stellen, ist deshalb keine fachgerechte Auslegung. Zu viel Pumpenleistung kann unnötige Geräusche, höhere elektrische Leistung und ungünstige hydraulische Verhältnisse verursachen.",
+  "sq": "Prandaj vendosja e pompës thjesht në maksimum nuk është një dimensionim profesional. Fuqia e tepërt e pompës mund të shkaktojë zhurma të panevojshme, konsum më të lartë elektrik dhe kushte hidraulike të pafavorshme."
+ },
+ "s09": {
+  "de": "Bei einer Regelung mit konstantem Differenzdruck, oft als Delta-Pe-Ze bezeichnet, versucht die Pumpe innerhalb ihres Arbeitsbereichs einen vorgegebenen Druckunterschied zu halten.",
+  "sq": "Në një rregullim me diferencë konstante presioni, shpesh të quajtur Delta-p-c, pompa përpiqet të mbajë një ndryshim të caktuar presioni brenda zonës së saj të punës."
+ },
+ "s10": {
+  "de": "Wichtig: Konstanter Differenzdruck bedeutet nicht automatisch konstanten Volumenstrom. Wenn sich Ventilstellungen und Widerstände ändern, kann sich auch bei geregeltem Druckunterschied die Wassermenge verändern.",
+  "sq": "E rëndësishme: diferenca konstante e presionit nuk do të thotë automatikisht prurje konstante. Kur ndryshojnë valvulat dhe rezistencat, mund të ndryshojë edhe sasia e ujit."
+ },
+ "s11": {
+  "de": "Bei einer variablen Differenzdruckregelung, Delta-Pe-Vau, verändert die Pumpe den angestrebten Differenzdruck abhängig vom Betriebszustand beziehungsweise Volumenstrom.",
+  "sq": "Në rregullimin me diferencë të ndryshueshme presioni, Delta-p-v, pompa e ndryshon presionin e synuar sipas gjendjes së punës dhe prurjes."
+ },
+ "s12": {
+  "de": "Welcher Regelmodus passt, hängt vom konkreten Rohrnetz, den Verbrauchern und der Steuerung des Wärmeerzeugers ab. Es gibt keine Einstellung, die für jede Anlage automatisch richtig ist.",
+  "sq": "Mënyra e duhur e rregullimit varet nga rrjeti konkret, konsumatorët dhe kontrolli i pajisjes së ngrohjes. Nuk ka një rregullim që është automatikisht i saktë për çdo sistem."
+ },
+ "s13": {
+  "de": "Besondere Vorsicht gilt bei integrierten Wärmepumpenpumpen. Wenn die Gerätesteuerung die Pumpe selbst regelt, werden Einstellungen nicht einfach unabhängig vom Herstellerkonzept verändert.",
+  "sq": "Kujdes i veçantë duhet te pompat e integruara të pompave të nxehtësisë. Kur kontrolli i pajisjes e rregullon vetë pompën, parametrat nuk ndryshohen thjesht pa marrë parasysh konceptin e prodhuesit."
+ },
+ "s14": {
+  "de": "Bei der Montage wird zuerst die Fließrichtung geprüft. Der Pfeil am Pumpengehäuse muss zum vorgesehenen Wasserweg passen.",
+  "sq": "Gjatë montimit kontrollohet fillimisht drejtimi i rrjedhës. Shigjeta në trupin e pompës duhet të përputhet me rrugën e parashikuar të ujit."
+ },
+ "s15": {
+  "de": "Auch die Einbaulage ist wichtig. Bei vielen üblichen Nassläufer-Heizungspumpen muss die Motorwelle horizontal liegen. Das ist aber keine universelle Regel für jede Pumpenbauart – entscheidend ist die Anleitung des konkreten Modells.",
+  "sq": "Edhe pozicioni i montimit është i rëndësishëm. Te shumë pompa tipike me rotor të lagësht, boshti i motorit duhet të jetë horizontal. Por kjo nuk është një rregull universal për çdo lloj pompe – vendos udhëzimi i modelit konkret."
+ },
+ "s16": {
+  "de": "Vor dem Betrieb muss die Anlage ordnungsgemäß gefüllt und entlüftet sein. Eine dafür nicht geeignete Nassläuferpumpe darf nicht trocken betrieben werden.",
+  "sq": "Para funksionimit, sistemi duhet të jetë mbushur dhe ajrosur siç duhet. Një pompë me rotor të lagësht nuk duhet të punojë pa ujë."
+ },
+ "s17": {
+  "de": "Eine Heizungsumwälzpumpe ist außerdem nicht automatisch für die Trinkwasser-Zirkulation geeignet. Ähnliche Optik bedeutet nicht dieselbe Zulassung oder denselben Einsatzzweck.",
+  "sq": "Një pompë qarkulluese për ngrohje nuk është automatikisht e përshtatshme për riqarkullimin e ujit sanitar. Pamja e ngjashme nuk do të thotë të njëjtin përdorim ose të njëjtën përshtatshmëri."
+ },
+ "s18": {
+  "de": "Die Pumpe sorgt also für Bewegung. Jetzt schauen wir auf Bauteile, die an bestimmten Stellen verhindern, dass diese Bewegung unerwünscht in die Gegenrichtung läuft.",
+  "sq": "Pompa krijon pra lëvizjen. Tani shohim komponentët që në vende të caktuara pengojnë që uji të lëvizë padashur në drejtimin e kundërt."
+ },
+ "s19": {
+  "de": "Ein Rückschlagventil funktioniert vereinfacht wie eine Tür in nur eine Richtung. In der vorgesehenen Fließrichtung kann es öffnen. Versucht das Wasser zurückzuströmen, schließt das Ventil.",
+  "sq": "Një valvul kundërkthimi funksionon, thjeshtuar, si një derë që hapet vetëm në një drejtim. Në drejtimin e parashikuar ajo mund të hapet. Kur uji përpiqet të kthehet, valvula mbyllet."
+ },
+ "s20": {
+  "de": "Das Ventil öffnet nicht völlig widerstandslos. Je nach Bauart ist ein bestimmter Öffnungsdruck notwendig. Dadurch entsteht auch ein zusätzlicher hydraulischer Widerstand, der bei der Auslegung berücksichtigt wird.",
+  "sq": "Valvula nuk hapet pa asnjë rezistencë. Në varësi të ndërtimit nevojitet një presion i caktuar hapjeje. Kjo krijon edhe një rezistencë shtesë hidraulike që duhet të merret parasysh."
+ },
+ "s21": {
+  "de": "In Anlagen mit mehreren Kreisen können Rückschlagventile verhindern, dass eine laufende Pumpe Wasser unerwünscht rückwärts durch einen anderen Kreis drückt.",
+  "sq": "Në sisteme me disa qarqe, valvulat kundërkthimit mund të pengojnë që një pompë në punë ta shtyjë ujin mbrapsht nëpër një qark tjetër."
+ },
+ "s22": {
+  "de": "Auch ohne laufende Pumpe kann durch Temperaturunterschiede ein natürlicher Schwerkraftumlauf entstehen.",
+  "sq": "Edhe kur pompa nuk punon, ndryshimet e temperaturës mund të krijojnë një qarkullim natyror të ujit."
+ },
+ "s23": {
+  "de": "Eine dafür vorgesehene Schwerkraftbremse kann diesen unerwünschten natürlichen Umlauf begrenzen.",
+  "sq": "Një frenues i posaçëm i qarkullimit natyror mund ta kufizojë këtë lëvizje të padëshiruar."
+ },
+ "s24": {
+  "de": "Bei manchen Pumpengruppen oder Armaturen ist eine Rückschlagfunktion bereits integriert. Deshalb wird vor dem Einbau geprüft, welche Funktionen schon vorhanden sind.",
+  "sq": "Në disa grupe pompash ose armatura, funksioni kundërkthim është tashmë i integruar. Prandaj para montimit kontrollohet se cilat funksione janë tashmë të pranishme."
+ },
+ "s25": {
+  "de": "Einige Schwerkraftbremsen lassen sich für Servicearbeiten manuell öffnen. Nach der Wartung dürfen sie nicht versehentlich in dieser Stellung bleiben, sondern müssen wieder in die vorgesehene Betriebsposition gebracht werden.",
+  "sq": "Disa frenues të qarkullimit natyror mund të hapen manualisht gjatë mirëmbajtjes. Pas punës nuk duhet të mbeten pa dashje në këtë pozicion, por duhet të rikthehen në gjendjen e parashikuar të punës."
+ },
+ "s26": {
+  "de": "Ein normales Heizungs-Rückschlagventil ist außerdem kein Ersatz für den erforderlichen Trinkwasserschutz beim Befüllen der Heizungsanlage. Dafür wird die passende Sicherungseinrichtung entsprechend der Gefährdung eingesetzt.",
+  "sq": "Një valvul e zakonshme kundërkthimi e ngrohjes nuk e zëvendëson mbrojtjen e nevojshme të ujit të pijshëm gjatë mbushjes së sistemit. Për këtë përdoret pajisja e përshtatshme e sigurisë sipas rrezikut."
+ },
+ "s27": {
+  "de": "Auch Rückschlagventile dürfen keine Verbindung blockieren, die für Sicherheitsventil, Ausdehnungsgefäß oder eine andere notwendige Schutzfunktion wirksam bleiben muss.",
+  "sq": "Edhe valvulat kundërkthimit nuk duhet të bllokojnë një lidhje që duhet të mbetet funksionale për valvulën e sigurisë, MAG-un ose një funksion tjetër mbrojtës."
+ },
+ "s28": {
+  "de": "Vor dem Einbau werden deshalb Medium, Temperatur- und Druckbereich, Öffnungsdruck, Fließrichtung und zulässige Einbaulage geprüft. Auch Wartungszugang und zusätzlicher Druckverlust gehören zur Planung.",
+  "sq": "Para montimit kontrollohen lëngu, temperatura dhe presioni i lejuar, presioni i hapjes, drejtimi i rrjedhës dhe pozicioni i lejuar. Gjithashtu merren parasysh mirëmbajtja dhe humbja shtesë e presionit."
+ },
+ "s29": {
+  "de": "Typische Fehler: Pumpe nach Gebäudehöhe ausgewählt. Pumpe einfach auf Maximum. Pumpendruck mit Anlagendruck verwechselt. Delta-Pe-Ze als immer gleicher Volumenstrom verstanden. Integrierte Wärmepumpenpumpe beliebig verstellt. Pumpe falsch herum eingebaut. Falsche Einbaulage. Trockenlauf. Heizungspumpe als Trinkwasser-Zirkulationspumpe. Rückschlagventil rückwärts eingebaut. Falsche Ventilart. Schwerkraftbremse nach dem Service offen gelassen. Zusätzliches Ventil, obwohl die Rückschlagfunktion schon integriert ist. Rückschlagventil als Systemtrenner verwendet. Und: Em-A-Ge- oder Sicherheitsweg blockiert.",
+  "sq": "Gabime tipike: pompa zgjidhet sipas lartësisë së ndërtesës. Pompa thjesht në maksimum. Presioni i pompës ngatërrohet me presionin e sistemit. Delta-p-c kuptohet si prurje gjithmonë e njëjtë. Pompa e integruar e pompës së nxehtësisë ndryshohet sipas dëshirës. Pompa montohet së prapthi. Pozicion i gabuar montimi. Punë pa ujë. Pompë ngrohjeje si pompë riqarkullimi për ujë sanitar. Valvula kundërkthimit montohet së prapthi. Lloj i gabuar valvule. Frenuesi lihet i hapur pas mirëmbajtjes. Valvul shtesë, edhe pse funksioni kundërkthim është tashmë i integruar. Valvula kundërkthimit përdoret si ndarës sistemi. Dhe: rruga e MAG-ut ose e sigurisë bllokohet."
+ },
+ "s30": {
+  "de": "Auf der Baustelle schaust du bei der Pumpe zuerst auf Fließrichtung, Bauart, Einbaulage und vorgesehene Regelung. Beim Rückschlagventil kontrollierst du Richtung, Einsatzbereich und ob diese Funktion an dieser Stelle hydraulisch überhaupt vorgesehen ist.",
+  "sq": "Në kantier, te pompa kontrollon fillimisht drejtimin e rrjedhës, llojin, pozicionin e montimit dhe mënyrën e parashikuar të rregullimit. Te valvula kundërkthimit kontrollon drejtimin, përdorimin dhe nëse ky funksion është parashikuar hidraulikisht në atë vend."
+ },
+ "s31": {
+  "de": "Merke dir Modul elf so: Die Umwälzpumpe erzeugt den Differenzdruck, der das Heizungswasser gegen die Widerstände des Rohrnetzes bewegt. Sie ersetzt weder den statischen Anlagendruck noch das Em-A-Ge. In einem gefüllten geschlossenen Heizkreis wird sie deshalb nicht einfach nach Gebäudehöhe oder auf maximale Leistung eingestellt. Fließrichtung, Einbaulage und Regelart müssen zum konkreten System passen. Rückschlagventile öffnen in der vorgesehenen Richtung und verhindern unerwünschte Rückströmung. Spezielle Schwerkraftbremsen können auch unerwünschten natürlichen Umlauf begrenzen. Aber auch diese Ventile erzeugen Widerstand, müssen richtig herum eingebaut werden und dürfen keine notwendigen Sicherheits- oder Ausdehnungswege blockieren. Entscheidend ist immer die Funktion der gesamten Hydraulik.",
+  "sq": "Mbaje mend modulin njëmbëdhjetë kështu: pompa qarkulluese krijon diferencën e presionit që lëviz ujin e ngrohjes kundër rezistencave të rrjetit. Ajo nuk zëvendëson presionin statik të sistemit dhe as MAG-un. Në një qark të mbyllur dhe të mbushur, pompa nuk zgjidhet thjesht sipas lartësisë së ndërtesës dhe nuk vendoset pa arsye në maksimum. Drejtimi i rrjedhës, pozicioni dhe mënyra e rregullimit duhet t'i përshtaten sistemit konkret. Valvulat kundërkthimit hapen në drejtimin e parashikuar dhe pengojnë kthimin e padëshiruar. Frenues të posaçëm mund të kufizojnë edhe qarkullimin natyror. Por edhe këto valvula krijojnë rezistencë, duhet të montohen në drejtimin e duhur dhe nuk duhet të bllokojnë rrugë të nevojshme sigurie ose zgjerimi. Vendimtare është gjithmonë funksionimi i të gjithë hidraulikës."
+ },
+ "outro": {
+  "de": "Modul elf abgeschlossen.",
+  "sq": "Moduli njëmbëdhjetë përfunduar."
+ }
+}
