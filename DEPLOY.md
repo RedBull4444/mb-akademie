@@ -16,3 +16,8 @@ Voraussetzung: Cloudflare-Konto von M&B, API-Token mit „Cloudflare Pages: Edit
 9. Danach prüfen: /chef/ Ersteinrichtung, Video auf iPhone (Range/206), Vorspulen gesperrt, Quiz, Zertifikat, /pruefen/.
 
 Quizfragen ändern: content/quiz/MNN.json bearbeiten → `node tools/gen-quiz.mjs` → neu deployen.
+
+## Kapitel für „Nachschlagen“ (chapters.json)
+Die Datei `public/assets/chapters.json` wird auf dem Render-Server aus den Videoprojekten erzeugt (nicht im Repo gepflegt):
+`node tools/gen-chapters.cjs projekte.json > public/assets/chapters.json` – danach deployen. Nach Video-Änderungen neu erzeugen.
+Im Repo liegt nur ein leeres `{}` (App zeigt dann keine Kapitel).
