@@ -26,7 +26,7 @@ if (end < 0) throw new Error('MODS-Ende nicht gefunden');
 const mods = vm.runInNewContext('(' + src.slice(src.indexOf('[', start), end + 1) + ')');
 
 // Dauern in Sekunden laut SPEC (exakt).
-const DUR = [39.5, 298.4, 337.7, 452.3, 348.8, 407.1, 438.5, 427.6, 396.6, 497.6, 420.8, 523.4, 415.3, 390.2, 431.5, 381.0];
+const DUR = [39.5, 300.0, 339.4, 451.9, 347.7, 407.0, 440.3, 428.2, 401.1, 499.2, 423.1, 524.8, 415.2, 393.6, 432.8, 385.5];
 if (mods.length !== 16) throw new Error('Erwarte 16 Module, gefunden: ' + mods.length);
 
 const out = mods.map((m, idx) => {

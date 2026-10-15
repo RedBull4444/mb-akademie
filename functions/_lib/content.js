@@ -30,7 +30,7 @@ export const MODS = [
   {
     "n": 1,
     "p": 1,
-    "duration": 298.4,
+    "duration": 300,
     "de": "Membran-Ausdehnungsgefäß (MAG) Heizung",
     "sq": "Ena e zgjerimit me membranë (MAG) për ngrohje",
     "g": {
@@ -55,7 +55,7 @@ export const MODS = [
   {
     "n": 2,
     "p": 1,
-    "duration": 337.7,
+    "duration": 339.4,
     "de": "Trinkwasser-Ausdehnungsgefäß",
     "sq": "Ena e zgjerimit për ujë të pijshëm",
     "g": {
@@ -78,7 +78,7 @@ export const MODS = [
   {
     "n": 3,
     "p": 1,
-    "duration": 452.3,
+    "duration": 451.9,
     "de": "Nachfülleinheit und Wasseraufbereitung",
     "sq": "Njësia e rimbushjes dhe trajtimi i ujit",
     "g": {
@@ -103,7 +103,7 @@ export const MODS = [
   {
     "n": 4,
     "p": 1,
-    "duration": 348.8,
+    "duration": 347.7,
     "de": "Sicherheitsgruppe Heizung",
     "sq": "Grupi i sigurisë së ngrohjes",
     "g": {
@@ -128,7 +128,7 @@ export const MODS = [
   {
     "n": 5,
     "p": 1,
-    "duration": 407.1,
+    "duration": 407,
     "de": "Sicherheitsgruppe Warmwasserspeicher",
     "sq": "Grupi i sigurisë së depozitës së ujit të ngrohtë",
     "g": {
@@ -153,7 +153,7 @@ export const MODS = [
   {
     "n": 6,
     "p": 1,
-    "duration": 438.5,
+    "duration": 440.3,
     "de": "Schlammabscheider",
     "sq": "Ndarësi i llumit",
     "g": {
@@ -176,7 +176,7 @@ export const MODS = [
   {
     "n": 7,
     "p": 1,
-    "duration": 427.6,
+    "duration": 428.2,
     "de": "Luftabscheider und Entlüfter",
     "sq": "Ndarësi i ajrit dhe ajruesi",
     "g": {
@@ -201,7 +201,7 @@ export const MODS = [
   {
     "n": 8,
     "p": 2,
-    "duration": 396.6,
+    "duration": 401.1,
     "de": "Warmwasserspeicher anschließen",
     "sq": "Lidhja e depozitës së ujit të ngrohtë",
     "g": {
@@ -226,7 +226,7 @@ export const MODS = [
   {
     "n": 9,
     "p": 2,
-    "duration": 497.6,
+    "duration": 499.2,
     "de": "Heizungsanlage anschließen",
     "sq": "Lidhja e sistemit të ngrohjes",
     "g": {
@@ -251,7 +251,7 @@ export const MODS = [
   {
     "n": 10,
     "p": 2,
-    "duration": 420.8,
+    "duration": 423.1,
     "de": "Wärmepumpen-Hydraulik",
     "sq": "Hidraulika e pompës së nxehtësisë",
     "g": {
@@ -276,7 +276,7 @@ export const MODS = [
   {
     "n": 11,
     "p": 2,
-    "duration": 523.4,
+    "duration": 524.8,
     "de": "Umwälzpumpe und Rückschlagventile",
     "sq": "Pompa qarkulluese dhe valvulat e kundërkthimit",
     "g": {
@@ -301,7 +301,7 @@ export const MODS = [
   {
     "n": 12,
     "p": 3,
-    "duration": 415.3,
+    "duration": 415.2,
     "de": "Hydraulischer Abgleich",
     "sq": "Balancimi hidraulik",
     "g": {
@@ -326,7 +326,7 @@ export const MODS = [
   {
     "n": 13,
     "p": 3,
-    "duration": 390.2,
+    "duration": 393.6,
     "de": "Mischerkreis",
     "sq": "Qarku me përzierje",
     "g": {
@@ -351,7 +351,7 @@ export const MODS = [
   {
     "n": 14,
     "p": 3,
-    "duration": 431.5,
+    "duration": 432.8,
     "de": "Heizungswasser: Magnetit und VDI 2035",
     "sq": "Uji i ngrohjes: magnetiti dhe VDI 2035",
     "g": {
@@ -376,7 +376,7 @@ export const MODS = [
   {
     "n": 15,
     "p": 3,
-    "duration": 381,
+    "duration": 385.5,
     "de": "Typische Montagefehler und Abschlusskontrolle",
     "sq": "Gabimet tipike të montimit dhe kontrolli përfundimtar",
     "g": {
