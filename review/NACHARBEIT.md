@@ -18,5 +18,12 @@ Ziel: Jeder Punkt hier wird umgesetzt, das Modul neu gerendert (nur die betroffe
 ## M13
 - K1 MITTEL: DE s26 „Regelreaktion“ klingt wie „Rege Reaktion“ → neu mit Bram, TTS-Text „Regel-Reaktion“, erst übernehmen, wenn whisper medium „Regelreaktion“ erkennt; Timing s26 DE neu; DE-Startversatz so, dass die letzte Karte höchstens ca. 2 s nach dem Sprechen erscheint.
 
-## Offen aus noch laufenden Kontrollen (M01/M02, M03/M08/M09, M04/M05/M15, M10)
+## M15
+- MITTEL: Bildtext `closedv` → DE „Absperrung im Sicherheitsweg“, SQ „Valvulë mbyllëse në rrugën e sigurisë“, termDe „Absperrung im Sicherheitsweg“; Etikett in src/scenesA.js (ca. Z. 287) auf `bv[0] + 40` versetzen (längerer Text) – Standbild s05 (~81 s) DE+SQ prüfen.
+- KLEIN: `outro_line` DE „M&B Gebäudetechnik · SHK-Grundlagen“ (Bindestrich) – Outro (~384 s) prüfen.
+- DE+SQ neu rendern (kein Ton).
+
+## M04/M05: freigegeben (Ventil-Animation „kurz offen, dann rot“ und Chip-Überstand M04 s07 bewusst belassen – lesbar, fachlich nicht falsch).
+
+## Offen aus noch laufenden Kontrollen (M01/M02, M03/M08/M09, M10)
 - (wird ergänzt)
