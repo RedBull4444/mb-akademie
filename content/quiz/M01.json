@@ -3,12 +3,12 @@
     "q": {"de": "Was passiert im MAG, wenn das Heizungswasser warm wird?", "sq": "Çfarë ndodh në MAG kur uji i ngrohjes nxehet?"},
     "a": [
       {"de": "Das MAG gibt Wasser an die Anlage ab", "sq": "MAG-u i jep ujë sistemit"},
-      {"de": "Wasser fließt ins MAG, das Gas wird zusammengedrückt", "sq": "Uji hyn në MAG dhe gazi ngjeshet"},
+      {"de": "Wasser fließt ins MAG, das Gas wird zusammengedrückt", "sq": "Uji hyn në MAG dhe gazi komprimohet"},
       {"de": "Das Gas strömt aus dem MAG in den Vorlauf", "sq": "Gazi rrjedh nga MAG-u në furnizim"},
       {"de": "Nichts, das MAG arbeitet nur beim Befüllen", "sq": "Asgjë, MAG-u punon vetëm gjatë mbushjes"}
     ],
     "correct": 1,
-    "why": {"de": "Warmes Wasser braucht mehr Platz, es drückt die Membran zur Gasseite und komprimiert das Gaspolster.", "sq": "Uji i ngrohtë ka nevojë për më shumë vend, e shtyn membranën drejt anës së gazit dhe e ngjesh jastëkun e gazit."}
+    "why": {"de": "Warmes Wasser braucht mehr Platz, es drückt die Membran zur Gasseite und komprimiert das Gaspolster.", "sq": "Uji i ngrohtë ka nevojë për më shumë vend, e shtyn membranën drejt anës së gazit dhe e komprimon jastëkun e gazit."}
   },
   {
     "q": {"de": "Das MAG ist abgesperrt. Was ist die Folge?", "sq": "MAG-u është mbyllur me valvulë. Çfarë pasoje ka kjo?"},
@@ -47,7 +47,7 @@
     "q": {"de": "Du willst den Vordruck am MAG prüfen. Was machst du zuerst?", "sq": "Do ta kontrollosh presionin paraprak në MAG. Çfarë bën së pari?"},
     "a": [
       {"de": "Den Vordruck bei vollem Anlagendruck messen", "sq": "E mat presionin paraprak me presion të plotë në sistem"},
-      {"de": "Die Wasserseite druckentlasten, dann den Gasvordruck messen", "sq": "Çliron presionin në anën e ujit, pastaj mat presionin e gazit"},
+      {"de": "Die Wasserseite druckentlasten, dann den Gasvordruck messen", "sq": "Çliron presionin në anën e ujit, pastaj mat presionin paraprak të gazit"},
       {"de": "Das MAG ausbauen und schütteln", "sq": "E çmonton MAG-un dhe e tund"},
       {"de": "Die Anlage auf höchste Temperatur heizen", "sq": "E ngroh sistemin në temperaturën më të lartë"}
     ],

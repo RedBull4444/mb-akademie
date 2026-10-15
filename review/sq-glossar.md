@@ -1,89 +1,96 @@
 # Albanisch (SQ) – Glossar und Korrekturliste
 
-Stand: 15.10.2026. Geprüft: Quizfragen M01–M15, `public/assets/i18n.js`, `functions/_lib/util.js`, Modultitel/Lernziele/Kernpunkte in `functions/_lib/content.js` (+ Titel in `public/assets/chef.js`). `public/assets/cert.js` enthält keine SQ-Texte (Zertifikat-PDF ist rein deutsch). `tools/gen-content.mjs` enthält nur die Teil-Namen (unverändert); die Quelle `design/akademie-basis.txt` liegt nicht im Repo, deshalb wurde `content.js` direkt korrigiert – **wer `gen-content.mjs` neu laufen lässt, muss die Korrekturen auch in der Design-Basis nachziehen.**
+Stand: 15.10.2026 (2. Durchgang eingearbeitet: Befunde `review/befunde/M00–M15.md`, siehe Abschnitt „2. Durchgang“ unten). Geprüft: Quizfragen M01–M15, `public/assets/i18n.js`, `functions/_lib/util.js`, Modultitel/Lernziele/Kernpunkte in `functions/_lib/content.js` (+ Titel in `public/assets/chef.js`). `public/assets/cert.js` enthält keine SQ-Texte (Zertifikat-PDF ist rein deutsch). `tools/gen-content.mjs` enthält nur die Teil-Namen (unverändert); die Quelle `design/akademie-basis.txt` liegt nicht im Repo, deshalb wurde `content.js` direkt korrigiert – **wer `gen-content.mjs` neu laufen lässt, muss die Korrekturen auch in der Design-Basis nachziehen.**
 
 Leitlinie: einfache Standardsprache (gjuha standarde), Du-Form (ti) wie in der App, keine Lehnübersetzungen aus dem Deutschen, ein Fachbegriff = ein albanisches Wort.
 
+**Regel seit dem 2. Durchgang:** Quiz und Lernziele/Kernpunkte eines Moduls benutzen das Wort, das im **Video dieses Moduls** gesprochen bzw. gezeigt wird (das Video ist schwer änderbar). Ausnahme: Das Videowort ist falsch oder missverständlich – dann bleibt die App beim richtigen Wort und das Video steht in `review/VIDEO-KORREKTUREN.md`. Wo zwei Videos bewusst verschiedene Wörter nutzen, steht das unten in der Spalte „Video“.
+
 ## Glossar DE → SQ
 
-| Deutsch | Albanisch (verwendet) | Hinweis |
+| Deutsch | Albanisch (verwendet) | Hinweis / Video |
 |---|---|---|
 | Anlage / Heizungsanlage | sistemi / sistem ngrohjeje | |
 | Anlagendruck | presioni i sistemit | |
 | Vordruck (MAG) | presioni paraprak | |
-| Membran-Ausdehnungsgefäß (MAG) | ena e zgjerimit me membranë (MAG); MAG-u, MAG-ut, MAG-un | wie im Video |
+| Membran-Ausdehnungsgefäß (MAG) | ena e zgjerimit me membranë (MAG); MAG-u, MAG-ut, MAG-un | wie im Video (maskulin; M04-Ton sagt „Em-A-Ge-ja“, feminin – KLEIN). Gemischtes Genus mit „valvula“ → „Asnjëri … tjetrin“ |
 | Trinkwasser-Ausdehnungsgefäß / Trink-MAG | ena e zgjerimit për ujë të pijshëm | |
 | Ausdehnungswasser | uji i zgjerimit | vorher gemischt „uji i zgjeruar“ |
 | (Volumen) aufnehmen / ausgleichen | merr / kompenson | „balancim“ nur für hydr. Abgleich |
 | Gaspolster | jastëku i gazit | |
+| (Gas) wird komprimiert | (gazi) komprimohet | **geändert** (Quiz M01 vorher „ngjeshet“): so sagen die Videos M01 und M02 |
 | Heizungswasser | uji i ngrohjes | wie im Video |
-| Trinkwasser | uji i pijshëm | |
+| Trinkwasser | uji i pijshëm | Videos M00, M02 (gemischt), M05, M08, M10, M11 sagen teils „ujë sanitar“ → bei Neurender angleichen (M02: VIDEO-KORREKTUREN) |
 | Sicherheitsventil | valvula e sigurisë (unbest.: valvulë sigurie) | Schreibung jetzt einheitlich „valvulë“ |
-| Absperrung / Absperrventil | valvulë mbyllëse | |
+| Absperrung / Absperrventil | valvulë mbyllëse | nicht „izolim“ / „mbyllje“; Videos schreiben „valvul“ ohne ë → VIDEO-KORREKTUREN |
 | Kugelhahn | valvulë sferike | |
-| Rückflussverhinderer / Rückschlagventil | valvula e kundërkthimit | beide gleich übersetzt |
-| Überströmventil | valvula e tejrrjedhjes | |
+| Rückflussverhinderer (Trinkwasser, Sicherheitsgruppe) | penguesi i kthimit (unbest.: pengues kthimi) | **geändert** (vorher „valvula e kundërkthimit“): so sagen die Videos M02, M05, M08; Quiz M02/M05 und Kernpunkt M05 angeglichen |
+| Rückschlagventil | valvula e kundërkthimit (unbest.: valvulë kundërkthimi) | Videos M03, M09, M11, M15. Immer mit „e“ (M11-Video sagt „valvulat kundërkthimit“ → VIDEO-KORREKTUREN) |
+| Rückfluss / Rückströmung (Vorgang) | rrjedhja mbrapsht | NICHT „kthimi“ (= Rücklauf); Videos M09/M11 noch „kthim“ → VIDEO-KORREKTUREN |
+| Überströmventil | valvula e bypass-it (unbest.: valvulë bypass-i) | **geändert** (vorher „valvula e tejrrjedhjes“): M10-Video (Ton „bajpasit“ = TTS-Schreibweise, Bild „bypass-it“); Quiz + Kernpunkte M10 angeglichen. M15-Video sagt nur „Bypass“ |
 | Systemtrenner | ndarësi i sistemit | |
 | Druckminderer | reduktuesi i presionit | |
 | Manometer | manometri | |
 | (automatischer) Entlüfter | ajruesi (automatik) | |
 | entlüften | ajros | |
-| Luftabscheider / Mikroblasenabscheider | ndarës ajri / ndarësi i mikroflluskave | |
+| Luftabscheider / Mikroblasenabscheider | ndarës ajri / ndarësi i mikroflluskave | Schreibung „flluskë“ (ll); Videos M07/M09 schreiben „mikrofluska“ → VIDEO-KORREKTUREN |
 | Schlammabscheider | ndarësi i llumit | wie im Video |
 | Magnetabscheider | ndarësi magnetik | |
-| magnetische / nichtmagnetische Partikel | grimca magnetike / jomagnetike | wie im Video |
-| Schmutzfänger | filtri i papastërtive | |
+| magnetische / nichtmagnetische Partikel | grimca magnetike / jomagnetike | wie im Video. M06 nennt nach dem Schnitt („Modul 16“) das Wort „Magnetit“ nicht mehr → Quiz/Kernpunkte M06 sagen „grimcat magnetike“; „magnetit“ erst ab M14 |
+| Schmutzfänger | filtri me sitë | **geändert** (vorher „filtri i papastërtive“): so sagen die Videos M06 und M09; Quiz M06 angeglichen |
 | Wärmetauscher | shkëmbyesi i nxehtësisë | wie im Video |
 | Wärmepumpe | pompë nxehtësie | wie im Video |
-| Wärmeerzeuger / Erzeuger(-kreis) | pajisja e ngrohjes / qarku i pajisjes së ngrohjes | NICHT „prodhuesi“ (= Hersteller) |
+| Kältemittel | gaz ftohës | **neu**: „ftohës“ allein = Kühler; M07-Video sagt noch „ftohës“ → VIDEO-KORREKTUREN |
+| Wärmeerzeuger / Erzeuger(-kreis) | pajisja e ngrohjes / qarku i pajisjes së ngrohjes | NICHT „prodhuesi“ (= Hersteller). Videos M10/M13 sagen noch „prodhuesi“ → VIDEO-KORREKTUREN; M01/M02 „burimi i nxehtësisë“, M06 „gjeneratori i nxehtësisë“ (KLEIN) |
 | Verbraucherkreis | qarku i konsumatorëve | |
 | Hersteller(angaben) | (udhëzimet e) prodhuesit | |
-| Vorlauf / Rücklauf | furnizimi / kthimi | |
+| Vorlauf / Rücklauf | furnizimi / kthimi | Videos: M01 „linja e dërgimit“ (→ VIDEO-KORREKTUREN), M04 „tubi i dërgimit“, M06/M07 „vajtja“ (KLEIN, bei Neurender) |
 | Umwälzpumpe | pompa qarkulluese | |
 | Umlauf | qarkullimi | |
-| Zirkulation (Trinkwasser) | qarkullimi / tubi i qarkullimit | |
+| Zirkulation (Trinkwasser) | riqarkullimi / tubi i riqarkullimit | **geändert** (vorher „qarkullimi“): Videos M08, M11, M15 sagen „riqarkullim“; Quiz M05/M08 und Kernpunkt M08 angeglichen. „qarkullimi“ nur noch für Umlauf |
 | Volumenstrom / Durchfluss | prurja | |
 | Mindestvolumenstrom | prurja minimale | |
-| Differenzdruck | diferenca e presionit | |
+| Differenzdruck | diferenca e presionit | M11-Video sagt im Ton „ndryshim presioni“ (= Druckänderung) → VIDEO-KORREKTUREN |
 | Widerstand (Rohrnetz) | rezistenca (e rrjetit të tubave) | |
 | Auslegung / auslegen | dimensionim / dimensionoj | vorher „projektim“ |
 | Druckhaltung | mbajtja e presionit | |
-| Überdruck (unzulässiger) | mbipresion (i palejuar) | |
+| Überdruck (unzulässiger) | mbipresion (i palejuar) | Videos M01, M02, M04, M05, M08 sagen „presion i tepërt / tepër i lartë“ (KLEIN, App bleibt) |
 | Warmwasserspeicher | depozita e ujit të ngrohtë | |
-| Puffer(speicher) | depozitë tampon / tampon | |
-| Speicherladung / Laderücklauf | ngrohja e depozitës / kthimi i ngrohjes së depozitës | vorher „ngarkim“ |
+| Puffer(speicher) | depozitë akumuluese; Reihen-/Parallelpuffer = depozita në seri / depozita paralele | **geändert** (vorher „depozitë tampon“): so sagt das M10-Video; Quiz + Kernpunkte M10 angeglichen. Andere Videos: M09 „puferi“, M15 „depozita“ (KLEIN, bei Neurender auf „depozitë akumuluese“) |
+| Speicherladung / Laderücklauf | ngrohja e depozitës / kthimi i ngrohjes së depozitës | vorher „ngarkim“. M08-Video sagt noch „ngarkim“ → VIDEO-KORREKTUREN |
 | Abblaseleitung | tubi i shkarkimit | |
-| Ablauf (Abfluss unter Abblaseleitung) | sifon | siehe „Unsicher“ |
-| Ablauf (am Systemtrenner) | shkarkimi | |
+| Ablauf(trichter) unter der Abblaseleitung | hinkë shkarkimi | **geändert** (vorher „sifon“; ein Siphon steht unter Wasser): M05-Video sagt „hinka e shkarkimit“; Quiz M05 und Kernpunkt M05 (DE jetzt „Ablauftrichter“) angeglichen |
+| Ablauf (am Systemtrenner) | dalja (e ndarësit të sistemit) | **geändert** (vorher „shkarkimi“): M03-Video sagt „dalja“; Quiz M03 angeglichen (Genus f.: „e lirë, e dukshme“) |
 | Trichter | hinkë | vorher falsch „gyp“ (= Rohr) |
 | Abwasserrohr | tubi i kanalizimit | |
 | Rohrbogen | bërryl tubi | vorher „gjunjë“ (kein Wort) |
 | Passstück | pjesë lidhëse | vorher „pjesë ngjitëse“ (= klebend) |
-| Nachfülleinheit | njësia e rimbushjes | |
+| Nachfülleinheit | njësia e rimbushjes | Videos M03/M09 sagen „njësia e mbushjes“; Nachfüllen in Videos M01/M03/M14 meist „mbush“ (KLEIN, bei Neurender auf „rimbush“). App bleibt bei „rimbush“ |
 | Patrone | fisheku (maskulin!) | vorher falsch „fishekja“ |
-| Enthärten / Entsalzen | zbutja / demineralizimi | vorher „çkripëzim“ |
+| Enthärten / Entsalzen | zbutja / **M03: çkripëzimi (demineralizimi)** · **M14: demineralizimi** | Zwei Videos, zwei Wörter (bewusst): M03-Video sagt „çkripëzim“, M14-Video „demineralizim“. In M03 (Quiz Q3, Kernpunkt 3) steht deshalb „çkripëzimi (demineralizimi)“, in M14 nur „demineralizimi“ |
 | Härte / Leitfähigkeit | fortësia / përçueshmëria | |
-| Härtebildner | formuesit e fortësisë | |
+| Härtebildner | përbërësit e fortësisë | **geändert** (vorher „formuesit e fortësisë“): so sagt das M14-Video; Quiz M14 angeglichen |
 | Korrosion / Magnetit / Kalk | korrozion / magnetit / gëlqere | |
-| Ablagerungen | depozitime | nicht „depozita“ (= Speicher) |
+| Ablagerungen | depozitime | nicht „depozita“ (= Speicher). Videos M03, M06, M14 sagen noch „depozita“ → VIDEO-KORREKTUREN |
 | Heizfläche | sipërfaqe ngrohëse | |
 | Heizkörper | radiator | vorher „ngrohës“ |
 | Heizlast / Wärmebedarf | ngarkesa termike / nevoja për nxehtësi | |
 | Hydraulischer Abgleich | balancimi hidraulik | |
-| Voreinstellung | rregullim paraprak | vorher „parapozicionim“ (Kunstwort) |
+| Voreinstellung | paracaktim | **geändert** (vorher „rregullim paraprak“, davor „parapozicionim“): M12-Video sagt durchgehend „paracaktim“; Quiz + Kernpunkte M12 angeglichen |
 | Thermostatkopf | koka termostatike | |
-| Mischer / Mischerkreis | përzierësi / qarku me përzierës | |
-| Stellmotor | servomotori | vorher „motori aktivizues“ |
+| Mischer / Mischerkreis | përzierësi / qarku me përzierje | **geändert** (vorher „qarku me përzierës“): M13-Video (Titel und Ton) sagt „Qarku me përzierje“; Modultitel in `content.js` und `chef.js` angeglichen |
+| Stellmotor | servomotori | vorher „motori aktivizues“. M15-Video „servomotor“; M13-Video sagt nur „motori“ (KLEIN, App bleibt bei „servomotori“) |
 | Stellrichtung / Drehrichtung | drejtimi i rrotullimit | |
 | Fühler / Vorlauffühler | sensori / sensori i furnizimit | |
-| Regler / Regelung | rregullatori / rregullimi | |
-| Schwerkraftbremse | frena e gravitetit | siehe „Unsicher“ |
+| Regler / Regelung | rregullatori / rregullimi | NICHT „kontroll(uesi)“ (= Prüfung). Videos M08, M09, M13 sagen noch „kontrolli/kontrolluesi“ → VIDEO-KORREKTUREN |
+| Schwerkraftbremse | frenuesi i qarkullimit natyror | **geändert** (vorher „frena e gravitetit“): so sagen die Videos M11 und M15; Quiz M11 angeglichen |
 | Hydraulikschema | skema hidraulike | |
 | Inbetriebnahme | vënia në punë | |
-| Dichtheit prüfen | kontrollo nëse ka rrjedhje | |
-| Verbrühschutz | mbrojtja nga përvëlimi | vorher „djegia“ (= Verbrennung) |
+| Dichtheit prüfen | kontrollo nëse ka rrjedhje | NICHT „izolim“ (= Dämmung). Videos M03, M06, M08 → VIDEO-KORREKTUREN |
+| Verbrühschutz | mbrojtja nga përvëlimi | vorher „djegia“ (= Verbrennung). M08-Video sagt noch „djegia“ → VIDEO-KORREKTUREN |
 | Übergabe / Protokoll | dorëzimi / protokolli | |
-| Soll- / Istwert | vlera e kërkuar / vlera reale | |
+| Soll- / Istwert | vlera e kërkuar / vlera reale | M12-Video sagt für Sollwert „vlera e synuar“ (beides korrekt, nur M12) |
+| Sollvolumenstrom | prurja e synuar | **neu**: M12-Video; Quiz + Kernpunkt M12 angeglichen (vorher „prurja e kërkuar“) |
 | zugelassen (für Trinkwasser) | i miratuar | |
 | nach Gefühl | me hamendje | vorher „sipas ndjesisë“ |
 | „Was gilt?“ | „Çfarë është e saktë?“ | vorher Lehnübersetzung „Çfarë vlen?“ |
@@ -325,18 +332,47 @@ Zusätzlich neu erzeugt: `functions/_lib/quiz-data.js` (per `node tools/gen-quiz
 
 1. **„ajrues / ajros“ für Entlüfter / entlüften** – im Handel üblich („ajrues automatik“), „ajrim“ heißt aber auch „Belüften“. Alternative: „shfryrës“ / „shfryj“. Bisher beibehalten (auch im Video?).
 2. **„fishek“ für Patrone** – grammatisch jetzt korrekt maskulin; ob Monteure eher „kartuşë/kartushë“ oder „filtër“ sagen, bitte bestätigen.
-3. **„demineralizim“ statt „çkripëzim“ für Entsalzen** – bewusst gewählt, weil „ujë i demineralizuar“ bekannt ist. Falls das Video „çkripëzim“/„shkripëzim“ sagt, bitte angleichen.
+3. ~~„demineralizim“ statt „çkripëzim“~~ – **erledigt (2. Durchgang):** M03-Video sagt „çkripëzim“, M14-Video „demineralizim“; App folgt dem jeweiligen Video (M03 mit Klammer).
 4. **„radiator“ statt „ngrohës“ für Heizkörper** – in Kosovo auch „kalorifer“ üblich.
-5. **„rregullim paraprak“ für Voreinstellung** – „rregullim“ steht auch für Regelung/Einstellung; im Kontext M12 eindeutig, aber bitte prüfen.
-6. **„sifon“ für den Ablauf unter der Abblaseleitung (M05 Q4, Kernpunkt Modul 5)** – DE sagt nur „Ablauf“; Alternative „hinkë shkarkimi“ (Trichter) oder „pikë shkarkimi“.
-7. **„frena e gravitetit“ (Schwerkraftbremse)** – unverändert, Fachbegriff im Albanischen unklar.
-8. **„valvula e tejrrjedhjes“ (Überströmventil)** – unverändert; evtl. kennen Monteure eher „valvul bypass“.
+5. ~~„rregullim paraprak“~~ – **erledigt (2. Durchgang):** jetzt „paracaktim“ wie im M12-Video (kollidiert nicht mit „rregullim“ = Einstellung/Regelung).
+6. ~~„sifon“~~ – **erledigt (2. Durchgang):** jetzt „hinkë shkarkimi“ wie im M05-Video (DE „Ablauftrichter“).
+7. ~~„frena e gravitetit“~~ – **erledigt (2. Durchgang):** jetzt „frenuesi i qarkullimit natyror“ wie in den Videos M11/M15. Ob Monteure ein kürzeres Wort kennen, bitte trotzdem bestätigen.
+8. ~~„valvula e tejrrjedhjes“~~ – **erledigt (2. Durchgang):** jetzt „valvula e bypass-it“ wie im M10-Video.
 9. **„kthimi i ngrohjes së depozitës“ für Laderücklauf** – ersetzt „kthimi i ngarkimit“; etwas lang, aber verständlicher.
 10. **„pajisja e ngrohjes“ für Wärmeerzeuger** – einfache, sichere Lösung; Fachwort wäre „gjenerator nxehtësie“.
-11. **„përzierës“ für Mischer** – Alternative „valvul përzierëse“ / „mikser“. Titel Modul 13 „Qarku me përzierës“ unverändert.
+11. **„përzierës“ für Mischer** – Alternative „valvul përzierëse“ / „mikser“. Titel Modul 13 jetzt „Qarku me përzierje“ wie im Video (2. Durchgang).
 12. **„jastëku i gazit“ für Gaspolster** – unverändert, verständlich, aber evtl. „mbushja me gaz“ üblicher.
 13. **„Bazat e SHK“** – „SHK“ ist eine deutsche Abkürzung; prüfen, ob die Zielgruppe sie kennt (Alternative: „Bazat e instalimeve hidraulike dhe të ngrohjes“).
 14. **Anführungszeichen** – SQ-Texte nutzen jetzt “…” statt der deutschen „…“. Albanisch üblich sind auch «…».
 15. **Ergebnis-Überschrift „Kalove“ / „Nuk kalove“** (statt „Kaluar“ / „Nuk kaloi“) – E2E-Test `tests/e2e-app.cjs` wurde angepasst.
 16. **Sperrzeit-Texte (util.js)** – „Llogaria u bllokua për 15 minuta“ / „Prit 15 minuta dhe provo përsëri“; für 1 Minute jetzt „1 minutë“ (kleine Code-Änderung im SQ-Zweig von `durText`, `functions/api/[[path]].js`). Der deutsche Zweig sagt weiterhin „1 Minuten“ (nicht angefasst).
 17. **Gesamt-Hinweis**: Die Vorlagen in i18n.js/util.js tragen weiterhin den Kommentar „SQ: von Muttersprachler prüfen lassen“ – nach Abnahme entfernen.
+18. **„penguesi i kthimit“ (Rückflussverhinderer) neben „valvula e kundërkthimit“ (Rückschlagventil)** – zwei Wörter, weil die Videos es so trennen (Trinkwasser-Module M02/M05/M08 vs. M03/M09/M11/M15). Fachlich sind es verwandte Bauteile; bitte bestätigen, dass Monteure beide Wörter verstehen.
+19. **„dalja“ für den Ablauf am Systemtrenner (M03)** – kommt aus dem Video; „dalja“ heißt auch „Ausgang/Auslass“. Im Kontext („dalja e ndarësit të sistemit … e lirë, e dukshme“) eindeutig.
+
+## 2. Durchgang (Befunde M00–M15) – Begriffs-Angleichung an die Videos
+
+Grundlage: `review/befunde/Mxx.md`. Regel: Das Wort im Video des jeweiligen Moduls gewinnt (siehe oben). Videofehler stehen in `review/VIDEO-KORREKTUREN.md`, nicht hier.
+
+| Begriff (DE) | vorher in App | jetzt in App | Video(s) | geändert in |
+|---|---|---|---|---|
+| Puffer | depozitë tampon / tampon | depozitë akumuluese, depozita në seri / paralele | M10 | Quiz M10 (Q2, Q3, Q5 – 1. Prüfer), content.js M10 g + k[0], k[1] |
+| Überströmventil | valvula e tejrrjedhjes | valvula e bypass-it / valvulë bypass-i | M10 | Quiz M10 (Q4, Q5 – 1. Prüfer), content.js M10 g + k[2], k[3] |
+| Voreinstellung | rregullim paraprak | paracaktim | M12 | Quiz M12 (1. Prüfer), content.js M12 k[1], k[2] |
+| Sollvolumenstrom | prurja e kërkuar | prurja e synuar | M12 | Quiz M12 Q1 (1. Prüfer), content.js M12 k[0] |
+| Zirkulation (Trinkwasser) | qarkullimi | riqarkullimi | M08, M11, M15 | Quiz M08 (1. Prüfer), Quiz M05 Q1, content.js M08 k[0] |
+| Schwerkraftbremse | frena e gravitetit | frenuesi i qarkullimit natyror | M11, M15 | Quiz M11 Q5 (1. Prüfer) |
+| Härtebildner | formuesit e fortësisë | përbërësit e fortësisë | M14 | Quiz M14 Q2, Q4 (1. Prüfer) |
+| Ablauf unter Abblaseleitung | sifon | hinkë shkarkimi (DE: Ablauftrichter) | M05 | Quiz M05 Q4 (1. Prüfer), content.js M05 k[2] DE+SQ |
+| Entsalzen (nur M03) | demineralizimi | çkripëzimi (demineralizimi) | M03 (M14 bleibt „demineralizim“) | Quiz M03 Q3 (1. Prüfer), content.js M03 k[2] |
+| Rückflussverhinderer | valvula e kundërkthimit | penguesi i kthimit | M02, M05, M08 | Quiz M02 Q2, Quiz M05 Q2, content.js M05 k[0] |
+| Ablauf am Systemtrenner | shkarkimi | dalja | M03 | Quiz M03 Q2, Q5 |
+| Schmutzfänger | filtri i papastërtive | filtri me sitë | M06, M09 | Quiz M06 Q3 |
+| (Gas) komprimiert | ngjeshet / e ngjesh | komprimohet / e komprimon | M01, M02 | Quiz M01 Q1 |
+| Mischerkreis (Modultitel 13) | Qarku me përzierës | Qarku me përzierje | M13 | content.js Titel M13, `public/assets/chef.js` MODS |
+| Magnetit (M06) | magnetiti | grimcat magnetike | M06 (nach Schnitt „Modul 16“) | Quiz M06 Q1 (1. Prüfer), content.js M06 g, k[0], k[2] |
+| Fußbodenheizung | ngrohje dyshemeje | ngrohje në dysheme | M12, M13 | Quiz M13 Q5 (1. Prüfer), content.js M13 k[3] |
+
+Weitere Korrekturen an `content.js` aus den Befunden (nicht Begriffe, sondern Inhalt/Grammatik): M00 g + k[2] (SQ), M01 Lernziel DE+SQ und neuer Kernpunkt „Verbindung offen, Absperrung gesichert (Kappenventil)“, M03 Lernziel + k[3] DE+SQ, M04 k[2] DE+SQ (Entlüfter nicht „am höchsten Punkt“), M06 k[1], k[2] DE+SQ, M07 k[0], k[3] DE+SQ, M08 k[3] DE+SQ, M09 Lernziel + k[2] DE+SQ, M11 k[0] SQ.
+
+Geprüft per Skript (`grep` über `content/quiz/*.json` und `functions/_lib/content.js`): keine der alten Varianten (tampon, tejrrjedh, frena e gravitetit, rregullim paraprak, prurja e kërkuar, formues, sifon, qarku me përzierës, ngjesh, filtri i papastërtive, „valvul “) kommt noch vor; „demineraliz“ nur in M03 (Klammer) und M14; „kundërkthim“ nur noch in M11 (Rückschlagventil), „pengues“ nur in M02/M05.

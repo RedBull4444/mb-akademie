@@ -19,7 +19,7 @@
       {"de": "Das ist erlaubt, solange ein MAG eingebaut ist", "sq": "Kjo lejohet për sa kohë ka një MAG të montuar"}
     ],
     "correct": 0,
-    "why": {"de": "Eine geschlossene Absperrung zwischen dem geschützten System und dem Sicherheitsventil macht den Schutz unwirksam.", "sq": "Një valvulë mbyllëse e mbyllur ndërmjet sistemit të mbrojtur dhe valvulës së sigurisë e bën mbrojtjen të pavlefshme."}
+    "why": {"de": "Zwischen dem zu schützenden System und seinem Sicherheitsventil darf keine Absperrung sitzen. Ist sie geschlossen, ist der Schutz unwirksam.", "sq": "Ndërmjet sistemit që duhet mbrojtur dhe valvulës së tij të sigurisë nuk lejohet asnjë valvulë mbyllëse. Nëse ajo është e mbyllur, mbrojtja nuk vepron."}
   },
   {
     "q": {"de": "Eine Pumpe ist sauber montiert, aber gegen die Fließrichtung. Was gilt?", "sq": "Një pompë është montuar pastër, por kundër drejtimit të rrjedhjes. Çfarë është e saktë?"},
@@ -38,7 +38,7 @@
       {"de": "Ja, plausible Werte beweisen die richtige Position", "sq": "Po, vlerat e besueshme provojnë pozicionin e saktë"},
       {"de": "Ja, ein Fühler kann nie falsch sitzen", "sq": "Po, një sensor nuk mund të jetë kurrë i vendosur gabim"},
       {"de": "Ja, wenn der Fühler gut befestigt ist", "sq": "Po, nëse sensori është i fiksuar mirë"},
-      {"de": "Nein, Position und Anzeige müssen zum Betrieb passen", "sq": "Jo, pozicioni dhe vlera duhet të përputhen me funksionimin"}
+      {"de": "Nein, Position und Anzeige müssen zum Betrieb passen", "sq": "Jo, pozicioni dhe vlera e treguar duhet të përputhen me funksionimin"}
     ],
     "correct": 3,
     "why": {"de": "Ein Fühler am falschen Ort liefert plausible, aber falsche Werte, darum wird seine Position geprüft.", "sq": "Një sensor në vendin e gabuar jep vlera të besueshme, por të gabuara, prandaj kontrollohet pozicioni i tij."}

@@ -13,13 +13,13 @@
   {
     "q": {"de": "Wo wird das Trinkwasser-MAG am Warmwasserspeicher eingebunden?", "sq": "Ku lidhet ena e zgjerimit për ujë të pijshëm te depozita e ujit të ngrohtë?"},
     "a": [
-      {"de": "Kaltwasserseite, Speicherseite des Rückflussverhinderers", "sq": "Ana e ujit të ftohtë, ndërmjet valvulës së kundërkthimit dhe depozitës"},
-      {"de": "Kaltwasserseite, vor dem Rückflussverhinderer", "sq": "Ana e ujit të ftohtë, para valvulës së kundërkthimit"},
+      {"de": "Kaltwasserseite, Speicherseite des Rückflussverhinderers", "sq": "Ana e ujit të ftohtë, ndërmjet penguesit të kthimit dhe depozitës"},
+      {"de": "Kaltwasserseite, vor dem Rückflussverhinderer", "sq": "Ana e ujit të ftohtë, para penguesit të kthimit"},
       {"de": "Warmwasserseite, hinter dem Speicher", "sq": "Ana e ujit të ngrohtë, pas depozitës"},
       {"de": "In der Heizungsleitung zum Speicher", "sq": "Në tubin e ngrohjes drejt depozitës"}
     ],
     "correct": 0,
-    "why": {"de": "Nur auf der Speicherseite des Rückflussverhinderers kann sich das ausdehnende Wasser im Gefäß sammeln.", "sq": "Vetëm ndërmjet valvulës së kundërkthimit dhe depozitës uji që zgjerohet mund të mblidhet në enë."}
+    "why": {"de": "Nur auf der Speicherseite des Rückflussverhinderers kann sich das ausdehnende Wasser im Gefäß sammeln.", "sq": "Vetëm ndërmjet penguesit të kthimit dhe depozitës uji që zgjerohet mund të mblidhet në enë."}
   },
   {
     "q": {"de": "Warum soll das Trinkwasser-MAG durchströmt angeschlossen sein?", "sq": "Pse ena e zgjerimit për ujë të pijshëm duhet të lidhet që uji të rrjedhë nëpër të?"},
@@ -33,7 +33,7 @@
     "why": {"de": "Stehendes Wasser ist ein Hygieneproblem, deshalb werden tote Stichleitungen vermieden.", "sq": "Uji i ndenjur është problem higjienik, prandaj shmangen degët qorre të tubave ku uji nuk rrjedh."}
   },
   {
-    "q": {"de": "Beim Aufheizen tropft das Sicherheitsventil. Es gibt kein Trink-MAG. Was gilt?", "sq": "Gjatë ngrohjes pikon valvula e sigurisë. Nuk ka enë zgjerimi për ujë të pijshëm. Çfarë është e saktë?"},
+    "q": {"de": "Beim Aufheizen tropft das Sicherheitsventil. Es gibt kein Trinkwasser-MAG. Was gilt?", "sq": "Gjatë ngrohjes pikon valvula e sigurisë. Nuk ka enë zgjerimi për ujë të pijshëm. Çfarë është e saktë?"},
     "a": [
       {"de": "Das Ventil ist dann immer defekt", "sq": "Atëherë valvula është gjithmonë e prishur"},
       {"de": "Das kann normal sein, Ausdehnungswasser wird abgeführt", "sq": "Kjo mund të jetë normale, uji i zgjerimit shkarkohet"},

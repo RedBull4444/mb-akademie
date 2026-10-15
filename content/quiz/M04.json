@@ -30,7 +30,7 @@
       {"de": "Ein Passstück", "sq": "Një pjesë lidhëse"}
     ],
     "correct": 1,
-    "why": {"de": "Der Sicherheitsweg muss frei bleiben, sonst kann das Ventil die Anlage im entscheidenden Moment nicht schützen.", "sq": "Rruga e sigurisë duhet të mbetet e lirë, përndryshe valvula nuk e mbron sistemin në momentin vendimtar."}
+    "why": {"de": "Zwischen Wärmeerzeuger und Sicherheitsventil darf keine Absperrung eingebaut sein. Der Sicherheitsweg muss immer frei bleiben, sonst kann das Ventil die Anlage im entscheidenden Moment nicht schützen.", "sq": "Ndërmjet pajisjes së ngrohjes dhe valvulës së sigurisë nuk lejohet të montohet asnjë valvulë mbyllëse. Rruga e sigurisë duhet të mbetet gjithmonë e lirë, përndryshe valvula nuk mund ta mbrojë sistemin në momentin vendimtar."}
   },
   {
     "q": {"de": "Der Ausgang des Sicherheitsventils wird verschlossen. Was ist die Folge?", "sq": "Dalja e valvulës së sigurisë mbyllet. Çfarë pasoje ka kjo?"},

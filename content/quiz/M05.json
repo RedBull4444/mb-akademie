@@ -5,7 +5,7 @@
       {"de": "In der Heizungsleitung zum Speicher", "sq": "Në tubin e ngrohjes drejt depozitës"},
       {"de": "In der Kaltwasserzuleitung zum Speicher", "sq": "Në tubin e hyrjes së ujit të ftohtë drejt depozitës"},
       {"de": "In der Warmwasserleitung nach dem Speicher", "sq": "Në tubin e ujit të ngrohtë pas depozitës"},
-      {"de": "In der Zirkulationsleitung", "sq": "Në tubin e qarkullimit"}
+      {"de": "In der Zirkulationsleitung", "sq": "Në tubin e riqarkullimit"}
     ],
     "correct": 1,
     "why": {"de": "Die Sicherheitsgruppe wird in der Kaltwasserzuleitung eingebunden, bevor das Wasser in den Speicher gelangt.", "sq": "Grupi i sigurisë lidhet në tubin e hyrjes së ujit të ftohtë, para se uji të hyjë në depozitë."}
@@ -15,7 +15,7 @@
     "a": [
       {"de": "Das Wasser zieht sich zusammen", "sq": "Uji tkurret"},
       {"de": "Der Druck sinkt langsam ab", "sq": "Presioni bie ngadalë"},
-      {"de": "Der Rückflussverhinderer öffnet sich", "sq": "Valvula e kundërkthimit hapet"},
+      {"de": "Der Rückflussverhinderer öffnet sich", "sq": "Penguesi i kthimit hapet"},
       {"de": "Der Druck steigt, das Sicherheitsventil kann Wasser abgeben", "sq": "Presioni ngrihet, valvula e sigurisë mund të lëshojë ujë"}
     ],
     "correct": 3,
@@ -24,7 +24,7 @@
   {
     "q": {"de": "Was macht der Druckminderer in der Sicherheitsgruppe?", "sq": "Çfarë bën reduktuesi i presionit në grupin e sigurisë?"},
     "a": [
-      {"de": "Er senkt den Versorgungsdruck auf den vorgesehenen Wert", "sq": "E ul presionin e furnizimit në vlerën e paraparë"},
+      {"de": "Er senkt den Versorgungsdruck auf den vorgesehenen Wert", "sq": "E ul presionin e furnizimit në vlerën e parashikuar"},
       {"de": "Er lässt bei Überdruck Wasser ab", "sq": "Lëshon ujë kur ka mbipresion"},
       {"de": "Er verhindert das Zurückströmen ins Kaltwassernetz", "sq": "Pengon rrjedhjen mbrapsht në rrjetin e ujit të ftohtë"},
       {"de": "Er macht den Austritt am Ablauf sichtbar", "sq": "E bën të dukshme daljen e ujit te shkarkimi"}
@@ -37,7 +37,7 @@
     "a": [
       {"de": "Verschlossen, damit nichts tropft", "sq": "I mbyllur, që të mos pikojë asgjë"},
       {"de": "Unter Wasser, damit es nicht spritzt", "sq": "Nën ujë, që të mos spërkasë"},
-      {"de": "Sichtbar über einem Ablauf mit freiem Auslauf", "sq": "I dukshëm mbi një sifon, me dalje të lirë"},
+      {"de": "Sichtbar über einem Ablauftrichter mit freiem Auslauf", "sq": "I dukshëm mbi një hinkë shkarkimi, me dalje të lirë"},
       {"de": "Dicht am Abwasserrohr, ohne Trichter", "sq": "I lidhur hermetikisht me tubin e kanalizimit, pa hinkë"}
     ],
     "correct": 2,

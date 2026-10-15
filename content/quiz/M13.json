@@ -8,7 +8,7 @@
       {"de": "Er mischt heißes Erzeugerwasser mit kühlerem Rücklaufwasser", "sq": "Përzien ujin e nxehtë nga pajisja e ngrohjes me ujin më të ftohtë të kthimit"}
     ],
     "correct": 3,
-    "why": {"de": "Der Mischer bestimmt das Mischungsverhältnis und damit die Vorlauftemperatur des Heizkreises.", "sq": "Përzierësi përcakton raportin e përzierjes dhe me të temperaturën e furnizimit të qarkut të ngrohjes."}
+    "why": {"de": "Der Mischer bestimmt das Mischungsverhältnis und damit die Vorlauftemperatur des Heizkreises.", "sq": "Përzierësi përcakton raportin e përzierjes dhe kështu temperaturën e furnizimit të qarkut të ngrohjes."}
   },
   {
     "q": {"de": "Wo sitzt der Vorlauffühler im Mischerkreis?", "sq": "Ku vendoset sensori i furnizimit në qarkun me përzierës?"},
@@ -46,12 +46,12 @@
   {
     "q": {"de": "Die Wärmepumpe liefert schon die passende niedrige Vorlauftemperatur. Mischer nötig?", "sq": "Pompa e nxehtësisë jep tashmë temperaturën e ulët të duhur të furnizimit. A nevojitet përzierës?"},
     "a": [
-      {"de": "Ja, jede Fußbodenheizung braucht einen Mischer", "sq": "Po, çdo ngrohje dyshemeje ka nevojë për përzierës"},
+      {"de": "Ja, jede Fußbodenheizung braucht einen Mischer", "sq": "Po, çdo ngrohje në dysheme ka nevojë për përzierës"},
       {"de": "Nein, ein zusätzlicher Mischerkreis ist dann unnötig", "sq": "Jo, një qark shtesë me përzierës është atëherë i panevojshëm"},
       {"de": "Ja, sonst wird das Wasser zu heiß", "sq": "Po, përndryshe uji bëhet shumë i nxehtë"},
       {"de": "Ja, ein Mischer schützt die Wärmepumpe immer", "sq": "Po, përzierësi e mbron gjithmonë pompën e nxehtësisë"}
     ],
     "correct": 1,
-    "why": {"de": "Ein Mischer kommt nur dorthin, wo das Hydraulikkonzept ihn braucht, nicht automatisch an jede Fußbodenheizung.", "sq": "Përzierësi vendoset vetëm aty ku e kërkon koncepti hidraulik, jo automatikisht te çdo ngrohje dyshemeje."}
+    "why": {"de": "Ein Mischer kommt nur dorthin, wo das Hydraulikkonzept ihn braucht, nicht automatisch an jede Fußbodenheizung.", "sq": "Përzierësi vendoset vetëm aty ku e kërkon koncepti hidraulik, jo automatikisht te çdo ngrohje në dysheme."}
   }
 ]

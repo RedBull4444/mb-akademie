@@ -1,6 +1,6 @@
 [
   {
-    "q": {"de": "Warum entfernt man Schlamm und Magnetit aus dem Heizungswasser?", "sq": "Pse hiqen llumi dhe magnetiti nga uji i ngrohjes?"},
+    "q": {"de": "Warum entfernt man Schlamm und magnetische Partikel aus dem Heizungswasser?", "sq": "Pse hiqen llumi dhe grimcat magnetike nga uji i ngrohjes?"},
     "a": [
       {"de": "Sie färben nur das Wasser dunkel", "sq": "Vetëm e bëjnë ujin të errët"},
       {"de": "Sie machen das Wasser härter", "sq": "E bëjnë ujin më të fortë"},
@@ -26,7 +26,7 @@
     "a": [
       {"de": "Den Magneten in Fangposition lassen", "sq": "Magneti lihet në pozicionin e kapjes"},
       {"de": "Das Gehäuse unter Druck öffnen", "sq": "Trupi i ndarësit hapet nën presion"},
-      {"de": "Den Schmutzfänger dauerhaft ausbauen", "sq": "Filtri i papastërtive hiqet përgjithmonë"},
+      {"de": "Den Schmutzfänger dauerhaft ausbauen", "sq": "Filtri me sitë hiqet përgjithmonë"},
       {"de": "Magnet nach Anleitung lösen, dann kontrolliert ablassen", "sq": "Magneti hiqet sipas udhëzimit, pastaj shkarkohet në mënyrë të kontrolluar"}
     ],
     "correct": 3,
@@ -41,7 +41,7 @@
       {"de": "Nur bei Fußbodenheizung", "sq": "Vetëm te ngrohja e dyshemesë"}
     ],
     "correct": 1,
-    "why": {"de": "Grobe Montage- und Fertigungsrückstände bleiben nicht einfach im System, weil später ein Abscheider eingebaut wird.", "sq": "Mbeturinat e trasha të montimit dhe të prodhimit nuk lihen në sistem vetëm sepse më vonë montohet një ndarës."}
+    "why": {"de": "Grobe Montage- und Fertigungsrückstände dürfen nicht im System bleiben, nur weil später ein Abscheider eingebaut wird. Erst spülen, dann schützt der Abscheider im laufenden Betrieb.", "sq": "Mbeturinat e trasha të montimit dhe të prodhimit nuk lejohet të lihen në sistem vetëm sepse më vonë montohet një ndarës. Së pari shpëlahet, pastaj ndarësi e mbron sistemin gjatë punës."}
   },
   {
     "q": {"de": "Der Abscheider ist immer wieder voller Schmutz. Was ist richtig?", "sq": "Ndarësi është vazhdimisht plot papastërti. Çfarë është e saktë?"},

@@ -11,26 +11,26 @@
     "why": {"de": "Der Systemtrenner schützt das Trinkwasser vor Rückfluss aus der Heizung.", "sq": "Ndarësi i sistemit e mbron ujin e pijshëm nga rrjedhja mbrapsht e ujit të ngrohjes."}
   },
   {
-    "q": {"de": "Der Ablauf am Systemtrenner ist zugestopft. Was ist richtig?", "sq": "Shkarkimi i ndarësit të sistemit është i bllokuar. Çfarë është e saktë?"},
+    "q": {"de": "Der Ablauf am Systemtrenner ist zugestopft. Was ist richtig?", "sq": "Dalja e ndarësit të sistemit është e bllokuar. Çfarë është e saktë?"},
     "a": [
       {"de": "Das ist gut, dann tropft nichts", "sq": "Është mirë, atëherë nuk pikon asgjë"},
-      {"de": "Falsch, der Ablauf muss frei und sichtbar bleiben", "sq": "Gabim, shkarkimi duhet të mbetet i lirë dhe i dukshëm"},
+      {"de": "Falsch, der Ablauf muss frei und sichtbar bleiben", "sq": "Gabim, dalja duhet të mbetet e lirë dhe e dukshme"},
       {"de": "Egal, solange der Druck stimmt", "sq": "S'ka rëndësi, për sa kohë që presioni është në rregull"},
       {"de": "Das ist nur im Winter wichtig", "sq": "Kjo ka rëndësi vetëm në dimër"}
     ],
     "correct": 1,
-    "why": {"de": "Der Ablauf des Systemtrenners muss frei, sichtbar und entwässerbar bleiben und darf nicht verschlossen werden.", "sq": "Shkarkimi i ndarësit të sistemit duhet të mbetet i lirë, i dukshëm dhe të mund ta shkarkojë ujin, dhe nuk lejohet të mbyllet."}
+    "why": {"de": "Der Ablauf des Systemtrenners muss frei, sichtbar und entwässerbar bleiben und darf nicht verschlossen werden.", "sq": "Dalja e ndarësit të sistemit duhet të mbetet e lirë, e dukshme dhe të mund ta shkarkojë ujin, dhe nuk lejohet të mbyllet."}
   },
   {
-    "q": {"de": "Was ist der Unterschied zwischen Enthärten und Entsalzen?", "sq": "Cili është dallimi ndërmjet zbutjes dhe demineralizimit?"},
+    "q": {"de": "Was ist der Unterschied zwischen Enthärten und Entsalzen?", "sq": "Cili është dallimi ndërmjet zbutjes dhe çkripëzimit (demineralizimit)?"},
     "a": [
       {"de": "Es ist dasselbe Verfahren mit anderem Namen", "sq": "Është i njëjti proces me emër tjetër"},
-      {"de": "Enthärten entfernt alle Salze, Entsalzen nur den Kalk", "sq": "Zbutja i heq të gjitha kripërat, demineralizimi vetëm gëlqeren"},
-      {"de": "Entsalzen entfernt die Ionen weitgehend, Enthärten senkt die Härte", "sq": "Demineralizimi i heq pothuajse të gjitha jonet, zbutja ul fortësinë"},
-      {"de": "Entsalzen macht das Wasser härter", "sq": "Demineralizimi e bën ujin më të fortë"}
+      {"de": "Enthärten entfernt alle Salze, Entsalzen nur den Kalk", "sq": "Zbutja i heq të gjitha kripërat, çkripëzimi vetëm gëlqeren"},
+      {"de": "Entsalzen entfernt die Ionen weitgehend, Enthärten senkt die Härte", "sq": "Çkripëzimi i heq pothuajse të gjitha jonet, zbutja ul fortësinë"},
+      {"de": "Entsalzen macht das Wasser härter", "sq": "Çkripëzimi e bën ujin më të fortë"}
     ],
     "correct": 2,
-    "why": {"de": "Beim Enthärten sinkt vor allem die Wasserhärte, beim Entsalzen werden gelöste Ionen weitgehend entfernt und die Leitfähigkeit sinkt.", "sq": "Gjatë zbutjes ulet kryesisht fortësia e ujit, gjatë demineralizimit jonet e tretura hiqen pothuajse plotësisht dhe përçueshmëria ulet."}
+    "why": {"de": "Beim Enthärten sinkt vor allem die Wasserhärte, beim Entsalzen werden gelöste Ionen weitgehend entfernt und die Leitfähigkeit sinkt.", "sq": "Gjatë zbutjes ulet kryesisht fortësia e ujit, gjatë çkripëzimit jonet e tretura hiqen në masë të madhe dhe përçueshmëria ulet."}
   },
   {
     "q": {"de": "Wann wird die Patrone der Nachfülleinheit gewechselt?", "sq": "Kur ndërrohet fisheku i njësisë së rimbushjes?"},
@@ -47,7 +47,7 @@
     "q": {"de": "Was machst du beim Patronenwechsel, bevor du die Patrone öffnest?", "sq": "Çfarë bën gjatë ndërrimit të fishekut, para se ta hapësh?"},
     "a": [
       {"de": "Die Patrone sofort unter Druck öffnen", "sq": "E hap fishekun menjëherë nën presion"},
-      {"de": "Den Ablauf des Systemtrenners verschließen", "sq": "E mbyll shkarkimin e ndarësit të sistemit"},
+      {"de": "Den Ablauf des Systemtrenners verschließen", "sq": "E mbyll daljen e ndarësit të sistemit"},
       {"de": "Füllbetrieb beenden, absperren und Druck entlasten", "sq": "Ndalon mbushjen, mbyll valvulat dhe çliron presionin"},
       {"de": "Den Fülldruck auf Höchstwert stellen", "sq": "E vendos presionin e mbushjes në vlerën maksimale"}
     ],

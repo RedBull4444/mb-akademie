@@ -14,7 +14,7 @@
     "q": {"de": "Was holt der Magnetabscheider aus dem Heizungswasser?", "sq": "Çfarë nxjerr ndarësi magnetik nga uji i ngrohjes?"},
     "a": [
       {"de": "Alle Partikel und alle gelösten Stoffe", "sq": "Të gjitha grimcat dhe të gjitha substancat e tretura"},
-      {"de": "Nur Kalk und andere Härtebildner", "sq": "Vetëm gëlqere dhe formues të tjerë të fortësisë"},
+      {"de": "Nur Kalk und Härtebildner", "sq": "Vetëm gëlqere dhe përbërës të fortësisë"},
       {"de": "Gelöste Salze und Ionen", "sq": "Kripëra dhe jone të tretura"},
       {"de": "Magnetische Partikel wie Magnetit", "sq": "Grimca magnetike si magnetiti"}
     ],
@@ -30,18 +30,18 @@
       {"de": "Ein gereinigter Abscheider filtert nicht mehr", "sq": "Një ndarës i pastruar nuk filtron më"}
     ],
     "correct": 1,
-    "why": {"de": "Bestehen Korrosion oder Sauerstoffeintrag weiter, entstehen neue Ablagerungen.", "sq": "Nëse korrozioni ose hyrja e oksigjenit vazhdojnë, krijohen depozitime të reja."}
+    "why": {"de": "Bestehen Korrosion oder Sauerstoffeintrag weiter, können neue Ablagerungen entstehen.", "sq": "Nëse korrozioni ose hyrja e oksigjenit vazhdojnë, mund të krijohen depozitime të reja."}
   },
   {
     "q": {"de": "Was ist der Unterschied zwischen Enthärten und Entsalzen?", "sq": "Cili është dallimi ndërmjet zbutjes dhe demineralizimit?"},
     "a": [
       {"de": "Beides ist dasselbe, nur ein anderes Wort", "sq": "Të dyja janë e njëjta gjë, vetëm një fjalë tjetër"},
       {"de": "Enthärten entfernt alle Ionen, Entsalzen nur Kalk", "sq": "Zbutja heq të gjitha jonet, demineralizimi vetëm gëlqeren"},
-      {"de": "Enthärten tauscht Härtebildner, Entsalzen entfernt Ionen", "sq": "Zbutja i shkëmben formuesit e fortësisë, demineralizimi heq jonet"},
+      {"de": "Enthärten tauscht Härtebildner aus, Entsalzen entfernt Ionen", "sq": "Zbutja zëvendëson përbërësit e fortësisë, demineralizimi heq jonet"},
       {"de": "Enthärten ändert den pH-Wert, Entsalzen die Farbe", "sq": "Zbutja ndryshon pH-në, demineralizimi ngjyrën"}
     ],
     "correct": 2,
-    "why": {"de": "Es sind zwei verschiedene Verfahren, welches nötig ist, entscheidet die Anlage.", "sq": "Janë dy procese të ndryshme, cili nevojitet e vendos sistemi."}
+    "why": {"de": "Es sind zwei verschiedene Verfahren. Welches nötig ist, entscheidet die Anlage.", "sq": "Janë dy procese të ndryshme. Cili nevojitet, e vendos sistemi."}
   },
   {
     "q": {"de": "Die Anlage muss ständig nachgefüllt werden. Was ist richtig?", "sq": "Sistemi duhet rimbushur vazhdimisht. Çfarë është e saktë?"},

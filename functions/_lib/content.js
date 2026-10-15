@@ -12,7 +12,7 @@ export const MODS = [
     "sq": "Hyrje në serinë e trajnimeve",
     "g": {
       "de": "Ein kurzer Einstieg in die Schulungsreihe: was dich in den 15 Modulen erwartet und warum du dafür kein Vorwissen brauchst.",
-      "sq": "Një hyrje e shkurtër në serinë e trajnimeve: çfarë të pret në 15 modulet dhe pse nuk të duhen njohuri paraprake."
+      "sq": "Një hyrje e shkurtër në serinë e trajnimeve: çfarë të pret në të 15 modulet dhe pse nuk të duhen njohuri paraprake."
     },
     "k": {
       "de": [
@@ -23,7 +23,7 @@ export const MODS = [
       "sq": [
         "Nuk të duhen njohuri paraprake. Çdo modul ndërtohet hap pas hapi mbi të mëparshmin.",
         "15 module të çojnë nga pjesët e veçanta deri te sistemi i plotë me pompë nxehtësie.",
-        "Në fund e njeh dhe e kontrollon një sistem ngrohjeje si një profesionist."
+        "Në fund e kupton dhe e kontrollon një sistem ngrohjeje si profesionist."
       ]
     }
   },
@@ -34,8 +34,8 @@ export const MODS = [
     "de": "Membran-Ausdehnungsgefäß (MAG) Heizung",
     "sq": "Ena e zgjerimit me membranë (MAG) për ngrohje",
     "g": {
-      "de": "Wie das MAG Druckschwankungen im geschlossenen Heizkreis ausgleicht und woran man Fehler erkennt.",
-      "sq": "Si i kompenson MAG-u ndryshimet e presionit në qarkun e mbyllur të ngrohjes dhe si dallohen gabimet."
+      "de": "Wie das MAG die Ausdehnung des Heizungswassers aufnimmt, Druckänderungen begrenzt und woran man Fehler erkennt.",
+      "sq": "Si e merr MAG-u zgjerimin e ujit të ngrohjes, si i kufizon ndryshimet e presionit dhe si dallohen gabimet."
     },
     "k": {
       "de": [
@@ -82,21 +82,21 @@ export const MODS = [
     "de": "Nachfülleinheit und Wasseraufbereitung",
     "sq": "Njësia e rimbushjes dhe trajtimi i ujit",
     "g": {
-      "de": "Wie Heizungswasser sicher nachgefüllt wird und warum das Füllwasser aufbereitet wird.",
-      "sq": "Si rimbushet uji i ngrohjes në mënyrë të sigurt dhe pse trajtohet uji i mbushjes."
+      "de": "Wie Heizungswasser sicher nachgefüllt wird und wann und warum das Füllwasser aufbereitet wird.",
+      "sq": "Si rimbushet uji i ngrohjes në mënyrë të sigurt dhe kur dhe pse trajtohet uji i mbushjes."
     },
     "k": {
       "de": [
         "Der Systemtrenner schützt das Trinkwasser vor Rückfluss aus der Heizung.",
         "Der Druckminderer sorgt für einen kontrollierten Fülldruck.",
         "Enthärtung und Entsalzung sind zwei verschiedene Verfahren.",
-        "Wann die Patrone gewechselt wird, hängt von ihrer Kapazität und den Herstellerangaben ab."
+        "Wann die Patrone gewechselt wird, hängt von ihrer Kapazität, den Messwerten und den Herstellerangaben ab."
       ],
       "sq": [
         "Ndarësi i sistemit e mbron ujin e pijshëm nga rrjedhja mbrapsht e ujit të ngrohjes.",
         "Reduktuesi i presionit siguron një presion mbushjeje të kontrolluar.",
-        "Zbutja dhe demineralizimi janë dy procese të ndryshme.",
-        "Kur ndërrohet fisheku varet nga kapaciteti i tij dhe nga udhëzimet e prodhuesit."
+        "Zbutja dhe çkripëzimi (demineralizimi) janë dy procese të ndryshme.",
+        "Kur ndërrohet fisheku varet nga kapaciteti i tij, vlerat e matjes dhe udhëzimet e prodhuesit."
       ]
     }
   },
@@ -114,13 +114,13 @@ export const MODS = [
       "de": [
         "Das Sicherheitsventil schützt die Anlage vor unzulässigem Überdruck.",
         "Das Manometer zeigt den Anlagendruck an.",
-        "Der automatische Entlüfter führt Luft am höchsten Punkt ab.",
+        "Der automatische Entlüfter lässt Luft ab, die sich an seiner Einbaustelle sammelt.",
         "Zwischen Wärmeerzeuger und Sicherheitsventil darf keine Absperrung sitzen."
       ],
       "sq": [
         "Valvula e sigurisë e mbron sistemin nga mbipresioni i palejuar.",
         "Manometri tregon presionin e sistemit.",
-        "Ajruesi automatik e nxjerr ajrin në pikën më të lartë.",
+        "Ajruesi automatik largon ajrin që grumbullohet në vendin ku është montuar.",
         "Ndërmjet pajisjes së ngrohjes dhe valvulës së sigurisë nuk lejohet asnjë valvulë mbyllëse."
       ]
     }
@@ -139,13 +139,13 @@ export const MODS = [
       "de": [
         "Absperrung, Rückflussverhinderer und Sicherheitsventil sitzen in fester Reihenfolge.",
         "Der Druckminderer regelt den Druck. Das Sicherheitsventil schützt nur bei Überdruck.",
-        "Die Abblaseleitung endet sichtbar über einem Ablauf mit freiem Auslauf.",
+        "Die Abblaseleitung endet sichtbar über einem Ablauftrichter mit freiem Auslauf.",
         "Ein tropfendes Sicherheitsventil wird nie durch Zudrehen „repariert“."
       ],
       "sq": [
-        "Valvula mbyllëse, valvula e kundërkthimit dhe valvula e sigurisë vendosen në një renditje të përcaktuar.",
+        "Valvula mbyllëse, penguesi i kthimit dhe valvula e sigurisë vendosen në një renditje të përcaktuar.",
         "Reduktuesi i presionit e rregullon presionin. Valvula e sigurisë mbron vetëm nga mbipresioni.",
-        "Tubi i shkarkimit përfundon i dukshëm mbi një sifon, me dalje të lirë.",
+        "Tubi i shkarkimit përfundon i dukshëm mbi një hinkë shkarkimi, me dalje të lirë.",
         "Një valvulë sigurie që pikon nuk “riparohet” kurrë duke e mbyllur."
       ]
     }
@@ -157,19 +157,19 @@ export const MODS = [
     "de": "Schlammabscheider",
     "sq": "Ndarësi i llumit",
     "g": {
-      "de": "Warum Schlamm und Magnetit aus dem Heizungswasser entfernt werden und wie ein Abscheider arbeitet.",
-      "sq": "Pse llumi dhe magnetiti hiqen nga uji i ngrohjes dhe si punon një ndarës."
+      "de": "Warum Schlamm und magnetische Partikel aus dem Heizungswasser entfernt werden und wie ein Abscheider arbeitet.",
+      "sq": "Pse llumi dhe grimcat magnetike hiqen nga uji i ngrohjes dhe si punon një ndarës."
     },
     "k": {
       "de": [
-        "Schlamm und Magnetit schädigen Pumpen, Wärmetauscher und Ventile.",
-        "Der Abscheider sitzt im Rücklauf vor dem Wärmeerzeuger.",
-        "Ein Magnet hält Magnetit zurück, der Schlamm wird regelmäßig abgelassen."
+        "Schlamm und magnetische Partikel schädigen Pumpen, Wärmetauscher und Ventile.",
+        "Der Abscheider sitzt meist im Rücklauf vor dem Wärmeerzeuger.",
+        "Ein Magnet hält magnetische Partikel zurück, der Schlamm wird nach Bedarf und Herstellerangabe abgelassen."
       ],
       "sq": [
-        "Llumi dhe magnetiti dëmtojnë pompat, shkëmbyesit e nxehtësisë dhe valvulat.",
-        "Ndarësi vendoset në kthim, para pajisjes së ngrohjes.",
-        "Një magnet e mban magnetitin, llumi shkarkohet rregullisht."
+        "Llumi dhe grimcat magnetike dëmtojnë pompat, shkëmbyesit e nxehtësisë dhe valvulat.",
+        "Ndarësi vendoset zakonisht në kthim, para pajisjes së ngrohjes.",
+        "Një magnet i mban grimcat magnetike, llumi shkarkohet sipas nevojës dhe udhëzimeve të prodhuesit."
       ]
     }
   },
@@ -185,16 +185,16 @@ export const MODS = [
     },
     "k": {
       "de": [
-        "Luft im Heizungswasser verursacht Geräusche, Korrosion und schlechte Wärmeübertragung.",
+        "Luft im Heizungswasser kann Geräusche verursachen, den Umlauf stören und die Wärmeübertragung verschlechtern.",
         "Der Entlüfter führt gesammelte Luft an Hochpunkten ab.",
         "Der Mikroblasenabscheider holt auch kleinste Blasen aus dem Wasser.",
-        "Er sitzt dort, wo das Wasser am wärmsten ist, meist im Vorlauf nach dem Wärmeerzeuger."
+        "Er sitzt häufig im warmen Vorlauf nach dem Wärmeerzeuger. Der genaue Ort richtet sich nach der Anlage und dem Hersteller."
       ],
       "sq": [
-        "Ajri në ujin e ngrohjes shkakton zhurmë, korrozion dhe transferim të dobët të nxehtësisë.",
+        "Ajri në ujin e ngrohjes mund të shkaktojë zhurmë, të pengojë qarkullimin dhe të përkeqësojë transferimin e nxehtësisë.",
         "Ajruesi e nxjerr ajrin e mbledhur në pikat e larta.",
         "Ndarësi i mikroflluskave heq nga uji edhe flluskat më të vogla.",
-        "Vendoset aty ku uji është më i ngrohtë, zakonisht në furnizim pas pajisjes së ngrohjes."
+        "Shpesh vendoset në furnizimin e ngrohtë pas pajisjes së ngrohjes. Vendi i saktë varet nga sistemi dhe prodhuesi."
       ]
     }
   },
@@ -213,13 +213,13 @@ export const MODS = [
         "Trinkwasserseite: Kaltwasser mit Sicherheitsgruppe, Warmwasser und Zirkulation.",
         "Heizungsseite: Vor- und Rücklauf der Speicherladung, Fühler an der richtigen Position.",
         "Verbrühschutz und Hygiene gehören zur Planung.",
-        "Vor der Inbetriebnahme spülen, füllen, entlüften und auf Dichtheit prüfen."
+        "Vor der Inbetriebnahme spülen, füllen, entlüften und auf Dichtheit, freien Sicherheitsweg und Funktion prüfen."
       ],
       "sq": [
-        "Ana e ujit të pijshëm: uji i ftohtë me grup sigurie, uji i ngrohtë dhe qarkullimi.",
+        "Ana e ujit të pijshëm: uji i ftohtë me grup sigurie, uji i ngrohtë dhe riqarkullimi.",
         "Ana e ngrohjes: furnizimi dhe kthimi për ngrohjen e depozitës, sensori në pozicionin e duhur.",
         "Mbrojtja nga përvëlimi dhe higjiena janë pjesë e planifikimit.",
-        "Para vënies në punë: shpëlaj, mbush, ajros dhe kontrollo nëse ka rrjedhje."
+        "Para vënies në punë: shpëlaj, mbush, ajros dhe kontrollo nëse ka rrjedhje, rrugën e lirë të sigurisë dhe funksionimin."
       ]
     }
   },
@@ -230,20 +230,20 @@ export const MODS = [
     "de": "Heizungsanlage anschließen",
     "sq": "Lidhja e sistemit të ngrohjes",
     "g": {
-      "de": "Wie die Bauteile aus den Modulen 1 bis 8 in einer kompletten Heizungsanlage zusammenarbeiten.",
-      "sq": "Si punojnë së bashku pjesët nga modulet 1 deri në 8 në një sistem të plotë ngrohjeje."
+      "de": "Wie die Bauteile aus den bisherigen Modulen in einer kompletten Heizungsanlage zusammenarbeiten.",
+      "sq": "Si punojnë së bashku pjesët nga modulet e mëparshme në një sistem të plotë ngrohjeje."
     },
     "k": {
       "de": [
         "Zuerst das Hydraulikschema, dann die Rohrleitung, nicht nach Gewohnheit.",
         "Prüfen, welche Bauteile im Wärmeerzeuger schon integriert sind.",
-        "Füllen, spülen, entlüften und die Volumenströme sicherstellen.",
+        "Spülen, füllen, entlüften und die Volumenströme sicherstellen.",
         "Einstellungen dokumentieren. Fertig ist die Anlage erst, wenn sie wie geplant funktioniert."
       ],
       "sq": [
         "Së pari skema hidraulike, pastaj tubacionet, jo sipas zakonit.",
         "Kontrollo cilat pjesë janë tashmë të integruara në pajisjen e ngrohjes.",
-        "Mbush, shpëlaj, ajros dhe siguro prurjet.",
+        "Shpëlaj, mbush, ajros dhe siguro prurjet.",
         "Dokumento rregullimet. Sistemi është gati vetëm kur funksionon siç është planifikuar."
       ]
     }
@@ -256,7 +256,7 @@ export const MODS = [
     "sq": "Hidraulika e pompës së nxehtësisë",
     "g": {
       "de": "Wann eine Wärmepumpe Puffer, Bypass oder Überströmventil braucht und warum Wasservolumen und Volumenstrom zwei verschiedene Dinge sind.",
-      "sq": "Kur ka nevojë një pompë nxehtësie për depozitë tampon, bypass ose valvulë tejrrjedhjeje dhe pse vëllimi i ujit dhe prurja janë dy gjëra të ndryshme."
+      "sq": "Kur ka nevojë një pompë nxehtësie për depozitë akumuluese, bypass ose valvulë bypass-i dhe pse vëllimi i ujit dhe prurja janë dy gjëra të ndryshme."
     },
     "k": {
       "de": [
@@ -266,10 +266,10 @@ export const MODS = [
         "Ein eingebautes Überströmventil garantiert noch keinen Mindestvolumenstrom. Bypass, Pumpe und Hydraulik werden gemeinsam ausgelegt."
       ],
       "sq": [
-        "Depozita tampon nuk është automatikisht e detyrueshme. Vendosin pajisja konkrete dhe udhëzimet e prodhuesit.",
-        "Depozita tampon në seri rrit kryesisht sasinë e ujit. Depozita tampon paralele mund të ndajë edhe hidraulikisht qarkun e pajisjes së ngrohjes nga ai i konsumatorëve.",
-        "Valvula e tejrrjedhjes e çon ujin brenda sistemit nga furnizimi në kthim. Ajo nuk është valvulë sigurie.",
-        "Një valvulë tejrrjedhjeje e montuar nuk e garanton vetvetiu prurjen minimale. Bypass-i, pompa dhe hidraulika dimensionohen së bashku."
+        "Depozita akumuluese nuk është automatikisht e detyrueshme. Vendosin pajisja konkrete dhe udhëzimet e prodhuesit.",
+        "Depozita në seri rrit kryesisht sasinë e ujit. Depozita paralele mund të ndajë edhe hidraulikisht qarkun e pajisjes së ngrohjes nga ai i konsumatorëve.",
+        "Valvula e bypass-it e çon ujin brenda sistemit nga furnizimi në kthim. Ajo nuk është valvulë sigurie.",
+        "Një valvulë bypass-i e montuar nuk e garanton vetvetiu prurjen minimale. Bypass-i, pompa dhe hidraulika dimensionohen së bashku."
       ]
     }
   },
@@ -291,7 +291,7 @@ export const MODS = [
         "Rückschlagventile richtig herum einbauen. Sie dürfen keine Wege zu Sicherheitsventil oder MAG blockieren."
       ],
       "sq": [
-        "Pompa krijon një diferencë presioni. Ajo nuk është e njëjtë me presionin statik të sistemit.",
+        "Pompa krijon një diferencë presioni. Kjo diferencë nuk është e njëjtë me presionin statik të sistemit.",
         "Dimensionohet sipas prurjes dhe rezistencës së rrjetit të tubave, jo sipas lartësisë së ndërtesës. Pompa në maksimum nuk është dimensionim.",
         "Drejtimi i rrjedhjes, pozicioni i montimit dhe mënyra e rregullimit (Δp-c, Δp-v) duhet t'i përshtaten sistemit dhe prodhuesit.",
         "Valvulat e kundërkthimit montohen në drejtimin e duhur. Ato nuk lejohet të bllokojnë rrugën drejt valvulës së sigurisë ose MAG-ut."
@@ -316,9 +316,9 @@ export const MODS = [
         "Luft, Schmutz und Anlagenfehler zuerst beheben. Am Ende prüfen und dokumentieren."
       ],
       "sq": [
-        "Nga ngarkesa termike e dhomës, sipërfaqja ngrohëse dhe temperaturat e sistemit del prurja e kërkuar.",
-        "I njëjti rregullim paraprak kudo ose pompa në maksimum nuk është balancim.",
-        "Koka termostatike dhe rregullimi paraprak kanë detyra të ndryshme.",
+        "Nga ngarkesa termike e dhomës, sipërfaqja ngrohëse dhe temperaturat e sistemit del prurja e synuar.",
+        "I njëjti paracaktim kudo ose pompa në maksimum nuk është balancim.",
+        "Koka termostatike dhe paracaktimi kanë detyra të ndryshme.",
         "Së pari hiqen ajri, papastërtitë dhe defektet e sistemit. Në fund kontrollohet dhe dokumentohet."
       ]
     }
@@ -328,7 +328,7 @@ export const MODS = [
     "p": 3,
     "duration": 390.2,
     "de": "Mischerkreis",
-    "sq": "Qarku me përzierës",
+    "sq": "Qarku me përzierje",
     "g": {
       "de": "Wie Mischer, Stellmotor, Pumpe, Fühler und Regler einem Heizkreis seine passende Vorlauftemperatur geben.",
       "sq": "Si i japin përzierësi, servomotori, pompa, sensori dhe rregullatori një qarku ngrohjeje temperaturën e duhur të furnizimit."
@@ -344,7 +344,7 @@ export const MODS = [
         "Përzierësi kombinon ujin e nxehtë nga pajisja e ngrohjes me ujin më të ftohtë të kthimit.",
         "Sensori i furnizimit vendoset pas pikës së përzierjes, në furnizimin e përzier.",
         "Lidhjet dhe drejtimi i rrotullimit lexohen nga skema e prodhuesit, nuk hamendësohen sipas pozicionit.",
-        "Jo çdo ngrohje dyshemeje ka nevojë për përzierës. Ai vendoset vetëm aty ku e kërkon koncepti hidraulik."
+        "Jo çdo ngrohje në dysheme ka nevojë për përzierës. Ai vendoset vetëm aty ku e kërkon koncepti hidraulik."
       ]
     }
   },

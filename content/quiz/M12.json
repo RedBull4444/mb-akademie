@@ -1,17 +1,17 @@
 [
   {
-    "q": {"de": "Warum bekommt nicht jede Heizfläche denselben Volumenstrom?", "sq": "Pse jo çdo sipërfaqe ngrohëse merr të njëjtën prurje?"},
+    "q": {"de": "Warum braucht nicht jede Heizfläche denselben Volumenstrom?", "sq": "Pse jo çdo sipërfaqe ngrohëse ka nevojë për të njëjtën prurje?"},
     "a": [
       {"de": "Die Thermostatköpfe reagieren verschieden schnell", "sq": "Kokat termostatike reagojnë me shpejtësi të ndryshme"},
       {"de": "Die Pumpe drückt nicht überall gleich stark", "sq": "Pompa nuk shtyp kudo njësoj fort"},
-      {"de": "Jeder Raum hat andere Heizlast und Heizfläche", "sq": "Çdo dhomë ka ngarkesë termike dhe sipërfaqe ngrohëse tjetër"},
+      {"de": "Jeder Raum hat andere Heizlast und Heizfläche", "sq": "Çdo dhomë ka ngarkesë termike dhe sipërfaqe ngrohëse të ndryshme"},
       {"de": "Untere Heizkörper brauchen immer mehr Wasser", "sq": "Radiatorët e poshtëm kanë gjithmonë nevojë për më shumë ujë"}
     ],
     "correct": 2,
-    "why": {"de": "Größe, Außenflächen und Fenster bestimmen den Wärmebedarf, daraus ergibt sich der Sollvolumenstrom je Heizfläche.", "sq": "Madhësia, sipërfaqet e jashtme dhe dritaret përcaktojnë nevojën për nxehtësi, dhe nga kjo del prurja e kërkuar për çdo sipërfaqe ngrohëse."}
+    "why": {"de": "Größe, Außenflächen und Fenster bestimmen den Wärmebedarf, daraus ergibt sich der Sollvolumenstrom je Heizfläche.", "sq": "Madhësia, sipërfaqet e jashtme dhe dritaret përcaktojnë nevojën për nxehtësi, dhe nga kjo del prurja e synuar për çdo sipërfaqe ngrohëse."}
   },
   {
-    "q": {"de": "Alle Heizkörperventile haben dieselbe Voreinstellung. Ist das ein Abgleich?", "sq": "Të gjitha valvulat e radiatorëve kanë të njëjtin rregullim paraprak. A është kjo balancim?"},
+    "q": {"de": "Alle Heizkörperventile haben dieselbe Voreinstellung. Ist das ein Abgleich?", "sq": "Të gjitha valvulat e radiatorëve kanë të njëjtin paracaktim. A është kjo balancim?"},
     "a": [
       {"de": "Nein, jede Heizfläche braucht ihren eigenen Wert", "sq": "Jo, çdo sipërfaqe ngrohëse ka nevojë për vlerën e vet"},
       {"de": "Ja, so bekommt jeder Heizkörper gleich viel Wasser", "sq": "Po, kështu çdo radiator merr njësoj ujë"},
@@ -19,10 +19,10 @@
       {"de": "Ja, wenn alle Thermostatköpfe gleich stehen", "sq": "Po, nëse të gjitha kokat termostatike janë njësoj"}
     ],
     "correct": 0,
-    "why": {"de": "Gleiche Voreinstellung überall ist kein hydraulischer Abgleich, weil Räume und Wege verschieden sind.", "sq": "I njëjti rregullim paraprak kudo nuk është balancim hidraulik, sepse dhomat dhe rrugët janë të ndryshme."}
+    "why": {"de": "Gleiche Voreinstellung überall ist kein hydraulischer Abgleich, weil Räume und Wege verschieden sind.", "sq": "I njëjti paracaktim kudo nuk është balancim hidraulik, sepse dhomat dhe rrugët janë të ndryshme."}
   },
   {
-    "q": {"de": "Was macht die Voreinstellung am Heizkörperventil?", "sq": "Çfarë bën rregullimi paraprak në valvulën e radiatorit?"},
+    "q": {"de": "Was macht die Voreinstellung am Heizkörperventil?", "sq": "Çfarë bën paracaktimi në valvulën e radiatorit?"},
     "a": [
       {"de": "Sie misst die Temperatur im Raum", "sq": "Mat temperaturën në dhomë"},
       {"de": "Sie regelt die Leistung der Pumpe", "sq": "Rregullon fuqinë e pompës"},
@@ -30,7 +30,7 @@
       {"de": "Sie begrenzt den möglichen Durchfluss", "sq": "E kufizon prurjen e mundshme"}
     ],
     "correct": 3,
-    "why": {"de": "Die Voreinstellung begrenzt den Durchfluss, der Thermostatkopf dagegen reagiert auf die Raumtemperatur.", "sq": "Rregullimi paraprak e kufizon prurjen, ndërsa koka termostatike reagon ndaj temperaturës së dhomës."}
+    "why": {"de": "Die Voreinstellung begrenzt den Durchfluss, der Thermostatkopf dagegen reagiert auf die Raumtemperatur.", "sq": "Paracaktimi e kufizon prurjen, ndërsa koka termostatike reagon ndaj temperaturës së dhomës."}
   },
   {
     "q": {"de": "Vor dem Abgleich ist noch Luft in der Anlage. Was machst du?", "sq": "Para balancimit ka ende ajër në sistem. Çfarë bën?"},
@@ -46,12 +46,12 @@
   {
     "q": {"de": "Was gehört nach dem Einstellen zum Abgleich?", "sq": "Çfarë i përket balancimit pas rregullimit?"},
     "a": [
-      {"de": "Alle Voreinstellungen noch einmal gleich setzen", "sq": "Të gjitha rregullimet paraprake i vendos prapë njësoj"},
+      {"de": "Alle Voreinstellungen noch einmal gleich setzen", "sq": "Të gjitha paracaktimet i vendos prapë njësoj"},
       {"de": "Die Pumpe zur Sicherheit auf Maximum stellen", "sq": "Pompën e vendos në maksimum për siguri"},
       {"de": "Funktion prüfen und die Werte dokumentieren", "sq": "Kontrollon funksionin dhe dokumenton vlerat"},
       {"de": "Den Kunden fragen, ob es warm genug ist", "sq": "E pyet klientin nëse është mjaftueshëm ngrohtë"}
     ],
     "correct": 2,
-    "why": {"de": "Nach dem Einstellen werden Volumenströme, Temperaturen und Geräusche geprüft und die Werte festgehalten.", "sq": "Pas rregullimit kontrollohen prurjet, temperaturat dhe zhurmat dhe vlerat shënohen."}
+    "why": {"de": "Nach dem Einstellen werden Volumenströme, Temperaturen und Geräusche geprüft und die Werte festgehalten.", "sq": "Pas rregullimit kontrollohen prurjet, temperaturat dhe zhurmat, dhe vlerat dokumentohen."}
   }
 ]

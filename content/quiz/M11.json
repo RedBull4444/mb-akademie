@@ -44,7 +44,7 @@
     "why": {"de": "Ein Rückschlagventil hat Öffnungsdruck und Widerstand und darf nie den Weg zu Sicherheitsventil oder MAG sperren.", "sq": "Një valvulë kundërkthimi ka presion hapjeje dhe rezistencë dhe nuk lejohet kurrë ta bllokojë rrugën drejt valvulës së sigurisë ose MAG-ut."}
   },
   {
-    "q": {"de": "Du hast die Schwerkraftbremse für den Service geöffnet. Was danach?", "sq": "E ke hapur frenën e gravitetit për servis. Çfarë bën pas kësaj?"},
+    "q": {"de": "Du hast die Schwerkraftbremse für den Service geöffnet. Was danach?", "sq": "E ke hapur frenuesin e qarkullimit natyror për servis. Çfarë bën pas kësaj?"},
     "a": [
       {"de": "Offen lassen, so fließt das Wasser besser", "sq": "E lë të hapur, kështu uji rrjedh më mirë"},
       {"de": "Ausbauen, sie wird nicht mehr gebraucht", "sq": "E çmonton, nuk nevojitet më"},
@@ -52,6 +52,6 @@
       {"de": "Zurück in die Betriebsstellung bringen", "sq": "E kthen në pozicionin e punës"}
     ],
     "correct": 3,
-    "why": {"de": "Bleibt die Bremse offen, ist der unerwünschte natürliche Umlauf nicht mehr begrenzt.", "sq": "Nëse frena mbetet e hapur, qarkullimi natyral i padëshiruar nuk kufizohet më."}
+    "why": {"de": "Bleibt die Bremse offen, ist der unerwünschte natürliche Umlauf nicht mehr begrenzt.", "sq": "Nëse frenuesi mbetet i hapur, qarkullimi natyror i padëshiruar nuk kufizohet më."}
   }
 ]

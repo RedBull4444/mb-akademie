@@ -13,7 +13,7 @@ export const QUIZ_DATA = {
     },
     {
      "de": "Wasser fließt ins MAG, das Gas wird zusammengedrückt",
-     "sq": "Uji hyn në MAG dhe gazi ngjeshet"
+     "sq": "Uji hyn në MAG dhe gazi komprimohet"
     },
     {
      "de": "Das Gas strömt aus dem MAG in den Vorlauf",
@@ -27,7 +27,7 @@ export const QUIZ_DATA = {
    "correct": 1,
    "why": {
     "de": "Warmes Wasser braucht mehr Platz, es drückt die Membran zur Gasseite und komprimiert das Gaspolster.",
-    "sq": "Uji i ngrohtë ka nevojë për më shumë vend, e shtyn membranën drejt anës së gazit dhe e ngjesh jastëkun e gazit."
+    "sq": "Uji i ngrohtë ka nevojë për më shumë vend, e shtyn membranën drejt anës së gazit dhe e komprimon jastëkun e gazit."
    }
   },
   {
@@ -129,7 +129,7 @@ export const QUIZ_DATA = {
     },
     {
      "de": "Die Wasserseite druckentlasten, dann den Gasvordruck messen",
-     "sq": "Çliron presionin në anën e ujit, pastaj mat presionin e gazit"
+     "sq": "Çliron presionin në anën e ujit, pastaj mat presionin paraprak të gazit"
     },
     {
      "de": "Das MAG ausbauen und schütteln",
@@ -185,11 +185,11 @@ export const QUIZ_DATA = {
    "a": [
     {
      "de": "Kaltwasserseite, Speicherseite des Rückflussverhinderers",
-     "sq": "Ana e ujit të ftohtë, ndërmjet valvulës së kundërkthimit dhe depozitës"
+     "sq": "Ana e ujit të ftohtë, ndërmjet penguesit të kthimit dhe depozitës"
     },
     {
      "de": "Kaltwasserseite, vor dem Rückflussverhinderer",
-     "sq": "Ana e ujit të ftohtë, para valvulës së kundërkthimit"
+     "sq": "Ana e ujit të ftohtë, para penguesit të kthimit"
     },
     {
      "de": "Warmwasserseite, hinter dem Speicher",
@@ -203,7 +203,7 @@ export const QUIZ_DATA = {
    "correct": 0,
    "why": {
     "de": "Nur auf der Speicherseite des Rückflussverhinderers kann sich das ausdehnende Wasser im Gefäß sammeln.",
-    "sq": "Vetëm ndërmjet valvulës së kundërkthimit dhe depozitës uji që zgjerohet mund të mblidhet në enë."
+    "sq": "Vetëm ndërmjet penguesit të kthimit dhe depozitës uji që zgjerohet mund të mblidhet në enë."
    }
   },
   {
@@ -237,7 +237,7 @@ export const QUIZ_DATA = {
   },
   {
    "q": {
-    "de": "Beim Aufheizen tropft das Sicherheitsventil. Es gibt kein Trink-MAG. Was gilt?",
+    "de": "Beim Aufheizen tropft das Sicherheitsventil. Es gibt kein Trinkwasser-MAG. Was gilt?",
     "sq": "Gjatë ngrohjes pikon valvula e sigurisë. Nuk ka enë zgjerimi për ujë të pijshëm. Çfarë është e saktë?"
    },
    "a": [
@@ -327,7 +327,7 @@ export const QUIZ_DATA = {
   {
    "q": {
     "de": "Der Ablauf am Systemtrenner ist zugestopft. Was ist richtig?",
-    "sq": "Shkarkimi i ndarësit të sistemit është i bllokuar. Çfarë është e saktë?"
+    "sq": "Dalja e ndarësit të sistemit është e bllokuar. Çfarë është e saktë?"
    },
    "a": [
     {
@@ -336,7 +336,7 @@ export const QUIZ_DATA = {
     },
     {
      "de": "Falsch, der Ablauf muss frei und sichtbar bleiben",
-     "sq": "Gabim, shkarkimi duhet të mbetet i lirë dhe i dukshëm"
+     "sq": "Gabim, dalja duhet të mbetet e lirë dhe e dukshme"
     },
     {
      "de": "Egal, solange der Druck stimmt",
@@ -350,13 +350,13 @@ export const QUIZ_DATA = {
    "correct": 1,
    "why": {
     "de": "Der Ablauf des Systemtrenners muss frei, sichtbar und entwässerbar bleiben und darf nicht verschlossen werden.",
-    "sq": "Shkarkimi i ndarësit të sistemit duhet të mbetet i lirë, i dukshëm dhe të mund ta shkarkojë ujin, dhe nuk lejohet të mbyllet."
+    "sq": "Dalja e ndarësit të sistemit duhet të mbetet e lirë, e dukshme dhe të mund ta shkarkojë ujin, dhe nuk lejohet të mbyllet."
    }
   },
   {
    "q": {
     "de": "Was ist der Unterschied zwischen Enthärten und Entsalzen?",
-    "sq": "Cili është dallimi ndërmjet zbutjes dhe demineralizimit?"
+    "sq": "Cili është dallimi ndërmjet zbutjes dhe çkripëzimit (demineralizimit)?"
    },
    "a": [
     {
@@ -365,21 +365,21 @@ export const QUIZ_DATA = {
     },
     {
      "de": "Enthärten entfernt alle Salze, Entsalzen nur den Kalk",
-     "sq": "Zbutja i heq të gjitha kripërat, demineralizimi vetëm gëlqeren"
+     "sq": "Zbutja i heq të gjitha kripërat, çkripëzimi vetëm gëlqeren"
     },
     {
      "de": "Entsalzen entfernt die Ionen weitgehend, Enthärten senkt die Härte",
-     "sq": "Demineralizimi i heq pothuajse të gjitha jonet, zbutja ul fortësinë"
+     "sq": "Çkripëzimi i heq pothuajse të gjitha jonet, zbutja ul fortësinë"
     },
     {
      "de": "Entsalzen macht das Wasser härter",
-     "sq": "Demineralizimi e bën ujin më të fortë"
+     "sq": "Çkripëzimi e bën ujin më të fortë"
     }
    ],
    "correct": 2,
    "why": {
     "de": "Beim Enthärten sinkt vor allem die Wasserhärte, beim Entsalzen werden gelöste Ionen weitgehend entfernt und die Leitfähigkeit sinkt.",
-    "sq": "Gjatë zbutjes ulet kryesisht fortësia e ujit, gjatë demineralizimit jonet e tretura hiqen pothuajse plotësisht dhe përçueshmëria ulet."
+    "sq": "Gjatë zbutjes ulet kryesisht fortësia e ujit, gjatë çkripëzimit jonet e tretura hiqen në masë të madhe dhe përçueshmëria ulet."
    }
   },
   {
@@ -423,7 +423,7 @@ export const QUIZ_DATA = {
     },
     {
      "de": "Den Ablauf des Systemtrenners verschließen",
-     "sq": "E mbyll shkarkimin e ndarësit të sistemit"
+     "sq": "E mbyll daljen e ndarësit të sistemit"
     },
     {
      "de": "Füllbetrieb beenden, absperren und Druck entlasten",
@@ -525,8 +525,8 @@ export const QUIZ_DATA = {
    ],
    "correct": 1,
    "why": {
-    "de": "Der Sicherheitsweg muss frei bleiben, sonst kann das Ventil die Anlage im entscheidenden Moment nicht schützen.",
-    "sq": "Rruga e sigurisë duhet të mbetet e lirë, përndryshe valvula nuk e mbron sistemin në momentin vendimtar."
+    "de": "Zwischen Wärmeerzeuger und Sicherheitsventil darf keine Absperrung eingebaut sein. Der Sicherheitsweg muss immer frei bleiben, sonst kann das Ventil die Anlage im entscheidenden Moment nicht schützen.",
+    "sq": "Ndërmjet pajisjes së ngrohjes dhe valvulës së sigurisë nuk lejohet të montohet asnjë valvulë mbyllëse. Rruga e sigurisë duhet të mbetet gjithmonë e lirë, përndryshe valvula nuk mund ta mbrojë sistemin në momentin vendimtar."
    }
   },
   {
@@ -609,7 +609,7 @@ export const QUIZ_DATA = {
     },
     {
      "de": "In der Zirkulationsleitung",
-     "sq": "Në tubin e qarkullimit"
+     "sq": "Në tubin e riqarkullimit"
     }
    ],
    "correct": 1,
@@ -634,7 +634,7 @@ export const QUIZ_DATA = {
     },
     {
      "de": "Der Rückflussverhinderer öffnet sich",
-     "sq": "Valvula e kundërkthimit hapet"
+     "sq": "Penguesi i kthimit hapet"
     },
     {
      "de": "Der Druck steigt, das Sicherheitsventil kann Wasser abgeben",
@@ -655,7 +655,7 @@ export const QUIZ_DATA = {
    "a": [
     {
      "de": "Er senkt den Versorgungsdruck auf den vorgesehenen Wert",
-     "sq": "E ul presionin e furnizimit në vlerën e paraparë"
+     "sq": "E ul presionin e furnizimit në vlerën e parashikuar"
     },
     {
      "de": "Er lässt bei Überdruck Wasser ab",
@@ -691,8 +691,8 @@ export const QUIZ_DATA = {
      "sq": "Nën ujë, që të mos spërkasë"
     },
     {
-     "de": "Sichtbar über einem Ablauf mit freiem Auslauf",
-     "sq": "I dukshëm mbi një sifon, me dalje të lirë"
+     "de": "Sichtbar über einem Ablauftrichter mit freiem Auslauf",
+     "sq": "I dukshëm mbi një hinkë shkarkimi, me dalje të lirë"
     },
     {
      "de": "Dicht am Abwasserrohr, ohne Trichter",
@@ -738,8 +738,8 @@ export const QUIZ_DATA = {
  "6": [
   {
    "q": {
-    "de": "Warum entfernt man Schlamm und Magnetit aus dem Heizungswasser?",
-    "sq": "Pse hiqen llumi dhe magnetiti nga uji i ngrohjes?"
+    "de": "Warum entfernt man Schlamm und magnetische Partikel aus dem Heizungswasser?",
+    "sq": "Pse hiqen llumi dhe grimcat magnetike nga uji i ngrohjes?"
    },
    "a": [
     {
@@ -810,7 +810,7 @@ export const QUIZ_DATA = {
     },
     {
      "de": "Den Schmutzfänger dauerhaft ausbauen",
-     "sq": "Filtri i papastërtive hiqet përgjithmonë"
+     "sq": "Filtri me sitë hiqet përgjithmonë"
     },
     {
      "de": "Magnet nach Anleitung lösen, dann kontrolliert ablassen",
@@ -848,8 +848,8 @@ export const QUIZ_DATA = {
    ],
    "correct": 1,
    "why": {
-    "de": "Grobe Montage- und Fertigungsrückstände bleiben nicht einfach im System, weil später ein Abscheider eingebaut wird.",
-    "sq": "Mbeturinat e trasha të montimit dhe të prodhimit nuk lihen në sistem vetëm sepse më vonë montohet një ndarës."
+    "de": "Grobe Montage- und Fertigungsrückstände dürfen nicht im System bleiben, nur weil später ein Abscheider eingebaut wird. Erst spülen, dann schützt der Abscheider im laufenden Betrieb.",
+    "sq": "Mbeturinat e trasha të montimit dhe të prodhimit nuk lejohet të lihen në sistem vetëm sepse më vonë montohet një ndarës. Së pari shpëlahet, pastaj ndarësi e mbron sistemin gjatë punës."
    }
   },
   {
@@ -938,7 +938,7 @@ export const QUIZ_DATA = {
    "correct": 2,
    "why": {
     "de": "Er trennt kleinste Blasen aus der Strömung ab, sie steigen zum Entlüfter und werden dort abgeführt.",
-    "sq": "Ai i ndan flluskat më të vogla nga rrjedha, ato ngjiten te ajruesi dhe shkarkohen aty."
+    "sq": "Ai i ndan flluskat më të vogla nga rrjedha, ato ngrihen drejt ajruesit dhe aty largohen nga sistemi."
    }
   },
   {
@@ -996,7 +996,7 @@ export const QUIZ_DATA = {
    "correct": 3,
    "why": {
     "de": "Dauerndes Entlüften ist keine Lösung. Es muss geklärt werden, warum Luft oder Gas immer wieder in das System gelangt.",
-    "sq": "Ajrosja e vazhdueshme nuk është zgjidhje. Duhet sqaruar pse ajri ose gazi hyn vazhdimisht në sistem."
+    "sq": "Ajrimi i vazhdueshëm nuk është zgjidhje. Duhet sqaruar pse ajri ose gazi hyn vazhdimisht në sistem."
    }
   },
   {
@@ -1015,7 +1015,7 @@ export const QUIZ_DATA = {
     },
     {
      "de": "Damit die Luft nach oben zum Entlüfter gelangt",
-     "sq": "Që ajri të ngjitet lart te ajruesi"
+     "sq": "Që ajri të ngrihet lart te ajruesi"
     },
     {
      "de": "Damit die Kappe immer geschlossen bleibt",
@@ -1025,7 +1025,7 @@ export const QUIZ_DATA = {
    "correct": 2,
    "why": {
     "de": "Nur in der vorgeschriebenen Einbaulage steigt die Luft zum Entlüfter auf und kann dort aus dem System entweichen.",
-    "sq": "Vetëm në pozicionin e përcaktuar ajri ngjitet te ajruesi dhe mund të dalë nga sistemi."
+    "sq": "Vetëm në pozicionin e parashikuar ajri ngrihet te ajruesi dhe mund të dalë nga sistemi."
    }
   }
  ],
@@ -1046,7 +1046,7 @@ export const QUIZ_DATA = {
     },
     {
      "de": "Nach Kennzeichnung und Hydraulikschema",
-     "sq": "Sipas shënimeve dhe skemës hidraulike"
+     "sq": "Sipas shenjave dhe skemës hidraulike"
     },
     {
      "de": "Nach dem Gefühl des Monteurs",
@@ -1056,7 +1056,7 @@ export const QUIZ_DATA = {
    "correct": 2,
    "why": {
     "de": "Anschlüsse werden nicht nach Lage oder Größe geraten, jeder gehört einem System: Trinkwasser, Heizung, Zirkulation oder Regelung.",
-    "sq": "Lidhjet nuk hamendësohen sipas pozicionit ose madhësisë, secila i përket një sistemi: ujit të pijshëm, ngrohjes, qarkullimit ose rregullimit."
+    "sq": "Lidhjet nuk hamendësohen sipas pozicionit ose madhësisë, secila i përket një sistemi: ujit të pijshëm, ngrohjes, riqarkullimit ose rregullimit."
    }
   },
   {
@@ -1067,7 +1067,7 @@ export const QUIZ_DATA = {
    "a": [
     {
      "de": "Er muss im Betrieb immer frei bleiben",
-     "sq": "Gjatë punës duhet të mbetet gjithmonë e lirë"
+     "sq": "Gjatë funksionimit duhet të mbetet gjithmonë e lirë"
     },
     {
      "de": "Er darf mit einem Kugelhahn abgesperrt werden",
@@ -1091,7 +1091,7 @@ export const QUIZ_DATA = {
   {
    "q": {
     "de": "Warum ist der Laderücklauf nicht die Zirkulation?",
-    "sq": "Pse kthimi i ngrohjes së depozitës nuk është qarkullimi?"
+    "sq": "Pse kthimi i ngrohjes së depozitës nuk është riqarkullimi?"
    },
    "a": [
     {
@@ -1100,7 +1100,7 @@ export const QUIZ_DATA = {
     },
     {
      "de": "Die Zirkulation ist nur ein anderer Name dafür",
-     "sq": "Qarkullimi është vetëm një emër tjetër për të"
+     "sq": "Riqarkullimi është vetëm një emër tjetër për të"
     },
     {
      "de": "Der Laderücklauf ist die Kaltwasserleitung",
@@ -1114,7 +1114,7 @@ export const QUIZ_DATA = {
    "correct": 3,
    "why": {
     "de": "Der Laderücklauf gehört zum Heizungswasser, die Zirkulation hat ihren eigenen Trinkwasser-Rückweg.",
-    "sq": "Kthimi i ngrohjes së depozitës i përket ujit të ngrohjes, qarkullimi ka rrugën e vet të kthimit për ujin e pijshëm."
+    "sq": "Kthimi i ngrohjes së depozitës i përket ujit të ngrohjes, riqarkullimi ka rrugën e vet të kthimit për ujin e pijshëm."
    }
   },
   {
@@ -1162,7 +1162,7 @@ export const QUIZ_DATA = {
     },
     {
      "de": "Erst nach Füllen, Entlüften und Prüfen",
-     "sq": "Vetëm pas mbushjes, ajrimit dhe kontrollit"
+     "sq": "Vetëm pas mbushjes, ajrosjes dhe kontrollit"
     },
     {
      "de": "Nach dem ersten Einschalten des Reglers",
@@ -1193,7 +1193,7 @@ export const QUIZ_DATA = {
     },
     {
      "de": "Die Anlage befüllen und entlüften",
-     "sq": "E mbush dhe e ajron sistemin"
+     "sq": "E mbush dhe e ajros sistemin"
     },
     {
      "de": "Die Einstellungen dokumentieren",
@@ -1356,12 +1356,12 @@ export const QUIZ_DATA = {
   {
    "q": {
     "de": "Braucht jede Wärmepumpe automatisch einen Puffer?",
-    "sq": "A ka çdo pompë nxehtësie automatikisht nevojë për depozitë tampon?"
+    "sq": "A ka çdo pompë nxehtësie automatikisht nevojë për depozitë akumuluese?"
    },
    "a": [
     {
      "de": "Ja, ohne Puffer läuft sie nie effizient",
-     "sq": "Po, pa tampon nuk punon kurrë në mënyrë efikase"
+     "sq": "Po, pa depozitë akumuluese nuk punon kurrë në mënyrë efikase"
     },
     {
      "de": "Nein, Gerät und Herstellerangaben entscheiden",
@@ -1373,19 +1373,19 @@ export const QUIZ_DATA = {
     },
     {
      "de": "Nein, ein Puffer ist dort immer verboten",
-     "sq": "Jo, aty tamponi është gjithmonë i ndaluar"
+     "sq": "Jo, aty depozita akumuluese është gjithmonë e ndaluar"
     }
    ],
    "correct": 1,
    "why": {
     "de": "Eine Anlage kann ohne Puffer funktionieren, wenn der Hersteller das Konzept freigibt und die Betriebsbedingungen erfüllt sind.",
-    "sq": "Një sistem mund të punojë pa tampon nëse prodhuesi e miraton këtë koncept dhe plotësohen kushtet e punës."
+    "sq": "Një sistem mund të punojë pa depozitë akumuluese nëse prodhuesi e miraton këtë koncept dhe plotësohen kushtet e punës."
    }
   },
   {
    "q": {
     "de": "Alle Heizkreise schließen. Was bringt ein Reihenpuffer dann?",
-    "sq": "Të gjitha qarqet e ngrohjes mbyllen. Çfarë sjell atëherë tamponi në seri?"
+    "sq": "Të gjitha qarqet e ngrohjes mbyllen. Çfarë sjell atëherë depozita në seri?"
    },
    "a": [
     {
@@ -1408,13 +1408,13 @@ export const QUIZ_DATA = {
    "correct": 0,
    "why": {
     "de": "Ein Reihenpuffer erhöht vor allem den Wasserinhalt, schafft aber keinen offenen Strömungsweg.",
-    "sq": "Tamponi në seri rrit kryesisht sasinë e ujit, por nuk krijon rrugë të hapur për rrjedhjen."
+    "sq": "Depozita në seri rrit kryesisht sasinë e ujit, por nuk krijon rrugë të hapur për rrjedhjen."
    }
   },
   {
    "q": {
     "de": "Wohin führt das Überströmventil das Wasser, wenn Heizkreise schließen?",
-    "sq": "Ku e çon valvula e tejrrjedhjes ujin kur qarqet e ngrohjes mbyllen?"
+    "sq": "Ku e çon valvula e bypass-it ujin kur qarqet e ngrohjes mbyllen?"
    },
    "a": [
     {
@@ -1437,13 +1437,13 @@ export const QUIZ_DATA = {
    "correct": 2,
    "why": {
     "de": "Das Überströmventil öffnet einen internen Weg und ist kein Sicherheitsventil, denn das führt Wasser nach außen ab.",
-    "sq": "Valvula e tejrrjedhjes hap një rrugë të brendshme dhe nuk është valvulë sigurie, sepse valvula e sigurisë e shkarkon ujin jashtë."
+    "sq": "Valvula e bypass-it hap një rrugë të brendshme dhe nuk është valvulë sigurie, sepse valvula e sigurisë e shkarkon ujin jashtë."
    }
   },
   {
    "q": {
     "de": "Ein Überströmventil ist eingebaut. Ist der Mindestvolumenstrom sicher?",
-    "sq": "Është montuar një valvulë tejrrjedhjeje. A është e siguruar prurja minimale?"
+    "sq": "Është montuar një valvulë bypass-i. A është e siguruar prurja minimale?"
    },
    "a": [
     {
@@ -1460,7 +1460,7 @@ export const QUIZ_DATA = {
     },
     {
      "de": "Nein, dafür braucht man immer einen Puffer",
-     "sq": "Jo, për këtë të duhet gjithmonë një tampon"
+     "sq": "Jo, për këtë të duhet gjithmonë një depozitë akumuluese"
     }
    ],
    "correct": 1,
@@ -1590,7 +1590,7 @@ export const QUIZ_DATA = {
   {
    "q": {
     "de": "Du hast die Schwerkraftbremse für den Service geöffnet. Was danach?",
-    "sq": "E ke hapur frenën e gravitetit për servis. Çfarë bën pas kësaj?"
+    "sq": "E ke hapur frenuesin e qarkullimit natyror për servis. Çfarë bën pas kësaj?"
    },
    "a": [
     {
@@ -1613,15 +1613,15 @@ export const QUIZ_DATA = {
    "correct": 3,
    "why": {
     "de": "Bleibt die Bremse offen, ist der unerwünschte natürliche Umlauf nicht mehr begrenzt.",
-    "sq": "Nëse frena mbetet e hapur, qarkullimi natyral i padëshiruar nuk kufizohet më."
+    "sq": "Nëse frenuesi mbetet i hapur, qarkullimi natyror i padëshiruar nuk kufizohet më."
    }
   }
  ],
  "12": [
   {
    "q": {
-    "de": "Warum bekommt nicht jede Heizfläche denselben Volumenstrom?",
-    "sq": "Pse jo çdo sipërfaqe ngrohëse merr të njëjtën prurje?"
+    "de": "Warum braucht nicht jede Heizfläche denselben Volumenstrom?",
+    "sq": "Pse jo çdo sipërfaqe ngrohëse ka nevojë për të njëjtën prurje?"
    },
    "a": [
     {
@@ -1634,7 +1634,7 @@ export const QUIZ_DATA = {
     },
     {
      "de": "Jeder Raum hat andere Heizlast und Heizfläche",
-     "sq": "Çdo dhomë ka ngarkesë termike dhe sipërfaqe ngrohëse tjetër"
+     "sq": "Çdo dhomë ka ngarkesë termike dhe sipërfaqe ngrohëse të ndryshme"
     },
     {
      "de": "Untere Heizkörper brauchen immer mehr Wasser",
@@ -1644,13 +1644,13 @@ export const QUIZ_DATA = {
    "correct": 2,
    "why": {
     "de": "Größe, Außenflächen und Fenster bestimmen den Wärmebedarf, daraus ergibt sich der Sollvolumenstrom je Heizfläche.",
-    "sq": "Madhësia, sipërfaqet e jashtme dhe dritaret përcaktojnë nevojën për nxehtësi, dhe nga kjo del prurja e kërkuar për çdo sipërfaqe ngrohëse."
+    "sq": "Madhësia, sipërfaqet e jashtme dhe dritaret përcaktojnë nevojën për nxehtësi, dhe nga kjo del prurja e synuar për çdo sipërfaqe ngrohëse."
    }
   },
   {
    "q": {
     "de": "Alle Heizkörperventile haben dieselbe Voreinstellung. Ist das ein Abgleich?",
-    "sq": "Të gjitha valvulat e radiatorëve kanë të njëjtin rregullim paraprak. A është kjo balancim?"
+    "sq": "Të gjitha valvulat e radiatorëve kanë të njëjtin paracaktim. A është kjo balancim?"
    },
    "a": [
     {
@@ -1673,13 +1673,13 @@ export const QUIZ_DATA = {
    "correct": 0,
    "why": {
     "de": "Gleiche Voreinstellung überall ist kein hydraulischer Abgleich, weil Räume und Wege verschieden sind.",
-    "sq": "I njëjti rregullim paraprak kudo nuk është balancim hidraulik, sepse dhomat dhe rrugët janë të ndryshme."
+    "sq": "I njëjti paracaktim kudo nuk është balancim hidraulik, sepse dhomat dhe rrugët janë të ndryshme."
    }
   },
   {
    "q": {
     "de": "Was macht die Voreinstellung am Heizkörperventil?",
-    "sq": "Çfarë bën rregullimi paraprak në valvulën e radiatorit?"
+    "sq": "Çfarë bën paracaktimi në valvulën e radiatorit?"
    },
    "a": [
     {
@@ -1702,7 +1702,7 @@ export const QUIZ_DATA = {
    "correct": 3,
    "why": {
     "de": "Die Voreinstellung begrenzt den Durchfluss, der Thermostatkopf dagegen reagiert auf die Raumtemperatur.",
-    "sq": "Rregullimi paraprak e kufizon prurjen, ndërsa koka termostatike reagon ndaj temperaturës së dhomës."
+    "sq": "Paracaktimi e kufizon prurjen, ndërsa koka termostatike reagon ndaj temperaturës së dhomës."
    }
   },
   {
@@ -1742,7 +1742,7 @@ export const QUIZ_DATA = {
    "a": [
     {
      "de": "Alle Voreinstellungen noch einmal gleich setzen",
-     "sq": "Të gjitha rregullimet paraprake i vendos prapë njësoj"
+     "sq": "Të gjitha paracaktimet i vendos prapë njësoj"
     },
     {
      "de": "Die Pumpe zur Sicherheit auf Maximum stellen",
@@ -1760,7 +1760,7 @@ export const QUIZ_DATA = {
    "correct": 2,
    "why": {
     "de": "Nach dem Einstellen werden Volumenströme, Temperaturen und Geräusche geprüft und die Werte festgehalten.",
-    "sq": "Pas rregullimit kontrollohen prurjet, temperaturat dhe zhurmat dhe vlerat shënohen."
+    "sq": "Pas rregullimit kontrollohen prurjet, temperaturat dhe zhurmat, dhe vlerat dokumentohen."
    }
   }
  ],
@@ -1791,7 +1791,7 @@ export const QUIZ_DATA = {
    "correct": 3,
    "why": {
     "de": "Der Mischer bestimmt das Mischungsverhältnis und damit die Vorlauftemperatur des Heizkreises.",
-    "sq": "Përzierësi përcakton raportin e përzierjes dhe me të temperaturën e furnizimit të qarkut të ngrohjes."
+    "sq": "Përzierësi përcakton raportin e përzierjes dhe kështu temperaturën e furnizimit të qarkut të ngrohjes."
    }
   },
   {
@@ -1889,7 +1889,7 @@ export const QUIZ_DATA = {
    "a": [
     {
      "de": "Ja, jede Fußbodenheizung braucht einen Mischer",
-     "sq": "Po, çdo ngrohje dyshemeje ka nevojë për përzierës"
+     "sq": "Po, çdo ngrohje në dysheme ka nevojë për përzierës"
     },
     {
      "de": "Nein, ein zusätzlicher Mischerkreis ist dann unnötig",
@@ -1907,7 +1907,7 @@ export const QUIZ_DATA = {
    "correct": 1,
    "why": {
     "de": "Ein Mischer kommt nur dorthin, wo das Hydraulikkonzept ihn braucht, nicht automatisch an jede Fußbodenheizung.",
-    "sq": "Përzierësi vendoset vetëm aty ku e kërkon koncepti hidraulik, jo automatikisht te çdo ngrohje dyshemeje."
+    "sq": "Përzierësi vendoset vetëm aty ku e kërkon koncepti hidraulik, jo automatikisht te çdo ngrohje në dysheme."
    }
   }
  ],
@@ -1952,8 +1952,8 @@ export const QUIZ_DATA = {
      "sq": "Të gjitha grimcat dhe të gjitha substancat e tretura"
     },
     {
-     "de": "Nur Kalk und andere Härtebildner",
-     "sq": "Vetëm gëlqere dhe formues të tjerë të fortësisë"
+     "de": "Nur Kalk und Härtebildner",
+     "sq": "Vetëm gëlqere dhe përbërës të fortësisë"
     },
     {
      "de": "Gelöste Salze und Ionen",
@@ -1995,8 +1995,8 @@ export const QUIZ_DATA = {
    ],
    "correct": 1,
    "why": {
-    "de": "Bestehen Korrosion oder Sauerstoffeintrag weiter, entstehen neue Ablagerungen.",
-    "sq": "Nëse korrozioni ose hyrja e oksigjenit vazhdojnë, krijohen depozitime të reja."
+    "de": "Bestehen Korrosion oder Sauerstoffeintrag weiter, können neue Ablagerungen entstehen.",
+    "sq": "Nëse korrozioni ose hyrja e oksigjenit vazhdojnë, mund të krijohen depozitime të reja."
    }
   },
   {
@@ -2014,8 +2014,8 @@ export const QUIZ_DATA = {
      "sq": "Zbutja heq të gjitha jonet, demineralizimi vetëm gëlqeren"
     },
     {
-     "de": "Enthärten tauscht Härtebildner, Entsalzen entfernt Ionen",
-     "sq": "Zbutja i shkëmben formuesit e fortësisë, demineralizimi heq jonet"
+     "de": "Enthärten tauscht Härtebildner aus, Entsalzen entfernt Ionen",
+     "sq": "Zbutja zëvendëson përbërësit e fortësisë, demineralizimi heq jonet"
     },
     {
      "de": "Enthärten ändert den pH-Wert, Entsalzen die Farbe",
@@ -2024,8 +2024,8 @@ export const QUIZ_DATA = {
    ],
    "correct": 2,
    "why": {
-    "de": "Es sind zwei verschiedene Verfahren, welches nötig ist, entscheidet die Anlage.",
-    "sq": "Janë dy procese të ndryshme, cili nevojitet e vendos sistemi."
+    "de": "Es sind zwei verschiedene Verfahren. Welches nötig ist, entscheidet die Anlage.",
+    "sq": "Janë dy procese të ndryshme. Cili nevojitet, e vendos sistemi."
    }
   },
   {
@@ -2113,8 +2113,8 @@ export const QUIZ_DATA = {
    ],
    "correct": 0,
    "why": {
-    "de": "Eine geschlossene Absperrung zwischen dem geschützten System und dem Sicherheitsventil macht den Schutz unwirksam.",
-    "sq": "Një valvulë mbyllëse e mbyllur ndërmjet sistemit të mbrojtur dhe valvulës së sigurisë e bën mbrojtjen të pavlefshme."
+    "de": "Zwischen dem zu schützenden System und seinem Sicherheitsventil darf keine Absperrung sitzen. Ist sie geschlossen, ist der Schutz unwirksam.",
+    "sq": "Ndërmjet sistemit që duhet mbrojtur dhe valvulës së tij të sigurisë nuk lejohet asnjë valvulë mbyllëse. Nëse ajo është e mbyllur, mbrojtja nuk vepron."
    }
   },
   {
@@ -2166,7 +2166,7 @@ export const QUIZ_DATA = {
     },
     {
      "de": "Nein, Position und Anzeige müssen zum Betrieb passen",
-     "sq": "Jo, pozicioni dhe vlera duhet të përputhen me funksionimin"
+     "sq": "Jo, pozicioni dhe vlera e treguar duhet të përputhen me funksionimin"
     }
    ],
    "correct": 3,
