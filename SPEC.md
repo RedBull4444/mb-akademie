@@ -31,7 +31,7 @@ public/
 ```
 
 ## Inhalte (functions/_lib/content.js)
-Module n=0..15, Teil: 1 = 0–7, 2 = 8–11, 3 = 12–15. Dauern (Sekunden, exakt): 0:39.5, 1:298.4, 2:337.7, 3:452.3, 4:348.8, 5:407.1, 6:445.8, 7:427.6, 8:396.6, 9:497.6, 10:420.8, 11:523.4, 12:415.3, 13:390.2, 14:431.5, 15:381.0.
+Module n=0..15, Teil: 1 = 0–7, 2 = 8–11, 3 = 12–15. Dauern (Sekunden, exakt): 0:39.5, 1:298.4, 2:337.7, 3:452.3, 4:348.8, 5:407.1, 6:438.5, 7:427.6, 8:396.6, 9:497.6, 10:420.8, 11:523.4, 12:415.3, 13:390.2, 14:431.5, 15:381.0.
 Titel DE/SQ: aus `design/akademie-basis.txt` (Array MODS, Felder de/sq, g = Lernziel, k = Kernpunkte) übernehmen – dort stehen alle Texte inkl. Albanisch.
 Teil-Namen: 1 „Bauteile“ / „Pjesët“, 2 „Anlage & Hydraulik“ / „Sistemi & hidraulika“, 3 „Betrieb & Kontrolle“ / „Funksionimi & kontrolli“ (SQ später vom Muttersprachler geprüft).
 Modul 0 (Einführung) hat KEIN Quiz. Module 1–15 je 5 Fragen. Bestehen: mind. 4 von 5 richtig. Wiederholen unbegrenzt.
