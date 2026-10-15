@@ -1,0 +1,5 @@
+node_modules
+.wrangler
+public/videos/*.mp4
+testvids
+.dev.vars

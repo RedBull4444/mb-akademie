@@ -1,0 +1,57 @@
+[
+  {
+    "q": {"de": "Womit beginnst du beim Anschließen einer Heizungsanlage?", "sq": "Me çfarë fillon kur lidh një sistem ngrohjeje?"},
+    "a": [
+      {"de": "Rohrleitung so verlegen, wie man es gewohnt ist", "sq": "Tubacionet i vendos ashtu siç je mësuar"},
+      {"de": "Das Hydraulikschema prüfen", "sq": "Kontrollon skemën hidraulike"},
+      {"de": "Die Anlage befüllen und entlüften", "sq": "E mbush dhe e ajron sistemin"},
+      {"de": "Die Einstellungen dokumentieren", "sq": "I dokumenton rregullimet"}
+    ],
+    "correct": 1,
+    "why": {"de": "Erst das Schema, dann die Leitung – sonst baust du nach Gewohnheit statt nach Plan.", "sq": "Së pari skema, pastaj tubacioni – përndryshe ndërton sipas zakonit në vend të planit."}
+  },
+  {
+    "q": {"de": "Im Wärmeerzeuger ist ein Bauteil schon eingebaut. Was machst du?", "sq": "Në pajisjen e ngrohjes një pjesë është montuar tashmë. Çfarë bën?"},
+    "a": [
+      {"de": "Das gleiche Bauteil sicherheitshalber noch einmal einbauen", "sq": "Pjesën e njëjtë e montosh edhe një herë për siguri"},
+      {"de": "Das integrierte Bauteil ausbauen und ersetzen", "sq": "E çmonton pjesën e integruar dhe e zëvendëson"},
+      {"de": "Immer ein zweites Bauteil extern ergänzen", "sq": "Gjithmonë shton një pjesë të dytë jashtë"},
+      {"de": "Prüfen, was integriert ist, und nichts doppelt montieren", "sq": "Kontrollon çfarë është e integruar dhe nuk montosh asgjë dy herë"}
+    ],
+    "correct": 3,
+    "why": {"de": "Ein eingebautes Bauteil wird nicht automatisch ein zweites Mal montiert, deshalb prüfst du vorher, was das Gerät schon enthält.", "sq": "Një pjesë e montuar nuk montohet automatikisht edhe një herë, prandaj kontrollon më parë çfarë përmban tashmë pajisja."}
+  },
+  {
+    "q": {"de": "Der Wärmeerzeuger hat ein integriertes MAG. Was gilt?", "sq": "Pajisja e ngrohjes ka një MAG të integruar. Çfarë vlen?"},
+    "a": [
+      {"de": "Die Druckhaltung wird für die ganze Anlage geprüft", "sq": "Mbajtja e presionit kontrollohet për të gjithë sistemin"},
+      {"de": "Das integrierte MAG reicht immer aus", "sq": "MAG-u i integruar mjafton gjithmonë"},
+      {"de": "Ein weiteres MAG ist dann verboten", "sq": "Një MAG tjetër është atëherë i ndaluar"},
+      {"de": "Der Vordruck muss nicht mehr geprüft werden", "sq": "Presioni paraprak nuk kontrollohet më"}
+    ],
+    "correct": 0,
+    "why": {"de": "Das integrierte Gefäß ist nicht automatisch groß genug für das gesamte Anlagenvolumen.", "sq": "Ena e integruar nuk është automatikisht mjaft e madhe për të gjithë vëllimin e sistemit."}
+  },
+  {
+    "q": {"de": "Wonach stellst du den Vordruck des MAG vor dem Füllen ein?", "sq": "Sipas çfarë e rregullon presionin paraprak të MAG-ut para mbushjes?"},
+    "a": [
+      {"de": "Nach einem festen Standardwert für alle Anlagen", "sq": "Sipas një vlere standarde fikse për të gjitha sistemet"},
+      {"de": "Nach dem Wert vom letzten Gebäude", "sq": "Sipas vlerës nga ndërtesa e fundit"},
+      {"de": "Nach der Berechnung bzw. Vorgabe dieser Anlage", "sq": "Sipas llogaritjes ose kërkesës së këtij sistemi"},
+      {"de": "Nach dem Gefühl beim Aufpumpen", "sq": "Sipas ndjesisë gjatë fryrjes"}
+    ],
+    "correct": 2,
+    "why": {"de": "Der Vordruck richtet sich nach der konkreten Anlage und wird nicht mit einem beliebigen Standardwert eingestellt.", "sq": "Presioni paraprak varet nga sistemi konkret dhe nuk caktohet me një vlerë standarde të çfarëdoshme."}
+  },
+  {
+    "q": {"de": "Die Anlage sieht sauber montiert aus. Ist sie damit fertig?", "sq": "Sistemi duket i montuar pastër. A është gati me kaq?"},
+    "a": [
+      {"de": "Nein, sie wird noch kalt und warm auf Funktion geprüft", "sq": "Jo, ende kontrollohet funksioni në të ftohtë dhe në të ngrohtë"},
+      {"de": "Ja, saubere Montage heißt richtige Funktion", "sq": "Po, montimi i pastër do të thotë funksion i saktë"},
+      {"de": "Ja, wenn alle Bauteile vorhanden sind", "sq": "Po, nëse të gjitha pjesët janë aty"},
+      {"de": "Ja, wenn die Pumpe läuft", "sq": "Po, nëse pompa punon"}
+    ],
+    "correct": 0,
+    "why": {"de": "Eine Anlage kann perfekt aussehen und trotzdem hydraulisch oder regelungstechnisch falsch arbeiten.", "sq": "Një sistem mund të duket i përsosur dhe prapë të punojë gabim hidraulikisht ose në rregullim."}
+  }
+]

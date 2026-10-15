@@ -1,0 +1,57 @@
+[
+  {
+    "q": {"de": "Die Anlage ist sauber montiert und gedämmt. Was kommt jetzt?", "sq": "Sistemi është montuar pastër dhe izoluar. Çfarë vjen tani?"},
+    "a": [
+      {"de": "Die Übergabe, denn sie sieht ja fertig aus", "sq": "Dorëzimi, sepse duket gati"},
+      {"de": "Nur ein kurzer Blick, ob alles dicht ist", "sq": "Vetëm një shikim i shkurtër nëse gjithçka është e shtrënguar"},
+      {"de": "Das Protokoll, ohne die Anlage zu starten", "sq": "Protokolli, pa e ndezur sistemin"},
+      {"de": "Die Abschlusskontrolle auf Funktion und Sicherheit", "sq": "Kontrolli përfundimtar i funksionit dhe i sigurisë"}
+    ],
+    "correct": 3,
+    "why": {"de": "Optik ist nicht gleich Funktion, eine perfekt aussehende Anlage kann hydraulisch oder sicherheitstechnisch falsch sein.", "sq": "Pamja nuk është e njëjtë me funksionin, një sistem që duket i përsosur mund të jetë i gabuar hidraulikisht ose në siguri."}
+  },
+  {
+    "q": {"de": "Der Weg zum Sicherheitsventil ist abgesperrt. Was bedeutet das?", "sq": "Rruga drejt valvulës së sigurisë është e mbyllur. Çfarë do të thotë kjo?"},
+    "a": [
+      {"de": "Der Schutz ist unwirksam, das ist ein Montagefehler", "sq": "Mbrojtja nuk vepron, ky është gabim montimi"},
+      {"de": "Das ist nur bei sehr kleinen Anlagen kritisch", "sq": "Kjo është kritike vetëm te sistemet shumë të vogla"},
+      {"de": "Das ist normal, das Ventil sitzt ja am Gerät", "sq": "Kjo është normale, valvula është te pajisja"},
+      {"de": "Das ist erlaubt, solange ein MAG eingebaut ist", "sq": "Kjo lejohet për sa kohë ka një MAG të montuar"}
+    ],
+    "correct": 0,
+    "why": {"de": "Eine geschlossene Absperrung zwischen dem geschützten System und dem Sicherheitsventil macht den Schutz unwirksam.", "sq": "Një valvul mbyllëse e mbyllur ndërmjet sistemit të mbrojtur dhe valvulës së sigurisë e bën mbrojtjen të pavlefshme."}
+  },
+  {
+    "q": {"de": "Eine Pumpe ist sauber montiert, aber gegen die Fließrichtung. Was gilt?", "sq": "Një pompë është montuar pastër, por kundër drejtimit të rrjedhjes. Çfarë vlen?"},
+    "a": [
+      {"de": "Sie fördert nur etwas weniger Wasser", "sq": "Transporton vetëm pak më pak ujë"},
+      {"de": "Sie dreht sich von selbst richtig herum", "sq": "Kthehet vetë në drejtimin e duhur"},
+      {"de": "Sie arbeitet nicht richtig, der Pfeil muss passen", "sq": "Nuk punon saktë, shigjeta duhet të përputhet"},
+      {"de": "Das ist egal, wenn sie auf Maximum steht", "sq": "Është njëlloj nëse është në maksimum"}
+    ],
+    "correct": 2,
+    "why": {"de": "Bei Pumpen und richtungsabhängigen Armaturen wird der Pfeil geprüft, saubere Montage ersetzt das nicht.", "sq": "Te pompat dhe armaturat që varen nga drejtimi kontrollohet shigjeta, montimi i pastër nuk e zëvendëson këtë."}
+  },
+  {
+    "q": {"de": "Der Vorlauffühler zeigt plausible Werte. Ist der Fühlerplatz damit richtig?", "sq": "Sensori i furnizimit tregon vlera të besueshme. A është vendi i tij i saktë?"},
+    "a": [
+      {"de": "Ja, plausible Werte beweisen die richtige Position", "sq": "Po, vlerat e besueshme provojnë pozicionin e saktë"},
+      {"de": "Ja, ein Fühler kann nie falsch sitzen", "sq": "Po, një sensor nuk mund të ulet kurrë gabim"},
+      {"de": "Ja, wenn der Fühler gut befestigt ist", "sq": "Po, nëse sensori është i fiksuar mirë"},
+      {"de": "Nein, Position und Anzeige müssen zum Betrieb passen", "sq": "Jo, pozicioni dhe vlera duhet të përputhen me funksionimin"}
+    ],
+    "correct": 3,
+    "why": {"de": "Ein Fühler am falschen Ort liefert plausible, aber falsche Werte, darum wird seine Position geprüft.", "sq": "Një sensor në vendin e gabuar jep vlera të besueshme, por të gabuara, prandaj kontrollohet pozicioni i tij."}
+  },
+  {
+    "q": {"de": "Was gehört zur Übergabe der fertigen Anlage?", "sq": "Çfarë i përket dorëzimit të sistemit të përfunduar?"},
+    "a": [
+      {"de": "Ein mündlicher Hinweis an den Kunden", "sq": "Një njoftim me gojë për klientin"},
+      {"de": "Kennzeichnungen und ein Protokoll mit Soll- und Istwerten", "sq": "Shënime dhe një protokoll me vlerat e kërkuara dhe reale"},
+      {"de": "Eine Liste der Bauteile ohne Messwerte", "sq": "Një listë e pjesëve pa vlera matjeje"},
+      {"de": "Nur ein Foto der fertigen Anlage", "sq": "Vetëm një foto e sistemit të përfunduar"}
+    ],
+    "correct": 1,
+    "why": {"de": "Was nicht dokumentiert ist, ist später kaum nachvollziehbar, auch der nächste Monteur braucht klare Kennzeichnungen.", "sq": "Ajo që nuk dokumentohet vështirë kuptohet më vonë, edhe montuesi i radhës ka nevojë për shënime të qarta."}
+  }
+]

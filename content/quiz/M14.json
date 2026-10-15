@@ -1,0 +1,57 @@
+[
+  {
+    "q": {"de": "Das Heizungswasser ist dunkel. Was sagt das aus?", "sq": "Uji i ngrohjes është i errët. Çfarë tregon kjo?"},
+    "a": [
+      {"de": "Ein Hinweis auf Korrosion, aber noch keine Diagnose", "sq": "Një shenjë për korrozion, por ende jo diagnozë"},
+      {"de": "Es ist sicher Magnetit und sonst nichts", "sq": "Është sigurisht magnetit dhe asgjë tjetër"},
+      {"de": "Es ist Kalk, das Wasser ist zu hart", "sq": "Është gëlqere, uji është shumë i fortë"},
+      {"de": "Das ist normal, die Anlage ist in Ordnung", "sq": "Është normale, sistemi është në rregull"}
+    ],
+    "correct": 0,
+    "why": {"de": "Die Farbe verrät nicht, welche Stoffe drin sind und woher sie kommen, deshalb braucht es weitere Prüfung.", "sq": "Ngjyra nuk tregon se cilat substanca ka brenda dhe nga vijnë, prandaj nevojitet kontroll i mëtejshëm."}
+  },
+  {
+    "q": {"de": "Was holt der Magnetabscheider aus dem Heizungswasser?", "sq": "Çfarë nxjerr ndarësi magnetik nga uji i ngrohjes?"},
+    "a": [
+      {"de": "Alle Partikel und alle gelösten Stoffe", "sq": "Të gjitha grimcat dhe të gjitha substancat e tretura"},
+      {"de": "Nur Kalk und andere Härtebildner", "sq": "Vetëm gëlqere dhe formues të tjerë të fortësisë"},
+      {"de": "Gelöste Salze und Ionen", "sq": "Kripëra dhe jone të tretura"},
+      {"de": "Magnetische Partikel wie Magnetit", "sq": "Grimca magnetike si magnetiti"}
+    ],
+    "correct": 3,
+    "why": {"de": "Der Magnet hält nur magnetische Teilchen zurück, er ist keine komplette Wasseraufbereitung.", "sq": "Magneti mban vetëm grimcat magnetike, nuk është trajtim i plotë i ujit."}
+  },
+  {
+    "q": {"de": "Du hast den Abscheider gereinigt. Warum reicht das nicht?", "sq": "E ke pastruar ndarësin. Pse nuk mjafton kjo?"},
+    "a": [
+      {"de": "Der Magnet verliert danach seine Wirkung", "sq": "Magneti e humb efektin pas kësaj"},
+      {"de": "Die Ursache der Korrosion kann weiter bestehen", "sq": "Shkaku i korrozionit mund të vazhdojë të ekzistojë"},
+      {"de": "Danach muss man immer entsalzen", "sq": "Pas kësaj duhet gjithmonë çkripëzim"},
+      {"de": "Ein gereinigter Abscheider filtert nicht mehr", "sq": "Një ndarës i pastruar nuk filtron më"}
+    ],
+    "correct": 1,
+    "why": {"de": "Bestehen Korrosion oder Sauerstoffeintrag weiter, entstehen neue Ablagerungen.", "sq": "Nëse korrozioni ose hyrja e oksigjenit vazhdon, krijohen depozitime të reja."}
+  },
+  {
+    "q": {"de": "Was ist der Unterschied zwischen Enthärten und Entsalzen?", "sq": "Cili është dallimi ndërmjet zbutjes dhe çkripëzimit?"},
+    "a": [
+      {"de": "Beides ist dasselbe, nur ein anderes Wort", "sq": "Të dyja janë e njëjta gjë, vetëm një fjalë tjetër"},
+      {"de": "Enthärten entfernt alle Ionen, Entsalzen nur Kalk", "sq": "Zbutja heq të gjitha jonet, çkripëzimi vetëm gëlqeren"},
+      {"de": "Enthärten tauscht Härtebildner, Entsalzen entfernt Ionen", "sq": "Zbutja këmbën formuesit e fortësisë, çkripëzimi heq jonet"},
+      {"de": "Enthärten ändert den pH-Wert, Entsalzen die Farbe", "sq": "Zbutja ndryshon pH-në, çkripëzimi ngjyrën"}
+    ],
+    "correct": 2,
+    "why": {"de": "Es sind zwei verschiedene Verfahren, welches nötig ist, entscheidet die Anlage.", "sq": "Janë dy procese të ndryshme, cili nevojitet e vendos sistemi."}
+  },
+  {
+    "q": {"de": "Die Anlage muss ständig nachgefüllt werden. Was ist richtig?", "sq": "Sistemi duhet rimbushur vazhdimisht. Çfarë është e saktë?"},
+    "a": [
+      {"de": "Füllmengen dokumentieren und die Ursache suchen", "sq": "Dokumentohen sasitë e mbushjes dhe kërkohet shkaku"},
+      {"de": "Einfach weiter nachfüllen, das Wasser ist ja gut", "sq": "Vazhdohet thjesht me rimbushje, uji është i mirë"},
+      {"de": "Ein Additiv aus der Werbung einfüllen", "sq": "Hidhet një aditiv nga reklama"},
+      {"de": "Nur den pH-Wert messen und fertig", "sq": "Matet vetëm pH-ja dhe mbaron"}
+    ],
+    "correct": 0,
+    "why": {"de": "Häufiges Nachfüllen ist ein Grund, Druckhaltung, Undichtigkeiten und Lufteintrag genauer zu prüfen.", "sq": "Rimbushja e shpeshtë është arsye për të kontrolluar më nga afër mbajtjen e presionit, rrjedhjet dhe hyrjen e ajrit."}
+  }
+]

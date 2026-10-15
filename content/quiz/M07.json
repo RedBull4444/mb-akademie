@@ -1,0 +1,57 @@
+[
+  {
+    "q": {"de": "Welche Luft holt der automatische Entlüfter aus der Anlage?", "sq": "Cilin ajër e nxjerr ajruesi automatik nga sistemi?"},
+    "a": [
+      {"de": "Freie Luft, die sich an seinem Einbauort sammelt", "sq": "Ajrin e lirë që grumbullohet në vendin ku është montuar"},
+      {"de": "Alle Mikroblasen im ganzen System", "sq": "Të gjitha mikroflluskat në të gjithë sistemin"},
+      {"de": "Gelöste Gase, bevor sie Blasen bilden", "sq": "Gazet e tretura, para se të formojnë flluska"},
+      {"de": "Nur Luft aus dem Rücklauf", "sq": "Vetëm ajrin nga kthimi"}
+    ],
+    "correct": 0,
+    "why": {"de": "Der Entlüfter führt die freie Luft ab, die ihn erreicht. Mitströmende Mikroblasen holt er nicht automatisch heraus.", "sq": "Ajruesi nxjerr ajrin e lirë që arrin tek ai. Mikroflluskat që rrjedhin me ujin nuk i heq automatikisht."}
+  },
+  {
+    "q": {"de": "Wozu braucht man einen Mikroblasenabscheider?", "sq": "Pse duhet një ndarës i mikroflluskave?"},
+    "a": [
+      {"de": "Er macht das Heizungswasser weicher", "sq": "E bën ujin e ngrohjes më të butë"},
+      {"de": "Er hält den Anlagendruck konstant", "sq": "E mban presionin e sistemit konstant"},
+      {"de": "Er holt kleine mitströmende Blasen aus dem Wasser", "sq": "I nxjerr nga uji flluskat e vogla që rrjedhin me të"},
+      {"de": "Er schützt vor unzulässigem Überdruck", "sq": "Mbron nga mbipresioni i palejuar"}
+    ],
+    "correct": 2,
+    "why": {"de": "Er trennt kleinste Blasen aus der Strömung ab, sie steigen zum Entlüfter und werden dort abgeführt.", "sq": "Ai i ndan flluskat më të vogla nga rrjedha, ato ngjiten te ajruesi dhe shkarkohen aty."}
+  },
+  {
+    "q": {"de": "Wo wird ein Mikroblasenabscheider häufig eingebaut?", "sq": "Ku montohet shpesh një ndarës i mikroflluskave?"},
+    "a": [
+      {"de": "Im kalten Rücklauf vor der Pumpe", "sq": "Në kthimin e ftohtë para pompës"},
+      {"de": "Im warmen Vorlauf hinter dem Wärmeerzeuger", "sq": "Në furnizimin e ngrohtë pas pajisjes së ngrohjes"},
+      {"de": "Direkt am Warmwasserspeicher", "sq": "Drejtpërdrejt te depozita e ujit të ngrohtë"},
+      {"de": "Am tiefsten Punkt der Anlage", "sq": "Në pikën më të ulët të sistemit"}
+    ],
+    "correct": 1,
+    "why": {"de": "Im warmen Vorlauf sind die Bedingungen für die Abscheidung günstig. Der genaue Ort richtet sich aber nach der Hydraulik und den Herstellerangaben.", "sq": "Në furnizimin e ngrohtë kushtet për ndarje janë të favorshme. Vendi i saktë varet nga hidraulika dhe udhëzimet e prodhuesit."}
+  },
+  {
+    "q": {"de": "Es kommt ständig neue Luft in die Anlage. Was ist richtig?", "sq": "Në sistem hyn vazhdimisht ajër i ri. Çfarë është e saktë?"},
+    "a": [
+      {"de": "Einfach immer wieder entlüften", "sq": "Thjesht të ajroset sa herë që duhet"},
+      {"de": "Noch mehr Entlüfter einbauen", "sq": "Të montohen edhe më shumë ajrues"},
+      {"de": "Den Luftauslass dauerhaft verschließen", "sq": "Të mbyllet përgjithmonë dalja e ajrit"},
+      {"de": "Die Ursache suchen, zum Beispiel Druckhaltung oder Undichtigkeit", "sq": "Të kërkohet shkaku, p.sh. mbajtja e presionit ose një rrjedhje"}
+    ],
+    "correct": 3,
+    "why": {"de": "Dauerndes Entlüften ist keine Lösung. Es muss geklärt werden, warum Luft oder Gas immer wieder in das System gelangt.", "sq": "Ajrosja e vazhdueshme nuk është zgjidhje. Duhet sqaruar pse ajri ose gazi hyn vazhdimisht në sistem."}
+  },
+  {
+    "q": {"de": "Warum muss ein Luftabscheider in der richtigen Einbaulage sitzen?", "sq": "Pse duhet që një ndarës ajri të montohet në pozicionin e duhur?"},
+    "a": [
+      {"de": "Damit er ordentlicher aussieht", "sq": "Që të duket më i rregullt"},
+      {"de": "Damit das Wasser schneller fließt", "sq": "Që uji të rrjedhë më shpejt"},
+      {"de": "Damit die Luft nach oben zum Entlüfter gelangt", "sq": "Që ajri të ngjitet lart te ajruesi"},
+      {"de": "Damit die Kappe immer geschlossen bleibt", "sq": "Që kapaku të mbetet gjithmonë i mbyllur"}
+    ],
+    "correct": 2,
+    "why": {"de": "Nur in der vorgeschriebenen Einbaulage steigt die Luft zum Entlüfter auf und kann dort aus dem System entweichen.", "sq": "Vetëm në pozicionin e përcaktuar ajri ngjitet te ajruesi dhe mund të dalë nga sistemi."}
+  }
+]

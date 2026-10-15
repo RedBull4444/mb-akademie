@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="robots" content="noindex,nofollow">
+<meta name="theme-color" content="#ffffff">
+<title>Zertifikat prüfen · M&amp;B Akademie</title>
+<link rel="icon" href="/assets/logo.png" type="image/png">
+<link rel="stylesheet" href="/assets/chef.css">
+</head>
+<body>
+<main class="pub">
+  <div class="brand"><img src="/assets/logo.webp" alt="M&amp;B Gebäudetechnik" width="96" height="36"><span>M&amp;B Akademie</span></div>
+  <p class="eyebrow">Echtheit prüfen</p>
+  <h1 class="title">Zertifikat prüfen</h1>
+  <p class="lead">Gib den Prüfcode vom Zertifikat ein. Du findest ihn oben rechts unter „Zertifikat-Nr.“ oder im QR-Code.</p>
+  <form id="f" novalidate>
+    <label class="field" style="margin-top:0"><span>Prüfcode</span>
+      <input id="code" class="codein" name="code" placeholder="MB-T1-7K4Q" autocomplete="off" autocapitalize="characters" autocorrect="off" spellcheck="false" inputmode="text" maxlength="20"></label>
+    <button class="btn btn-primary" id="go" type="submit">Prüfen</button>
+  </form>
+  <div id="out" aria-live="polite"></div>
+  <p class="pubfoot">M&amp;B Gebäudetechnik · Interne Fachschulung · <a href="/datenschutz/">Datenschutz</a></p>
+</main>
+<script src="/assets/pruefen.js"></script>
+</body>
+</html>

@@ -1,0 +1,57 @@
+[
+  {
+    "q": {"de": "Wie ordnest du die Anschlüsse am Speicher richtig zu?", "sq": "Si i lidh saktë lidhjet në depozitë?"},
+    "a": [
+      {"de": "Nach der Position der Rohre am Speicher", "sq": "Sipas pozicionit të tubave në depozitë"},
+      {"de": "Nach der Größe des Anschlusses", "sq": "Sipas madhësisë së lidhjes"},
+      {"de": "Nach Kennzeichnung und Hydraulikschema", "sq": "Sipas shënimeve dhe skemës hidraulike"},
+      {"de": "Nach dem Gefühl des Monteurs", "sq": "Sipas ndjesisë së montuesit"}
+    ],
+    "correct": 2,
+    "why": {"de": "Anschlüsse werden nicht nach Lage oder Größe geraten, jeder gehört einem System: Trinkwasser, Heizung, Zirkulation oder Regelung.", "sq": "Lidhjet nuk hamendësohen sipas pozicionit ose madhësisë, secila i përket një sistemi: ujit të pijshëm, ngrohjes, qarkullimit ose rregullimit."}
+  },
+  {
+    "q": {"de": "Was gilt für den Weg zwischen Speicher und Sicherheitsventil?", "sq": "Çfarë vlen për rrugën ndërmjet depozitës dhe valvulës së sigurisë?"},
+    "a": [
+      {"de": "Er muss im Betrieb immer frei bleiben", "sq": "Duhet të mbetet gjithmonë i lirë gjatë punës"},
+      {"de": "Er darf mit einem Kugelhahn abgesperrt werden", "sq": "Mund të mbyllet me një valvul sferike"},
+      {"de": "Er darf bei Wartung dauerhaft zubleiben", "sq": "Mund të mbetet përgjithmonë i mbyllur pas mirëmbajtjes"},
+      {"de": "Er ist nur bei kleinen Speichern wichtig", "sq": "Është i rëndësishëm vetëm te depozitat e vogla"}
+    ],
+    "correct": 0,
+    "why": {"de": "Nur ein freier Sicherheitsweg lässt das Sicherheitsventil bei Überdruck wirklich schützen.", "sq": "Vetëm një rrugë e lirë sigurie e lejon valvulën e sigurisë ta mbrojë vërtet depozitën nga mbipresioni."}
+  },
+  {
+    "q": {"de": "Warum ist der Laderücklauf nicht die Zirkulation?", "sq": "Pse kthimi i ngarkimit nuk është qarkullimi?"},
+    "a": [
+      {"de": "Beide führen Trinkwasser, nur anders warm", "sq": "Të dyja bartin ujë të pijshëm, vetëm me temperaturë tjetër"},
+      {"de": "Die Zirkulation ist nur ein anderer Name dafür", "sq": "Qarkullimi është vetëm një emër tjetër për të"},
+      {"de": "Der Laderücklauf ist die Kaltwasserleitung", "sq": "Kthimi i ngarkimit është tubi i ujit të ftohtë"},
+      {"de": "Es sind zwei getrennte Wassersysteme", "sq": "Janë dy sisteme uji krejtësisht të ndara"}
+    ],
+    "correct": 3,
+    "why": {"de": "Der Laderücklauf gehört zum Heizungswasser, die Zirkulation hat ihren eigenen Trinkwasser-Rückweg.", "sq": "Kthimi i ngarkimit i përket ujit të ngrohjes, qarkullimi ka rrugën e vet të kthimit për ujin e pijshëm."}
+  },
+  {
+    "q": {"de": "Warum wählst du den Fühlerplatz nicht nach Gefühl?", "sq": "Pse nuk e zgjedh vendin e sensorit sipas ndjesisë?"},
+    "a": [
+      {"de": "Er braucht dort weniger Platz im Speicher", "sq": "Aty ka nevojë për më pak vend në depozitë"},
+      {"de": "Am falschen Ort meldet er eine falsche Temperatur", "sq": "Në vendin e gabuar tregon temperaturë të gabuar"},
+      {"de": "Der Speicher lädt dann leiser", "sq": "Depozita atëherë ngarkohet më qetë"},
+      {"de": "Das Wasser im Speicher bleibt kälter", "sq": "Uji në depozitë mbetet më i ftohtë"}
+    ],
+    "correct": 1,
+    "why": {"de": "Ein falsch gesetzter Fühler meldet falsche Werte, und dann reagiert auch die Speicherladung falsch.", "sq": "Një sensor i vendosur gabim jep vlera të gabuara dhe atëherë edhe ngarkimi i depozitës reagon gabim."}
+  },
+  {
+    "q": {"de": "Wann beginnt der Heizbetrieb am neuen Speicher?", "sq": "Kur fillon ngrohja e depozitës së re?"},
+    "a": [
+      {"de": "Sofort nach dem Anschließen der Rohre", "sq": "Menjëherë pas lidhjes së tubave"},
+      {"de": "Schon beim Befüllen, um Zeit zu sparen", "sq": "Që gjatë mbushjes, për të kursyer kohë"},
+      {"de": "Erst nach Füllen, Entlüften und Prüfen", "sq": "Vetëm pas mbushjes, ajrimit dhe kontrollit"},
+      {"de": "Nach dem ersten Einschalten des Reglers", "sq": "Pas ndezjes së parë të rregullatorit"}
+    ],
+    "correct": 2,
+    "why": {"de": "Erst wenn gefüllt, entlüftet und auf Dichtheit, Sicherheitsweg und Funktion geprüft ist, darf geheizt werden.", "sq": "Ngrohet vetëm pasi është mbushur, ajrosur dhe kontrolluar për rrjedhje, rrugën e sigurisë dhe funksionin."}
+  }
+]

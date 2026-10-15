@@ -1,0 +1,57 @@
+[
+  {
+    "q": {"de": "Was macht der Mischer im Mischerkreis?", "sq": "Çfarë bën përzierësi në qarkun me përzierës?"},
+    "a": [
+      {"de": "Er sorgt für den Umlauf im Heizkreis", "sq": "Kujdeset për qarkullimin në qarkun e ngrohjes"},
+      {"de": "Er misst die Temperatur im Vorlauf", "sq": "Mat temperaturën në furnizim"},
+      {"de": "Er schützt die Anlage vor Überdruck", "sq": "E mbron sistemin nga mbipresioni"},
+      {"de": "Er mischt heißes Erzeugerwasser mit kühlerem Rücklaufwasser", "sq": "Përzien ujin e nxehtë nga prodhuesi me ujin më të ftohtë të kthimit"}
+    ],
+    "correct": 3,
+    "why": {"de": "Der Mischer bestimmt das Mischungsverhältnis und damit die Vorlauftemperatur des Heizkreises.", "sq": "Përzierësi përcakton raportin e përzierjes dhe me të temperaturën e furnizimit të qarkut të ngrohjes."}
+  },
+  {
+    "q": {"de": "Wo sitzt der Vorlauffühler im Mischerkreis?", "sq": "Ku vendoset sensori i furnizimit në qarkun me përzierës?"},
+    "a": [
+      {"de": "Vor dem Mischpunkt im heißen Erzeugerwasser", "sq": "Para pikës së përzierjes, në ujin e nxehtë"},
+      {"de": "Hinter dem Mischpunkt im gemischten Vorlauf", "sq": "Pas pikës së përzierjes, në furnizimin e përzier"},
+      {"de": "Im Rücklauf des Wärmeerzeugers", "sq": "Në kthimin e pajisjes së ngrohjes"},
+      {"de": "Direkt am Stellmotor", "sq": "Drejtpërdrejt te motori aktivizues"}
+    ],
+    "correct": 1,
+    "why": {"de": "Nur hinter dem Mischpunkt misst der Fühler die Temperatur, die wirklich zum Heizkreis geht.", "sq": "Vetëm pas pikës së përzierjes sensori mat temperaturën që shkon vërtet te qarku i ngrohjes."}
+  },
+  {
+    "q": {"de": "Wie findest du die Stellrichtung für „wärmer“ beim Mischer?", "sq": "Si e gjen drejtimin e lëvizjes për „më e ngrohtë“ te përzierësi?"},
+    "a": [
+      {"de": "Aus Anschlussbelegung und Schema des Herstellers", "sq": "Nga lidhjet dhe skema e prodhuesit"},
+      {"de": "Rechts herum ist immer wärmer", "sq": "Nga e djathta është gjithmonë më e ngrohtë"},
+      {"de": "Man schaut, wo die Rohre liegen", "sq": "Shikon ku ndodhen tubat"},
+      {"de": "Man dreht nach Gefühl links oder rechts", "sq": "Kthen majtas ose djathtas sipas ndjesisë"}
+    ],
+    "correct": 0,
+    "why": {"de": "Welche Drehrichtung wärmer bedeutet, hängt vom konkreten Ventil und Stellmotor ab und wird nicht geraten.", "sq": "Cili drejtim do të thotë më e ngrohtë varet nga valvula dhe motori konkret dhe nuk hamendësohet."}
+  },
+  {
+    "q": {"de": "Pumpe und Mischer im Mischerkreis: Wer macht was?", "sq": "Pompa dhe përzierësi në qarkun me përzierës: kush çfarë bën?"},
+    "a": [
+      {"de": "Pumpe bestimmt die Temperatur, Mischer den Umlauf", "sq": "Pompa përcakton temperaturën, përzierësi qarkullimin"},
+      {"de": "Beide machen dasselbe, eine ist nur Reserve", "sq": "Të dyja bëjnë të njëjtën gjë, njëra është rezervë"},
+      {"de": "Pumpe sorgt für Umlauf, Mischer für die Temperatur", "sq": "Pompa kujdeset për qarkullimin, përzierësi për temperaturën"},
+      {"de": "Der Mischer ersetzt die Heizkreispumpe", "sq": "Përzierësi e zëvendëson pompën e qarkut të ngrohjes"}
+    ],
+    "correct": 2,
+    "why": {"de": "Die Pumpe sorgt für Volumenstrom und Umlauf, der Mischer für das Mischungsverhältnis.", "sq": "Pompa kujdeset për prurjen dhe qarkullimin, përzierësi për raportin e përzierjes."}
+  },
+  {
+    "q": {"de": "Die Wärmepumpe liefert schon die passende niedrige Vorlauftemperatur. Mischer nötig?", "sq": "Pompa e nxehtësisë jep tashmë temperaturën e ulët të duhur. A nevojitet përzierës?"},
+    "a": [
+      {"de": "Ja, jede Fußbodenheizung braucht einen Mischer", "sq": "Po, çdo ngrohje dyshemeje ka nevojë për përzierës"},
+      {"de": "Nein, ein zusätzlicher Mischerkreis ist dann unnötig", "sq": "Jo, një qark shtesë me përzierës është atëherë i panevojshëm"},
+      {"de": "Ja, sonst wird das Wasser zu heiß", "sq": "Po, përndryshe uji bëhet shumë i nxehtë"},
+      {"de": "Ja, ein Mischer schützt die Wärmepumpe immer", "sq": "Po, përzierësi e mbron gjithmonë pompën e nxehtësisë"}
+    ],
+    "correct": 1,
+    "why": {"de": "Ein Mischer kommt nur dorthin, wo das Hydraulikkonzept ihn braucht, nicht automatisch an jede Fußbodenheizung.", "sq": "Përzierësi vendoset vetëm aty ku e kërkon koncepti hidraulik, jo automatikisht te çdo ngrohje dyshemeje."}
+  }
+]

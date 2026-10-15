@@ -1,0 +1,57 @@
+[
+  {
+    "q": {"de": "Was erzeugt die Umwälzpumpe in der geschlossenen Heizungsanlage?", "sq": "Çfarë krijon pompa qarkulluese në sistemin e mbyllur të ngrohjes?"},
+    "a": [
+      {"de": "Den statischen Anlagendruck", "sq": "Presionin statik të sistemit"},
+      {"de": "Einen Differenzdruck, der das Wasser durch das Netz treibt", "sq": "Një diferencë presioni që e shtyn ujin nëpër rrjet"},
+      {"de": "Den Druck, der das Wasser ins oberste Stockwerk hebt", "sq": "Presionin që e ngre ujin në katin e fundit"},
+      {"de": "Den Vordruck für das MAG", "sq": "Presionin paraprak për MAG-un"}
+    ],
+    "correct": 1,
+    "why": {"de": "Das Wasser ist schon im Rohrnetz, die Pumpe treibt es nur gegen die Widerstände, den Anlagendruck hält die Druckhaltung.", "sq": "Uji është tashmë në rrjetin e tubave, pompa e shtyn vetëm kundër rezistencave, presionin e sistemit e mban mbajtja e presionit."}
+  },
+  {
+    "q": {"de": "Wonach wählst du eine Heizungspumpe aus?", "sq": "Sipas çfarë e zgjedh një pompë ngrohjeje?"},
+    "a": [
+      {"de": "Nach der Höhe des Gebäudes", "sq": "Sipas lartësisë së ndërtesës"},
+      {"de": "Immer die stärkste Pumpe auf Maximum", "sq": "Gjithmonë pompën më të fortë në maksimum"},
+      {"de": "Nach der Größe des Wärmeerzeugers", "sq": "Sipas madhësisë së pajisjes së ngrohjes"},
+      {"de": "Nach Volumenstrom und Widerstand im Rohrnetz", "sq": "Sipas prurjes dhe rezistencës në rrjetin e tubave"}
+    ],
+    "correct": 3,
+    "why": {"de": "Die Pumpe muss zum benötigten Volumenstrom und zu den Widerständen passen, Maximum ist keine Auslegung.", "sq": "Pompa duhet t'i përshtatet prurjes së nevojshme dhe rezistencave, maksimumi nuk është projektim."}
+  },
+  {
+    "q": {"de": "Die Pumpe hält den Differenzdruck konstant. Bleibt der Volumenstrom gleich?", "sq": "Pompa e mban diferencën e presionit konstante. A mbetet prurja e njëjtë?"},
+    "a": [
+      {"de": "Nein, er kann sich bei geänderten Widerständen ändern", "sq": "Jo, mund të ndryshojë kur ndryshojnë rezistencat"},
+      {"de": "Ja, er bleibt dabei immer gleich", "sq": "Po, mbetet gjithmonë e njëjtë"},
+      {"de": "Ja, solange die Pumpe läuft", "sq": "Po, për sa kohë pompa punon"},
+      {"de": "Nur, wenn die Pumpe auf Maximum steht", "sq": "Vetëm nëse pompa është në maksimum"}
+    ],
+    "correct": 0,
+    "why": {"de": "Konstanter Differenzdruck ist nicht konstanter Volumenstrom, wenn sich Ventilstellung und Widerstände ändern.", "sq": "Diferenca konstante e presionit nuk është prurje konstante kur ndryshojnë pozicioni i valvulave dhe rezistencat."}
+  },
+  {
+    "q": {"de": "Was gilt für ein Rückschlagventil in der Heizung?", "sq": "Çfarë vlen për një valvul kundërkthimi në ngrohje?"},
+    "a": [
+      {"de": "Es ersetzt den Schutz des Trinkwassers beim Füllen", "sq": "Zëvendëson mbrojtjen e ujit të pijshëm gjatë mbushjes"},
+      {"de": "Es darf auch vor dem MAG die Leitung sperren", "sq": "Mund ta bllokojë tubin edhe para MAG-ut"},
+      {"de": "Richtig herum einbauen, keine Schutzwege blockieren", "sq": "Montohet në drejtimin e duhur, nuk bllokon rrugët e mbrojtjes"},
+      {"de": "Es erzeugt keinen zusätzlichen Widerstand", "sq": "Nuk krijon rezistencë shtesë"}
+    ],
+    "correct": 2,
+    "why": {"de": "Ein Rückschlagventil hat Öffnungsdruck und Widerstand und darf nie den Weg zu Sicherheitsventil oder MAG sperren.", "sq": "Një valvul kundërkthimi ka presion hapjeje dhe rezistencë dhe nuk lejohet kurrë ta bllokojë rrugën drejt valvulës së sigurisë ose MAG-ut."}
+  },
+  {
+    "q": {"de": "Du hast die Schwerkraftbremse für den Service geöffnet. Was danach?", "sq": "E ke hapur frenën e gravitetit për servis. Çfarë bën pas kësaj?"},
+    "a": [
+      {"de": "Offen lassen, so fließt das Wasser besser", "sq": "E lë të hapur, kështu uji rrjedh më mirë"},
+      {"de": "Ausbauen, sie wird nicht mehr gebraucht", "sq": "E çmonton, nuk nevojitet më"},
+      {"de": "Nichts, sie schließt immer von selbst", "sq": "Asgjë, mbyllet gjithmonë vetë"},
+      {"de": "Zurück in die Betriebsstellung bringen", "sq": "E kthen në pozicionin e punës"}
+    ],
+    "correct": 3,
+    "why": {"de": "Bleibt die Bremse offen, ist der unerwünschte natürliche Umlauf nicht mehr begrenzt.", "sq": "Nëse frena mbetet e hapur, qarkullimi natyral i padëshiruar nuk kufizohet më."}
+  }
+]

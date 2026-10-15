@@ -1,0 +1,57 @@
+[
+  {
+    "q": {"de": "Wo sitzt die Sicherheitsgruppe am Warmwasserspeicher?", "sq": "Ku vendoset grupi i sigurisë te depozita e ujit të ngrohtë?"},
+    "a": [
+      {"de": "In der Heizungsleitung zum Speicher", "sq": "Në tubin e ngrohjes drejt depozitës"},
+      {"de": "In der Kaltwasserzuleitung zum Speicher", "sq": "Në tubin e hyrjes së ujit të ftohtë drejt depozitës"},
+      {"de": "In der Warmwasserleitung nach dem Speicher", "sq": "Në tubin e ujit të ngrohtë pas depozitës"},
+      {"de": "In der Zirkulationsleitung", "sq": "Në tubin e qarkullimit"}
+    ],
+    "correct": 1,
+    "why": {"de": "Die Sicherheitsgruppe wird in der Kaltwasserzuleitung eingebunden, bevor das Wasser in den Speicher gelangt.", "sq": "Grupi i sigurisë lidhet në tubin e hyrjes së ujit të ftohtë, para se uji të hyjë në depozitë."}
+  },
+  {
+    "q": {"de": "Was passiert beim Aufheizen im Speicher, wenn kein Trinkwasser-MAG da ist?", "sq": "Çfarë ndodh në depozitë gjatë ngrohjes, nëse nuk ka enë zgjerimi?"},
+    "a": [
+      {"de": "Das Wasser zieht sich zusammen", "sq": "Uji tkurret"},
+      {"de": "Der Druck sinkt langsam ab", "sq": "Presioni bie ngadalë"},
+      {"de": "Der Rückflussverhinderer öffnet sich", "sq": "Valvula e kundërkthimit hapet"},
+      {"de": "Der Druck steigt, das Sicherheitsventil kann Wasser abgeben", "sq": "Presioni ngrihet, valvula e sigurisë mund të lëshojë ujë"}
+    ],
+    "correct": 3,
+    "why": {"de": "Das erwärmte Wasser kann nicht zurückfließen, der Druck steigt und das Sicherheitsventil führt Ausdehnungswasser ab.", "sq": "Uji i ngrohur nuk mund të kthehet, presioni ngrihet dhe valvula e sigurisë e shkarkon ujin e zgjeruar."}
+  },
+  {
+    "q": {"de": "Was macht der Druckminderer in der Sicherheitsgruppe?", "sq": "Çfarë bën reduktuesi i presionit në grupin e sigurisë?"},
+    "a": [
+      {"de": "Er senkt den Versorgungsdruck auf den vorgesehenen Wert", "sq": "E ul presionin e furnizimit në vlerën e paraparë"},
+      {"de": "Er lässt bei Überdruck Wasser ab", "sq": "Lëshon ujë kur ka mbipresion"},
+      {"de": "Er verhindert das Zurückströmen ins Kaltwassernetz", "sq": "Pengon rrjedhjen mbrapsht në rrjetin e ujit të ftohtë"},
+      {"de": "Er macht den Austritt am Ablauf sichtbar", "sq": "E bën të dukshëm daljen e ujit te shkarkimi"}
+    ],
+    "correct": 0,
+    "why": {"de": "Der Druckminderer reduziert den normalen Versorgungsdruck, vor Überdruck schützt das Sicherheitsventil.", "sq": "Reduktuesi e ul presionin normal të furnizimit, nga mbipresioni mbron valvula e sigurisë."}
+  },
+  {
+    "q": {"de": "Wie muss die Abblaseleitung des Sicherheitsventils enden?", "sq": "Si duhet të përfundojë tubi i shkarkimit të valvulës së sigurisë?"},
+    "a": [
+      {"de": "Verschlossen, damit nichts tropft", "sq": "I mbyllur, që të mos pikojë asgjë"},
+      {"de": "Unter Wasser, damit es nicht spritzt", "sq": "Nën ujë, që të mos spërkasë"},
+      {"de": "Sichtbar über einem Ablauf mit freiem Auslauf", "sq": "I dukshëm mbi një kullues me dalje të lirë"},
+      {"de": "Dicht am Abwasserrohr, ohne Trichter", "sq": "I lidhur ngushtë me tubin e ujërave, pa gyp"}
+    ],
+    "correct": 2,
+    "why": {"de": "Der Austritt muss sichtbar bleiben und frei ablaufen, der Ablauf darf nicht verschlossen sein und nicht unter Wasser enden.", "sq": "Dalja e ujit duhet të mbetet e dukshme dhe të rrjedhë lirisht, shkarkimi nuk lejohet të jetë i mbyllur ose nën ujë."}
+  },
+  {
+    "q": {"de": "Das Sicherheitsventil am Speicher tropft dauerhaft. Was machst du?", "sq": "Valvula e sigurisë te depozita pikon vazhdimisht. Çfarë bën?"},
+    "a": [
+      {"de": "Den Ablauf zustopfen", "sq": "E mbyll shkarkimin"},
+      {"de": "Das Ventil zudrehen", "sq": "E mbyll valvulën duke e shtrënguar"},
+      {"de": "Den Speicher kälter stellen und weitermachen", "sq": "E vendos depozitën më të ftohtë dhe vazhdon"},
+      {"de": "Die Ursache suchen und prüfen", "sq": "E kërkon dhe e kontrollon shkakun"}
+    ],
+    "correct": 3,
+    "why": {"de": "Ein tropfendes Sicherheitsventil wird nie durch Zudrehen repariert, bei dauerhaftem Austritt muss die Ursache untersucht werden.", "sq": "Një valvul sigurie që pikon nuk riparohet kurrë duke e mbyllur, kur uji del vazhdimisht duhet të hetohet shkaku."}
+  }
+]

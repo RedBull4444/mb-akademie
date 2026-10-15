@@ -1,0 +1,57 @@
+[
+  {
+    "q": {"de": "Warum entfernt man Schlamm und Magnetit aus dem Heizungswasser?", "sq": "Pse hiqen llumi dhe magnetiti nga uji i ngrohjes?"},
+    "a": [
+      {"de": "Sie färben nur das Wasser dunkel", "sq": "Vetëm e bëjnë ujin të errët"},
+      {"de": "Sie machen das Wasser härter", "sq": "E bëjnë ujin më të fortë"},
+      {"de": "Sie schädigen Pumpen, Ventile und Wärmetauscher", "sq": "Dëmtojnë pompat, valvulat dhe shkëmbyesit e nxehtësisë"},
+      {"de": "Sie senken den Anlagendruck", "sq": "Ulin presionin e sistemit"}
+    ],
+    "correct": 2,
+    "why": {"de": "Die Partikel lagern sich in Pumpen, Ventilen und engen Wärmetauscher-Bereichen ab und stören Funktion und Strömung.", "sq": "Grimcat depozitohen në pompa, valvula dhe zona të ngushta të shkëmbyesit dhe prishin funksionimin dhe rrjedhjen."}
+  },
+  {
+    "q": {"de": "Was kann der Magnet im Schlammabscheider?", "sq": "Çfarë mund të bëjë magneti në ndarësin e llumit?"},
+    "a": [
+      {"de": "Magnetische Partikel festhalten, anderen Schmutz nicht", "sq": "I mban grimcat magnetike, papastërtitë e tjera jo"},
+      {"de": "Jeden Schmutz und gelöste Salze entfernen", "sq": "I heq të gjitha papastërtitë dhe kripërat e tretura"},
+      {"de": "Nur Kalk aus dem Wasser holen", "sq": "Heq vetëm gëlqeren nga uji"},
+      {"de": "Das Wasser weich machen", "sq": "E bën ujin të butë"}
+    ],
+    "correct": 0,
+    "why": {"de": "Der Magnet unterstützt nur die Abscheidung magnetischer Korrosionspartikel, er ist kein Filter für alles.", "sq": "Magneti ndihmon vetëm në ndarjen e grimcave magnetike të korrozionit, nuk është filtër për çdo gjë."}
+  },
+  {
+    "q": {"de": "Du reinigst einen Abscheider mit Magnet. Was gehört dazu?", "sq": "Po e pastron një ndarës me magnet. Çfarë bën pjesë në punë?"},
+    "a": [
+      {"de": "Den Magneten in Fangposition lassen", "sq": "Magneti lihet në pozicionin e kapjes"},
+      {"de": "Das Gehäuse unter Druck öffnen", "sq": "Trupi hapet nën presion"},
+      {"de": "Den Schmutzfänger dauerhaft ausbauen", "sq": "Filtri i papastërtive hiqet përgjithmonë"},
+      {"de": "Magnet nach Anleitung lösen, dann kontrolliert ablassen", "sq": "Magneti lirohet sipas udhëzimit, pastaj lëshohet kontrolluar"}
+    ],
+    "correct": 3,
+    "why": {"de": "Bleibt der Magnet in Fangposition, bleiben die magnetischen Partikel hängen. Der genaue Ablauf richtet sich nach der Herstelleranleitung.", "sq": "Nëse magneti mbetet në pozicionin e kapjes, grimcat magnetike mbeten ngjitur. Procedura e saktë varet nga udhëzimi i prodhuesit."}
+  },
+  {
+    "q": {"de": "Ein Abscheider ist eingebaut. Brauchst du trotzdem eine Erstspülung?", "sq": "Ndarësi është montuar. A të duhet prapë një shpëlarje e parë?"},
+    "a": [
+      {"de": "Nein, der Abscheider holt alles heraus", "sq": "Jo, ndarësi i heq të gjitha"},
+      {"de": "Ja, spülen und abscheiden, nicht entweder oder", "sq": "Po, shpëlahet dhe ndahet, jo njëra ose tjetra"},
+      {"de": "Nein, Spülen schadet der Pumpe", "sq": "Jo, shpëlarja e dëmton pompën"},
+      {"de": "Nur bei Fußbodenheizung", "sq": "Vetëm te ngrohja e dyshemesë"}
+    ],
+    "correct": 1,
+    "why": {"de": "Grobe Montage- und Fertigungsrückstände bleiben nicht einfach im System, weil später ein Abscheider eingebaut wird.", "sq": "Mbeturinat e trasha të montimit dhe të prodhimit nuk lihen në sistem vetëm sepse më vonë montohet një ndarës."}
+  },
+  {
+    "q": {"de": "Der Abscheider ist immer wieder voller Schmutz. Was ist richtig?", "sq": "Ndarësi është vazhdimisht plot papastërti. Çfarë është e saktë?"},
+    "a": [
+      {"de": "Öfter ablassen reicht als Lösung", "sq": "Mjafton ta shkarkosh më shpesh"},
+      {"de": "Einen größeren Abscheider einbauen", "sq": "Të montohet një ndarës më i madh"},
+      {"de": "Den Magneten dauerhaft entfernen", "sq": "Të hiqet magneti përgjithmonë"},
+      {"de": "Die Ursache der Verschmutzung suchen", "sq": "Të kërkohet shkaku i ndotjes"}
+    ],
+    "correct": 3,
+    "why": {"de": "Der Abscheider entfernt vorhandene Partikel, aber nicht die Ursache, durch die sie immer wieder entstehen.", "sq": "Ndarësi i heq grimcat ekzistuese, por jo shkakun që i krijon ato vazhdimisht."}
+  }
+]

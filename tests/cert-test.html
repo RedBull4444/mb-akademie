@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="de"><head><meta charset="utf-8"><title>cert.js Test</title>
+<script src="/assets/pdf-lib.min.js"></script>
+<script src="/assets/fontkit.umd.min.js"></script>
+<script src="/assets/qrcode.js"></script>
+<script src="/assets/cert.js"></script>
+<style>body{font:16px system-ui;padding:24px}button{font:inherit;padding:10px 16px;margin-right:8px}</style></head>
+<body>
+<p>Testseite für assets/cert.js (Server: <code>node tests/serve.mjs</code>, dann http://localhost:8899/tests/cert-test.html)</p>
+<button id="dl">PDF herunterladen</button><button id="sh">Teilen</button>
+<script>
+window.SAMPLES = {
+  t1: {name:'Arben Krasniqi',part:1,partTitle:'Bauteile',minutes:46,issuedAt:Date.UTC(2026,9,8,10)/1000,code:'MB-T1-7K4Q',
+    modules:[0,1,2,3,4,5,6,7].map(n=>({n,title:''}))},
+  t2: {name:'Besnik Gashi',part:2,partTitle:'Sistemi & hidraulika',minutes:30,issuedAt:Date.UTC(2026,10,20,10)/1000,code:'MB-T2-9XRA',
+    modules:[8,9,10,11].map(n=>({n,title:''}))},
+  t3: {name:'Ëndrit Çelaj-Hoxha',part:3,partTitle:'',minutes:27,issuedAt:Date.UTC(2026,11,31,22,30)/1000,code:'MB-T3-ZZ2E',
+    modules:[12,13,14,15].map(n=>({n,title:''}))}
+};
+document.getElementById('dl').onclick=()=>MBCert.download(SAMPLES.t1);
+document.getElementById('sh').onclick=()=>MBCert.share(SAMPLES.t1);
+</script></body></html>

@@ -1,0 +1,57 @@
+[
+  {
+    "q": {"de": "Was passiert im MAG, wenn das Heizungswasser warm wird?", "sq": "Çfarë ndodh në MAG kur uji i ngrohjes nxehet?"},
+    "a": [
+      {"de": "Das MAG gibt Wasser an die Anlage ab", "sq": "MAG-u i jep ujë sistemit"},
+      {"de": "Wasser fließt ins MAG, das Gas wird zusammengedrückt", "sq": "Uji hyn në MAG dhe gazi ngjeshet"},
+      {"de": "Das Gas strömt aus dem MAG in den Vorlauf", "sq": "Gazi rrjedh nga MAG-u në furnizim"},
+      {"de": "Nichts, das MAG arbeitet nur beim Befüllen", "sq": "Asgjë, MAG-u punon vetëm gjatë mbushjes"}
+    ],
+    "correct": 1,
+    "why": {"de": "Warmes Wasser braucht mehr Platz, es drückt die Membran zur Gasseite und komprimiert das Gaspolster.", "sq": "Uji i ngrohtë ka nevojë për më shumë vend, e shtyn membranën nga ana e gazit dhe e ngjesh jastëkun e gazit."}
+  },
+  {
+    "q": {"de": "Das MAG ist abgesperrt. Was ist die Folge?", "sq": "MAG-u është i mbyllur. Çfarë pasoje ka kjo?"},
+    "a": [
+      {"de": "Es arbeitet normal, nur etwas langsamer", "sq": "Punon normalisht, vetëm pak më ngadalë"},
+      {"de": "Es nimmt mehr Wasser auf als sonst", "sq": "Pranon më shumë ujë se zakonisht"},
+      {"de": "Der Vordruck steigt von selbst an", "sq": "Presioni paraprak ngrihet vetvetiu"},
+      {"de": "Es ist von der Anlage getrennt und kann nicht ausgleichen", "sq": "Është i ndarë nga sistemi dhe nuk mund të balancojë"}
+    ],
+    "correct": 3,
+    "why": {"de": "Die Verbindung zwischen Anlage und MAG muss offen sein, sonst kann das MAG seine Aufgabe nicht erfüllen.", "sq": "Lidhja ndërmjet sistemit dhe MAG-ut duhet të jetë e hapur, përndryshe MAG-u nuk e kryen detyrën e vet."}
+  },
+  {
+    "q": {"de": "Der Druck in der Anlage fällt immer wieder. Was ist richtig?", "sq": "Presioni në sistem bie vazhdimisht. Çfarë është e saktë?"},
+    "a": [
+      {"de": "Ursache suchen, ständiges Nachfüllen ist keine Lösung", "sq": "Të kërkohet shkaku, rimbushja e vazhdueshme nuk është zgjidhje"},
+      {"de": "Jede Woche einfach Wasser nachfüllen", "sq": "Çdo javë thjesht të shtohet ujë"},
+      {"de": "Ein möglichst großes MAG einbauen", "sq": "Të montohet një MAG sa më i madh"},
+      {"de": "Das Sicherheitsventil schließen", "sq": "Të mbyllet valvula e sigurisë"}
+    ],
+    "correct": 0,
+    "why": {"de": "Der Druckverlust kann am MAG, an einer Undichtigkeit oder an anderen Teilen liegen, deshalb muss man die Ursache finden.", "sq": "Humbja e presionit mund të vijë nga MAG-u, nga një rrjedhje ose nga pjesë të tjera, prandaj shkaku duhet gjetur."}
+  },
+  {
+    "q": {"de": "Wofür ist das Sicherheitsventil da, wenn schon ein MAG eingebaut ist?", "sq": "Për çfarë shërben valvula e sigurisë, kur MAG-u është montuar tashmë?"},
+    "a": [
+      {"de": "Es ersetzt das MAG bei kleinen Anlagen", "sq": "E zëvendëson MAG-un në sistemet e vogla"},
+      {"de": "Es regelt ständig den normalen Betriebsdruck", "sq": "E rregullon vazhdimisht presionin normal të punës"},
+      {"de": "Es schützt vor unzulässig hohem Druck", "sq": "E mbron sistemin nga presioni i palejuar i lartë"},
+      {"de": "Es nimmt das Ausdehnungswasser beim Aufheizen auf", "sq": "E pranon ujin e zgjeruar gjatë ngrohjes"}
+    ],
+    "correct": 2,
+    "why": {"de": "Das MAG nimmt normale Volumenänderungen auf, das Sicherheitsventil greift bei unzulässigem Überdruck ein. Keines ersetzt das andere.", "sq": "MAG-u pranon ndryshimet normale të vëllimit, valvula e sigurisë ndërhyn kur ka mbipresion të palejuar. Asnjëra nuk e zëvendëson tjetrën."}
+  },
+  {
+    "q": {"de": "Du willst den Vordruck am MAG prüfen. Was machst du zuerst?", "sq": "Do ta kontrollosh presionin paraprak në MAG. Çfarë bën së pari?"},
+    "a": [
+      {"de": "Den Vordruck bei vollem Anlagendruck messen", "sq": "E mat presionin paraprak me presion të plotë në sistem"},
+      {"de": "Die Wasserseite druckentlasten, dann den Gasvordruck messen", "sq": "E çlironi nga presioni ana e ujit, pastaj mat presionin e gazit"},
+      {"de": "Das MAG ausbauen und schütteln", "sq": "E çmonton MAG-un dhe e tund"},
+      {"de": "Die Anlage auf höchste Temperatur heizen", "sq": "E ngroh sistemin në temperaturën më të lartë"}
+    ],
+    "correct": 1,
+    "why": {"de": "Anlagendruck und Vordruck sind nicht dasselbe: Erst wird die Wasserseite entlastet, dann wird der Gasvordruck nach Herstellerangabe gemessen.", "sq": "Presioni i sistemit dhe presioni paraprak nuk janë e njëjta gjë: së pari çlirohet ana e ujit, pastaj mbahet presioni i gazit sipas udhëzimeve të prodhuesit."}
+  }
+]

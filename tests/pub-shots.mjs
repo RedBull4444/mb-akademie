@@ -1,0 +1,13 @@
+import {createRequire} from 'node:module';
+const require = createRequire('/tmp/claude-0/-home-claude/11c135d6-a206-58fa-85d9-899349f4e70c/scratchpad/render/');
+const {chromium} = require('playwright');
+const base='http://localhost:8791';
+const b = await chromium.launch({executablePath:'/opt/pw-browsers/chromium-1194/chrome-linux/chrome'});
+const ctx = await b.newContext({viewport:{width:390,height:844}, deviceScaleFactor:2}); const p = await ctx.newPage();
+p.on('console', m=>{ if(['error','warning'].includes(m.type())) console.log('console:', m.text()); }); p.on('pageerror', e=>console.log('pageerror', e.message));
+await p.goto(base+'/pruefen/?code=mb-t1-7k4q'); await p.waitForSelector('.result'); await p.screenshot({path:'tests/out/pub-ok.png'});
+await p.fill('#code','MB-T1-ZZZZ'); await p.click('#go'); await p.waitForTimeout(500); console.log(await p.textContent('#out')); await p.screenshot({path:'tests/out/pub-bad.png'});
+await p.goto(base+'/pruefen/'); await p.screenshot({path:'tests/out/pub-empty.png'});
+await p.goto(base+'/datenschutz/'); await p.screenshot({path:'tests/out/pub-ds.png', fullPage:true});
+const r = await fetch(base+'/chef/'); console.log('headers', r.headers.get('content-security-policy'));
+await b.close();
