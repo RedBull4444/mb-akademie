@@ -125,6 +125,7 @@ function parseRoute() {
   return { v: 'team' };
 }
 const go = h => { location.hash = h; };
+const amOwner = () => !!(S.status && S.status.me && S.status.me.role === 'owner');
 
 /* ============================================================ Start */
 async function boot() {
@@ -562,17 +563,18 @@ function detailHtml(d, desk) {
   const name = esc(d.name);
   const flag = d.active ? '' : `<div class="flag">${I.lock}Konto gesperrt. Anmeldung ist nicht möglich.</div>`;
   const barCls = finished ? 'green' : 'red';
+  const delBtn = amOwner() ? '<div class="delzone"><button class="btn btn-sec btn-sm danger" data-act="delete">Mitarbeiter löschen</button></div>' : '';
   if (desk) {
     return `<h2 class="dn">${name}</h2><p class="meta">${esc(meta)}</p>${flag}
       <div class="prog"><div class="t"><span>${done} von ${total} Videos</span><span>${pct} %</span></div><div class="bar ${barCls}" role="img" aria-label="Fortschritt ${pct} Prozent"><i style="width:${pct}%"></i></div></div>
       <h3 class="sec">Zertifikate</h3><div class="list">${certs}</div>
       <h3 class="sec m">Module</h3><div class="list">${visible.join('')}</div>${more}
-      <div class="actions"><button class="btn btn-sec" data-act="reset">PIN zurücksetzen</button><button class="btn btn-sec ${d.active ? 'danger' : ''}" data-act="toggle">${d.active ? 'Sperren' : 'Entsperren'}</button></div>`;
+      <div class="actions"><button class="btn btn-sec" data-act="reset">PIN zurücksetzen</button><button class="btn btn-sec ${d.active ? 'danger' : ''}" data-act="toggle">${d.active ? 'Sperren' : 'Entsperren'}</button></div>${delBtn}`;
   }
   return `<h1 class="title" style="margin-top:12px;overflow-wrap:anywhere">${name}</h1><p class="meta">${esc(meta)}</p>${flag}
     <div class="prog"><div class="t"><span>${done} von ${total} Videos</span></div><div class="bar ${finished ? 'green' : ''}" role="img" aria-label="Fortschritt ${done} von ${total} Videos"><i style="width:${pct}%"></i></div></div>
     <h2 class="sec">Zertifikate</h2><div class="list">${certs}</div>
-    <h2 class="sec">Module</h2><div class="list">${visible.join('')}</div>`;
+    <h2 class="sec">Module</h2><div class="list">${visible.join('')}</div>${delBtn}`;
 }
 
 function bindDetail(root, d) {
@@ -586,6 +588,7 @@ function bindDetail(root, d) {
     const a = ev.target.closest('[data-act]');
     if (a && a.dataset.act === 'reset') return resetPin(d);
     if (a && a.dataset.act === 'toggle') return toggleActive(d);
+    if (a && a.dataset.act === 'delete') return deleteEmployee(d);
   };
   const scope = root === document ? document.querySelector('#app') : root;
   if (scope._h) scope.removeEventListener('click', scope._h);
@@ -647,6 +650,37 @@ async function toggleActive(d) {
   } catch (e) { toast(errText(e)); }
 }
 
+// Endgültig löschen: eigener Dialog, Name muss eingetippt werden (nur Hauptadmin, Server prüft das ebenfalls).
+const normName = v => String(v || '').trim().replace(/\s+/g, ' ').toLowerCase();
+function deleteEmployee(d) {
+  const dlg = modal(`<h2>${esc(d.name)} löschen?</h2>
+    <p>Das Konto wird endgültig gelöscht, samt Fortschritt, Quiz-Ergebnissen und Zertifikaten. Das lässt sich nicht rückgängig machen.</p>
+    <p>Die Zertifikate dieser Person werden auf der Prüfseite danach als „nicht gefunden“ angezeigt.</p>
+    <form id="df" novalidate><label class="field"><span>Zum Bestätigen den Namen eintippen</span><input name="n" autocomplete="off" autocapitalize="none" spellcheck="false" placeholder="${esc(d.name)}"></label>
+    <div id="de" role="alert"></div>
+    <div class="btns"><button type="button" class="btn btn-sec btn-sm" data-a="no">Abbrechen</button><button type="submit" class="btn btn-primary btn-sm" disabled>Endgültig löschen</button></div></form>`);
+  const f = $('#df', dlg), go_ = f.querySelector('[type=submit]');
+  dlg.querySelector('[data-a="no"]').onclick = () => dlg.close();
+  f.n.oninput = () => { go_.disabled = normName(f.n.value) !== normName(d.name); };
+  f.n.focus();
+  f.onsubmit = async ev => {
+    ev.preventDefault();
+    if (normName(f.n.value) !== normName(d.name)) return;
+    go_.disabled = true; go_.textContent = 'Moment …';
+    try {
+      await api(`/chef/employee/${encodeURIComponent(d.id)}/delete`, {});
+      dlg.close();
+      delete S.details[String(d.id)]; S.sel = null;
+      await loadTeam();
+      toast('Mitarbeiter gelöscht');
+      if (location.hash !== '#/team') go('#/team'); else render();
+    } catch (e) {
+      go_.disabled = false; go_.textContent = 'Endgültig löschen';
+      $('#de', dlg).innerHTML = `<div class="err">${esc(errText(e))}</div>`;
+    }
+  };
+}
+
 /* ============================================================ Einstellungen */
 function shareText(code) {
   return `Hallo zusammen, hier geht's zur M&B Akademie: ${location.origin}/\nFirmencode: ${code}\nCode eingeben, Vor- und Nachnamen eintragen, PIN festlegen. Fertig!`;
@@ -661,9 +695,16 @@ async function renderSettings(app) {
     const me = (S.status && S.status.me) || {};
     const isOwner = me.role === 'owner';
     const code = s.companyCode || '';
+    const owners = (s.admins || []).filter(a => a.role === 'owner').length;
     const admins = (s.admins || []).map(a => {
       const self = me.id != null ? String(a.id) === String(me.id) : (me.username && a.username === me.username);
-      return `<div class="who"><span class="n">${esc(a.name)}</span><span class="r">${a.role === 'owner' ? 'Hauptadmin' : 'Admin'}${isOwner && !self ? `<button class="del" data-del="${esc(a.id)}" data-name="${esc(a.name)}" aria-label="${esc(a.name)} entfernen">Entfernen</button>` : ''}</span></div>`;
+      const isOwn = a.role === 'owner';
+      const acts = !isOwner ? '' : [
+        isOwn ? (owners > 1 ? `<button class="del" data-role="admin" data-id="${esc(a.id)}" data-name="${esc(a.name)}">Zum Admin zurückstufen</button>` : '')
+          : `<button class="del" data-role="owner" data-id="${esc(a.id)}" data-name="${esc(a.name)}">Zum Hauptadmin machen</button>`,
+        !self && (!isOwn || owners > 1) ? `<button class="del" data-del="${esc(a.id)}" data-name="${esc(a.name)}" aria-label="${esc(a.name)} entfernen">Entfernen</button>` : ''
+      ].join('');
+      return `<div class="who"><span class="n">${esc(a.name)}${self ? ' (du)' : ''}</span><span class="r">${isOwn ? 'Hauptadmin' : 'Admin'}</span>${acts.trim() ? `<span class="wa">${acts}</span>` : ''}</div>`;
     }).join('');
     const inner = `${desk ? '' : `<div class="topbar m">${LOGO(75, 28)}<span class="where">Chef-Bereich</span></div>`}
       <div class="settings-in"><h1 class="title" style="${desk ? 'margin-top:48px' : 'margin-top:8px'}">Einstellungen</h1>
@@ -686,6 +727,7 @@ async function renderSettings(app) {
     const aa = $('#addAdmin'); if (aa) aa.onclick = addAdmin;
     const lo2 = $('#logout2'); if (lo2) lo2.onclick = logout;
     $$('[data-del]').forEach(b => b.onclick = () => delAdmin(b.dataset.del, b.dataset.name));
+    $$('[data-role]').forEach(b => b.onclick = () => setAdminRole(b.dataset.id, b.dataset.name, b.dataset.role));
   };
   if (S.settings) paint(); else app.innerHTML = shell('settings', '<div class="splash">Lädt …</div>');
   try { S.settings = await api('/chef/settings'); if (parseRoute().v === 'settings') paint(); }
@@ -725,6 +767,20 @@ function addAdmin() {
       S.settings = await api('/chef/settings'); renderSettings($('#app'));
     } catch (e) { ae.innerHTML = `<div class="err">${esc(errText(e))}</div>`; }
   };
+}
+async function setAdminRole(id, name, role) {
+  const up = role === 'owner';
+  const ok = await confirmDlg(up
+    ? { title: `${name} zum Hauptadmin machen?`, text: 'Hauptadmins verwalten Zugänge und dürfen Mitarbeiter endgültig löschen.', ok: 'Zum Hauptadmin machen' }
+    : { title: `${name} zum Admin zurückstufen?`, text: 'Admins sehen das Team, setzen PINs zurück und sperren Konten. Zugänge verwalten und Mitarbeiter löschen geht dann nicht mehr.', ok: 'Zurückstufen', danger: true });
+  if (!ok) return;
+  try {
+    await api(`/chef/admins/${encodeURIComponent(id)}/role`, { role });
+    toast(up ? 'Ist jetzt Hauptadmin' : 'Ist jetzt Admin');
+    S.status = await api('/chef/status'); // eigene Rolle kann sich geändert haben
+    S.details = {};
+    S.settings = await api('/chef/settings'); renderSettings($('#app'));
+  } catch (e) { toast(errText(e)); }
 }
 async function delAdmin(id, name) {
   const ok = await confirmDlg({ title: `${name} entfernen?`, text: 'Dieser Zugang kann sich danach nicht mehr im Chef-Bereich anmelden.', ok: 'Entfernen', danger: true });

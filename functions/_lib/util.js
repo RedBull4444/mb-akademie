@@ -68,7 +68,8 @@ const T = {
   admin_taken: { de: 'Diesen Benutzernamen gibt es schon.', sq: 'Ky emër përdoruesi ekziston tashmë.' },
   owner_only: { de: 'Nur der Inhaber darf das.', sq: 'Vetëm pronari mund ta bëjë këtë.' },
   self_delete: { de: 'Du kannst dich nicht selbst löschen.', sq: 'Nuk mund ta fshish veten.' },
-  owner_delete: { de: 'Der Inhaber kann nicht gelöscht werden.', sq: 'Pronari nuk mund të fshihet.' },
+  last_owner: { de: 'Der letzte Hauptadmin kann nicht entfernt oder zurückgestuft werden.', sq: 'Administratori kryesor i fundit nuk mund të hiqet ose të ulet.' },
+  role_invalid: { de: 'Rolle ungültig.', sq: 'Roli është i pavlefshëm.' },
 };
 
 export function msg(key, lang, arg) {

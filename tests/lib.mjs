@@ -75,6 +75,15 @@ export function sql(command) {
   execFileSync('npx', args, { cwd: ROOT, stdio: 'pipe' });
 }
 
+// Lesende Abfrage gegen dieselbe lokale D1 (liefert die Ergebniszeilen).
+export function sqlRows(command) {
+  const args = ['wrangler', 'd1', 'execute', 'akademie-db', '--local', '--json', '--command', command];
+  if (process.env.PERSIST_TO) args.push('--persist-to', process.env.PERSIST_TO);
+  const out = execFileSync('npx', args, { cwd: ROOT, stdio: ['ignore', 'pipe', 'pipe'], encoding: 'utf8' });
+  const j = JSON.parse(out.slice(out.search(/^\[/m)));
+  return j[0].results;
+}
+
 export const rnd = (n = 6) => Array.from({ length: n }, () => 'abcdefghklmnprstuvz'[Math.floor(Math.random() * 19)]).join('');
 export const cap = (s) => s[0].toUpperCase() + s.slice(1);
 

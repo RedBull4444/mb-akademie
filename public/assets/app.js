@@ -44,6 +44,8 @@ const P = {
   fs: '<path d="M4 9V4h5M20 9V4h-5M4 15v5h5M20 15v5h-5"/>',
   fsExit: '<path d="M9 4v5H4M15 4v5h5M9 20v-5H4M15 20v-5h5"/>',
   wifiOff: '<path d="M2 8.8a15 15 0 0 1 20 0"/><path d="M5 12.5a10 10 0 0 1 14 0"/><path d="M8.5 16a5 5 0 0 1 7 0"/><path d="M12 19.4v.1"/><path d="M3 3l18 18"/>',
+  search: '<circle cx="11" cy="11" r="6.5"/><path d="M16 16l4.5 4.5"/>',
+  chevR: '<path d="M9 5l7 7-7 7"/>',
   retry: '<path d="M4 12a8 8 0 0 1 14-5.3L20 9"/><path d="M20 4v5h-5"/><path d="M20 12a8 8 0 0 1-14 5.3L4 15"/><path d="M4 20v-5h5"/>',
 };
 const I = {
@@ -57,6 +59,8 @@ const I = {
   chevUp: (s = 20, stroke = '#5b6570') => svg(P.chevUp, { s, stroke }),
   home: () => svg(P.home, { s: 26 }),
   grid: () => svg(P.grid, { s: 26 }),
+  search: () => svg(P.search, { s: 26 }),
+  chevR: () => svg(P.chevR, { s: 20, stroke: '#5b6570' }),
   award: (s = 24, sw = 1.75) => svg(P.award, { s, sw }),
   backspace: () => svg(P.backspace, { s: 26, sw: 1.9 }),
   warn: (s = 18) => svg(P.warn, { s }),
@@ -75,6 +79,7 @@ const S = {
   me: null,
   lang: 'de',
   lastTab: 'start',
+  refQ: '',
   expanded: new Set(),
   reg: { code: '', first: '', last: '' },
   notice: '',
@@ -174,7 +179,9 @@ function paintLoading() {
 function tabbar(active) {
   const tab = (id, href, icon, label) =>
     `<a class="tab" href="${href}"${active === id ? ' aria-current="page"' : ''}>${icon}<span>${esc(label)}</span></a>`;
-  return `<nav class="tabbar" aria-label="${esc(T('nav.label'))}">${tab('start', '#/start', I.home(), T('nav.start'))}${tab('module', '#/module', I.grid(), T('nav.modules'))}${tab('zertifikate', '#/zertifikate', I.award(26, 2), T('nav.certs'))}</nav>`;
+  // "Nachschlagen" erscheint, sobald mindestens ein Video geschafft ist.
+  const ref = active === 'ref' || (S.me && S.me.modules.some((m) => m.completed));
+  return `<nav class="tabbar"${ref ? ' style="--tabs:4"' : ''} aria-label="${esc(T('nav.label'))}">${tab('start', '#/start', I.home(), T('nav.start'))}${tab('module', '#/module', I.grid(), T('nav.modules'))}${ref ? tab('ref', '#/nachschlagen', I.search(), T('nav.ref')) : ''}${tab('zertifikate', '#/zertifikate', I.award(26, 2), T('nav.certs'))}</nav>`;
 }
 
 let toastTimer = 0;
@@ -287,6 +294,7 @@ async function route() {
       case 'start': return await tabView(ok, 'start', buildStart);
       case 'module': return await tabView(ok, 'module', buildModules);
       case 'zertifikate': return await tabView(ok, 'zertifikate', buildCerts);
+      case 'nachschlagen': return arg !== undefined && arg !== '' ? await viewRef(Number(arg), ok) : await tabView(ok, 'ref', buildRef);
       case 'video': return await viewVideo(Number(arg), ok);
       case 'quiz': return await viewQuiz(Number(arg), ok);
       default: {
@@ -716,7 +724,7 @@ function buildCerts(me) {
 /* ====================================================================
    Video (Screen 2 + Schutz-Zustände S1–S3)
    ==================================================================== */
-function backToTab() { location.hash = '#/' + (S.lastTab === 'zertifikate' ? 'zertifikate' : S.lastTab === 'module' ? 'module' : 'start'); }
+function backToTab() { location.hash = '#/' + (S.lastTab === 'zertifikate' ? 'zertifikate' : S.lastTab === 'module' ? 'module' : S.lastTab === 'ref' ? 'nachschlagen' : 'start'); }
 
 function viewLockedModule() {
   paint(`<div class="screen"><div class="center"><div class="circ neutral">${I.lock(40, 1.75)}</div>
@@ -1020,6 +1028,102 @@ async function viewVideo(n, ok) {
   setPbtn(false);
   setOv(done ? 'done' : 'idle');
   updateFoot(true); updateUI();
+}
+
+/* ====================================================================
+   Nachschlagen: geschaffte Videos suchen und frei ansehen (ohne Fortschritts-Tracking)
+   ==================================================================== */
+// Suchtext vereinheitlichen: klein, ohne Akzente, Umlaute/ß tolerant (ä = a = ae, ß = ss = s).
+const fold = (x) => String(x ?? '').toLowerCase().replace(/ß/g, 'ss').normalize('NFD').replace(/[̀-ͯ]/g, '')
+  .replace(/ae|oe|ue/g, (m) => m[0]).replace(/ss/g, 's');
+
+function refMatches(m, q) {
+  const words = fold(q).split(/\s+/).filter(Boolean);
+  if (!words.length) return true;
+  const hay = fold([m.title].concat(Array.isArray(m.points) ? m.points : []).join(' \n '));
+  return words.every((w) => hay.includes(w));
+}
+
+function refItems(me, q) {
+  const list = me.modules.filter((m) => m.completed);
+  if (!list.length) return `<p class="refnone">${esc(T('ref.empty'))}</p>`;
+  const hits = list.filter((m) => refMatches(m, q));
+  if (!hits.length) return `<p class="refnone" role="status">${esc(T('ref.none'))}</p>`;
+  return hits.map((m) => `<a class="refitem" href="#/nachschlagen/${m.n}" aria-label="${esc(T('ref.open') + ': ' + m.title)}"><span class="n">${nn(m.n)}</span><span class="b"><span class="t">${esc(m.title)}</span>${Array.isArray(m.points) && m.points.length ? `<ul>${m.points.map((p) => `<li>${esc(p)}</li>`).join('')}</ul>` : ''}</span>${I.chevR()}</a>`).join('');
+}
+
+function buildRef(me) {
+  return {
+    html: `<div class="screen"><div class="scroll top18">
+      <h1 class="h-page">${esc(T('ref.title'))}</h1>
+      <p class="meta" style="margin-top:2px">${esc(T('ref.sub'))}</p>
+      <label class="refsearch"><span class="vh">${esc(T('ref.search'))}</span><input id="refq" type="search" enterkeyhint="search" autocomplete="off" autocorrect="off" spellcheck="false" placeholder="${esc(T('ref.searchPh'))}" value="${esc(S.refQ)}"></label>
+      <div class="reflist" id="reflist">${refItems(me, S.refQ)}</div>
+    </div></div>`,
+    bind(root) {
+      const input = $('#refq', root); const host = $('#reflist', root);
+      input.addEventListener('input', () => { S.refQ = input.value; host.innerHTML = refItems(S.me || me, S.refQ); });
+    },
+  };
+}
+
+// Kapitel (optional): /assets/chapters.json = { "1": [{ t, de, sq }, ...], ... }. Fehlt die Datei oder ist sie kaputt -> keine Kapitel.
+let chaptersP = null;
+function loadChapters() {
+  if (!chaptersP) {
+    chaptersP = fetch('/assets/chapters.json', { credentials: 'same-origin', cache: 'no-cache' })
+      .then((r) => (r.ok ? r.json() : {}))
+      .then((j) => (j && typeof j === 'object' && !Array.isArray(j) ? j : {}))
+      .catch(() => { chaptersP = null; return {}; });
+  }
+  return chaptersP;
+}
+
+async function viewRef(n, ok) {
+  if (!Number.isInteger(n) || n < 0) { location.hash = '#/nachschlagen'; return; }
+  paintLoading();
+  const [me, allCh] = await Promise.all([ensureMe(true), loadChapters()]);
+  if (!ok()) return;
+  const m = me.modules.find((x) => x.n === n);
+  if (!m || !m.completed) { location.hash = '#/nachschlagen'; return; }
+  S.lastTab = 'ref';
+
+  const src = `/videos/M${nn(n)}_${S.lang.toUpperCase()}.mp4`;
+  const label = n === 0 ? T('video.titleIntro') : T('video.title', { nn: nn(n) });
+  const points = Array.isArray(m.points) ? m.points : [];
+  const chaps = (Array.isArray(allCh[String(n)]) ? allCh[String(n)] : [])
+    .filter((c) => c && Number.isFinite(Number(c.t)))
+    .map((c) => ({ t: Math.max(0, Number(c.t)), title: String(c[S.lang] || c.de || c.sq || '') }))
+    .filter((c) => c.title)
+    .sort((a, b) => a.t - b.t);
+
+  paint(`<div class="screen">
+    <div class="vtop"><a class="iconbtn" href="#/nachschlagen" aria-label="${esc(T('common.back'))}">${I.back()}</a><span class="tt">${esc(label)}</span><span></span></div>
+    <div class="player ref"><video id="rvid" controls playsinline preload="metadata" controlslist="nodownload noremoteplayback" disablepictureinpicture disableremoteplayback src="${esc(src)}"></video></div>
+    <p class="hint" id="rerr" role="alert" style="padding:12px 24px 0" hidden>${esc(T('video.error'))}</p>
+    <div class="scroll vbody">
+      <h1 class="h-mod">${esc(m.title)}</h1>
+      ${chaps.length ? `<h2>${esc(T('ref.chapters'))}</h2><div class="chaps">${chaps.map((c, i) => `<button type="button" class="chap" data-i="${i}" aria-label="${esc(T('ref.chapterAria', { t: fmt(c.t), title: c.title }))}"><span class="tm">${fmt(c.t)}</span><span class="ct">${esc(c.title)}</span></button>`).join('')}</div>` : ''}
+      ${points.length ? `<h2>${esc(T('video.keyPoints'))}</h2><ol class="points">${points.map((p, i) => `<li><span class="i">${i + 1}</span><p>${esc(p)}</p></li>`).join('')}</ol>` : ''}
+    </div>
+  </div>`, { key: 'ref', focus: false });
+
+  const vid = document.getElementById('rvid');
+  vid.addEventListener('contextmenu', (e) => e.preventDefault());
+  vid.addEventListener('error', () => { const e = document.getElementById('rerr'); if (e) e.hidden = false; });
+  const btns = $$('.chap');
+  const markActive = () => {
+    const t = vid.currentTime || 0; let cur = -1;
+    chaps.forEach((c, i) => { if (c.t <= t + 0.25) cur = i; });
+    btns.forEach((b, i) => { if (i === cur) b.setAttribute('aria-current', 'true'); else b.removeAttribute('aria-current'); });
+  };
+  btns.forEach((b) => b.addEventListener('click', () => {
+    vid.currentTime = chaps[Number(b.dataset.i)].t;
+    const p = vid.play(); if (p && p.catch) p.catch(() => {});
+    markActive();
+  }));
+  if (chaps.length) { vid.addEventListener('timeupdate', markActive); vid.addEventListener('seeked', markActive); }
+  onTeardown(() => { try { vid.pause(); vid.removeAttribute('src'); vid.load(); } catch (e) { /* egal */ } });
 }
 
 /* ====================================================================

@@ -615,15 +615,56 @@ async function chefAddAdmin({ env, admin, body }) {
   return json({ ok: true, id: r.id });
 }
 
+// Hauptadmins (owner) dürfen andere Zugänge entfernen, auch andere Hauptadmins – aber nie sich selbst
+// und nie den letzten Hauptadmin (atomar in einem Statement geprüft).
 async function chefDeleteAdmin({ env, admin, params }) {
   if (admin.role !== 'owner') throw new HttpError(403, msg('owner_only', 'de'));
   const id = Number(params[0]);
   if (id === admin.id) throw new HttpError(400, msg('self_delete', 'de'));
   const target = Number.isInteger(id) ? await first(env, 'SELECT id, role FROM admins WHERE id = ?', id) : null;
   if (!target) throw new HttpError(404, msg('not_found', 'de'));
-  if (target.role === 'owner') throw new HttpError(400, msg('owner_delete', 'de'));
-  await run(env, 'DELETE FROM admins WHERE id = ?', id);
+  const r = await run(
+    env,
+    `DELETE FROM admins WHERE id = ? AND (role != 'owner' OR (SELECT COUNT(*) FROM admins WHERE role = 'owner') > 1)`,
+    id,
+  );
+  if (!r.meta.changes) throw new HttpError(400, msg('last_owner', 'de'));
   await destroySessionsOf(env, 'admin', id);
+  return json({ ok: true });
+}
+
+// Rolle ändern: Admin <-> Hauptadmin (owner). Nur Hauptadmins; der letzte Hauptadmin bleibt Hauptadmin.
+async function chefAdminRole({ env, admin, params, body }) {
+  if (admin.role !== 'owner') throw new HttpError(403, msg('owner_only', 'de'));
+  if (body.role !== 'owner' && body.role !== 'admin') throw new HttpError(400, msg('role_invalid', 'de'));
+  const id = Number(params[0]);
+  const target = Number.isInteger(id) ? await first(env, 'SELECT id, role FROM admins WHERE id = ?', id) : null;
+  if (!target) throw new HttpError(404, msg('not_found', 'de'));
+  if (target.role !== body.role) {
+    const r = await run(
+      env,
+      `UPDATE admins SET role = ?1 WHERE id = ?2 AND (?1 = 'owner' OR role != 'owner' OR (SELECT COUNT(*) FROM admins WHERE role = 'owner') > 1)`,
+      body.role, id,
+    );
+    if (!r.meta.changes) throw new HttpError(400, msg('last_owner', 'de'));
+  }
+  return json({ ok: true, role: body.role });
+}
+
+// Mitarbeiter endgültig löschen (nur Hauptadmin): Konto samt Fortschritt, Quiz, Sitzungen und Zertifikaten.
+// Die Prüfseite zeigt danach für dessen Zertifikate "nicht gefunden". In EINEM Batch (atomar).
+async function chefDeleteEmployee({ env, admin, params }) {
+  if (admin.role !== 'owner') throw new HttpError(403, msg('owner_only', 'de'));
+  const e = await loadEmployeeOr404(env, params[0]);
+  await env.DB.batch([
+    env.DB.prepare('DELETE FROM progress WHERE emp_id = ?').bind(e.id),
+    env.DB.prepare('DELETE FROM quiz_attempts WHERE emp_id = ?').bind(e.id),
+    env.DB.prepare('DELETE FROM quiz_runs WHERE emp_id = ?').bind(e.id),
+    env.DB.prepare("DELETE FROM sessions WHERE kind = 'emp' AND subject_id = ?").bind(e.id),
+    env.DB.prepare('DELETE FROM certificates WHERE emp_id = ?').bind(e.id),
+    env.DB.prepare('DELETE FROM login_guard WHERE key = ?').bind('n:' + e.name_key),
+    env.DB.prepare('DELETE FROM employees WHERE id = ?').bind(e.id),
+  ]);
   return json({ ok: true });
 }
 
@@ -686,10 +727,12 @@ const ROUTES = [
   ['GET', /^chef\/employee\/(\d+)$/, 'admin', chefEmployee],
   ['POST', /^chef\/employee\/(\d+)\/reset-pin$/, 'admin', chefResetPin],
   ['POST', /^chef\/employee\/(\d+)\/active$/, 'admin', chefActive],
+  ['POST', /^chef\/employee\/(\d+)\/delete$/, 'admin', chefDeleteEmployee],
   ['GET', /^chef\/settings$/, 'admin', chefSettings],
   ['POST', /^chef\/company-code\/rotate$/, 'admin', chefRotate],
   ['POST', /^chef\/admins$/, 'admin', chefAddAdmin],
   ['POST', /^chef\/admins\/(\d+)\/delete$/, 'admin', chefDeleteAdmin],
+  ['POST', /^chef\/admins\/(\d+)\/role$/, 'admin', chefAdminRole],
   ['GET', /^chef\/export\.csv$/, 'admin', chefExport],
 ];
 

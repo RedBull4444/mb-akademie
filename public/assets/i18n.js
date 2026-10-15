@@ -26,6 +26,7 @@ export const STRINGS = {
     'nav.start': 'Start',
     'nav.modules': 'Module',
     'nav.certs': 'Zertifikate',
+    'nav.ref': 'Nachschlagen',
 
     'welcome.title': 'Willkommen',
     'welcome.sub': 'Die Schulungsreihe SHK-Grundlagen von M&B.',
@@ -176,6 +177,16 @@ export const STRINGS = {
     'certs.pContent': 'INHALTE',
     'certs.pPlace': 'ORT, DATUM',
 
+    'ref.title': 'Nachschlagen',
+    'ref.sub': 'Videos, die du geschafft hast. Frei vor- und zurückspulen.',
+    'ref.search': 'Suchen',
+    'ref.searchPh': 'Suchbegriff, z. B. Schlamm',
+    'ref.none': 'Nichts gefunden.',
+    'ref.empty': 'Hier erscheinen die Videos, die du geschafft hast.',
+    'ref.open': 'Video öffnen',
+    'ref.chapters': 'Kapitel',
+    'ref.chapterAria': 'Springe zu {t}: {title}',
+
     'err.offline': 'Keine Verbindung. Bitte später nochmal.',
     'err.generic': 'Etwas ist schiefgegangen. Bitte nochmal versuchen.',
     'err.locked': 'Konto gesperrt. Bitte im Büro melden.',
@@ -203,6 +214,7 @@ export const STRINGS = {
     'nav.start': 'Fillimi',
     'nav.modules': 'Modulet',
     'nav.certs': 'Certifikatat',
+    'nav.ref': 'Rishiko',
 
     'welcome.title': 'Mirë se erdhe',
     'welcome.sub': 'Seria e trajnimeve “Bazat e SHK” nga M&B.',
@@ -352,6 +364,16 @@ export const STRINGS = {
     'certs.pText': 'e ka përfunduar plotësisht serinë e trajnimeve “Bazat e SHK” · Pjesa {k}: {title} dhe i ka kaluar të gjitha testet e njohurive.',
     'certs.pContent': 'PËRMBAJTJA',
     'certs.pPlace': 'VENDI, DATA',
+
+    'ref.title': 'Kërko / Rishiko',
+    'ref.sub': 'Videot që i ke kryer. Mund t’i kalosh lirshëm para e prapa.',
+    'ref.search': 'Kërko',
+    'ref.searchPh': 'Fjala e kërkimit, p.sh. llum',
+    'ref.none': 'Nuk u gjet asgjë.',
+    'ref.empty': 'Këtu shfaqen videot që i ke kryer.',
+    'ref.open': 'Hap videon',
+    'ref.chapters': 'Kapitujt',
+    'ref.chapterAria': 'Shko te {t}: {title}',
 
     'err.offline': 'Nuk ka lidhje. Të lutem provo më vonë.',
     'err.generic': 'Diçka shkoi keq. Të lutem provo përsëri.',

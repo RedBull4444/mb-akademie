@@ -105,11 +105,13 @@ Chef (Cookie mb_a):
 - `POST /api/chef/employee/:id/active {active:bool}` (bei Sperren Sessions löschen)
 - `GET /api/chef/settings` → `{companyCode, admins:[{id,name,username,role}]}`
 - `POST /api/chef/company-code/rotate` → `{companyCode}` (neu zufällig `MB-XXXX`)
-- `POST /api/chef/admins {name, username, password}` (nur owner), `POST /api/chef/admins/:id/delete` (nur owner, nicht sich selbst)
+- `POST /api/chef/admins {name, username, password}` (nur owner), `POST /api/chef/admins/:id/delete` (nur owner, nicht sich selbst, nie den letzten Hauptadmin)
+- `POST /api/chef/admins/:id/role {role:'owner'|'admin'}` (nur owner): Admin zum Hauptadmin machen bzw. zurückstufen; der letzte Hauptadmin bleibt Hauptadmin (400). Mehrere Hauptadmins möglich.
+- `POST /api/chef/employee/:id/delete` (nur owner): Mitarbeiter endgültig löschen inkl. progress, quiz_attempts, quiz_runs, sessions, certificates (Prüfseite: „nicht gefunden“).
 - `GET /api/chef/export.csv` → CSV (Semikolon, UTF-8 mit BOM, für Excel): Name;Sprache;Videos erledigt;von;Aktuelles Modul;Zertifikat Teil 1;Teil 2;Teil 3;Quiz-Durchschnitt;Zuletzt aktiv;Status
 
 ## Mitarbeiter-App (public/index.html + assets/app.js, i18n.js)
-Screens (Hash-Routing): `#/willkommen` (L1), `#/registrieren` (L2), `#/anmelden` (L3), `#/start` (1), `#/video/:n` (2 + Schutz-Zustände S1–S3), `#/quiz/:n` (3 + 5 Ergebnis), `#/module` (4), `#/zertifikate` (6). Tab-Bar: Start, Module, Zertifikate. Sprache DE/SQ umschaltbar (oben rechts „DE | SQ“), alle UI-Texte in `i18n.js` (SQ-Texte als Entwurf, Markierung `// SQ: Muttersprachler prüfen`).
+Screens (Hash-Routing): `#/willkommen` (L1), `#/registrieren` (L2), `#/anmelden` (L3), `#/start` (1), `#/video/:n` (2 + Schutz-Zustände S1–S3), `#/quiz/:n` (3 + 5 Ergebnis), `#/module` (4), `#/zertifikate` (6). Tab-Bar: Start, Module, Zertifikate; ab dem ersten geschafften Video zusätzlich „Nachschlagen“ (`#/nachschlagen`, SQ „Kërko / Rishiko“): Liste der geschafften Module mit Kernpunkten + Suche (Groß/klein, Umlaute tolerant), `#/nachschlagen/:n` = freier Player (Vorspulen erlaubt, kein Tracking, kein Quiz-Zwang), optionale Kapitel aus `/assets/chapters.json` (`{ "1": [{ "t": 12.4, "de": "…", "sq": "…" }] }`; fehlt die Datei: keine Kapitel). Sprache DE/SQ umschaltbar (oben rechts „DE | SQ“), alle UI-Texte in `i18n.js` (SQ-Texte als Entwurf, Markierung `// SQ: Muttersprachler prüfen`).
 - Erster Start ohne Session → L1 (Sprache + Firmencode) → L2 (Vorname, Nachname, PIN mit eigenem Ziffernblock, Bestätigung durch zweite Eingabe) → Start.
 - `#/start`: genau wie Design Screen 1 (Hallo Vorname, Fortschrittszeile + Balken, rote Weiter-Karte fürs aktuelle Modul, „Als Nächstes“). Wenn alles fertig: Glückwunsch-Zustand.
 - Quiz: eine Frage pro Screen, Antwort tippen → sofort `check` → richtig/falsch-Darstellung + Erklärung → „Weiter“. Nach 5 Fragen `submit` → Ergebnis-Screen (bestanden / nicht bestanden mit „Video nochmal ansehen“ und „Quiz wiederholen“).
@@ -117,7 +119,7 @@ Screens (Hash-Routing): `#/willkommen` (L1), `#/registrieren` (L2), `#/anmelden`
 - Offline/Fehler: freundliche Meldung „Keine Verbindung. Bitte später nochmal.“
 
 ## Chef-Bereich (public/chef/)
-Responsive (Handy + PC) nach Design Admin-Handy / Admin-PC: Login, Ersteinrichtung, Team (Filter Alle / Nicht aktiv / Fertig, Suche), Mitarbeiter-Detail (PIN zurücksetzen mit Anzeige der neuen PIN, Sperren/Entsperren), Einstellungen (Firmencode groß, „Per WhatsApp teilen“ = `https://wa.me/?text=` mit fertigem Text inkl. Link zur App und Code, Kopieren, Code ändern mit Bestätigung, Export CSV, Zugänge verwalten, Abmelden). Zusätzlich „Vorführen“: alle Videos frei abspielbar mit normalen Controls (für Schulungen am Beamer).
+Responsive (Handy + PC) nach Design Admin-Handy / Admin-PC: Login, Ersteinrichtung, Team (Filter Alle / Nicht aktiv / Fertig, Suche), Mitarbeiter-Detail (PIN zurücksetzen mit Anzeige der neuen PIN, Sperren/Entsperren), Einstellungen (Firmencode groß, „Per WhatsApp teilen“ = `https://wa.me/?text=` mit fertigem Text inkl. Link zur App und Code, Kopieren, Code ändern mit Bestätigung, Export CSV, Zugänge verwalten, Abmelden). Mitarbeiter löschen (nur Hauptadmin, Dialog mit Namenseingabe) in der Detailansicht; Zugänge: Rolle sichtbar, Rollenwechsel/Entfernen nur für Hauptadmins. Zusätzlich „Vorführen“: alle Videos frei abspielbar mit normalen Controls (für Schulungen am Beamer).
 
 ## Prüfseite (public/pruefen/)
 Eingabefeld Prüfcode + Ergebnis: „Gültig – Arben Krasniqi hat Teil 1 · Bauteile am 08.10.2026 abgeschlossen.“ oder „Kein Zertifikat mit diesem Code gefunden.“ Liest `?code=` aus der URL. QR-Code im PDF zeigt auf `<origin>/pruefen/?code=CODE`.

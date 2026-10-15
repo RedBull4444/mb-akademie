@@ -8,7 +8,7 @@
 // Die Tests sind wiederholbar (zufällige Namen); die Ersteinrichtung läuft nur, wenn noch kein Chef existiert.
 // Echte Video-Dauern (DEV_SHORT=0): siehe tests/progress-real.test.mjs.
 import {
-  BASE, CHEF, Client, ORIGIN, RUN_IP, SETUP_TOKEN, cap, ok, rnd, section, sleep, solveQuiz, sql, summary, watch,
+  BASE, CHEF, Client, ORIGIN, RUN_IP, SETUP_TOKEN, cap, ok, rnd, section, sleep, solveQuiz, sql, sqlRows, summary, watch,
 } from './lib.mjs';
 
 async function main() {
@@ -504,6 +504,95 @@ async function main() {
   const berlinDay = new Intl.DateTimeFormat('sv-SE', { timeZone: 'Europe/Berlin' }).format(new Date());
   const csv2 = await chef.get('/api/chef/export.csv');
   ok((csv2.headers.get('content-disposition') || '').includes(`mb-akademie-${berlinDay}.csv`), `Dateiname enthält das Berliner Datum (${berlinDay})`, csv2.headers.get('content-disposition'));
+
+  // =====================================================================
+  section('Mehrere Hauptadmins: Rollen wechseln, letzter Hauptadmin geschützt');
+  const mkAdmin = async (label) => {
+    const username = label + rnd(4);
+    const password = 'Passwort-' + rnd(6) + '-1';
+    const add = await chef.post('/api/chef/admins', { name: 'Test ' + label, username, password });
+    const c = new Client();
+    const lg = await c.post('/api/chef/login', { username, password });
+    return { id: add.data.id, username, password, c, ok: add.status === 200 && lg.status === 200 };
+  };
+  const roleOf = async (id) => (await chef.get('/api/chef/settings')).data.admins.find((a) => a.id === id)?.role;
+  const A = await mkAdmin('anna'), B = await mkAdmin('berat');
+  ok(A.ok && B.ok, 'Zwei Test-Admins angelegt und angemeldet');
+  ok((await roleOf(A.id)) === 'admin' && (await chef.get('/api/chef/settings')).data.admins.every((a) => ['owner', 'admin'].includes(a.role)), 'Admin-Liste zeigt Rollen (owner/admin)');
+
+  // Admin (nicht Hauptadmin) darf weder Rollen ändern noch Mitarbeiter/Admins löschen
+  ok((await A.c.post(`/api/chef/admins/${B.id}/role`, { role: 'owner' })).status === 403, 'Admin darf keine Rolle vergeben -> 403');
+  ok((await A.c.post(`/api/chef/admins/${A.id}/role`, { role: 'owner' })).status === 403, 'Admin kann sich nicht selbst befördern -> 403');
+  ok((await A.c.post(`/api/chef/admins/${B.id}/delete`)).status === 403, 'Admin darf keinen Zugang löschen -> 403');
+  ok((await new Client().post(`/api/chef/admins/${A.id}/role`, { role: 'owner' })).status === 401, 'Rollenwechsel ohne Login -> 401');
+  ok((await chef.post(`/api/chef/admins/${A.id}/role`, { role: 'owner' }, { origin: 'https://evil.example' })).status === 403, 'Rollenwechsel mit fremdem Origin -> 403');
+  ok((await chef.post(`/api/chef/admins/${A.id}/role`, { role: 'superuser' })).status === 400, 'Ungültige Rolle -> 400');
+  ok((await chef.post(`/api/chef/admins/999999/role`, { role: 'owner' })).status === 404, 'Unbekannter Admin -> 404');
+
+  // Opfer-Mitarbeiter mit allem, was es zu löschen gibt: Fortschritt, Quiz-Versuche, Quiz-Lauf, Sitzung, Zertifikat Teil 1
+  const vFirst = 'Lösch', vLast = 'Test' + cap(rnd());
+  const victim = new Client();
+  const vReg = await victim.post('/api/register', { code: CUR, first: vFirst, last: vLast, lang: 'de', pin: '5839' });
+  ok(vReg.status === 200, 'Testmitarbeiter zum Löschen angelegt', vReg.data);
+  for (let n = 0; n <= 7; n++) { await watch(victim, n); if (n > 0) await solveQuiz(victim, n, 0); }
+  await victim.get('/api/quiz/1'); // offener Quiz-Lauf
+  const vMe = (await victim.get('/api/me')).data;
+  const vCert = vMe.parts[0].certificate && vMe.parts[0].certificate.code;
+  ok(/^MB-T1-/.test(vCert || ''), 'Testmitarbeiter hat Zertifikat Teil 1', vMe.parts[0]);
+  ok((await new Client().get('/api/verify?code=' + vCert)).data.valid === true, 'Zertifikat ist vorher gültig (Prüfseite)');
+  const vId = vMe.id;
+  const cnt = () => sqlRows(`SELECT (SELECT COUNT(*) FROM progress WHERE emp_id=${vId}) AS p, (SELECT COUNT(*) FROM quiz_attempts WHERE emp_id=${vId}) AS a, (SELECT COUNT(*) FROM quiz_runs WHERE emp_id=${vId}) AS r, (SELECT COUNT(*) FROM sessions WHERE kind='emp' AND subject_id=${vId}) AS s, (SELECT COUNT(*) FROM certificates WHERE emp_id=${vId}) AS c, (SELECT COUNT(*) FROM employees WHERE id=${vId}) AS e`)[0];
+  const cBefore = cnt();
+  ok(cBefore.p >= 8 && cBefore.a >= 7 && cBefore.r >= 1 && cBefore.s >= 1 && cBefore.c >= 1 && cBefore.e === 1, 'Vor dem Löschen sind alle Datensätze da', cBefore);
+
+  ok((await A.c.post(`/api/chef/employee/${vId}/delete`)).status === 403, 'Admin darf keinen Mitarbeiter löschen -> 403');
+  ok((await new Client().post(`/api/chef/employee/${vId}/delete`)).status === 401, 'Mitarbeiter löschen ohne Login -> 401');
+  ok((await chef.post(`/api/chef/employee/${vId}/delete`, {}, { origin: 'https://evil.example' })).status === 403, 'Mitarbeiter löschen mit fremdem Origin -> 403');
+  ok((await chef.get(`/api/chef/employee/${vId}/delete`)).status === 405, 'Mitarbeiter löschen per GET -> 405');
+  ok(cnt().e === 1 && (await victim.get('/api/me')).status === 200, 'Abgelehnte Löschversuche ändern nichts');
+
+  // Hauptadmin-Rechte vergeben: A wird Hauptadmin und darf dann löschen
+  ok((await chef.post(`/api/chef/admins/${A.id}/role`, { role: 'owner' })).status === 200 && (await roleOf(A.id)) === 'owner', 'Owner macht Admin zum Hauptadmin');
+  ok((await chef.post(`/api/chef/admins/${A.id}/role`, { role: 'owner' })).status === 200, 'Gleiche Rolle nochmal setzen ist harmlos (200)');
+  const Aperm = await A.c.post('/api/chef/admins', { name: 'X Y', username: 'dritter' + rnd(4), password: 'Drittes-Passwort-1' });
+  ok(Aperm.status === 200, 'Neuer Hauptadmin darf Zugänge anlegen (Rolle gilt sofort, ohne neues Login)', Aperm.data);
+  if (Aperm.data.id) await A.c.post(`/api/chef/admins/${Aperm.data.id}/delete`);
+
+  const del = await A.c.post(`/api/chef/employee/${vId}/delete`);
+  ok(del.status === 200 && del.data.ok === true, 'Hauptadmin löscht Mitarbeiter');
+  const cAfter = cnt();
+  ok(cAfter.p === 0 && cAfter.a === 0 && cAfter.r === 0 && cAfter.s === 0 && cAfter.c === 0 && cAfter.e === 0, 'Danach: progress, quiz_attempts, quiz_runs, sessions, certificates, Konto weg', cAfter);
+  ok((await victim.get('/api/me')).status === 401, 'Alte Sitzung des Mitarbeiters ist ungültig (401)');
+  ok((await new Client().post('/api/login', { name: `${vFirst} ${vLast}`, pin: '5839' })).status === 401, 'Anmeldung des gelöschten Mitarbeiters scheitert (401)');
+  ok((await new Client().get('/api/verify?code=' + vCert)).data.valid === false, 'Prüfseite: Zertifikat nach dem Löschen "nicht gefunden"');
+  ok((await chef.get(`/api/chef/employee/${vId}`)).status === 404, 'Detail des gelöschten Mitarbeiters -> 404');
+  ok(!(await chef.get('/api/chef/team')).data.employees.some((e) => e.id === vId), 'Teamliste enthält ihn nicht mehr');
+  ok((await chef.post(`/api/chef/employee/${vId}/delete`)).status === 404, 'Nochmal löschen -> 404');
+  const reReg = new Client();
+  ok((await reReg.post('/api/register', { code: CUR, first: vFirst, last: vLast, lang: 'de', pin: '5839' })).status === 200 && (await reReg.get('/api/me')).data.totals.done === 0, 'Name ist wieder frei; neues Konto startet bei 0');
+
+  // Hauptadmin stuft Hauptadmin zurück; letzter Hauptadmin geschützt
+  ok((await A.c.post(`/api/chef/admins/${A.id}/role`, { role: 'admin' })).status === 200 && (await roleOf(A.id)) === 'admin', 'Hauptadmin darf sich zurückstufen, solange es einen weiteren gibt');
+  ok((await A.c.post(`/api/chef/employee/${vId}/delete`)).status === 403, 'Zurückgestufter Admin darf nicht mehr löschen -> 403 (Rolle wirkt sofort)');
+  ok((await chef.post(`/api/chef/admins/${A.id}/role`, { role: 'owner' })).status === 200, 'Wieder befördert');
+  const ownerNow = (await chef.get('/api/chef/status')).data.me;
+  ok((await A.c.post(`/api/chef/admins/${ownerNow.id}/role`, { role: 'admin' })).status === 200 && (await roleOf(ownerNow.id)) === 'admin', 'Hauptadmin A stuft Hauptadmin Chef zurück (2 Hauptadmins)');
+  ok((await chef.post(`/api/chef/admins/${A.id}/role`, { role: 'admin' })).status === 403, 'Chef ist jetzt Admin und darf nichts mehr ändern -> 403');
+  const last1 = await A.c.post(`/api/chef/admins/${A.id}/role`, { role: 'admin' });
+  ok(last1.status === 400 && /letzte Hauptadmin/.test(last1.data.error) && (await roleOf(A.id)) === 'owner', 'Letzter Hauptadmin kann nicht zurückgestuft werden (400)', last1.data);
+  ok((await A.c.post(`/api/chef/admins/${A.id}/delete`)).status === 400 && (await roleOf(A.id)) === 'owner', 'Letzter Hauptadmin kann sich nicht selbst löschen (400)');
+  ok((await A.c.post(`/api/chef/admins/${ownerNow.id}/role`, { role: 'owner' })).status === 200 && (await roleOf(ownerNow.id)) === 'owner', 'Chef wieder Hauptadmin');
+
+  // Löschen von Hauptadmins durch andere Hauptadmins; nie der letzte, nie man selbst
+  ok((await chef.post(`/api/chef/admins/${B.id}/role`, { role: 'owner' })).status === 200, 'B wird Hauptadmin (jetzt 3 Hauptadmins)');
+  ok((await B.c.post(`/api/chef/admins/${B.id}/delete`)).status === 400, 'Hauptadmin kann sich nicht selbst löschen (400)');
+  ok((await chef.post(`/api/chef/admins/${B.id}/delete`)).status === 200 && (await roleOf(B.id)) === undefined, 'Hauptadmin löscht anderen Hauptadmin');
+  ok((await B.c.get('/api/chef/team')).status === 401, 'Gelöschter Hauptadmin: Sitzung ungültig');
+  ok((await chef.post(`/api/chef/admins/${A.id}/delete`)).status === 200, 'Hauptadmin löscht weiteren Hauptadmin (A)');
+  const ownersLeft = (await chef.get('/api/chef/settings')).data.admins.filter((a) => a.role === 'owner');
+  ok(ownersLeft.length >= 1 && ownersLeft.some((a) => a.id === ownerNow.id), 'Mindestens ein Hauptadmin bleibt (der ursprüngliche)', ownersLeft);
+  ok((await chef.post(`/api/chef/admins/${ownerNow.id}/role`, { role: 'admin' })).status === (ownersLeft.length > 1 ? 200 : 400), 'Letzter Hauptadmin: Rückstufen abgelehnt');
+  ok((await roleOf(ownerNow.id)) === 'owner', 'Chef bleibt Hauptadmin');
 
   // =====================================================================
   section('Abmelden');

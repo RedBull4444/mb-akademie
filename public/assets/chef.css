@@ -124,6 +124,9 @@ h2.sec{font-size:15px;font-weight:700;line-height:20px;color:var(--grey);margin-
 .who{display:flex;align-items:center;justify-content:space-between;gap:12px;min-height:48px;border-bottom:1px solid var(--line)}
 .who .n{font-size:16px;font-weight:600;overflow-wrap:anywhere}
 .who .r{flex:none;display:flex;align-items:center;gap:4px;font-size:15px;color:var(--grey)}
+.who{flex-wrap:wrap}
+.who .wa{flex-basis:100%;display:flex;flex-wrap:wrap;justify-content:flex-end;gap:0 8px;margin-top:-8px}
+.delzone{margin-top:32px}
 .who .del{min-width:44px;min-height:44px;display:flex;align-items:center;justify-content:center;font-size:14px;font-weight:600;color:var(--grey);text-decoration:underline;text-underline-offset:3px}
 
 /* ---------- Vorführen ---------- */
