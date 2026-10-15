@@ -153,7 +153,7 @@ export const MODS = [
   {
     "n": 6,
     "p": 1,
-    "duration": 445.8,
+    "duration": 438.5,
     "de": "Schlammabscheider",
     "sq": "Ndarësi i llumit",
     "g": {
