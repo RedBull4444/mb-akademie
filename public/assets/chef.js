@@ -58,6 +58,7 @@ const I = {
   chevD: '<svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg>',
   doc: '<svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 3h8l4 4v14H6z"/><path d="M14 3v4h4"/><path d="M9 14h6M9 17.5h4"/></svg>',
   download: (s = 24) => `<svg viewBox="0 0 24 24" width="${s}" height="${s}" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 4v11"/><path d="M7.5 10.5L12 15l4.5-4.5"/><path d="M5 20h14"/></svg>`,
+  cockpit: '<svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 20v-8M12 20V5M19 20v-5"/></svg>',
   team: '<svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="9" cy="8.5" r="3.5"/><path d="M2.5 20a6.5 6.5 0 0 1 13 0"/><path d="M16 5.2a3.5 3.5 0 0 1 0 6.6"/><path d="M18 14a6.5 6.5 0 0 1 3.5 6"/></svg>',
   sliders: '<svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 7h9M17 7h3M4 17h3M11 17h9"/><circle cx="15" cy="7" r="2"/><circle cx="9" cy="17" r="2"/></svg>',
   play: '<svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="3.5"/><path d="M10.5 9.5v5l4-2.5z"/></svg>'
@@ -114,15 +115,16 @@ const S = {
   status: null, team: null, settings: null,
   filter: 'all', lang: 'all', q: '', searchOpen: false,
   sel: null, details: {}, showAll: false, open: {},
-  vlang: 'de', loadErr: ''
+  vlang: 'de', loadErr: '', cockpit: null, cockErr: ''
 };
 
 function parseRoute() {
   const h = (location.hash || '').replace(/^#\/?/, '').split('/');
   if (h[0] === 'mitarbeiter' && h[1]) return { v: 'emp', id: h[1] };
+  if (h[0] === 'team') return { v: 'team' };
   if (h[0] === 'einstellungen') return { v: 'settings' };
   if (h[0] === 'vorfuehren') return { v: 'demo', n: h[1] != null && h[1] !== '' ? Number(h[1]) : null };
-  return { v: 'team' };
+  return { v: 'cockpit' };
 }
 const go = h => { location.hash = h; };
 const amOwner = () => !!(S.status && S.status.me && S.status.me.role === 'owner');
@@ -150,6 +152,7 @@ function render() {
   if (S.status.setupNeeded) return renderSetup(app);
   if (!S.status.loggedIn) return renderLogin(app);
   const r = parseRoute();
+  if (r.v === 'cockpit') return renderCockpit(app);
   if (r.v === 'team' || r.v === 'emp') return renderTeam(app, r);
   if (r.v === 'settings') return renderSettings(app);
   if (r.v === 'demo') return renderDemo(app, r);
@@ -176,7 +179,7 @@ function renderLogin(app) {
     btn.disabled = true; btn.textContent = 'Moment …';
     try {
       await api('/chef/login', { username: f.username.value.trim(), password: f.password.value });
-      S.team = null; S.settings = null; S.details = {};
+      S.team = null; S.settings = null; S.details = {}; S.cockpit = null;
       await boot();
     } catch (e) {
       btn.disabled = false; btn.textContent = 'Anmelden';
@@ -225,7 +228,7 @@ function renderSetup(app) {
 function shell(active, inner, opts = {}) {
   const me = (S.status && S.status.me) || {};
   const myName = me.name || me.username || '';
-  const tabs = [['team', '#/team', 'Team', I.team], ['demo', '#/vorfuehren', 'Vorführen', I.play], ['settings', '#/einstellungen', 'Einstellungen', I.sliders]];
+  const tabs = [['cockpit', '#/cockpit', 'Cockpit', I.cockpit], ['team', '#/team', 'Team', I.team], ['demo', '#/vorfuehren', 'Vorführen', I.play], ['settings', '#/einstellungen', 'Einstellungen', I.sliders]];
   if (isDesk()) {
     return `<div class="page">
       <header class="deskhead"><div class="l">${LOGO(86, 32)}<span class="sep" aria-hidden="true"></span><span class="tag">Chef-Bereich</span></div>
@@ -242,8 +245,8 @@ function bindShell() {
 }
 async function logout() {
   try { await api('/chef/logout', {}); } catch (e) { /* egal */ }
-  S.status = { setupNeeded: false, loggedIn: false }; S.team = null; S.settings = null; S.details = {}; S.sel = null;
-  go('#/team'); render();
+  S.status = { setupNeeded: false, loggedIn: false }; S.team = null; S.settings = null; S.details = {}; S.sel = null; S.cockpit = null;
+  go('#/cockpit'); render();
 }
 
 /* ============================================================ Dialoge */
@@ -265,6 +268,95 @@ function confirmDlg({ title, text, ok = 'Ja', cancel = 'Abbrechen', danger = fal
     dlg.addEventListener('close', () => { if (!done) res(false); });
     dlg.querySelector('[data-a="no"]').focus();
   });
+}
+
+/* ============================================================ Cockpit */
+const WEEKDAY = new Intl.DateTimeFormat('de-DE', { timeZone: TZ, weekday: 'short' });
+// Begrüßung nach Berliner Zeit: 4–10 Uhr Morgen, 11–17 Tag, sonst Abend
+function greetingFor(date = new Date()) {
+  const h = Number(new Intl.DateTimeFormat('en-GB', { timeZone: TZ, hour: '2-digit', hourCycle: 'h23' }).format(date));
+  return h >= 4 && h < 11 ? 'Guten Morgen' : h >= 11 && h < 18 ? 'Guten Tag' : 'Guten Abend';
+}
+const TIMES = { 3: 'dreimal', 4: 'viermal', 5: 'fünfmal' };
+
+async function loadCockpit() {
+  try { S.cockpit = await api('/chef/cockpit'); S.cockErr = ''; }
+  catch (e) { if (!S.cockpit) S.cockErr = errText(e); }
+}
+
+function cockpitHtml(c) {
+  const me = (S.status && S.status.me) || {};
+  const first = String(me.name || me.username || '').trim().split(/\s+/)[0];
+  const stand = fTime.format(toMs(c.asOf) || Date.now());
+  const sub = c.registered === 0 ? `Noch niemand angemeldet · Stand heute ${stand}` : `${c.registered} ${c.registered === 1 ? 'Mitarbeiter' : 'Mitarbeiter'} · Stand heute ${stand}`;
+
+  const kFinSub = c.finishedWeek > 0 ? `<div class="ks ok">+${c.finishedWeek} diese Woche</div>` : '<div class="ks">diese Woche niemand neu</div>';
+  const kWorkSub = c.avgModule != null ? `<div class="ks">Ø Modul ${Math.round(c.avgModule)} von ${c.moduleTotal}</div>` : '<div class="ks">Niemand in Arbeit</div>';
+  const kNewSub = c.notStarted > 0 ? '<a class="ks lnk" id="resend" href="#/einstellungen">Firmencode erneut schicken</a>' : '<div class="ks">Alle haben angefangen</div>';
+
+  const parts = c.parts.map(p => {
+    const pct = p.total ? Math.round((p.certified / p.total) * 100) : 0;
+    return `<div class="pr"><div class="pt"><span>Teil ${p.k} · ${esc(p.title)}</span><span class="num">${p.certified} / ${p.total}</span></div>
+      <div class="pbar" role="img" aria-label="${p.certified} von ${p.total} mit Zertifikat Teil ${p.k}"><i style="width:${pct}%"></i></div></div>`;
+  }).join('');
+  const stats = `<div class="pstats"><span><b class="num">${c.certificatesTotal}</b> ${c.certificatesTotal === 1 ? 'Zertifikat ausgestellt' : 'Zertifikate ausgestellt'}</span>
+    <span>${c.firstTryRate == null ? 'Noch keine Quizze abgeschlossen' : `<b class="num">${c.firstTryRate} %</b> Quiz im 1. Versuch bestanden`}</span></div>`;
+
+  const attn = c.attention.length ? c.attention.map(a => {
+    const txt = a.kind === 'failed'
+      ? `Quiz Modul ${a.module} ${TIMES[a.fails] || a.fails + '-mal'} nicht bestanden`
+      : `seit ${a.days} Tagen nicht aktiv${a.module != null ? ` · Modul ${a.module}` : ''}`;
+    return `<button class="rowbtn" data-emp="${esc(a.id)}"><span class="dot ${a.level}" aria-hidden="true"></span><span class="rb"><span class="rn">${esc(a.name)}</span><span class="rs">${esc(txt)}</span></span><span class="rc" aria-hidden="true">›</span></button>`;
+  }).join('') + (c.attentionTotal > c.attention.length ? `<p class="more">+ ${c.attentionTotal - c.attention.length} weitere</p>` : '')
+    : `<p class="none">${c.registered ? 'Gerade ist alles im grünen Bereich.' : 'Noch niemand angemeldet.'}</p>`;
+
+  const certs = c.recentCerts.length ? c.recentCerts.map(r =>
+    `<button class="line" data-emp="${esc(r.empId)}"><span class="ln">${esc(r.name)}</span><span class="lr">Teil ${r.part} · ${esc(WEEKDAY.format(toMs(r.issuedAt)).replace('.', ''))}</span></button>`).join('')
+    : '<p class="none">Diese Woche noch keine neuen Zertifikate.</p>';
+
+  const hard = c.hardest.length ? c.hardest.map(h =>
+    `<div class="line"><span class="ln mid">Modul ${h.module} · ${esc(h.title)}</span><span class="lr pct ${h.wrongRate >= 30 ? 'hot' : ''} num">${h.wrongRate} %</span></div>`).join('')
+    : '<p class="none">Noch keine Daten. Die Auswertung startet, sobald eine Frage mindestens 5 Antworten hat.</p>';
+
+  return `<div class="cock">
+    <div class="ck-head"><div class="tl"><h1 class="title">${esc(greetingFor())}${first ? ', ' + esc(first) : ''}</h1><p class="ck-sub">${esc(sub)}</p></div>
+      <a class="btn btn-sec btn-d ex" href="/api/chef/export.csv" download>${I.download(20)}Monatsbericht herunterladen</a></div>
+    <div class="kpis">
+      <div class="kpi"><div class="kt"><div class="kl">Komplett fertig</div>${kFinSub}</div><div class="kn num">${c.finished}</div></div>
+      <div class="kpi"><div class="kt"><div class="kl">In Arbeit</div>${kWorkSub}</div><div class="kn num">${c.inWork}</div></div>
+      <div class="kpi ${c.notStarted > 0 ? 'warn' : ''}"><div class="kt"><div class="kl">Noch nicht gestartet</div>${kNewSub}</div><div class="kn num">${c.notStarted}</div></div>
+    </div>
+    <div class="ck-grid a">
+      <section class="card" aria-labelledby="ck-h1"><h2 id="ck-h1">Fortschritt je Teil</h2>${parts}${stats}</section>
+      <section class="card" aria-labelledby="ck-h2"><h2 id="ck-h2">Braucht Aufmerksamkeit</h2><div class="rows">${attn}</div></section>
+    </div>
+    <div class="ck-grid b">
+      <section class="card" aria-labelledby="ck-h3"><h2 id="ck-h3">Neue Zertifikate diese Woche</h2><div class="lines">${certs}</div></section>
+      <section class="card" aria-labelledby="ck-h4"><h2 id="ck-h4">Wo das Team noch unsicher ist</h2><p class="cs">Am häufigsten falsch beantwortete Quizfragen – gutes Thema für die Teamrunde.</p><div class="lines">${hard}</div></section>
+    </div>
+  </div>`;
+}
+
+function renderCockpit(app) {
+  document.title = 'Cockpit · Chef-Bereich';
+  const desk = isDesk();
+  const paint = () => {
+    let inner;
+    if (S.cockpit) inner = cockpitHtml(S.cockpit);
+    else inner = `<div class="cock"><div class="splash">${esc(S.cockErr || 'Lädt …')}</div>${S.cockErr ? '<div style="text-align:center"><button class="btn btn-sec btn-sm" id="ckRetry" style="display:inline-flex">Nochmal versuchen</button></div>' : ''}</div>`;
+    app.innerHTML = shell('cockpit', (desk ? '' : `<div class="topbar m">${LOGO(75, 28)}<span class="where">Chef-Bereich</span></div>`) + inner);
+    bindShell();
+    const rt = $('#ckRetry'); if (rt) rt.onclick = () => { S.cockErr = ''; paint(); loadCockpit().then(done); };
+    $$('[data-emp]').forEach(b => b.onclick = () => go('#/mitarbeiter/' + b.dataset.emp));
+    const rs = $('#resend');
+    if (rs) {
+      const set = () => { if (S.settings && S.settings.companyCode) { rs.href = waLink(S.settings.companyCode); rs.target = '_blank'; rs.rel = 'noopener noreferrer'; } };
+      if (S.settings) set(); else api('/chef/settings').then(x => { S.settings = x; set(); }).catch(() => { });
+    }
+  };
+  const done = () => { if (parseRoute().v === 'cockpit') paint(); };
+  paint();
+  loadCockpit().then(done);
 }
 
 /* ============================================================ Team */
@@ -371,7 +463,7 @@ function paintSummary() {
     el.innerHTML = `<span>${esc(base)}${sm.inactive ? ' ·' : ''}</span>${sm.inactive ? `<span class="warn">${I.clock(16)}${sm.inactive} seit über ${INACTIVE_DAYS} Tagen nicht aktiv</span>` : ''}`;
   } else {
     el.textContent = base;
-    const n = $('#notice');
+    const n = $('#notice'); if (!n) return; // Ansicht wurde zwischenzeitlich gewechselt (Fenstergröße)
     n.innerHTML = sm.inactive && S.filter !== 'inactive'
       ? `<div class="notice">${I.clock(20, '#5b6570')}<span>${sm.inactive} seit über ${INACTIVE_DAYS} Tagen nicht aktiv</span><button id="showInactive">Anzeigen</button></div>` : '';
     const b = $('#showInactive');

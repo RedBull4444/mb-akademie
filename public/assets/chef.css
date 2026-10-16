@@ -59,9 +59,55 @@ svg{display:block;flex:none}
 h1.title{font-size:32px;font-weight:800;letter-spacing:-.03em;line-height:1.1}
 h2.sec{font-size:15px;font-weight:700;line-height:20px;color:var(--grey);margin-top:28px}
 
-.tabbar{position:fixed;left:0;right:0;bottom:0;z-index:20;height:calc(var(--tab-h) + env(safe-area-inset-bottom));padding:8px 12px env(safe-area-inset-bottom);background:#fff;border-top:1px solid var(--line);display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:4px}
+.tabbar{position:fixed;left:0;right:0;bottom:0;z-index:20;height:calc(var(--tab-h) + env(safe-area-inset-bottom));padding:8px 12px env(safe-area-inset-bottom);background:#fff;border-top:1px solid var(--line);display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:4px}
 .tabbar a{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:4px;height:56px;color:var(--grey);font-size:12px;font-weight:600;text-align:center;text-decoration:none}
 .tabbar a[aria-current="page"]{color:var(--ink);font-weight:700}
+
+/* ---------- Cockpit ---------- */
+.num{font-variant-numeric:tabular-nums}
+.ck-head{margin-top:16px}
+.ck-head .btn{margin-top:16px;width:100%;height:48px;border-radius:14px;font-size:16px}
+.ck-sub{margin-top:6px;font-size:15px;font-weight:500;line-height:20px;color:var(--grey)}
+.kpis{display:grid;gap:12px;margin-top:20px}
+.kpi{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:16px 20px;border:1px solid var(--line);border-radius:20px}
+.kpi .kl{font-size:15px;font-weight:700;line-height:20px;color:var(--grey)}
+.kpi .ks{margin-top:2px;font-size:14px;font-weight:600;line-height:19px;color:var(--grey)}
+.kpi .ks.ok{color:var(--green)}
+.kpi .ks.lnk{display:inline-flex;align-items:center;min-height:44px;margin-top:0;text-decoration:underline;text-underline-offset:3px}
+.kpi .kn{flex:none;font-size:48px;font-weight:800;letter-spacing:-.04em;line-height:52px}
+.kpi.warn{border-color:#f3c7cd;background:#fff6f7}
+.kpi.warn .kl{color:var(--red)}
+.ck-grid{display:block}
+.card{margin-top:12px;padding:20px;border:1px solid var(--line);border-radius:20px}
+.card h2{font-size:18px;font-weight:800;line-height:24px}
+.card .cs{margin-top:4px;font-size:14px;font-weight:500;line-height:19px;color:var(--grey)}
+.pr{margin-top:18px}
+.pr .pt{display:flex;justify-content:space-between;gap:12px;font-size:15px;font-weight:700;line-height:20px}
+.pbar{height:10px;margin-top:8px;border-radius:5px;background:var(--line);overflow:hidden}
+.pbar i{display:block;height:100%;border-radius:5px;background:var(--ink)}
+.pstats{display:flex;flex-wrap:wrap;gap:6px 28px;margin-top:22px;padding-top:16px;border-top:1px solid var(--line);font-size:14px;font-weight:600;line-height:19px;color:var(--grey)}
+.pstats b{color:var(--ink)}
+.card .rows{margin-top:8px}
+.rowbtn{display:flex;align-items:center;gap:12px;width:100%;min-height:56px;padding:8px;margin:0 -8px;width:calc(100% + 16px);border-radius:12px}
+.rowbtn:hover,.rowbtn:active{background:var(--hover)}
+.rowbtn .dot{flex:none;width:10px;height:10px;border-radius:50%}
+.rowbtn .dot.red{background:var(--red)}
+.rowbtn .dot.yellow{background:#e0a100}
+.rowbtn .rb{flex:1;min-width:0}
+.rowbtn .rn{display:block;font-size:15px;font-weight:700;line-height:20px}
+.rowbtn .rs{display:block;font-size:13px;font-weight:600;line-height:18px;color:var(--grey)}
+.rowbtn .rc{flex:none;font-size:16px;font-weight:700;color:var(--grey)}
+.card .more{margin-top:6px;font-size:14px;font-weight:600;color:var(--grey)}
+.card .none{margin-top:14px;font-size:15px;font-weight:500;line-height:21px;color:var(--grey)}
+.lines{margin-top:10px}
+.line{display:flex;align-items:center;justify-content:space-between;gap:16px;width:100%;min-height:48px;padding:10px 0;border-bottom:1px solid #f1f2f4;font-size:15px;line-height:20px;text-align:left}
+.line:last-child{border-bottom:0}
+button.line:hover{background:var(--hover)}
+.line .ln{font-weight:700;min-width:0;overflow-wrap:anywhere}
+.line .ln.mid{font-weight:600}
+.line .lr{flex:none;font-weight:600;color:var(--grey)}
+.line .lr.pct{font-weight:800}
+.line .lr.pct.hot{color:var(--red)}
 
 /* ---------- Team (Handy) ---------- */
 .team-head{display:flex;align-items:center;justify-content:space-between;margin-top:20px;height:44px}
@@ -185,6 +231,24 @@ dialog .btns.one{grid-template-columns:1fr}
   .desknav a[aria-current="page"]{border-bottom-color:var(--ink);font-weight:700;color:var(--ink)}
   h1.title{font-size:40px}
   .toast{bottom:32px}
+
+  .ck-head{display:flex;align-items:flex-end;justify-content:space-between;flex-wrap:wrap;gap:16px 24px;margin-top:36px}
+  .ck-head .tl{flex:1 1 380px;min-width:0}
+  .ck-head h1.title{font-size:36px;line-height:44px}
+  .ck-sub{margin-top:4px;font-size:16px}
+  .ck-head .btn{margin-top:0;width:auto;height:44px;padding:0 18px;border-radius:12px;font-size:15px}
+  .kpis{grid-template-columns:repeat(3,minmax(0,1fr));gap:16px;margin-top:28px}
+  .kpi{display:flex;flex-direction:column;align-items:flex-start;justify-content:flex-start;gap:0;padding:24px}
+  .kpi .kt{display:contents}
+  .kpi .kl{order:1}
+  .kpi .kn{order:2;margin-top:6px;font-size:56px;line-height:60px}
+  .kpi .ks{order:3;margin-top:6px}
+  .kpi .ks.lnk{display:inline-flex;margin-top:0}
+  .ck-grid{display:grid;gap:16px;margin-top:16px}
+  .ck-grid.a{grid-template-columns:minmax(0,1.25fr) minmax(0,1fr)}
+  .ck-grid.b{grid-template-columns:minmax(0,1fr) minmax(0,1fr)}
+  .card{margin-top:0;padding:24px}
+  .rowbtn{padding:12px 8px}
 
   .dtitle{display:flex;align-items:flex-end;justify-content:space-between;flex-wrap:wrap;gap:24px;margin-top:48px}
   .dtitle .tl{flex:1 1 480px;min-width:0}

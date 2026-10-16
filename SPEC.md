@@ -99,6 +99,7 @@ Chef (Cookie mb_a):
 - `GET /api/chef/status` → `{setupNeeded:bool, loggedIn:bool, me?}`
 - `POST /api/chef/setup {setupToken, name, username, password}`
 - `POST /api/chef/login {username, password}`, `POST /api/chef/logout`
+- `GET /api/chef/cockpit` (jeder Admin) → `{asOf, registered, finished, finishedWeek, inWork, notStarted, avgModule, moduleTotal, parts:[{k,title,certified,total}], certificatesTotal, firstTryRate, attention:[{id,name,kind:'inactive'|'failed',days?,fails?,module,level:'red'|'yellow'}], attentionTotal, recentCerts:[{empId,name,part,issuedAt}], hardest:[{module,question,title,answers,wrongRate}]}`. Aufmerksamkeit: inaktiv ≥ 7 Tage mit begonnener Schulung (rot ab 10 Tagen, gelb 7–9) oder ≥ 3 Fehlversuche im selben Quiz ohne Bestehen (rot); gesperrte/fertige Konten zählen nicht. Top-3-Fragen nur ab 5 Antworten und Fehlerquote > 0.
 - `GET /api/chef/team` → `{summary:{registered, cert1, finished, inactive7}, employees:[{id, name, lang, done, total, current:{n,title}|null, finished, certs:[1,2,3 bool], quizAvg, lastSeen, active}]}`
 - `GET /api/chef/employee/:id` → Detail inkl. modules[{n,title,completed,completedAt,maxPos,quizBest,attempts}], certificates
 - `POST /api/chef/employee/:id/reset-pin` → `{pin:"4821"}` (neue zufällige PIN, einmalig angezeigt; failed/locked zurücksetzen; alle Sessions des Mitarbeiters löschen)
@@ -111,6 +112,7 @@ Chef (Cookie mb_a):
 - `GET /api/chef/export.csv` → CSV (Semikolon, UTF-8 mit BOM, für Excel): Name;Sprache;Videos erledigt;von;Aktuelles Modul;Zertifikat Teil 1;Teil 2;Teil 3;Quiz-Durchschnitt;Zuletzt aktiv;Status
 
 ## Mitarbeiter-App (public/index.html + assets/app.js, i18n.js)
+Abzeichen (Tab Zertifikate, oben): 4 Embleme (Teil 1 „Sicherheit & Druck“, Teil 2 „Speicher & Anlage“, Teil 3 „Hydraulik-Profi“, Gesamt „M&B Akademie“) als Inline-SVG; erreicht = Zertifikat vorhanden. Beim Bestehen des letzten Quiz eines Teils (Zertifikat entsteht) zeigt die App statt des Ergebnis-Screens den Abschluss-Moment (einmal pro Teil, `prefers-reduced-motion` respektiert). „Zertifikat teilen“ öffnet ein Bottom-Sheet (WhatsApp, Link kopieren, PDF, native Teilen-Funktion falls vorhanden); Prüf-Link `<origin>/pruefen/?code=…`. Link-Vorschau (Open Graph) in `index.html` und `pruefen/index.html`, Bild `assets/og.png`.
 Screens (Hash-Routing): `#/willkommen` (L1), `#/registrieren` (L2), `#/anmelden` (L3), `#/start` (1), `#/video/:n` (2 + Schutz-Zustände S1–S3), `#/quiz/:n` (3 + 5 Ergebnis), `#/module` (4), `#/zertifikate` (6). Tab-Bar: Start, Module, Zertifikate; ab dem ersten geschafften Video zusätzlich „Nachschlagen“ (`#/nachschlagen`, SQ „Kërko / Rishiko“): Liste der geschafften Module mit Kernpunkten + Suche (Groß/klein, Umlaute tolerant), `#/nachschlagen/:n` = freier Player (Vorspulen erlaubt, kein Tracking, kein Quiz-Zwang), optionale Kapitel aus `/assets/chapters.json` (`{ "1": [{ "t": 12.4, "de": "…", "sq": "…" }] }`; fehlt die Datei: keine Kapitel). Sprache DE/SQ umschaltbar (oben rechts „DE | SQ“), alle UI-Texte in `i18n.js` (SQ-Texte als Entwurf, Markierung `// SQ: Muttersprachler prüfen`).
 - Erster Start ohne Session → L1 (Sprache + Firmencode) → L2 (Vorname, Nachname, PIN mit eigenem Ziffernblock, Bestätigung durch zweite Eingabe) → Start.
 - `#/start`: genau wie Design Screen 1 (Hallo Vorname, Fortschrittszeile + Balken, rote Weiter-Karte fürs aktuelle Modul, „Als Nächstes“). Wenn alles fertig: Glückwunsch-Zustand.
@@ -119,6 +121,7 @@ Screens (Hash-Routing): `#/willkommen` (L1), `#/registrieren` (L2), `#/anmelden`
 - Offline/Fehler: freundliche Meldung „Keine Verbindung. Bitte später nochmal.“
 
 ## Chef-Bereich (public/chef/)
+Erster Tab ist das **Cockpit** (`#/cockpit`, Startseite): Begrüßung nach Berliner Zeit, Kacheln fertig / in Arbeit / nicht gestartet, Fortschritt je Teil, „Braucht Aufmerksamkeit“, neue Zertifikate (7 Tage), unsicherste Quizfragen, „Monatsbericht herunterladen“ = CSV-Export. Design: `Admin-Cockpit.dc.html`.
 Responsive (Handy + PC) nach Design Admin-Handy / Admin-PC: Login, Ersteinrichtung, Team (Filter Alle / Nicht aktiv / Fertig, Suche), Mitarbeiter-Detail (PIN zurücksetzen mit Anzeige der neuen PIN, Sperren/Entsperren), Einstellungen (Firmencode groß, „Per WhatsApp teilen“ = `https://wa.me/?text=` mit fertigem Text inkl. Link zur App und Code, Kopieren, Code ändern mit Bestätigung, Export CSV, Zugänge verwalten, Abmelden). Mitarbeiter löschen (nur Hauptadmin, Dialog mit Namenseingabe) in der Detailansicht; Zugänge: Rolle sichtbar, Rollenwechsel/Entfernen nur für Hauptadmins. Zusätzlich „Vorführen“: alle Videos frei abspielbar mit normalen Controls (für Schulungen am Beamer).
 
 ## Prüfseite (public/pruefen/)

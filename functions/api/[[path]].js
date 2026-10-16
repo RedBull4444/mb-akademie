@@ -529,6 +529,120 @@ async function chefTeam({ env }) {
   });
 }
 
+// =====================================================================
+// Cockpit (Chef-Startseite): alles, was der Chef auf einen Blick braucht.
+// =====================================================================
+const DAY = 86400;
+const ATTN_YELLOW_DAYS = 7;   // ab 7 Tagen ohne Aktivität (gelb) ...
+const ATTN_RED_DAYS = 10;     // ... ab 10 Tagen rot
+const ATTN_FAILS = 3;         // 3 Fehlversuche im selben Quiz ohne Bestehen (rot)
+const ATTN_MAX = 8;           // höchstens so viele Zeilen in der Liste
+const HARD_MIN_ANSWERS = 5;   // Fragen erst ab so vielen Antworten in der Auswertung
+
+// Frage-Titel kurz (DE): an Wortgrenze gekürzt
+function shortTitle(text, max = 64) {
+  const t = String(text || '').replace(/\s+/g, ' ').trim();
+  if (t.length <= max) return t;
+  const cut = t.slice(0, max);
+  const sp = cut.lastIndexOf(' ');
+  return (sp > max * 0.6 ? cut.slice(0, sp) : cut).replace(/[\s,;:.\-–?]+$/, '') + ' …';
+}
+
+async function chefCockpit({ env }) {
+  const t = now();
+  const weekAgo = t - 7 * DAY;
+  const [team, firstTry, answerRows] = await Promise.all([
+    loadTeam(env),
+    all(env, 'SELECT passed FROM quiz_attempts WHERE id IN (SELECT MIN(id) FROM quiz_attempts GROUP BY emp_id, module)'),
+    all(env, 'SELECT module, answers FROM quiz_attempts WHERE answers IS NOT NULL'),
+  ]);
+
+  // --- Kacheln: fertig / in Arbeit / nicht gestartet (zusammen = alle Mitarbeiter) ---
+  const finishedList = team.filter((x) => x.finished);
+  const notStarted = team.filter((x) => !x.finished && !x.started);
+  const inWork = team.filter((x) => !x.finished && x.started);
+  const lastCert = (x) => Math.max(0, ...x.certs.filter(Boolean).map((c) => c.issued_at || 0));
+  const finishedWeek = finishedList.filter((x) => lastCert(x) >= weekAgo).length;
+  const activeInWork = inWork.filter((x) => x.e.active);
+  const curMods = activeInWork.map((x) => (x.current ? x.current.n : null)).filter((n) => n !== null);
+  const avgModule = curMods.length ? Math.round((curMods.reduce((a, b) => a + b, 0) / curMods.length) * 10) / 10 : null;
+
+  // --- Teile: wie viele haben das Zertifikat ---
+  const parts = [1, 2, 3].map((k) => ({
+    k,
+    title: partTitle(k, 'de'),
+    certified: team.filter((x) => x.certs[k - 1]).length,
+    total: team.length,
+  }));
+  const certificatesTotal = team.reduce((a, x) => a + x.certs.filter(Boolean).length, 0);
+
+  // --- Quiz im 1. Versuch bestanden (je Mitarbeiter und Modul zählt der erste Versuch) ---
+  const firstTryRate = firstTry.length ? Math.round((firstTry.filter((r) => r.passed).length / firstTry.length) * 100) : null;
+
+  // --- Braucht Aufmerksamkeit ---
+  const attention = [];
+  for (const x of team) {
+    if (!x.e.active || x.finished) continue;
+    const idle = Math.floor((t - x.lastSeen) / DAY);
+    if (x.started && idle >= ATTN_YELLOW_DAYS) {
+      attention.push({ id: x.e.id, name: `${x.e.first} ${x.e.last}`, kind: 'inactive', days: idle, module: x.current ? x.current.n : null, level: idle >= ATTN_RED_DAYS ? 'red' : 'yellow' });
+    }
+    const stuck = x.mods.filter((m) => m.attempts >= ATTN_FAILS && !m.quizPassed).sort((a, b) => b.attempts - a.attempts)[0];
+    if (stuck) {
+      attention.push({ id: x.e.id, name: `${x.e.first} ${x.e.last}`, kind: 'failed', fails: stuck.attempts, module: stuck.n, level: 'red' });
+    }
+  }
+  attention.sort((a, b) => (a.level === b.level ? 0 : a.level === 'red' ? -1 : 1) || (b.days || b.fails * 3) - (a.days || a.fails * 3) || a.name.localeCompare(b.name, 'de'));
+
+  // --- Zertifikate der letzten 7 Tage ---
+  const recent = await all(
+    env,
+    `SELECT c.part, c.issued_at, e.id AS emp_id, e.first, e.last FROM certificates c JOIN employees e ON e.id = c.emp_id
+     WHERE c.issued_at >= ? ORDER BY c.issued_at DESC LIMIT 20`,
+    weekAgo,
+  );
+
+  // --- Am häufigsten falsch beantwortete Fragen (aus allen gespeicherten Antworten) ---
+  const stat = new Map(); // "modul:frage" -> {n, wrong}
+  for (const r of answerRows) {
+    let a;
+    try { a = JSON.parse(r.answers); } catch { continue; }
+    const qs = QUIZ[r.module];
+    if (!Array.isArray(a) || !qs) continue;
+    qs.forEach((q, i) => {
+      if (!Number.isInteger(a[i])) return;
+      const key = r.module + ':' + i;
+      const s = stat.get(key) || { module: r.module, q: i, n: 0, wrong: 0 };
+      s.n++;
+      if (a[i] !== q.correct) s.wrong++;
+      stat.set(key, s);
+    });
+  }
+  const hardest = [...stat.values()]
+    .filter((s) => s.n >= HARD_MIN_ANSWERS && s.wrong > 0)
+    .map((s) => ({ module: s.module, question: s.q, title: shortTitle(QUIZ[s.module][s.q].q.de), answers: s.n, wrongRate: Math.round((s.wrong / s.n) * 100) }))
+    .sort((a, b) => b.wrongRate - a.wrongRate || b.answers - a.answers || a.module - b.module || a.question - b.question)
+    .slice(0, 3);
+
+  return json({
+    asOf: t,
+    registered: team.length,
+    finished: finishedList.length,
+    finishedWeek,
+    inWork: inWork.length,
+    notStarted: notStarted.length,
+    avgModule,
+    moduleTotal: MODS.length - 1,
+    parts,
+    certificatesTotal,
+    firstTryRate,
+    attention: attention.slice(0, ATTN_MAX),
+    attentionTotal: attention.length,
+    recentCerts: recent.map((r) => ({ empId: r.emp_id, name: `${r.first} ${r.last}`, part: r.part, issuedAt: r.issued_at })),
+    hardest,
+  });
+}
+
 async function chefEmployee({ env, params }) {
   const id = Number(params[0]);
   const e = Number.isInteger(id) ? await first(env, 'SELECT * FROM employees WHERE id = ?', id) : null;
@@ -724,6 +838,7 @@ const ROUTES = [
   ['POST', /^chef\/login$/, null, chefLogin],
   ['POST', /^chef\/logout$/, null, chefLogout],
   ['GET', /^chef\/team$/, 'admin', chefTeam],
+  ['GET', /^chef\/cockpit$/, 'admin', chefCockpit],
   ['GET', /^chef\/employee\/(\d+)$/, 'admin', chefEmployee],
   ['POST', /^chef\/employee\/(\d+)\/reset-pin$/, 'admin', chefResetPin],
   ['POST', /^chef\/employee\/(\d+)\/active$/, 'admin', chefActive],

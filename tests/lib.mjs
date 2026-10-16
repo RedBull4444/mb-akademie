@@ -33,7 +33,11 @@ export class Client {
     if (this.ip) h['CF-Connecting-IP'] = this.ip;
     let payload;
     if (body !== undefined) { h['Content-Type'] = 'application/json'; payload = JSON.stringify(body); }
-    const res = await fetch(BASE + path, { method, headers: h, body: payload, redirect: 'manual' });
+    const doFetch = () => fetch(BASE + path, { method, headers: h, body: payload, redirect: 'manual' });
+    let res;
+    // Eine im Leerlauf (z. B. während eines wrangler-Aufrufs) vom Server geschlossene Verbindung: GET einmal wiederholen.
+    try { res = await doFetch(); }
+    catch (e) { if (method !== 'GET' || !(e && e.cause && e.cause.code === 'UND_ERR_SOCKET')) throw e; res = await doFetch(); }
     const setCookies = res.headers.getSetCookie ? res.headers.getSetCookie() : [];
     for (const c of setCookies) {
       const [pair, ...attrs] = c.split(';').map((s) => s.trim());

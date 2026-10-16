@@ -506,6 +506,77 @@ async function main() {
   ok((csv2.headers.get('content-disposition') || '').includes(`mb-akademie-${berlinDay}.csv`), `Dateiname enthält das Berliner Datum (${berlinDay})`, csv2.headers.get('content-disposition'));
 
   // =====================================================================
+  section('Chef-Cockpit: GET /api/chef/cockpit');
+  const { QUIZ } = await import(new URL('../functions/_lib/quiz.js', import.meta.url).href);
+  ok((await new Client().get('/api/chef/cockpit')).status === 401, 'Cockpit ohne Login -> 401');
+  ok((await emp.get('/api/chef/cockpit')).status === 401, 'Cockpit mit Mitarbeiter-Session -> 401');
+  const ckAdmin = new Client();
+  const ckName = 'ck' + rnd(5);
+  const ckMk = await chef.post('/api/chef/admins', { name: 'Cockpit Test', username: ckName, password: 'Cockpit-Test-123' });
+  await ckAdmin.post('/api/chef/login', { username: ckName, password: 'Cockpit-Test-123' });
+  const ckPlain = await ckAdmin.get('/api/chef/cockpit');
+  ok(ckMk.status === 200 && ckPlain.status === 200, 'Cockpit: auch normaler Admin (nicht Hauptadmin) darf lesen', ckPlain.status);
+  await chef.post(`/api/chef/admins/${ckMk.data.id}/delete`);
+
+  const ck0r = await chef.get('/api/chef/cockpit');
+  const ck0d = ck0r.data;
+  ok(ck0r.status === 200 && ck0r.headers.get('cache-control') === 'no-store', 'Cockpit antwortet 200 (no-store)');
+  ok(['asOf', 'registered', 'finished', 'finishedWeek', 'inWork', 'notStarted', 'avgModule', 'moduleTotal', 'parts', 'certificatesTotal', 'firstTryRate', 'attention', 'attentionTotal', 'recentCerts', 'hardest'].every((k) => k in ck0d), 'Cockpit: alle Felder vorhanden', Object.keys(ck0d));
+  const teamNow = (await chef.get('/api/chef/team')).data.employees;
+  ok(ck0d.registered === teamNow.length, 'Cockpit: registered = Anzahl Mitarbeiter', [ck0d.registered, teamNow.length]);
+  ok(ck0d.finished === teamNow.filter((e) => e.finished).length && ck0d.notStarted === teamNow.filter((e) => !e.finished && !e.started).length && ck0d.finished + ck0d.inWork + ck0d.notStarted === ck0d.registered, 'Cockpit: fertig / in Arbeit / nicht gestartet passen zur Teamliste und ergeben zusammen alle', ck0d);
+  ok(ck0d.inWork >= 1 && ck0d.notStarted >= 1, 'Cockpit: Testdaten decken in Arbeit und nicht gestartet ab', ck0d);
+  ok(ck0d.parts.length === 3 && ck0d.parts.every((p, i) => p.k === i + 1 && p.total === ck0d.registered && p.certified === teamNow.filter((e) => e.certs[i]).length) && ck0d.parts[0].certified >= 1 && ck0d.parts[0].title === 'Bauteile', 'Cockpit: je Teil Anzahl mit Zertifikat / Gesamt', ck0d.parts);
+  ok(ck0d.certificatesTotal === teamNow.reduce((a, e) => a + e.certs.filter(Boolean).length, 0) && ck0d.certificatesTotal >= 1, 'Cockpit: Zertifikate gesamt', ck0d.certificatesTotal);
+  const ftRows = sqlRows('SELECT passed FROM quiz_attempts WHERE id IN (SELECT MIN(id) FROM quiz_attempts GROUP BY emp_id, module)');
+  const ftExpect = ftRows.length ? Math.round((ftRows.filter((r) => r.passed).length / ftRows.length) * 100) : null;
+  ok(ck0d.firstTryRate === ftExpect && (ftExpect === null || (ftExpect >= 0 && ftExpect <= 100)), 'Cockpit: Quote Quiz im 1. Versuch bestanden stimmt mit den Versuchen überein', [ck0d.firstTryRate, ftExpect]);
+  ok(typeof ck0d.avgModule === 'number' && ck0d.avgModule >= 0 && ck0d.avgModule <= ck0d.moduleTotal && ck0d.moduleTotal === 15, 'Cockpit: Ø aktuelles Modul im Bereich 0..15', [ck0d.avgModule, ck0d.moduleTotal]);
+  ok(Array.isArray(ck0d.attention) && ck0d.attention.every((a) => a.id && a.name && ['inactive', 'failed'].includes(a.kind) && ['red', 'yellow'].includes(a.level)) && Array.isArray(ck0d.recentCerts) && ck0d.hardest.length <= 3 && ck0d.hardest.every((h) => h.answers >= 5 && h.wrongRate > 0 && h.wrongRate <= 100 && h.title && Number.isInteger(h.module)), 'Cockpit: Listen haben gültige Struktur (Fragen erst ab 5 Antworten)', ck0d);
+  ok(ck0d.recentCerts.some((r) => r.name === `${first} ${last}` && r.part === 1 && r.issuedAt > 1.7e9), 'Cockpit: frisches Zertifikat steht in "diese Woche"', ck0d.recentCerts);
+
+  // Aufmerksamkeit: Inaktivität gelb (7-9 Tage) / rot (ab 10), Fehlversuche rot
+  const attOf = async () => (await chef.get('/api/chef/cockpit')).data.attention.filter((a) => a.id === mine2.id);
+  sql(`UPDATE employees SET last_seen = CAST(strftime('%s','now') AS INTEGER) - 6*86400 WHERE id = ${mine2.id}`);
+  ok((await attOf()).length === 0, '6 Tage inaktiv: noch nicht in der Liste');
+  sql(`UPDATE employees SET last_seen = CAST(strftime('%s','now') AS INTEGER) - 8*86400 WHERE id = ${mine2.id}`);
+  let a8 = await attOf();
+  ok(a8.length === 1 && a8[0].kind === 'inactive' && a8[0].level === 'yellow' && a8[0].days === 8 && a8[0].module === 8, '8 Tage inaktiv: gelb, Modul 8', a8);
+  sql(`UPDATE employees SET last_seen = CAST(strftime('%s','now') AS INTEGER) - 11*86400 WHERE id = ${mine2.id}`);
+  a8 = await attOf();
+  ok(a8.length === 1 && a8[0].level === 'red' && a8[0].days === 11, '11 Tage inaktiv: rot', a8);
+  const wrongOf = (q) => (QUIZ[9][q].correct + 1) % 4;
+  const rightOf = (q) => QUIZ[9][q].correct;
+  const failAnswers = JSON.stringify([wrongOf(0), wrongOf(1), rightOf(2), rightOf(3), rightOf(4)]);
+  const ins = `INSERT INTO quiz_attempts (emp_id, module, score, passed, answers, at) VALUES (${mine2.id}, 9, 3, 0, '${failAnswers}', CAST(strftime('%s','now') AS INTEGER));`;
+  sql(ins + ins);
+  ok((await attOf()).every((a) => a.kind !== 'failed'), '2 Fehlversuche im selben Quiz: noch kein Eintrag');
+  const ck1d = (await chef.get('/api/chef/cockpit')).data;
+  ok(ck1d.hardest.every((h) => !(h.module === 9 && h.question === 0)), 'Frage mit nur 2 Antworten erscheint nicht in der Fehlerliste');
+  sql(ins);
+  const a3 = (await attOf()).find((a) => a.kind === 'failed');
+  ok(a3 && a3.fails === 3 && a3.module === 9 && a3.level === 'red', '3 Fehlversuche im selben Quiz ohne Bestehen: rot', a3);
+  const redFirst = (await chef.get('/api/chef/cockpit')).data.attention;
+  ok(redFirst.length >= 1 && redFirst.every((a, i, arr) => i === 0 || !(arr[i - 1].level === 'yellow' && a.level === 'red')), 'Liste: rote Einträge vor gelben');
+  sql(ins + ins);
+  const ck2d = (await chef.get('/api/chef/cockpit')).data;
+  const h0 = ck2d.hardest.find((h) => h.module === 9 && h.question === 0);
+  ok(h0 && h0.answers === 5 && h0.wrongRate === 100 && h0.title.length > 3 && h0.title.length <= 70, 'Top-Fragen: ab 5 Antworten mit Fehlerquote 100 % und kurzem DE-Titel', h0);
+  ok(ck2d.hardest.length <= 3 && ck2d.hardest.every((h, i, arr) => i === 0 || arr[i - 1].wrongRate >= h.wrongRate) && !ck2d.hardest.some((h) => h.module === 9 && h.question === 2), 'Top-3 sortiert; richtig beantwortete Frage fehlt', ck2d.hardest);
+  ok(ck2d.firstTryRate !== null && ck2d.firstTryRate >= 0, 'Quote bleibt gültig');
+  // gesperrte Konten tauchen nicht auf
+  await chef.post(`/api/chef/employee/${mine2.id}/active`, { active: false });
+  ok((await attOf()).length === 0, 'Gesperrtes Konto steht nicht in "Braucht Aufmerksamkeit"');
+  await chef.post(`/api/chef/employee/${mine2.id}/active`, { active: true });
+  // Zertifikate älter als 7 Tage verschwinden aus "diese Woche"
+  sql(`UPDATE certificates SET issued_at = CAST(strftime('%s','now') AS INTEGER) - 8*86400 WHERE emp_id = ${mine2.id}`);
+  ok(!(await chef.get('/api/chef/cockpit')).data.recentCerts.some((r) => r.empId === mine2.id), 'Zertifikat vor 8 Tagen: nicht mehr in "diese Woche"');
+  // Aufräumen
+  sql(`DELETE FROM quiz_attempts WHERE emp_id = ${mine2.id} AND module = 9`);
+  sql(`UPDATE employees SET last_seen = CAST(strftime('%s','now') AS INTEGER) WHERE id = ${mine2.id}`);
+  ok((await attOf()).length === 0, 'Nach dem Aufräumen steht die Person nicht mehr in der Liste');
+
+  // =====================================================================
   section('Mehrere Hauptadmins: Rollen wechseln, letzter Hauptadmin geschützt');
   const mkAdmin = async (label) => {
     const username = label + rnd(4);

@@ -84,6 +84,8 @@ const S = {
   reg: { code: '', first: '', last: '' },
   notice: '',
   cleanups: [],
+  celebrated: new Set(),
+  scrollCert: null,
 };
 const T = (k, v) => tr(S.lang, k, v);
 
@@ -673,14 +675,58 @@ function certPreview(me, p) {
   </div>`;
 }
 
+/* ---------- Abzeichen (Embleme aus dem Design App-A3-Abzeichen) ---------- */
+// Symbole je Teil; c1 = Linienfarbe, c2 = Akzent. k = 1..3 Teile, 4 = Gesamt.
+const EMBLEM_GLYPH = {
+  1: (c1, c2) => `<path d="M56 32l18 7v13c0 12-8 21-18 25-10-4-18-13-18-25V39z" fill="none" stroke="${c1}" stroke-width="2.6" stroke-linejoin="round"/><path d="M48 55l6 6 11-12" fill="none" stroke="${c2}" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>`,
+  2: (c1, c2) => `<rect x="40" y="30" width="22" height="44" rx="10" fill="none" stroke="${c1}" stroke-width="2.6"/><path d="M62 42h12v24h-12M68 42v-6M68 66v8" fill="none" stroke="${c1}" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/><path d="M45 58c3 0 3 3 6 3s3-3 6-3" fill="none" stroke="${c2}" stroke-width="2.6" stroke-linecap="round"/>`,
+  3: (c1, c2) => `<path d="M56 30c9 12 15 20 15 28a15 15 0 0 1-30 0c0-8 6-16 15-28z" fill="none" stroke="${c1}" stroke-width="2.6" stroke-linejoin="round"/><path d="M50 60h12" stroke="${c2}" stroke-width="2.6" stroke-linecap="round"/>`,
+  4: (c1, c2) => `<path d="M56 31l7 14 15 2-11 11 3 15-14-7-14 7 3-15-11-11 15-2z" fill="none" stroke="${c1}" stroke-width="2.6" stroke-linejoin="round"/>${c2 ? `<circle cx="56" cy="57" r="3.2" fill="${c2}"/>` : ''}`,
+};
+// mode: 'reached' (Ring rot), 'open' (gestrichelt + Schloss), 'celebrate' (Abschluss-Moment mit gezeichnetem Ring)
+function emblem(k, { mode = 'reached', size = 112 } = {}) {
+  const open = mode === 'open';
+  const head = open
+    ? '<circle cx="56" cy="56" r="48" fill="#f7f8fa" stroke="#c9ced4" stroke-width="2" stroke-dasharray="5 5"/>'
+    : mode === 'celebrate'
+      ? '<circle cx="56" cy="56" r="48" fill="#fff" stroke="#f1f2f4" stroke-width="3"/><circle class="ring" cx="56" cy="56" r="48" fill="none" stroke="#d6001c" stroke-width="3" transform="rotate(-90 56 56)"/><circle cx="56" cy="56" r="41" fill="#fff6f7" stroke="#f3c7cd" stroke-width="1"/>'
+      : `<circle cx="56" cy="56" r="48" fill="#fff" stroke="#d6001c" stroke-width="3"/>${k === 4 ? '<circle cx="56" cy="56" r="53" fill="none" stroke="#f3c7cd" stroke-width="1"/>' : ''}<circle cx="56" cy="56" r="41" fill="#fff6f7" stroke="#f3c7cd" stroke-width="1"/>`;
+  const glyph = open ? EMBLEM_GLYPH[k]('#b7bec6', k === 4 ? null : '#b7bec6') : EMBLEM_GLYPH[k]('#0f1317', '#d6001c');
+  const lock = open ? '<circle cx="84" cy="84" r="13" fill="#fff" stroke="#d9dde2"/><path d="M79 84v-3a5 5 0 0 1 10 0v3M77.5 84h13v8h-13z" fill="none" stroke="#5b6570" stroke-width="1.8" stroke-linejoin="round"/>' : '';
+  return `<svg${mode === 'celebrate' ? ' class="pop"' : ''} viewBox="0 0 112 112" width="${size}" height="${size}" aria-hidden="true">${head}${glyph}${lock}</svg>`;
+}
+const badgeName = (k) => T(k === 4 ? 'badge.all' : 'badge.p' + k);
+
 function buildCerts(me) {
   const earned = me.parts.filter((p) => p.certificate);
   const open = me.parts.filter((p) => !p.certificate);
-  const cards = earned.map((p) => `<section class="certcard" aria-label="${esc(T('certs.part', { k: p.k, title: p.title }))}">
+  const remainingOf = (k) => me.modules.filter((m) => m.part === k && !isDone(m)).length;
+  const allDone = earned.length === 3;
+  const allDate = allDone ? Math.max(...earned.map((p) => p.certificate.issuedAt || 0)) : 0;
+
+  const badge = (k) => {
+    const p = k < 4 ? partOf(me, k) : null;
+    const reached = k < 4 ? !!(p && p.certificate) : allDone;
+    const name = badgeName(k);
+    let sub;
+    if (k < 4) {
+      const rem = remainingOf(k);
+      sub = reached ? T('badge.partDone', { k, date: fmtDate(p.certificate.issuedAt) })
+        : T('badge.partOpen', { k, rest: rem === 1 ? T('certs.remainingOne') : T('certs.remainingMany', { n: rem }) });
+    } else sub = reached ? T('badge.allDone', { date: fmtDate(allDate) }) : T('badge.allOpen');
+    const inner = `${emblem(k, { mode: reached ? 'reached' : 'open' })}<div class="bt">${esc(name)}</div><div class="bs">${esc(sub)}</div>`;
+    const aria = esc(T(reached ? 'badge.reached' : 'badge.notReached', { name }) + ' · ' + sub);
+    return reached
+      ? `<button type="button" class="badge" data-badge="${k}" aria-label="${aria}">${inner}</button>`
+      : `<div class="badge open" role="img" aria-label="${aria}">${inner}</div>`;
+  };
+  const reachedCount = earned.length + (allDone ? 1 : 0);
+
+  const cards = earned.map((p) => `<section class="certcard" id="cert-${p.k}" aria-label="${esc(T('certs.part', { k: p.k, title: p.title }))}">
       ${certPreview(me, p)}
-      <h2>${esc(T('certs.part', { k: p.k, title: p.title }))}</h2>
+      <h3>${esc(T('certs.part', { k: p.k, title: p.title }))}</h3>
       <p class="meta">${esc(T('certs.received', { date: fmtDate(p.certificate.issuedAt) }))}</p>
-      <div class="cbtns"><button type="button" class="btn" data-dl="${p.k}">${esc(T('certs.download'))}</button><button type="button" class="btn ghost" data-share="${p.k}">${esc(T('certs.share'))}</button></div>
+      <div class="cbtns"><button type="button" class="btn" data-share="${p.k}">${esc(T('certs.share'))}</button><button type="button" class="btn ghost" data-dl="${p.k}">${esc(T('certs.download'))}</button></div>
     </section>`).join('');
   const rows = open.map((p) => {
     const mods = me.modules.filter((m) => m.part === p.k);
@@ -691,34 +737,133 @@ function buildCerts(me) {
   }).join('');
   return {
     html: `<div class="screen"><div class="scroll top18">
-      <h1 class="h-page">${esc(T('certs.title'))}</h1>
+      <h1 class="h-page">${esc(T('badge.title'))}</h1>
+      <p class="meta" style="margin-top:2px">${esc(T('badge.count', { n: reachedCount }))}</p>
+      <div class="badges">${[1, 2, 3, 4].map(badge).join('')}</div>
+      <div class="badgeinfo">${svg(P.info, { s: 22, sw: 2, stroke: '#5b6570' })}<span>${esc(T('badge.info'))}</span></div>
+      <h2 class="sect" id="certs-top">${esc(T('certs.title'))}</h2>
       ${cards}
       ${rows ? `<ul class="cparts">${rows}</ul>` : ''}
       <p class="cnote">${esc(T('certs.note'))}</p>
     </div></div>`,
     bind(root) {
       if (earned.length) setTimeout(() => loadCert().catch(() => {}), 600);
-      const act = async (btn, kind) => {
-        const k = Number(btn.dataset[kind === 'dl' ? 'dl' : 'share']);
-        const label = btn.textContent;
-        $$('[data-dl],[data-share]', root).forEach((b) => { b.disabled = true; });
-        btn.textContent = T('certs.busy');
-        try {
-          const [lib, data] = await Promise.all([loadCert(), api('/api/certificate/' + k)]);
-          if (kind === 'dl') await lib.download(data); else await lib.share(data);
-        } catch (e) {
-          if (e && e.name === 'AbortError') { /* Teilen abgebrochen */ }
-          else if (e && e.status === 401) goAuth(T('login.expired'));
-          else toast(e && e.offline ? T('err.offline') : T('certs.error'));
-        } finally {
-          btn.textContent = label;
-          $$('[data-dl],[data-share]', root).forEach((b) => { b.disabled = false; });
-        }
+      const scrollTo = (id) => {
+        const el = document.getElementById(id);
+        if (el) el.scrollIntoView({ block: 'start', behavior: reducedMotion() ? 'auto' : 'smooth' });
       };
-      $$('[data-dl]', root).forEach((b) => b.addEventListener('click', () => act(b, 'dl')));
-      $$('[data-share]', root).forEach((b) => b.addEventListener('click', () => act(b, 'share')));
+      $$('[data-badge]', root).forEach((b) => b.addEventListener('click', () => {
+        const k = Number(b.dataset.badge);
+        scrollTo(k < 4 ? 'cert-' + k : 'certs-top');
+      }));
+      $$('[data-dl]', root).forEach((b) => b.addEventListener('click', () => pdfFor(Number(b.dataset.dl), b)));
+      $$('[data-share]', root).forEach((b) => b.addEventListener('click', () => openShare(me, partOf(me, Number(b.dataset.share)), b)));
+      // Nach dem Abschluss-Moment: direkt zum Zertifikat des Teils springen
+      if (S.scrollCert) { const id = 'cert-' + S.scrollCert; S.scrollCert = null; setTimeout(() => scrollTo(id), 60); }
     },
   };
+}
+
+const reducedMotion = () => !!(window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches);
+
+// PDF erzeugen und speichern (Button zeigt "Wird erstellt …"). Rückgabe: true bei Erfolg.
+async function pdfFor(k, btn) {
+  const label = btn ? btn.textContent : '';
+  const all = $$('[data-dl],[data-share],[data-pdf]');
+  all.forEach((b) => { b.disabled = true; });
+  if (btn) btn.textContent = T('certs.busy');
+  try {
+    const [lib, data] = await Promise.all([loadCert(), api('/api/certificate/' + k)]);
+    await lib.download(data);
+    return true;
+  } catch (e) {
+    if (e && e.status === 401) goAuth(T('login.expired'));
+    else toast(e && e.offline ? T('err.offline') : T('certs.error'));
+    return false;
+  } finally {
+    if (btn) btn.textContent = label;
+    all.forEach((b) => { b.disabled = false; });
+  }
+}
+
+async function copyText(txt) {
+  try { await navigator.clipboard.writeText(txt); return true; } catch (e) { /* Fallback */ }
+  try {
+    const ta = document.createElement('textarea');
+    ta.value = txt; ta.setAttribute('readonly', ''); ta.style.cssText = 'position:fixed;opacity:0;top:0;left:0';
+    document.body.appendChild(ta); ta.select();
+    const ok = document.execCommand('copy'); ta.remove(); return ok;
+  } catch (e) { return false; }
+}
+
+/* ---------- Zertifikat teilen (Bottom-Sheet) ---------- */
+function openShare(me, p, opener) {
+  if (!p || !p.certificate) return;
+  $$('.sheetwrap').forEach((e) => e.remove());
+  const k = p.k;
+  const url = `${location.origin}/pruefen/?code=${encodeURIComponent(p.certificate.code)}`;
+  const text = T('share.msg', { k }) + '\n' + T('share.msgLink', { url });
+  const wa = 'https://wa.me/?text=' + encodeURIComponent(text);
+  const canNative = typeof navigator.share === 'function';
+  const wrap = document.createElement('div');
+  wrap.className = 'sheetwrap';
+  wrap.innerHTML = `<div class="scrim" data-close></div>
+    <div class="sheet" role="dialog" aria-modal="true" aria-labelledby="sh-t">
+      <div class="grab" aria-hidden="true"></div>
+      <div class="shead"><div class="st" id="sh-t">${esc(T('share.title'))}</div><button type="button" class="iconbtn" data-close aria-label="${esc(T('common.close'))}">${I.close()}</button></div>
+      <p class="ss">${esc(T('share.sub'))}</p>
+      <div class="srow">
+        <a class="btn sm" id="sh-wa" href="${esc(wa)}" target="_blank" rel="noopener noreferrer">${esc(T('share.wa'))}</a>
+        <button type="button" class="btn sm ghost" id="sh-copy">${esc(T('share.copy'))}</button>
+      </div>
+      ${canNative ? `<button type="button" class="linkbtn sbtn" id="sh-native">${esc(T('share.more'))}</button>` : ''}
+      <button type="button" class="linkbtn sbtn" id="sh-pdf" data-pdf="${k}">${esc(T('certs.download'))}</button>
+      <div class="vh" role="status" aria-live="polite" id="sh-live"></div>
+    </div>`;
+  document.body.appendChild(wrap);
+  let closed = false;
+  const onKey = (e) => {
+    if (e.key === 'Escape') { e.preventDefault(); close(); return; }
+    if (e.key !== 'Tab') return;
+    const f = $$('a[href],button:not(:disabled)', wrap);
+    if (!f.length) return;
+    const first = f[0], last = f[f.length - 1];
+    if (e.shiftKey && document.activeElement === first) { e.preventDefault(); last.focus(); }
+    else if (!e.shiftKey && document.activeElement === last) { e.preventDefault(); first.focus(); }
+  };
+  function close() {
+    if (closed) return; closed = true;
+    document.removeEventListener('keydown', onKey);
+    wrap.remove();
+    if (opener && document.contains(opener)) { try { opener.focus({ preventScroll: true }); } catch (e) { /* egal */ } }
+  }
+  document.addEventListener('keydown', onKey);
+  onTeardown(() => { if (!closed) { closed = true; document.removeEventListener('keydown', onKey); wrap.remove(); } });
+  $$('[data-close]', wrap).forEach((b) => b.addEventListener('click', close));
+
+  const live = $('#sh-live', wrap);
+  const copyBtn = $('#sh-copy', wrap);
+  let copyTimer = 0;
+  copyBtn.addEventListener('click', async () => {
+    const okc = await copyText(url);
+    clearTimeout(copyTimer);
+    if (okc) {
+      copyBtn.innerHTML = `${I.check(20, 2.5)}<span>${esc(T('share.copied'))}</span>`;
+      copyBtn.classList.add('done');
+      live.textContent = T('share.copied');
+      copyTimer = setTimeout(() => { copyBtn.textContent = T('share.copy'); copyBtn.classList.remove('done'); live.textContent = ''; }, 2600);
+    } else {
+      live.textContent = T('share.copyFail');
+      toast(T('share.copyFail'), 4200);
+    }
+  });
+  const nb = $('#sh-native', wrap);
+  if (nb) nb.addEventListener('click', async () => {
+    try { await navigator.share({ title: T('share.native', { k, title: p.title }), text: T('share.msg', { k }), url }); close(); }
+    catch (e) { /* abgebrochen oder nicht möglich: Sheet bleibt offen */ }
+  });
+  $('#sh-pdf', wrap).addEventListener('click', async (ev) => { if (await pdfFor(k, ev.currentTarget)) close(); });
+  setTimeout(() => { const wab = $('#sh-wa', wrap); if (wab) wab.focus({ preventScroll: true }); }, 30);
 }
 
 /* ====================================================================
@@ -1228,8 +1373,49 @@ async function viewQuiz(n, ok) {
     }
   }
 
+  // Abschluss-Moment: Teil geschafft (Zertifikat ist durch dieses Quiz entstanden). Nur einmal pro Teil.
+  function drawCelebration(res) {
+    const k = res.certificate.part;
+    const cur = S.me || me;
+    const eid = cur.id != null ? cur.id : 'x';
+    store.set(`mb_cel_${eid}_${k}`, '1');
+    S.celebrated.add(`${eid}_${k}`);
+    const last = k >= 3 || !res.unlockedNext;
+    const mods = cur.modules.filter((x) => x.part === k).length;
+    const nextN = res.unlockedNext ? res.unlockedNext.n : null;
+    paint(`<div class="screen">
+      <div class="scroll"><div class="cel">
+        ${emblem(k, { mode: 'celebrate', size: 168 })}
+        <div class="rise">
+          <div class="eb">${esc(T('done.eyebrow', { k }))}</div>
+          <h1>${esc(badgeName(k))}</h1>
+          <p class="ct">${esc(T(last ? 'done.textAll' : 'done.text', { n: mods }))}</p>
+          <div class="ccard" aria-hidden="true">
+            <div class="t1">${esc(T('certs.pTitle'))}</div>
+            <div class="t2">${esc(T('done.cardHead', { k }))}</div>
+            <div class="t3">${esc(cur.first + ' ' + cur.last)}</div>
+            <div class="t4"></div>
+            <div class="t5"></div>
+            <div class="t6">${esc(res.certificate.code)}</div>
+          </div>
+        </div>
+      </div></div>
+      <div class="foot p24 vfoot2">
+        <a class="btn" href="#/zertifikate" id="rmain">${esc(T(last ? 'done.toCerts' : 'quiz.certView'))}</a>
+        ${last ? '' : `<a class="linkbtn" href="#/video/${nextN}" id="rnext">${esc(T('done.next', { k: k + 1 }))}</a>`}
+      </div>
+    </div>`, { key: 'celebrate' });
+    const main = $('#rmain');
+    if (main) main.addEventListener('click', () => { S.scrollCert = k; });
+  }
+
   function drawResult(res) {
     const passed = !!res.passed;
+    if (passed && res.certificate) {
+      const cur = S.me || me;
+      const eid = cur.id != null ? cur.id : 'x';
+      if (!store.get(`mb_cel_${eid}_${res.certificate.part}`) && !S.celebrated.has(`${eid}_${res.certificate.part}`)) { drawCelebration(res); return; }
+    }
     const wrongIdx = qs.map((q, k) => k).filter((k) => (res.results ? res.results[k] === false : checks[k] && !checks[k].correct));
     let showWrong = false;
     const un = res.unlockedNext;
